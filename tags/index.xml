@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on George Litos</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on George Litos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Jun 2019 22:58:23 +0300</lastBuildDate>
+    
+	    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3-D object retrieval</title>
+      <link>/tags/3-d-object-retrieval/</link>
+      <pubDate>Sun, 02 Jun 2019 22:58:23 +0300</pubDate>
+      
+      <guid>/tags/3-d-object-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>descriptor extraction</title>
+      <link>/tags/descriptor-extraction/</link>
+      <pubDate>Sun, 02 Jun 2019 22:58:23 +0300</pubDate>
+      
+      <guid>/tags/descriptor-extraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>feature selection</title>
+      <link>/tags/feature-selection/</link>
+      <pubDate>Sun, 02 Jun 2019 22:58:23 +0300</pubDate>
+      
+      <guid>/tags/feature-selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manifold learning</title>
+      <link>/tags/manifold-learning/</link>
+      <pubDate>Sun, 02 Jun 2019 22:58:23 +0300</pubDate>
+      
+      <guid>/tags/manifold-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rotation estimation</title>
+      <link>/tags/rotation-estimation/</link>
+      <pubDate>Sun, 02 Jun 2019 22:58:23 +0300</pubDate>
+      
+      <guid>/tags/rotation-estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source Themes</title>
+      <link>/tags/source-themes/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/source-themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>/tags/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>/tags/demo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>/tags/academic/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biomedical imaging</title>
+      <link>/tags/biomedical-imaging/</link>
+      <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/biomedical-imaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feedback</title>
+      <link>/tags/feedback/</link>
+      <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haptic interfaces</title>
+      <link>/tags/haptic-interfaces/</link>
+      <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/haptic-interfaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medical robotics</title>
+      <link>/tags/medical-robotics/</link>
+      <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/medical-robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile robots</title>
+      <link>/tags/mobile-robots/</link>
+      <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mobile-robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probes</title>
+      <link>/tags/probes/</link>
+      <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/probes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real time systems</title>
+      <link>/tags/real-time-systems/</link>
+      <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/real-time-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ultrasonic imaging</title>
+      <link>/tags/ultrasonic-imaging/</link>
+      <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ultrasonic-imaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User interfaces</title>
+      <link>/tags/user-interfaces/</link>
+      <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/user-interfaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Videoconference</title>
+      <link>/tags/videoconference/</link>
+      <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/videoconference/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

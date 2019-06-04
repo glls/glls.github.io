@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>feature selection on George Litos</title>
+    <link>/tags/feature-selection/</link>
+    <description>Recent content in feature selection on George Litos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Jun 2019 22:58:23 +0300</lastBuildDate>
+    
+	    <atom:link href="/tags/feature-selection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</title>
+      <link>/publication/my-publication1/</link>
+      <pubDate>Sun, 02 Jun 2019 22:58:23 +0300</pubDate>
+      
+      <guid>/publication/my-publication1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
