@@ -6,10 +6,19 @@
     <description>Recent content in Tags on George Litos</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jun 2019 22:58:23 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0300</lastBuildDate>
     
 	    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>R&amp;D</title>
+      <link>/tags/rd/</link>
+      <pubDate>Tue, 04 Jun 2019 23:23:00 +0300</pubDate>
+      
+      <guid>/tags/rd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>3-D object retrieval</title>

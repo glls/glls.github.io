@@ -34,6 +34,39 @@
   </url>
   
   <url>
+    <loc>/authors/admin/</loc>
+    <lastmod>2019-06-04T23:23:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-06-04T23:23:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-06-04T23:23:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rd/</loc>
+    <lastmod>2019-06-04T23:23:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/research_projects/</loc>
+    <lastmod>2019-06-04T23:23:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-06-04T23:23:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/publication_types/0/</loc>
     <lastmod>2019-06-02T22:58:25+03:00</lastmod>
     <priority>0</priority>
@@ -61,11 +94,6 @@
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/2/</loc>
     <lastmod>2019-06-02T22:58:23+03:00</lastmod>
     <priority>0</priority>
@@ -84,24 +112,12 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/publication/my-publication1/</loc>
     <lastmod>2019-06-02T22:58:23+03:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/p.daras/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-06-02T22:58:23+03:00</lastmod>
     <priority>0</priority>
   </url>
@@ -171,11 +187,6 @@
   <url>
     <loc>/post/jupyter/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
