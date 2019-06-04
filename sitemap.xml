@@ -4,328 +4,313 @@
   
   <url>
     <loc>/courses/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
   </url>
   
   <url>
     <loc>/courses/example/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
   </url>
   
   <url>
     <loc>/courses/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
   </url>
   
   <url>
     <loc>/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/0/</loc>
-    <lastmod>2019-06-02T22:58:25+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/my-publication3/</loc>
-    <lastmod>2019-06-02T22:58:25+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/</loc>
-    <lastmod>2019-06-02T22:58:25+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/</loc>
-    <lastmod>2019-06-02T22:58:25+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/my-publication2/</loc>
-    <lastmod>2019-06-02T22:58:24+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/admin/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/2/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/3-d-object-retrieval/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/a.axenopoulos/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
+    <lastmod>2019-06-04T01:54:40+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/my-publication1/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/p.daras/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/descriptor-extraction/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/feature-selection/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/manifold-learning/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/rotation-estimation/</loc>
-    <lastmod>2019-06-02T22:58:23+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/talk/my-talk-name/</loc>
-    <lastmod>2019-06-02T22:55:01+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
   </url>
   
   <url>
     <loc>/project/my-project-name2/</loc>
-    <lastmod>2019-06-02T22:54:49+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
   </url>
   
   <url>
     <loc>/project/</loc>
-    <lastmod>2019-06-02T22:54:49+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/project/my-project-name/</loc>
-    <lastmod>2019-06-02T22:54:44+03:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/jupyter/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
   </url>
   
   <url>
     <loc>/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
   </url>
   
   <url>
     <loc>/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/robert-ford/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/biomedical-imaging/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/c.-canero/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/feedback/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/g.-a.-triantafyllidis/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/haptic-interfaces/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/m.-g.-strintzis/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/medical-robotics/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/journal-article/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/mobile-robots/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/n.-thomos/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/probes/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/real-time-systems/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/ultrasonic-imaging/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/user-interfaces/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/videoconference/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/admin/</loc>
+    <lastmod>2019-06-04T01:54:40+03:00</lastmod>
   </url>
   
   <url>
@@ -335,6 +320,22 @@
   
   <url>
     <loc>/courses/</loc>
+    <lastmod>2019-06-02T20:37:35+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-06-02T23:56:02+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
 </urlset>
