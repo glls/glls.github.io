@@ -89,11 +89,6 @@
   </url>
   
   <url>
-    <loc>/publication/my-publication2/</loc>
-    <lastmod>2019-06-02T22:58:24+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/2/</loc>
     <lastmod>2019-06-02T22:58:23+03:00</lastmod>
     <priority>0</priority>
@@ -112,7 +107,7 @@
   </url>
   
   <url>
-    <loc>/publication/my-publication1/</loc>
+    <loc>/publication/3d-object-retrieval/</loc>
     <lastmod>2019-06-02T22:58:23+03:00</lastmod>
   </url>
   
@@ -240,13 +235,144 @@
   </url>
   
   <url>
-    <loc>/publication/conference-paper/</loc>
+    <loc>/authors/a.-dimou/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cctv/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/j.p.-davis/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/m.l.-durova/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/p.-daras/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/toomanyeyes/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/robert-ford/</loc>
+    <loc>/tags/face-matching/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/face-recognition/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/super-recognisers/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/application-software/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cameras/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/computer-aided-manufacturing/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/computer-errors/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/computer-vision/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/g.-a.-triantafyllidis/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hardware/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/light-emitting-diodes/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/production/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/real-time-systems/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/synchronization/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/network-synchronization/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/x.-zabulis/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/test-category/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -264,12 +390,6 @@
   
   <url>
     <loc>/tags/feedback/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/g.-a.-triantafyllidis/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -293,7 +413,7 @@
   </url>
   
   <url>
-    <loc>/publication/journal-article/</loc>
+    <loc>/publication/tele-echography/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -316,12 +436,6 @@
   </url>
   
   <url>
-    <loc>/tags/real-time-systems/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/ultrasonic-imaging/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -336,11 +450,6 @@
   <url>
     <loc>/tags/videoconference/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   

@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
+      <title>TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</title>
+      <link>/publication/toomanyeyes/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>/publication/conference-paper/</guid>
+      <guid>/publication/toomanyeyes/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -30,7 +30,20 @@
 &lt;/div&gt;
 
 &lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Date of Conference: 13-15 Dec. 2017&lt;/p&gt;
+
+&lt;p&gt;Conference Location: Madrid, Spain&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Synchronous Image Acquisition based on Network Synchronization</title>
+      <link>/publication/network-synchronization/</link>
+      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/network-synchronization/</guid>
+      <description></description>
     </item>
     
   </channel>
