@@ -6,10 +6,28 @@
     <description>Recent content in Categories on George Litos</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jun 2006 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 Apr 2011 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>3D/stereo scene analysis</title>
+      <link>/categories/3d/stereo-scene-analysis/</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/3d/stereo-scene-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision.</title>
+      <link>/categories/computer-vision./</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/computer-vision./</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>test category</title>

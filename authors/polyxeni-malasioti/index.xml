@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polyxeni Malasioti on George Litos</title>
+    <link>/authors/polyxeni-malasioti/</link>
+    <description>Recent content in Polyxeni Malasioti on George Litos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 May 2011 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/polyxeni-malasioti/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Survey of Semantic Image and Video Annotation Tools</title>
+      <link>/publication/semantic-survey/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/semantic-survey/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

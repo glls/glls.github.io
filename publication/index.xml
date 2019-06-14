@@ -6,19 +6,10 @@
     <description>Recent content in Publications on George Litos</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jun 2019 22:58:25 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2019 22:58:23 +0300</lastBuildDate>
     
 	    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>My Publication3</title>
-      <link>/publication/my-publication3/</link>
-      <pubDate>Sun, 02 Jun 2019 22:58:25 +0300</pubDate>
-      
-      <guid>/publication/my-publication3/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</title>
@@ -30,11 +21,11 @@
     </item>
     
     <item>
-      <title>An example preprint / working paper</title>
-      <link>/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <title>SHREC’11 Track: Generic Shape Retrieval</title>
+      <link>/publication/shrec/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/preprint/</guid>
+      <guid>/publication/shrec/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
@@ -72,6 +63,24 @@
     </item>
     
     <item>
+      <title>A Survey of Semantic Image and Video Annotation Tools</title>
+      <link>/publication/semantic-survey/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/semantic-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</title>
+      <link>/publication/3d-model-retrieval/</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/3d-model-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Synchronous Image Acquisition based on Network Synchronization</title>
       <link>/publication/network-synchronization/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
@@ -86,6 +95,15 @@
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
       
       <guid>/publication/tele-echography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Interface Environment and Image Communication in Mobile Tele-Echography</title>
+      <link>/publication/mobile-tele-echography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/mobile-tele-echography/</guid>
       <description></description>
     </item>
     

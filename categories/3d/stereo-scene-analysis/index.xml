@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D/stereo scene analysis on George Litos</title>
+    <link>/categories/3d/stereo-scene-analysis/</link>
+    <description>Recent content in 3D/stereo scene analysis on George Litos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Apr 2011 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/categories/3d/stereo-scene-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</title>
+      <link>/publication/3d-model-retrieval/</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/3d-model-retrieval/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

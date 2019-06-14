@@ -68,7 +68,7 @@
     <item>
       <title>Source Themes</title>
       <link>/tags/source-themes/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/source-themes/</guid>
       <description></description>
@@ -134,6 +134,78 @@
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>/tags/super-recognisers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Annotation Tool</title>
+      <link>/tags/annotation-tool/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/annotation-tool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Descriptive Metadata</title>
+      <link>/tags/descriptive-metadata/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/descriptive-metadata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Annotation</title>
+      <link>/tags/image-annotation/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/image-annotation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Annotation</title>
+      <link>/tags/semantic-annotation/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/semantic-annotation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video Annotation</title>
+      <link>/tags/video-annotation/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/video-annotation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D object retrieval</title>
+      <link>/tags/3d-object-retrieval/</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/3d-object-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pose estimation</title>
+      <link>/tags/pose-estimation/</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pose-estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alignment</title>
+      <link>/tags/alignment/</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/alignment/</guid>
       <description></description>
     </item>
     
@@ -305,6 +377,51 @@
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
       
       <guid>/tags/videoconference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancement Layer</title>
+      <link>/tags/enhancement-layer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/enhancement-layer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Force Feedback</title>
+      <link>/tags/force-feedback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/force-feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haptic Device</title>
+      <link>/tags/haptic-device/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/haptic-device/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motion Vector</title>
+      <link>/tags/motion-vector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/motion-vector/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual Reality Environment</title>
+      <link>/tags/virtual-reality-environment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/virtual-reality-environment/</guid>
       <description></description>
     </item>
     
