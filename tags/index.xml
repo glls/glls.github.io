@@ -21,56 +21,38 @@
     </item>
     
     <item>
-      <title>3-D object retrieval</title>
-      <link>/tags/3-d-object-retrieval/</link>
-      <pubDate>Sun, 02 Jun 2019 22:58:23 +0300</pubDate>
+      <title>CCTV</title>
+      <link>/tags/cctv/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/3-d-object-retrieval/</guid>
+      <guid>/tags/cctv/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>descriptor extraction</title>
-      <link>/tags/descriptor-extraction/</link>
-      <pubDate>Sun, 02 Jun 2019 22:58:23 +0300</pubDate>
+      <title>face matching</title>
+      <link>/tags/face-matching/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/descriptor-extraction/</guid>
+      <guid>/tags/face-matching/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>feature selection</title>
-      <link>/tags/feature-selection/</link>
-      <pubDate>Sun, 02 Jun 2019 22:58:23 +0300</pubDate>
+      <title>face recognition</title>
+      <link>/tags/face-recognition/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/feature-selection/</guid>
+      <guid>/tags/face-recognition/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>manifold learning</title>
-      <link>/tags/manifold-learning/</link>
-      <pubDate>Sun, 02 Jun 2019 22:58:23 +0300</pubDate>
+      <title>super-recognisers</title>
+      <link>/tags/super-recognisers/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/manifold-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rotation estimation</title>
-      <link>/tags/rotation-estimation/</link>
-      <pubDate>Sun, 02 Jun 2019 22:58:23 +0300</pubDate>
-      
-      <guid>/tags/rotation-estimation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Source Themes</title>
-      <link>/tags/source-themes/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/source-themes/</guid>
+      <guid>/tags/super-recognisers/</guid>
       <description></description>
     </item>
     
@@ -102,38 +84,56 @@
     </item>
     
     <item>
-      <title>CCTV</title>
-      <link>/tags/cctv/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>3-D object retrieval</title>
+      <link>/tags/3-d-object-retrieval/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>/tags/cctv/</guid>
+      <guid>/tags/3-d-object-retrieval/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>face matching</title>
-      <link>/tags/face-matching/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>Source Themes</title>
+      <link>/tags/source-themes/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>/tags/face-matching/</guid>
+      <guid>/tags/source-themes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>face recognition</title>
-      <link>/tags/face-recognition/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>descriptor extraction</title>
+      <link>/tags/descriptor-extraction/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>/tags/face-recognition/</guid>
+      <guid>/tags/descriptor-extraction/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>super-recognisers</title>
-      <link>/tags/super-recognisers/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>feature selection</title>
+      <link>/tags/feature-selection/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>/tags/super-recognisers/</guid>
+      <guid>/tags/feature-selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manifold learning</title>
+      <link>/tags/manifold-learning/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/manifold-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rotation estimation</title>
+      <link>/tags/rotation-estimation/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rotation-estimation/</guid>
       <description></description>
     </item>
     
@@ -300,6 +300,51 @@
     </item>
     
     <item>
+      <title>Enhancement Layer</title>
+      <link>/tags/enhancement-layer/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/enhancement-layer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Force Feedback</title>
+      <link>/tags/force-feedback/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/force-feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haptic Device</title>
+      <link>/tags/haptic-device/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/haptic-device/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motion Vector</title>
+      <link>/tags/motion-vector/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/motion-vector/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual Reality Environment</title>
+      <link>/tags/virtual-reality-environment/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/virtual-reality-environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Biomedical imaging</title>
       <link>/tags/biomedical-imaging/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
@@ -377,51 +422,6 @@
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
       
       <guid>/tags/videoconference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Enhancement Layer</title>
-      <link>/tags/enhancement-layer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/enhancement-layer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Force Feedback</title>
-      <link>/tags/force-feedback/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/force-feedback/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Haptic Device</title>
-      <link>/tags/haptic-device/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/haptic-device/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Motion Vector</title>
-      <link>/tags/motion-vector/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/motion-vector/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Virtual Reality Environment</title>
-      <link>/tags/virtual-reality-environment/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/virtual-reality-environment/</guid>
       <description></description>
     </item>
     
