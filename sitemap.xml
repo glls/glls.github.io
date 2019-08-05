@@ -219,31 +219,25 @@
   </url>
   
   <url>
-    <loc>/authors/a.-axenopoulos/</loc>
-    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/a.-godil/</loc>
-    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/authors/a.axenopoulos/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/b.-gong/</loc>
+    <loc>/authors/a.godil/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/h.-dutagaci/</loc>
+    <loc>/authors/b.gong/</loc>
+    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/h.dutagaci/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -254,37 +248,31 @@
   </url>
   
   <url>
-    <loc>/authors/j.-liu/</loc>
+    <loc>/authors/j.liu/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/k.-goto/</loc>
+    <loc>/authors/k.goto/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/p.-daras/</loc>
+    <loc>/authors/r.ohbuchi/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/r.-ohbuchi/</loc>
+    <loc>/authors/s.kawamura/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/s.-kawamura/</loc>
-    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/s.-manolopoulou/</loc>
+    <loc>/authors/s.manolopoulou/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -301,25 +289,25 @@
   </url>
   
   <url>
-    <loc>/authors/t.-furuya/</loc>
+    <loc>/authors/t.furuya/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/t.-yanagimachi/</loc>
+    <loc>/authors/t.yanagimachi/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/x.-tang/</loc>
+    <loc>/authors/x.tang/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/y.-kurita/</loc>
+    <loc>/authors/y.kurita/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -485,7 +473,7 @@
   </url>
   
   <url>
-    <loc>/authors/g.-a.-triantafyllidis/</loc>
+    <loc>/authors/g.a.triantafyllidis/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -526,7 +514,7 @@
   </url>
   
   <url>
-    <loc>/authors/x.-zabulis/</loc>
+    <loc>/authors/x.zabulis/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -538,13 +526,13 @@
   </url>
   
   <url>
-    <loc>/authors/d.-tzovaras/</loc>
+    <loc>/authors/d.tzovaras/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/e.-micheli-tzanakou/</loc>
+    <loc>/authors/e.micheli-tzanakou/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -562,7 +550,7 @@
   </url>
   
   <url>
-    <loc>/authors/g.-nikolakis/</loc>
+    <loc>/authors/g.nikolakis/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -574,7 +562,7 @@
   </url>
   
   <url>
-    <loc>/authors/m.-g-strintzis/</loc>
+    <loc>/authors/m.g.strintzis/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -586,7 +574,7 @@
   </url>
   
   <url>
-    <loc>/authors/n.-thomos/</loc>
+    <loc>/authors/n.thomos/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -609,7 +597,7 @@
   </url>
   
   <url>
-    <loc>/authors/c.-canero/</loc>
+    <loc>/authors/c.canero/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -622,12 +610,6 @@
   
   <url>
     <loc>/tags/haptic-interfaces/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/m.-g.-strintzis/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

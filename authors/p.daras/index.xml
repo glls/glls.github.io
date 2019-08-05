@@ -47,6 +47,22 @@
     </item>
     
     <item>
+      <title>SHREC’11 Track: Generic Shape Retrieval</title>
+      <link>/publication/shrec/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/shrec/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</title>
       <link>/publication/3d-model-retrieval/</link>
       <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
