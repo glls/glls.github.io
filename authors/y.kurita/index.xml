@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Y.Kurita on George Litos</title>
+    <title>Y.Kurita | George Litos</title>
     <link>/authors/y.kurita/</link>
-    <description>Recent content in Y.Kurita on George Litos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Apr 2012 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="/authors/y.kurita/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/authors/y.kurita/index.xml" rel="self" type="application/rss+xml" />
+    <description>Y.Kurita</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Apr 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Y.Kurita</title>
+      <link>/authors/y.kurita/</link>
+    </image>
     
     <item>
       <title>SHREC’11 Track: Generic Shape Retrieval</title>
       <link>/publication/shrec/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>/publication/shrec/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;

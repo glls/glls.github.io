@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on George Litos</title>
+    <title>Publications | George Litos</title>
     <link>/publication/</link>
-    <description>Recent content in Publications on George Litos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Publications</title>
+      <link>/publication/</link>
+    </image>
     
     <item>
       <title>TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</title>
       <link>/publication/toomanyeyes/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
       <guid>/publication/toomanyeyes/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -41,7 +41,6 @@
       <title>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</title>
       <link>/publication/3d-object-retrieval/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>/publication/3d-object-retrieval/</guid>
       <description></description>
     </item>
@@ -50,7 +49,6 @@
       <title>SHREC’11 Track: Generic Shape Retrieval</title>
       <link>/publication/shrec/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>/publication/shrec/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -66,7 +64,6 @@
       <title>A Survey of Semantic Image and Video Annotation Tools</title>
       <link>/publication/semantic-survey/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
-      
       <guid>/publication/semantic-survey/</guid>
       <description></description>
     </item>
@@ -75,7 +72,6 @@
       <title>3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</title>
       <link>/publication/3d-model-retrieval/</link>
       <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
-      
       <guid>/publication/3d-model-retrieval/</guid>
       <description></description>
     </item>
@@ -84,7 +80,6 @@
       <title>Synchronous Image Acquisition based on Network Synchronization</title>
       <link>/publication/network-synchronization/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
       <guid>/publication/network-synchronization/</guid>
       <description></description>
     </item>
@@ -93,7 +88,6 @@
       <title>User Interface Environment and Image Communication in Mobile Tele-Echography</title>
       <link>/publication/mobile-tele-echography/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      
       <guid>/publication/mobile-tele-echography/</guid>
       <description></description>
     </item>
@@ -102,7 +96,6 @@
       <title>Mobile Tele-echography: User Interface Design</title>
       <link>/publication/tele-echography/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/publication/tele-echography/</guid>
       <description></description>
     </item>

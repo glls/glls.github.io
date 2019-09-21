@@ -25,7 +25,6 @@
   <url>
     <loc>/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -41,7 +40,6 @@
   <url>
     <loc>/authors/</loc>
     <lastmod>2019-06-04T23:23:00+03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -52,7 +50,6 @@
   <url>
     <loc>/tags/rd/</loc>
     <lastmod>2019-06-04T23:23:00+03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -63,7 +60,6 @@
   <url>
     <loc>/tags/</loc>
     <lastmod>2019-06-04T23:23:00+03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -79,7 +75,6 @@
   <url>
     <loc>/project/</loc>
     <lastmod>2019-06-02T22:54:49+03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -95,7 +90,6 @@
   <url>
     <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -106,47 +100,55 @@
   <url>
     <loc>/publication_types/1/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/a.dimou/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/cctv/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/face-matching/</loc>
+    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/face-recognition/</loc>
+    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/j.p.davis/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/m.l.durova/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/p.daras/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication_types/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/</loc>
+    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/super-recognisers/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -156,33 +158,13 @@
   </url>
   
   <url>
-    <loc>/tags/face-matching/</loc>
-    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/face-recognition/</loc>
-    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/super-recognisers/</loc>
-    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -198,7 +180,6 @@
   <url>
     <loc>/tags/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -209,37 +190,41 @@
   <url>
     <loc>/publication_types/2/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/3-d-object-retrieval/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/a.axenopoulos/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/a.godil/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/b.gong/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/descriptor-extraction/</loc>
+    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/feature-selection/</loc>
+    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/h.dutagaci/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -250,31 +235,36 @@
   <url>
     <loc>/authors/j.liu/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/k.goto/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/manifold-learning/</loc>
+    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/r.ohbuchi/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rotation-estimation/</loc>
+    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/s.kawamura/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/s.manolopoulou/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -285,61 +275,31 @@
   <url>
     <loc>/tags/source-themes/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/t.furuya/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/t.yanagimachi/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/x.tang/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/y.kurita/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/descriptor-extraction/</loc>
-    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/feature-selection/</loc>
-    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/manifold-learning/</loc>
-    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/rotation-estimation/</loc>
-    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication_types/6/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -350,55 +310,46 @@
   <url>
     <loc>/tags/annotation-tool/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/descriptive-metadata/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/eirini-giannakidou/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/image-annotation/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/polyxeni-malasioti/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/semantic-annotation/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/stamatia-dasiopoulou/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/video-annotation/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/yiannis-kompatsiaris/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -409,103 +360,86 @@
   <url>
     <loc>/tags/3d-object-retrieval/</loc>
     <lastmod>2011-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/3d-stereo-scene-analysis/</loc>
     <lastmod>2011-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2011-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/computer-vision/</loc>
-    <lastmod>2011-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/pose-estimation/</loc>
-    <lastmod>2011-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/alignment/</loc>
     <lastmod>2011-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2011-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/computer-vision/</loc>
+    <lastmod>2011-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/pose-estimation/</loc>
+    <lastmod>2011-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/application-software/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/cameras/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/computer-aided-manufacturing/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/computer-errors/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/computer-vision/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/g.a.triantafyllidis/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/hardware/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/light-emitting-diodes/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/production/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/real-time-systems/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/synchronization/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -514,69 +448,58 @@
   </url>
   
   <url>
-    <loc>/authors/x.zabulis/</loc>
+    <loc>/categories/test-category/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/test-category/</loc>
+    <loc>/authors/x.zabulis/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/d.tzovaras/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/e.micheli-tzanakou/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/enhancement-layer/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/force-feedback/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/g.nikolakis/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/haptic-device/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/m.g.strintzis/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/motion-vector/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/n.thomos/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -587,37 +510,36 @@
   <url>
     <loc>/tags/virtual-reality-environment/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/biomedical-imaging/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/c.canero/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/feedback/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/haptic-interfaces/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/medical-robotics/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mobile-robots/</loc>
+    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -626,33 +548,23 @@
   </url>
   
   <url>
-    <loc>/tags/mobile-robots/</loc>
-    <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/probes/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/ultrasonic-imaging/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/user-interfaces/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/videoconference/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>N.Thomos on George Litos</title>
+    <title>N.Thomos | George Litos</title>
     <link>/authors/n.thomos/</link>
-    <description>Recent content in N.Thomos on George Litos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2006 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="/authors/n.thomos/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/authors/n.thomos/index.xml" rel="self" type="application/rss+xml" />
+    <description>N.Thomos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2006 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>N.Thomos</title>
+      <link>/authors/n.thomos/</link>
+    </image>
     
     <item>
       <title>User Interface Environment and Image Communication in Mobile Tele-Echography</title>
       <link>/publication/mobile-tele-echography/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      
       <guid>/publication/mobile-tele-echography/</guid>
       <description></description>
     </item>
@@ -24,7 +24,6 @@
       <title>Mobile Tele-echography: User Interface Design</title>
       <link>/publication/tele-echography/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/publication/tele-echography/</guid>
       <description></description>
     </item>

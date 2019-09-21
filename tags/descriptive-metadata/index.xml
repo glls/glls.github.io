@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Descriptive Metadata on George Litos</title>
+    <title>Descriptive Metadata | George Litos</title>
     <link>/tags/descriptive-metadata/</link>
-    <description>Recent content in Descriptive Metadata on George Litos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2011 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="/tags/descriptive-metadata/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/descriptive-metadata/index.xml" rel="self" type="application/rss+xml" />
+    <description>Descriptive Metadata</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Descriptive Metadata</title>
+      <link>/tags/descriptive-metadata/</link>
+    </image>
     
     <item>
       <title>A Survey of Semantic Image and Video Annotation Tools</title>
       <link>/publication/semantic-survey/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
-      
       <guid>/publication/semantic-survey/</guid>
       <description></description>
     </item>

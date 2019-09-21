@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>M.L.Durova on George Litos</title>
+    <title>M.L.Durova | George Litos</title>
     <link>/authors/m.l.durova/</link>
-    <description>Recent content in M.L.Durova on George Litos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="/authors/m.l.durova/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/authors/m.l.durova/index.xml" rel="self" type="application/rss+xml" />
+    <description>M.L.Durova</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>M.L.Durova</title>
+      <link>/authors/m.l.durova/</link>
+    </image>
     
     <item>
       <title>TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</title>
       <link>/publication/toomanyeyes/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
       <guid>/publication/toomanyeyes/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;

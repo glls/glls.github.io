@@ -3,19 +3,19 @@
   <channel>
     <title>George Litos</title>
     <link>/authors/admin/</link>
-    <description>Recent content on George Litos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0300</lastBuildDate>
-    
-	    <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>George Litos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0300</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>George Litos</title>
+      <link>/authors/admin/</link>
+    </image>
     
     <item>
       <title>Research Projects</title>
       <link>/post/research_projects/</link>
       <pubDate>Tue, 04 Jun 2019 23:23:00 +0300</pubDate>
-      
       <guid>/post/research_projects/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;MaTHiSiS&lt;/strong&gt; - Managing Affective-learning THrough Intelligent atoms and Smart InteractionS (2016: H2020 IA)&lt;/li&gt;
@@ -47,7 +47,6 @@
       <title>Display Jupyter Notebooks with Academic</title>
       <link>/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>/post/jupyter/</guid>
       <description>
 
@@ -110,7 +109,6 @@ rm Untitled.md
       <title>TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</title>
       <link>/publication/toomanyeyes/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
       <guid>/publication/toomanyeyes/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -136,7 +134,6 @@ rm Untitled.md
       <title>Academic: the website builder for Hugo</title>
       <link>/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>/post/getting-started/</guid>
       <description>
 
@@ -353,7 +350,6 @@ rm Untitled.md
       <title>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</title>
       <link>/publication/3d-object-retrieval/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>/publication/3d-object-retrieval/</guid>
       <description></description>
     </item>
@@ -362,7 +358,6 @@ rm Untitled.md
       <title>SHREC’11 Track: Generic Shape Retrieval</title>
       <link>/publication/shrec/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>/publication/shrec/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -378,7 +373,6 @@ rm Untitled.md
       <title>A Survey of Semantic Image and Video Annotation Tools</title>
       <link>/publication/semantic-survey/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
-      
       <guid>/publication/semantic-survey/</guid>
       <description></description>
     </item>
@@ -387,7 +381,6 @@ rm Untitled.md
       <title>3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</title>
       <link>/publication/3d-model-retrieval/</link>
       <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
-      
       <guid>/publication/3d-model-retrieval/</guid>
       <description></description>
     </item>
@@ -396,7 +389,6 @@ rm Untitled.md
       <title>Synchronous Image Acquisition based on Network Synchronization</title>
       <link>/publication/network-synchronization/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
       <guid>/publication/network-synchronization/</guid>
       <description></description>
     </item>
@@ -405,7 +397,6 @@ rm Untitled.md
       <title>User Interface Environment and Image Communication in Mobile Tele-Echography</title>
       <link>/publication/mobile-tele-echography/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      
       <guid>/publication/mobile-tele-echography/</guid>
       <description></description>
     </item>
@@ -414,23 +405,8 @@ rm Untitled.md
       <title>Mobile Tele-echography: User Interface Design</title>
       <link>/publication/tele-echography/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/publication/tele-echography/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Tue, 04 Jun 2019 23:23:00 +0300</pubDate>
-      
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3-D object retrieval on George Litos</title>
+    <title>3-D object retrieval | George Litos</title>
     <link>/tags/3-d-object-retrieval/</link>
-    <description>Recent content in 3-D object retrieval on George Litos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Apr 2012 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="/tags/3-d-object-retrieval/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/3-d-object-retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <description>3-D object retrieval</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Apr 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>3-D object retrieval</title>
+      <link>/tags/3-d-object-retrieval/</link>
+    </image>
     
     <item>
       <title>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</title>
       <link>/publication/3d-object-retrieval/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>/publication/3d-object-retrieval/</guid>
       <description></description>
     </item>

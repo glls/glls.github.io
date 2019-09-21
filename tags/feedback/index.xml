@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Feedback on George Litos</title>
+    <title>Feedback | George Litos</title>
     <link>/tags/feedback/</link>
-    <description>Recent content in Feedback on George Litos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 07 Mar 2005 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="/tags/feedback/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/feedback/index.xml" rel="self" type="application/rss+xml" />
+    <description>Feedback</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Mar 2005 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Feedback</title>
+      <link>/tags/feedback/</link>
+    </image>
     
     <item>
       <title>Mobile Tele-echography: User Interface Design</title>
       <link>/publication/tele-echography/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/publication/tele-echography/</guid>
       <description></description>
     </item>

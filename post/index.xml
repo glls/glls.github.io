@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on George Litos</title>
+    <title>Posts | George Litos</title>
     <link>/post/</link>
-    <description>Recent content in Posts on George Litos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0300</lastBuildDate>
-    
-	    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0300</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
     
     <item>
       <title>Research Projects</title>
       <link>/post/research_projects/</link>
       <pubDate>Tue, 04 Jun 2019 23:23:00 +0300</pubDate>
-      
       <guid>/post/research_projects/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;MaTHiSiS&lt;/strong&gt; - Managing Affective-learning THrough Intelligent atoms and Smart InteractionS (2016: H2020 IA)&lt;/li&gt;
@@ -47,7 +47,6 @@
       <title>Display Jupyter Notebooks with Academic</title>
       <link>/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>/post/jupyter/</guid>
       <description>
 
@@ -110,7 +109,6 @@ rm Untitled.md
       <title>Academic: the website builder for Hugo</title>
       <link>/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>/post/getting-started/</guid>
       <description>
 

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on George Litos</title>
+    <title>Tags | George Litos</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on George Litos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0300</lastBuildDate>
-    
-	    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0300</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>/tags/</link>
+    </image>
     
     <item>
       <title>R&amp;D</title>
       <link>/tags/rd/</link>
       <pubDate>Tue, 04 Jun 2019 23:23:00 +0300</pubDate>
-      
       <guid>/tags/rd/</guid>
       <description></description>
     </item>
@@ -24,7 +24,6 @@
       <title>CCTV</title>
       <link>/tags/cctv/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/cctv/</guid>
       <description></description>
     </item>
@@ -33,7 +32,6 @@
       <title>face matching</title>
       <link>/tags/face-matching/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/face-matching/</guid>
       <description></description>
     </item>
@@ -42,7 +40,6 @@
       <title>face recognition</title>
       <link>/tags/face-recognition/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/face-recognition/</guid>
       <description></description>
     </item>
@@ -51,7 +48,6 @@
       <title>super-recognisers</title>
       <link>/tags/super-recognisers/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/super-recognisers/</guid>
       <description></description>
     </item>
@@ -60,7 +56,6 @@
       <title>Deep Learning</title>
       <link>/tags/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>/tags/deep-learning/</guid>
       <description></description>
     </item>
@@ -69,7 +64,6 @@
       <title>Demo</title>
       <link>/tags/demo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>/tags/demo/</guid>
       <description></description>
     </item>
@@ -78,7 +72,6 @@
       <title>Academic</title>
       <link>/tags/academic/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>/tags/academic/</guid>
       <description></description>
     </item>
@@ -87,17 +80,7 @@
       <title>3-D object retrieval</title>
       <link>/tags/3-d-object-retrieval/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3-d-object-retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Source Themes</title>
-      <link>/tags/source-themes/</link>
-      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/source-themes/</guid>
       <description></description>
     </item>
     
@@ -105,7 +88,6 @@
       <title>descriptor extraction</title>
       <link>/tags/descriptor-extraction/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>/tags/descriptor-extraction/</guid>
       <description></description>
     </item>
@@ -114,7 +96,6 @@
       <title>feature selection</title>
       <link>/tags/feature-selection/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>/tags/feature-selection/</guid>
       <description></description>
     </item>
@@ -123,7 +104,6 @@
       <title>manifold learning</title>
       <link>/tags/manifold-learning/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>/tags/manifold-learning/</guid>
       <description></description>
     </item>
@@ -132,8 +112,15 @@
       <title>rotation estimation</title>
       <link>/tags/rotation-estimation/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>/tags/rotation-estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source Themes</title>
+      <link>/tags/source-themes/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>/tags/source-themes/</guid>
       <description></description>
     </item>
     
@@ -141,7 +128,6 @@
       <title>Annotation Tool</title>
       <link>/tags/annotation-tool/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
-      
       <guid>/tags/annotation-tool/</guid>
       <description></description>
     </item>
@@ -150,7 +136,6 @@
       <title>Descriptive Metadata</title>
       <link>/tags/descriptive-metadata/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
-      
       <guid>/tags/descriptive-metadata/</guid>
       <description></description>
     </item>
@@ -159,7 +144,6 @@
       <title>Image Annotation</title>
       <link>/tags/image-annotation/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
-      
       <guid>/tags/image-annotation/</guid>
       <description></description>
     </item>
@@ -168,7 +152,6 @@
       <title>Semantic Annotation</title>
       <link>/tags/semantic-annotation/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
-      
       <guid>/tags/semantic-annotation/</guid>
       <description></description>
     </item>
@@ -177,7 +160,6 @@
       <title>Video Annotation</title>
       <link>/tags/video-annotation/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
-      
       <guid>/tags/video-annotation/</guid>
       <description></description>
     </item>
@@ -186,17 +168,7 @@
       <title>3D object retrieval</title>
       <link>/tags/3d-object-retrieval/</link>
       <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3d-object-retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pose estimation</title>
-      <link>/tags/pose-estimation/</link>
-      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/pose-estimation/</guid>
       <description></description>
     </item>
     
@@ -204,8 +176,15 @@
       <title>alignment</title>
       <link>/tags/alignment/</link>
       <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
-      
       <guid>/tags/alignment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pose estimation</title>
+      <link>/tags/pose-estimation/</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>/tags/pose-estimation/</guid>
       <description></description>
     </item>
     
@@ -213,7 +192,6 @@
       <title>Application software</title>
       <link>/tags/application-software/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/application-software/</guid>
       <description></description>
     </item>
@@ -222,7 +200,6 @@
       <title>Cameras</title>
       <link>/tags/cameras/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/cameras/</guid>
       <description></description>
     </item>
@@ -231,7 +208,6 @@
       <title>Computer aided manufacturing</title>
       <link>/tags/computer-aided-manufacturing/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/computer-aided-manufacturing/</guid>
       <description></description>
     </item>
@@ -240,7 +216,6 @@
       <title>Computer errors</title>
       <link>/tags/computer-errors/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/computer-errors/</guid>
       <description></description>
     </item>
@@ -249,7 +224,6 @@
       <title>Computer vision</title>
       <link>/tags/computer-vision/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/computer-vision/</guid>
       <description></description>
     </item>
@@ -258,7 +232,6 @@
       <title>Hardware</title>
       <link>/tags/hardware/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/hardware/</guid>
       <description></description>
     </item>
@@ -267,7 +240,6 @@
       <title>Light emitting diodes</title>
       <link>/tags/light-emitting-diodes/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/light-emitting-diodes/</guid>
       <description></description>
     </item>
@@ -276,7 +248,6 @@
       <title>Production</title>
       <link>/tags/production/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/production/</guid>
       <description></description>
     </item>
@@ -285,7 +256,6 @@
       <title>Real time systems</title>
       <link>/tags/real-time-systems/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/real-time-systems/</guid>
       <description></description>
     </item>
@@ -294,7 +264,6 @@
       <title>Synchronization</title>
       <link>/tags/synchronization/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/synchronization/</guid>
       <description></description>
     </item>
@@ -303,7 +272,6 @@
       <title>Enhancement Layer</title>
       <link>/tags/enhancement-layer/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/enhancement-layer/</guid>
       <description></description>
     </item>
@@ -312,7 +280,6 @@
       <title>Force Feedback</title>
       <link>/tags/force-feedback/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/force-feedback/</guid>
       <description></description>
     </item>
@@ -321,7 +288,6 @@
       <title>Haptic Device</title>
       <link>/tags/haptic-device/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/haptic-device/</guid>
       <description></description>
     </item>
@@ -330,7 +296,6 @@
       <title>Motion Vector</title>
       <link>/tags/motion-vector/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/motion-vector/</guid>
       <description></description>
     </item>
@@ -339,7 +304,6 @@
       <title>Virtual Reality Environment</title>
       <link>/tags/virtual-reality-environment/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      
       <guid>/tags/virtual-reality-environment/</guid>
       <description></description>
     </item>
@@ -348,7 +312,6 @@
       <title>Biomedical imaging</title>
       <link>/tags/biomedical-imaging/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/tags/biomedical-imaging/</guid>
       <description></description>
     </item>
@@ -357,7 +320,6 @@
       <title>Feedback</title>
       <link>/tags/feedback/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/tags/feedback/</guid>
       <description></description>
     </item>
@@ -366,7 +328,6 @@
       <title>Haptic interfaces</title>
       <link>/tags/haptic-interfaces/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/tags/haptic-interfaces/</guid>
       <description></description>
     </item>
@@ -375,7 +336,6 @@
       <title>Medical robotics</title>
       <link>/tags/medical-robotics/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/tags/medical-robotics/</guid>
       <description></description>
     </item>
@@ -384,7 +344,6 @@
       <title>Mobile robots</title>
       <link>/tags/mobile-robots/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/tags/mobile-robots/</guid>
       <description></description>
     </item>
@@ -393,7 +352,6 @@
       <title>Probes</title>
       <link>/tags/probes/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/tags/probes/</guid>
       <description></description>
     </item>
@@ -402,7 +360,6 @@
       <title>Ultrasonic imaging</title>
       <link>/tags/ultrasonic-imaging/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/tags/ultrasonic-imaging/</guid>
       <description></description>
     </item>
@@ -411,7 +368,6 @@
       <title>User interfaces</title>
       <link>/tags/user-interfaces/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/tags/user-interfaces/</guid>
       <description></description>
     </item>
@@ -420,7 +376,6 @@
       <title>Videoconference</title>
       <link>/tags/videoconference/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>/tags/videoconference/</guid>
       <description></description>
     </item>

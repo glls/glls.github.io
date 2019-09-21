@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R&amp;D on George Litos</title>
+    <title>R&amp;D | George Litos</title>
     <link>/tags/rd/</link>
-    <description>Recent content in R&amp;D on George Litos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0300</lastBuildDate>
-    
-	    <atom:link href="/tags/rd/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/rd/index.xml" rel="self" type="application/rss+xml" />
+    <description>R&amp;D</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0300</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>R&amp;D</title>
+      <link>/tags/rd/</link>
+    </image>
     
     <item>
       <title>Research Projects</title>
       <link>/post/research_projects/</link>
       <pubDate>Tue, 04 Jun 2019 23:23:00 +0300</pubDate>
-      
       <guid>/post/research_projects/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;MaTHiSiS&lt;/strong&gt; - Managing Affective-learning THrough Intelligent atoms and Smart InteractionS (2016: H2020 IA)&lt;/li&gt;
