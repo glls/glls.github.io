@@ -5,36 +5,12 @@
     <link>/categories/</link>
       <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 16 Apr 2011 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Apr 2012 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Categories</title>
       <link>/categories/</link>
     </image>
-    
-    <item>
-      <title>3D stereo scene analysis</title>
-      <link>/categories/3d-stereo-scene-analysis/</link>
-      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
-      <guid>/categories/3d-stereo-scene-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computer Vision</title>
-      <link>/categories/computer-vision/</link>
-      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
-      <guid>/categories/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>test category</title>
-      <link>/categories/test-category/</link>
-      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      <guid>/categories/test-category/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

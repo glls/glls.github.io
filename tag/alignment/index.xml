@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>alignment | George Litos</title>
+    <link>/tag/alignment/</link>
+      <atom:link href="/tag/alignment/index.xml" rel="self" type="application/rss+xml" />
+    <description>alignment</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 Apr 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>alignment</title>
+      <link>/tag/alignment/</link>
+    </image>
+    
+    <item>
+      <title>3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</title>
+      <link>/publication/3d-model-retrieval/</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/3d-model-retrieval/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

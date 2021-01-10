@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -48,7 +48,7 @@
   </url>
   
   <url>
-    <loc>/tags/rd/</loc>
+    <loc>/tag/rd/</loc>
     <lastmod>2019-06-04T23:23:00+03:00</lastmod>
   </url>
   
@@ -83,6 +83,11 @@
   </url>
   
   <url>
+    <loc>/courses/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/jupyter/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
@@ -98,7 +103,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/1/</loc>
+    <loc>/publication-type/1/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,17 +113,17 @@
   </url>
   
   <url>
-    <loc>/tags/cctv/</loc>
+    <loc>/tag/cctv/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/face-matching/</loc>
+    <loc>/tag/face-matching/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/face-recognition/</loc>
+    <loc>/tag/face-recognition/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -148,7 +153,7 @@
   </url>
   
   <url>
-    <loc>/tags/super-recognisers/</loc>
+    <loc>/tag/super-recognisers/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -158,12 +163,12 @@
   </url>
   
   <url>
-    <loc>/tags/deep-learning/</loc>
+    <loc>/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/demo/</loc>
+    <loc>/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -178,7 +183,7 @@
   </url>
   
   <url>
-    <loc>/tags/academic/</loc>
+    <loc>/tag/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -188,12 +193,12 @@
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
+    <loc>/publication-type/2/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/3-d-object-retrieval/</loc>
+    <loc>/tag/3d-object-retrieval/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -213,12 +218,22 @@
   </url>
   
   <url>
-    <loc>/tags/descriptor-extraction/</loc>
+    <loc>/categories/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/feature-selection/</loc>
+    <loc>/category/computer-vision/</loc>
+    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/descriptor-extraction/</loc>
+    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/feature-selection/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -243,7 +258,7 @@
   </url>
   
   <url>
-    <loc>/tags/manifold-learning/</loc>
+    <loc>/tag/manifold-learning/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -253,7 +268,7 @@
   </url>
   
   <url>
-    <loc>/tags/rotation-estimation/</loc>
+    <loc>/tag/rotation-estimation/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -273,7 +288,7 @@
   </url>
   
   <url>
-    <loc>/tags/source-themes/</loc>
+    <loc>/tag/source-themes/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -298,7 +313,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/6/</loc>
+    <loc>/publication-type/6/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -308,12 +323,12 @@
   </url>
   
   <url>
-    <loc>/tags/annotation-tool/</loc>
+    <loc>/tag/annotation-tool/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/descriptive-metadata/</loc>
+    <loc>/tag/descriptive-metadata/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -323,7 +338,7 @@
   </url>
   
   <url>
-    <loc>/tags/image-annotation/</loc>
+    <loc>/tag/image-annotation/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -333,7 +348,7 @@
   </url>
   
   <url>
-    <loc>/tags/semantic-annotation/</loc>
+    <loc>/tag/semantic-annotation/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -343,7 +358,7 @@
   </url>
   
   <url>
-    <loc>/tags/video-annotation/</loc>
+    <loc>/tag/video-annotation/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -358,57 +373,42 @@
   </url>
   
   <url>
-    <loc>/tags/3d-object-retrieval/</loc>
+    <loc>/category/3d-stereo-scene-analysis/</loc>
     <lastmod>2011-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/3d-stereo-scene-analysis/</loc>
+    <loc>/tag/alignment/</loc>
     <lastmod>2011-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/alignment/</loc>
+    <loc>/tag/pose-estimation/</loc>
     <lastmod>2011-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2011-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/computer-vision/</loc>
-    <lastmod>2011-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/pose-estimation/</loc>
-    <lastmod>2011-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/application-software/</loc>
+    <loc>/tag/application-software/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/cameras/</loc>
+    <loc>/tag/cameras/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/computer-aided-manufacturing/</loc>
+    <loc>/tag/computer-aided-manufacturing/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/computer-errors/</loc>
+    <loc>/tag/computer-errors/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/computer-vision/</loc>
+    <loc>/tag/computer-vision/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -418,37 +418,32 @@
   </url>
   
   <url>
-    <loc>/tags/hardware/</loc>
+    <loc>/tag/hardware/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/light-emitting-diodes/</loc>
+    <loc>/tag/light-emitting-diodes/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/production/</loc>
+    <loc>/tag/production/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/real-time-systems/</loc>
+    <loc>/tag/real-time-systems/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/synchronization/</loc>
+    <loc>/tag/synchronization/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/network-synchronization/</loc>
-    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/test-category/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -468,12 +463,12 @@
   </url>
   
   <url>
-    <loc>/tags/enhancement-layer/</loc>
+    <loc>/tag/enhancement-layer/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/force-feedback/</loc>
+    <loc>/tag/force-feedback/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -483,7 +478,7 @@
   </url>
   
   <url>
-    <loc>/tags/haptic-device/</loc>
+    <loc>/tag/haptic-device/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -493,7 +488,7 @@
   </url>
   
   <url>
-    <loc>/tags/motion-vector/</loc>
+    <loc>/tag/motion-vector/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -508,12 +503,12 @@
   </url>
   
   <url>
-    <loc>/tags/virtual-reality-environment/</loc>
+    <loc>/tag/virtual-reality-environment/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/biomedical-imaging/</loc>
+    <loc>/tag/biomedical-imaging/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -523,22 +518,22 @@
   </url>
   
   <url>
-    <loc>/tags/feedback/</loc>
+    <loc>/tag/feedback/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/haptic-interfaces/</loc>
+    <loc>/tag/haptic-interfaces/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/medical-robotics/</loc>
+    <loc>/tag/medical-robotics/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/mobile-robots/</loc>
+    <loc>/tag/mobile-robots/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -548,27 +543,23 @@
   </url>
   
   <url>
-    <loc>/tags/probes/</loc>
+    <loc>/tag/probes/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ultrasonic-imaging/</loc>
+    <loc>/tag/ultrasonic-imaging/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/user-interfaces/</loc>
+    <loc>/tag/user-interfaces/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/videoconference/</loc>
+    <loc>/tag/videoconference/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/</loc>
   </url>
   
 </urlset>
