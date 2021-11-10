@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | George Litos</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/post/</link>
+      <atom:link href="https://georgelitos.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0300</lastBuildDate>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>https://georgelitos.com/post/</link>
     </image>
     
     <item>
       <title>Research Projects</title>
-      <link>/post/research_projects/</link>
+      <link>https://georgelitos.com/post/research_projects/</link>
       <pubDate>Tue, 04 Jun 2019 23:23:00 +0300</pubDate>
-      <guid>/post/research_projects/</guid>
+      <guid>https://georgelitos.com/post/research_projects/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;MaTHiSiS&lt;/strong&gt; - Managing Affective-learning THrough Intelligent atoms and Smart InteractionS (2016: H2020 IA)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ASGARD&lt;/strong&gt; (2016:H2020 RIA) Analysis System for Gathered Raw Data.&lt;/li&gt;
@@ -45,9 +45,9 @@
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
+      <link>https://georgelitos.com/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
+      <guid>https://georgelitos.com/post/jupyter/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
 Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
 &lt;/code&gt;&lt;/pre&gt;

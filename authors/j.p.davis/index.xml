@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>J.P.Davis | George Litos</title>
-    <link>/authors/j.p.davis/</link>
-      <atom:link href="/authors/j.p.davis/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/authors/j.p.davis/</link>
+      <atom:link href="https://georgelitos.com/authors/j.p.davis/index.xml" rel="self" type="application/rss+xml" />
     <description>J.P.Davis</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>J.P.Davis</title>
-      <link>/authors/j.p.davis/</link>
+      <link>https://georgelitos.com/authors/j.p.davis/</link>
     </image>
     
     <item>
       <title>TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</title>
-      <link>/publication/toomanyeyes/</link>
+      <link>https://georgelitos.com/publication/toomanyeyes/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/toomanyeyes/</guid>
+      <guid>https://georgelitos.com/publication/toomanyeyes/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

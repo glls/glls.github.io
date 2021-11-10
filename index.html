@@ -63,7 +63,7 @@
   <meta name="description" content="Software Architect" />
 
   
-  <link rel="alternate" hreflang="en-us" href="/" />
+  <link rel="alternate" hreflang="en-us" href="https://georgelitos.com/" />
 
   
   
@@ -72,9 +72,6 @@
   
 
   
-  
-    
-    <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -251,9 +248,9 @@
 
       
       
-
+        
       
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+
       
     
       
@@ -316,7 +313,7 @@
   }
 
   gtag('js', new Date());
-  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
+  gtag('config', 'UA-89694050-1', {});
   gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
 
   
@@ -347,10 +344,10 @@
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="/" />
+  <link rel="canonical" href="https://georgelitos.com/" />
 
   
   
@@ -372,14 +369,11 @@
   
   <meta property="twitter:card" content="summary" />
   
-    <meta property="twitter:site" content="@gl_ls" />
-    <meta property="twitter:creator" content="@gl_ls" />
-  
   <meta property="og:site_name" content="George Litos" />
-  <meta property="og:url" content="/" />
+  <meta property="og:url" content="https://georgelitos.com/" />
   <meta property="og:title" content="George Litos" />
-  <meta property="og:description" content="Software Architect" /><meta property="og:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Software Architect" /><meta property="og:image" content="https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
@@ -391,7 +385,13 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite","url": ""
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://georgelitos.com/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://georgelitos.com/"
 }
 </script>
 
@@ -399,36 +399,6 @@
   
 
   
-  
-  
-  
-  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
-  
-  <script>
-  window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#158cba",
-          "text": "rgb(255, 255, 255)"
-        },
-        "button": {
-          "background": "rgb(255, 255, 255)",
-          "text": "#158cba"
-        }
-      },
-      "theme": "classic",
-      "content": {
-        "message": "This website uses cookies to ensure you get the best experience on our website.",
-        "dismiss": "Got it!",
-        "link": "Learn more",
-        "href": "https://www.cookiesandyou.com"
-      }
-    })});
-  </script>
-
 
   
 
@@ -455,6 +425,43 @@
 
   
 
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
 
 
 
@@ -634,10 +641,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication"><span>Publications</span></a>
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
         </li>
 
         
@@ -657,6 +671,10 @@
       
 
       
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
       
@@ -1806,7 +1824,7 @@
     
     
     <a href="http://example.org" target="_blank" rel="noopener">
-      <img src="/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_150x0_resize_q80_lanczos.jpg" alt="External Project" loading="lazy">
+      <img src="/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_150x0_resize_q75_lanczos.jpg" alt="External Project" loading="lazy">
     </a>
     
   </div>
@@ -1926,7 +1944,7 @@
     
     
     <a href="/project/internal-project/" >
-      <img src="/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_150x0_resize_q80_lanczos.jpg" alt="Internal Project" loading="lazy">
+      <img src="/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_150x0_resize_q75_lanczos.jpg" alt="Internal Project" loading="lazy">
     </a>
     
   </div>
@@ -2039,6 +2057,8 @@
 
 
 
+  
+
 
 
 
@@ -2065,7 +2085,7 @@
 
   <div class="alert alert-note">
   <div>
-    Quickly discover relevant content by <a href="/publication/">filtering publications</a>.
+    Quickly discover relevant content by <a href="./publication/">filtering publications</a>.
   </div>
 </div>
 
@@ -2074,177 +2094,25 @@
     
       
 
-
-
-
-
-
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
-
-
-
-
-
-
-
   
 
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/toomanyeyes/" >TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</a>
-    </div>
-
+  <span class="article-metadata li-cite-author">
     
-    <a href="/publication/toomanyeyes/"  class="summary-link">
-      <div class="article-style">
-        For the current research, a ‘Spot the Face in a Crowd Test’ (SFCT) comprising six video clips depicting target-actors and multiple …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/authors/m.l.durova/">M.L.Durova</a></span>, <span >
-      <a href="/authors/a.dimou/">A.Dimou</a></span>, <span >
-      <a href="/authors/admin/"></a></span>, <span >
-      <a href="/authors/p.daras/">P.Daras</a></span>, <span >
-      <a href="/authors/j.p.davis/">J.P.Davis</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/http:/www.iti.gr/iti/files/document/work/Durova%20et%20al%202017%20-%20PUBLISHED%20VERSION.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/toomanyeyes/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://www.lasie-project.eu/" target="_blank" rel="noopener">
-  Project
-</a>
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1049/ic.2017.0047" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/toomanyeyes/" >
-      <img src="/publication/toomanyeyes/featured_hu1574738e0f3d2c0efe7a8452c938c5c5_68321_150x0_resize_lanczos_3.png" alt="TooManyEyes: Super-recogniser directed identification of target individuals on CCTV" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/3d-object-retrieval/" >Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</a>
-    </div>
-
-    
-    <a href="/publication/3d-object-retrieval/"  class="summary-link">
-      <div class="article-style">
-        This paper proposes a novel framework for 3-D object retrieval, taking into account most of the factors that may affect the retrieval …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
   <span >
       <a href="/authors/p.daras/">P.Daras</a></span>, <span >
       <a href="/authors/a.axenopoulos/">A.Axenopoulos</a></span>, <span >
       <a href="/authors/admin/"></a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
+  </span>
+  (2012).
+  <a href="/publication/3d-object-retrieval/">Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</a>.
+  IEEE Transactions on Multimedia, Vol. 14, No. 2, Page(s): 374 – 388, April 2012.
+  
+  <p>
 
 
 
@@ -2259,7 +2127,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/http:/www.iti.gr/iti/files/document/publications/IEEE%20MM0412.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://www.iti.gr/iti/files/document/publications/IEEE%20MM0412.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -2287,20 +2155,10 @@
 </a>
 
 
+</p>
 
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/3d-object-retrieval/" >
-      <img src="/publication/3d-object-retrieval/featured_huc02043fe245efc3706adc836a44f7107_276083_150x0_resize_lanczos_3.png" alt="Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval" loading="lazy">
-    </a>
-    
-  </div>
+  
+  
 </div>
 
     
@@ -2308,45 +2166,14 @@
     
       
 
-
-
-
-
-
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
-
-
-
-
-
-
-
   
 
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/shrec/" >SHREC’11 Track: Generic Shape Retrieval</a>
-    </div>
-
+  <span class="article-metadata li-cite-author">
     
-    <a href="/publication/shrec/"  class="summary-link">
-      <div class="article-style">
-        In this paper we present the results of the 3D Shape Retrieval Contest 2011 (SHREC'11) track on generic shape retrieval. The aim of …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
   <span >
       <a href="/authors/h.dutagaci/">H.Dutagaci</a></span>, <span >
@@ -2364,13 +2191,12 @@
       <a href="/authors/b.gong/">B.Gong</a></span>, <span >
       <a href="/authors/j.liu/">J.Liu</a></span>, <span >
       <a href="/authors/x.tang/">X.Tang</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
+  </span>
+  (2012).
+  <a href="/publication/shrec/">SHREC’11 Track: Generic Shape Retrieval</a>.
+  3DOR 2011.
+  
+  <p>
 
 
 
@@ -2385,7 +2211,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/http:/arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -2477,20 +2303,10 @@
   <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
     Custom Link</a>
 
+</p>
 
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/shrec/" >
-      <img src="/publication/shrec/featured_hudb2f00eb748596bbbb4c7d85f205b0b7_631934_150x0_resize_lanczos_3.png" alt="SHREC’11 Track: Generic Shape Retrieval" loading="lazy">
-    </a>
-    
-  </div>
+  
+  
 </div>
 
     
@@ -2498,45 +2314,14 @@
     
       
 
-
-
-
-
-
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
-
-
-
-
-
-
-
   
 
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/semantic-survey/" >A Survey of Semantic Image and Video Annotation Tools</a>
-    </div>
-
+  <span class="article-metadata li-cite-author">
     
-    <a href="/publication/semantic-survey/"  class="summary-link">
-      <div class="article-style">
-        The availability of semantically annotated image and video assets constitutes a critical prerequisite for the realisation of …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
   <span >
       <a href="/authors/stamatia-dasiopoulou/">Stamatia Dasiopoulou</a></span>, <span >
@@ -2544,13 +2329,12 @@
       <a href="/authors/admin/"></a></span>, <span >
       <a href="/authors/polyxeni-malasioti/">Polyxeni Malasioti</a></span>, <span >
       <a href="/authors/yiannis-kompatsiaris/">Yiannis Kompatsiaris</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
+  </span>
+  (2011).
+  <a href="/publication/semantic-survey/">A Survey of Semantic Image and Video Annotation Tools</a>.
+  Knowledge-Driven Multimedia Information Extraction and Ontology Evolution pp 196-239.
+  
+  <p>
 
 
 
@@ -2565,7 +2349,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/https:/www.researchgate.net/publication/220915805_A_Survey_of_Semantic_Image_and_Video_Annotation_Tools/download" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/220915805_A_Survey_of_Semantic_Image_and_Video_Annotation_Tools/download" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -2607,20 +2391,10 @@
   <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://link.springer.com/book/10.1007/978-3-642-20795-2" target="_blank" rel="noopener">
     Book</a>
 
+</p>
 
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/semantic-survey/" >
-      <img src="/publication/semantic-survey/featured_huddf1108a8232cc6f821cb43513930c41_21265_150x0_resize_q80_lanczos.jpg" alt="A Survey of Semantic Image and Video Annotation Tools" loading="lazy">
-    </a>
-    
-  </div>
+  
+  
 </div>
 
     
@@ -2628,57 +2402,25 @@
     
       
 
-
-
-
-
-
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
-
-
-
-
-
-
-
   
 
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/3d-model-retrieval/" >3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</a>
-    </div>
-
+  <span class="article-metadata li-cite-author">
     
-    <a href="/publication/3d-model-retrieval/"  class="summary-link">
-      <div class="article-style">
-        In this paper, a novel framework for 3D object retrieval is presented. The paper focuses on the investigation of an accurate D model …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
   <span >
       <a href="/authors/a.axenopoulos/">A.Axenopoulos</a></span>, <span >
       <a href="/authors/admin/"></a></span>, <span >
       <a href="/authors/p.daras/">P.Daras</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
+  </span>
+  (2011).
+  <a href="/publication/3d-model-retrieval/">3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</a>.
+  1st ACM International Conference on Multimedia Retrieval (ICMR2011), April 17-20, Trento, Italy.
+  
+  <p>
 
 
 
@@ -2693,7 +2435,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/https:/www.researchgate.net/profile/Petros_Daras/publication/221318549_3D_model_retrieval_using_accurate_pose_estimation_and_view-based_similarity/links/0c96052b3ff587ac22000000/3D-model-retrieval-using-accurate-pose-estimation-and-view-based-similarity.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/profile/Petros_Daras/publication/221318549_3D_model_retrieval_using_accurate_pose_estimation_and_view-based_similarity/links/0c96052b3ff587ac22000000/3D-model-retrieval-using-accurate-pose-estimation-and-view-based-similarity.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -2721,20 +2463,82 @@
 </a>
 
 
+</p>
 
-    </div>
+  
+  
+</div>
+
+    
+  
+    
+      
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
     
 
-  </div>
-  <div class="ml-3">
+  <span >
+      <a href="/authors/admin/"></a></span>, <span >
+      <a href="/authors/x.zabulis/">X.Zabulis</a></span>, <span >
+      <a href="/authors/g.a.triantafyllidis/">G.A.Triantafyllidis</a></span>
+  </span>
+  (2006).
+  <a href="/publication/network-synchronization/">Synchronous Image Acquisition based on Network Synchronization</a>.
+  2006 Conference on Computer Vision and Pattern Recognition Workshop (CVPRW'06).
+  
+  <p>
+
+
+
+
+
+
+
+
+  
     
-    
-    
-    <a href="/publication/3d-model-retrieval/" >
-      <img src="/publication/3d-model-retrieval/featured_hu7676d622124c850a57ef2d84778c5b33_324115_150x0_resize_lanczos_3.png" alt="3D Model Retrieval using Accurate Pose Estimation and View-based Similarity" loading="lazy">
-    </a>
-    
-  </div>
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/232617620_Synchronous_Image_Acquisition_based_on_Network_Synchronization/download" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/network-synchronization/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/CVPRW.2006.200" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
 </div>
 
     
@@ -2903,7 +2707,7 @@
     <div class="featurette-icon"><i class="fas fa-user-astronaut"></i></div>
     
     <div class="section-subheading">Technology</div>
-    <p>Computer Vision<br>Crowdsourcing, Machine Learning<br>exploring Blockchain</p>
+    <p>Computer Vision<br>Crowdsourcing, Machine Learning<br>IoT (influxDB, Grafana) + Kubernetes</p>
   </div>
   
   
@@ -3237,6 +3041,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
         
         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
       
 
     
@@ -3251,6 +3057,23 @@
     
     
     
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
 
     
     
@@ -3262,6 +3085,14 @@
 
     
     
+      
+      
+      
+      
+      
+      
+      
+    
 
     
     
@@ -3271,8 +3102,11 @@
     
     
     
+      
+      
     
-    <script src="/en/js/wowchemy.min.50d3bf3df0c53b31631bb48a62b35f92.js"></script>
+    
+    <script src="/en/js/wowchemy.min.7cd6ec29d281a73c92a2958a1584aadc.js"></script>
 
     
 
