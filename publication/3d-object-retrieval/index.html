@@ -1,0 +1,1203 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="George Litos" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="This paper proposes a novel framework for 3-D object retrieval, taking into account most of the factors that may affect the retrieval performance. Initially, a novel 3-D model alignment method is introduced, which achieves accurate rotation estimation through the combination of two intuitive criteria, plane reflection symmetry and rectilinearity. After the pose normalization stage, a low-level descriptor extraction procedure follows, using three different types of descriptors, which have been proven to be effective. Then, a novel combination procedure of the above descriptors takes place, which achieves higher retrieval performance than each descriptor does separately. The paper provides also an in-depth study of the factors that can further improve the 3-D object retrieval accuracy. These include selection of the appropriate dissimilarity metric, feature selection/dimensionality reduction on the initial low-level descriptors, as well as manifold learning for re-ranking of the search results. Experiments performed on two 3-D model benchmark datasets confirm our assumption that future research in 3-D object retrieval should focus more on the efficient combination of low-level descriptors as well as on the selection of the best features and matching metrics, than on the investigation of the optimal 3-D object descriptor." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://georgelitos.com/publication/3d-object-retrieval/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#bbdefb" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.fb52cec8d473bc5db1da71a3eddb8ecc.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://georgelitos.com/publication/3d-object-retrieval/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="George Litos" />
+  <meta property="og:url" content="https://georgelitos.com/publication/3d-object-retrieval/" />
+  <meta property="og:title" content="Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval | George Litos" />
+  <meta property="og:description" content="This paper proposes a novel framework for 3-D object retrieval, taking into account most of the factors that may affect the retrieval performance. Initially, a novel 3-D model alignment method is introduced, which achieves accurate rotation estimation through the combination of two intuitive criteria, plane reflection symmetry and rectilinearity. After the pose normalization stage, a low-level descriptor extraction procedure follows, using three different types of descriptors, which have been proven to be effective. Then, a novel combination procedure of the above descriptors takes place, which achieves higher retrieval performance than each descriptor does separately. The paper provides also an in-depth study of the factors that can further improve the 3-D object retrieval accuracy. These include selection of the appropriate dissimilarity metric, feature selection/dimensionality reduction on the initial low-level descriptors, as well as manifold learning for re-ranking of the search results. Experiments performed on two 3-D model benchmark datasets confirm our assumption that future research in 3-D object retrieval should focus more on the efficient combination of low-level descriptors as well as on the selection of the best features and matching metrics, than on the investigation of the optimal 3-D object descriptor." /><meta property="og:image" content="https://georgelitos.com/publication/3d-object-retrieval/featured.png" />
+    <meta property="twitter:image" content="https://georgelitos.com/publication/3d-object-retrieval/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2019-06-02T22:58:23&#43;03:00"
+      />
+    
+    <meta property="article:modified_time" content="2012-04-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://georgelitos.com/publication/3d-object-retrieval/"
+  },
+  "headline": "Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval",
+  
+  "image": [
+    "https://georgelitos.com/publication/3d-object-retrieval/featured.png"
+  ],
+  
+  "datePublished": "2019-06-02T22:58:23+03:00",
+  "dateModified": "2012-04-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "P.Daras"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "George Litos",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "This paper proposes a novel framework for 3-D object retrieval, taking into account most of the factors that may affect the retrieval performance. Initially, a novel 3-D model alignment method is introduced, which achieves accurate rotation estimation through the combination of two intuitive criteria, plane reflection symmetry and rectilinearity. After the pose normalization stage, a low-level descriptor extraction procedure follows, using three different types of descriptors, which have been proven to be effective. Then, a novel combination procedure of the above descriptors takes place, which achieves higher retrieval performance than each descriptor does separately. The paper provides also an in-depth study of the factors that can further improve the 3-D object retrieval accuracy. These include selection of the appropriate dissimilarity metric, feature selection/dimensionality reduction on the initial low-level descriptors, as well as manifold learning for re-ranking of the search results. Experiments performed on two 3-D model benchmark datasets confirm our assumption that future research in 3-D object retrieval should focus more on the efficient combination of low-level descriptors as well as on the selection of the best features and matching metrics, than on the investigation of the optimal 3-D object descriptor."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval | George Litos</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="17239f744ce865532a0de224aadb5110" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.d333d96014f7bcfa311294a92ace0d60.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">George Litos</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">George Litos</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+
+
+
+
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      P.Daras</span>, <span >
+      A.Axenopoulos</span>, <span class="author-highlighted">
+      George Litos</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    April 2012
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/computer-vision/">Computer Vision</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="http://www.iti.gr/iti/files/document/publications/IEEE%20MM0412.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/3d-object-retrieval/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1109/TMM.2011.2176111" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 574px; max-height: 555px;">
+  <div style="position: relative">
+    <img src="/publication/3d-object-retrieval/featured_huc02043fe245efc3706adc836a44f7107_276083_720x2500_fit_q75_h2_lanczos_3.webp" width="574" height="555" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">This paper proposes a novel framework for 3-D object retrieval, taking into account most of the factors that may affect the retrieval performance. Initially, a novel 3-D model alignment method is introduced, which achieves accurate rotation estimation through the combination of two intuitive criteria, plane reflection symmetry and rectilinearity. After the pose normalization stage, a low-level descriptor extraction procedure follows, using three different types of descriptors, which have been proven to be effective. Then, a novel combination procedure of the above descriptors takes place, which achieves higher retrieval performance than each descriptor does separately. The paper provides also an in-depth study of the factors that can further improve the 3-D object retrieval accuracy. These include selection of the appropriate dissimilarity metric, feature selection/dimensionality reduction on the initial low-level descriptors, as well as manifold learning for re-ranking of the search results. Experiments performed on two 3-D model benchmark datasets confirm our assumption that future research in 3-D object retrieval should focus more on the efficient combination of low-level descriptors as well as on the selection of the best features and matching metrics, than on the investigation of the optimal 3-D object descriptor.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#2">
+              Journal article
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">IEEE Transactions on Multimedia, Vol. 14, No. 2, Page(s): 374 – 388, April 2012</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/3d-object-retrieval/">3D object retrieval</a>
+  
+  <a class="badge badge-light" href="/tag/descriptor-extraction/">descriptor extraction</a>
+  
+  <a class="badge badge-light" href="/tag/feature-selection/">feature selection</a>
+  
+  <a class="badge badge-light" href="/tag/manifold-learning/">manifold learning</a>
+  
+  <a class="badge badge-light" href="/tag/rotation-estimation/">rotation estimation</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://georgelitos.com/publication/3d-object-retrieval/&amp;text=Investigating%20the%20Effects%20of%20Multiple%20Factors%20towards%20more%20Accurate%203D%20Object%20Retrieval" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://georgelitos.com/publication/3d-object-retrieval/&amp;t=Investigating%20the%20Effects%20of%20Multiple%20Factors%20towards%20more%20Accurate%203D%20Object%20Retrieval" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Investigating%20the%20Effects%20of%20Multiple%20Factors%20towards%20more%20Accurate%203D%20Object%20Retrieval&amp;body=https://georgelitos.com/publication/3d-object-retrieval/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://georgelitos.com/publication/3d-object-retrieval/&amp;title=Investigating%20the%20Effects%20of%20Multiple%20Factors%20towards%20more%20Accurate%203D%20Object%20Retrieval" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://georgelitos.com/">George Litos</a></h5>
+      <h6 class="card-subtitle">Software Architect</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.drupal.org/u/georgelitos" target="_blank" rel="noopener">
+        <i class="fab fa-drupal"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/gl_ls" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="skype:cyberpunk.73?call" >
+        <i class="fab fa-skype"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/george-litos-b5686611/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/glls" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+
+      
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.79343bd00de25e04f03b6af2819f8643.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/en/js/wowchemy.min.51fd0e243430f91ddd6c6b7b1cfc16d3.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.ee00aa4e09ee62617fe2dc15bfcb3f7b.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Probes | George Litos</title>
+    <link>https://georgelitos.com/tag/probes/</link>
+      <atom:link href="https://georgelitos.com/tag/probes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Probes</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Mar 2005 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <title>Probes</title>
+      <link>https://georgelitos.com/tag/probes/</link>
+    </image>
+    
+    <item>
+      <title>Mobile Tele-echography: User Interface Design</title>
+      <link>https://georgelitos.com/publication/tele-echography/</link>
+      <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
+      <guid>https://georgelitos.com/publication/tele-echography/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
