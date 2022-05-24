@@ -1,5 +1,5 @@
 # Netlify redirects
 # Automatically generated
-# Documentation: http://bit.ly/netlify-deployment
+# Documentation: https://docs.netlify.com/routing/redirects/
 /projects/research /post/research_projects/
 /papers /publication/
