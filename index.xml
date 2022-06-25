@@ -311,6 +311,290 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>Slides</title>
+      <link>https://georgelitos.com/slides/git/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://georgelitos.com/slides/git/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/img/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;versioning-101-with-git&#34;&gt;Versioning 101 with Git&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Official site : &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://git-scm.com/&lt;/a&gt; &amp;gt; &lt;a href=&#34;https://git-scm.com/book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pro Git&lt;/a&gt; by Scott Chacon and Ben Straub is available to read online for free.
+&lt;a href=&#34;https://www.syncfusion.com/succinctly-free-ebooks/git/overview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Succinctly&lt;/a&gt; by Ryan Hodson&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;a-bit-of-history&#34;&gt;a bit of history&lt;/h2&gt;
+&lt;p&gt;Git was originally authored by &lt;a href=&#34;https://en.wikipedia.org/wiki/Linus_Torvalds&#34; title=&#34;Linus Torvalds&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linus Torvalds&lt;/a&gt; in 2005 for development of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux_kernel&#34; title=&#34;Linux kernel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux kernel&lt;/a&gt;, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer. As with most other &lt;a href=&#34;https://en.wikipedia.org/wiki/Distributed_version_control&#34; title=&#34;Distributed version control&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;distributed version control&lt;/a&gt; systems, and unlike most client–server systems, every Git &lt;a href=&#34;https://en.wikipedia.org/wiki/Directory_%28computing%29&#34; title=&#34;Directory (computing)&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;directory&lt;/a&gt; on every &lt;a href=&#34;https://en.wikipedia.org/wiki/Node_%28networking%29&#34; title=&#34;Node (networking)&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;computer&lt;/a&gt; is a full-fledged &lt;a href=&#34;https://en.wikipedia.org/wiki/Repository_%28version_control%29&#34; title=&#34;Repository (version control)&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository&lt;/a&gt; with complete history and full version-tracking abilities, independent of network access or a central server. Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_software&#34; title=&#34;Free and open-source software&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;free and open-source software&lt;/a&gt; distributed under the &lt;a href=&#34;https://en.wikipedia.org/wiki/GNU_General_Public_License&#34; title=&#34;GNU General Public License&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPL-2.0-only&lt;/a&gt; license.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4XpnKHJAok8&amp;amp;t=90s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tech Talk: Linus Torvalds on git&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;glossary&#34;&gt;glossary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Working directory - repository&lt;/strong&gt;
+The working directory is the folder on your system that you want to track. Where you develop your project. Everything git releates is inside the &lt;code&gt;.git&lt;/code&gt; folder. Serverless.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Git files&lt;/strong&gt;
+Inside the working directory and beneath, you might find some git related files:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;.gitattributes&lt;/strong&gt; how to handle files
+&lt;strong&gt;.gitignore&lt;/strong&gt; what to ignore
+&lt;strong&gt;.gitkeep&lt;/strong&gt; keep an empty dir&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tracked files&lt;/strong&gt;
+Tracked files are the files in the working directory (repository) that Git manages.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Staging Area&lt;/strong&gt;
+The intermediary between the working directory and the project history.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Commit&lt;/strong&gt;
+Commit is the process of adding any changes in tracked files. Git will keep track of all the changes in the &lt;strong&gt;Committed History&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Commit message&lt;/strong&gt;
+The commit message is a summary and description of a commit action.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Branches&lt;/strong&gt; (develop, feature, master)
+A branch is a set of the repo tracked files. Git allows you to compare and merge branches. It can also be used to organize collaboration inside the repo, fix specific bugs, or create new features.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge&lt;/strong&gt;
+Copy code changes from one branch to another.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fork&lt;/strong&gt;
+You clone a public repo, make changes and contribute with a PR.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pull/Merge request (PR)&lt;/strong&gt;
+A PR is a request to the repository owner to merge your changes back into the original code base.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;init&#34;&gt;init&lt;/h2&gt;
+&lt;p&gt;Install, then&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;John Smith&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email john@example.com
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Every commit is unique, it contains:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;a snapshot of the project&lt;/li&gt;
+&lt;li&gt;user information&lt;/li&gt;
+&lt;li&gt;date&lt;/li&gt;
+&lt;li&gt;commit message&lt;/li&gt;
+&lt;li&gt;SHA-1 checksum&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git log
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;commit 81752cd6a514fd2595c40f27c783d6887f84e6e6
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Author: Charalampos Malathounis &amp;lt;chmalathounis@agroapps.gr&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Date:   Thu Apr &lt;span class=&#34;m&#34;&gt;7&lt;/span&gt; 15:17:45 &lt;span class=&#34;m&#34;&gt;2022&lt;/span&gt; +0000
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Initial commit
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;dont-fear-the-git&#34;&gt;don&amp;rsquo;t fear the git&lt;/h2&gt;
+&lt;p&gt;Git won&amp;rsquo;t bite, instead it will :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;backup your code&lt;/li&gt;
+&lt;li&gt;cleanup code base&lt;/li&gt;
+&lt;li&gt;lint/beautify&lt;/li&gt;
+&lt;li&gt;WIP amend&lt;/li&gt;
+&lt;li&gt;help you code review&lt;/li&gt;
+&lt;li&gt;CI/CD (coming in near future)&lt;/li&gt;
+&lt;li&gt;merge requests&lt;/li&gt;
+&lt;li&gt;help you understand a codebase&lt;/li&gt;
+&lt;li&gt;contribute to opensource / get a job / be famous&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;workflow&#34;&gt;workflow&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Use the &lt;a href=&#34;https://numpy.org/doc/stable/dev/development_workflow.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Development workflow (from NumPy)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to JIRA issue&lt;/li&gt;
+&lt;li&gt;Merge request to the main branch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Start a project&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Divide work in repositories&lt;/li&gt;
+&lt;li&gt;choose workflow&lt;/li&gt;
+&lt;li&gt;select which files to keep under version control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Work on a project&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Working on a topic/feature/bugfix branch&lt;/li&gt;
+&lt;li&gt;Splitting changes into logically separate steps&lt;/li&gt;
+&lt;li&gt;Write a good commit message (e.g. present tense, short amd meaningfull)&lt;/li&gt;
+&lt;li&gt;Preparing changes for submission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Integrate&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Submitting and describing changes&lt;/li&gt;
+&lt;li&gt;Merge request to the main branch&lt;/li&gt;
+&lt;li&gt;Delete working branch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;pull-the-servers-plug&#34;&gt;pull the servers&amp;rsquo; plug&lt;/h2&gt;
+&lt;p&gt;You could rebuild and restart services anytime
+You could do a &lt;code&gt;sudo reboot&lt;/code&gt;
+You could destroy/change servers and continue with:
+&lt;code&gt;rm -rf repo &amp;amp;&amp;amp; git clone repo &amp;amp;&amp;amp; cat README.md&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;practice-once-use-everywhere&#34;&gt;practice once, use everywhere&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;git init&lt;/code&gt; &amp;amp;&amp;amp; &lt;code&gt;git commit -a -m &#39;msg&#39;&lt;/code&gt; &amp;hellip;.you don&amp;rsquo;t need a server
+when you don&amp;rsquo;t know what to do type:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git status
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;On branch main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Your branch is up to date with &lt;span class=&#34;s1&#34;&gt;&amp;#39;origin/main&amp;#39;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Changes not staged &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; commit:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;use &lt;span class=&#34;s2&#34;&gt;&amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34;&lt;/span&gt; to update what will be committed&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;use &lt;span class=&#34;s2&#34;&gt;&amp;#34;git restore &amp;lt;file&amp;gt;...&amp;#34;&lt;/span&gt; to discard changes in working directory&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	modified:   docker-compose.yml
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Untracked files:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;use &lt;span class=&#34;s2&#34;&gt;&amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34;&lt;/span&gt; to include in what will be committed&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	.idea/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	db_sink/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	file_records/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	record_transformer/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;no changes added to commit &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;use &lt;span class=&#34;s2&#34;&gt;&amp;#34;git add&amp;#34;&lt;/span&gt; and/or &lt;span class=&#34;s2&#34;&gt;&amp;#34;git commit -a&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;tips&#34;&gt;tips&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;learn the basics with command line and then use a GUI client&lt;/li&gt;
+&lt;li&gt;GitHub (desktop and cmdline clients)&lt;/li&gt;
+&lt;li&gt;Check Explore, search GitHub with powerfull filters (stars/topic/users/language)&lt;/li&gt;
+&lt;li&gt;always check GitHub issues&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;best-and-worst-practices&#34;&gt;best and worst practices&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;commit (local) often, send to server daily (at least)&lt;/li&gt;
+&lt;li&gt;rewriting history is &lt;strong&gt;evil&lt;/strong&gt; (DON&amp;rsquo;T DO IT if you work with others)&lt;/li&gt;
+&lt;li&gt;never rebase a branch that has been pushed to a public repository&lt;/li&gt;
+&lt;li&gt;write useful commit messages&lt;/li&gt;
+&lt;li&gt;learn GitHub Markdown&lt;/li&gt;
+&lt;li&gt;don&amp;rsquo;t panic, recovery is (almost) always possible&lt;/li&gt;
+&lt;li&gt;don&amp;rsquo;t change the published history&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;references&#34;&gt;references&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resolving a merge conflict using the command line&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cbea.ms/git-commit/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to Write a Git Commit Message&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/merging-vs-rebasing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Merging vs. Rebasing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Distributed-Git-Maintaining-a-Project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Distributed Git - Maintaining a Project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
+&lt;p&gt;cherry-pick
+tags
+git internals
+maintenance (&lt;code&gt;git fsck&lt;/code&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</title>
       <link>https://georgelitos.com/publication/toomanyeyes/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
