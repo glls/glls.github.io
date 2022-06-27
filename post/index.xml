@@ -5,43 +5,12 @@
     <link>https://georgelitos.com/post/</link>
       <atom:link href="https://georgelitos.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://georgelitos.com/post/</link>
     </image>
-    
-    <item>
-      <title>Research Projects</title>
-      <link>https://georgelitos.com/post/research_projects/</link>
-      <pubDate>Tue, 04 Jun 2019 23:23:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/research_projects/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;MaTHiSiS&lt;/strong&gt; - Managing Affective-learning THrough Intelligent atoms and Smart InteractionS (2016: H2020 IA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ASGARD&lt;/strong&gt; (2016:H2020 RIA) Analysis System for Gathered Raw Data.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;LASIE&lt;/strong&gt; (2014:IP) Large Scale Information Exploitation of Forensic Data.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ADVISE&lt;/strong&gt; (285024) Advanced Video Surveillance archives search Engine for security applications.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;I-SEARCH&lt;/strong&gt; (FP7): A Unified Framework for Multimodal Content Search.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;BOEMIE&lt;/strong&gt; (27538): Bootstrapping Ontology Evolution with Multimedia Information Extraction.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ELU&lt;/strong&gt; (027866): Enhanced Learning Unlimited.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;3DTV&lt;/strong&gt; IST Project (Network of Excellence): Integrated Three-Dimensional Television - Capture, Transmission, and Display.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ASPIS&lt;/strong&gt; (IST-1999-12554): An Authentication and Protection Innovative Software System for DVD-ROM and Internet.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;HISCORE&lt;/strong&gt; IST Project: High Speed 3D and Colour Interface to the Real World.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;BIOSEC&lt;/strong&gt; IST Project (2124): Biometrics and Security.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;INTERVUSE&lt;/strong&gt; IST Project (2109): Integrated Radar, Flight Plan and Digital Video Data Fusion for SMGCS.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;OTELO&lt;/strong&gt; IST Project (2112): Mobile Tele-Echography using an Ultra-Light Robot.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;P2PEOPLE&lt;/strong&gt; IST Project: P2P &amp;ldquo;Common interests&amp;rdquo; Search Engine and Collaboration Platform.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;X-Media&lt;/strong&gt; (026978) Knowledge Sharing and Reuse Across Media.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;PESCADO&lt;/strong&gt; Personalized Environmental Service Configuration and Delivery Orchestration.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ASSETS&lt;/strong&gt; (250527) Advanced Search Services and Enhanced Technological Solutions for the European Digital Library.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;REVERIE&lt;/strong&gt; (287723) REal and Virtual Engagement in Realistic Immersive Environments.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;E-MUNIS&lt;/strong&gt; / IST-2001-33037 Electronic Municipal Information Services - Best Practice Transfer and Improvement Project.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ΧΕΙΛΙΟΤΗΛΕΦΩΝΟ&lt;/strong&gt; (ΓΓΕΤ-ΕΠΕΤ ΙΙ): Σύστημα Εικονοτηλεφώνου για Κωφούς.&lt;/li&gt;
-&lt;li&gt;Ανάπτυξη Πρωτοποριακού Υπολογιστικού Εργαλείου Υποστήριξης και Αυτοματοποίησης της Μεταφραστικής Διαδικασίας (ΓΓΕΤ-ΠΑΒΕΤ).&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
