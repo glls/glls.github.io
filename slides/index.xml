@@ -82,9 +82,9 @@ A PR is a request to the repository owner to merge your changes back into the or
 &lt;hr&gt;
 &lt;h2 id=&#34;init&#34;&gt;init&lt;/h2&gt;
 &lt;p&gt;Install, then&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;#34;John Smith&amp;#34;
-git config --global user.email john@example.com
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Every commit is unique, it contains:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &amp;#34;John Smith&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email john@example.com
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Every commit is unique, it contains:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;a snapshot of the project&lt;/li&gt;
 &lt;li&gt;user information&lt;/li&gt;
@@ -93,13 +93,13 @@ git config --global user.email john@example.com
 &lt;li&gt;SHA-1 checksum&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;+++&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ git log
-commit 81752cd6a514fd2595c40f27c783d6887f84e6e6
-Author: Charalampos Malathounis &amp;lt;chmalathounis@agroapps.gr&amp;gt;
-Date:   Thu Apr 7 15:17:45 2022 +0000
-
-    Initial commit
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git log
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;commit 81752cd6a514fd2595c40f27c783d6887f84e6e6
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Author: Charalampos Malathounis &amp;lt;chmalathounis@agroapps.gr&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Date:   Thu Apr 7 15:17:45 2022 +0000
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Initial commit
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id=&#34;dont-fear-the-git&#34;&gt;don&amp;rsquo;t fear the git&lt;/h2&gt;
 &lt;p&gt;Git won&amp;rsquo;t bite, instead it will :&lt;/p&gt;
 &lt;ul&gt;
@@ -152,26 +152,26 @@ You could destroy/change servers and continue with:&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;practice-once-use-everywhere&#34;&gt;practice once, use everywhere&lt;/h2&gt;
 &lt;p&gt;&amp;hellip;.you don&amp;rsquo;t need a server&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git init &amp;amp;&amp;amp; git commit -a -m &amp;#39;msg&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;when you don&amp;rsquo;t know what to do&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ git status
-On branch main
-Your branch is up to date with &amp;#39;origin/main&amp;#39;.
-
-Changes not staged for commit:
-  (use &amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34; to update what will be committed)
-  (use &amp;#34;git restore &amp;lt;file&amp;gt;...&amp;#34; to discard changes in working directory)
-	modified:   docker-compose.yml
-
-Untracked files:
-  (use &amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34; to include in what will be committed)
-	.idea/
-	db_sink/
-	file_records/
-	record_transformer/
-
-no changes added to commit (use &amp;#34;git add&amp;#34; and/or &amp;#34;git commit -a&amp;#34;)
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init &amp;amp;&amp;amp; git commit -a -m &amp;#39;msg&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;when you don&amp;rsquo;t know what to do&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git status
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;On branch main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Your branch is up to date with &amp;#39;origin/main&amp;#39;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Changes not staged for commit:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  (use &amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34; to update what will be committed)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  (use &amp;#34;git restore &amp;lt;file&amp;gt;...&amp;#34; to discard changes in working directory)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	modified:   docker-compose.yml
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Untracked files:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  (use &amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34; to include in what will be committed)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	.idea/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	db_sink/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	file_records/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	record_transformer/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;no changes added to commit (use &amp;#34;git add&amp;#34; and/or &amp;#34;git commit -a&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id=&#34;tips&#34;&gt;tips&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;learn the basics with command line and then use a GUI client&lt;/li&gt;
@@ -252,10 +252,10 @@ $$&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
 &lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} One {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} **Two** {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} Three {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
 &lt;span class=&#34;fragment &#34; &gt;
   One
 &lt;/span&gt;

@@ -150,9 +150,9 @@ A PR is a request to the repository owner to merge your changes back into the or
 &lt;hr&gt;
 &lt;h2 id=&#34;init&#34;&gt;init&lt;/h2&gt;
 &lt;p&gt;Install, then&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;#34;John Smith&amp;#34;
-git config --global user.email john@example.com
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Every commit is unique, it contains:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &amp;#34;John Smith&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email john@example.com
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Every commit is unique, it contains:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;a snapshot of the project&lt;/li&gt;
 &lt;li&gt;user information&lt;/li&gt;
@@ -161,13 +161,13 @@ git config --global user.email john@example.com
 &lt;li&gt;SHA-1 checksum&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;+++&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ git log
-commit 81752cd6a514fd2595c40f27c783d6887f84e6e6
-Author: Charalampos Malathounis &amp;lt;chmalathounis@agroapps.gr&amp;gt;
-Date:   Thu Apr 7 15:17:45 2022 +0000
-
-    Initial commit
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git log
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;commit 81752cd6a514fd2595c40f27c783d6887f84e6e6
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Author: Charalampos Malathounis &amp;lt;chmalathounis@agroapps.gr&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Date:   Thu Apr 7 15:17:45 2022 +0000
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Initial commit
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id=&#34;dont-fear-the-git&#34;&gt;don&amp;rsquo;t fear the git&lt;/h2&gt;
 &lt;p&gt;Git won&amp;rsquo;t bite, instead it will :&lt;/p&gt;
 &lt;ul&gt;
@@ -220,26 +220,26 @@ You could destroy/change servers and continue with:&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;practice-once-use-everywhere&#34;&gt;practice once, use everywhere&lt;/h2&gt;
 &lt;p&gt;&amp;hellip;.you don&amp;rsquo;t need a server&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git init &amp;amp;&amp;amp; git commit -a -m &amp;#39;msg&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;when you don&amp;rsquo;t know what to do&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ git status
-On branch main
-Your branch is up to date with &amp;#39;origin/main&amp;#39;.
-
-Changes not staged for commit:
-  (use &amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34; to update what will be committed)
-  (use &amp;#34;git restore &amp;lt;file&amp;gt;...&amp;#34; to discard changes in working directory)
-	modified:   docker-compose.yml
-
-Untracked files:
-  (use &amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34; to include in what will be committed)
-	.idea/
-	db_sink/
-	file_records/
-	record_transformer/
-
-no changes added to commit (use &amp;#34;git add&amp;#34; and/or &amp;#34;git commit -a&amp;#34;)
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init &amp;amp;&amp;amp; git commit -a -m &amp;#39;msg&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;when you don&amp;rsquo;t know what to do&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git status
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;On branch main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Your branch is up to date with &amp;#39;origin/main&amp;#39;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Changes not staged for commit:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  (use &amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34; to update what will be committed)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  (use &amp;#34;git restore &amp;lt;file&amp;gt;...&amp;#34; to discard changes in working directory)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	modified:   docker-compose.yml
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Untracked files:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  (use &amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34; to include in what will be committed)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	.idea/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	db_sink/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	file_records/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	record_transformer/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;no changes added to commit (use &amp;#34;git add&amp;#34; and/or &amp;#34;git commit -a&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id=&#34;tips&#34;&gt;tips&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;learn the basics with command line and then use a GUI client&lt;/li&gt;
@@ -312,22 +312,6 @@ maintenance (&lt;code&gt;git fsck&lt;/code&gt;)&lt;/p&gt;
       <link>https://georgelitos.com/talk/my-talk-name/</link>
       <pubDate>Sun, 02 Jun 2019 22:55:01 +0300</pubDate>
       <guid>https://georgelitos.com/talk/my-talk-name/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My Project Name2</title>
-      <link>https://georgelitos.com/project/my-project-name2/</link>
-      <pubDate>Sun, 02 Jun 2019 22:54:49 +0300</pubDate>
-      <guid>https://georgelitos.com/project/my-project-name2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My Project Name</title>
-      <link>https://georgelitos.com/project/my-project-name/</link>
-      <pubDate>Sun, 02 Jun 2019 22:54:44 +0300</pubDate>
-      <guid>https://georgelitos.com/project/my-project-name/</guid>
       <description></description>
     </item>
     
@@ -433,10 +417,10 @@ $$&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
 &lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} One {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} **Two** {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} Three {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
 &lt;span class=&#34;fragment &#34; &gt;
   One
 &lt;/span&gt;
@@ -523,24 +507,11 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://georgelitos.com/project/external-project/</link>
+      <title>Typhon</title>
+      <link>https://georgelitos.com/project/typhon/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://georgelitos.com/project/external-project/</guid>
+      <guid>https://georgelitos.com/project/typhon/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Project</title>
-      <link>https://georgelitos.com/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://georgelitos.com/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -605,6 +576,16 @@ $$&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://georgelitos.com/admin/config.yml</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Whoops! Page not found</title>
+      <link>https://georgelitos.com/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://georgelitos.com/404/</guid>
+      <description>&lt;p&gt;That page can&amp;rsquo;t be found.&lt;/p&gt;
+&lt;p&gt;Our latest content is &lt;a href=&#34;https://georgelitos.com/&#34;&gt;on the homepage&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

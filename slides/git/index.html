@@ -22,8 +22,18 @@
 
   <title>Slides | George Litos</title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/theme/league.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" id="highlight-theme">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/league.min.css">
 
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css">
+  
+
+  
   
   
   <link rel="stylesheet" href="/css/reveal_custom.min.css">
@@ -156,9 +166,9 @@ A PR is a request to the repository owner to merge your changes back into the or
       
 <h2 id="init">init</h2>
 <p>Install, then</p>
-<pre tabindex="0"><code>git config --global user.name &#34;John Smith&#34;
-git config --global user.email john@example.com
-</code></pre><p>Every commit is unique, it contains:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git config --global user.name &#34;John Smith&#34;
+</span></span><span class="line"><span class="cl">git config --global user.email john@example.com
+</span></span></code></pre></div><p>Every commit is unique, it contains:</p>
 <ol>
 <li>a snapshot of the project</li>
 <li>user information</li>
@@ -167,13 +177,13 @@ git config --global user.email john@example.com
 <li>SHA-1 checksum</li>
 </ol>
 <p>+++</p>
-<pre tabindex="0"><code>$ git log
-commit 81752cd6a514fd2595c40f27c783d6887f84e6e6
-Author: Charalampos Malathounis &lt;chmalathounis@agroapps.gr&gt;
-Date:   Thu Apr 7 15:17:45 2022 +0000
-
-    Initial commit
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ git log
+</span></span><span class="line"><span class="cl">commit 81752cd6a514fd2595c40f27c783d6887f84e6e6
+</span></span><span class="line"><span class="cl">Author: Charalampos Malathounis &lt;chmalathounis@agroapps.gr&gt;
+</span></span><span class="line"><span class="cl">Date:   Thu Apr 7 15:17:45 2022 +0000
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    Initial commit
+</span></span></code></pre></div>
     </section>
     
 
@@ -280,26 +290,26 @@ You could destroy/change servers and continue with:</p>
       
 <h2 id="practice-once-use-everywhere">practice once, use everywhere</h2>
 <p>&hellip;.you don&rsquo;t need a server</p>
-<pre tabindex="0"><code>git init &amp;&amp; git commit -a -m &#39;msg&#39;
-</code></pre><p>when you don&rsquo;t know what to do</p>
-<pre tabindex="0"><code>$ git status
-On branch main
-Your branch is up to date with &#39;origin/main&#39;.
-
-Changes not staged for commit:
-  (use &#34;git add &lt;file&gt;...&#34; to update what will be committed)
-  (use &#34;git restore &lt;file&gt;...&#34; to discard changes in working directory)
-	modified:   docker-compose.yml
-
-Untracked files:
-  (use &#34;git add &lt;file&gt;...&#34; to include in what will be committed)
-	.idea/
-	db_sink/
-	file_records/
-	record_transformer/
-
-no changes added to commit (use &#34;git add&#34; and/or &#34;git commit -a&#34;)
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git init &amp;&amp; git commit -a -m &#39;msg&#39;
+</span></span></code></pre></div><p>when you don&rsquo;t know what to do</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ git status
+</span></span><span class="line"><span class="cl">On branch main
+</span></span><span class="line"><span class="cl">Your branch is up to date with &#39;origin/main&#39;.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Changes not staged for commit:
+</span></span><span class="line"><span class="cl">  (use &#34;git add &lt;file&gt;...&#34; to update what will be committed)
+</span></span><span class="line"><span class="cl">  (use &#34;git restore &lt;file&gt;...&#34; to discard changes in working directory)
+</span></span><span class="line"><span class="cl">	modified:   docker-compose.yml
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Untracked files:
+</span></span><span class="line"><span class="cl">  (use &#34;git add &lt;file&gt;...&#34; to include in what will be committed)
+</span></span><span class="line"><span class="cl">	.idea/
+</span></span><span class="line"><span class="cl">	db_sink/
+</span></span><span class="line"><span class="cl">	file_records/
+</span></span><span class="line"><span class="cl">	record_transformer/
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">no changes added to commit (use &#34;git add&#34; and/or &#34;git commit -a&#34;)
+</span></span></code></pre></div>
     </section>
     
 
@@ -379,13 +389,13 @@ maintenance (<code>git fsck</code>)</p>
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/highlight/highlight.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
 
   
   
@@ -395,7 +405,9 @@ maintenance (<code>git fsck</code>)</p>
   
 
   
+  
 
+  
   
   <script src="/js/wowchemy-slides.js"></script>
 
