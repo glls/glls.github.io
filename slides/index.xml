@@ -15,11 +15,7 @@
 &lt;section data-noprocess data-shortcode-slide
   
       
-<<<<<<< HEAD
       id=&#34;start&#34;
-=======
-      id=&#34;starto&#34;
->>>>>>> 1393de814046c7c8279b5c453405c2ca10953834
   
       
       data-transition=&#34;zoom&#34;
@@ -30,17 +26,12 @@
 
 &lt;h1 id=&#34;git&#34;&gt;Git&lt;/h1&gt;
 &lt;h2 id=&#34;not-just-version-control&#34;&gt;not just version control&lt;/h2&gt;
-<<<<<<< HEAD
-=======
-&lt;!--v--&gt;
->>>>>>> 1393de814046c7c8279b5c453405c2ca10953834
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official site&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://git-scm.com/book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pro Git&lt;/a&gt; by Scott Chacon and Ben Straub&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.syncfusion.com/succinctly-free-ebooks/git/overview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Succinctly&lt;/a&gt; by Ryan Hodson&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-<<<<<<< HEAD
 &lt;p&gt;vertical
 1&lt;/p&gt;
 &lt;hr&gt;
@@ -56,9 +47,6 @@
 &lt;/span&gt; &lt;span class=&#34;fragment &#34; &gt;
   Three
 &lt;/span&gt;
-=======
-&lt;h2 id=&#34;a-bit-of-history&#34;&gt;a bit of history&lt;/h2&gt;
->>>>>>> 1393de814046c7c8279b5c453405c2ca10953834
 &lt;p&gt;Git was originally authored by &lt;a href=&#34;https://en.wikipedia.org/wiki/Linus_Torvalds&#34; title=&#34;Linus Torvalds&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linus Torvalds&lt;/a&gt; in 2005 for development of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux_kernel&#34; title=&#34;Linux kernel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux kernel&lt;/a&gt;, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;As with most other &lt;a href=&#34;https://en.wikipedia.org/wiki/Distributed_version_control&#34; title=&#34;Distributed version control&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;distributed version control&lt;/a&gt; systems, and unlike most client–server systems, every Git &lt;a href=&#34;https://en.wikipedia.org/wiki/Directory_%28computing%29&#34; title=&#34;Directory (computing)&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;directory&lt;/a&gt; on every &lt;a href=&#34;https://en.wikipedia.org/wiki/Node_%28networking%29&#34; title=&#34;Node (networking)&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;computer&lt;/a&gt; is a full-fledged &lt;a href=&#34;https://en.wikipedia.org/wiki/Repository_%28version_control%29&#34; title=&#34;Repository (version control)&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository&lt;/a&gt; with complete history and full version-tracking abilities, independent of network access or a central server. Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_software&#34; title=&#34;Free and open-source software&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;free and open-source software&lt;/a&gt; distributed under the &lt;a href=&#34;https://en.wikipedia.org/wiki/GNU_General_Public_License&#34; title=&#34;GNU General Public License&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPL-2.0-only&lt;/a&gt; license.&lt;/p&gt;
@@ -117,10 +105,6 @@ A PR is a request to the repository owner to merge your changes back into the or
 &lt;li&gt;commit message&lt;/li&gt;
 &lt;li&gt;SHA-1 checksum&lt;/li&gt;
 &lt;/ol&gt;
-<<<<<<< HEAD
-=======
-&lt;p&gt;+++&lt;/p&gt;
->>>>>>> 1393de814046c7c8279b5c453405c2ca10953834
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git log
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;commit 81752cd6a514fd2595c40f27c783d6887f84e6e6
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Author: Charalampos Malathounis &amp;lt;chmalathounis@agroapps.gr&amp;gt;
