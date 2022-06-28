@@ -5,7 +5,7 @@
     <link>https://georgelitos.com/project/</link>
       <atom:link href="https://georgelitos.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 02 Jun 2019 22:54:49 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0000</lastBuildDate>
     <image>
       <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,40 +13,43 @@
     </image>
     
     <item>
-      <title>My Project Name2</title>
-      <link>https://georgelitos.com/project/my-project-name2/</link>
-      <pubDate>Sun, 02 Jun 2019 22:54:49 +0300</pubDate>
-      <guid>https://georgelitos.com/project/my-project-name2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My Project Name</title>
-      <link>https://georgelitos.com/project/my-project-name/</link>
-      <pubDate>Sun, 02 Jun 2019 22:54:44 +0300</pubDate>
-      <guid>https://georgelitos.com/project/my-project-name/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>https://georgelitos.com/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://georgelitos.com/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Project</title>
-      <link>https://georgelitos.com/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://georgelitos.com/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>Research Projects</title>
+      <link>https://georgelitos.com/project/research_projects/</link>
+      <pubDate>Tue, 04 Jun 2019 23:23:00 +0000</pubDate>
+      <guid>https://georgelitos.com/project/research_projects/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ARESIBO&lt;/strong&gt; - Augmented Reality Enriched Situation awareness for Border security (S/C:AdMeS, H2020:833805)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MaTHiSiS&lt;/strong&gt; - Managing Affective-learning THrough Intelligent atoms and Smart InteractionS (2016: H2020 IA)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ASGARD&lt;/strong&gt; (2016:H2020 RIA) Analysis System for Gathered Raw Data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LASIE&lt;/strong&gt; (2014:IP) Large Scale Information Exploitation of Forensic Data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ADVISE&lt;/strong&gt; (285024) Advanced Video Surveillance archives search Engine for security applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;I-SEARCH&lt;/strong&gt; (FP7): A Unified Framework for Multimodal Content Search.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BOEMIE&lt;/strong&gt; (27538): Bootstrapping Ontology Evolution with Multimedia Information Extraction.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ELU&lt;/strong&gt; (027866): Enhanced Learning Unlimited.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3DTV&lt;/strong&gt; IST Project (Network of Excellence): Integrated Three-Dimensional Television - Capture, Transmission, and Display.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ASPIS&lt;/strong&gt; (IST-1999-12554): An Authentication and Protection Innovative Software System for DVD-ROM and Internet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HISCORE&lt;/strong&gt; IST Project: High Speed 3D and Colour Interface to the Real World.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BIOSEC&lt;/strong&gt; IST Project (2124): Biometrics and Security.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;INTERVUSE&lt;/strong&gt; IST Project (2109): Integrated Radar, Flight Plan and Digital Video Data Fusion for SMGCS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OTELO&lt;/strong&gt; IST Project (2112): Mobile Tele-Echography using an Ultra-Light Robot.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;P2PEOPLE&lt;/strong&gt; IST Project: P2P &amp;ldquo;Common interests&amp;rdquo; Search Engine and Collaboration Platform.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;X-Media&lt;/strong&gt; (026978) Knowledge Sharing and Reuse Across Media.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PESCADO&lt;/strong&gt; Personalized Environmental Service Configuration and Delivery Orchestration.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ASSETS&lt;/strong&gt; (250527) Advanced Search Services and Enhanced Technological Solutions for the European Digital Library.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;REVERIE&lt;/strong&gt; (287723) REal and Virtual Engagement in Realistic Immersive Environments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;E-MUNIS&lt;/strong&gt; / IST-2001-33037 Electronic Municipal Information Services - Best Practice Transfer and Improvement Project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ΧΕΙΛΙΟΤΗΛΕΦΩΝΟ&lt;/strong&gt; (ΓΓΕΤ-ΕΠΕΤ ΙΙ): Σύστημα Εικονοτηλεφώνου για Κωφούς.&lt;/li&gt;
+&lt;li&gt;Ανάπτυξη Πρωτοποριακού Υπολογιστικού Εργαλείου Υποστήριξης και Αυτοματοποίησης της Μεταφραστικής Διαδικασίας (ΓΓΕΤ-ΠΑΒΕΤ).&lt;/li&gt;
+&lt;/ol&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Typhon</title>
+      <link>https://georgelitos.com/project/typhon/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://georgelitos.com/project/typhon/</guid>
+      <description></description>
     </item>
     
   </channel>

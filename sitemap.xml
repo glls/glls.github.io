@@ -16,51 +16,35 @@
   <url>
     <loc>https://georgelitos.com/talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2019-06-04T23:23:00+03:00</lastmod></url>
+    <loc>https://georgelitos.com/slides/</loc><lastmod>2022-06-25T00:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2019-06-04T23:23:00+03:00</lastmod></url>
+    <loc>https://georgelitos.com/slides/git/</loc><lastmod>2022-06-25T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://georgelitos.com/post/</loc><lastmod>2019-06-04T23:23:00+03:00</lastmod></url>
+    <loc>https://georgelitos.com/project/</loc><lastmod>2022-03-03T23:23:00+00:00</lastmod></url>
   <url>
-    <loc>https://georgelitos.com/tag/rd/</loc><lastmod>2019-06-04T23:23:00+03:00</lastmod></url>
+    <loc>https://georgelitos.com/tag/rd/</loc><lastmod>2022-03-03T23:23:00+00:00</lastmod></url>
   <url>
-    <loc>https://georgelitos.com/post/research_projects/</loc><lastmod>2019-06-04T23:23:00+03:00</lastmod></url>
+    <loc>https://georgelitos.com/project/research_projects/</loc><lastmod>2022-03-03T23:23:00+00:00</lastmod></url>
   <url>
-    <loc>https://georgelitos.com/tags/</loc><lastmod>2019-06-04T23:23:00+03:00</lastmod></url>
+    <loc>https://georgelitos.com/tags/</loc><lastmod>2022-03-03T23:23:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/talk/my-talk-name/</loc><lastmod>2019-06-02T22:55:01+03:00</lastmod></url>
-  <url>
-    <loc>https://georgelitos.com/project/my-project-name2/</loc><lastmod>2019-06-02T22:54:49+03:00</lastmod></url>
-  <url>
-    <loc>https://georgelitos.com/project/</loc><lastmod>2019-06-02T22:54:49+03:00</lastmod></url>
-  <url>
-    <loc>https://georgelitos.com/project/my-project-name/</loc><lastmod>2019-06-02T22:54:44+03:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/courses/</loc><lastmod>2019-05-05T00:00:00+01:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/post/jupyter/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://georgelitos.com/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod></url>
+    <loc>https://georgelitos.com/post/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://georgelitos.com/slides/git/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://georgelitos.com/publication-type/1/</loc><lastmod>2017-07-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2017-07-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/tag/cctv/</loc><lastmod>2017-07-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/tag/face-matching/</loc><lastmod>2017-07-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/tag/face-recognition/</loc><lastmod>2017-07-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2017-07-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2017-07-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2017-07-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/publication_types/</loc><lastmod>2017-07-01T00:00:00+00:00</lastmod></url>
   <url>
@@ -70,23 +54,19 @@
   <url>
     <loc>https://georgelitos.com/publication/toomanyeyes/</loc><lastmod>2017-07-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://georgelitos.com/tag/deep-learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
+    <loc>https://georgelitos.com/tag/ocr/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://georgelitos.com/tag/demo/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
+    <loc>https://georgelitos.com/tag/opencv/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://georgelitos.com/project/external-project/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
+    <loc>https://georgelitos.com/tag/python/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://georgelitos.com/project/internal-project/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
+    <loc>https://georgelitos.com/tag/tool/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://georgelitos.com/project/typhon/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/publication-type/2/</loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/tag/3d-object-retrieval/</loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/categories/</loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
   <url>
@@ -96,33 +76,13 @@
   <url>
     <loc>https://georgelitos.com/tag/feature-selection/</loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://georgelitos.com/publication/3d-object-retrieval/</loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/tag/manifold-learning/</loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://georgelitos.com/tag/rotation-estimation/</loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://georgelitos.com/publication/shrec/</loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2012-04-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/publication-type/6/</loc><lastmod>2011-05-01T00:00:00+00:00</lastmod></url>
   <url>
@@ -132,19 +92,11 @@
   <url>
     <loc>https://georgelitos.com/tag/descriptive-metadata/</loc><lastmod>2011-05-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2011-05-01T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://georgelitos.com/tag/image-annotation/</loc><lastmod>2011-05-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2011-05-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/tag/semantic-annotation/</loc><lastmod>2011-05-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2011-05-01T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://georgelitos.com/tag/video-annotation/</loc><lastmod>2011-05-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2011-05-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/publication/3d-model-retrieval/</loc><lastmod>2011-04-16T00:00:00+00:00</lastmod></url>
   <url>
@@ -164,8 +116,6 @@
   <url>
     <loc>https://georgelitos.com/tag/computer-vision/</loc><lastmod>2006-06-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2006-06-01T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://georgelitos.com/tag/hardware/</loc><lastmod>2006-06-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/tag/light-emitting-diodes/</loc><lastmod>2006-06-01T00:00:00+00:00</lastmod></url>
@@ -178,33 +128,19 @@
   <url>
     <loc>https://georgelitos.com/publication/network-synchronization/</loc><lastmod>2006-06-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2006-06-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2006-01-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2006-01-01T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://georgelitos.com/tag/enhancement-layer/</loc><lastmod>2006-01-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/tag/force-feedback/</loc><lastmod>2006-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2006-01-01T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://georgelitos.com/tag/haptic-device/</loc><lastmod>2006-01-01T00:00:00+00:00</lastmod></url>
   <url>
-    <loc></loc><lastmod>2006-01-01T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://georgelitos.com/tag/motion-vector/</loc><lastmod>2006-01-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2006-01-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/publication/mobile-tele-echography/</loc><lastmod>2006-01-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/tag/virtual-reality-environment/</loc><lastmod>2006-01-01T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/tag/biomedical-imaging/</loc><lastmod>2005-03-07T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc></loc><lastmod>2005-03-07T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://georgelitos.com/tag/feedback/</loc><lastmod>2005-03-07T00:00:00+00:00</lastmod></url>
   <url>

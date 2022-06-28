@@ -22,8 +22,18 @@
 
   <title>Slides | George Litos</title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/theme/black.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" id="highlight-theme">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/league.min.css">
 
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css">
+  
+
+  
   
   
   <link rel="stylesheet" href="/css/reveal_custom.min.css">
@@ -49,230 +59,26 @@
     
     
     
-    <section>
-    
-      <h1 id="welcome-to-slides">Welcome to Slides</h1>
-<p><a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic</a></p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
       
-<h2 id="features">Features</h2>
-<ul>
-<li>Efficiently write slides in Markdown</li>
-<li>3-in-1: Create, Present, and Publish your slides</li>
-<li>Supports speaker notes</li>
-<li>Mobile friendly slides</li>
-</ul>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="controls">Controls</h2>
-<ul>
-<li>Next: <code>Right Arrow</code> or <code>Space</code></li>
-<li>Previous: <code>Left Arrow</code></li>
-<li>Start: <code>Home</code></li>
-<li>Finish: <code>End</code></li>
-<li>Overview: <code>Esc</code></li>
-<li>Speaker notes: <code>S</code></li>
-<li>Fullscreen: <code>F</code></li>
-<li>Zoom: <code>Alt + Click</code></li>
-<li><a href="https://github.com/hakimel/reveal.js#pdf-export" target="_blank" rel="noopener">PDF Export</a>: <code>E</code></li>
-</ul>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="code-highlighting">Code Highlighting</h2>
-<p>Inline code: <code>variable</code></p>
-<p>Code block:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">porridge</span> <span class="o">=</span> <span class="s2">&#34;blueberry&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">porridge</span> <span class="o">==</span> <span class="s2">&#34;blueberry&#34;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Eating...&#34;</span><span class="p">)</span>
-</span></span></code></pre></div>
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="math">Math</h2>
-<p>In-line math: $x + y = z$</p>
-<p>Block math:</p>
-<p>$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="fragments">Fragments</h2>
-<p>Make content appear incrementally</p>
-<pre tabindex="0"><code>{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-</code></pre><p>Press <code>Space</code> to play!</p>
-<span class="fragment " >
-  One
-</span>
-<span class="fragment " >
-  <strong>Two</strong>
-</span>
-<span class="fragment " >
-  Three
-</span>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<p>A fragment can accept two optional parameters:</p>
-<ul>
-<li><code>class</code>: use a custom style (requires definition in custom CSS)</li>
-<li><code>weight</code>: sets the order in which a fragment appears</li>
-</ul>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="speaker-notes">Speaker Notes</h2>
-<p>Add speaker notes to your presentation</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{% speaker_note %}}
-</span></span><span class="line"><span class="cl"><span class="k">-</span> Only the speaker can read these notes
-</span></span><span class="line"><span class="cl"><span class="k">-</span> Press <span class="sb">`S`</span> key to view
-</span></span><span class="line"><span class="cl">{{% /speaker_note %}}
-</span></span></code></pre></div><p>Press the <code>S</code> key to view the speaker notes!</p>
-<aside class="notes">
-  <ul>
-<li>Only the speaker can read these notes</li>
-<li>Press <code>S</code> key to view</li>
-</ul>
-
-</aside>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="themes">Themes</h2>
-<ul>
-<li>black: Black background, white text, blue links (default)</li>
-<li>white: White background, black text, blue links</li>
-<li>league: Gray background, white text, blue links</li>
-<li>beige: Beige background, dark text, brown links</li>
-<li>sky: Blue background, thin dark text, blue links</li>
-</ul>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<ul>
-<li>night: Black background, thick white text, orange links</li>
-<li>serif: Cappuccino background, gray text, brown links</li>
-<li>simple: White background, black text, blue links</li>
-<li>solarized: Cream-colored background, dark green text, blue links</li>
-</ul>
-
-    </section>
-    
-
-    
-    
-    
-      
-
 <section data-noprocess data-shortcode-slide
   
       
-      data-background-image="/img/boards.jpg"
+      id="start"
+  
+      
+      data-transition="zoom"
+  
+      
+      data-transition-speed="fast"
   >
 
-<h2 id="custom-slide">Custom Slide</h2>
-<p>Customize the slide style and background</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">slide</span> <span class="na">background-image</span><span class="o">=</span><span class="s">&#34;/img/boards.jpg&#34;</span> <span class="p">&gt;</span>}}
-</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">slide</span> <span class="na">background-color</span><span class="o">=</span><span class="s">&#34;#0000FF&#34;</span> <span class="p">&gt;</span>}}
-</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">slide</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;my-style&#34;</span> <span class="p">&gt;</span>}}
-</span></span></code></pre></div>
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="custom-css-example">Custom CSS Example</h2>
-<p>Let&rsquo;s make headers navy colored.</p>
-<p>Create <code>assets/css/reveal_custom.css</code> with:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">.</span><span class="nc">reveal</span> <span class="nt">section</span> <span class="nt">h1</span><span class="o">,</span>
-</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">reveal</span> <span class="nt">section</span> <span class="nt">h2</span><span class="o">,</span>
-</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">reveal</span> <span class="nt">section</span> <span class="nt">h3</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="k">color</span><span class="p">:</span> <span class="kc">navy</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div>
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h1 id="questions">Questions?</h1>
-<p><a href="https://discourse.gohugo.io" target="_blank" rel="noopener">Ask</a></p>
-<p><a href="https://sourcethemes.com/academic/docs/" target="_blank" rel="noopener">Documentation</a></p>
+<h1 id="git">Git</h1>
+<h2 id="not-just-version-control">not just version control</h2>
+<ul>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener">Official site</a></li>
+<li><a href="https://git-scm.com/book" target="_blank" rel="noopener">Pro Git</a> by Scott Chacon and Ben Straub</li>
+<li><a href="https://www.syncfusion.com/succinctly-free-ebooks/git/overview" target="_blank" rel="noopener">Git Succinctly</a> by Ryan Hodson</li>
+</ul>
 
     </section>
     
@@ -283,11 +89,30 @@ $$</p>
     <section>
     
       
-<h1 id="versioning-101-with-git">Versioning 101 with Git</h1>
-<blockquote>
-<p>Official site : <a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a> &gt; <a href="https://git-scm.com/book" target="_blank" rel="noopener">Pro Git</a> by Scott Chacon and Ben Straub is available to read online for free.
-<a href="https://www.syncfusion.com/succinctly-free-ebooks/git/overview" target="_blank" rel="noopener">Git Succinctly</a> by Ryan Hodson</p>
-</blockquote>
+<p>vertical
+1</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>2</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>3</p>
 
     </section>
     
@@ -299,7 +124,25 @@ $$</p>
     
       
 <h2 id="a-bit-of-history">a bit of history</h2>
-<p>Git was originally authored by <a href="https://en.wikipedia.org/wiki/Linus_Torvalds" title="Linus Torvalds" target="_blank" rel="noopener">Linus Torvalds</a> in 2005 for development of the <a href="https://en.wikipedia.org/wiki/Linux_kernel" title="Linux kernel" target="_blank" rel="noopener">Linux kernel</a>, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer. As with most other <a href="https://en.wikipedia.org/wiki/Distributed_version_control" title="Distributed version control" target="_blank" rel="noopener">distributed version control</a> systems, and unlike most client–server systems, every Git <a href="https://en.wikipedia.org/wiki/Directory_%28computing%29" title="Directory (computing)" target="_blank" rel="noopener">directory</a> on every <a href="https://en.wikipedia.org/wiki/Node_%28networking%29" title="Node (networking)" target="_blank" rel="noopener">computer</a> is a full-fledged <a href="https://en.wikipedia.org/wiki/Repository_%28version_control%29" title="Repository (version control)" target="_blank" rel="noopener">repository</a> with complete history and full version-tracking abilities, independent of network access or a central server. Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" title="Free and open-source software" target="_blank" rel="noopener">free and open-source software</a> distributed under the <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" title="GNU General Public License" target="_blank" rel="noopener">GPL-2.0-only</a> license.</p>
+<span class="fragment " >
+  One
+</span> <span class="fragment " >
+  Two
+</span> <span class="fragment " >
+  Three
+</span>
+<p>Git was originally authored by <a href="https://en.wikipedia.org/wiki/Linus_Torvalds" title="Linus Torvalds" target="_blank" rel="noopener">Linus Torvalds</a> in 2005 for development of the <a href="https://en.wikipedia.org/wiki/Linux_kernel" title="Linux kernel" target="_blank" rel="noopener">Linux kernel</a>, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p>As with most other <a href="https://en.wikipedia.org/wiki/Distributed_version_control" title="Distributed version control" target="_blank" rel="noopener">distributed version control</a> systems, and unlike most client–server systems, every Git <a href="https://en.wikipedia.org/wiki/Directory_%28computing%29" title="Directory (computing)" target="_blank" rel="noopener">directory</a> on every <a href="https://en.wikipedia.org/wiki/Node_%28networking%29" title="Node (networking)" target="_blank" rel="noopener">computer</a> is a full-fledged <a href="https://en.wikipedia.org/wiki/Repository_%28version_control%29" title="Repository (version control)" target="_blank" rel="noopener">repository</a> with complete history and full version-tracking abilities, independent of network access or a central server. Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" title="Free and open-source software" target="_blank" rel="noopener">free and open-source software</a> distributed under the <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" title="GNU General Public License" target="_blank" rel="noopener">GPL-2.0-only</a> license.</p>
 <p><a href="https://www.youtube.com/watch?v=4XpnKHJAok8&amp;t=90s" target="_blank" rel="noopener">Tech Talk: Linus Torvalds on git</a></p>
 
     </section>
@@ -312,13 +155,29 @@ $$</p>
     
       
 <h2 id="glossary">glossary</h2>
-<p><strong>Working directory - repository</strong>
-The working directory is the folder on your system that you want to track. Where you develop your project. Everything git releates is inside the <code>.git</code> folder. Serverless.</p>
-<p><strong>Git files</strong>
-Inside the working directory and beneath, you might find some git related files:</p>
-<p><strong>.gitattributes</strong> how to handle files
-<strong>.gitignore</strong> what to ignore
-<strong>.gitkeep</strong> keep an empty dir</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Working directory - repo</strong></td>
+<td>the working directory is the folder on your system that you want to track. Where you develop your project. Everything git related is inside the <code>.git</code> folder. Serverless.</td>
+</tr>
+<tr>
+<td><strong>Git files</strong></td>
+<td>Inside the working directory and beneath, you might find some git related files:</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>.gitattributes</strong> | how to handle files</li>
+<li><strong>.gitignore</strong> | what to ignore</li>
+<li><strong>.gitkeep</strong> | keep an empty dir</li>
+</ul>
 <p><strong>Tracked files</strong>
 Tracked files are the files in the working directory (repository) that Git manages.</p>
 <p><strong>The Staging Area</strong>
@@ -347,7 +206,7 @@ A PR is a request to the repository owner to merge your changes back into the or
       
 <h2 id="init">init</h2>
 <p>Install, then</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;John Smith&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git config --global user.name &#34;John Smith&#34;
 </span></span><span class="line"><span class="cl">git config --global user.email john@example.com
 </span></span></code></pre></div><p>Every commit is unique, it contains:</p>
 <ol>
@@ -357,10 +216,10 @@ A PR is a request to the repository owner to merge your changes back into the or
 <li>commit message</li>
 <li>SHA-1 checksum</li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">$ git log
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ git log
 </span></span><span class="line"><span class="cl">commit 81752cd6a514fd2595c40f27c783d6887f84e6e6
 </span></span><span class="line"><span class="cl">Author: Charalampos Malathounis &lt;chmalathounis@agroapps.gr&gt;
-</span></span><span class="line"><span class="cl">Date:   Thu Apr <span class="m">7</span> 15:17:45 <span class="m">2022</span> +0000
+</span></span><span class="line"><span class="cl">Date:   Thu Apr 7 15:17:45 2022 +0000
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    Initial commit
 </span></span></code></pre></div>
@@ -410,18 +269,34 @@ A PR is a request to the repository owner to merge your changes back into the or
 <li>choose workflow</li>
 <li>select which files to keep under version control</li>
 </ul>
-<ol>
-<li>Work on a project</li>
-</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="2-work-on-a-project">2. Work on a project</h3>
 <ul>
 <li>Working on a topic/feature/bugfix branch</li>
 <li>Splitting changes into logically separate steps</li>
 <li>Write a good commit message (e.g. present tense, short amd meaningfull)</li>
 <li>Preparing changes for submission</li>
 </ul>
-<ol>
-<li>Integrate</li>
-</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="3-integrate">3. Integrate</h2>
 <ul>
 <li>Submitting and describing changes</li>
 <li>Merge request to the main branch</li>
@@ -440,8 +315,8 @@ A PR is a request to the repository owner to merge your changes back into the or
 <h2 id="pull-the-servers-plug">pull the servers&rsquo; plug</h2>
 <p>You could rebuild and restart services anytime
 You could do a <code>sudo reboot</code>
-You could destroy/change servers and continue with:
-<code>rm -rf repo &amp;&amp; git clone repo &amp;&amp; cat README.md</code></p>
+You could destroy/change servers and continue with:</p>
+<p><code>rm -rf repo &amp;&amp; git clone repo &amp;&amp; cat README.md</code></p>
 
     </section>
     
@@ -453,25 +328,26 @@ You could destroy/change servers and continue with:
     
       
 <h2 id="practice-once-use-everywhere">practice once, use everywhere</h2>
-<p><code>git init</code> &amp;&amp; <code>git commit -a -m 'msg'</code> &hellip;.you don&rsquo;t need a server
-when you don&rsquo;t know what to do type:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">$ git status
+<p>&hellip;.you don&rsquo;t need a server</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git init &amp;&amp; git commit -a -m &#39;msg&#39;
+</span></span></code></pre></div><p>when you don&rsquo;t know what to do</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ git status
 </span></span><span class="line"><span class="cl">On branch main
-</span></span><span class="line"><span class="cl">Your branch is up to date with <span class="s1">&#39;origin/main&#39;</span>.
+</span></span><span class="line"><span class="cl">Your branch is up to date with &#39;origin/main&#39;.
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Changes not staged <span class="k">for</span> commit:
-</span></span><span class="line"><span class="cl">  <span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to update what will be committed<span class="o">)</span>
-</span></span><span class="line"><span class="cl">  <span class="o">(</span>use <span class="s2">&#34;git restore &lt;file&gt;...&#34;</span> to discard changes in working directory<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Changes not staged for commit:
+</span></span><span class="line"><span class="cl">  (use &#34;git add &lt;file&gt;...&#34; to update what will be committed)
+</span></span><span class="line"><span class="cl">  (use &#34;git restore &lt;file&gt;...&#34; to discard changes in working directory)
 </span></span><span class="line"><span class="cl">	modified:   docker-compose.yml
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">Untracked files:
-</span></span><span class="line"><span class="cl">  <span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to include in what will be committed<span class="o">)</span>
+</span></span><span class="line"><span class="cl">  (use &#34;git add &lt;file&gt;...&#34; to include in what will be committed)
 </span></span><span class="line"><span class="cl">	.idea/
 </span></span><span class="line"><span class="cl">	db_sink/
 </span></span><span class="line"><span class="cl">	file_records/
 </span></span><span class="line"><span class="cl">	record_transformer/
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">no changes added to commit <span class="o">(</span>use <span class="s2">&#34;git add&#34;</span> and/or <span class="s2">&#34;git commit -a&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">no changes added to commit (use &#34;git add&#34; and/or &#34;git commit -a&#34;)
 </span></span></code></pre></div>
     </section>
     
@@ -552,13 +428,13 @@ maintenance (<code>git fsck</code>)</p>
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/dist/reveal.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/highlight/highlight.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.2.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
 
   
   
@@ -568,7 +444,9 @@ maintenance (<code>git fsck</code>)</p>
   
 
   
+  
 
+  
   
   <script src="/js/wowchemy-slides.js"></script>
 
