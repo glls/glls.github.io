@@ -114,10 +114,10 @@ Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" tit
 <figure  >
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="" srcset="
-               /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_786546e40bdbc54646296d8f4d0e7fd0.webp 400w,
+               /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_e16dc07820c04bf41be2fed8d4f20ac4.webp 400w,
                /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_bd456160f2ba5aea3744212bc68f7672.webp 760w,
                /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-               src="/slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_786546e40bdbc54646296d8f4d0e7fd0.webp"
+               src="/slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_e16dc07820c04bf41be2fed8d4f20ac4.webp"
                width="50%"
                height="50%"
                loading="lazy" data-zoomable /></div>
@@ -148,6 +148,10 @@ Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" tit
 <tr>
 <td><strong>Working directory - repo</strong></td>
 <td>the working directory is the folder on your system that you want to track. Where you develop your project. Everything git related is inside the <code>.git</code> folder. Serverless.</td>
+</tr>
+<tr>
+<td>Remote repository</td>
+<td>Remote repositories are versions of your project that are hosted on the Internet or network somewhere. You can have several of them, each of which generally is either RO or RW for you.</td>
 </tr>
 </tbody>
 </table>
@@ -283,7 +287,7 @@ Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" tit
     
       
 <section>
-<h2 id="git-init">git init</h2>
+<h1 id="git-init">git init</h1>
 <p>Install <a href="https://git-scm.com/" target="_blank" rel="noopener">git</a>, then</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;John Smith&#34;</span>
 </span></span><span class="line"><span class="cl">git config --global user.email john@example.com
@@ -345,8 +349,8 @@ Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" tit
     <section>
     
       
-<h2 id="dont-fear-the-git">don&rsquo;t fear the git</h2>
-<p>Git will help you:</p>
+<h1 id="dont-fear-the-git">don&rsquo;t fear the git!</h1>
+<p>Git will help</p>
 <ul>
 <li>backup your code</li>
 <li>cleanup your code base</li>
@@ -458,7 +462,7 @@ Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" tit
     
       
 <section>
-<h2 id="practice-and-use-everywhere">practice and use everywhere</h2>
+<h1 id="practice-and-use-everywhere">practice and use everywhere</h1>
 <p>&hellip;.you don&rsquo;t need a server</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git init
 </span></span><span class="line"><span class="cl">git commit -a -m <span class="s1">&#39;Commit message&#39;</span>
@@ -507,10 +511,11 @@ Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" tit
 <li>Learn the command line basics</li>
 <li>&hellip;and then use a GUI client</li>
 <li>Learn to use a diff tool (meld)</li>
-<li>Merge conflicts</li>
+<li>Resolve merge conflicts with GUI (Jetbrains)</li>
 <li>git reset &ndash;hard</li>
-<li>Use aliases</li>
-<li>Use the log/graph</li>
+<li>Use aliases (cmdline)</li>
+<li>Use the log/graph 😛</li>
+<li>Don&rsquo;t panic, recovery is (almost) always possible</li>
 </ul>
 
     </section>
@@ -540,14 +545,50 @@ Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" tit
     <section>
     
       
-<h2 id="best-and-worst-practices">best and worst practices</h2>
+<section>
+<h1 id="advanced-git">Advanced git</h1>
+<dl>
+<dt>Cherry-pick</dt>
+<dd><code>git cherry-pick</code> lets you select a commit from a branch to apply it to another branch.</dd>
+<dt>Using tags</dt>
+<dd>Git has the option to tag a commit in the repository so that you find it easier or mark an app version on a commit.</dd>
+</dl>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git tag 1.0.0 -m &#39;Release 1.0.0&#39;
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<dl>
+<dt>Stashing your changes</dt>
+<dd><code>git stash</code>  allows you to save the current state of the local repository and restore it later.</dd>
+<dt>Creating a patch</dt>
+<dd><code>git format-patch</code> command is useful to transfer a commit
+to another repository</dd>
+</dl>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<section>
+<h1 id="best-practices">best practices</h1>
 <ul>
-<li>Commit (local) often, send to server daily (at least EOD)</li>
-<li>Never rebase a branch that has been pushed to a public repository</li>
-<li>Write useful commit messages</li>
+<li>Commit (local) often</li>
+<li>Push daily (at least EOD)</li>
+<li><a href="https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/" target="_blank" rel="noopener">Write better commit messages</a></li>
 <li>Learn GitHub Markdown</li>
-<li>Don&rsquo;t panic, recovery is (almost) always possible</li>
-<li>Don&rsquo;t change the published history</li>
 </ul>
 
     </section>
@@ -559,7 +600,24 @@ Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" tit
     <section>
     
       
-<h2 id="resources">Resources</h2>
+<h1 id="and-worst">&hellip;and worst</h1>
+<ul>
+<li>Don&rsquo;t commit half-done work</li>
+<li>Don&rsquo;t change the published history</li>
+<li>Never rebase a branch that has been pushed to a public repository</li>
+</ul>
+</section>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="books">Books</h1>
 <p><a href="https://git-scm.com/book" target="_blank" rel="noopener">Pro Git</a> by Scott Chacon and Ben Straub
 
 
@@ -612,7 +670,28 @@ Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" tit
     <section>
     
       
-<h2 id="advanced-topics">Advanced topics</h2>
+<h1 id="cheatsheets">CheatSheets</h1>
+<ul>
+<li><a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank" rel="noopener">GitHub Education</a></li>
+<li><a href="http://codegofer.com/c/codegofer/git.recipes/29/index.html" target="_blank" rel="noopener">One-liners</a></li>
+</ul>
+<h1 id="tutorials">Tutorials</h1>
+<ul>
+<li><a href="https://rogerdudler.github.io/git-guide/" target="_blank" rel="noopener">git - the simple guide</a></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">man git
+</span></span><span class="line"><span class="cl">git help &lt;command&gt;
+</span></span></code></pre></div>
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="advanced-topics">Advanced topics</h1>
 <ul>
 <li><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line" target="_blank" rel="noopener">Resolving a merge conflict using the command line</a></li>
 <li><a href="https://cbea.ms/git-commit/" target="_blank" rel="noopener">How to Write a Git Commit Message</a></li>
@@ -620,8 +699,9 @@ Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" tit
 <li><a href="https://git-scm.com/book/en/v2/Distributed-Git-Maintaining-a-Project" target="_blank" rel="noopener">Distributed Git - Maintaining a Project</a></li>
 <li><a href="https://coderwall.com/p/0c-ayq/howto-split-a-git-repository-into-two" target="_blank" rel="noopener">Howto split a git repository into two</a></li>
 <li>git internals : <a href="https://matthew-brett.github.io/curious-git/curious_git.html" target="_blank" rel="noopener">Curious git</a></li>
+<li>Git Hooks</li>
 </ul>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"></code></pre></div>
     </section>
     
 

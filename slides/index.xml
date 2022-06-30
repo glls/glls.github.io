@@ -37,10 +37,10 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_786546e40bdbc54646296d8f4d0e7fd0.webp 400w,
+               /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_e16dc07820c04bf41be2fed8d4f20ac4.webp 400w,
                /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_bd456160f2ba5aea3744212bc68f7672.webp 760w,
                /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_786546e40bdbc54646296d8f4d0e7fd0.webp&#34;
+               src=&#34;https://georgelitos.com/slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_e16dc07820c04bf41be2fed8d4f20ac4.webp&#34;
                width=&#34;50%&#34;
                height=&#34;50%&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -62,6 +62,10 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Working directory - repo&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;the working directory is the folder on your system that you want to track. Where you develop your project. Everything git related is inside the &lt;code&gt;.git&lt;/code&gt; folder. Serverless.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Remote repository&lt;/td&gt;
+&lt;td&gt;Remote repositories are versions of your project that are hosted on the Internet or network somewhere. You can have several of them, each of which generally is either RO or RW for you.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -143,7 +147,7 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;/section&gt;
 &lt;hr&gt;
 &lt;section&gt;
-&lt;h2 id=&#34;git-init&#34;&gt;git init&lt;/h2&gt;
+&lt;h1 id=&#34;git-init&#34;&gt;git init&lt;/h1&gt;
 &lt;p&gt;Install &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git&lt;/a&gt;, then&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;John Smith&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email john@example.com
@@ -187,8 +191,8 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;/span&gt;
 &lt;/section&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;dont-fear-the-git&#34;&gt;don&amp;rsquo;t fear the git&lt;/h2&gt;
-&lt;p&gt;Git will help you:&lt;/p&gt;
+&lt;h1 id=&#34;dont-fear-the-git&#34;&gt;don&amp;rsquo;t fear the git!&lt;/h1&gt;
+&lt;p&gt;Git will help&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;backup your code&lt;/li&gt;
 &lt;li&gt;cleanup your code base&lt;/li&gt;
@@ -246,7 +250,7 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;/span&gt;
 &lt;hr&gt;
 &lt;section&gt;
-&lt;h2 id=&#34;practice-and-use-everywhere&#34;&gt;practice and use everywhere&lt;/h2&gt;
+&lt;h1 id=&#34;practice-and-use-everywhere&#34;&gt;practice and use everywhere&lt;/h1&gt;
 &lt;p&gt;&amp;hellip;.you don&amp;rsquo;t need a server&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -a -m &lt;span class=&#34;s1&#34;&gt;&amp;#39;Commit message&amp;#39;&lt;/span&gt;
@@ -277,10 +281,11 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;li&gt;Learn the command line basics&lt;/li&gt;
 &lt;li&gt;&amp;hellip;and then use a GUI client&lt;/li&gt;
 &lt;li&gt;Learn to use a diff tool (meld)&lt;/li&gt;
-&lt;li&gt;Merge conflicts&lt;/li&gt;
+&lt;li&gt;Resolve merge conflicts with GUI (Jetbrains)&lt;/li&gt;
 &lt;li&gt;git reset &amp;ndash;hard&lt;/li&gt;
-&lt;li&gt;Use aliases&lt;/li&gt;
-&lt;li&gt;Use the log/graph&lt;/li&gt;
+&lt;li&gt;Use aliases (cmdline)&lt;/li&gt;
+&lt;li&gt;Use the log/graph 😛&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t panic, recovery is (almost) always possible&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;github-tips&#34;&gt;Github tips&lt;/h2&gt;
@@ -292,17 +297,43 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;/ul&gt;
 &lt;/section&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;best-and-worst-practices&#34;&gt;best and worst practices&lt;/h2&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;advanced-git&#34;&gt;Advanced git&lt;/h1&gt;
+&lt;dl&gt;
+&lt;dt&gt;Cherry-pick&lt;/dt&gt;
+&lt;dd&gt;&lt;code&gt;git cherry-pick&lt;/code&gt; lets you select a commit from a branch to apply it to another branch.&lt;/dd&gt;
+&lt;dt&gt;Using tags&lt;/dt&gt;
+&lt;dd&gt;Git has the option to tag a commit in the repository so that you find it easier or mark an app version on a commit.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git tag 1.0.0 -m &amp;#39;Release 1.0.0&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;dl&gt;
+&lt;dt&gt;Stashing your changes&lt;/dt&gt;
+&lt;dd&gt;&lt;code&gt;git stash&lt;/code&gt;  allows you to save the current state of the local repository and restore it later.&lt;/dd&gt;
+&lt;dt&gt;Creating a patch&lt;/dt&gt;
+&lt;dd&gt;&lt;code&gt;git format-patch&lt;/code&gt; command is useful to transfer a commit
+to another repository&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;best-practices&#34;&gt;best practices&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;Commit (local) often, send to server daily (at least EOD)&lt;/li&gt;
-&lt;li&gt;Never rebase a branch that has been pushed to a public repository&lt;/li&gt;
-&lt;li&gt;Write useful commit messages&lt;/li&gt;
+&lt;li&gt;Commit (local) often&lt;/li&gt;
+&lt;li&gt;Push daily (at least EOD)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Write better commit messages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Learn GitHub Markdown&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t panic, recovery is (almost) always possible&lt;/li&gt;
-&lt;li&gt;Don&amp;rsquo;t change the published history&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;h1 id=&#34;and-worst&#34;&gt;&amp;hellip;and worst&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Don&amp;rsquo;t commit half-done work&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t change the published history&lt;/li&gt;
+&lt;li&gt;Never rebase a branch that has been pushed to a public repository&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;books&#34;&gt;Books&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://git-scm.com/book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pro Git&lt;/a&gt; by Scott Chacon and Ben Straub
 
 
@@ -346,7 +377,19 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://cdn.syncfusion.com/content/images/downloads/ebook/ebook-cover/Git-Succinctly.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;120&#34; height=&#34;160&#34; /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;advanced-topics&#34;&gt;Advanced topics&lt;/h2&gt;
+&lt;h1 id=&#34;cheatsheets&#34;&gt;CheatSheets&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://education.github.com/git-cheat-sheet-education.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Education&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://codegofer.com/c/codegofer/git.recipes/29/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;One-liners&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rogerdudler.github.io/git-guide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git - the simple guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;man git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git help &amp;lt;command&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;advanced-topics&#34;&gt;Advanced topics&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resolving a merge conflict using the command line&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://cbea.ms/git-commit/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to Write a Git Commit Message&lt;/a&gt;&lt;/li&gt;
@@ -354,8 +397,9 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Distributed-Git-Maintaining-a-Project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Distributed Git - Maintaining a Project&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://coderwall.com/p/0c-ayq/howto-split-a-git-repository-into-two&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Howto split a git repository into two&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;git internals : &lt;a href=&#34;https://matthew-brett.github.io/curious-git/curious_git.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curious git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Git Hooks&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
