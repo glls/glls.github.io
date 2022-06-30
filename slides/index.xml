@@ -65,7 +65,7 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Remote repository&lt;/td&gt;
-&lt;td&gt;Remote repositories are versions of your project that are hosted on the Internet or network somewhere. You can have several of them, each of which generally is either RO or RW for you.&lt;/td&gt;
+&lt;td&gt;Remote repositories are versions of your project that are hosted elsewhere. You can have several of them, each one is either RO or RW for you.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
