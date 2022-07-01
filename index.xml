@@ -283,9 +283,6 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;p&gt;Contribute to open source&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Get a job&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;Be famous 💰&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -609,7 +606,7 @@ to another repository&lt;/dd&gt;
 &lt;li&gt;&lt;a href=&#34;https://coderwall.com/p/0c-ayq/howto-split-a-git-repository-into-two&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Howto split a git repository into two&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;git internals : &lt;a href=&#34;https://matthew-brett.github.io/curious-git/curious_git.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curious git&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Git Hooks&lt;/li&gt;
-&lt;li&gt;Git Large File Storage&lt;/li&gt;
+&lt;li&gt;Git Large File Storage (LFS)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 </description>
