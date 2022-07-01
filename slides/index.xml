@@ -183,8 +183,6 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;Date:   Thu Apr 7 15:17:45 2022 +0000
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;go&#34;&gt;    Initial commit
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;go&#34;&gt;```
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/span&gt;
 &lt;/section&gt;
@@ -331,6 +329,7 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
   &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;install docker
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone repo
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat README.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;```&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/span&gt;
 &lt;hr&gt;
@@ -414,7 +413,7 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;dl&gt;
 &lt;dt&gt;Stashing your changes&lt;/dt&gt;
-&lt;dd&gt;&lt;code&gt;git stash&lt;/code&gt;  allows you to save the current state of the local repository and restore it later.&lt;/dd&gt;
+&lt;dd&gt;&lt;code&gt;git stash&lt;/code&gt; allows you to save the current state of the local repository and restore it later.&lt;/dd&gt;
 &lt;dt&gt;Creating a patch&lt;/dt&gt;
 &lt;dd&gt;&lt;code&gt;git format-patch&lt;/code&gt; command is useful to transfer a commit
 to another repository&lt;/dd&gt;
@@ -536,11 +535,11 @@ to another repository&lt;/dd&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/merging-vs-rebasing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Merging vs. Rebasing&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Distributed-Git-Maintaining-a-Project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Distributed Git - Maintaining a Project&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://coderwall.com/p/0c-ayq/howto-split-a-git-repository-into-two&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Howto split a git repository into two&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;git internals : &lt;a href=&#34;https://matthew-brett.github.io/curious-git/curious_git.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curious git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Git Hooks&lt;/li&gt;
-&lt;li&gt;Git Large File Storage (LFS)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://matthew-brett.github.io/curious-git/curious_git.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curious git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/git-hooks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Hooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-lfs.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Large File Storage (LFS)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+</description>
     </item>
     
     <item>
