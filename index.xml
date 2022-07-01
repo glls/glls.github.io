@@ -393,7 +393,7 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;ul&gt;
 &lt;li&gt;Rebuild and restart services anytime&lt;/li&gt;
 &lt;li&gt;Do a server &lt;code&gt;reboot&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Destroy🔥 change servers and redeploy&lt;/li&gt;
+&lt;li&gt;🔥 Change servers and redeploy&lt;/li&gt;
 &lt;/ul&gt;
 &lt;span class=&#34;fragment &#34; &gt;
   &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;install docker
@@ -442,9 +442,9 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;hr&gt;
 &lt;h2 id=&#34;resolve-merge-conflicts-with-gui&#34;&gt;Resolve merge conflicts with GUI&lt;/h2&gt;
 &lt;p&gt;(e.g. Jetbrains PhpStorm)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;resolveConflict.png&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;img src=&#34;resolveConflict.png&#34; /&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;om-my-zs-aliases&#34;&gt;om-my-zs aliases&lt;/h2&gt;
+&lt;h2 id=&#34;om-my-zsh-aliases&#34;&gt;om-my-zsh aliases&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;g=git
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ga=&amp;#39;git add&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gl=&amp;#39;git pull&amp;#39;
@@ -608,8 +608,7 @@ to another repository&lt;/dd&gt;
 &lt;li&gt;Git Hooks&lt;/li&gt;
 &lt;li&gt;Git Large File Storage (LFS)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-</description>
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
