@@ -13,8 +13,15 @@
       <guid>https://georgelitos.com/slides/git/</guid>
       <description>&lt;section&gt;
 &lt;h1 id=&#34;git&#34;&gt;Git&lt;/h1&gt;
+<<<<<<< HEAD
 &lt;h2 id=&#34;not-just-version-control-v2&#34;&gt;not just version control v2&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official site&lt;/a&gt;&lt;/p&gt;
+=======
+&lt;h2 id=&#34;not-just-version-control&#34;&gt;not just version control&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
 &lt;p&gt;👇🏼&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;a-bit-of-history&#34;&gt;a bit of history&lt;/h2&gt;
@@ -189,6 +196,7 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;/span&gt;
 &lt;/section&gt;
 &lt;hr&gt;
+<<<<<<< HEAD
 &lt;section&gt;
 &lt;h1 id=&#34;dont-fear-the-git&#34;&gt;don&amp;rsquo;t fear the git!&lt;/h1&gt;
 &lt;h2 id=&#34;git-will-help-&#34;&gt;Git will help 🥷&lt;/h2&gt;
@@ -307,6 +315,36 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;li&gt;Select which files to keep under version control&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+=======
+&lt;h1 id=&#34;dont-fear-the-git&#34;&gt;don&amp;rsquo;t fear the git!&lt;/h1&gt;
+&lt;p&gt;Git will help&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;backup your code&lt;/li&gt;
+&lt;li&gt;cleanup your code base&lt;/li&gt;
+&lt;li&gt;lint / beautify&lt;/li&gt;
+&lt;li&gt;test code (WIP)&lt;/li&gt;
+&lt;li&gt;help you code review&lt;/li&gt;
+&lt;li&gt;CI/CD (coming in near future)&lt;/li&gt;
+&lt;li&gt;merge requests&lt;/li&gt;
+&lt;li&gt;contribute to opensource / get a job / be famous&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;workflow&#34;&gt;workflow&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Use the &lt;a href=&#34;https://numpy.org/doc/stable/dev/development_workflow.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Development workflow (from NumPy)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to JIRA issue&lt;/li&gt;
+&lt;li&gt;Merge requests to the main branch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-start-a-project&#34;&gt;1. Start a project&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Divide work in repositories&lt;/li&gt;
+&lt;li&gt;Choose workflow (advanced git flow)&lt;/li&gt;
+&lt;li&gt;Select which files to keep under version control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
 &lt;h2 id=&#34;2-work-on-a-project&#34;&gt;2. Work on a project&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Working on a topic/feature/bugfix branch&lt;/li&gt;
@@ -323,12 +361,20 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;/ul&gt;
 &lt;/section&gt;
 &lt;hr&gt;
+<<<<<<< HEAD
 &lt;h1 id=&#34;team-goal-&#34;&gt;TEAM GOAL 🥅&lt;/h1&gt;
+=======
+&lt;h1 id=&#34;team-goal&#34;&gt;TEAM GOAL:&lt;/h1&gt;
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
 &lt;h2 id=&#34;pull-the-servers-plug&#34;&gt;pull the servers&amp;rsquo; plug&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Rebuild and restart services anytime&lt;/li&gt;
 &lt;li&gt;Do a server &lt;code&gt;reboot&lt;/code&gt;&lt;/li&gt;
+<<<<<<< HEAD
 &lt;li&gt;Destroy🔥 change servers and redeploy&lt;/li&gt;
+=======
+&lt;li&gt;Destroy/change servers and redeploy:\&lt;/li&gt;
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
 &lt;/ul&gt;
 &lt;span class=&#34;fragment &#34; &gt;
   &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;install docker
@@ -367,14 +413,21 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;h2 id=&#34;git-tips&#34;&gt;Git tips&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Learn the command line basics&lt;/li&gt;
+<<<<<<< HEAD
 &lt;li&gt;&amp;hellip;and then use a GUI&lt;/li&gt;
 &lt;li&gt;you don&amp;rsquo;t have to use only 1 (git) client&lt;/li&gt;
+=======
+&lt;li&gt;&amp;hellip;and then use a GUI client&lt;/li&gt;
+&lt;li&gt;Learn to use a diff tool (meld)&lt;/li&gt;
+&lt;li&gt;Resolve merge conflicts with GUI (Jetbrains)&lt;/li&gt;
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
 &lt;li&gt;git reset &amp;ndash;hard&lt;/li&gt;
 &lt;li&gt;Use aliases (cmdline)&lt;/li&gt;
 &lt;li&gt;Use the log/graph 😛&lt;/li&gt;
 &lt;li&gt;Don&amp;rsquo;t panic, recovery is (almost) always possible&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+<<<<<<< HEAD
 &lt;h2 id=&#34;resolve-merge-conflicts-with-gui&#34;&gt;Resolve merge conflicts with GUI&lt;/h2&gt;
 &lt;p&gt;(e.g. Jetbrains PhpStorm)&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;resolveConflict.png&#34;&gt;&lt;/img&gt;&lt;/p&gt;
@@ -396,6 +449,8 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gstl=&amp;#39;git stash list&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gswd=&amp;#39;git switch $(git_develop_branch)&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+=======
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
 &lt;h2 id=&#34;github-tips&#34;&gt;Github tips&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Check GitHub tools (desktop and cmdline clients)&lt;/li&gt;
@@ -428,7 +483,11 @@ to another repository&lt;/dd&gt;
 &lt;h1 id=&#34;best-practices&#34;&gt;best practices&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Commit (local) often&lt;/li&gt;
+<<<<<<< HEAD
 &lt;li&gt;Push daily (at least EOD) 🕠&lt;/li&gt;
+=======
+&lt;li&gt;Push daily (at least EOD)&lt;/li&gt;
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
 &lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Write better commit messages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Learn GitHub Markdown&lt;/li&gt;
 &lt;/ul&gt;
@@ -439,6 +498,7 @@ to another repository&lt;/dd&gt;
 &lt;li&gt;Don&amp;rsquo;t change the published history&lt;/li&gt;
 &lt;li&gt;Never rebase a branch that has been pushed to a public repository&lt;/li&gt;
 &lt;/ul&gt;
+<<<<<<< HEAD
 &lt;hr&gt;
 &lt;h2 id=&#34;semantic-commit-messages&#34;&gt;Semantic Commit Messages&lt;/h2&gt;
 &lt;p&gt;See how a minor change to your commit message style can make you a better programmer.&lt;/p&gt;
@@ -472,6 +532,10 @@ to another repository&lt;/dd&gt;
 &lt;/section&gt;
 &lt;hr&gt;
 &lt;section&gt;
+=======
+&lt;/section&gt;
+&lt;hr&gt;
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
 &lt;h1 id=&#34;books&#34;&gt;Books&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://git-scm.com/book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pro Git&lt;/a&gt; by Scott Chacon and Ben Straub
 
@@ -492,9 +556,14 @@ to another repository&lt;/dd&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+<<<<<<< HEAD
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://git-scm.com/images/progit2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;200&#34; /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
+=======
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://git-scm.com/images/progit2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;120&#34; height=&#34;160&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
 &lt;p&gt;&lt;a href=&#34;https://www.syncfusion.com/succinctly-free-ebooks/git/overview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Succinctly&lt;/a&gt; by Ryan Hodson
 
 
@@ -514,24 +583,37 @@ to another repository&lt;/dd&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+<<<<<<< HEAD
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://cdn.syncfusion.com/content/images/downloads/ebook/ebook-cover/Git-Succinctly.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;200&#34; /&gt;&lt;/div&gt;
+=======
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://cdn.syncfusion.com/content/images/downloads/ebook/ebook-cover/Git-Succinctly.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;120&#34; height=&#34;160&#34; /&gt;&lt;/div&gt;
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
   &lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;cheatsheets&#34;&gt;CheatSheets&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://education.github.com/git-cheat-sheet-education.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Education&lt;/a&gt;&lt;/li&gt;
+<<<<<<< HEAD
 &lt;li&gt;&lt;a href=&#34;https://www.git-tower.com/blog/git-cheat-sheet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.git-tower.com/blog/git-cheat-sheet/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://codegofer.com/c/codegofer/git.recipes/29/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;One-liners&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+=======
+&lt;li&gt;&lt;a href=&#34;http://codegofer.com/c/codegofer/git.recipes/29/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;One-liners&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
 &lt;h1 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://rogerdudler.github.io/git-guide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git - the simple guide&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;man git
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git help &amp;lt;command&amp;gt;
+<<<<<<< HEAD
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/section&gt;
 &lt;hr&gt;
+=======
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
 &lt;h1 id=&#34;advanced-topics&#34;&gt;Advanced topics&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resolving a merge conflict using the command line&lt;/a&gt;&lt;/li&gt;
@@ -541,10 +623,15 @@ to another repository&lt;/dd&gt;
 &lt;li&gt;&lt;a href=&#34;https://coderwall.com/p/0c-ayq/howto-split-a-git-repository-into-two&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Howto split a git repository into two&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;git internals : &lt;a href=&#34;https://matthew-brett.github.io/curious-git/curious_git.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curious git&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Git Hooks&lt;/li&gt;
+<<<<<<< HEAD
 &lt;li&gt;Git Large File Storage&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 </description>
+=======
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+>>>>>>> 64db944d1fb94a454e22a85e05a688cc0b7b9c92
     </item>
     
     <item>
