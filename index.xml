@@ -504,6 +504,37 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;li&gt;Use &lt;a href=&#34;https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Markdown&lt;/a&gt; for writing&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-color=&#34;#fff&#34;
+  &gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;in case of fire&#34;
+           src=&#34;https://georgelitos.com/slides/git/in_case_of_fire.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;/section&gt;
 &lt;hr&gt;
 &lt;section&gt;
@@ -569,8 +600,8 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;ul&gt;
 &lt;li&gt;Check GitHub tools (desktop and cmdline clients)&lt;/li&gt;
 &lt;li&gt;Search GitHub with powerfull filters (stars/topic/users/language)&lt;/li&gt;
-&lt;li&gt;Check Github Explore&lt;/li&gt;
-&lt;li&gt;Check the project issues&lt;/li&gt;
+&lt;li&gt;Check &lt;a href=&#34;https://github.com/explore&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Explore&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Check project Issues&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/section&gt;
 &lt;hr&gt;
@@ -685,19 +716,21 @@ to another repository&lt;/dd&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://cdn.syncfusion.com/content/images/downloads/ebook/ebook-cover/Git-Succinctly.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable width=&#34;200&#34; /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h1 id=&#34;cheatsheets&#34;&gt;CheatSheets&lt;/h1&gt;
+&lt;h1 id=&#34;cheat-sheets&#34;&gt;Cheat Sheets&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://education.github.com/git-cheat-sheet-education.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Education&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.git-tower.com/blog/git-cheat-sheet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.git-tower.com/blog/git-cheat-sheet/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://codegofer.com/c/codegofer/git.recipes/29/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;One-liners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.git-tower.com/blog/git-cheat-sheet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Tower Git cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cheat.sh/git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cheat.sh/git&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://rogerdudler.github.io/git-guide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git - the simple guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/en/get-started/quickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Quickstart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marklodato.github.io/visual-git-guide/index-en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Visual Git Reference&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;man git
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git help &amp;lt;command&amp;gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;man git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git &lt;span class=&#34;nb&#34;&gt;help&lt;/span&gt; &amp;lt;command&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/section&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;advanced-topics&#34;&gt;Advanced topics&lt;/h1&gt;
