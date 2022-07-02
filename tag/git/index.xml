@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Presentations | George Litos</title>
-    <link>https://georgelitos.com/talk/</link>
-      <atom:link href="https://georgelitos.com/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Presentations</description>
+    <title>git | George Litos</title>
+    <link>https://georgelitos.com/tag/git/</link>
+      <atom:link href="https://georgelitos.com/tag/git/index.xml" rel="self" type="application/rss+xml" />
+    <description>git</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 03:33:00 +0300</lastBuildDate>
     <image>
       <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
-      <title>Presentations</title>
-      <link>https://georgelitos.com/talk/</link>
+      <title>git</title>
+      <link>https://georgelitos.com/tag/git/</link>
     </image>
     
     <item>

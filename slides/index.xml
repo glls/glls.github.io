@@ -13,9 +13,31 @@
       <guid>https://georgelitos.com/slides/git/</guid>
       <description>&lt;section&gt;
 &lt;h1 id=&#34;git&#34;&gt;Git&lt;/h1&gt;
-&lt;h2 id=&#34;not-just-version-control-v2&#34;&gt;not just version control v2&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official site&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;👇🏼&lt;/p&gt;
+&lt;h2 id=&#34;not-just-version-control&#34;&gt;not just version control&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;git&#34;
+           src=&#34;https://georgelitos.com/slides/git/org.gnome.gitg.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;v2.1 by &lt;a href=&#34;https://georgelitos.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Litos&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;a-bit-of-history&#34;&gt;a bit of history&lt;/h2&gt;
 &lt;span class=&#34;fragment &#34; &gt;
@@ -88,6 +110,7 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
                height=&#34;50%&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Official site&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 
 &lt;section data-noprocess data-shortcode-slide
@@ -125,8 +148,10 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
+&lt;/section&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;glossary&#34;&gt;Glossary&lt;/h2&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;glossary&#34;&gt;Glossary&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -209,6 +234,7 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;/dl&gt;
 &lt;/span&gt;
 &lt;hr&gt;
+&lt;p&gt;&lt;em&gt;(not really git)&lt;/em&gt;&lt;/p&gt;
 &lt;dl&gt;
 &lt;dt&gt;&lt;strong&gt;Fork&lt;/strong&gt;&lt;/dt&gt;
 &lt;dd&gt;You clone a public repo, make changes and contribute with a PR.&lt;/dd&gt;
@@ -228,7 +254,7 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;John Smith&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email john@example.com
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global init.defaultBranch main
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;create a new folder for your project and add a file under version control&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Create a new folder for your project and add a file under version control&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir -p ~/projects/git-test
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~/projects/git-test
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
@@ -269,16 +295,16 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;h1 id=&#34;dont-fear-the-git&#34;&gt;don&amp;rsquo;t fear the git!&lt;/h1&gt;
 &lt;h2 id=&#34;git-will-help-&#34;&gt;Git will help 🥷&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Backup your code&lt;/li&gt;
 &lt;li&gt;Cleanup your code base&lt;/li&gt;
+&lt;li&gt;Backup your code&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Merge requests&lt;/p&gt;
+&lt;p&gt;Merge Requests&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Help you code review&lt;/p&gt;
+&lt;p&gt;Code Review&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;CI/CD 🤖 (coming soon&amp;hellip;)&lt;/p&gt;
@@ -299,7 +325,7 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;section&gt;
 &lt;h1 id=&#34;workflow&#34;&gt;workflow&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gitflow Workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gitflow Workflow&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://numpy.org/doc/stable/dev/development_workflow.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NumPy Development workflow&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Link to JIRA issue&lt;/li&gt;
 &lt;li&gt;Merge requests to the main branch&lt;/li&gt;
@@ -312,8 +338,8 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
       data-background-color=&#34;#fff&#34;
   &gt;
 
-&lt;p&gt;&lt;a href=&#34;https://nvie.com/posts/a-successful-git-branching-model/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A successful Git branching model&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;By Vincent Driessen&lt;/p&gt;
+&lt;h2 id=&#34;a-successful-git-branching-model&#34;&gt;A successful Git branching model&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://nvie.com/posts/a-successful-git-branching-model/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;By Vincent Driessen&lt;/a&gt;&lt;/p&gt;
 
 
 
@@ -346,10 +372,11 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;section data-noprocess data-shortcode-slide
   
       
-      data-background-color=&#34;#ccc&#34;
+      data-background-color=&#34;#fff&#34;
   &gt;
 
 &lt;h2 id=&#34;gitflow-workflow&#34;&gt;Gitflow Workflow&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Atlassian Tutorial&lt;/a&gt;&lt;/p&gt;
 
 
 
@@ -396,6 +423,7 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;/ul&gt;
 &lt;/section&gt;
 &lt;hr&gt;
+&lt;section&gt;
 &lt;h1 id=&#34;team-goal-&#34;&gt;TEAM GOAL 🥅&lt;/h1&gt;
 &lt;h2 id=&#34;pull-the-servers-plug&#34;&gt;pull the servers&amp;rsquo; plug&lt;/h2&gt;
 &lt;ul&gt;
@@ -403,13 +431,19 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;li&gt;Do a server &lt;code&gt;reboot&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;🔥 Change servers and redeploy&lt;/li&gt;
 &lt;/ul&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;install docker
+&lt;hr&gt;
+&lt;h2 id=&#34;rebuild-&#34;&gt;Rebuild 🏠&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;install docker
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone repo
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat README.md
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;```&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;gt; follow the instructions
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;span class=&#34;fragment &#34; &gt;
+  &lt;ul&gt;
+&lt;li&gt;Use &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; for dev &amp;amp; production&lt;/li&gt;
+&lt;li&gt;Use &lt;a href=&#34;https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Markdown&lt;/a&gt; for writing&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/span&gt;
+&lt;/section&gt;
 &lt;hr&gt;
 &lt;section&gt;
 &lt;h1 id=&#34;practice-and-use-everywhere&#34;&gt;practice and use everywhere&lt;/h1&gt;
@@ -499,12 +533,11 @@ to another repository&lt;/dd&gt;
 &lt;/section&gt;
 &lt;hr&gt;
 &lt;section&gt;
-&lt;h1 id=&#34;best-practices&#34;&gt;best practices&lt;/h1&gt;
+&lt;h1 id=&#34;best-practices&#34;&gt;Best practices&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Commit (local) often&lt;/li&gt;
 &lt;li&gt;Push daily (at least EOD) 🕠&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Write better commit messages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Learn GitHub Markdown&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;and-worst&#34;&gt;&amp;hellip;and worst&lt;/h1&gt;
@@ -518,7 +551,7 @@ to another repository&lt;/dd&gt;
 &lt;p&gt;See how a minor change to your commit message style can make you a better programmer.&lt;/p&gt;
 &lt;p&gt;Format: &lt;code&gt;&amp;lt;type&amp;gt;(&amp;lt;scope&amp;gt;): &amp;lt;subject&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;scope&amp;gt;&lt;/code&gt; is optional&lt;/p&gt;
-&lt;h3 id=&#34;example&#34;&gt;Example:&lt;/h3&gt;
+&lt;h3 id=&#34;example&#34;&gt;Example&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;feat: add hat wobble
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;^--^  ^------------^
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|     |
@@ -526,7 +559,7 @@ to another repository&lt;/dd&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+-------&amp;gt; Type: chore, docs, feat, fix, refactor, style, or test.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h3 id=&#34;more-examples&#34;&gt;More Examples:&lt;/h3&gt;
+&lt;h3 id=&#34;more-examples&#34;&gt;More Examples&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;feat&lt;/code&gt;: (new feature for the user, not a new feature for build script)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;fix&lt;/code&gt;: (bug fix for the user, not a fix to a build script)&lt;/li&gt;
