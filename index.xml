@@ -7,7 +7,7 @@
     <description>George Litos</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 03:33:00 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_mitchellnetravali_center_3.png</url>
       <title>George Litos</title>
       <link>https://georgelitos.com/</link>
     </image>
@@ -133,10 +133,10 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_3f5f85e6fd29570ae45141002a27afaa.webp 400w,
-               /slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_52e59fcd4cafe6bb9a93cf8ed2b35756.webp 760w,
-               /slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_3f5f85e6fd29570ae45141002a27afaa.webp&#34;
+               /slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_16d26b3c46c6def015d8ad41d3c61386.webp 400w,
+               /slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_ce1a878e72f0a4f446f759dc43ac4e82.webp 760w,
+               /slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_16d26b3c46c6def015d8ad41d3c61386.webp&#34;
                width=&#34;320&#34;
                height=&#34;216&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -163,10 +163,10 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_e16dc07820c04bf41be2fed8d4f20ac4.webp 400w,
-               /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_bd456160f2ba5aea3744212bc68f7672.webp 760w,
-               /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_e16dc07820c04bf41be2fed8d4f20ac4.webp&#34;
+               /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_22c3e3daa5e54177df3e8cd1581cbdd2.webp 400w,
+               /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_17fb5768240e20061fc319f1a3ee1cb4.webp 760w,
+               /slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/slides/git/git-2.37_hu021a7226e10d52cfcbb99e7d4657791e_100180_22c3e3daa5e54177df3e8cd1581cbdd2.webp&#34;
                width=&#34;50%&#34;
                height=&#34;50%&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -201,10 +201,10 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_920fec1828f455c0135acc62b60aadcc.webp 400w,
-               /slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_7c6cd4526daf268224153d124e71b479.webp 760w,
-               /slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_920fec1828f455c0135acc62b60aadcc.webp&#34;
+               /slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_df7f9a5323bfc631847bf9db3efc308e.webp 400w,
+               /slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_77a55ad3d89e1705d97f48e6b5ad5226.webp 760w,
+               /slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_df7f9a5323bfc631847bf9db3efc308e.webp&#34;
                width=&#34;648&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -420,10 +420,10 @@ Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_softwa
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_a75fa35d56746dd78870a395b97042e3.webp 400w,
-               /slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_193d9c528eb3db4546acf6e5e376b4cc.webp 760w,
-               /slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_a75fa35d56746dd78870a395b97042e3.webp&#34;
+               /slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_f5c7b510b967a3693a87b10d9213cdaa.webp 400w,
+               /slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_1c509aa412bdf75506023c73147a2a85.webp 760w,
+               /slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_f5c7b510b967a3693a87b10d9213cdaa.webp&#34;
                width=&#34;50%&#34;
                height=&#34;50%&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
