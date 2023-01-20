@@ -14,8 +14,48 @@
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://georgelitos.com/post/barrier/</loc>
+    <lastmod>2023-01-20T19:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://georgelitos.com/</loc>
-    <lastmod>2022-07-01T03:33:00+03:00</lastmod>
+    <lastmod>2023-01-20T19:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tag/kvm/</loc>
+    <lastmod>2023-01-20T19:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tag/open-source/</loc>
+    <lastmod>2023-01-20T19:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/post/</loc>
+    <lastmod>2023-01-20T19:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tag/productivity/</loc>
+    <lastmod>2023-01-20T19:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tags/</loc>
+    <lastmod>2023-01-20T19:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/post/joplin/</loc>
+    <lastmod>2022-12-20T20:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tag/markdown/</loc>
+    <lastmod>2022-12-20T20:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tag/notes/</loc>
+    <lastmod>2022-12-20T20:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tag/todo/</loc>
+    <lastmod>2022-12-20T20:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tag/git/</loc>
@@ -30,15 +70,7 @@
     <lastmod>2022-07-01T03:33:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://georgelitos.com/tag/productivity/</loc>
-    <lastmod>2022-07-01T03:33:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/tags/</loc>
-    <lastmod>2022-07-01T03:33:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/tag/versioning/</loc>
+    <loc>https://georgelitos.com/tag/version-control/</loc>
     <lastmod>2022-07-01T03:33:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -64,6 +96,10 @@
   </url><url>
     <loc>https://georgelitos.com/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/slides/docker/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/slides/example/</loc>
@@ -315,9 +351,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/admin/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/post/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/event/</loc>
