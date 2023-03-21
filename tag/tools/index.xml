@@ -20,7 +20,7 @@
       <description>&lt;p&gt;Are you tired of losing track of your bookmarks across multiple browsers? Look no further than Buku, the powerful bookmark manager that imports bookmarks from all your browsers, works on console and has a web-based server.&lt;/p&gt;
 &lt;p&gt;With Buku, you can easily organize your bookmarks into categories and tags, making it easy to find exactly what you need. Plus, Buku&amp;rsquo;s powerful search feature allows you to quickly locate any bookmark in your collection.&lt;/p&gt;
 &lt;p&gt;One of the most unique features of Buku is its powerful console interface:&lt;/p&gt;
-&lt;script async id=&#34;asciicast-137065&#34; src=&#34;https://asciinema.org/a/137065.js&#34;&gt;&lt;/script&gt; 
+&lt;script async id=&#34;asciicast-137065&#34; src=&#34;https://asciinema.org/a/137065.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt;This allows power users to manage their bookmarks from the command line, making it incredibly fast and efficient to use. But don&amp;rsquo;t worry if you&amp;rsquo;re not a command line aficionado, Buku also has a user-friendly web-based interface that&amp;rsquo;s perfect for beginners and not only has beautiful stats page but a powerful API that you can use to make your own applications!&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;bukuserver run&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;
