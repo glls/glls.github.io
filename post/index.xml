@@ -71,10 +71,17 @@ And thank you for making our coding lives bright!&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Scoop&#34; srcset=&#34;
+<<<<<<< HEAD
                /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_0594c372d321f09ed71821e700f8f2cd.webp 400w,
                /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_7bddabd0a8920c2fca9a9e779c935cc0.webp 760w,
                /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
                src=&#34;https://georgelitos.com/post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_0594c372d321f09ed71821e700f8f2cd.webp&#34;
+=======
+               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_b78d6eb39a565f94d7db1f8b0299a781.webp 400w,
+               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_7bddabd0a8920c2fca9a9e779c935cc0.webp 760w,
+               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_b78d6eb39a565f94d7db1f8b0299a781.webp&#34;
+>>>>>>> f223c8a4d7b27235fc0672fc910e5b7dda191b69
                width=&#34;760&#34;
                height=&#34;315&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -101,7 +108,39 @@ Scoop is a command-line installer for Windows that allows users to easily instal
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop cleanup *
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id=&#34;homebrew&#34;&gt;Homebrew&lt;/h2&gt;
+<<<<<<< HEAD
 &lt;p&gt;Homebrew is a command-line package manager for macOS (or Linux &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;) that allows installing software from the terminal. Brew provides a centralized repository of software packages that can be easily updated and installed. Again, from the &lt;a href=&#34;https://github.com/Homebrew/brew&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official GitHub homepage&lt;/a&gt;&lt;/p&gt;
+=======
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Homebrew&#34; srcset=&#34;
+               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_73174ec6d194b27b9e826e94af5be55e.webp 400w,
+               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_8abaad2fb4670e4552b01246d32fa24d.webp 760w,
+               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_73174ec6d194b27b9e826e94af5be55e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;611&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Homebrew is a command-line package manager for macOS (or Linux &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;) that allows installing software from the terminal. Brew provides a centralized repository of software packages that can be easily updated and installed. Again, from the &lt;a href=&#34;https://github.com/Homebrew/brew&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official GitHub homepage&lt;/a&gt;&lt;/p&gt;
+>>>>>>> f223c8a4d7b27235fc0672fc910e5b7dda191b69
 &lt;p&gt;Features, usage and installation instructions are &lt;a href=&#34;https://brew.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;summarised on the homepage&lt;/a&gt;. Terminology (e.g. the difference between a Cellar, Tap, Cask and so forth) is &lt;a href=&#34;https://docs.brew.sh/Formula-Cookbook#homebrew-terminology&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;explained here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;What Packages Are Available?&lt;/p&gt;
 &lt;ol&gt;
@@ -135,10 +174,17 @@ That the apps are already hand-picked and that they are fully categorized! You c
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Patch My PC&#34; srcset=&#34;
+<<<<<<< HEAD
                /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_93695f5ee8c5af0c0881d18e7c10d5ac.webp 400w,
                /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f36e3e20c4b9c02f359a296a626e40c9.webp 760w,
                /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
                src=&#34;https://georgelitos.com/post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_93695f5ee8c5af0c0881d18e7c10d5ac.webp&#34;
+=======
+               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_8c6206456f65b586a511f4342fa589fb.webp 400w,
+               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f36e3e20c4b9c02f359a296a626e40c9.webp 760w,
+               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_8c6206456f65b586a511f4342fa589fb.webp&#34;
+>>>>>>> f223c8a4d7b27235fc0672fc910e5b7dda191b69
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -188,10 +234,17 @@ That the apps are already hand-picked and that they are fully categorized! You c
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screenshot&#34; srcset=&#34;
+<<<<<<< HEAD
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_89f838ba83f09aa0a29d2f11d5ec742b.webp 400w,
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_fe9680d18cb78e5738f6a631af5cbaec.webp 760w,
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
                src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_89f838ba83f09aa0a29d2f11d5ec742b.webp&#34;
+=======
+               /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_d1352f9e9eb1a3281a31991826b902b2.webp 400w,
+               /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_fe9680d18cb78e5738f6a631af5cbaec.webp 760w,
+               /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_d1352f9e9eb1a3281a31991826b902b2.webp&#34;
+>>>>>>> f223c8a4d7b27235fc0672fc910e5b7dda191b69
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
