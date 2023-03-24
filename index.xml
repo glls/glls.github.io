@@ -182,8 +182,8 @@ Homebrew is a command-line package manager for macOS (or Linux &lt;sup id=&#34;f
 &lt;p&gt;&lt;code&gt;brew help&lt;/code&gt;, &lt;code&gt;man brew&lt;/code&gt; or check &lt;a href=&#34;https://docs.brew.sh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our documentation&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Both are awesome, try them and remember, I told you so™️&lt;br&gt;
-It would be great if you support the authors in a way, too.
-In case you want to try more package managers there are &lt;a href=&#34;https://www.finkproject.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fink&lt;/a&gt; and &lt;a href=&#34;https://www.macports.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MacPorts&lt;/a&gt; for macOS and &lt;a href=&#34;https://chocolatey.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chokolatey&lt;/a&gt; for windows users.&lt;/p&gt;
+It would be great if you support the authors in a way, too.&lt;br&gt;
+In case you want to try more package managers there are &lt;a href=&#34;https://www.finkproject.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fink&lt;/a&gt; and &lt;a href=&#34;https://www.macports.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MacPorts&lt;/a&gt; for macOS and &lt;a href=&#34;https://chocolatey.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chokolatey&lt;/a&gt; for Windows.&lt;/p&gt;
 &lt;h2 id=&#34;bonus-&#34;&gt;Bonus 🥁&lt;/h2&gt;
 &lt;p&gt;If you come from Windows there&amp;rsquo;s a free (not open-source) tool called &lt;a href=&#34;https://patchmypc.com/home-updater&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Patch My PC Home Updater&lt;/a&gt; that installs a large list of apps with an easy user interface, what&amp;rsquo;s cool about it? &lt;br&gt;
 That the apps are already hand-picked and that they are fully categorized! You can find very useful freeware tools there 😉
