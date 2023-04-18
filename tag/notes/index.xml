@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>notes | George Litos</title>
+    <link>https://georgelitos.com/tag/notes/</link>
+      <atom:link href="https://georgelitos.com/tag/notes/index.xml" rel="self" type="application/rss+xml" />
+    <description>notes</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Dec 2022 20:00:00 +0300</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_mitchellnetravali_center_3.png</url>
+      <title>notes</title>
+      <link>https://georgelitos.com/tag/notes/</link>
+    </image>
+    
+    <item>
+      <title>Free your notes with Joplin</title>
+      <link>https://georgelitos.com/post/joplin/</link>
+      <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/joplin/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://joplinapp.org/images/home-top-img-2x.webp&#34; alt=&#34;Joplin&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;One of the main features of Joplin is its ability to synchronize notes across multiple devices. Joplin also supports the use of multiple storage options, including the local file system, Dropbox, OneDrive, and WebDAV and more. In my case I use the local file system and synchronize the notes with my Synology NAS via &amp;ldquo;Cloud Station Drive&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;The notes are in &lt;a href=&#34;https://www.markdownguide.org/tools/joplin/#joplin-markdown-support&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown format&lt;/a&gt;. Joplin is available as a &lt;strong&gt;💻 desktop&lt;/strong&gt;, &lt;strong&gt;📱 mobile&lt;/strong&gt; and &lt;strong&gt;🔡 terminal&lt;/strong&gt; application.&lt;/p&gt;
+&lt;p&gt;Joplin also has a built-in to-do list feature that allows users to easily create and track tasks. This feature is integrated with the note-taking functionality, making it easy to keep track of tasks related to specific notes.&lt;/p&gt;
+&lt;p&gt;Another great feature of Joplin is its support for encryption, which allows users to secure their notes and keep them private.&lt;/p&gt;
+&lt;p&gt;Full text search is available on all platforms to quickly find the information you need.&lt;/p&gt;
+&lt;p&gt;Check the big list of features &lt;a href=&#34;https://joplinapp.org/#features&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
