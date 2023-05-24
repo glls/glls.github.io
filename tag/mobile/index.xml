@@ -18,7 +18,6 @@
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
       <guid>https://georgelitos.com/post/scrcpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
-&lt;p&gt;It gets better as it ages, like &lt;code&gt;wine&lt;/code&gt;, &lt;a href=&#34;https://github.com/Genymobile/scrcpy/graphs/contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;keep up the good work guys&lt;/a&gt;, you can find tons of info on the official site. 💯&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
 This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
 &lt;p&gt;It focuses on:&lt;/p&gt;
@@ -72,6 +71,7 @@ This application mirrors Android devices (video and audio) connected via USB or 
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
+&lt;p&gt;This tool gets better as it ages, like good &lt;code&gt;wine&lt;/code&gt;, please &lt;a href=&#34;https://github.com/Genymobile/scrcpy/graphs/contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;keep up the good work guys&lt;/a&gt; 💯&lt;/p&gt;
 </description>
     </item>
     
