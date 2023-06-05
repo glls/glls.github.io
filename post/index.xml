@@ -18,12 +18,17 @@
       <pubDate>Mon, 05 Jun 2023 09:18:07 +0300</pubDate>
       <guid>https://georgelitos.com/post/mc/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander (TM). It also takes the best from more recent software with similar interfaces. Long time ago (in the 80s) we used same file managers like the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, there is stil a copy in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander™. It also takes the best from more recent software with similar interfaces. Many years ago, we used file-managers like these, as &amp;ldquo;Norton Commander&amp;rdquo; in DOS, or the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, which is still alive in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;dual-pane-interface-for-seamless-file-management&#34;&gt;Dual-Pane Interface for Seamless File Management&lt;/h2&gt;
 &lt;p&gt;One of the key strengths of Midnight Commander is its intuitive dual-pane layout. The two panes allow users to navigate through directories and manipulate files seamlessly. Whether you&amp;rsquo;re copying, moving, or deleting files, the dual-pane view enables quick and effortless operations. Moreover, MC provides a command-line prompt at the bottom, allowing users to execute commands directly without switching to a separate terminal window. This combination of a visual interface and command-line capabilities enhances productivity and workflow efficiency.&lt;/p&gt;
 &lt;h2 id=&#34;feature-rich-functionality&#34;&gt;Feature-Rich Functionality&lt;/h2&gt;
 &lt;p&gt;In addition to its exceptional file management capabilities, MC offers a wide range of features that further enhance its usefulness. It includes a built-in file viewer, which allows users to examine the contents of various file types without the need for external applications. Additionally, MC features a powerful text editor, enabling users to make quick modifications to files without leaving the application. The integrated FTP client functionality allows seamless transfers of files between local and remote systems, adding another layer of convenience for users who need to work with remote servers.&lt;/p&gt;
-&lt;p&gt;You can use MC on MacOS (&lt;code&gt;brew install mc&lt;/code&gt;), Ubuntu/Debian (&lt;code&gt;sudo apt install mc&lt;/code&gt;), Archlinux (&lt;code&gt;sudo pacman -S mc&lt;/code&gt;) or you can compile it from source (it&amp;rsquo;s written in C).&lt;/p&gt;
+&lt;p&gt;You can install MC in different systems or you can compile it from source (it&amp;rsquo;s written in C).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MacOS &lt;code&gt;brew install mc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ubuntu/Debian &lt;code&gt;sudo apt install mc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Archlinux &lt;code&gt;sudo pacman -S mc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Here&amp;rsquo;s a list of feature copied directly from GitHub:&lt;/p&gt;
 &lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
 &lt;p&gt;Some features are specific to the POSIX environment MC runs on, some are
@@ -232,7 +237,7 @@ Scoop is a command-line installer for Windows that allows users to easily instal
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo scoop install 7zip git openssh --global
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop install aria2 curl grep sed less touch
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop install python ruby go perl
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Thats from the official page, what I really do when I log in Windows is &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s from the official page, but, having installed some packages the first time &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; what I usually do each time I log in Windows is:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop update *
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop cleanup *
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
@@ -268,12 +273,12 @@ Scoop is a command-line installer for Windows that allows users to easily instal
 Homebrew is a command-line package manager for macOS (or Linux &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;) that allows installing software from the terminal. Brew provides a centralized repository of software packages that can be easily updated and installed. Again, from the &lt;a href=&#34;https://github.com/Homebrew/brew&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official GitHub homepage&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Features, usage and installation instructions are &lt;a href=&#34;https://brew.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;summarised on the homepage&lt;/a&gt;. Terminology (e.g. the difference between a Cellar, Tap, Cask and so forth) is &lt;a href=&#34;https://docs.brew.sh/Formula-Cookbook#homebrew-terminology&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;explained here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;What Packages Are Available?&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Type &lt;code&gt;brew formulae&lt;/code&gt; for a list.&lt;/li&gt;
-&lt;li&gt;Or visit &lt;a href=&#34;https://formulae.brew.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;formulae.brew.sh&lt;/a&gt; to browse packages online.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;type &lt;code&gt;brew formulae&lt;/code&gt; for a list.&lt;/li&gt;
+&lt;li&gt;or visit &lt;a href=&#34;https://formulae.brew.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;formulae.brew.sh&lt;/a&gt; to browse packages online.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;More Documentation&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;brew help&lt;/code&gt;, &lt;code&gt;man brew&lt;/code&gt; or check &lt;a href=&#34;https://docs.brew.sh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;brew help&lt;/code&gt;, &lt;code&gt;man brew&lt;/code&gt; or check &lt;a href=&#34;https://docs.brew.sh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Both are awesome, try them and remember, I told you so™️&lt;br&gt;
 It would be great if you support the authors in a way, too.&lt;br&gt;
@@ -313,7 +318,7 @@ That the apps are already hand-picked and that they are fully categorized! You c
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;After installing some packages once with  &lt;code&gt;scoop install git gh 7zip nano nodejs-lts hugo&lt;/code&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;scoop install git gh 7zip nano nodejs-lts hugo&lt;/code&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;I dont recommend this, leave your Linux package manager alone 😃&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
