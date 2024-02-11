@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: October 13, 2023 --><html lang="en-us" >
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: February 11, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -10,7 +10,7 @@
   
   
   
-    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+    <meta name="generator" content="Hugo Blox Builder 5.9.6" />
   
 
   
@@ -65,7 +65,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.392ec481292082d4d10bf5ef370b59de.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
 
   
   
@@ -85,6 +85,8 @@
 
     
     
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
     
 
     
@@ -205,7 +207,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.22b36790299167158f800eadc08038ad.css" />
+  <link rel="stylesheet" href="/css/wowchemy.2b7ccada9296ddeb02f71230c0170d61.css" />
 
   
   
@@ -291,6 +293,7 @@
 
 
 
+
   
   
   
@@ -321,8 +324,8 @@
 
 
 
-<link rel="icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_32x32_fill_mitchellnetravali_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_180x180_fill_mitchellnetravali_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#158cba" />
 
@@ -347,6 +350,12 @@
   <meta property="twitter:site" content="@gl_ls" />
   <meta property="twitter:creator" content="@gl_ls" />
 <meta property="twitter:image" content="https://georgelitos.com/post/pkgman/featured.png" />
+
+
+
+  
+
+<meta property="og:type" content="article" />
 <meta property="og:site_name" content="George Litos" />
 <meta property="og:url" content="https://georgelitos.com/post/pkgman/" />
 <meta property="og:title" content="Package Managers - not the evil kind of PMs | George Litos" />
@@ -406,7 +415,7 @@
     "name": "George Litos",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_192x192_fill_mitchellnetravali_center_3.png"
+      "url": "https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "So hail to the package managers, we say, for keeping our software up-to-date each day!"
@@ -492,7 +501,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.535952bb111a9cecb5cfb11e29291991.js"></script>
+  <script src="/js/wowchemy-init.min.f01c9f49ec282a50b957fadebe31092e.js"></script>
 
   
 
@@ -727,6 +736,43 @@
           
 
           <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
             <a class="nav-link " href="/#publications"><span>Publications</span></a>
           </li>
 
@@ -821,6 +867,7 @@
   
 
 
+
 <div class="article-container pt-3">
   <h1>Package Managers - not the evil kind of PMs</h1>
 
@@ -879,7 +926,7 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 399px;">
   <div style="position: relative">
-    <img src="/post/pkgman/featured_hufba469f0d16eea013c068e7214c4e721_66591_720x2500_fit_q80_h2_mitchellnetravali_3.webp" width="720" height="399" alt="" class="featured-image">
+    <img src="/post/pkgman/featured_hufba469f0d16eea013c068e7214c4e721_66591_d98b2216e312cebacea0eeb2026fea6f.webp" width="720" height="399" alt="" class="featured-image">
     <span class="article-header-caption">Screenshot by me from Archlinux]</span>
   </div>
 </div>
@@ -898,14 +945,14 @@
     <li><a href="#intro">Intro</a></li>
     <li><a href="#scoop">Scoop</a></li>
     <li><a href="#homebrew">Homebrew</a></li>
-    <li><a href="#bonus-">Bonus 🥁</a></li>
+    <li><a href="#bonus-drum">Bonus </a></li>
   </ul>
 </nav>
 </details>
 
 <h2 id="intro">Intro</h2>
-<p>If you come from planet Linux you&rsquo;ve used a package manager before, <code>pacman</code> on Archlinux, <code>apt</code> on Debian/Ubuntu, each distro has it&rsquo;s own beast, you already know how powerful and productive they are, now the time has come to use them on your <em>other</em> workstation 😄</p>
-<p>🍻 But first, an ode to them!</p>
+<p>If you come from planet Linux you&rsquo;ve used a package manager before, <code>pacman</code> on Archlinux, <code>apt</code> on Debian/Ubuntu, each distro has it&rsquo;s own beast, you already know how powerful and productive they are, now the time has come to use them on your <em>other</em> workstation &#x1f604;</p>
+<p>&#x1f37b; But first, an ode to them!</p>
 <blockquote>
 <p>In the land of coding, where software abounds,<br>
 Where apps and updates are always around,<br>
@@ -943,10 +990,10 @@ And thank you for making our coding lives bright!</p>
 <figure  >
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="Scoop" srcset="
-               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_0594c372d321f09ed71821e700f8f2cd.webp 400w,
-               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_7bddabd0a8920c2fca9a9e779c935cc0.webp 760w,
-               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w"
-               src="/post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_0594c372d321f09ed71821e700f8f2cd.webp"
+               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp 400w,
+               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_2866e213bb690c93878dc1361b0effe7.webp 760w,
+               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_1200x1200_fit_q80_h2_lanczos_3.webp 1200w"
+               src="/post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp"
                width="760"
                height="315"
                loading="lazy" data-zoomable /></div>
@@ -992,10 +1039,10 @@ Scoop is a command-line installer for Windows that allows users to easily instal
 <figure  >
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="Homebrew" srcset="
-               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_913ad4a522c3fc80c1abc45e90936bb1.webp 400w,
-               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_8abaad2fb4670e4552b01246d32fa24d.webp 760w,
-               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w"
-               src="/post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_913ad4a522c3fc80c1abc45e90936bb1.webp"
+               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp 400w,
+               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_46672bf2ca664312d496529b452ece6e.webp 760w,
+               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_1200x1200_fit_q80_h2_lanczos_3.webp 1200w"
+               src="/post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp"
                width="760"
                height="611"
                loading="lazy" data-zoomable /></div>
@@ -1011,9 +1058,9 @@ Homebrew is a command-line package manager for macOS (or Linux <sup id="fnref:2"
 <p>More Documentation</p>
 <p><code>brew help</code>, <code>man brew</code> or check <a href="https://docs.brew.sh/" target="_blank" rel="noopener">our documentation</a></p>
 <hr>
-<h2 id="bonus-">Bonus 🥁</h2>
+<h2 id="bonus-drum">Bonus &#x1f941;</h2>
 <p>If you come from Windows there&rsquo;s a free (not open-source) tool called <a href="https://patchmypc.com/home-updater" target="_blank" rel="noopener">Patch My PC Home Updater</a> that installs a large list of apps with an easy user interface, what&rsquo;s cool about it? <br>
-That the apps are already hand-picked and that they are fully categorized! You can find very useful freeware tools there 😉
+That the apps are already hand-picked and that they are fully categorized! You can find very useful freeware tools there &#x1f609;
 
 
 
@@ -1033,17 +1080,17 @@ That the apps are already hand-picked and that they are fully categorized! You c
 <figure  >
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="Patch My PC" srcset="
-               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_93695f5ee8c5af0c0881d18e7c10d5ac.webp 400w,
-               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f36e3e20c4b9c02f359a296a626e40c9.webp 760w,
-               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w"
-               src="/post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_93695f5ee8c5af0c0881d18e7c10d5ac.webp"
+               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp 400w,
+               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1caf5b225a17213d1296d902ee427c5c.webp 760w,
+               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1200x1200_fit_q80_h2_lanczos_3.webp 1200w"
+               src="/post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp"
                width="760"
                height="446"
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
 <hr>
-<p>Both package managers are awesome, try them and remember, I told you so™️<br>
+<p>Both package managers are awesome, try them and remember, I told you so&#x2122;&#xfe0f;<br>
 It would be great if you can support the authors in a way, too.\</p>
 <p>In case you want to try more package managers there are <a href="https://www.finkproject.org/" target="_blank" rel="noopener">Fink</a> and <a href="https://www.macports.org/" target="_blank" rel="noopener">MacPorts</a> for macOS and <a href="https://chocolatey.org/" target="_blank" rel="noopener">Chokolatey</a> for Windows.</p>
 <p><strong>Update</strong>: I found out that there&rsquo;s an official Windows tool : <a href="https://learn.microsoft.com/en-us/windows/package-manager/winget/" target="_blank" rel="noopener">winget</a><br>
@@ -1055,7 +1102,7 @@ Very convenient since it scans all your (already) installed apps !</p>
 <p><code>scoop install git gh 7zip nano nodejs-lts hugo</code>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>I dont recommend this, leave your Linux package manager alone 😃&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>I dont recommend this, leave your Linux package manager alone &#x1f603;&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -1196,43 +1243,11 @@ Very convenient since it scans all your (already) installed apps !</p>
     
     
     
-    <li>
-      <a href="skype:cyberpunk.73?call" >
-        <i class="fab fa-skype"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
       
     
     <li>
-      <a href="https://www.linkedin.com/in/george-litos/" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/gl_ls" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
+      <a href="https://github.com/glls" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
       </a>
     </li>
   
@@ -1265,8 +1280,40 @@ Very convenient since it scans all your (already) installed apps !</p>
       
     
     <li>
-      <a href="https://github.com/glls" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
+      <a href="https://twitter.com/gl_ls" target="_blank" rel="noopener">
+        <i class="fab fa-square-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="skype:cyberpunk.73?call" >
+        <i class="fab fa-skype"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/george-litos/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
       </a>
     </li>
   
@@ -1383,7 +1430,7 @@ Very convenient since it scans all your (already) installed apps !</p>
 
   
   <p class="powered-by copyright-license-text">
-    © 2023 by GL - This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2024 by GL - This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1414,7 +1461,7 @@ Very convenient since it scans all your (already) installed apps !</p>
       
       
       
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
     
   </p>
 </footer>
@@ -1426,7 +1473,7 @@ Very convenient since it scans all your (already) installed apps !</p>
   
 
 
-<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+<script src="/js/vendor-bundle.min.938a3a7554cd9f6602290411f64d2617.js"></script>
 
 
 
@@ -1442,6 +1489,8 @@ Very convenient since it scans all your (already) installed apps !</p>
 
 
 
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
 
 
 
@@ -1522,10 +1571,11 @@ Very convenient since it scans all your (already) installed apps !</p>
   
 
 
-<script src="/en/js/wowchemy.min.3322c0d94f0e691b0b24c63f4c41064b.js"></script>
+<script src="/en/js/wowchemy.min.62586ca65ca61821fe707eb9fa6268b7.js"></script>
 
 
 
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
 
 
 
@@ -1558,7 +1608,7 @@ Very convenient since it scans all your (already) installed apps !</p>
 </div>
 
 
-  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
 
 
 

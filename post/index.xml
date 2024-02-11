@@ -5,9 +5,9 @@
     <link>https://georgelitos.com/post/</link>
       <atom:link href="https://georgelitos.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Aug 2023 22:22:22 +0300</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Aug 2023 22:22:22 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_mitchellnetravali_center_3.png</url>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://georgelitos.com/post/</link>
     </image>
@@ -249,10 +249,10 @@ This application mirrors Android devices (video and audio) connected via USB or 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Running scrcpy&#34; srcset=&#34;
-               /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_6aa72e3ce1d7af7a1c8c2c486102dc08.webp 400w,
-               /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_967d6609f80fa613be7c55645ff5f4c5.webp 760w,
-               /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_6aa72e3ce1d7af7a1c8c2c486102dc08.webp&#34;
+               /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp 400w,
+               /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_4a66c7aaf9182f60579c17a75635758d.webp 760w,
+               /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -276,14 +276,14 @@ This application mirrors Android devices (video and audio) connected via USB or 
     &lt;li&gt;&lt;a href=&#34;#intro&#34;&gt;Intro&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#scoop&#34;&gt;Scoop&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#homebrew&#34;&gt;Homebrew&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#bonus-&#34;&gt;Bonus 🥁&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#bonus-drum&#34;&gt;Bonus &lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;/details&gt;
 
 &lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
-&lt;p&gt;If you come from planet Linux you&amp;rsquo;ve used a package manager before, &lt;code&gt;pacman&lt;/code&gt; on Archlinux, &lt;code&gt;apt&lt;/code&gt; on Debian/Ubuntu, each distro has it&amp;rsquo;s own beast, you already know how powerful and productive they are, now the time has come to use them on your &lt;em&gt;other&lt;/em&gt; workstation 😄&lt;/p&gt;
-&lt;p&gt;🍻 But first, an ode to them!&lt;/p&gt;
+&lt;p&gt;If you come from planet Linux you&amp;rsquo;ve used a package manager before, &lt;code&gt;pacman&lt;/code&gt; on Archlinux, &lt;code&gt;apt&lt;/code&gt; on Debian/Ubuntu, each distro has it&amp;rsquo;s own beast, you already know how powerful and productive they are, now the time has come to use them on your &lt;em&gt;other&lt;/em&gt; workstation &amp;#x1f604;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f37b; But first, an ode to them!&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;In the land of coding, where software abounds,&lt;br&gt;
 Where apps and updates are always around,&lt;br&gt;
@@ -321,10 +321,10 @@ And thank you for making our coding lives bright!&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Scoop&#34; srcset=&#34;
-               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_0594c372d321f09ed71821e700f8f2cd.webp 400w,
-               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_7bddabd0a8920c2fca9a9e779c935cc0.webp 760w,
-               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_0594c372d321f09ed71821e700f8f2cd.webp&#34;
+               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp 400w,
+               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_2866e213bb690c93878dc1361b0effe7.webp 760w,
+               /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp&#34;
                width=&#34;760&#34;
                height=&#34;315&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -370,10 +370,10 @@ Scoop is a command-line installer for Windows that allows users to easily instal
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Homebrew&#34; srcset=&#34;
-               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_913ad4a522c3fc80c1abc45e90936bb1.webp 400w,
-               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_8abaad2fb4670e4552b01246d32fa24d.webp 760w,
-               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_913ad4a522c3fc80c1abc45e90936bb1.webp&#34;
+               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp 400w,
+               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_46672bf2ca664312d496529b452ece6e.webp 760w,
+               /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp&#34;
                width=&#34;760&#34;
                height=&#34;611&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -389,9 +389,9 @@ Homebrew is a command-line package manager for macOS (or Linux &lt;sup id=&#34;f
 &lt;p&gt;More Documentation&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;brew help&lt;/code&gt;, &lt;code&gt;man brew&lt;/code&gt; or check &lt;a href=&#34;https://docs.brew.sh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;our documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;bonus-&#34;&gt;Bonus 🥁&lt;/h2&gt;
+&lt;h2 id=&#34;bonus-drum&#34;&gt;Bonus &amp;#x1f941;&lt;/h2&gt;
 &lt;p&gt;If you come from Windows there&amp;rsquo;s a free (not open-source) tool called &lt;a href=&#34;https://patchmypc.com/home-updater&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Patch My PC Home Updater&lt;/a&gt; that installs a large list of apps with an easy user interface, what&amp;rsquo;s cool about it? &lt;br&gt;
-That the apps are already hand-picked and that they are fully categorized! You can find very useful freeware tools there 😉
+That the apps are already hand-picked and that they are fully categorized! You can find very useful freeware tools there &amp;#x1f609;
 
 
 
@@ -411,17 +411,17 @@ That the apps are already hand-picked and that they are fully categorized! You c
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Patch My PC&#34; srcset=&#34;
-               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_93695f5ee8c5af0c0881d18e7c10d5ac.webp 400w,
-               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f36e3e20c4b9c02f359a296a626e40c9.webp 760w,
-               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_93695f5ee8c5af0c0881d18e7c10d5ac.webp&#34;
+               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp 400w,
+               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1caf5b225a17213d1296d902ee427c5c.webp 760w,
+               /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp&#34;
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;Both package managers are awesome, try them and remember, I told you so™️&lt;br&gt;
+&lt;p&gt;Both package managers are awesome, try them and remember, I told you so&amp;#x2122;&amp;#xfe0f;&lt;br&gt;
 It would be great if you can support the authors in a way, too.\&lt;/p&gt;
 &lt;p&gt;In case you want to try more package managers there are &lt;a href=&#34;https://www.finkproject.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fink&lt;/a&gt; and &lt;a href=&#34;https://www.macports.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MacPorts&lt;/a&gt; for macOS and &lt;a href=&#34;https://chocolatey.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chokolatey&lt;/a&gt; for Windows.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: I found out that there&amp;rsquo;s an official Windows tool : &lt;a href=&#34;https://learn.microsoft.com/en-us/windows/package-manager/winget/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;winget&lt;/a&gt;&lt;br&gt;
@@ -433,7 +433,7 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;scoop install git gh 7zip nano nodejs-lts hugo&lt;/code&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;I dont recommend this, leave your Linux package manager alone 😃&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I dont recommend this, leave your Linux package manager alone &amp;#x1f603;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
@@ -470,10 +470,10 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screenshot&#34; srcset=&#34;
-               /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_89f838ba83f09aa0a29d2f11d5ec742b.webp 400w,
-               /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_fe9680d18cb78e5738f6a631af5cbaec.webp 760w,
-               /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_1200x1200_fit_q80_h2_mitchellnetravali_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_89f838ba83f09aa0a29d2f11d5ec742b.webp&#34;
+               /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp 400w,
+               /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7ad44fb4193dfa576419908845c3b89b.webp 760w,
+               /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -577,6 +577,153 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;p&gt;Another great feature of Joplin is its support for encryption, which allows users to secure their notes and keep them private.&lt;/p&gt;
 &lt;p&gt;Full text search is available on all platforms to quickly find the information you need.&lt;/p&gt;
 &lt;p&gt;Check the big list of features &lt;a href=&#34;https://joplinapp.org/#features&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The correct way to benchmark your network</title>
+      <link>https://georgelitos.com/post/benchmark-network/</link>
+      <pubDate>Sun, 14 Aug 2022 18:00:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/benchmark-network/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Ever tried to measure the network speed between two computers?&lt;/li&gt;
+&lt;li&gt;Do you want to know how fast your local network is?&lt;/li&gt;
+&lt;li&gt;Would you like to compare your WiFi and ethernet speeds?&lt;/li&gt;
+&lt;li&gt;Do you want to check for faulty cables?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can do all of the above, and more, with &lt;a href=&#34;https://software.es.net/iperf/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iperf3&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As the devolpers state at the official website :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The iperf series of tools perform active measurements to determine the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the measured throughput, loss, and other parameters.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;iperf3&lt;/code&gt; is a powerful tool that can be used to benchmark the performance of local network computers. It allows you to measure the bandwidth and latency of a network connection between two devices. This can be useful for identifying bottlenecks and troubleshooting network issues.&lt;/p&gt;
+&lt;p&gt;To use &lt;code&gt;iperf3&lt;/code&gt;, you will need to have it installed on both the client and server computers. Once installed, you can run the following commands to start the benchmarking process.&lt;/p&gt;
+&lt;p&gt;On the server computer, open a command prompt and type &amp;ldquo;iperf3 -s&amp;rdquo;. This will start the &lt;code&gt;iperf3&lt;/code&gt; server and listen for incoming connections.&lt;/p&gt;
+&lt;p&gt;On the client computer, open a command prompt and type &amp;ldquo;iperf3 -c [server IP]&amp;rdquo;. Replace [server IP] with the IP address of the server computer. This will connect the client to the server and begin the benchmarking process.&lt;/p&gt;
+&lt;p&gt;By default, &lt;code&gt;iperf3&lt;/code&gt; will perform a test for 10 seconds and provide the results in a summary. However, you can specify a longer test duration or change other settings using command line options. For example, you can use the -t option to specify the test duration in seconds, and the -w option to specify the TCP window size.&lt;/p&gt;
+&lt;p&gt;Once the test is complete, you will see the results displayed on the client computer. These results will include the bandwidth and latency of the connection, as well as any errors that occurred during the test.&lt;/p&gt;
+&lt;p&gt;In addition to the basic test, &lt;code&gt;iperf3&lt;/code&gt; also supports various advanced options such as parallel streams, bidirectional tests, and more. It is a great tool for network administrators and developers to check the performance of their network.&lt;/p&gt;
+&lt;p&gt;In conclusion, &lt;code&gt;iperf3&lt;/code&gt; is a powerful and easy-to-use tool for benchmarking the performance of local network computers. It allows you to measure the bandwidth and latency of a network connection, and provides detailed results that can be used to identify and troubleshoot network issues.&lt;/p&gt;
+&lt;p&gt;First, install &lt;code&gt;iperf3&lt;/code&gt; for your operating system, do that in every computer you want to benchmark.&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Archlinux&lt;/summary&gt;
+  &lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S iperf3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;macOS&lt;/summary&gt;
+  &lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install iperf3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Ubuntu/Debian&lt;/summary&gt;
+  &lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;apt get install iperf3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Windows&lt;/summary&gt;
+  &lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop install iperf3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Synology NAS&lt;/summary&gt;
+  &lt;p&gt;Install &lt;code&gt;SynoCli Monitor Tools&lt;/code&gt; from the &lt;a href=&#34;https://synocommunity.com/packages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SynoCommunity&lt;/a&gt; website&lt;/p&gt;
+&lt;/details&gt;
+&lt;h3 id=&#34;real-life-tests&#34;&gt;Real-life tests&lt;/h3&gt;
+&lt;p&gt;We will use the Synology NAS as the server and run tests across some local machines acting as clients.
+Synology NAS has two network interfaces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LAN Gigabit Ethernet (builtin, attached to gigabit switch)&lt;/li&gt;
+&lt;li&gt;Wi-fi with a &lt;code&gt;TP-LINK TL-WN722N&lt;/code&gt; dongle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;macbookair-m2&#34;&gt;MacbookAir M2&lt;/h4&gt;
+&lt;p&gt;OS : macOS Sonoma 14.2.1&lt;br&gt;
+Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
+&lt;p&gt;Testing the WiFi connection with the MacbookAir M2 (Wi-Fi 6 - 802.11ax)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6] local 192.168.3.6 port 61884 connected to 192.168.3.2 port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-1.01   sec  1.00 MBytes  8.35 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   1.01-2.00   sec   768 KBytes  6.31 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   2.00-3.00   sec  1.25 MBytes  10.5 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   3.00-4.00   sec  1.12 MBytes  9.43 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   4.00-5.01   sec  1.25 MBytes  10.5 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   5.01-6.00   sec  1.00 MBytes  8.41 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   6.00-7.00   sec  1.25 MBytes  10.5 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   7.00-8.01   sec  1.12 MBytes  9.42 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   8.01-9.00   sec  1.00 MBytes  8.43 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   9.00-10.00  sec   896 KBytes  7.33 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- - - - - - - - - - - - - - - - - - - - - - - - -
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec  10.6 MBytes  8.91 Mbits/sec                  sender
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.29  sec  10.7 MBytes  8.69 Mbits/sec                  receiver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Testing the ethernet connection with a &lt;code&gt;TP-LINK UE300&lt;/code&gt; USB3.0 to Gigabit Ethernet adapter&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6] local 192.168.3.8 port 61992 connected to 192.168.3.2 port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-1.00   sec  37.0 MBytes   310 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   1.00-2.00   sec  36.9 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   2.00-3.00   sec  36.5 MBytes   307 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   3.00-4.01   sec  36.8 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   4.01-5.00   sec  36.8 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   5.00-6.00   sec  36.6 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   6.00-7.00   sec  36.8 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   7.00-8.00   sec  36.8 MBytes   309 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   8.00-9.00   sec  36.9 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   9.00-10.00  sec  36.6 MBytes   309 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- - - - - - - - - - - - - - - - - - - - - - - - -
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec   368 MBytes   308 Mbits/sec                  sender
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.01  sec   367 MBytes   308 Mbits/sec                  receiver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Testing the ethernet connection with UGREEN USB-C 9-in-1 Multifunctional Adapter&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6] local 192.168.3.12 port 64525 connected to 192.168.3.2 port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-1.00   sec  68.5 MBytes   572 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   1.00-2.01   sec  77.0 MBytes   646 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   2.01-3.00   sec  77.4 MBytes   650 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   3.00-4.01   sec  77.6 MBytes   651 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   4.01-5.01   sec  77.6 MBytes   651 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   5.01-6.00   sec  77.6 MBytes   651 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   6.00-7.01   sec  79.8 MBytes   669 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   7.01-8.01   sec  77.8 MBytes   652 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   8.01-9.00   sec  75.1 MBytes   631 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   9.00-10.00  sec  77.1 MBytes   649 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- - - - - - - - - - - - - - - - - - - - - - - - -
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec   766 MBytes   642 Mbits/sec                  sender
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec   765 MBytes   642 Mbits/sec                  receiver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Desktop PC (B660 GAMING X, i9-12900K) with Windows 11 Pro, testing the internal Realtek Gaming 2.5GbE LAN&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4] local 192.168.3.13 port 54137 connected to 192.168.3.2 port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bandwidth
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   0.00-1.00   sec   113 MBytes   945 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   1.00-2.00   sec   111 MBytes   933 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   2.00-3.00   sec   111 MBytes   928 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   3.00-4.00   sec   110 MBytes   924 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   4.00-5.00   sec   111 MBytes   929 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   5.00-6.00   sec   112 MBytes   936 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   6.00-7.00   sec   112 MBytes   944 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   7.00-8.00   sec   112 MBytes   941 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   8.00-9.00   sec   112 MBytes   937 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   9.00-10.00  sec   110 MBytes   928 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- - - - - - - - - - - - - - - - - - - - - - - - -
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bandwidth
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   0.00-10.00  sec  1.09 GBytes   934 Mbits/sec                  sender
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   0.00-10.00  sec  1.09 GBytes   934 Mbits/sec                  receiver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This article is a work in progress. More tests and graphs will follow soon™️ 😊&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For more info check the host tuning guides at the &lt;a href=&#34;https://fasterdata.es.net/host-tuning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Energy Sciences Network&lt;/a&gt; website.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     

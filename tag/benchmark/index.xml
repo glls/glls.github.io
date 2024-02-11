@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>benchmark | George Litos</title>
+    <link>https://georgelitos.com/tag/benchmark/</link>
+      <atom:link href="https://georgelitos.com/tag/benchmark/index.xml" rel="self" type="application/rss+xml" />
+    <description>benchmark</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 14 Aug 2022 18:00:00 +0300</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <title>benchmark</title>
+      <link>https://georgelitos.com/tag/benchmark/</link>
+    </image>
+    
+    <item>
+      <title>The correct way to benchmark your network</title>
+      <link>https://georgelitos.com/post/benchmark-network/</link>
+      <pubDate>Sun, 14 Aug 2022 18:00:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/benchmark-network/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Ever tried to measure the network speed between two computers?&lt;/li&gt;
+&lt;li&gt;Do you want to know how fast your local network is?&lt;/li&gt;
+&lt;li&gt;Would you like to compare your WiFi and ethernet speeds?&lt;/li&gt;
+&lt;li&gt;Do you want to check for faulty cables?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can do all of the above, and more, with &lt;a href=&#34;https://software.es.net/iperf/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iperf3&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As the devolpers state at the official website :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The iperf series of tools perform active measurements to determine the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the measured throughput, loss, and other parameters.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;iperf3&lt;/code&gt; is a powerful tool that can be used to benchmark the performance of local network computers. It allows you to measure the bandwidth and latency of a network connection between two devices. This can be useful for identifying bottlenecks and troubleshooting network issues.&lt;/p&gt;
+&lt;p&gt;To use &lt;code&gt;iperf3&lt;/code&gt;, you will need to have it installed on both the client and server computers. Once installed, you can run the following commands to start the benchmarking process.&lt;/p&gt;
+&lt;p&gt;On the server computer, open a command prompt and type &amp;ldquo;iperf3 -s&amp;rdquo;. This will start the &lt;code&gt;iperf3&lt;/code&gt; server and listen for incoming connections.&lt;/p&gt;
+&lt;p&gt;On the client computer, open a command prompt and type &amp;ldquo;iperf3 -c [server IP]&amp;rdquo;. Replace [server IP] with the IP address of the server computer. This will connect the client to the server and begin the benchmarking process.&lt;/p&gt;
+&lt;p&gt;By default, &lt;code&gt;iperf3&lt;/code&gt; will perform a test for 10 seconds and provide the results in a summary. However, you can specify a longer test duration or change other settings using command line options. For example, you can use the -t option to specify the test duration in seconds, and the -w option to specify the TCP window size.&lt;/p&gt;
+&lt;p&gt;Once the test is complete, you will see the results displayed on the client computer. These results will include the bandwidth and latency of the connection, as well as any errors that occurred during the test.&lt;/p&gt;
+&lt;p&gt;In addition to the basic test, &lt;code&gt;iperf3&lt;/code&gt; also supports various advanced options such as parallel streams, bidirectional tests, and more. It is a great tool for network administrators and developers to check the performance of their network.&lt;/p&gt;
+&lt;p&gt;In conclusion, &lt;code&gt;iperf3&lt;/code&gt; is a powerful and easy-to-use tool for benchmarking the performance of local network computers. It allows you to measure the bandwidth and latency of a network connection, and provides detailed results that can be used to identify and troubleshoot network issues.&lt;/p&gt;
+&lt;p&gt;First, install &lt;code&gt;iperf3&lt;/code&gt; for your operating system, do that in every computer you want to benchmark.&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Archlinux&lt;/summary&gt;
+  &lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S iperf3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;macOS&lt;/summary&gt;
+  &lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install iperf3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Ubuntu/Debian&lt;/summary&gt;
+  &lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;apt get install iperf3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Windows&lt;/summary&gt;
+  &lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop install iperf3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;Synology NAS&lt;/summary&gt;
+  &lt;p&gt;Install &lt;code&gt;SynoCli Monitor Tools&lt;/code&gt; from the &lt;a href=&#34;https://synocommunity.com/packages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SynoCommunity&lt;/a&gt; website&lt;/p&gt;
+&lt;/details&gt;
+&lt;h3 id=&#34;real-life-tests&#34;&gt;Real-life tests&lt;/h3&gt;
+&lt;p&gt;We will use the Synology NAS as the server and run tests across some local machines acting as clients.
+Synology NAS has two network interfaces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LAN Gigabit Ethernet (builtin, attached to gigabit switch)&lt;/li&gt;
+&lt;li&gt;Wi-fi with a &lt;code&gt;TP-LINK TL-WN722N&lt;/code&gt; dongle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;macbookair-m2&#34;&gt;MacbookAir M2&lt;/h4&gt;
+&lt;p&gt;OS : macOS Sonoma 14.2.1&lt;br&gt;
+Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
+&lt;p&gt;Testing the WiFi connection with the MacbookAir M2 (Wi-Fi 6 - 802.11ax)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6] local 192.168.3.6 port 61884 connected to 192.168.3.2 port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-1.01   sec  1.00 MBytes  8.35 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   1.01-2.00   sec   768 KBytes  6.31 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   2.00-3.00   sec  1.25 MBytes  10.5 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   3.00-4.00   sec  1.12 MBytes  9.43 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   4.00-5.01   sec  1.25 MBytes  10.5 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   5.01-6.00   sec  1.00 MBytes  8.41 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   6.00-7.00   sec  1.25 MBytes  10.5 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   7.00-8.01   sec  1.12 MBytes  9.42 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   8.01-9.00   sec  1.00 MBytes  8.43 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   9.00-10.00  sec   896 KBytes  7.33 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- - - - - - - - - - - - - - - - - - - - - - - - -
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec  10.6 MBytes  8.91 Mbits/sec                  sender
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.29  sec  10.7 MBytes  8.69 Mbits/sec                  receiver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Testing the ethernet connection with a &lt;code&gt;TP-LINK UE300&lt;/code&gt; USB3.0 to Gigabit Ethernet adapter&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6] local 192.168.3.8 port 61992 connected to 192.168.3.2 port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-1.00   sec  37.0 MBytes   310 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   1.00-2.00   sec  36.9 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   2.00-3.00   sec  36.5 MBytes   307 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   3.00-4.01   sec  36.8 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   4.01-5.00   sec  36.8 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   5.00-6.00   sec  36.6 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   6.00-7.00   sec  36.8 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   7.00-8.00   sec  36.8 MBytes   309 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   8.00-9.00   sec  36.9 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   9.00-10.00  sec  36.6 MBytes   309 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- - - - - - - - - - - - - - - - - - - - - - - - -
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec   368 MBytes   308 Mbits/sec                  sender
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.01  sec   367 MBytes   308 Mbits/sec                  receiver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Testing the ethernet connection with UGREEN USB-C 9-in-1 Multifunctional Adapter&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6] local 192.168.3.12 port 64525 connected to 192.168.3.2 port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-1.00   sec  68.5 MBytes   572 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   1.00-2.01   sec  77.0 MBytes   646 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   2.01-3.00   sec  77.4 MBytes   650 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   3.00-4.01   sec  77.6 MBytes   651 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   4.01-5.01   sec  77.6 MBytes   651 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   5.01-6.00   sec  77.6 MBytes   651 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   6.00-7.01   sec  79.8 MBytes   669 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   7.01-8.01   sec  77.8 MBytes   652 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   8.01-9.00   sec  75.1 MBytes   631 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   9.00-10.00  sec  77.1 MBytes   649 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- - - - - - - - - - - - - - - - - - - - - - - - -
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec   766 MBytes   642 Mbits/sec                  sender
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec   765 MBytes   642 Mbits/sec                  receiver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Desktop PC (B660 GAMING X, i9-12900K) with Windows 11 Pro, testing the internal Realtek Gaming 2.5GbE LAN&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4] local 192.168.3.13 port 54137 connected to 192.168.3.2 port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bandwidth
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   0.00-1.00   sec   113 MBytes   945 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   1.00-2.00   sec   111 MBytes   933 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   2.00-3.00   sec   111 MBytes   928 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   3.00-4.00   sec   110 MBytes   924 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   4.00-5.00   sec   111 MBytes   929 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   5.00-6.00   sec   112 MBytes   936 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   6.00-7.00   sec   112 MBytes   944 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   7.00-8.00   sec   112 MBytes   941 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   8.00-9.00   sec   112 MBytes   937 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   9.00-10.00  sec   110 MBytes   928 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- - - - - - - - - - - - - - - - - - - - - - - - -
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bandwidth
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   0.00-10.00  sec  1.09 GBytes   934 Mbits/sec                  sender
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   0.00-10.00  sec  1.09 GBytes   934 Mbits/sec                  receiver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This article is a work in progress. More tests and graphs will follow soon™️ 😊&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For more info check the host tuning guides at the &lt;a href=&#34;https://fasterdata.es.net/host-tuning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Energy Sciences Network&lt;/a&gt; website.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
