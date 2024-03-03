@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source | George Litos</title>
-    <link>https://georgelitos.com/tag/open-source/</link>
-      <atom:link href="https://georgelitos.com/tag/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/open-source/</link>
+      <atom:link href="http://localhost:1313/tag/open-source/index.xml" rel="self" type="application/rss+xml" />
     <description>Open Source</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Jun 2023 09:18:07 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Open Source</title>
-      <link>https://georgelitos.com/tag/open-source/</link>
+      <link>http://localhost:1313/tag/open-source/</link>
     </image>
     
     <item>
       <title>MC: a commander like no other</title>
-      <link>https://georgelitos.com/post/mc/</link>
+      <link>http://localhost:1313/post/mc/</link>
       <pubDate>Mon, 05 Jun 2023 09:18:07 +0300</pubDate>
-      <guid>https://georgelitos.com/post/mc/</guid>
+      <guid>http://localhost:1313/post/mc/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander™. It also takes the best from more recent software with similar interfaces. Many years ago, we used file-managers like these, as &amp;ldquo;Norton Commander&amp;rdquo; in DOS, or the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, which is still alive in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;dual-pane-interface-for-seamless-file-management&#34;&gt;Dual-Pane Interface for Seamless File Management&lt;/h2&gt;
@@ -92,9 +92,9 @@ The features include:&lt;/p&gt;
     
     <item>
       <title>Display and control your Android device</title>
-      <link>https://georgelitos.com/post/scrcpy/</link>
+      <link>http://localhost:1313/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/scrcpy/</guid>
+      <guid>http://localhost:1313/post/scrcpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
 This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
@@ -143,7 +143,7 @@ This application mirrors Android devices (video and audio) connected via USB or 
                /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp 400w,
                /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_4a66c7aaf9182f60579c17a75635758d.webp 760w,
                /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp&#34;
+               src=&#34;http://localhost:1313/post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -155,9 +155,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Buku: a powerful bookmark manager</title>
-      <link>https://georgelitos.com/post/buku/</link>
+      <link>http://localhost:1313/post/buku/</link>
       <pubDate>Sat, 18 Mar 2023 20:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/buku/</guid>
+      <guid>http://localhost:1313/post/buku/</guid>
       <description>&lt;p&gt;Are you tired of losing track of your bookmarks across multiple browsers? Look no further than Buku, the powerful bookmark manager that imports bookmarks from all your browsers, works on console and has a web-based server.&lt;/p&gt;
 &lt;p&gt;With Buku, you can easily organize your bookmarks into categories and tags, making it easy to find exactly what you need. Plus, Buku&amp;rsquo;s powerful search feature allows you to quickly locate any bookmark in your collection.&lt;/p&gt;
 &lt;p&gt;One of the most unique features of Buku is its powerful console interface:&lt;/p&gt;
@@ -186,7 +186,7 @@ This application mirrors Android devices (video and audio) connected via USB or 
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp 400w,
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7ad44fb4193dfa576419908845c3b89b.webp 760w,
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp&#34;
+               src=&#34;http://localhost:1313/post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -199,9 +199,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Breaking the Barrier</title>
-      <link>https://georgelitos.com/post/barrier/</link>
+      <link>http://localhost:1313/post/barrier/</link>
       <pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/barrier/</guid>
+      <guid>http://localhost:1313/post/barrier/</guid>
       <description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;
 &lt;p&gt;
 
@@ -243,9 +243,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Free your notes with Joplin</title>
-      <link>https://georgelitos.com/post/joplin/</link>
+      <link>http://localhost:1313/post/joplin/</link>
       <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/joplin/</guid>
+      <guid>http://localhost:1313/post/joplin/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
 &lt;p&gt;
 

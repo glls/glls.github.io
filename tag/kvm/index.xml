@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KVM | George Litos</title>
-    <link>https://georgelitos.com/tag/kvm/</link>
-      <atom:link href="https://georgelitos.com/tag/kvm/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/kvm/</link>
+      <atom:link href="http://localhost:1313/tag/kvm/index.xml" rel="self" type="application/rss+xml" />
     <description>KVM</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 19:00:00 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>KVM</title>
-      <link>https://georgelitos.com/tag/kvm/</link>
+      <link>http://localhost:1313/tag/kvm/</link>
     </image>
     
     <item>
       <title>Breaking the Barrier</title>
-      <link>https://georgelitos.com/post/barrier/</link>
+      <link>http://localhost:1313/post/barrier/</link>
       <pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/barrier/</guid>
+      <guid>http://localhost:1313/post/barrier/</guid>
       <description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;
 &lt;p&gt;
 
