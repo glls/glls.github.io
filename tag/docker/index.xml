@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>docker | George Litos</title>
+    <title>Docker | George Litos</title>
     <link>https://georgelitos.com/tag/docker/</link>
       <atom:link href="https://georgelitos.com/tag/docker/index.xml" rel="self" type="application/rss+xml" />
-    <description>docker</description>
+    <description>Docker</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Aug 2023 22:22:22 +0300</lastBuildDate>
     <image>
       <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
-      <title>docker</title>
+      <title>Docker</title>
       <link>https://georgelitos.com/tag/docker/</link>
     </image>
     

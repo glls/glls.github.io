@@ -14,16 +14,20 @@
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://georgelitos.com/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://georgelitos.com/tag/devops/</loc>
     <lastmod>2023-08-10T22:22:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tag/docker/</loc>
     <lastmod>2023-08-10T22:22:22+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/</loc>
-    <lastmod>2023-08-31T21:38:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tag/nextjs/</loc>
@@ -151,10 +155,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/talk/git/</loc>
-    <lastmod>2022-07-01T03:33:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/talk/</loc>
     <lastmod>2022-07-01T03:33:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
