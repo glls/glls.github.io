@@ -5,7 +5,7 @@
     <link>https://georgelitos.com/</link>
       <atom:link href="https://georgelitos.com/index.xml" rel="self" type="application/rss+xml" />
     <description>George Litos</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Aug 2023 22:22:22 +0300</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>George Litos</title>
@@ -242,7 +242,7 @@ The features include:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Display and control your Android device</title>
+      <title>View and control your Android device</title>
       <link>https://georgelitos.com/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
       <guid>https://georgelitos.com/post/scrcpy/</guid>
@@ -318,7 +318,7 @@ This application mirrors Android devices (video and audio) connected via USB or 
     &lt;li&gt;&lt;a href=&#34;#intro&#34;&gt;Intro&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#scoop&#34;&gt;Scoop&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#homebrew&#34;&gt;Homebrew&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#bonus-drum&#34;&gt;Bonus &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#bonus-drum&#34;&gt;Bonus &amp;#x1f941;&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;/details&gt;
