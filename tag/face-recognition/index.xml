@@ -2,6 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Face Recognition | George Litos</title>
+<<<<<<< HEAD
     <link>https://georgelitos.com/tag/face-recognition/</link>
       <atom:link href="https://georgelitos.com/tag/face-recognition/index.xml" rel="self" type="application/rss+xml" />
     <description>Face Recognition</description>
@@ -10,13 +11,23 @@
       <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Face Recognition</title>
       <link>https://georgelitos.com/tag/face-recognition/</link>
+=======
+    <link>http://localhost:1313/tag/face-recognition/</link>
+      <atom:link href="http://localhost:1313/tag/face-recognition/index.xml" rel="self" type="application/rss+xml" />
+    <description>Face Recognition</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <title>Face Recognition</title>
+      <link>http://localhost:1313/tag/face-recognition/</link>
+>>>>>>> refs/remotes/origin/main
     </image>
     
     <item>
       <title>TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</title>
-      <link>https://georgelitos.com/publication/toomanyeyes/</link>
+      <link>http://localhost:1313/publication/toomanyeyes/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://georgelitos.com/publication/toomanyeyes/</guid>
+      <guid>http://localhost:1313/publication/toomanyeyes/</guid>
       <description>&lt;p&gt;Date of Conference: 13-15 Dec. 2017&lt;/p&gt;
 &lt;p&gt;Conference Location: Madrid, Spain&lt;/p&gt;
 </description>

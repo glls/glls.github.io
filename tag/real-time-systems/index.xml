@@ -2,6 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Real Time Systems | George Litos</title>
+<<<<<<< HEAD
     <link>https://georgelitos.com/tag/real-time-systems/</link>
       <atom:link href="https://georgelitos.com/tag/real-time-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>Real Time Systems</description>
@@ -10,21 +11,31 @@
       <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Real Time Systems</title>
       <link>https://georgelitos.com/tag/real-time-systems/</link>
+=======
+    <link>http://localhost:1313/tag/real-time-systems/</link>
+      <atom:link href="http://localhost:1313/tag/real-time-systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>Real Time Systems</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2006 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <title>Real Time Systems</title>
+      <link>http://localhost:1313/tag/real-time-systems/</link>
+>>>>>>> refs/remotes/origin/main
     </image>
     
     <item>
       <title>Synchronous Image Acquisition based on Network Synchronization</title>
-      <link>https://georgelitos.com/publication/network-synchronization/</link>
+      <link>http://localhost:1313/publication/network-synchronization/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      <guid>https://georgelitos.com/publication/network-synchronization/</guid>
+      <guid>http://localhost:1313/publication/network-synchronization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile Tele-echography: User Interface Design</title>
-      <link>https://georgelitos.com/publication/tele-echography/</link>
+      <link>http://localhost:1313/publication/tele-echography/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      <guid>https://georgelitos.com/publication/tele-echography/</guid>
+      <guid>http://localhost:1313/publication/tele-echography/</guid>
       <description></description>
     </item>
     
