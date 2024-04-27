@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DietPi | George Litos</title>
+    <link>https://georgelitos.com/tag/dietpi/</link>
+      <atom:link href="https://georgelitos.com/tag/dietpi/index.xml" rel="self" type="application/rss+xml" />
+    <description>DietPi</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Apr 2024 18:34:13 +0300</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <title>DietPi</title>
+      <link>https://georgelitos.com/tag/dietpi/</link>
+    </image>
+    
+    <item>
+      <title>Wireguard: A Better VPN</title>
+      <link>https://georgelitos.com/post/wireguard/</link>
+      <pubDate>Sat, 27 Apr 2024 18:34:13 +0300</pubDate>
+      <guid>https://georgelitos.com/post/wireguard/</guid>
+      <description>&lt;p&gt;Virtual Private Networks &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(VPNs)&lt;/a&gt; are essential tools for protecting your online privacy and security. But traditional VPNs can sometimes be slow and bog down your connection. &lt;a href=&#34;https://www.wireguard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WireGuard&lt;/a&gt; is a new, innovative VPN protocol that offers several advantages over traditional options, it has a cool logo too 😎.&lt;/p&gt;
+&lt;p&gt;WireGuard is much simpler and leaner than older VPN protocols. This means it&amp;rsquo;s faster and more efficient, using fewer resources and providing a smoother online experience. On top of that, WireGuard prioritizes strong security. It utilizes modern cryptographic techniques to keep your data safe and encrypted.&lt;/p&gt;
+&lt;p&gt;WireGuard is also easy to set up and use. It&amp;rsquo;s available on a wide range of platforms, including Linux, macOS, Windows, Android, and iOS. You can quickly configure WireGuard to connect to a VPN server and start protecting your online activities.&lt;/p&gt;
+&lt;p&gt;I installed Wireguard on my &lt;a href=&#34;https://dietpi.com/docs/software/vpn/#wireguard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RPi4 powered by DietPi&lt;/a&gt; and connected to my selfhosted VPN server in just a few minutes on my Macbook Air and on my Android powered phone (Motorola G32). Check the available clients &lt;a href=&#34;https://www.wireguard.com/install/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, there one for everyone, even iOS and FreeBSD!. The connection was fast and reliable, with minimal impact on my internet speed. I was impressed by how easy it was to use and how well it performed, I could access my UNRAID server and my Synology with ease.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
