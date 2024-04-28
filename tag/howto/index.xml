@@ -5,12 +5,66 @@
     <link>https://georgelitos.com/tag/howto/</link>
       <atom:link href="https://georgelitos.com/tag/howto/index.xml" rel="self" type="application/rss+xml" />
     <description>Howto</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 14 Aug 2022 18:00:00 +0300</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Sep 2023 18:00:00 +0300</lastBuildDate>
     <image>
       <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Howto</title>
       <link>https://georgelitos.com/tag/howto/</link>
     </image>
+    
+    <item>
+      <title>The correct way to benchmark your web server</title>
+      <link>https://georgelitos.com/post/benchmark-webserver/</link>
+      <pubDate>Sun, 10 Sep 2023 18:00:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/benchmark-webserver/</guid>
+      <description>&lt;p&gt;Keeping your web server running smoothly is crucial for a positive user experience. But how do you know it can handle the traffic you expect? Benchmarking is the answer! It allows you to simulate real-world load and measure your server&amp;rsquo;s performance. This post will guide you through using &lt;code&gt;wrk&lt;/code&gt;, a powerful tool for benchmarking your web server.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wrk&lt;/code&gt; is a fast, user-friendly HTTP benchmarking tool. It&amp;rsquo;s lightweight and easy to install. Once you have wrk set up, you can start crafting your benchmark test. &lt;code&gt;wrk&lt;/code&gt; offers various options to configure your test precisely. You can define the number of threads to simulate concurrent users, the number of connections per thread, and the test duration. &lt;code&gt;wrk&lt;/code&gt; also allows you to specify headers to be sent with each request, mimicking real user behavior.&lt;/p&gt;
+&lt;p&gt;Running a &lt;code&gt;wrk&lt;/code&gt; test is straightforward. You provide the URL you want to benchmark along with the desired configuration options. Wrks then bombards your server with simulated traffic, measuring critical metrics like request latency, throughput, and overall system health. After the test concludes, &lt;code&gt;wrk&lt;/code&gt; presents a detailed report. This report showcases valuable data points like average request time, request rate, and connection errors. Analyzing this data helps you identify bottlenecks and areas for improvement in your web server&amp;rsquo;s performance.&lt;/p&gt;
+&lt;p&gt;By incorporating &lt;code&gt;wrk&lt;/code&gt; into your routine, you gain valuable insights into your web server&amp;rsquo;s capabilities. This allows you to optimize your server&amp;rsquo;s configuration, ensuring it can handle peak traffic and deliver a seamless user experience.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an excerpt from the &lt;code&gt;wrk&lt;/code&gt; project&amp;rsquo;s &lt;a href=&#34;https://github.com/wg/wrk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;README on GitHub&lt;/a&gt; for quick reference:&lt;/p&gt;
+&lt;h2 id=&#34;basic-usage&#34;&gt;Basic Usage&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;wrk -t12 -c400 -d30s http://127.0.0.1:8080/index.html
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This runs a benchmark for 30 seconds, using 12 threads, and keeping
+400 HTTP connections open.&lt;/p&gt;
+&lt;p&gt;Output:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Running 30s test @ http://127.0.0.1:8080/index.html
+  12 threads and 400 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   635.91us    0.89ms  12.92ms   93.69%
+    Req/Sec    56.20k     8.07k   62.00k    86.54%
+  22464657 requests in 30.00s, 17.76GB read
+Requests/sec: 748868.53
+Transfer/sec:    606.33MB
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;command-line-options&#34;&gt;Command Line Options&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;-c, --connections: total number of HTTP connections to keep open with
+                   each thread handling N = connections/threads
+
+-d, --duration:    duration of the test, e.g. 2s, 2m, 2h
+
+-t, --threads:     total number of threads to use
+
+-s, --script:      LuaJIT script, see SCRIPTING
+
+-H, --header:      HTTP header to add to request, e.g. &amp;quot;User-Agent: wrk&amp;quot;
+
+    --latency:     print detailed latency statistics
+
+    --timeout:     record a timeout if a response is not received within
+                   this amount of time.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;benchmarking-tips&#34;&gt;Benchmarking Tips&lt;/h2&gt;
+&lt;p&gt;The machine running wrk must have a sufficient number of ephemeral ports
+available and closed sockets should be recycled quickly. To handle the
+initial connection burst the server&amp;rsquo;s listen(2) backlog should be greater
+than the number of concurrent connections being tested.&lt;/p&gt;
+&lt;p&gt;A user script that only changes the HTTP method, path, adds headers or
+a body, will have no performance impact. Per-request actions, particularly
+building a new HTTP request, and use of response() will necessarily reduce
+the amount of load that can be generated.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The correct way to benchmark your network</title>

@@ -1,0 +1,248 @@
+{
+    "data": [
+        {
+            "uid": "39640d",
+            "line": {},
+            "name": "% of Followers",
+            "type": "bar",
+            "x": [
+                "1.5",
+                "1.8",
+                "5.7",
+                "7.6",
+                "7.9",
+                "9.4",
+                "11.9",
+                "12.8",
+                "16.9",
+                "25.3"
+            ],
+            "y": [
+                "Government scientists",
+                "Scientific journals",
+                "Science organizations",
+                "Media",
+                "Environment NGOs",
+                "Other scientists",
+                "Academic scientists",
+                "Unknown",
+                "Non-scientists",
+                "Science students"
+            ],
+            "marker": {
+                "line": {
+                    "color": "rgb(230, 145, 56)",
+                    "width": 0
+                },
+                "color": "rgb(255, 233, 48)"
+            },
+            "error_x": {
+                "type": "data",
+                "color": "rgb(255, 0, 0)",
+                "visible": true,
+                "array": [
+                    "1",
+                    "1",
+                    "2",
+                    "1",
+                    "3",
+                    "4",
+                    "5.4",
+                    "9",
+                    "10",
+                    "10"
+                ],
+                "copy_ystyle": false
+            },
+            "error_y": {
+                "color": "rgb(204, 0, 0)",
+                "width": 4,
+                "thickness": 3
+            },
+            "textfont": {},
+            "orientation": "h"
+        }
+    ],
+    "layout": {
+        "font": {
+            "size": 12,
+            "color": "rgb(255, 255, 255)",
+            "family": "'Open sans', verdana, arial, sans-serif"
+        },
+        "smith": false,
+        "title": "<br><b>Followers of Scientists on Twitter</b>",
+        "width": 800,
+        "xaxis": {
+            "type": "linear",
+            "dtick": 5,
+            "range": [
+                0,
+                37.1578947368421
+            ],
+            "tick0": 0,
+            "ticks": "",
+            "title": "<b>% of Followers</b>",
+            "anchor": "y",
+            "domain": [
+                0,
+                1
+            ],
+            "mirror": false,
+            "nticks": 0,
+            "ticklen": 5,
+            "autotick": true,
+            "position": 0,
+            "showgrid": false,
+            "showline": false,
+            "tickfont": {
+                "size": 0,
+                "color": "",
+                "family": ""
+            },
+            "zeroline": false,
+            "autorange": true,
+            "gridcolor": "#ddd",
+            "gridwidth": 1,
+            "linecolor": "#000",
+            "linewidth": 1,
+            "rangemode": "tozero",
+            "tickangle": -35,
+            "tickcolor": "#000",
+            "tickwidth": 1,
+            "titlefont": {
+                "size": 0,
+                "color": "",
+                "family": ""
+            },
+            "overlaying": false,
+            "showexponent": "all",
+            "zerolinecolor": "#000",
+            "zerolinewidth": 1,
+            "exponentformat": "e",
+            "showticklabels": true
+        },
+        "yaxis": {
+            "type": "category",
+            "dtick": 1,
+            "range": [
+                -0.5,
+                9.5
+            ],
+            "tick0": 0,
+            "ticks": "",
+            "title": "",
+            "anchor": "x",
+            "domain": [
+                0,
+                1
+            ],
+            "mirror": false,
+            "nticks": 0,
+            "ticklen": 5,
+            "autotick": true,
+            "position": 0,
+            "showgrid": false,
+            "showline": false,
+            "tickfont": {
+                "size": 0,
+                "color": "",
+                "family": ""
+            },
+            "zeroline": false,
+            "autorange": true,
+            "gridcolor": "#ddd",
+            "gridwidth": 1,
+            "linecolor": "#000",
+            "linewidth": 1,
+            "rangemode": "tozero",
+            "tickangle": "auto",
+            "tickcolor": "#000",
+            "tickwidth": 1,
+            "titlefont": {
+                "size": 0,
+                "color": "",
+                "family": ""
+            },
+            "overlaying": false,
+            "showexponent": "all",
+            "zerolinecolor": "#000",
+            "zerolinewidth": 1,
+            "exponentformat": "e",
+            "showticklabels": true
+        },
+        "bargap": 0.31,
+        "boxgap": 0.3,
+        "height": 550,
+        "legend": {
+            "x": 0.20437500000000003,
+            "y": 0.88,
+            "font": {
+                "size": 0,
+                "color": "",
+                "family": ""
+            },
+            "bgcolor": "#fff",
+            "xanchor": "left",
+            "yanchor": "top",
+            "traceorder": "normal",
+            "bordercolor": "#000",
+            "borderwidth": 1
+        },
+        "margin": {
+            "b": 130,
+            "l": 150,
+            "r": 100,
+            "t": 90,
+            "pad": 7,
+            "autoexpand": true
+        },
+        "barmode": "stack",
+        "boxmode": "overlay",
+        "autosize": false,
+        "dragmode": "zoom",
+        "hovermode": "x",
+        "titlefont": {
+            "size": 0,
+            "color": "rgb(255, 255, 255)",
+            "family": ""
+        },
+        "separators": ".,",
+        "showlegend": false,
+        "annotations": [
+            {
+                "x": -0.27454545454545454,
+                "y": -0.3182828036221591,
+                "ax": 8,
+                "ay": 19.98333740234375,
+                "tag": "",
+                "font": {
+                    "size": 0,
+                    "color": "",
+                    "family": ""
+                },
+                "text": "<a href=\"www.figshare.com/articles/Followers_of_scientists_on_Twitter/704858\">Link to Figshare</a>",
+                "xref": "paper",
+                "yref": "paper",
+                "align": "center",
+                "bgcolor": "rgba(0,0,0,0)",
+                "opacity": 1,
+                "xanchor": "auto",
+                "yanchor": "auto",
+                "arrowhead": 1,
+                "arrowsize": 1,
+                "borderpad": 1,
+                "showarrow": false,
+                "arrowcolor": "",
+                "arrowwidth": 0,
+                "bordercolor": "",
+                "borderwidth": 1
+            }
+        ],
+        "bargroupgap": 0,
+        "boxgroupgap": 0.3,
+        "hidesources": false,
+        "plot_bgcolor": "rgb(42, 42, 42)",
+        "paper_bgcolor": "rgb(0, 0, 0)"
+    },
+    "frames": []
+}

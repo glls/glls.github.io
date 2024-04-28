@@ -58,6 +58,26 @@
     <lastmod>2024-04-27T18:34:13+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://georgelitos.com/tag/benchmark/</loc>
+    <lastmod>2023-09-10T18:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tag/howto/</loc>
+    <lastmod>2023-09-10T18:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tag/network/</loc>
+    <lastmod>2023-09-10T18:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tag/server/</loc>
+    <lastmod>2023-09-10T18:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/post/benchmark-webserver/</loc>
+    <lastmod>2023-09-10T18:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://georgelitos.com/tag/devops/</loc>
     <lastmod>2023-08-10T22:22:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -156,18 +176,6 @@
   </url><url>
     <loc>https://georgelitos.com/tag/todo/</loc>
     <lastmod>2022-12-20T20:00:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/tag/benchmark/</loc>
-    <lastmod>2022-08-14T18:00:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/tag/howto/</loc>
-    <lastmod>2022-08-14T18:00:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/tag/network/</loc>
-    <lastmod>2022-08-14T18:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/post/benchmark-network/</loc>
