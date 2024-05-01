@@ -9735,3 +9735,6 @@ div.chart {
 
 .chroma {
   border: dashed 1px; }
+
+code {
+  color: green; }
