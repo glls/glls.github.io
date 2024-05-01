@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: May 1, 2024 --><html lang="en-us" >
+
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="George Litos" />
+
+
+
+
+
+  
+
+<meta name="description" content="SQL stands for Structured Query Language. It&rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.
+There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM):" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/sql-cheatsheet/" />
+<link rel="canonical" href="http://localhost:1313/post/sql-cheatsheet/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#158cba" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@gl_ls" />
+  <meta property="twitter:creator" content="@gl_ls" />
+<meta property="twitter:image" content="http://localhost:1313/post/sql-cheatsheet/featured.jpg" />
+
+
+
+  
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="George Litos" />
+<meta property="og:url" content="http://localhost:1313/post/sql-cheatsheet/" />
+<meta property="og:title" content="SQL Cheat Sheet | George Litos" />
+<meta property="og:description" content="SQL stands for Structured Query Language. It&rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.
+There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM):" /><meta property="og:image" content="http://localhost:1313/post/sql-cheatsheet/featured.jpg" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-11-16T19:23:33&#43;03:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-11-16T19:23:33&#43;03:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/post/sql-cheatsheet/"
+  },
+  "headline": "SQL Cheat Sheet",
+  
+  "image": [
+    "http://localhost:1313/post/sql-cheatsheet/featured.jpg"
+  ],
+  
+  "datePublished": "2023-11-16T19:23:33+03:00",
+  "dateModified": "2023-11-16T19:23:33+03:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "George Litos"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "George Litos",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "SQL stands for Structured Query Language. It\u0026rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.\nThere are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM):"
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#158cba",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#158cba"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+  <title>SQL Cheat Sheet | George Litos</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="520fecc1ac819227ae555cc231765f43" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">George Litos</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">George Litos</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<div class="article-container pt-3">
+  <h1>SQL Cheat Sheet</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 16, 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 640px; max-height: 480px;">
+  <div style="position: relative">
+    <img src="/post/sql-cheatsheet/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_100108_cad21598c2fbdd27f7f2e7da74ad1167.webp" width="640" height="480" alt="" class="featured-image">
+    <span class="article-header-caption">Photo by <a href="https://unsplash.com/@tofi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tobias Fischer</a> on <a href="https://unsplash.com/photos/photo-of-5-story-library-building-PkbZahEG2Ng?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>SQL stands for Structured Query Language. It&rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.</p>
+<p>There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM):</p>
+<h3 id="performance">Performance</h3>
+<ul>
+<li>Complex Queries: While ORMs simplify complex queries, they often translate them into multiple underlying SQL statements. For very intricate queries, writing raw SQL can give you more control and potentially improve performance.</li>
+<li>Database-Specific Features: ORMs sometimes have limitations when dealing with functionalities specific to a particular database engine. If you need to leverage advanced features offered by your database (like stored procedures or custom functions), using raw SQL allows you to interact with them directly.</li>
+</ul>
+<h3 id="customization-and-control">Customization and Control</h3>
+<ul>
+<li>Fine-Tuning Queries: SQL grants you complete control over the query structure. You can optimize queries for specific use cases and databases, something that might be limited with an ORM&rsquo;s abstraction layer.</li>
+<li>Database Schema Changes: If your database schema undergoes frequent modifications, relying solely on an ORM might require frequent updates to your object mappings. With SQL, you can directly adapt your queries to the evolving schema.</li>
+</ul>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<ul>
+<li>Error Diagnostics: When errors occur with ORM-generated queries, it can be challenging to pinpoint the exact cause. With raw SQL, you can directly see the query being executed, making it easier to diagnose and fix issues.</li>
+<li>Understanding Database Behavior: For developers who want a deeper understanding of how the database interprets and executes queries, using SQL provides greater transparency into the underlying processes.</li>
+</ul>
+<h2 id="basics">Basics</h2>
+<p>Here are the basic SQL commands that form the foundation for interacting with relational databases:</p>
+<ol>
+<li><strong>SELECT:</strong> This is the most fundamental command used to retrieve data from a database table. You can specify the columns (fields) you want to retrieve and optionally use a WHERE clause to filter the results based on certain conditions.
+Here&rsquo;s an example:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">email</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">users</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">country</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;GR&#39;</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p>This query selects the <code>name</code> and <code>email</code> columns from the <code>users</code> table, but only for users where the <code>country</code> is &lsquo;GR&rsquo;.</p>
+<ol start="2">
+<li><strong>INSERT:</strong> This command allows you to insert new data into a table. You specify the table name and the values you want to insert for each column.</li>
+</ol>
+<p>Here&rsquo;s an example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">products</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">price</span><span class="p">,</span><span class="w"> </span><span class="n">category</span><span class="p">)</span><span class="w"> </span><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;shirt&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">.</span><span class="mi">99</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;clothing&#39;</span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></div><p>This query inserts a new row into the <code>products</code> table with the following details:</p>
+<ul>
+<li><code>name</code>: shirt</li>
+<li><code>price</code>: 9.99</li>
+<li><code>category</code>: clothing</li>
+</ul>
+<ol start="3">
+<li><strong>UPDATE:</strong> This command is used to modify existing data in a table. You specify the table name, the changes you want to make, and a WHERE clause to target specific rows for the update.</li>
+</ol>
+<p>Here&rsquo;s an example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">UPDATE</span><span class="w"> </span><span class="n">customers</span><span class="w"> </span><span class="k">SET</span><span class="w"> </span><span class="n">email</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;new_email@example.com&#39;</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p>This query updates the <code>email</code> address for the customer with <code>id</code> equal to 10 in the <code>customers</code> table.</p>
+<ol start="4">
+<li><strong>DELETE:</strong> This command allows you to remove rows from a table. Similar to UPDATE, you can use a WHERE clause to filter the rows you want to delete.</li>
+</ol>
+<p>Here&rsquo;s an example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">DELETE</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">orders</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">status</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;completed&#39;</span><span class="w"> </span><span class="k">AND</span><span class="w"> </span><span class="n">order_date</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="s1">&#39;2024-01-01&#39;</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p>This query deletes all orders from the <code>orders</code> table that are marked as &ldquo;completed&rdquo; and have an order date before January 1st, 2024.</p>
+<p>These are just a few basic SQL commands to get you started. As you learn more, you&rsquo;ll discover commands for more complex tasks like joining data from multiple tables, grouping results, and using aggregate functions.</p>
+<p>Check these official documentation resources for more in-depth information on SQL:</p>
+<p><a href="https://www.postgresql.org/docs/current/index.html" target="_blank" rel="noopener">PostgreSQL Documentation</a></p>
+<p><a href="https://dev.mysql.com/doc/refman/8.0/en/" target="_blank" rel="noopener">MySQL 8.0 Reference Manual</a></p>
+<p><a href="https://www.sqlite.org/docs.html" target="_blank" rel="noopener">SQLite Documentation</a></p>
+<h2 id="joins">JOINs</h2>
+<p>JOINs are a fundamental concept in relational databases that allow you to combine data from multiple tables based on a shared field. They are essential for retrieving related information across different tables.</p>
+<p><strong>Here&rsquo;s a breakdown of the basics about JOINs:</strong></p>
+<ul>
+<li><strong>Purpose:</strong> JOINs enable you to retrieve data from multiple tables in a single query, establishing relationships between them. This eliminates the need to write separate queries and then manually combine the results.</li>
+<li><strong>Types of JOINs:</strong> There are several types of JOINs, each serving a specific purpose:
+<ul>
+<li><strong>Inner JOIN:</strong> This retrieves records that exist in both tables based on the matching criteria. It&rsquo;s the most common type of JOIN.</li>
+<li><strong>Left JOIN:</strong> This includes all records from the left table (the table mentioned first in the JOIN clause) and matching records from the right table. Records from the right table with no match will have NULL values in the corresponding columns.</li>
+<li><strong>Right JOIN:</strong> Similar to Left JOIN, but includes all records from the right table and matching records from the left table.</li>
+<li><strong>Full JOIN:</strong> This combines all records from both tables, including those with no match in the other table (represented by NULL values).</li>
+</ul>
+</li>
+<li><strong>Example:</strong></li>
+</ul>
+<p>Imagine you have two tables:</p>
+<ul>
+<li><strong>Customers:</strong> Contains customer information like ID, name, and email.</li>
+<li><strong>Orders:</strong> Stores order details like order ID, customer ID (foreign key referencing Customers.ID), and order amount.</li>
+</ul>
+<p>To retrieve a list of customer names along with their total order amount, you can use an Inner JOIN:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="k">SUM</span><span class="p">(</span><span class="n">o</span><span class="p">.</span><span class="n">order_amount</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">total_order_amount</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">Customers</span><span class="w"> </span><span class="k">c</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">INNER</span><span class="w"> </span><span class="k">JOIN</span><span class="w"> </span><span class="n">Orders</span><span class="w"> </span><span class="n">o</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">customer_id</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="k">c</span><span class="p">.</span><span class="n">name</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p><strong>Explanation:</strong></p>
+<ul>
+<li><code>SELECT</code>: This specifies the columns you want to retrieve.</li>
+<li><code>c.name</code>: Selects the customer name from the Customers table (aliased as <code>c</code>).</li>
+<li><code>SUM(o.order_amount) AS total_order_amount</code>: Calculates the total order amount for each customer by summing the <code>order_amount</code> from the Orders table (aliased as <code>o</code>).</li>
+<li><code>FROM Customers c</code>: Specifies the Customers table as the source for customer data.</li>
+<li><code>INNER JOIN Orders o ON c.id = o.customer_id</code>: Defines the JOIN operation.
+<ul>
+<li><code>INNER JOIN</code>: This indicates an Inner JOIN.</li>
+<li><code>Orders o</code>: The Orders table is joined.</li>
+<li><code>ON c.id = o.customer_id</code>: This is the JOIN condition. It matches rows where the customer ID (<code>c.id</code>) in the Customers table is equal to the customer ID (<code>o.customer_id</code>) in the Orders table.</li>
+</ul>
+</li>
+<li><code>GROUP BY c.name</code>: Groups the results by customer name for accurate total order amount calculation.</li>
+</ul>
+<p>This query will return a list of customer names and their corresponding total order amounts, effectively combining data from both tables using the JOIN.</p>
+<h2 id="tips">TIPS</h2>
+<ul>
+<li>
+<p><strong>Use Comments:</strong> SQL supports comments to document your queries. Use <code>--</code> for single-line comments and <code>/* */</code> for multi-line comments.</p>
+</li>
+<li>
+<p><strong>Avoid SELECT * :</strong> When writing queries, avoid using <code>SELECT *</code> to retrieve all columns from a table. Instead, explicitly list the columns you need. This practice improves query performance and makes your code more maintainable.</p>
+</li>
+<li>
+<p><strong>Use Transactions:</strong> When performing multiple operations that need to be executed together (like inserting data into multiple tables), wrap them in a transaction. This ensures that either all operations succeed or none of them are applied.</p>
+</li>
+<li>
+<p><strong>Backup Your Data:</strong> Regularly back up your database to prevent data loss. Most database management systems provide tools or utilities to create backups.</p>
+</li>
+<li>
+<p><strong>Optimize Queries:</strong> Use database tools to analyze query performance and optimize slow queries. Techniques like indexing, query caching, and query tuning can significantly improve database performance.</p>
+</li>
+<li>
+<p><strong>Practice Safe SQL:</strong> Protect your database from SQL injection attacks by using parameterized queries or prepared statements. These techniques help prevent malicious code injection through user input.</p>
+</li>
+</ul>
+<h2 id="snippets">Snippets</h2>
+<p>Check this SQL query that generates statements to convert tables in a database schema to the character set <code>utf8mb4</code> with the collation <code>utf8mb4_unicode_ci</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="n">CONCAT</span><span class="p">(</span><span class="s1">&#39;ALTER TABLE &#39;</span><span class="p">,</span><span class="w"> </span><span class="k">table_name</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39; CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;&#39;</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">alter_statement</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">information_schema</span><span class="p">.</span><span class="n">tables</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">WHERE</span><span class="w"> </span><span class="n">table_schema</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;SCHEMA&#39;</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p>Here&rsquo;s a SQL query that retrieves information about tables in your database and displays their estimated sizes using informational tables:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="n">TABLE_SCHEMA</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="o">`</span><span class="k">Database</span><span class="o">`</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="k">TABLE_NAME</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="o">`</span><span class="k">Table</span><span class="o">`</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="n">ROUND</span><span class="p">((</span><span class="n">DATA_LENGTH</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">INDEX_LENGTH</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">1024</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">1024</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="o">`</span><span class="k">Size</span><span class="w"> </span><span class="p">(</span><span class="n">MB</span><span class="p">)</span><span class="o">`</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">information_schema</span><span class="p">.</span><span class="n">TABLES</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><h2 id="backing-up-and-restoring-databases">Backing Up and Restoring Databases</h2>
+<p>Backing up your database is crucial to prevent data loss in case of hardware failures, accidental deletions, or other disasters. Here&rsquo;s how you can back up and restore databases using SQL commands:</p>
+<h3 id="backing-up-a-database">Backing Up a Database</h3>
+<p>To back up a database, you can use the <code>mysqldump</code> utility. Here&rsquo;s an example command to back up a MySQL database:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mysqldump -u username -p database_name &gt; backup.sql
+</span></span></code></pre></div><p>This command exports the database <code>database_name</code> to a file named <code>backup.sql</code>. You&rsquo;ll be prompted to enter the password for the specified user (<code>username</code>).</p>
+<h3 id="restoring-a-database">Restoring a Database</h3>
+<p>To restore a database from a backup file, you can use the <code>mysql</code> command. Here&rsquo;s an example command to restore a MySQL database:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mysql -u username -p database_name &lt; backup.sql
+</span></span></code></pre></div><p>or you can source the backup file directly in the MySQL shell:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">source</span> backup.sql
+</span></span></code></pre></div><p><strong>PostgreSQL Backup and Restore Options:</strong></p>
+<p>PostgreSQL offers several methods for backing up and restoring databases. Here&rsquo;s an overview of the key tools:</p>
+<ul>
+<li><strong><code>pg_dump</code> and <code>pg_restore</code>:</strong> These are the primary command-line utilities for managing backups.
+<ul>
+<li><code>pg_dump</code> creates consistent backups of your database, including the schema and data. It&rsquo;s suitable for both full and partial backups.</li>
+<li><code>pg_restore</code> is used to restore databases from backups created with <code>pg_dump</code>. It allows for restoring entire databases or specific objects.</li>
+</ul>
+</li>
+<li><strong><code>psql</code>:</strong> While not the primary tool for full database restores, <code>psql</code> can be used to execute individual SQL statements from a backup script containing CREATE TABLE and INSERT statements, offering some restore flexibility.</li>
+<li><strong><code>pg_basebackup</code>:</strong> This is a powerful utility specifically designed for creating online backups of PostgreSQL databases. It creates a consistent physical copy of the database cluster&rsquo;s data files while the server remains operational. This allows for minimal downtime during backup processes and is often used for replication setups.</li>
+</ul>
+<p><strong>Choosing the Right Tool:</strong></p>
+<p>The best backup approach depends on your specific needs. Here&rsquo;s a general guideline:</p>
+<ul>
+<li><strong>Full Backups:</strong> Use <code>pg_dump</code> for scheduled full backups or <code>pg_basebackup</code> for online backups with minimal downtime.</li>
+<li><strong>Partial Backups:</strong> Use <code>pg_dump</code> to target specific schemas or tables.</li>
+<li><strong>Restores:</strong> Use <code>pg_restore</code> for full database restores or <code>psql</code> for limited restores involving specific SQL statements.</li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/productivity/">Productivity</a>
+  
+  <a class="badge badge-light" href="/tag/tools/">Tools</a>
+  
+  <a class="badge badge-light" href="/tag/cheatsheet/">Cheatsheet</a>
+  
+  <a class="badge badge-light" href="/tag/sql/">Sql</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fsql-cheatsheet%2F&amp;text=SQL&#43;Cheat&#43;Sheet" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fsql-cheatsheet%2F&amp;t=SQL&#43;Cheat&#43;Sheet" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=SQL%20Cheat%20Sheet&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fsql-cheatsheet%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fsql-cheatsheet%2F&amp;title=SQL&#43;Cheat&#43;Sheet" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      <a href="http://localhost:1313/"><img class="avatar mr-3 avatar-circle" src="https://s.gravatar.com/avatar/60eff93d77e6a30241de093a98b0af61?s=200" alt="George Litos"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="http://localhost:1313/">George Litos</a></h5>
+      <h6 class="card-subtitle">Senior Software Engineer</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/glls" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.drupal.org/u/georgelitos" target="_blank" rel="noopener">
+        <i class="fab fa-drupal"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/gl_ls" target="_blank" rel="noopener">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="skype:cyberpunk.73?call" >
+        <i class="fab fa-skype"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/george-litos/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2024 by GL - This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <script id="dsq-count-scr" src="https://georgelitos.disqus.com/count.js" async></script>
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

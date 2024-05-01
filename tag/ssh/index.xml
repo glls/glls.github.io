@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssh | George Litos</title>
+    <link>http://localhost:1313/tag/ssh/</link>
+      <atom:link href="http://localhost:1313/tag/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ssh</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 12 Feb 2024 09:03:02 +0300</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <title>Ssh</title>
+      <link>http://localhost:1313/tag/ssh/</link>
+    </image>
+    
+    <item>
+      <title>SSH Cheatsheet</title>
+      <link>http://localhost:1313/post/ssh-cheatsheet/</link>
+      <pubDate>Mon, 12 Feb 2024 09:03:02 +0300</pubDate>
+      <guid>http://localhost:1313/post/ssh-cheatsheet/</guid>
+      <description>&lt;p&gt;01 Git configuration / SETUP&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global user.name “Your Name”
+Set the name that will be attached to your commits and tags.&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global user.email “you@example.com”
+Set the e-mail address that will be attached to your commits and tags.&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global user.name “[firstname lastname]”
+set a name that is identifiable for credit when review version history&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global user.email “[valid-email]”
+set an email address that will be associated with each history marker&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global color.ui auto
+set automatic command line coloring for Git for easy reviewing&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global color.ui auto
+Enable some colorization of Git output.&lt;/p&gt;
+&lt;p&gt;02 Starting a project / INIT&lt;/p&gt;
+&lt;p&gt;git init [project name]
+Create a new local repository in the current directory. If [project name] is provided, Git will create a new directory named [project name] and will initialize a repository inside it.&lt;/p&gt;
+&lt;p&gt;git clone &lt;project url&gt;
+Downloads a project with the entire history from the remote repository.&lt;/p&gt;
+&lt;p&gt;git init
+initialize an existing directory as a Git repository&lt;/p&gt;
+&lt;p&gt;git clone [url]
+retrieve an entire repository from a hosted location via URL&lt;/p&gt;
+&lt;p&gt;03 Day-to-day work / STAGE &amp;amp; SNAPSHOT&lt;/p&gt;
+&lt;p&gt;git status
+Displays the status of your working directory. Options include new, staged, and modified files. It will retrieve branch name,
+current commit identifier, and changes pending commit.&lt;/p&gt;
+&lt;p&gt;git add [file]
+Add a file to the staging area. Use. in place of the full file path
+to add all changed files from the current directory down into
+the directory tree.&lt;/p&gt;
+&lt;p&gt;git diff [file] Show changes between working directory and staging area.&lt;/p&gt;
+&lt;p&gt;git diff &amp;ndash;staged [file] Shows any changes between the staging area and the
+repository.&lt;/p&gt;
+&lt;p&gt;git checkout &amp;ndash; [file] Discard changes in working directory. This operation is
+unrecoverable.&lt;/p&gt;
+&lt;p&gt;git reset -&lt;path&gt;&amp;ndash;.] Revert some paths in the index (or the whole index) to their
+state in HEAD.&lt;/p&gt;
+&lt;p&gt;git commit Create a new commit from changes added to the staging area.
+The commit must have a message!&lt;/p&gt;
+&lt;p&gt;git rm [file] Remove file from working directory and staging area&lt;/p&gt;
+&lt;p&gt;git status
+show modified files in working directory, staged for your next commit&lt;/p&gt;
+&lt;p&gt;git add [file]
+add a file as it looks now to your next commit (stage)&lt;/p&gt;
+&lt;p&gt;git reset [file]
+unstage a file while retaining the changes in working directory&lt;/p&gt;
+&lt;p&gt;git diff
+diff of what is changed but not staged&lt;/p&gt;
+&lt;p&gt;git diff &amp;ndash;staged
+diff of what is staged but not yet committed&lt;/p&gt;
+&lt;p&gt;git commit -m “[descriptive message]”
+commit your staged content as a new commit snapshot&lt;/p&gt;
+&lt;p&gt;04 Storing your work / STASH &amp;amp; CLEAN / TEMPORARY COMMITS&lt;/p&gt;
+&lt;p&gt;git stash list
+list stack-order of stashed file changes&lt;/p&gt;
+&lt;p&gt;git stash
+Put current changes in your working directory into stash for
+later use.&lt;/p&gt;
+&lt;p&gt;git stash pop
+Apply stored stash content into working directory, and clear
+stash.
+git stash drop
+Delete a specific stash from all your previous stashes.&lt;/p&gt;
+&lt;p&gt;05 Git branching model / BRANCH &amp;amp; MERGE / REWRITE HISTORY&lt;/p&gt;
+&lt;p&gt;git branch [-a] List all local branches in repository. With -a: show all branches (with remote).&lt;/p&gt;
+&lt;p&gt;git branch [branch_name] Create new branch, referencing the current HEAD.&lt;/p&gt;
+&lt;p&gt;git rebase [branch]
+apply any commits of current branch ahead of specified one&lt;/p&gt;
+&lt;p&gt;git rebase [branch_name]
+Apply commits of the current working branch and apply them to the HEAD of [branch] to make the history of your branch more linear.&lt;/p&gt;
+&lt;p&gt;git checkout [-b] [branch_name]
+Switch working directory to the specified branch. With -b: Git will create the specified branch if it does not exist.&lt;/p&gt;
+&lt;p&gt;git merge [branch_name]
+Join specified [branch_name] branch into your current branch (the one you are on currently).&lt;/p&gt;
+&lt;p&gt;git branch -d [branch_name]
+Remove selected branch, if it is already merged into any other. -D instead of -d forces deletion&lt;/p&gt;
+&lt;p&gt;git branch
+list your branches. a * will appear next to the currently active branch&lt;/p&gt;
+&lt;p&gt;git branch [branch-name]
+create a new branch at the current commit&lt;/p&gt;
+&lt;p&gt;git checkout
+switch to another branch and check it out into your working directory&lt;/p&gt;
+&lt;p&gt;git merge [branch]
+merge the specified branch’s history into the current one&lt;/p&gt;
+&lt;p&gt;git reset &amp;ndash;hard [commit]
+clear staging area, rewrite working tree from specified commi&lt;/p&gt;
+&lt;p&gt;06 Inspect history / INSPECT &amp;amp; COMPARE&lt;/p&gt;
+&lt;p&gt;git log
+show all commits in the current branch’s history&lt;/p&gt;
+&lt;p&gt;git log [-n count]
+List commit history of current branch. -n count limits list to last n commits.&lt;/p&gt;
+&lt;p&gt;git log &amp;ndash;oneline &amp;ndash;graph &amp;ndash;decorate
+An overview with reference labels and history graph. One commit per line.&lt;/p&gt;
+&lt;p&gt;git log ref-. List commits that are present on the current branch and not
+merged into ref. A ref can be a branch name or a tag name.&lt;/p&gt;
+&lt;p&gt;git log -.ref List commit that are present on ref and not merged into current
+branch.&lt;/p&gt;
+&lt;p&gt;git reflog
+List operations (e.g. checkouts or commits) made on local repository.&lt;/p&gt;
+&lt;p&gt;git log branchB..branchA
+show the commits on branchA that are not on branchB&lt;/p&gt;
+&lt;p&gt;git log &amp;ndash;follow [file]
+show the commits that changed file, even across renames&lt;/p&gt;
+&lt;p&gt;git diff branchB&amp;hellip;branchA
+show the diff of what is in branchA that is not in branchB&lt;/p&gt;
+&lt;p&gt;git show [SHA]
+show any object in Git in human-readable format&lt;/p&gt;
+&lt;p&gt;TRACKING PATH CHANGES
+git rm [file]
+delete the file from project and stage the removal for commit&lt;/p&gt;
+&lt;p&gt;git mv [existing-path] [new-path]
+change an existing file path and stage the move&lt;/p&gt;
+&lt;p&gt;git log &amp;ndash;stat -M
+show all commit logs with indication of any paths that moved&lt;/p&gt;
+&lt;p&gt;07 Tagging commits&lt;/p&gt;
+&lt;p&gt;git tag
+List all tags.&lt;/p&gt;
+&lt;p&gt;git tag [name] [commit sha]
+Create a tag reference named name for current commit. Add
+commit sha to tag a specific commit instead of current one.&lt;/p&gt;
+&lt;p&gt;git tag -a [name] [commit sha]
+Create a tag object named name for current commit.&lt;/p&gt;
+&lt;p&gt;git tag -d [name] Remove a tag from local repository&lt;/p&gt;
+&lt;p&gt;08 Reverting changes&lt;/p&gt;
+&lt;p&gt;git reset [&amp;ndash;hard] [target reference]
+Switches the current branch to the target reference, leaving a difference as an uncommitted change. When &amp;ndash;hard is used, all changes are discarded. It&amp;rsquo;s easy to lose uncommitted changes with &amp;ndash;hard.&lt;/p&gt;
+&lt;p&gt;git revert [commit sha]
+Create a new commit, reverting changes from the specified commit. It generates an inversion of changes.&lt;/p&gt;
+&lt;p&gt;09 Synchronizing repositories / SHARE &amp;amp; UPDATE&lt;/p&gt;
+&lt;p&gt;git fetch [remote] Fetch changes from the remote, but not update tracking branches.&lt;/p&gt;
+&lt;p&gt;git fetch &amp;ndash;prune [remote]
+Delete remote Refs that were removed from the remote repository.&lt;/p&gt;
+&lt;p&gt;git pull [remote]
+Fetch changes from the remote and merge current branch with its upstream.&lt;/p&gt;
+&lt;p&gt;git push [&amp;ndash;tags] [remote]
+Push local changes to the remote. Use &amp;ndash;tags to push tags.&lt;/p&gt;
+&lt;p&gt;git push -u [remote] [branch]
+Push local branch to remote repository. Set its copy as an upstream.&lt;/p&gt;
+&lt;p&gt;git remote add [alias] [url]
+add a git URL as an alias&lt;/p&gt;
+&lt;p&gt;git fetch [alias]
+fetch down all the branches from that Git remote&lt;/p&gt;
+&lt;p&gt;git merge [alias]/[branch]
+merge a remote branch into your current branch to bring it up to date&lt;/p&gt;
+&lt;p&gt;git push [alias] [branch]
+Transmit local branch commits to the remote repository branch&lt;/p&gt;
+&lt;p&gt;git pull
+fetch and merge any commits from the tracking remote branch&lt;/p&gt;
+&lt;p&gt;10 Git installation&lt;/p&gt;
+&lt;p&gt;11 Ignoring files&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Linux console cheat sheet</title>
+      <link>http://localhost:1313/post/linux-console-cheatsheet/</link>
+      <pubDate>Mon, 29 Jan 2024 18:30:00 +0300</pubDate>
+      <guid>http://localhost:1313/post/linux-console-cheatsheet/</guid>
+      <description>&lt;h2 id=&#34;linux-console-cheat-sheet&#34;&gt;Linux console cheat sheet&lt;/h2&gt;
+&lt;p&gt;Received disconnect from 192.168.33.33 port 22:2: Too many authentication failures
+Disconnected from 192.168.33.33 port 22&lt;/p&gt;
+&lt;p&gt;ssh  -o PubkeyAuthentication=no  192.168.33.33ssh-keygen -f &amp;ldquo;/home/gl/.ssh/known_hosts&amp;rdquo; -R &amp;ldquo;192.168.33.33&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;ssh -L port:host:port2 user@host&lt;/p&gt;
+&lt;p&gt;find -type f  -exec chmod 644  {} ;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;find -type f -iname  .DS_Store -exec rm  {} \; &lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;resize-tmpfs&#34;&gt;resize tmpfs&lt;/h1&gt;
+&lt;p&gt;mount -o remount,size=4G,noatime /tmp&lt;/p&gt;
+&lt;h1 id=&#34;after-nvidia-driver-upgrade-ubuntu-with-secureboot-enabled&#34;&gt;after nvidia driver  upgrade (ubuntu with secureboot enabled)&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;sudo update-secureboot-policy --enroll-key&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;unzip-with-folders&#34;&gt;unzip with folders&lt;/h1&gt;
+&lt;p&gt;find -type f -name *.zip -execdir unzip -o &amp;lsquo;{}&amp;rsquo; ;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

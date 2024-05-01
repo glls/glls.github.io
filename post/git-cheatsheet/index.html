@@ -1,0 +1,1755 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: May 1, 2024 --><html lang="en-us" >
+
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="George Litos" />
+
+
+
+
+
+  
+
+<meta name="description" content="In today&rsquo;s collaborative development world, version control is crucial for managing code effectively. Git, a distributed version control system (DVCS), has become the industry standard for developers of all backgrounds." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/git-cheatsheet/" />
+<link rel="canonical" href="http://localhost:1313/post/git-cheatsheet/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#158cba" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@gl_ls" />
+  <meta property="twitter:creator" content="@gl_ls" />
+<meta property="twitter:image" content="http://localhost:1313/post/git-cheatsheet/featured.jpg" />
+
+
+
+  
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="George Litos" />
+<meta property="og:url" content="http://localhost:1313/post/git-cheatsheet/" />
+<meta property="og:title" content="Git Cheatsheet | George Litos" />
+<meta property="og:description" content="In today&rsquo;s collaborative development world, version control is crucial for managing code effectively. Git, a distributed version control system (DVCS), has become the industry standard for developers of all backgrounds." /><meta property="og:image" content="http://localhost:1313/post/git-cheatsheet/featured.jpg" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-10-10T10:00:00&#43;03:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-10-10T10:00:00&#43;03:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/post/git-cheatsheet/"
+  },
+  "headline": "Git Cheatsheet",
+  
+  "image": [
+    "http://localhost:1313/post/git-cheatsheet/featured.jpg"
+  ],
+  
+  "datePublished": "2023-10-10T10:00:00+03:00",
+  "dateModified": "2023-10-10T10:00:00+03:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "George Litos"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "George Litos",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "In today\u0026rsquo;s collaborative development world, version control is crucial for managing code effectively. Git, a distributed version control system (DVCS), has become the industry standard for developers of all backgrounds."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#158cba",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#158cba"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+  <title>Git Cheatsheet | George Litos</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="49fecb387c4b9fa8927f69c12b745898" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">George Litos</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">George Litos</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<div class="article-container pt-3">
+  <h1>Git Cheatsheet</h1>
+
+  
+  <p class="page-subtitle">&ndash;local-branching-on-the-cheap</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 10, 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    10 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 640px; max-height: 427px;">
+  <div style="position: relative">
+    <img src="/post/git-cheatsheet/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_49335_d2e48b0ec5ffb234a47ddc2ae033955d.webp" width="640" height="427" alt="" class="featured-image">
+    <span class="article-header-caption">Photo by <a href="https://unsplash.com/@praveentcom?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Praveen Thirumurugan</a> on <a href="https://unsplash.com/photos/a-book-and-a-small-figurine-on-a-desk-KPAQpJYzH0Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>In today&rsquo;s collaborative development world, version control is crucial for managing code effectively. Git, a distributed version control system (DVCS), has become the industry standard for developers of all backgrounds.</p>
+<h2 id="git-configuration">Git Configuration</h2>
+<p>The initial setup of Git involves configuring your user information and some helpful settings.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git config --global user.name &quot;[Your Name]&quot;</code></td>
+<td>Sets the name associated with your commits and tags. Replace <code>[Your Name]</code> with your actual first and last name.</td>
+</tr>
+<tr>
+<td><code>git config --global user.email &quot;[your-valid-email@example.com]&quot;</code></td>
+<td>Sets the email address associated with your commits and tags. Replace <code>[your-valid-email@example.com]</code> with your actual email address.</td>
+</tr>
+<tr>
+<td><code>git config --global color.ui auto</code></td>
+<td>Enables automatic colorization of Git&rsquo;s command-line output for better readability.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="starting-a-project--init">Starting a Project / INIT</h2>
+<p>Git provides two primary ways to begin working with a project: creating a new local repository or cloning an existing one.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git init [project name]</code> (optional)</td>
+<td>Initializes a new Git repository in the current directory. If you provide a <code>[project name]</code>, Git will create a new directory with that name and initialize a repository inside it.</td>
+</tr>
+<tr>
+<td><code>git clone &lt;project URL&gt;</code></td>
+<td>Downloads a complete project, including its entire history, from a remote repository specified by the <code>&lt;project URL&gt;</code>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="day-to-day-work--stage--snapshot">Day-to-Day Work / Stage &amp; Snapshot</h2>
+<p>Essential Git commands for your daily workflow:</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git status</code></td>
+<td>Displays the current state of your working directory, including new, modified, and staged files. It also shows the current branch name, commit identifier, and any changes awaiting commit.</td>
+</tr>
+<tr>
+<td><code>git add [file]</code></td>
+<td>Adds a specific file to the staging area, which prepares it for the next commit. Use <code>.</code> (dot) to add all changed files from the current directory and its subdirectories.</td>
+</tr>
+<tr>
+<td><code>git diff [file]</code> (optional)</td>
+<td>Shows the differences between the working directory (your uncommitted changes) and the staging area, allowing you to review modifications before committing.</td>
+</tr>
+<tr>
+<td><code>git diff --staged [file]</code> (optional)</td>
+<td>Reveals changes between the staging area (files prepared for commit) and the last committed snapshot, helping you verify staged modifications.</td>
+</tr>
+<tr>
+<td><code>git checkout -- [file]</code> (<strong>Use with caution!</strong> )</td>
+<td>Discards all changes made to a specific file in the working directory. This action cannot be undone!</td>
+</tr>
+<tr>
+<td><code>git reset [&lt;path&gt;]</code></td>
+<td>Reverts changes in the working directory or staging area to match the specified path or the latest commit (HEAD). Use cautiously, as it can lose unsaved work.</td>
+</tr>
+<tr>
+<td><code>git commit -m &quot;[descriptive message]&quot;</code></td>
+<td>Creates a new commit snapshot, capturing the current state of the staged files. Include a clear and concise message describing the changes made.</td>
+</tr>
+<tr>
+<td><code>git rm [file]</code></td>
+<td>Removes a file from both the working directory and the staging area, effectively deleting it from your project.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="git-stash-commands">Git Stash Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git stash</code></td>
+<td>Temporarily saves the current state of your working directory (uncommitted changes and staged files) for later use. This creates a &ldquo;stash&rdquo; entry, essentially a snapshot of your current work.</td>
+</tr>
+<tr>
+<td><code>git stash list</code></td>
+<td>Lists all your stashed changes in reverse chronological order (most recent stash at the top). This helps you identify and manage specific stashed modifications.</td>
+</tr>
+<tr>
+<td><code>git stash pop</code></td>
+<td>Applies the changes from the most recent stash (top of the stash list) to your working directory. This effectively &ldquo;un-stashes&rdquo; your work, incorporating the previously saved changes. The stash itself is removed after a successful pop.</td>
+</tr>
+<tr>
+<td><code>git stash drop</code></td>
+<td>Permanently removes a specific stash entry from the stash list. Use the output from <code>git stash list</code> to identify the stash you want to delete (e.g., <code>git stash drop stash@{0}</code> to delete the most recent stash). <strong>Use with caution!</strong> Once dropped, a stash cannot be recovered.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="git-branching-model--branch--merge--rewrite-history">Git Branching Model / Branch &amp; Merge / Rewrite History</h2>
+<p>Effective branching strategies are essential for managing code development in Git. Here&rsquo;s a breakdown of key Git commands for branching, merging, and history manipulation:</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git branch [-a]</code></td>
+<td>Lists all local branches in your repository. Use the <code>-a</code> flag to see both local and remote branches.</td>
+</tr>
+<tr>
+<td><code>git branch [branch_name]</code></td>
+<td>Creates a new branch named <code>[branch_name]</code> that starts from the current HEAD commit.</td>
+</tr>
+<tr>
+<td><code>git rebase [branch]</code> (<strong>Use with caution!</strong> )</td>
+<td>Rebases the current branch on top of the specified <code>[branch]</code>. This replays your commits on top of the <code>[branch]</code> history, potentially rewriting history and making it difficult for collaboration. <strong>Consider using <code>git merge</code> for collaborative workflows.</strong></td>
+</tr>
+<tr>
+<td><code>git checkout [-b] [branch_name]</code></td>
+<td>Switches your working directory to the specified <code>[branch_name]</code>. Use the <code>-b</code> flag to create a new branch named <code>[branch_name]</code> if it doesn&rsquo;t exist yet.</td>
+</tr>
+<tr>
+<td><code>git merge [branch_name]</code></td>
+<td>Merges the changes from the specified <code>[branch_name]</code> into the current branch, combining their histories. This is generally preferred over <code>git rebase</code> for collaborative development.</td>
+</tr>
+<tr>
+<td><code>git branch -d [branch_name]</code></td>
+<td>Deletes the specified <code>[branch_name]</code>, but only if it has already been merged into another branch. Use the <code>-D</code> flag (<strong>use with caution!</strong>) to force deletion even if unmerged, but be aware this can cause issues in collaborative workflows.</td>
+</tr>
+<tr>
+<td><strong>Additional Commands:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code>git branch</code></td>
+<td>Lists all local branches, indicating the currently active branch with an asterisk (<code>*</code>).</td>
+</tr>
+<tr>
+<td><code>git checkout [branch]</code></td>
+<td>Switches to the specified <code>[branch]</code> and checks it out into your working directory.</td>
+</tr>
+<tr>
+<td><code>git reset --hard [commit]</code> (<strong>Use with extreme caution!</strong> )</td>
+<td>Discards all uncommitted changes in your working directory and resets it to the state of the specified commit. This action cannot be undone!</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Use <code>git branch</code> regularly to keep track of your branches.</li>
+<li>Favor <code>git merge</code> over <code>git rebase</code> in collaborative development to avoid rewriting history and potential conflicts.</li>
+<li>Be cautious with <code>git reset --hard</code> and <code>git branch -D</code> as they can lead to data loss.</li>
+<li>Consider using a visual Git client to get a better understanding of branch relationships.</li>
+</ul>
+<h2 id="inspect-history--inspect--compare">Inspect History / Inspect &amp; Compare</h2>
+<p>Understanding your project&rsquo;s history is crucial in Git. Here&rsquo;s a table outlining essential commands for inspecting commits, comparing branches, and viewing Git objects:</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git log</code></td>
+<td>Lists the commit history of your current branch, starting from the most recent commit and working backwards.</td>
+</tr>
+<tr>
+<td><code>git log [-n count]</code></td>
+<td>Shows a limited view of the commit history, displaying only the most recent <code>n</code> commits.</td>
+</tr>
+<tr>
+<td><code>git log --oneline --graph --decorate</code></td>
+<td>Provides a concise overview of the commit history with a visual graph, reference labels, and decorations (e.g., author names, commit messages). Each commit is displayed on a single line.</td>
+</tr>
+<tr>
+<td><code>git log ref^..</code></td>
+<td>Lists commits that exist on your current branch (ref) but haven&rsquo;t been merged into the specified reference (<code>ref</code>). This reference can be a branch name or a tag name.</td>
+</tr>
+<tr>
+<td><code>git log --first-parent origin/master..HEAD</code> (<strong>Advanced:</strong> Use with caution!)</td>
+<td>Shows commits specific to your current branch (HEAD) that are not present in the <code>origin/master</code> branch&rsquo;s linear history (excluding merges). This is useful for identifying your local changes on top of the remote <code>master</code> branch.</td>
+</tr>
+<tr>
+<td><code>git reflog</code></td>
+<td>Displays a history of operations (like checkouts and commits) performed on your local repository.</td>
+</tr>
+<tr>
+<td><code>git log branchB..branchA</code></td>
+<td>Reveals the commits that are present on branch <code>branchA</code> but not on branch <code>branchB</code>. This helps you understand what changes exist in <code>branchA</code> that are not yet included in <code>branchB</code>.</td>
+</tr>
+<tr>
+<td><code>git log --follow [file]</code></td>
+<td>Tracks the history of a specific file named <code>[file]</code>, even if it has been renamed during development. This allows you to see all commits that modified the file throughout its lifetime.</td>
+</tr>
+<tr>
+<td><code>git diff branchB...branchA</code></td>
+<td>Shows the difference between branches <code>branchB</code> and <code>branchA</code>. This essentially reveals what changes are present in <code>branchA</code> compared to <code>branchB</code>.</td>
+</tr>
+<tr>
+<td><code>git show [SHA]</code></td>
+<td>Displays any Git object (e.g., a commit, a blob, or a tree) in a human-readable format, given its SHA-1 hash (<code>[SHA]</code>).</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Use <code>git log</code> variations to explore your commit history at different levels of detail.</li>
+<li><code>git reflog</code> can be helpful for tracking your actions in the repository.</li>
+<li>Commands like <code>git log branchB..branchA</code> and <code>git diff branchB...branchA</code> are valuable for comparing branches.</li>
+<li><code>git show</code> allows you to examine specific Git objects by their unique identifier.</li>
+</ul>
+<h2 id="reverting-changes">Reverting Changes</h2>
+<p>Git provides two primary ways to undo changes in your project: <code>git reset</code> and <code>git revert</code>. Here&rsquo;s a table explaining these commands:</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git reset [--hard] [target reference]</code></td>
+<td>Moves the current branch pointer (HEAD) to the specified <code>target reference</code> (e.g., a commit SHA or branch name). This essentially undoes changes by rewinding your working directory and staging area to match the target state.</td>
+</tr>
+<tr>
+<td></td>
+<td>* <strong>Without <code>--hard</code></strong> (default): Changes made since the target reference become uncommitted changes in your working directory. However, be cautious as these changes can be easily lost.</td>
+</tr>
+<tr>
+<td></td>
+<td>* <strong>With <code>--hard</code> (<strong>Use with extreme caution!</strong>)</strong>: Discards all uncommitted changes in your working directory and staging area, completely resetting them to the state of the target reference. <strong>This action cannot be undone!</strong></td>
+</tr>
+<tr>
+<td><code>git revert [commit SHA]</code></td>
+<td>Creates a new commit that effectively reverses the changes introduced in the specified commit identified by its SHA. This is generally a safer option than <code>git reset</code> as it creates a new commit to track the reversal, allowing you to revert the revert if needed.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Use <code>git reset</code> cautiously, especially with the <code>--hard</code> flag, as it can lead to permanent data loss.</li>
+<li>Consider <code>git revert</code> as a safer alternative for undoing changes as it creates a new commit for tracking.</li>
+<li>Before using either command, it&rsquo;s highly recommended to back up your work or use a stash (covered in a previous section) to preserve uncommitted changes if needed.</li>
+</ul>
+<h2 id="tagging-commits">Tagging Commits</h2>
+<p>Tags are a powerful way to mark specific points in your Git history for easy reference.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git tag</code></td>
+<td>Lists all existing tags associated with your Git repository.</td>
+</tr>
+<tr>
+<td><code>git tag [name] [commit SHA]</code></td>
+<td>Creates a new tag named <code>[name]</code> that points to the current HEAD commit (the latest commit in your current branch). You can optionally specify a specific commit SHA to tag instead of the current one.</td>
+</tr>
+<tr>
+<td><code>git tag -a [name] [commit SHA]</code> (<strong>Advanced:</strong> Use with caution!)</td>
+<td>Creates an annotated tag named <code>[name]</code> for the specified commit (either the current HEAD or a specific SHA). Annotated tags store additional information like a tag message, which can be helpful for documentation purposes. However, annotated tags can be larger than lightweight tags (created by <code>git tag</code> without <code>-a</code>). Consider using lightweight tags for simplicity in most cases.</td>
+</tr>
+<tr>
+<td><code>git tag -d [name]</code></td>
+<td>Removes the specified tag named <code>[name]</code> from your local repository.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Use clear and descriptive names for your tags to enhance readability.</li>
+<li>Lightweight tags (created with <code>git tag</code>) are generally preferred due to their smaller size.</li>
+<li>Annotated tags (created with <code>git tag -a</code>) can be useful for storing additional information, but use them judiciously when size is a concern.</li>
+</ul>
+<h2 id="synchronizing-repositories--share--update">Synchronizing Repositories / Share &amp; Update</h2>
+<p>Collaboration and keeping your project code in sync are essential aspects of Git.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git fetch [remote]</code></td>
+<td>Retrieves changes from the remote repository specified by <code>[remote]</code> (e.g., <code>origin</code>) but doesn&rsquo;t automatically integrate them into your local branch. This is useful when you want to see what changes exist on the remote without merging them yet.</td>
+</tr>
+<tr>
+<td><code>git fetch --prune [remote]</code></td>
+<td>Fetches changes from the remote repository and additionally removes any local references (refs) to branches that have been deleted on the remote. This helps keep your local repository clean.</td>
+</tr>
+<tr>
+<td><code>git pull [remote]</code></td>
+<td>Combines <code>git fetch</code> and <code>git merge</code> in one step. It downloads changes from the remote repository and attempts to merge them into your current branch. This is a convenient way to stay up-to-date with the remote&rsquo;s latest changes.</td>
+</tr>
+<tr>
+<td><code>git push [--tags] [remote]</code></td>
+<td>Pushes your local commits to the remote repository specified by <code>[remote]</code>. Use the <code>--tags</code> flag to include tags along with your commits.</td>
+</tr>
+<tr>
+<td><code>git push -u [remote] [branch]</code></td>
+<td>Pushes your local branch named <code>[branch]</code> to the remote repository and sets the corresponding remote branch as an &ldquo;upstream&rdquo; branch. This simplifies future pushes as you won&rsquo;t need to specify the remote branch name explicitly.</td>
+</tr>
+<tr>
+<td><code>git remote add [alias] [url]</code></td>
+<td>Adds a new remote repository identified by its URL <code>[url]</code> and assigns a short alias name <code>[alias]</code> for easier reference.</td>
+</tr>
+<tr>
+<td><code>git fetch [alias]</code></td>
+<td>Fetches changes from the remote repository associated with the specified alias <code>[alias]</code>.</td>
+</tr>
+<tr>
+<td><code>git merge [alias]/[branch]</code></td>
+<td>Merges the remote branch named <code>[branch]</code> from the remote repository identified by <code>[alias]</code> into your current local branch. This allows you to incorporate changes from a specific remote branch.</td>
+</tr>
+<tr>
+<td><code>git push [alias] [branch]</code></td>
+<td>Pushes your local branch named <code>[branch]</code> to the remote branch named <code>[branch]</code> on the remote repository identified by <code>[alias]</code>.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Use <code>git fetch</code> when you want to be aware of remote changes without merging them immediately.</li>
+<li><code>git pull</code> is a convenient way to fetch and merge in one step, but be prepared to handle potential merge conflicts.</li>
+<li>Use <code>git push</code> to share your local commits with the remote repository.</li>
+<li>Manage remote repositories with aliases for easier handling using <code>git remote add</code>.</li>
+<li>Consider using a <a href="https://git-scm.com/downloads/guis" target="_blank" rel="noopener">visual Git client</a> to simplify branch management and visualization.</li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/productivity/">Productivity</a>
+  
+  <a class="badge badge-light" href="/tag/tools/">Tools</a>
+  
+  <a class="badge badge-light" href="/tag/cheatsheet/">Cheatsheet</a>
+  
+  <a class="badge badge-light" href="/tag/git/">Git</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fgit-cheatsheet%2F&amp;text=Git&#43;Cheatsheet" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fgit-cheatsheet%2F&amp;t=Git&#43;Cheatsheet" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Git%20Cheatsheet&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fgit-cheatsheet%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fgit-cheatsheet%2F&amp;title=Git&#43;Cheatsheet" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      <a href="http://localhost:1313/"><img class="avatar mr-3 avatar-circle" src="https://s.gravatar.com/avatar/60eff93d77e6a30241de093a98b0af61?s=200" alt="George Litos"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="http://localhost:1313/">George Litos</a></h5>
+      <h6 class="card-subtitle">Senior Software Engineer</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/glls" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.drupal.org/u/georgelitos" target="_blank" rel="noopener">
+        <i class="fab fa-drupal"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/gl_ls" target="_blank" rel="noopener">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="skype:cyberpunk.73?call" >
+        <i class="fab fa-skype"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/george-litos/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2024 by GL - This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <script id="dsq-count-scr" src="https://georgelitos.disqus.com/count.js" async></script>
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
