@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: April 30, 2024 --><html lang="en-us" >
+<!-- Last Published: May 2, 2024 --><html lang="en-us" >
 
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -65,7 +65,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
 
   
   
@@ -207,7 +207,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.css" />
+  <link rel="stylesheet" href="/css/wowchemy.148cc68df808993ed5fd1f2597e0cda2.css" />
 
   
   
@@ -231,6 +231,45 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89694050-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -272,14 +311,12 @@
 
   
 
-<meta name="description" content="01 Git configuration / SETUP
-git config &ndash;global user.name “Your Name” Set the name that will be attached to your commits and tags.
-git config &ndash;global user.email “you@example.com” Set the e-mail address that will be attached to your commits and tags." />
+<meta name="description" content="SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/ssh-cheatsheet/" />
-<link rel="canonical" href="http://localhost:1313/post/ssh-cheatsheet/" />
+<link rel="alternate" hreflang="en-us" href="https://georgelitos.com/post/ssh-cheatsheet/" />
+<link rel="canonical" href="https://georgelitos.com/post/ssh-cheatsheet/" />
 
 
 
@@ -312,7 +349,7 @@ git config &ndash;global user.email “you@example.com” Set the e-mail address
 
   <meta property="twitter:site" content="@gl_ls" />
   <meta property="twitter:creator" content="@gl_ls" />
-<meta property="twitter:image" content="http://localhost:1313/post/ssh-cheatsheet/featured.jpg" />
+<meta property="twitter:image" content="https://georgelitos.com/post/ssh-cheatsheet/featured.jpg" />
 
 
 
@@ -320,11 +357,9 @@ git config &ndash;global user.email “you@example.com” Set the e-mail address
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="George Litos" />
-<meta property="og:url" content="http://localhost:1313/post/ssh-cheatsheet/" />
+<meta property="og:url" content="https://georgelitos.com/post/ssh-cheatsheet/" />
 <meta property="og:title" content="SSH Cheatsheet | George Litos" />
-<meta property="og:description" content="01 Git configuration / SETUP
-git config &ndash;global user.name “Your Name” Set the name that will be attached to your commits and tags.
-git config &ndash;global user.email “you@example.com” Set the e-mail address that will be attached to your commits and tags." /><meta property="og:image" content="http://localhost:1313/post/ssh-cheatsheet/featured.jpg" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential." /><meta property="og:image" content="https://georgelitos.com/post/ssh-cheatsheet/featured.jpg" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -359,12 +394,12 @@ git config &ndash;global user.email “you@example.com” Set the e-mail address
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/post/ssh-cheatsheet/"
+    "@id": "https://georgelitos.com/post/ssh-cheatsheet/"
   },
   "headline": "SSH Cheatsheet",
   
   "image": [
-    "http://localhost:1313/post/ssh-cheatsheet/featured.jpg"
+    "https://georgelitos.com/post/ssh-cheatsheet/featured.jpg"
   ],
   
   "datePublished": "2024-02-12T09:03:02+03:00",
@@ -380,10 +415,10 @@ git config &ndash;global user.email “you@example.com” Set the e-mail address
     "name": "George Litos",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_192x192_fill_lanczos_center_3.png"
+      "url": "https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "01 Git configuration / SETUP\ngit config \u0026ndash;global user.name “Your Name” Set the name that will be attached to your commits and tags.\ngit config \u0026ndash;global user.email “you@example.com” Set the e-mail address that will be attached to your commits and tags."
+  "description": "SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you\u0026rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential."
 }
 </script>
 
@@ -427,7 +462,7 @@ git config &ndash;global user.email “you@example.com” Set the e-mail address
         "message": "This website uses cookies to ensure you get the best experience on our website.",
         "dismiss": "Got it!",
         "link": "Learn more",
-        "href": "/privacy/"
+        "href": "https://www.cookiesandyou.com"
       }
     })});
   </script>
@@ -466,7 +501,7 @@ git config &ndash;global user.email “you@example.com” Set the e-mail address
   
   
   
-  <script src="/js/wowchemy-init.min.js"></script>
+  <script src="/js/wowchemy-init.min.2a4a53409dd0307da17791a1dedf99cd.js"></script>
 
   
 
@@ -819,26 +854,18 @@ git config &ndash;global user.email “you@example.com” Set the e-mail address
 
 
 
-
-
-
-
-
-
-
-
+  
 
   
   
-
-
-
+  
 <div class="article-container pt-3">
   <h1>SSH Cheatsheet</h1>
 
   
 
   
+    
 
 
 <div class="article-metadata">
@@ -875,20 +902,13 @@ git config &ndash;global user.email “you@example.com” Set the e-mail address
 
 </div>
 
+    
+
+
+
+
+
   
-
-
-
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 640px; max-height: 427px;">
-  <div style="position: relative">
-    <img src="/post/ssh-cheatsheet/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_44407_b1eb561553f7feb1330dbe0c8046b5e2.webp" width="640" height="427" alt="" class="featured-image">
-    <span class="article-header-caption">Photo by <a href="https://unsplash.com/@hidd3n?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kevin Horvat</a> on <a href="https://unsplash.com/photos/flat-screen-monitor-turned-on-Pyjp2zmxuLk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
-  </div>
 </div>
 
 
@@ -896,156 +916,106 @@ git config &ndash;global user.email “you@example.com” Set the e-mail address
   <div class="article-container">
 
     <div class="article-style">
-      <p>01 Git configuration / SETUP</p>
-<p>git config &ndash;global user.name “Your Name”
-Set the name that will be attached to your commits and tags.</p>
-<p>git config &ndash;global user.email “you@example.com”
-Set the e-mail address that will be attached to your commits and tags.</p>
-<p>git config &ndash;global user.name “[firstname lastname]”
-set a name that is identifiable for credit when review version history</p>
-<p>git config &ndash;global user.email “[valid-email]”
-set an email address that will be associated with each history marker</p>
-<p>git config &ndash;global color.ui auto
-set automatic command line coloring for Git for easy reviewing</p>
-<p>git config &ndash;global color.ui auto
-Enable some colorization of Git output.</p>
-<p>02 Starting a project / INIT</p>
-<p>git init [project name]
-Create a new local repository in the current directory. If [project name] is provided, Git will create a new directory named [project name] and will initialize a repository inside it.</p>
-<p>git clone <project url>
-Downloads a project with the entire history from the remote repository.</p>
-<p>git init
-initialize an existing directory as a Git repository</p>
-<p>git clone [url]
-retrieve an entire repository from a hosted location via URL</p>
-<p>03 Day-to-day work / STAGE &amp; SNAPSHOT</p>
-<p>git status
-Displays the status of your working directory. Options include new, staged, and modified files. It will retrieve branch name,
-current commit identifier, and changes pending commit.</p>
-<p>git add [file]
-Add a file to the staging area. Use. in place of the full file path
-to add all changed files from the current directory down into
-the directory tree.</p>
-<p>git diff [file] Show changes between working directory and staging area.</p>
-<p>git diff &ndash;staged [file] Shows any changes between the staging area and the
-repository.</p>
-<p>git checkout &ndash; [file] Discard changes in working directory. This operation is
-unrecoverable.</p>
-<p>git reset -<path>&ndash;.] Revert some paths in the index (or the whole index) to their
-state in HEAD.</p>
-<p>git commit Create a new commit from changes added to the staging area.
-The commit must have a message!</p>
-<p>git rm [file] Remove file from working directory and staging area</p>
-<p>git status
-show modified files in working directory, staged for your next commit</p>
-<p>git add [file]
-add a file as it looks now to your next commit (stage)</p>
-<p>git reset [file]
-unstage a file while retaining the changes in working directory</p>
-<p>git diff
-diff of what is changed but not staged</p>
-<p>git diff &ndash;staged
-diff of what is staged but not yet committed</p>
-<p>git commit -m “[descriptive message]”
-commit your staged content as a new commit snapshot</p>
-<p>04 Storing your work / STASH &amp; CLEAN / TEMPORARY COMMITS</p>
-<p>git stash list
-list stack-order of stashed file changes</p>
-<p>git stash
-Put current changes in your working directory into stash for
-later use.</p>
-<p>git stash pop
-Apply stored stash content into working directory, and clear
-stash.
-git stash drop
-Delete a specific stash from all your previous stashes.</p>
-<p>05 Git branching model / BRANCH &amp; MERGE / REWRITE HISTORY</p>
-<p>git branch [-a] List all local branches in repository. With -a: show all branches (with remote).</p>
-<p>git branch [branch_name] Create new branch, referencing the current HEAD.</p>
-<p>git rebase [branch]
-apply any commits of current branch ahead of specified one</p>
-<p>git rebase [branch_name]
-Apply commits of the current working branch and apply them to the HEAD of [branch] to make the history of your branch more linear.</p>
-<p>git checkout [-b] [branch_name]
-Switch working directory to the specified branch. With -b: Git will create the specified branch if it does not exist.</p>
-<p>git merge [branch_name]
-Join specified [branch_name] branch into your current branch (the one you are on currently).</p>
-<p>git branch -d [branch_name]
-Remove selected branch, if it is already merged into any other. -D instead of -d forces deletion</p>
-<p>git branch
-list your branches. a * will appear next to the currently active branch</p>
-<p>git branch [branch-name]
-create a new branch at the current commit</p>
-<p>git checkout
-switch to another branch and check it out into your working directory</p>
-<p>git merge [branch]
-merge the specified branch’s history into the current one</p>
-<p>git reset &ndash;hard [commit]
-clear staging area, rewrite working tree from specified commi</p>
-<p>06 Inspect history / INSPECT &amp; COMPARE</p>
-<p>git log
-show all commits in the current branch’s history</p>
-<p>git log [-n count]
-List commit history of current branch. -n count limits list to last n commits.</p>
-<p>git log &ndash;oneline &ndash;graph &ndash;decorate
-An overview with reference labels and history graph. One commit per line.</p>
-<p>git log ref-. List commits that are present on the current branch and not
-merged into ref. A ref can be a branch name or a tag name.</p>
-<p>git log -.ref List commit that are present on ref and not merged into current
-branch.</p>
-<p>git reflog
-List operations (e.g. checkouts or commits) made on local repository.</p>
-<p>git log branchB..branchA
-show the commits on branchA that are not on branchB</p>
-<p>git log &ndash;follow [file]
-show the commits that changed file, even across renames</p>
-<p>git diff branchB&hellip;branchA
-show the diff of what is in branchA that is not in branchB</p>
-<p>git show [SHA]
-show any object in Git in human-readable format</p>
-<p>TRACKING PATH CHANGES
-git rm [file]
-delete the file from project and stage the removal for commit</p>
-<p>git mv [existing-path] [new-path]
-change an existing file path and stage the move</p>
-<p>git log &ndash;stat -M
-show all commit logs with indication of any paths that moved</p>
-<p>07 Tagging commits</p>
-<p>git tag
-List all tags.</p>
-<p>git tag [name] [commit sha]
-Create a tag reference named name for current commit. Add
-commit sha to tag a specific commit instead of current one.</p>
-<p>git tag -a [name] [commit sha]
-Create a tag object named name for current commit.</p>
-<p>git tag -d [name] Remove a tag from local repository</p>
-<p>08 Reverting changes</p>
-<p>git reset [&ndash;hard] [target reference]
-Switches the current branch to the target reference, leaving a difference as an uncommitted change. When &ndash;hard is used, all changes are discarded. It&rsquo;s easy to lose uncommitted changes with &ndash;hard.</p>
-<p>git revert [commit sha]
-Create a new commit, reverting changes from the specified commit. It generates an inversion of changes.</p>
-<p>09 Synchronizing repositories / SHARE &amp; UPDATE</p>
-<p>git fetch [remote] Fetch changes from the remote, but not update tracking branches.</p>
-<p>git fetch &ndash;prune [remote]
-Delete remote Refs that were removed from the remote repository.</p>
-<p>git pull [remote]
-Fetch changes from the remote and merge current branch with its upstream.</p>
-<p>git push [&ndash;tags] [remote]
-Push local changes to the remote. Use &ndash;tags to push tags.</p>
-<p>git push -u [remote] [branch]
-Push local branch to remote repository. Set its copy as an upstream.</p>
-<p>git remote add [alias] [url]
-add a git URL as an alias</p>
-<p>git fetch [alias]
-fetch down all the branches from that Git remote</p>
-<p>git merge [alias]/[branch]
-merge a remote branch into your current branch to bring it up to date</p>
-<p>git push [alias] [branch]
-Transmit local branch commits to the remote repository branch</p>
-<p>git pull
-fetch and merge any commits from the tracking remote branch</p>
-<p>10 Git installation</p>
-<p>11 Ignoring files</p>
+      <p>SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations.</p>
+<h2 id="connecting-to-a-server">Connecting to a Server</h2>
+<p>The basic syntax for connecting to a server with SSH is:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh username@server_address <span class="o">[</span>-p port_number<span class="o">]</span>
+</span></span></code></pre></div><ul>
+<li><code>username</code>:  Your username on the remote server.</li>
+<li><code>server_address</code>:  The IP address or hostname of the server.</li>
+<li><code>port_number</code>:  The port number used by the SSH server.</li>
+</ul>
+<h2 id="password-vs-key-based-authentication">Password vs. Key-Based Authentication</h2>
+<p>You can connect to a server using a password or a public/private key pair. Key-based authentication is generally considered more secure as it eliminates the need to transmit passwords over the network.</p>
+<h2 id="basic-file-transfer">Basic File Transfer</h2>
+<ul>
+<li>
+<p><strong>scp (Secure Copy):</strong>  Used to securely copy files between your local machine and the remote server.</p>
+<ul>
+<li>To copy a file from the remote server to your local machine:</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">scp username@server_address:/path/to/file local_destination
+</span></span></code></pre></div><ul>
+<li>To copy a file from your local machine to the remote server:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">scp local_file username@server_address:/path/to/destination
+</span></span></code></pre></div><h2 id="remote-commands">Remote Commands</h2>
+<p>You can execute commands on the remote server directly from your local terminal:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh username@server_address <span class="s1">&#39;command_to_execute&#39;</span>
+</span></span></code></pre></div><ul>
+<li><code>command_to_execute</code>:  The command you want to run on the remote server.</li>
+</ul>
+<h2 id="understanding-the-ssh-directory">Understanding the .ssh Directory</h2>
+<p>The hidden directory  <code>~/.ssh</code> (on Unix-based systems) stores SSH configuration files specific to your user account. It&rsquo;s typically not created by default, but SSH will create it if it&rsquo;s missing when you first use a key-based authentication or configure the client. Common files you might find in this directory include:</p>
+<ul>
+<li><strong>id_rsa (private key):</strong> This file contains your private SSH key, used for key-based authentication. It should be kept secret and have strict permissions to prevent unauthorized access.</li>
+<li><strong>id_rsa.pub (public key):</strong> This public key file corresponds to your private key and can be added to authorized keys on servers you want to connect to.</li>
+<li><strong>config (SSH configuration file):</strong> This file allows you to define connection options for specific servers or set global defaults for SSH.</li>
+</ul>
+<h2 id="exploring-the-ssh-config-file">Exploring the SSH Config File</h2>
+<p>The <code>config</code> file within the <code>.ssh</code> directory is a powerful tool for customizing SSH connections. It uses a simple format with options and arguments to define settings. Here are some common uses:</p>
+<ul>
+<li><strong>Host definitions:</strong> You can create sections for specific servers (identified by hostname or IP address) and define options for those connections, such as port, username, and IdentityFile (path to your private key).</li>
+<li><strong>Global options:</strong> You can set default settings for all SSH connections, like preferred encryption ciphers or preferred authentication methods.</li>
+<li><strong>Aliases:</strong> You can define aliases for servers to simplify connection commands. For example, you could create an alias for a server with a long hostname to make connecting easier.</li>
+</ul>
+<h2 id="ssh-tunneling">SSH Tunneling</h2>
+<p>SSH tunneling, also known as SSH port forwarding, is a powerful feature that allows you to create secure connections between your local machine and a remote server. It essentially creates an encrypted tunnel through which you can forward traffic between different ports. This can be useful for various purposes, such as:</p>
+<ul>
+<li><strong>Securely accessing remote services:</strong> If a server offers a service on a non-standard port (for example, a web server on port 8080 instead of the usual port 80), you can use SSH tunneling to securely access it as if it were running on the standard port on your local machine.</li>
+<li><strong>Tunneling traffic through firewalls:</strong> Firewalls might restrict access to certain ports. By tunneling traffic through an SSH connection, you can bypass these restrictions and access the desired service. (<strong>Note:</strong> This should only be done with proper authorization and caution)</li>
+<li><strong>Creating SOCKS proxies:</strong> SSH tunnels can be configured to function as SOCKS proxies, allowing you to route all your internet traffic through the secure SSH connection.</li>
+</ul>
+<p>There are two main types of SSH tunneling:</p>
+<ul>
+<li>
+<p><strong>Local Port Forwarding:</strong> This forwards traffic from a specific port on your local machine to a port on the remote server. Here&rsquo;s an example:</p>
+<p>Let&rsquo;s say you want to securely access a web server running on port 8080 on a remote server. You can use local port forwarding to map port 8080 on the remote server to a different port (e.g., port 8000) on your local machine. By accessing <code>http://localhost:8000</code> in your web browser, the traffic will be securely tunneled through the SSH connection and reach the web server on the remote machine.</p>
+<p>The command for this scenario would be:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh -L 8000:localhost:8080 username@server_address
+</span></span></code></pre></div><ul>
+<li><code>-L</code>: Flag for local port forwarding.</li>
+<li><code>8000</code>: Local port on your machine where you want to access the service.</li>
+<li><code>localhost:8080</code>: The destination on the remote server (localhost refers to the remote server itself in this case).</li>
+<li><code>username</code>: Your username on the remote server.</li>
+<li><code>server_address</code>: The IP address or hostname of the remote server.</li>
+</ul>
+</li>
+<li>
+<p><strong>Remote Port Forwarding (Reverse Tunneling):</strong> This forwards traffic from a port on the remote server to a specific port on another machine on your network. This can be useful for exposing services running on the remote server to other machines on your local network.</p>
+<p>Here&rsquo;s an example:</p>
+<p>Imagine you have a database server running on a remote server behind a firewall, but you need to access it from your local machine. You can set up remote port forwarding to expose the database port (e.g., port 3306) on the remote server to a different port (e.g., port 5432) on your local machine. This allows you to connect to the database server using your local database client as if it were running locally.</p>
+<p>The command for this scenario would be:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">ssh -R 5432:localhost:3306 username@server_address
+</span></span></code></pre></div><ul>
+<li><code>-R</code>: Flag for remote port forwarding.</li>
+<li><code>5432</code>: Port on your local machine that will be forwarded to the remote server.</li>
+<li><code>localhost:3306</code>: The destination on the remote server (localhost refers to the remote server itself in this case).</li>
+<li><code>username</code>: Your username on the remote server.</li>
+<li><code>server_address</code>: The IP address or hostname of the remote server.</li>
+</ul>
+</li>
+</ul>
+<p>These are just a couple of basic examples of SSH tunneling. With some exploration, you&rsquo;ll find many other use cases for this versatile tool. Remember, it&rsquo;s important to understand the security implications before implementing SSH tunnels, especially when bypassing firewalls.</p>
+<h2 id="ssh-commands">SSH Commands</h2>
+<p>Here are some common SSH commands and their use cases:</p>
+<ul>
+<li><strong>ssh-keygen:</strong> Generates a new SSH key pair.</li>
+<li><strong>ssh-copy-id:</strong> Copies your public key to a remote server&rsquo;s authorized keys file.</li>
+<li><strong>ssh-agent:</strong> Manages your SSH keys and allows you to enter passphrases only once.</li>
+<li><strong>ssh-add:</strong> Adds private keys to the SSH agent.</li>
+<li><strong>ssh -o PubkeyAuthentication=no:</strong> Disables public key authentication for a specific SSH session.</li>
+<li><strong>ssh-keygen -f &ldquo;/home/user/.ssh/known_hosts&rdquo; -R &ldquo;192.168.1.1&rdquo; :</strong> Removes a specific host entry from the known_hosts file.</li>
+<li><strong>ssh -J jump_host user@target_host:</strong> Connects to a target host via a jump host (SSH bastion).</li>
+</ul>
+<h2 id="tips-and-tricks">Tips and Tricks</h2>
+<p>Use <code>ssh</code> and then <code>tmux</code> if you want to persist your session in case of network interruptions. This way, you can reconnect to your session and continue where you left off.</p>
+<p>Use config aliases to simplify your SSH connections. For example, you can define an alias for a server with a long hostname and non-standard port to save time typing the connection command.</p>
+<p>Always use strong, unique passwords or passphrase-protected SSH keys to secure your connections. Avoid using default usernames like &ldquo;root&rdquo; and disable password-based authentication if possible.</p>
+<p>Tunneling through SSH can be a powerful tool, espessially for developers, but it should be used responsibly and with caution.</p>
+<p>Remember to always keep your SSH keys secure and avoid sharing them with unauthorized users. Regularly update your keys and rotate them if necessary to maintain a high level of security.</p>
 
     </div>
 
@@ -1084,7 +1054,7 @@ fetch and merge any commits from the tracking remote branch</p>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fssh-cheatsheet%2F&amp;text=SSH&#43;Cheatsheet" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fssh-cheatsheet%2F&amp;text=SSH&#43;Cheatsheet" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1101,7 +1071,7 @@ fetch and merge any commits from the tracking remote branch</p>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fssh-cheatsheet%2F&amp;t=SSH&#43;Cheatsheet" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fssh-cheatsheet%2F&amp;t=SSH&#43;Cheatsheet" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1120,7 +1090,7 @@ fetch and merge any commits from the tracking remote branch</p>
         
       
       <li>
-        <a href="mailto:?subject=SSH%20Cheatsheet&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fssh-cheatsheet%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=SSH%20Cheatsheet&amp;body=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fssh-cheatsheet%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1137,7 +1107,7 @@ fetch and merge any commits from the tracking remote branch</p>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fssh-cheatsheet%2F&amp;title=SSH&#43;Cheatsheet" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fssh-cheatsheet%2F&amp;title=SSH&#43;Cheatsheet" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1169,11 +1139,11 @@ fetch and merge any commits from the tracking remote branch</p>
   
   <div class="media author-card content-widget-hr">
     
-      <a href="http://localhost:1313/"><img class="avatar mr-3 avatar-circle" src="https://s.gravatar.com/avatar/60eff93d77e6a30241de093a98b0af61?s=200" alt="George Litos"></a>
+      <a href="https://georgelitos.com/"><img class="avatar mr-3 avatar-circle" src="https://s.gravatar.com/avatar/60eff93d77e6a30241de093a98b0af61?s=200" alt="George Litos"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="http://localhost:1313/">George Litos</a></h5>
+      <h5 class="card-title"><a href="https://georgelitos.com/">George Litos</a></h5>
       <h6 class="card-subtitle">Senior Software Engineer</h6>
       
       <ul class="network-icon" aria-hidden="true">
@@ -1321,16 +1291,6 @@ fetch and merge any commits from the tracking remote branch</p>
   
 
 
-<p class="powered-by">
-  
-  <a href="/privacy/">Privacy Policy</a>
-  
-  
-   &middot; 
-  <a href="/terms/">Terms</a>
-  
-</p>
-
 
 
 
@@ -1401,7 +1361,7 @@ fetch and merge any commits from the tracking remote branch</p>
   
 
 
-<script src="/js/vendor-bundle.min.js"></script>
+<script src="/js/vendor-bundle.min.391d344a129df56f7ad674c2c2ed04e8.js"></script>
 
 
 
@@ -1499,11 +1459,11 @@ fetch and merge any commits from the tracking remote branch</p>
   
 
 
-<script src="/en/js/wowchemy.min.js"></script>
+<script src="/en/js/wowchemy.min.7f5ebaff62ae468cff8bb3dd1337bb9b.js"></script>
 
 
 
-  <script src="/js/wowchemy-map.js" type="module"></script>
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
 
 
 
@@ -1536,7 +1496,7 @@ fetch and merge any commits from the tracking remote branch</p>
 </div>
 
 
-  <script src="/js/wowchemy-publication.js" type="module"></script>
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
 
 
 

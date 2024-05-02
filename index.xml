@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>George Litos</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/</link>
+      <atom:link href="https://georgelitos.com/index.xml" rel="self" type="application/rss+xml" />
     <description>George Litos</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>George Litos</title>
-      <link>http://localhost:1313/</link>
+      <link>https://georgelitos.com/</link>
     </image>
     
     <item>
       <title>Example Page 1</title>
-      <link>http://localhost:1313/courses/example/example1/</link>
+      <link>https://georgelitos.com/courses/example/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/courses/example/example1/</guid>
+      <guid>https://georgelitos.com/courses/example/example1/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -35,9 +35,9 @@
     
     <item>
       <title>Example Page 2</title>
-      <link>http://localhost:1313/courses/example/example2/</link>
+      <link>https://georgelitos.com/courses/example/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/courses/example/example2/</guid>
+      <guid>https://georgelitos.com/courses/example/example2/</guid>
       <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -56,9 +56,9 @@
     
     <item>
       <title>Wireguard: A Better VPN</title>
-      <link>http://localhost:1313/post/wireguard/</link>
+      <link>https://georgelitos.com/post/wireguard/</link>
       <pubDate>Sat, 27 Apr 2024 18:34:13 +0300</pubDate>
-      <guid>http://localhost:1313/post/wireguard/</guid>
+      <guid>https://georgelitos.com/post/wireguard/</guid>
       <description>&lt;p&gt;Virtual Private Networks &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(VPNs)&lt;/a&gt; are essential tools for protecting your online privacy and security. But traditional VPNs can sometimes be slow and bog down your connection. &lt;a href=&#34;https://www.wireguard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WireGuard&lt;/a&gt; is a new, innovative VPN protocol that offers several advantages over traditional options, it has a cool logo too 😎.&lt;/p&gt;
 &lt;p&gt;WireGuard is much simpler and leaner than older VPN protocols. This means it&amp;rsquo;s faster and more efficient, using fewer resources and providing a smoother online experience. On top of that, WireGuard prioritizes strong security. It utilizes modern cryptographic techniques to keep your data safe and encrypted.&lt;/p&gt;
 &lt;p&gt;WireGuard is also easy to set up and use. It&amp;rsquo;s available on a wide range of platforms, including Linux, macOS, Windows, Android, and iOS. You can quickly configure WireGuard to connect to a VPN server and start protecting your online activities.&lt;/p&gt;
@@ -68,9 +68,9 @@
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
+      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
       <description>&lt;p&gt;&lt;em&gt;This page is work in progress, eventually more examples will be added.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The command line might seem intimidating, but it offers hidden gems for everyday tasks. Today, we&amp;rsquo;ll explore its power for image and video conversions, giving you more control over your media files for future reference or projects.&lt;/p&gt;
 &lt;h2 id=&#34;image-manipulation&#34;&gt;Image Manipulation&lt;/h2&gt;
@@ -121,10 +121,118 @@
     </item>
     
     <item>
+      <title>SSH Cheatsheet</title>
+      <link>https://georgelitos.com/post/ssh-cheatsheet/</link>
+      <pubDate>Mon, 12 Feb 2024 09:03:02 +0300</pubDate>
+      <guid>https://georgelitos.com/post/ssh-cheatsheet/</guid>
+      <description>&lt;p&gt;SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&amp;rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations.&lt;/p&gt;
+&lt;h2 id=&#34;connecting-to-a-server&#34;&gt;Connecting to a Server&lt;/h2&gt;
+&lt;p&gt;The basic syntax for connecting to a server with SSH is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh username@server_address &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;-p port_number&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;:  Your username on the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_address&lt;/code&gt;:  The IP address or hostname of the server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;port_number&lt;/code&gt;:  The port number used by the SSH server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;password-vs-key-based-authentication&#34;&gt;Password vs. Key-Based Authentication&lt;/h2&gt;
+&lt;p&gt;You can connect to a server using a password or a public/private key pair. Key-based authentication is generally considered more secure as it eliminates the need to transmit passwords over the network.&lt;/p&gt;
+&lt;h2 id=&#34;basic-file-transfer&#34;&gt;Basic File Transfer&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;scp (Secure Copy):&lt;/strong&gt;  Used to securely copy files between your local machine and the remote server.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To copy a file from the remote server to your local machine:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scp username@server_address:/path/to/file local_destination
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;To copy a file from your local machine to the remote server:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scp local_file username@server_address:/path/to/destination
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;remote-commands&#34;&gt;Remote Commands&lt;/h2&gt;
+&lt;p&gt;You can execute commands on the remote server directly from your local terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh username@server_address &lt;span class=&#34;s1&#34;&gt;&amp;#39;command_to_execute&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;command_to_execute&lt;/code&gt;:  The command you want to run on the remote server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;understanding-the-ssh-directory&#34;&gt;Understanding the .ssh Directory&lt;/h2&gt;
+&lt;p&gt;The hidden directory  &lt;code&gt;~/.ssh&lt;/code&gt; (on Unix-based systems) stores SSH configuration files specific to your user account. It&amp;rsquo;s typically not created by default, but SSH will create it if it&amp;rsquo;s missing when you first use a key-based authentication or configure the client. Common files you might find in this directory include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;id_rsa (private key):&lt;/strong&gt; This file contains your private SSH key, used for key-based authentication. It should be kept secret and have strict permissions to prevent unauthorized access.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;id_rsa.pub (public key):&lt;/strong&gt; This public key file corresponds to your private key and can be added to authorized keys on servers you want to connect to.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;config (SSH configuration file):&lt;/strong&gt; This file allows you to define connection options for specific servers or set global defaults for SSH.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exploring-the-ssh-config-file&#34;&gt;Exploring the SSH Config File&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;config&lt;/code&gt; file within the &lt;code&gt;.ssh&lt;/code&gt; directory is a powerful tool for customizing SSH connections. It uses a simple format with options and arguments to define settings. Here are some common uses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Host definitions:&lt;/strong&gt; You can create sections for specific servers (identified by hostname or IP address) and define options for those connections, such as port, username, and IdentityFile (path to your private key).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Global options:&lt;/strong&gt; You can set default settings for all SSH connections, like preferred encryption ciphers or preferred authentication methods.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aliases:&lt;/strong&gt; You can define aliases for servers to simplify connection commands. For example, you could create an alias for a server with a long hostname to make connecting easier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ssh-tunneling&#34;&gt;SSH Tunneling&lt;/h2&gt;
+&lt;p&gt;SSH tunneling, also known as SSH port forwarding, is a powerful feature that allows you to create secure connections between your local machine and a remote server. It essentially creates an encrypted tunnel through which you can forward traffic between different ports. This can be useful for various purposes, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Securely accessing remote services:&lt;/strong&gt; If a server offers a service on a non-standard port (for example, a web server on port 8080 instead of the usual port 80), you can use SSH tunneling to securely access it as if it were running on the standard port on your local machine.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tunneling traffic through firewalls:&lt;/strong&gt; Firewalls might restrict access to certain ports. By tunneling traffic through an SSH connection, you can bypass these restrictions and access the desired service. (&lt;strong&gt;Note:&lt;/strong&gt; This should only be done with proper authorization and caution)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creating SOCKS proxies:&lt;/strong&gt; SSH tunnels can be configured to function as SOCKS proxies, allowing you to route all your internet traffic through the secure SSH connection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are two main types of SSH tunneling:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Local Port Forwarding:&lt;/strong&gt; This forwards traffic from a specific port on your local machine to a port on the remote server. Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say you want to securely access a web server running on port 8080 on a remote server. You can use local port forwarding to map port 8080 on the remote server to a different port (e.g., port 8000) on your local machine. By accessing &lt;code&gt;http://localhost:8000&lt;/code&gt; in your web browser, the traffic will be securely tunneled through the SSH connection and reach the web server on the remote machine.&lt;/p&gt;
+&lt;p&gt;The command for this scenario would be:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh -L 8000:localhost:8080 username@server_address
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-L&lt;/code&gt;: Flag for local port forwarding.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;8000&lt;/code&gt;: Local port on your machine where you want to access the service.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;localhost:8080&lt;/code&gt;: The destination on the remote server (localhost refers to the remote server itself in this case).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;: Your username on the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_address&lt;/code&gt;: The IP address or hostname of the remote server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Remote Port Forwarding (Reverse Tunneling):&lt;/strong&gt; This forwards traffic from a port on the remote server to a specific port on another machine on your network. This can be useful for exposing services running on the remote server to other machines on your local network.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;p&gt;Imagine you have a database server running on a remote server behind a firewall, but you need to access it from your local machine. You can set up remote port forwarding to expose the database port (e.g., port 3306) on the remote server to a different port (e.g., port 5432) on your local machine. This allows you to connect to the database server using your local database client as if it were running locally.&lt;/p&gt;
+&lt;p&gt;The command for this scenario would be:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh -R 5432:localhost:3306 username@server_address
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-R&lt;/code&gt;: Flag for remote port forwarding.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;5432&lt;/code&gt;: Port on your local machine that will be forwarded to the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;localhost:3306&lt;/code&gt;: The destination on the remote server (localhost refers to the remote server itself in this case).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;: Your username on the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_address&lt;/code&gt;: The IP address or hostname of the remote server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are just a couple of basic examples of SSH tunneling. With some exploration, you&amp;rsquo;ll find many other use cases for this versatile tool. Remember, it&amp;rsquo;s important to understand the security implications before implementing SSH tunnels, especially when bypassing firewalls.&lt;/p&gt;
+&lt;h2 id=&#34;ssh-commands&#34;&gt;SSH Commands&lt;/h2&gt;
+&lt;p&gt;Here are some common SSH commands and their use cases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ssh-keygen:&lt;/strong&gt; Generates a new SSH key pair.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ssh-copy-id:&lt;/strong&gt; Copies your public key to a remote server&amp;rsquo;s authorized keys file.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ssh-agent:&lt;/strong&gt; Manages your SSH keys and allows you to enter passphrases only once.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ssh-add:&lt;/strong&gt; Adds private keys to the SSH agent.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ssh -o PubkeyAuthentication=no:&lt;/strong&gt; Disables public key authentication for a specific SSH session.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ssh-keygen -f &amp;ldquo;/home/user/.ssh/known_hosts&amp;rdquo; -R &amp;ldquo;192.168.1.1&amp;rdquo; :&lt;/strong&gt; Removes a specific host entry from the known_hosts file.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ssh -J jump_host user@target_host:&lt;/strong&gt; Connects to a target host via a jump host (SSH bastion).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips-and-tricks&#34;&gt;Tips and Tricks&lt;/h2&gt;
+&lt;p&gt;Use &lt;code&gt;ssh&lt;/code&gt; and then &lt;code&gt;tmux&lt;/code&gt; if you want to persist your session in case of network interruptions. This way, you can reconnect to your session and continue where you left off.&lt;/p&gt;
+&lt;p&gt;Use config aliases to simplify your SSH connections. For example, you can define an alias for a server with a long hostname and non-standard port to save time typing the connection command.&lt;/p&gt;
+&lt;p&gt;Always use strong, unique passwords or passphrase-protected SSH keys to secure your connections. Avoid using default usernames like &amp;ldquo;root&amp;rdquo; and disable password-based authentication if possible.&lt;/p&gt;
+&lt;p&gt;Tunneling through SSH can be a powerful tool, espessially for developers, but it should be used responsibly and with caution.&lt;/p&gt;
+&lt;p&gt;Remember to always keep your SSH keys secure and avoid sharing them with unauthorized users. Regularly update your keys and rotate them if necessary to maintain a high level of security.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SQL Cheat Sheet</title>
-      <link>http://localhost:1313/post/sql-cheatsheet/</link>
+      <link>https://georgelitos.com/post/sql-cheatsheet/</link>
       <pubDate>Thu, 16 Nov 2023 19:23:33 +0300</pubDate>
-      <guid>http://localhost:1313/post/sql-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/sql-cheatsheet/</guid>
       <description>&lt;p&gt;SQL stands for Structured Query Language. It&amp;rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.&lt;/p&gt;
 &lt;p&gt;There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM):&lt;/p&gt;
 &lt;h3 id=&#34;performance&#34;&gt;Performance&lt;/h3&gt;
@@ -285,9 +393,9 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
     
     <item>
       <title>Git Cheatsheet</title>
-      <link>http://localhost:1313/post/git-cheatsheet/</link>
+      <link>https://georgelitos.com/post/git-cheatsheet/</link>
       <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/git-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
       <description>&lt;p&gt;In today&amp;rsquo;s collaborative development world, version control is crucial for managing code effectively. Git, a distributed version control system (DVCS), has become the industry standard for developers of all backgrounds.&lt;/p&gt;
 &lt;h2 id=&#34;git-configuration&#34;&gt;Git Configuration&lt;/h2&gt;
 &lt;p&gt;The initial setup of Git involves configuring your user information and some helpful settings.&lt;/p&gt;
@@ -651,9 +759,9 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
     
     <item>
       <title>The correct way to benchmark your web server</title>
-      <link>http://localhost:1313/post/benchmark-webserver/</link>
+      <link>https://georgelitos.com/post/benchmark-webserver/</link>
       <pubDate>Sun, 10 Sep 2023 18:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/benchmark-webserver/</guid>
+      <guid>https://georgelitos.com/post/benchmark-webserver/</guid>
       <description>&lt;p&gt;Keeping your web server running smoothly is crucial for a positive user experience. But how do you know it can handle the traffic you expect? Benchmarking is the answer! It allows you to simulate real-world load and measure your server&amp;rsquo;s performance. This post will guide you through using &lt;code&gt;wrk&lt;/code&gt;, a powerful tool for benchmarking your web server.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;wrk&lt;/code&gt; is a fast, user-friendly HTTP benchmarking tool. It&amp;rsquo;s lightweight and easy to install. Once you have wrk set up, you can start crafting your benchmark test. &lt;code&gt;wrk&lt;/code&gt; offers various options to configure your test precisely. You can define the number of threads to simulate concurrent users, the number of connections per thread, and the test duration. &lt;code&gt;wrk&lt;/code&gt; also allows you to specify headers to be sent with each request, mimicking real user behavior.&lt;/p&gt;
 &lt;p&gt;Running a &lt;code&gt;wrk&lt;/code&gt; test is straightforward. You provide the URL you want to benchmark along with the desired configuration options. Wrks then bombards your server with simulated traffic, measuring critical metrics like request latency, throughput, and overall system health. After the test concludes, &lt;code&gt;wrk&lt;/code&gt; presents a detailed report. This report showcases valuable data points like average request time, request rate, and connection errors. Analyzing this data helps you identify bottlenecks and areas for improvement in your web server&amp;rsquo;s performance.&lt;/p&gt;
@@ -703,9 +811,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>React &#43; Next.js with Docker</title>
-      <link>http://localhost:1313/post/reactjsnext/</link>
+      <link>https://georgelitos.com/post/reactjsnext/</link>
       <pubDate>Thu, 10 Aug 2023 22:22:22 +0300</pubDate>
-      <guid>http://localhost:1313/post/reactjsnext/</guid>
+      <guid>https://georgelitos.com/post/reactjsnext/</guid>
       <description>&lt;p&gt;Following my previous post on &lt;a href=&#34;https://georgelitos.com/post/vuejsnuxt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vuejs + Nuxt.js with Docker&lt;/a&gt;, I will show you how to dockerize a React + Next.js web application.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://reactjs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;React&lt;/a&gt; is a JavaScript library for building user interfaces. &lt;a href=&#34;https://nextjs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Next.js&lt;/a&gt; is a framework for building React applications.
 &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; is a containerization platform that can be used to package and deploy these applications.&lt;/p&gt;
@@ -733,9 +841,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>Vue.js &#43; Nuxt with Docker</title>
-      <link>http://localhost:1313/post/vuejsnuxt/</link>
+      <link>https://georgelitos.com/post/vuejsnuxt/</link>
       <pubDate>Fri, 04 Aug 2023 16:27:10 +0300</pubDate>
-      <guid>http://localhost:1313/post/vuejsnuxt/</guid>
+      <guid>https://georgelitos.com/post/vuejsnuxt/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://vuejs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vue.js&lt;/a&gt; and &lt;a href=&#34;https://nuxt.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nuxt&lt;/a&gt; are powerful frameworks for building web applications. &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; is a containerization platform that can be used to package and deploy these applications.&lt;/p&gt;
 &lt;p&gt;To dockerize a Nuxt application, a Dockerfile is created that specifies the steps required to build the image. This typically includes installing Nuxt and the application&amp;rsquo;s dependencies.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-dockerfile&#34; data-lang=&#34;dockerfile&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;s&#34;&gt; node:20-alpine&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
@@ -812,9 +920,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>MC: a commander like no other</title>
-      <link>http://localhost:1313/post/mc/</link>
+      <link>https://georgelitos.com/post/mc/</link>
       <pubDate>Mon, 05 Jun 2023 09:18:07 +0300</pubDate>
-      <guid>http://localhost:1313/post/mc/</guid>
+      <guid>https://georgelitos.com/post/mc/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander™. It also takes the best from more recent software with similar interfaces. Many years ago, we used file-managers like these, as &amp;ldquo;Norton Commander&amp;rdquo; in DOS, or the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, which is still alive in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;dual-pane-interface-for-seamless-file-management&#34;&gt;Dual-Pane Interface for Seamless File Management&lt;/h2&gt;
@@ -890,9 +998,9 @@ The features include:&lt;/p&gt;
     
     <item>
       <title>View and control your Android device</title>
-      <link>http://localhost:1313/post/scrcpy/</link>
+      <link>https://georgelitos.com/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/scrcpy/</guid>
+      <guid>https://georgelitos.com/post/scrcpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
 This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
@@ -941,7 +1049,7 @@ This application mirrors Android devices (video and audio) connected via USB or 
                /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp 400w,
                /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_4a66c7aaf9182f60579c17a75635758d.webp 760w,
                /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp&#34;
+               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -953,9 +1061,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Package Managers - not the evil kind of PMs</title>
-      <link>http://localhost:1313/post/pkgman/</link>
+      <link>https://georgelitos.com/post/pkgman/</link>
       <pubDate>Tue, 21 Mar 2023 21:27:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/pkgman/</guid>
+      <guid>https://georgelitos.com/post/pkgman/</guid>
       <description>
 
 &lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
@@ -1013,7 +1121,7 @@ And thank you for making our coding lives bright!&lt;/p&gt;
                /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp 400w,
                /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_2866e213bb690c93878dc1361b0effe7.webp 760w,
                /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp&#34;
                width=&#34;760&#34;
                height=&#34;315&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1062,7 +1170,7 @@ Scoop is a command-line installer for Windows that allows users to easily instal
                /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp 400w,
                /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_46672bf2ca664312d496529b452ece6e.webp 760w,
                /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp&#34;
                width=&#34;760&#34;
                height=&#34;611&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1103,7 +1211,7 @@ That the apps are already hand-picked and that they are fully categorized! You c
                /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp 400w,
                /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1caf5b225a17213d1296d902ee427c5c.webp 760w,
                /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp&#34;
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1131,9 +1239,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Buku: a powerful bookmark manager</title>
-      <link>http://localhost:1313/post/buku/</link>
+      <link>https://georgelitos.com/post/buku/</link>
       <pubDate>Sat, 18 Mar 2023 20:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/buku/</guid>
+      <guid>https://georgelitos.com/post/buku/</guid>
       <description>&lt;p&gt;Are you tired of losing track of your bookmarks across multiple browsers? Look no further than Buku, the powerful bookmark manager that imports bookmarks from all your browsers, works on console and has a web-based server.&lt;/p&gt;
 &lt;p&gt;With Buku, you can easily organize your bookmarks into categories and tags, making it easy to find exactly what you need. Plus, Buku&amp;rsquo;s powerful search feature allows you to quickly locate any bookmark in your collection.&lt;/p&gt;
 &lt;p&gt;One of the most unique features of Buku is its powerful console interface:&lt;/p&gt;
@@ -1162,7 +1270,7 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp 400w,
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7ad44fb4193dfa576419908845c3b89b.webp 760w,
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp&#34;
+               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1175,9 +1283,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>How to bypass Git Hooks</title>
-      <link>http://localhost:1313/post/git-bypass/</link>
+      <link>https://georgelitos.com/post/git-bypass/</link>
       <pubDate>Wed, 08 Mar 2023 12:42:52 +0200</pubDate>
-      <guid>http://localhost:1313/post/git-bypass/</guid>
+      <guid>https://georgelitos.com/post/git-bypass/</guid>
       <description>&lt;p&gt;&lt;code&gt;git push --no-verify&lt;/code&gt; is a command used to push your local changes to a remote repository without running pre-commit hooks or pre-push hooks. Pre-commit hooks and pre-push hooks are scripts that run before a commit or a push, and they are used to perform automated tests, code quality checks, or other actions that help ensure the quality and correctness of your code. You can use &lt;a href=&#34;https://github.com/typicode/husky&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;husky&lt;/a&gt; or &lt;a href=&#34;https://pre-commit.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pre-commit&lt;/a&gt; if you need extra features or just production ready tools.&lt;/p&gt;
 &lt;p&gt;Sometimes, you may need to bypass these hooks and push your changes without running them. For example, if you&amp;rsquo;re in a hurry and you need to push a critical bug fix, or if you&amp;rsquo;re working in a team with strict code review policies and you need to push a work-in-progress commit for collaboration purposes.&lt;/p&gt;
 &lt;p&gt;To use it simply add the &lt;code&gt;--no-verify&lt;/code&gt; flag to your git push command:&lt;/p&gt;
@@ -1185,15 +1293,15 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will push your changes to the remote repository without running the pre-commit or pre-push hooks.&lt;/p&gt;
 &lt;p&gt;However, it&amp;rsquo;s important to note that using &amp;ndash;no-verify should be done with caution, as it can potentially lead to lower code quality and a higher risk of introducing bugs or other issues into your codebase. Therefore, it&amp;rsquo;s recommended to only use &amp;ndash;no-verify when it&amp;rsquo;s absolutely necessary and always double-check your code before pushing it to a remote repository.&lt;/p&gt;
 &lt;p&gt;You can check the &lt;a href=&#34;https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-verify&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Git Documentation.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;http://localhost:1313/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;https://georgelitos.com/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Breaking the Barrier</title>
-      <link>http://localhost:1313/post/barrier/</link>
+      <link>https://georgelitos.com/post/barrier/</link>
       <pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/barrier/</guid>
+      <guid>https://georgelitos.com/post/barrier/</guid>
       <description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;
 &lt;p&gt;
 
@@ -1238,9 +1346,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Free your notes with Joplin</title>
-      <link>http://localhost:1313/post/joplin/</link>
+      <link>https://georgelitos.com/post/joplin/</link>
       <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/joplin/</guid>
+      <guid>https://georgelitos.com/post/joplin/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
 &lt;p&gt;
 
@@ -1274,9 +1382,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>The correct way to benchmark your network</title>
-      <link>http://localhost:1313/post/benchmark-network/</link>
+      <link>https://georgelitos.com/post/benchmark-network/</link>
       <pubDate>Sun, 14 Aug 2022 18:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/benchmark-network/</guid>
+      <guid>https://georgelitos.com/post/benchmark-network/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Ever tried to measure the network speed between two computers?&lt;/li&gt;
 &lt;li&gt;Do you want to know how fast your local network is?&lt;/li&gt;
@@ -1421,9 +1529,9 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
     
     <item>
       <title>Git ...not just version control</title>
-      <link>http://localhost:1313/talk/git/</link>
+      <link>https://georgelitos.com/talk/git/</link>
       <pubDate>Fri, 01 Jul 2022 03:33:00 +0300</pubDate>
-      <guid>http://localhost:1313/talk/git/</guid>
+      <guid>https://georgelitos.com/talk/git/</guid>
       <description>&lt;p&gt;Git is a powerful version control system that allows developers to track and store changes to their code. It also helps teams collaborate on projects efficiently. With Git, developers can keep track of changes made to their code, revert back to previous versions if needed, and even create branches for different versions of the same project. In this talk, we&amp;rsquo;ll take a look at how Git works and how it can be used to manage and track changes to your code.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -1435,9 +1543,9 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/git/</link>
+      <link>https://georgelitos.com/slides/git/</link>
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/git/</guid>
+      <guid>https://georgelitos.com/slides/git/</guid>
       <description>&lt;section&gt;
 &lt;h1 id=&#34;git&#34;&gt;Git&lt;/h1&gt;
 &lt;h2 id=&#34;not-just-version-control&#34;&gt;not just version control&lt;/h2&gt;
@@ -1460,7 +1568,7 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;git&#34;
-           src=&#34;http://localhost:1313/slides/git/org.gnome.gitg.svg&#34;
+           src=&#34;https://georgelitos.com/slides/git/org.gnome.gitg.svg&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
@@ -1506,7 +1614,7 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
                /slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_c2bba156ad5afb82863a8af5e5caa9e4.webp 400w,
                /slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_4e05231ba2dd2fadfb7bbd4159827624.webp 760w,
                /slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_c2bba156ad5afb82863a8af5e5caa9e4.webp&#34;
+               src=&#34;https://georgelitos.com/slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_c2bba156ad5afb82863a8af5e5caa9e4.webp&#34;
                width=&#34;320&#34;
                height=&#34;216&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1540,7 +1648,7 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
                /slides/git/git239_hu5c8e85710e339ea459e5affd104717cb_12776_95b1397f195907d2cbdbc4844ee28344.webp 400w,
                /slides/git/git239_hu5c8e85710e339ea459e5affd104717cb_12776_cfe60e752c2b6b99749feb0ae38f41ec.webp 760w,
                /slides/git/git239_hu5c8e85710e339ea459e5affd104717cb_12776_1200x1200_fit_q80_h2_lanczos_2.webp 1200w&#34;
-               src=&#34;http://localhost:1313/slides/git/git239_hu5c8e85710e339ea459e5affd104717cb_12776_95b1397f195907d2cbdbc4844ee28344.webp&#34;
+               src=&#34;https://georgelitos.com/slides/git/git239_hu5c8e85710e339ea459e5affd104717cb_12776_95b1397f195907d2cbdbc4844ee28344.webp&#34;
                width=&#34;50%&#34;
                height=&#34;50%&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1582,7 +1690,7 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
                /slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_796a5d83ecd6ca27d2710ffa45bd574d.webp 400w,
                /slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_019cfd3a8409fa3e171773c90050e5b3.webp 760w,
                /slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_796a5d83ecd6ca27d2710ffa45bd574d.webp&#34;
+               src=&#34;https://georgelitos.com/slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_796a5d83ecd6ca27d2710ffa45bd574d.webp&#34;
                width=&#34;648&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1623,7 +1731,7 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
                /slides/git/so2022_hu84a21014762d3e2fb603bed89afbb34c_18783_eb80f454c6bc68e0d4b9933431e85bb6.webp 400w,
                /slides/git/so2022_hu84a21014762d3e2fb603bed89afbb34c_18783_14e75c280ba8dd37fbc8dc4af1f075ce.webp 760w,
                /slides/git/so2022_hu84a21014762d3e2fb603bed89afbb34c_18783_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/slides/git/so2022_hu84a21014762d3e2fb603bed89afbb34c_18783_eb80f454c6bc68e0d4b9933431e85bb6.webp&#34;
+               src=&#34;https://georgelitos.com/slides/git/so2022_hu84a21014762d3e2fb603bed89afbb34c_18783_eb80f454c6bc68e0d4b9933431e85bb6.webp&#34;
                width=&#34;642&#34;
                height=&#34;189&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1846,7 +1954,7 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
                /slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_16cbad046f3a62639864713f143b9e2c.webp 400w,
                /slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_6ee67de1562f6ead1214f6453fea969a.webp 760w,
                /slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_16cbad046f3a62639864713f143b9e2c.webp&#34;
+               src=&#34;https://georgelitos.com/slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_16cbad046f3a62639864713f143b9e2c.webp&#34;
                width=&#34;50%&#34;
                height=&#34;50%&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1883,7 +1991,7 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
-           src=&#34;http://localhost:1313/slides/git/branches.svg&#34;
+           src=&#34;https://georgelitos.com/slides/git/branches.svg&#34;
            loading=&#34;lazy&#34; data-zoomable width=&#34;50%&#34; height=&#34;50%&#34; /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
@@ -1958,7 +2066,7 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;in case of fire&#34;
-           src=&#34;http://localhost:1313/slides/git/in_case_of_fire.svg&#34;
+           src=&#34;https://georgelitos.com/slides/git/in_case_of_fire.svg&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
@@ -2182,9 +2290,9 @@ to another repository&lt;/dd&gt;
     
     <item>
       <title>Research Projects</title>
-      <link>http://localhost:1313/project/research_projects/</link>
+      <link>https://georgelitos.com/project/research_projects/</link>
       <pubDate>Tue, 04 Jun 2019 23:23:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/research_projects/</guid>
+      <guid>https://georgelitos.com/project/research_projects/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;AGRIBIT&lt;/strong&gt; - Artificial intelliGence applied to pRecision farmIng By the use of GNSS and Integrated
 Technologies (&lt;a href=&#34;https://cordis.europa.eu/project/id/101004259&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;H2020:101004259&lt;/a&gt;)&lt;/li&gt;
@@ -2226,9 +2334,9 @@ Project.&lt;/li&gt;
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/docker/</link>
+      <link>https://georgelitos.com/slides/docker/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/docker/</guid>
+      <guid>https://georgelitos.com/slides/docker/</guid>
       <description>&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -2350,9 +2458,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/example/</link>
+      <link>https://georgelitos.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/example/</guid>
+      <guid>https://georgelitos.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -2474,9 +2582,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</title>
-      <link>http://localhost:1313/publication/toomanyeyes/</link>
+      <link>https://georgelitos.com/publication/toomanyeyes/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/toomanyeyes/</guid>
+      <guid>https://georgelitos.com/publication/toomanyeyes/</guid>
       <description>&lt;p&gt;Date of Conference: 13-15 Dec. 2017&lt;/p&gt;
 &lt;p&gt;Conference Location: Madrid, Spain&lt;/p&gt;
 </description>
@@ -2484,65 +2592,65 @@ $$&lt;/p&gt;
     
     <item>
       <title>Typhon</title>
-      <link>http://localhost:1313/project/typhon/</link>
+      <link>https://georgelitos.com/project/typhon/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/typhon/</guid>
+      <guid>https://georgelitos.com/project/typhon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</title>
-      <link>http://localhost:1313/publication/3d-object-retrieval/</link>
+      <link>https://georgelitos.com/publication/3d-object-retrieval/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/3d-object-retrieval/</guid>
+      <guid>https://georgelitos.com/publication/3d-object-retrieval/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SHREC’11 Track: Generic Shape Retrieval</title>
-      <link>http://localhost:1313/publication/shrec/</link>
+      <link>https://georgelitos.com/publication/shrec/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/shrec/</guid>
+      <guid>https://georgelitos.com/publication/shrec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Survey of Semantic Image and Video Annotation Tools</title>
-      <link>http://localhost:1313/publication/semantic-survey/</link>
+      <link>https://georgelitos.com/publication/semantic-survey/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/semantic-survey/</guid>
+      <guid>https://georgelitos.com/publication/semantic-survey/</guid>
       <description></description>
     </item>
     
     <item>
       <title>3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</title>
-      <link>http://localhost:1313/publication/3d-model-retrieval/</link>
+      <link>https://georgelitos.com/publication/3d-model-retrieval/</link>
       <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/3d-model-retrieval/</guid>
+      <guid>https://georgelitos.com/publication/3d-model-retrieval/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Synchronous Image Acquisition based on Network Synchronization</title>
-      <link>http://localhost:1313/publication/network-synchronization/</link>
+      <link>https://georgelitos.com/publication/network-synchronization/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/network-synchronization/</guid>
+      <guid>https://georgelitos.com/publication/network-synchronization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>User Interface Environment and Image Communication in Mobile Tele-Echography</title>
-      <link>http://localhost:1313/publication/mobile-tele-echography/</link>
+      <link>https://georgelitos.com/publication/mobile-tele-echography/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/mobile-tele-echography/</guid>
+      <guid>https://georgelitos.com/publication/mobile-tele-echography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile Tele-echography: User Interface Design</title>
-      <link>http://localhost:1313/publication/tele-echography/</link>
+      <link>https://georgelitos.com/publication/tele-echography/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/tele-echography/</guid>
+      <guid>https://georgelitos.com/publication/tele-echography/</guid>
       <description></description>
     </item>
     

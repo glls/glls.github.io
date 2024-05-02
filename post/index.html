@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 1, 2024 --><html lang="en-us" >
+<!-- Last Published: May 2, 2024 --><html lang="en-us" >
 
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -65,7 +65,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
 
   
   
@@ -207,7 +207,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.css" />
+  <link rel="stylesheet" href="/css/wowchemy.148cc68df808993ed5fd1f2597e0cda2.css" />
 
   
   
@@ -231,6 +231,45 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89694050-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -276,8 +315,8 @@
 
 
 
-<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/" />
-<link rel="canonical" href="http://localhost:1313/post/" />
+<link rel="alternate" hreflang="en-us" href="https://georgelitos.com/post/" />
+<link rel="canonical" href="https://georgelitos.com/post/" />
 
 
 
@@ -311,7 +350,7 @@
 
   <meta property="twitter:site" content="@gl_ls" />
   <meta property="twitter:creator" content="@gl_ls" />
-<meta property="twitter:image" content="http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png" />
+<meta property="twitter:image" content="https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png" />
 
 
 
@@ -319,9 +358,9 @@
 
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="George Litos" />
-<meta property="og:url" content="http://localhost:1313/post/" />
+<meta property="og:url" content="https://georgelitos.com/post/" />
 <meta property="og:title" content="Posts | George Litos" />
-<meta property="og:description" content="George Litos&#39;s personal website" /><meta property="og:image" content="http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="George Litos&#39;s personal website" /><meta property="og:image" content="https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta property="og:updated_time" content="2024-04-27T18:34:13&#43;03:00" />
@@ -410,7 +449,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.js"></script>
+  <script src="/js/wowchemy-init.min.2a4a53409dd0307da17791a1dedf99cd.js"></script>
 
   
 
@@ -967,6 +1006,100 @@ The command line might seem intimidating, but it offers hidden gems for everyday
       <a href="/post/image-video-cheatsheet/" >
         <img src="/post/image-video-cheatsheet/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_129431_6dc33c61cfab50099dbd677e5616d4b1.webp" height="100" width="150"
             alt="Image and Video Cheat Sheet" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/ssh-cheatsheet/" >SSH Cheatsheet</a>
+    </div>
+
+    
+    <a href="/post/ssh-cheatsheet/"  class="summary-link">
+      <div class="article-style">
+        SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 12, 2024
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      
+      <a href="/post/ssh-cheatsheet/" >
+        <img src="/post/ssh-cheatsheet/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_44407_d5773aee04d358f34af61f9ee811b8db.webp" height="100" width="150"
+            alt="SSH Cheatsheet" loading="lazy">
       </a>
     
   </div>
@@ -1641,105 +1774,6 @@ To dockerize a Nuxt application, a Dockerfile is created that specifies the step
 </div>
 
   
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/pkgman/" >Package Managers - not the evil kind of PMs</a>
-    </div>
-
-    
-    <a href="/post/pkgman/"  class="summary-link">
-      <div class="article-style">
-        So hail to the package managers, we say, for keeping our software up-to-date each day!
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          Last updated on
-      
-    
-    Aug 10, 2023
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    3 min read
-  </span>
-  
-
-  
-  
-  
-  
-    <span class="middot-divider"></span>
-    <a href="/post/pkgman/#disqus_thread"></a>
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-      
-      
-      <a href="/post/pkgman/" >
-        <img src="/post/pkgman/featured_hufba469f0d16eea013c068e7214c4e721_66591_f8f28bdf554c978478a489d57a85ffd2.webp" height="83" width="150"
-            alt="Package Managers - not the evil kind of PMs" loading="lazy">
-      </a>
-    
-  </div>
-</div>
-
-  
 
   
 <nav class="mt-1">
@@ -1852,7 +1886,7 @@ To dockerize a Nuxt application, a Dockerfile is created that specifies the step
   
 
 
-<script src="/js/vendor-bundle.min.js"></script>
+<script src="/js/vendor-bundle.min.391d344a129df56f7ad674c2c2ed04e8.js"></script>
 
 
 
@@ -1950,11 +1984,11 @@ To dockerize a Nuxt application, a Dockerfile is created that specifies the step
   
 
 
-<script src="/en/js/wowchemy.min.js"></script>
+<script src="/en/js/wowchemy.min.7f5ebaff62ae468cff8bb3dd1337bb9b.js"></script>
 
 
 
-  <script src="/js/wowchemy-map.js" type="module"></script>
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
 
 
 
@@ -1987,7 +2021,7 @@ To dockerize a Nuxt application, a Dockerfile is created that specifies the step
 </div>
 
 
-  <script src="/js/wowchemy-publication.js" type="module"></script>
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
 
 
 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productivity | George Litos</title>
-    <link>http://localhost:1313/tag/productivity/</link>
-      <atom:link href="http://localhost:1313/tag/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tag/productivity/</link>
+      <atom:link href="https://georgelitos.com/tag/productivity/index.xml" rel="self" type="application/rss+xml" />
     <description>Productivity</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Apr 2024 18:34:13 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Productivity</title>
-      <link>http://localhost:1313/tag/productivity/</link>
+      <link>https://georgelitos.com/tag/productivity/</link>
     </image>
     
     <item>
       <title>Wireguard: A Better VPN</title>
-      <link>http://localhost:1313/post/wireguard/</link>
+      <link>https://georgelitos.com/post/wireguard/</link>
       <pubDate>Sat, 27 Apr 2024 18:34:13 +0300</pubDate>
-      <guid>http://localhost:1313/post/wireguard/</guid>
+      <guid>https://georgelitos.com/post/wireguard/</guid>
       <description>&lt;p&gt;Virtual Private Networks &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(VPNs)&lt;/a&gt; are essential tools for protecting your online privacy and security. But traditional VPNs can sometimes be slow and bog down your connection. &lt;a href=&#34;https://www.wireguard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WireGuard&lt;/a&gt; is a new, innovative VPN protocol that offers several advantages over traditional options, it has a cool logo too 😎.&lt;/p&gt;
 &lt;p&gt;WireGuard is much simpler and leaner than older VPN protocols. This means it&amp;rsquo;s faster and more efficient, using fewer resources and providing a smoother online experience. On top of that, WireGuard prioritizes strong security. It utilizes modern cryptographic techniques to keep your data safe and encrypted.&lt;/p&gt;
 &lt;p&gt;WireGuard is also easy to set up and use. It&amp;rsquo;s available on a wide range of platforms, including Linux, macOS, Windows, Android, and iOS. You can quickly configure WireGuard to connect to a VPN server and start protecting your online activities.&lt;/p&gt;
@@ -26,9 +26,9 @@
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
+      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
       <description>&lt;p&gt;&lt;em&gt;This page is work in progress, eventually more examples will be added.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The command line might seem intimidating, but it offers hidden gems for everyday tasks. Today, we&amp;rsquo;ll explore its power for image and video conversions, giving you more control over your media files for future reference or projects.&lt;/p&gt;
 &lt;h2 id=&#34;image-manipulation&#34;&gt;Image Manipulation&lt;/h2&gt;
@@ -79,10 +79,118 @@
     </item>
     
     <item>
+      <title>SSH Cheatsheet</title>
+      <link>https://georgelitos.com/post/ssh-cheatsheet/</link>
+      <pubDate>Mon, 12 Feb 2024 09:03:02 +0300</pubDate>
+      <guid>https://georgelitos.com/post/ssh-cheatsheet/</guid>
+      <description>&lt;p&gt;SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&amp;rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations.&lt;/p&gt;
+&lt;h2 id=&#34;connecting-to-a-server&#34;&gt;Connecting to a Server&lt;/h2&gt;
+&lt;p&gt;The basic syntax for connecting to a server with SSH is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh username@server_address &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;-p port_number&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;:  Your username on the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_address&lt;/code&gt;:  The IP address or hostname of the server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;port_number&lt;/code&gt;:  The port number used by the SSH server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;password-vs-key-based-authentication&#34;&gt;Password vs. Key-Based Authentication&lt;/h2&gt;
+&lt;p&gt;You can connect to a server using a password or a public/private key pair. Key-based authentication is generally considered more secure as it eliminates the need to transmit passwords over the network.&lt;/p&gt;
+&lt;h2 id=&#34;basic-file-transfer&#34;&gt;Basic File Transfer&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;scp (Secure Copy):&lt;/strong&gt;  Used to securely copy files between your local machine and the remote server.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To copy a file from the remote server to your local machine:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scp username@server_address:/path/to/file local_destination
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;To copy a file from your local machine to the remote server:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scp local_file username@server_address:/path/to/destination
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;remote-commands&#34;&gt;Remote Commands&lt;/h2&gt;
+&lt;p&gt;You can execute commands on the remote server directly from your local terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh username@server_address &lt;span class=&#34;s1&#34;&gt;&amp;#39;command_to_execute&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;command_to_execute&lt;/code&gt;:  The command you want to run on the remote server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;understanding-the-ssh-directory&#34;&gt;Understanding the .ssh Directory&lt;/h2&gt;
+&lt;p&gt;The hidden directory  &lt;code&gt;~/.ssh&lt;/code&gt; (on Unix-based systems) stores SSH configuration files specific to your user account. It&amp;rsquo;s typically not created by default, but SSH will create it if it&amp;rsquo;s missing when you first use a key-based authentication or configure the client. Common files you might find in this directory include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;id_rsa (private key):&lt;/strong&gt; This file contains your private SSH key, used for key-based authentication. It should be kept secret and have strict permissions to prevent unauthorized access.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;id_rsa.pub (public key):&lt;/strong&gt; This public key file corresponds to your private key and can be added to authorized keys on servers you want to connect to.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;config (SSH configuration file):&lt;/strong&gt; This file allows you to define connection options for specific servers or set global defaults for SSH.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exploring-the-ssh-config-file&#34;&gt;Exploring the SSH Config File&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;config&lt;/code&gt; file within the &lt;code&gt;.ssh&lt;/code&gt; directory is a powerful tool for customizing SSH connections. It uses a simple format with options and arguments to define settings. Here are some common uses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Host definitions:&lt;/strong&gt; You can create sections for specific servers (identified by hostname or IP address) and define options for those connections, such as port, username, and IdentityFile (path to your private key).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Global options:&lt;/strong&gt; You can set default settings for all SSH connections, like preferred encryption ciphers or preferred authentication methods.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aliases:&lt;/strong&gt; You can define aliases for servers to simplify connection commands. For example, you could create an alias for a server with a long hostname to make connecting easier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ssh-tunneling&#34;&gt;SSH Tunneling&lt;/h2&gt;
+&lt;p&gt;SSH tunneling, also known as SSH port forwarding, is a powerful feature that allows you to create secure connections between your local machine and a remote server. It essentially creates an encrypted tunnel through which you can forward traffic between different ports. This can be useful for various purposes, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Securely accessing remote services:&lt;/strong&gt; If a server offers a service on a non-standard port (for example, a web server on port 8080 instead of the usual port 80), you can use SSH tunneling to securely access it as if it were running on the standard port on your local machine.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tunneling traffic through firewalls:&lt;/strong&gt; Firewalls might restrict access to certain ports. By tunneling traffic through an SSH connection, you can bypass these restrictions and access the desired service. (&lt;strong&gt;Note:&lt;/strong&gt; This should only be done with proper authorization and caution)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creating SOCKS proxies:&lt;/strong&gt; SSH tunnels can be configured to function as SOCKS proxies, allowing you to route all your internet traffic through the secure SSH connection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are two main types of SSH tunneling:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Local Port Forwarding:&lt;/strong&gt; This forwards traffic from a specific port on your local machine to a port on the remote server. Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say you want to securely access a web server running on port 8080 on a remote server. You can use local port forwarding to map port 8080 on the remote server to a different port (e.g., port 8000) on your local machine. By accessing &lt;code&gt;http://localhost:8000&lt;/code&gt; in your web browser, the traffic will be securely tunneled through the SSH connection and reach the web server on the remote machine.&lt;/p&gt;
+&lt;p&gt;The command for this scenario would be:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh -L 8000:localhost:8080 username@server_address
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-L&lt;/code&gt;: Flag for local port forwarding.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;8000&lt;/code&gt;: Local port on your machine where you want to access the service.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;localhost:8080&lt;/code&gt;: The destination on the remote server (localhost refers to the remote server itself in this case).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;: Your username on the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_address&lt;/code&gt;: The IP address or hostname of the remote server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Remote Port Forwarding (Reverse Tunneling):&lt;/strong&gt; This forwards traffic from a port on the remote server to a specific port on another machine on your network. This can be useful for exposing services running on the remote server to other machines on your local network.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;p&gt;Imagine you have a database server running on a remote server behind a firewall, but you need to access it from your local machine. You can set up remote port forwarding to expose the database port (e.g., port 3306) on the remote server to a different port (e.g., port 5432) on your local machine. This allows you to connect to the database server using your local database client as if it were running locally.&lt;/p&gt;
+&lt;p&gt;The command for this scenario would be:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh -R 5432:localhost:3306 username@server_address
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-R&lt;/code&gt;: Flag for remote port forwarding.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;5432&lt;/code&gt;: Port on your local machine that will be forwarded to the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;localhost:3306&lt;/code&gt;: The destination on the remote server (localhost refers to the remote server itself in this case).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;: Your username on the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_address&lt;/code&gt;: The IP address or hostname of the remote server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are just a couple of basic examples of SSH tunneling. With some exploration, you&amp;rsquo;ll find many other use cases for this versatile tool. Remember, it&amp;rsquo;s important to understand the security implications before implementing SSH tunnels, especially when bypassing firewalls.&lt;/p&gt;
+&lt;h2 id=&#34;ssh-commands&#34;&gt;SSH Commands&lt;/h2&gt;
+&lt;p&gt;Here are some common SSH commands and their use cases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ssh-keygen:&lt;/strong&gt; Generates a new SSH key pair.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ssh-copy-id:&lt;/strong&gt; Copies your public key to a remote server&amp;rsquo;s authorized keys file.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ssh-agent:&lt;/strong&gt; Manages your SSH keys and allows you to enter passphrases only once.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ssh-add:&lt;/strong&gt; Adds private keys to the SSH agent.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ssh -o PubkeyAuthentication=no:&lt;/strong&gt; Disables public key authentication for a specific SSH session.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ssh-keygen -f &amp;ldquo;/home/user/.ssh/known_hosts&amp;rdquo; -R &amp;ldquo;192.168.1.1&amp;rdquo; :&lt;/strong&gt; Removes a specific host entry from the known_hosts file.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ssh -J jump_host user@target_host:&lt;/strong&gt; Connects to a target host via a jump host (SSH bastion).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips-and-tricks&#34;&gt;Tips and Tricks&lt;/h2&gt;
+&lt;p&gt;Use &lt;code&gt;ssh&lt;/code&gt; and then &lt;code&gt;tmux&lt;/code&gt; if you want to persist your session in case of network interruptions. This way, you can reconnect to your session and continue where you left off.&lt;/p&gt;
+&lt;p&gt;Use config aliases to simplify your SSH connections. For example, you can define an alias for a server with a long hostname and non-standard port to save time typing the connection command.&lt;/p&gt;
+&lt;p&gt;Always use strong, unique passwords or passphrase-protected SSH keys to secure your connections. Avoid using default usernames like &amp;ldquo;root&amp;rdquo; and disable password-based authentication if possible.&lt;/p&gt;
+&lt;p&gt;Tunneling through SSH can be a powerful tool, espessially for developers, but it should be used responsibly and with caution.&lt;/p&gt;
+&lt;p&gt;Remember to always keep your SSH keys secure and avoid sharing them with unauthorized users. Regularly update your keys and rotate them if necessary to maintain a high level of security.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SQL Cheat Sheet</title>
-      <link>http://localhost:1313/post/sql-cheatsheet/</link>
+      <link>https://georgelitos.com/post/sql-cheatsheet/</link>
       <pubDate>Thu, 16 Nov 2023 19:23:33 +0300</pubDate>
-      <guid>http://localhost:1313/post/sql-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/sql-cheatsheet/</guid>
       <description>&lt;p&gt;SQL stands for Structured Query Language. It&amp;rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.&lt;/p&gt;
 &lt;p&gt;There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM):&lt;/p&gt;
 &lt;h3 id=&#34;performance&#34;&gt;Performance&lt;/h3&gt;
@@ -243,9 +351,9 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
     
     <item>
       <title>Git Cheatsheet</title>
-      <link>http://localhost:1313/post/git-cheatsheet/</link>
+      <link>https://georgelitos.com/post/git-cheatsheet/</link>
       <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/git-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
       <description>&lt;p&gt;In today&amp;rsquo;s collaborative development world, version control is crucial for managing code effectively. Git, a distributed version control system (DVCS), has become the industry standard for developers of all backgrounds.&lt;/p&gt;
 &lt;h2 id=&#34;git-configuration&#34;&gt;Git Configuration&lt;/h2&gt;
 &lt;p&gt;The initial setup of Git involves configuring your user information and some helpful settings.&lt;/p&gt;
@@ -609,9 +717,9 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
     
     <item>
       <title>MC: a commander like no other</title>
-      <link>http://localhost:1313/post/mc/</link>
+      <link>https://georgelitos.com/post/mc/</link>
       <pubDate>Mon, 05 Jun 2023 09:18:07 +0300</pubDate>
-      <guid>http://localhost:1313/post/mc/</guid>
+      <guid>https://georgelitos.com/post/mc/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander™. It also takes the best from more recent software with similar interfaces. Many years ago, we used file-managers like these, as &amp;ldquo;Norton Commander&amp;rdquo; in DOS, or the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, which is still alive in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;dual-pane-interface-for-seamless-file-management&#34;&gt;Dual-Pane Interface for Seamless File Management&lt;/h2&gt;
@@ -687,9 +795,9 @@ The features include:&lt;/p&gt;
     
     <item>
       <title>View and control your Android device</title>
-      <link>http://localhost:1313/post/scrcpy/</link>
+      <link>https://georgelitos.com/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/scrcpy/</guid>
+      <guid>https://georgelitos.com/post/scrcpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
 This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
@@ -738,7 +846,7 @@ This application mirrors Android devices (video and audio) connected via USB or 
                /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp 400w,
                /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_4a66c7aaf9182f60579c17a75635758d.webp 760w,
                /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp&#34;
+               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -750,9 +858,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Package Managers - not the evil kind of PMs</title>
-      <link>http://localhost:1313/post/pkgman/</link>
+      <link>https://georgelitos.com/post/pkgman/</link>
       <pubDate>Tue, 21 Mar 2023 21:27:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/pkgman/</guid>
+      <guid>https://georgelitos.com/post/pkgman/</guid>
       <description>
 
 &lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
@@ -810,7 +918,7 @@ And thank you for making our coding lives bright!&lt;/p&gt;
                /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp 400w,
                /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_2866e213bb690c93878dc1361b0effe7.webp 760w,
                /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp&#34;
                width=&#34;760&#34;
                height=&#34;315&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -859,7 +967,7 @@ Scoop is a command-line installer for Windows that allows users to easily instal
                /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp 400w,
                /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_46672bf2ca664312d496529b452ece6e.webp 760w,
                /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp&#34;
                width=&#34;760&#34;
                height=&#34;611&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -900,7 +1008,7 @@ That the apps are already hand-picked and that they are fully categorized! You c
                /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp 400w,
                /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1caf5b225a17213d1296d902ee427c5c.webp 760w,
                /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp&#34;
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -928,9 +1036,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Buku: a powerful bookmark manager</title>
-      <link>http://localhost:1313/post/buku/</link>
+      <link>https://georgelitos.com/post/buku/</link>
       <pubDate>Sat, 18 Mar 2023 20:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/buku/</guid>
+      <guid>https://georgelitos.com/post/buku/</guid>
       <description>&lt;p&gt;Are you tired of losing track of your bookmarks across multiple browsers? Look no further than Buku, the powerful bookmark manager that imports bookmarks from all your browsers, works on console and has a web-based server.&lt;/p&gt;
 &lt;p&gt;With Buku, you can easily organize your bookmarks into categories and tags, making it easy to find exactly what you need. Plus, Buku&amp;rsquo;s powerful search feature allows you to quickly locate any bookmark in your collection.&lt;/p&gt;
 &lt;p&gt;One of the most unique features of Buku is its powerful console interface:&lt;/p&gt;
@@ -959,7 +1067,7 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp 400w,
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7ad44fb4193dfa576419908845c3b89b.webp 760w,
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp&#34;
+               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -972,9 +1080,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Breaking the Barrier</title>
-      <link>http://localhost:1313/post/barrier/</link>
+      <link>https://georgelitos.com/post/barrier/</link>
       <pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/barrier/</guid>
+      <guid>https://georgelitos.com/post/barrier/</guid>
       <description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;
 &lt;p&gt;
 
@@ -1019,9 +1127,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Free your notes with Joplin</title>
-      <link>http://localhost:1313/post/joplin/</link>
+      <link>https://georgelitos.com/post/joplin/</link>
       <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/joplin/</guid>
+      <guid>https://georgelitos.com/post/joplin/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
 &lt;p&gt;
 
@@ -1055,9 +1163,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Git ...not just version control</title>
-      <link>http://localhost:1313/talk/git/</link>
+      <link>https://georgelitos.com/talk/git/</link>
       <pubDate>Fri, 01 Jul 2022 03:33:00 +0300</pubDate>
-      <guid>http://localhost:1313/talk/git/</guid>
+      <guid>https://georgelitos.com/talk/git/</guid>
       <description>&lt;p&gt;Git is a powerful version control system that allows developers to track and store changes to their code. It also helps teams collaborate on projects efficiently. With Git, developers can keep track of changes made to their code, revert back to previous versions if needed, and even create branches for different versions of the same project. In this talk, we&amp;rsquo;ll take a look at how Git works and how it can be used to manage and track changes to your code.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
