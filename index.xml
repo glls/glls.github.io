@@ -234,7 +234,7 @@
       <pubDate>Thu, 16 Nov 2023 19:23:33 +0300</pubDate>
       <guid>https://georgelitos.com/post/sql-cheatsheet/</guid>
       <description>&lt;p&gt;SQL stands for Structured Query Language. It&amp;rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.&lt;/p&gt;
-&lt;p&gt;There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM):&lt;/p&gt;
+&lt;p&gt;There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM)&lt;/p&gt;
 &lt;h3 id=&#34;performance&#34;&gt;Performance&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Complex Queries: While ORMs simplify complex queries, they often translate them into multiple underlying SQL statements. For very intricate queries, writing raw SQL can give you more control and potentially improve performance.&lt;/li&gt;
