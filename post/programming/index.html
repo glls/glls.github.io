@@ -1,0 +1,1867 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: May 9, 2024 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.148cc68df808993ed5fd1f2597e0cda2.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89694050-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="George Litos" />
+
+
+
+
+
+  
+
+<meta name="description" content="Computers A computer is an electronic device that can be programmed to carry out a wide range of tasks. It operates by performing sequences of arithmetic or logical operations automatically. Modern computers can store, retrieve, and process data, typically in binary form, according to instructions given to it in a variable program." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://georgelitos.com/post/programming/" />
+<link rel="canonical" href="https://georgelitos.com/post/programming/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#158cba" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@gl_ls" />
+  <meta property="twitter:creator" content="@gl_ls" />
+<meta property="twitter:image" content="https://georgelitos.com/post/programming/featured..jpg" />
+
+
+
+  
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="George Litos" />
+<meta property="og:url" content="https://georgelitos.com/post/programming/" />
+<meta property="og:title" content="Programming: The Basics | George Litos" />
+<meta property="og:description" content="Computers A computer is an electronic device that can be programmed to carry out a wide range of tasks. It operates by performing sequences of arithmetic or logical operations automatically. Modern computers can store, retrieve, and process data, typically in binary form, according to instructions given to it in a variable program." /><meta property="og:image" content="https://georgelitos.com/post/programming/featured..jpg" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2024-05-08T18:04:56&#43;03:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2024-05-08T18:04:56&#43;03:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://georgelitos.com/post/programming/"
+  },
+  "headline": "Programming: The Basics",
+  
+  "image": [
+    "https://georgelitos.com/post/programming/featured..jpg"
+  ],
+  
+  "datePublished": "2024-05-08T18:04:56+03:00",
+  "dateModified": "2024-05-08T18:04:56+03:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "George Litos"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "George Litos",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Computers A computer is an electronic device that can be programmed to carry out a wide range of tasks. It operates by performing sequences of arithmetic or logical operations automatically. Modern computers can store, retrieve, and process data, typically in binary form, according to instructions given to it in a variable program."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#158cba",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#158cba"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+  <title>Programming: The Basics | George Litos</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="505f1926928104c1ffdf04557ad3e744" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2a4a53409dd0307da17791a1dedf99cd.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">George Litos</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">George Litos</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<div class="article-container pt-3">
+  <h1>Programming: The Basics</h1>
+
+  
+  <p class="page-subtitle">An intro to programming, software development, and learning</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 8, 2024
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    19 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 640px; max-height: 410px;">
+  <div style="position: relative">
+    <img src="/post/programming/featured._hu3d03a01dcc18bc5be0e67db3d8d209a6_49278_c30997d3587790ec1b167fa143529448.webp" width="640" height="410" alt="" class="featured-image">
+    <span class="article-header-caption">Photo by <a href="https://unsplash.com/@ffstop?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fotis Fotopoulos</a> on <a href="https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="computers">Computers</h2>
+<p>A <a href="https://en.wikipedia.org/wiki/Computer" target="_blank" rel="noopener">computer</a> is an electronic device that can be programmed to carry out a wide range of tasks. It operates by performing sequences of arithmetic or logical operations automatically. Modern computers can store, retrieve, and process data, typically in binary form, according to instructions given to it in a variable program.</p>
+<p>Here&rsquo;s a more detailed breakdown:</p>
+<ul>
+<li><strong>Storage</strong>: Computers can store vast amounts of data and make it readily accessible.</li>
+<li><strong>Processing</strong>: They can process data at incredibly high speeds, performing complex calculations and tasks.</li>
+<li><strong>Output</strong>: After processing, computers can produce output that humans can interpret, such as visual display on a monitor, printed pages, audio, etc.</li>
+<li><strong>Programmable</strong>: Perhaps most importantly, computers are programmable, meaning they can execute a set of instructions, or a program, to perform specific tasks.</li>
+</ul>
+<p>The term &ldquo;computer&rdquo; was originally given to humans who performed numerical calculations using mechanical calculators. However, today&rsquo;s computers are electronic devices that accept data (input), process that data, produce output, and then store the results (storage).</p>
+<p>Computers have evolved significantly since their inception, from the early mechanical devices to today&rsquo;s sophisticated electronic machines that find applications in virtually every aspect of modern life.</p>
+<h2 id="os">OS</h2>
+<p>An <a href="https://en.wikipedia.org/wiki/Operating_system" target="_blank" rel="noopener">operating system (OS)</a> is system software that manages computer hardware and software resources. It acts as an intermediary between the user and the computer hardware, providing a user-friendly environment for running programs. Here are some key points about operating systems:</p>
+<ol>
+<li>
+<p><strong>Hardware Management</strong>:</p>
+<ul>
+<li>The OS interfaces with the computer&rsquo;s hardware, handling input and output devices (such as keyboards, mice, Wi-Fi radios, storage devices, and displays).</li>
+<li>It communicates with device drivers (provided by hardware creators) to manage these devices.</li>
+</ul>
+</li>
+<li>
+<p><strong>Software Services</strong>:</p>
+<ul>
+<li>Operating systems include common system services, libraries, and application programming interfaces (APIs) that developers use to write programs.</li>
+<li>When an application wants to perform a task (e.g., printing), it hands it off to the OS, which handles the details (e.g., sending instructions to the printer).</li>
+</ul>
+</li>
+<li>
+<p><strong>Multi-Tasking and Resource Allocation</strong>:</p>
+<ul>
+<li>OSs manage multi-tasking, allocating hardware resources among multiple running programs.</li>
+<li>They control which processes run, allocate memory between applications, and allow parallel execution on multi-core CPUs.</li>
+</ul>
+</li>
+<li>
+<p><strong>File and Resource Access</strong>:</p>
+<ul>
+<li>The OS controls access to files and other resources for programs.</li>
+<li>Most software applications are written for specific operating systems, which handle low-level hardware instructions.</li>
+</ul>
+</li>
+</ol>
+<p>In summary, the operating system is the core software that manages all hardware and software interactions on a computer, ensuring efficient resource utilization and providing essential services for applications.</p>
+<h2 id="programming-languages">Programming Languages</h2>
+<p>A <a href="https://en.wikipedia.org/wiki/Programming_language" target="_blank" rel="noopener">programming language</a> is a system of notation for writing computer programs. Let&rsquo;s break down what this means:</p>
+<ol>
+<li>
+<p><strong>Syntax and Semantics</strong>:</p>
+<ul>
+<li><strong>Syntax</strong>: Programming languages have a specific set of rules (syntax) that dictate how code should be structured. These rules define how to write statements, expressions, and other constructs.</li>
+<li><strong>Semantics</strong>: Beyond syntax, programming languages also have semantics, which determine the meaning of code. Semantics describe how the program behaves when executed.</li>
+</ul>
+</li>
+<li>
+<p><strong>Features</strong>:</p>
+<ul>
+<li><strong>Type System</strong>: Programming languages provide a way to define data types (e.g., integers, strings, arrays) and enforce type safety.</li>
+<li><strong>Variables</strong>: They allow you to store and manipulate data during program execution.</li>
+<li><strong>Error Handling</strong>: Languages include mechanisms to handle errors gracefully.</li>
+<li><strong>Control Flow</strong>: You can create loops, conditionals, and other control structures.</li>
+<li><strong>Functions/Methods</strong>: These allow you to encapsulate reusable code.</li>
+<li><strong>Libraries</strong>: Languages come with built-in libraries or allow you to import external ones.</li>
+</ul>
+</li>
+<li>
+<p><strong>Implementation</strong>:</p>
+<ul>
+<li>An implementation of a programming language (such as a compiler or interpreter) translates human-readable code into machine-executable instructions.</li>
+<li>The goal is to make the computer understand and execute the instructions provided by the programmer.</li>
+</ul>
+</li>
+<li>
+<p><strong>Low-Level vs. High-Level</strong>:</p>
+<ul>
+<li><strong>Low-level languages</strong> (closer to machine code) offer precise control but are harder to read.</li>
+<li><strong>High-level languages</strong> (closer to human communication) are easier to program in and translate into machine code.</li>
+</ul>
+</li>
+<li>
+<p><strong>Abstraction</strong>:</p>
+<ul>
+<li>Over time, programming languages have become more abstract, hiding hardware details for simplicity.</li>
+<li>Thousands of languages exist, each designed for specific purposes (imperative, functional, logic, or object-oriented).</li>
+</ul>
+</li>
+</ol>
+<p>Remember, when you write code, you&rsquo;re essentially giving instructions to the computer using a programming language. Whether you&rsquo;re creating web applications, analyzing data, or building games, programming languages are your tools for communicating with computers! 🚀</p>
+<h2 id="frameworks">Frameworks</h2>
+<p>A <a href="https://en.wikipedia.org/wiki/Software_framework" target="_blank" rel="noopener">framework</a> in programming is like a sturdy structure that provides a solid base for the application development process. Imagine you&rsquo;re building a house: instead of pouring the foundation and framing the house from scratch, you could use a pre-built framework created by expert home builders. Similarly, in software development:</p>
+<ol>
+<li>
+<p><strong>Foundation for Development</strong>:</p>
+<ul>
+<li>A framework serves as a foundation for building software applications.</li>
+<li>It&rsquo;s designed, tested, and maintained by other developers and engineers, ensuring its reliability.</li>
+</ul>
+</li>
+<li>
+<p><strong>Advantages of Using Frameworks</strong>:</p>
+<ul>
+<li><strong>Time-Saving</strong>: You don&rsquo;t need to write everything from scratch, reducing development time.</li>
+<li><strong>Error Reduction</strong>: Frameworks are already tested, minimizing the risk of introducing errors.</li>
+<li><strong>Security</strong>: Frameworks often provide secure coding practices.</li>
+<li><strong>Code Reusability</strong>: Avoid duplicate code by leveraging existing components.</li>
+<li><strong>Clean Code</strong>: Frameworks encourage well-structured, easily understandable code.</li>
+<li><strong>Focus on Project-Specific Logic</strong>: You can concentrate on writing code specific to your project.</li>
+</ul>
+</li>
+<li>
+<p><strong>Types of Frameworks</strong>:</p>
+<ul>
+<li>
+<p><strong>Web Application Frameworks</strong>:</p>
+<ul>
+<li>Examples include:
+<ul>
+<li><strong>AngularJS</strong>: A front-end JavaScript framework backed by Google.</li>
+<li><strong>Django</strong>: An open-source Python web development framework known for rapid development and clean design.</li>
+<li><strong>Rails</strong>: An open-source Ruby framework used by sites like Airbnb and Hulu.</li>
+<li><strong>Express</strong>: A back-end framework for Node.js, known for flexibility.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Mobile Application Frameworks</strong>:</p>
+<ul>
+<li>Examples include:
+<ul>
+<li><strong>Flutter</strong>: Allows cross-platform mobile app development using the Dart language.</li>
+<li><strong>React Native</strong>: Enables building mobile apps using JavaScript and native components.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Science Frameworks</strong>:</p>
+<ul>
+<li>Examples include:
+<ul>
+<li><strong>PyTorch</strong>: Widely used for deep learning and neural networks.</li>
+<li><strong>Apache Spark</strong>: Used for big data processing.</li>
+<li><strong>Ionic</strong>: For building hybrid mobile apps.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>Remember, frameworks provide a starting point, and you add higher-level functionality to create a complete application. Choose the right framework based on your project&rsquo;s requirements! 🚀</p>
+<h2 id="programmer-skills">Programmer Skills</h2>
+<p>A programmer today is a problem-solver who uses programming languages to create software applications, websites, and other digital products.  They are skilled in a variety of areas, but some of the most important include:</p>
+<ul>
+<li><strong>Core programming concepts:</strong> This refers to understanding fundamental principles like algorithms, data structures, and object-oriented programming. These form the foundation for writing efficient and maintainable code.</li>
+<li><strong>Specific programming languages:</strong> Programmers typically specialize in at least one or more programming languages, such as Python, Java, JavaScript, C++, etc. Each language has its strengths and weaknesses, making it suitable for different types of projects.</li>
+<li><strong>Software development methodologies:</strong>  Understanding different methodologies like Agile, Waterfall, or Kanban helps programmers work effectively within a team environment. These methodologies define the entire software development lifecycle, from planning and design to implementation and testing.</li>
+<li><strong>Problem-solving and analytical skills:</strong>  Being able to break down complex problems into smaller, manageable steps is essential for programmers.  Analytical skills allow them to evaluate different solutions and choose the most efficient one.</li>
+<li><strong>Communication and collaboration:</strong>  Programmers need to be able to effectively communicate technical concepts to both technical and non-technical audiences.  Collaboration is also crucial, as most software projects involve working with other programmers, designers, and stakeholders.</li>
+<li><strong>Lifelong learning:</strong>  The tech industry is constantly evolving, so staying up-to-date with new technologies and trends is essential for programmers. This requires a commitment to continuous learning and professional development.</li>
+</ul>
+<p><strong>Regions of Expertise:</strong></p>
+<p>Beyond these core skills, programmers can specialize in various areas depending on their interests and career goals. Here are some examples:</p>
+<ul>
+<li><strong>Web development:</strong>  Specialists in this area focus on building web applications and websites. They might use languages like HTML, CSS, JavaScript, and server-side languages like Python or PHP.</li>
+<li><strong>Mobile development:</strong>  Programmers in this field create applications for smartphones and tablets. They typically use platform-specific languages like Swift for iOS or Java/Kotlin for Android.</li>
+<li><strong>Game development:</strong>  Game developers use programming languages like C++, C#, or Java to create video games. They also need a strong understanding of game engines and graphics programming concepts.</li>
+<li><strong>Data science:</strong>  Data scientists use programming languages like Python and R to collect, analyze, and interpret data. They are skilled in statistical analysis, machine learning, and data visualization.</li>
+<li><strong>DevOps:</strong>  DevOps engineers bridge the gap between development and operations teams. They use programming languages and automation tools to streamline the software development process.</li>
+</ul>
+<p>This is not an exhaustive list, but it gives you a general idea of the different specializations available within the programming field. Each area requires a unique set of skills and knowledge, so programmers often choose to specialize in one or more of these regions based on their interests and career goals. Let&rsquo;s  explore the DevOps field in more detail!</p>
+<h2 id="devops">DevOps</h2>
+<p><a href="https://en.wikipedia.org/wiki/DevOps" target="_blank" rel="noopener">DevOps</a> is a set of practices, tools, and a cultural philosophy that <strong>automates and integrates</strong> the processes between software development and IT teams. Let&rsquo;s explore what DevOps entails:</p>
+<ol>
+<li>
+<p><strong>Definition</strong>:</p>
+<ul>
+<li><strong>DevOps</strong> combines the words <strong>development (Dev)</strong> and <strong>operations (Ops)</strong>.</li>
+<li>It unifies people, process, and technology to <strong>continually provide value to customers</strong>.</li>
+<li>DevOps emphasizes:
+<ul>
+<li><strong>Team empowerment</strong>: Collaborative work across development and operations.</li>
+<li><strong>Cross-team communication and collaboration</strong>: Breaking down silos.</li>
+<li><strong>Technology automation</strong>: Streamlining processes.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Why DevOps?</strong>:</p>
+<ul>
+<li>DevOps emerged around <strong>2007</strong> when concerns arose about the traditional model where developers and operations worked separately.</li>
+<li>The goal is to <strong>increase speed and quality</strong> of software deployment.</li>
+</ul>
+</li>
+<li>
+<p><strong>How DevOps Works</strong>:</p>
+<ul>
+<li><strong>Collaboration</strong>: Developers and IT operations work together throughout the product lifecycle.</li>
+<li><strong>Automation</strong>: DevOps teams use tools to automate processes, improving reliability.</li>
+<li><strong>Toolchain</strong>: DevOps toolchains include continuous integration, continuous delivery, automation, and collaboration tools.</li>
+</ul>
+</li>
+<li>
+<p><strong>DevOps Values</strong>:</p>
+<ul>
+<li><strong>DevSecOps</strong>: Security integrated into the development process.</li>
+<li><strong>Cultural Shift</strong>: A new way of working with implications for teams and organizations.</li>
+</ul>
+</li>
+<li>
+<p><strong>DevOps Lifecycle</strong>:</p>
+<ul>
+<li>The <strong>infinity loop</strong> represents the continuous nature of DevOps.</li>
+<li><strong>Eight phases</strong> cover development and operations processes, emphasizing collaboration and iterative improvement.</li>
+</ul>
+</li>
+</ol>
+<p>In summary, DevOps bridges the gap between development and operations, enabling faster, higher-quality software delivery through collaboration, automation, and cultural change.</p>
+<h2 id="design-patterns">Design Patterns</h2>
+<p><a href="https://refactoring.guru/design-patterns" target="_blank" rel="noopener">Design patterns</a> are well-established solutions to common problems in software design. They encapsulate <strong>best practices</strong> and provide a blueprint for solving specific challenges. Let&rsquo;s explore more about design patterns:</p>
+<ol>
+<li>
+<p><strong>Definition</strong>:</p>
+<ul>
+<li><strong>Design patterns</strong> are reusable solutions to typical problems in software design.</li>
+<li>They function as frameworks that developers can use to address common architectural difficulties.</li>
+<li>Design patterns guarantee <strong>reliability</strong>, <strong>adaptability</strong>, and <strong>ease of code maintenance</strong>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Purpose and Benefits</strong>:</p>
+<ul>
+<li><strong>Organizing Code</strong>: Design patterns help organize code by promoting reusability and simplifying the design process.</li>
+<li><strong>Avoiding Repetition</strong>: Developers can avoid unnecessary repetition by adhering to established patterns.</li>
+<li><strong>Efficient Applications</strong>: By reusing proven solutions, design patterns improve production and efficiency.</li>
+</ul>
+</li>
+<li>
+<p><strong>Types of Design Patterns</strong>:</p>
+<ul>
+<li>
+<p><strong>Creational Patterns</strong>:</p>
+<ul>
+<li>Focus on object creation mechanisms.</li>
+<li>Promote code encapsulation and decoupling.</li>
+<li>Examples:
+<ul>
+<li><strong>Singleton</strong>: Ensures a class has only one instance globally.</li>
+<li><strong>Factory</strong>: Abstracts object creation and allows subclasses to determine which class to instantiate.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Structural Patterns</strong>:</p>
+<ul>
+<li>Deal with class and object composition.</li>
+<li>Define how classes can be combined to form larger structures.</li>
+<li>Examples:
+<ul>
+<li><strong>Adapter</strong>: Allows incompatible interfaces to work together.</li>
+<li><strong>Bridge</strong>: Separates abstraction from implementation.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Behavioral Patterns</strong>:</p>
+<ul>
+<li>Describe how objects interact and communicate.</li>
+<li>Examples:
+<ul>
+<li><strong>Observer</strong>: Defines a dependency between objects.</li>
+<li><strong>Strategy</strong>: Allows selecting an algorithm at runtime.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Benefits of Using Design Patterns</strong>:</p>
+<ul>
+<li><strong>Code Reusability</strong>: Cut redundant code and save development time.</li>
+<li><strong>Scalability</strong>: Adjust structures to shifting needs and accommodate future expansions.</li>
+<li><strong>Maintainability</strong>: Modular code simplifies maintenance.</li>
+<li><strong>Collaboration</strong>: Establish a common language for developers, promoting effective communication.</li>
+</ul>
+</li>
+</ol>
+<p>In summary, <a href="https://en.wikipedia.org/wiki/Software_design_pattern" target="_blank" rel="noopener">design patterns</a> enhance software development practices by offering standardized solutions and improving code quality! 🚀</p>
+<h2 id="learning-by-example">Learning by Example</h2>
+<p>Learning programming through experimentation, often referred to as learning by doing, is widely considered one of the best approaches because it allows you to apply concepts in real-world scenarios, which can lead to a deeper understanding and retention of knowledge. Here are some reasons why programming by experimentation is highly effective:</p>
+<ol>
+<li>
+<p><strong>Hands-On Experience</strong>: When you work on projects, you get practical experience with the language and tools you&rsquo;re using, making it easier to understand and remember what you&rsquo;ve learned⁴.</p>
+</li>
+<li>
+<p><strong>Problem-Solving Skills</strong>: Experimentation forces you to think critically and solve problems, which is a core aspect of programming¹.</p>
+</li>
+<li>
+<p><strong>Learning from Mistakes</strong>: Making mistakes is an inevitable part of the learning process. By experimenting, you learn what doesn&rsquo;t work, which is just as important as learning what does¹.</p>
+</li>
+<li>
+<p><strong>Adaptability</strong>: As you experiment, you&rsquo;ll encounter various challenges that require you to learn new tools or languages, making you more adaptable and versatile as a programmer¹.</p>
+</li>
+<li>
+<p><strong>Project-Based Learning</strong>: Building projects can often be more informative than following tutorials because it requires you to integrate different concepts and tools to create something functional³.</p>
+</li>
+<li>
+<p><strong>Motivation and Engagement</strong>: Working on projects that interest you can be more motivating and engaging than passive learning methods⁴.</p>
+</li>
+<li>
+<p><strong>Portfolio Building</strong>: The projects you create can be used to build a portfolio, which is essential for job hunting in the tech industry¹.</p>
+</li>
+</ol>
+<p>Remember, there&rsquo;s no one-size-fits-all method for learning programming. It&rsquo;s important to find the approach that works best for you, whether it&rsquo;s through reading, watching tutorials, or building projects. However, the consensus is that the act of doing—writing code, debugging, and seeing your projects come to life—is a powerful way to learn and improve your programming skills.</p>
+<h2 id="where-to-start">Where to start</h2>
+<p>Here&rsquo;s a brief introduction to some popular programming languages:</p>
+<p><strong>Python</strong>:
+Python is a high-level, interpreted language known for its readability and simplicity. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is widely used for web development, data analysis, artificial intelligence, and scientific computing. Its extensive libraries and frameworks, like Django and Flask, make it a versatile choice for various applications.</p>
+<p><strong>JavaScript</strong>:
+JavaScript is a dynamic, high-level scripting language primarily used for creating interactive web pages. It runs on the client side within the user&rsquo;s browser, allowing for dynamic content updates without needing to reload the page. JavaScript is an essential part of the web development stack, along with HTML and CSS, and is supported by all modern web browsers.</p>
+<p><strong>C</strong>:
+C is a general-purpose, procedural programming language. It was originally developed for system programming and to write the UNIX operating system. C provides low-level access to memory and efficient execution of code, making it suitable for system software, game development, and applications requiring high performance.</p>
+<p><strong>Java</strong>:
+Java is an object-oriented, class-based language designed to have as few implementation dependencies as possible. It&rsquo;s known for its &ldquo;write once, run anywhere&rdquo; capability, meaning that compiled Java code can run on all platforms supporting Java without the need for recompilation. Java is commonly used for building enterprise-scale applications, Android apps, and large systems.</p>
+<p><strong>PHP</strong>:
+PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. It&rsquo;s embedded within HTML code and executed on the server, generating HTML as output. PHP is widely used for creating dynamic web pages and is known for its ease of use and support for a wide range of databases.</p>
+<p><strong>Go</strong>:
+Go, also known as Golang, is a statically typed, compiled language developed by Google. It&rsquo;s designed for simplicity, efficiency, and reliability. Go features a robust standard library, garbage collection, and support for concurrent programming. It&rsquo;s often used for cloud and server-side applications, as well as command-line tools.</p>
+<p><strong>Differences</strong>:
+The main differences between these languages lie in their syntax, execution model (compiled vs. interpreted), type system (static vs. dynamic typing), and primary use cases. For example, Python and JavaScript are dynamically typed, while C, Java, and Go are statically typed. JavaScript is mainly used for client-side scripting, whereas the others are more versatile and used in various domains.</p>
+<p><strong>For Beginners</strong>:
+For starters, <strong>Python</strong> is often recommended due to its simple syntax and readability, which make it an excellent language for beginners. It&rsquo;s also versatile and widely used in the industry, ensuring that the skills you learn will be valuable.</p>
+<p>In the 1980s, BASIC and Pascal were popular choices for beginners due to their focus on teaching programming fundamentals. In the 2020s, the landscape has shifted, with languages like Python taking center stage for beginners. Here&rsquo;s why:</p>
+<ul>
+<li><strong>Readability:</strong> Python&rsquo;s syntax is clear and concise, resembling natural language more than older languages. This makes it easier to understand for those new to programming.</li>
+<li><strong>Versatility:</strong> Unlike BASIC or Pascal, Python is a general-purpose language applicable to various fields like web development, data science, scripting, and automation. This allows beginners to explore different areas of programming without needing to learn a new language entirely.</li>
+<li><strong>Abundant Resources:</strong> Python boasts a massive and active community, leading to a wealth of learning materials, tutorials, and online support. This makes it easier for beginners to find help and resources when needed.</li>
+</ul>
+<p>While Python is a great starting point, other beginner-friendly options exist in the 2020s, such as JavaScript (for web development) or Java (for broader application development). The best choice depends on your specific interests and career goals.</p>
+<h2 id="productivity">Productivity</h2>
+<p>Our mood and overall well-being significantly impact our productivity.  By creating a safe and comfortable programming environment, you can set yourself up for success. Here&rsquo;s how these factors contribute:</p>
+<p><strong>Mood and Feelings:</strong> When we feel good, we&rsquo;re more focused, creative, and persistent in tackling challenges. This can lead to better problem-solving and a more enjoyable coding experience.</p>
+<p><strong>Building a Safe Programming Environment:</strong></p>
+<ul>
+<li><strong>Position:</strong>  Find a chair with good back support that allows you to maintain good posture. Sitting comfortably reduces fatigue and improves concentration.</li>
+<li><strong>Music:</strong> Upbeat, instrumental music can boost energy and mood. Avoid music with lyrics that can be distracting. Experiment to find what works best for you.</li>
+<li><strong>Lighting:</strong>  Natural light is ideal, but if not available, soft, warm lighting reduces eye strain and creates a calming atmosphere.</li>
+<li><strong>Noise:</strong> Minimize background noise as much as possible. If necessary, consider noise-canceling headphones or white noise machines to block out distractions.</li>
+</ul>
+<p><strong>Additionally:</strong></p>
+<ul>
+<li><strong>Personalize your workspace:</strong> Surround yourself with things that inspire you and promote a positive mood.</li>
+<li><strong>Take breaks:</strong> Get up, move around, and stretch your legs regularly to avoid burnout.</li>
+<li><strong>Stay hydrated:</strong> Dehydration can lead to fatigue and decreased cognitive function. Keep a water bottle handy and sip throughout the day.</li>
+</ul>
+<p><strong>Remember, the ideal environment is unique to you.</strong> Experiment with different elements and find what combination creates a safe space where you feel focused, motivated, and productive.</p>
+<h2 id="ides-your-programming-toolkit">IDEs: Your Programming Toolkit</h2>
+<p>IDEs (Integrated Development Environments) are your programmer&rsquo;s workbench, streamlining the entire development process. Imagine a Swiss Army Knife for coding, offering features like syntax highlighting for readability, autocompletion to save time, debugging tools to squash bugs, and even version control integration to keep track of your progress. By providing a centralized environment for writing, testing, and refining your code, IDEs become an essential part of your programming toolkit.</p>
+<ul>
+<li>
+<p><strong>Benefits:</strong> IDEs offer a wealth of features that streamline the development process, including:</p>
+<ul>
+<li><strong>Code editing:</strong> Syntax highlighting, autocompletion, and code formatting make writing code faster and easier.</li>
+<li><strong>Debugging:</strong> Built-in debuggers help identify and fix errors in your code.</li>
+<li><strong>Project management:</strong> Organize your codebase, manage files, and run your program within the IDE.</li>
+<li><strong>Refactoring:</strong> Easily restructure your code to improve readability and maintainability.</li>
+<li><strong>Learning resources:</strong> Many IDEs offer integrated tutorials and documentation, making it easier to learn new concepts.</li>
+</ul>
+</li>
+<li>
+<p><strong>Learning Multiple IDEs:</strong> While not essential, familiarizing yourself with a few popular options can be beneficial. This gives you flexibility depending on the project or language you&rsquo;re working with. Some popular choices include Visual Studio Code, PyCharm, IntelliJ IDEA, and Eclipse.</p>
+</li>
+</ul>
+<h2 id="learning-by-example-a-powerful-approach">Learning by Example: A Powerful Approach</h2>
+<p>In programming, &ldquo;Learning by Example&rdquo; refers to an educational approach where you learn by studying and modifying existing code to understand concepts and functionalities. It&rsquo;s like learning a new recipe by watching someone cook and then trying it yourself, but with code.</p>
+<p>Here are some key aspects of Learning by Example in programming:</p>
+<ul>
+<li><strong>Focus on Code Samples:</strong> You&rsquo;ll be presented with working code snippets that demonstrate specific programming concepts.</li>
+<li><strong>Analyze and Modify:</strong>  You&rsquo;ll analyze the code, understand what each part does, and then try modifying it to see how the behavior changes. This helps solidify your understanding of the underlying logic.</li>
+<li><strong>Experimentation:</strong>  Learning by Example encourages experimentation. You can play around with the code, introduce variations, and observe the results. This fosters a hands-on learning experience.</li>
+</ul>
+<p><strong>Benefits of Learning by Example:</strong></p>
+<ul>
+<li><strong>Practical Application:</strong>  Seeing code in action helps you visualize how concepts translate into real-world programs.</li>
+<li><strong>Problem-solving:</strong>  Analyzing existing code can teach you debugging techniques and problem-solving strategies.</li>
+<li><strong>Motivation:</strong>  Successful examples can be inspiring and keep you motivated on your learning journey.</li>
+<li><strong>Troubleshooting:</strong> Analyzing existing code can teach you debugging techniques and problem-solving strategies.</li>
+</ul>
+<p><strong>Limitations of Learning by Example: Don&rsquo;t Believe the Hype:</strong></p>
+<p>While learning by example is valuable, solely relying on it might have limitations. Here&rsquo;s why a balanced approach is important:</p>
+<ul>
+<li><strong>Overlooking Fundamentals:</strong>  Copying code without understanding the underlying concepts can lead to difficulties when encountering new problems.</li>
+<li><strong>Limited Scope:</strong>  Examples might not cover all aspects of a concept, potentially creating knowledge gaps.</li>
+<li><strong>Understanding the Fundamentals:</strong>  Copying code without understanding the underlying concepts can lead to difficulties when encountering new problems.</li>
+</ul>
+<p><strong>Learning by Example is most effective when combined with other learning methods:</strong></p>
+<ul>
+<li><strong>Solid Foundation:</strong>  Build a strong understanding of programming fundamentals through tutorials, courses, or books before diving into code examples.</li>
+<li><strong>Critical Thinking:</strong>  Don&rsquo;t just copy code; analyze it, understand the logic, and then experiment to solidify your learning.</li>
+<li><strong>Practice:</strong>  Write your own code to solidify your learning and apply concepts to new problems.</li>
+</ul>
+<p>By combining Learning by Example with other techniques, you can create a well-rounded and effective learning approach for your programming journey.</p>
+<p><strong>Remember:</strong> There&rsquo;s no one-size-fits-all approach. Experiment and find what works best for you! Effective learning often involves a combination of techniques, including IDEs, example code, and a strong theoretical foundation.</p>
+<h2 id="soft-skills">Soft skills</h2>
+<p><a href="https://resources.workable.com/hr-terms/what-are-soft-skills" target="_blank" rel="noopener">Soft skills</a> are those interpersonal and personal qualities that complement your technical expertise. In software engineering, these skills are crucial for success. Here are some key soft skills:</p>
+<ul>
+<li><strong>Communication:</strong>  Clearly explaining technical concepts to both technical and non-technical audiences is essential for collaboration and project success.</li>
+<li><strong>Problem-solving:</strong>  Approaching challenges with a logical and analytical mindset is key to finding effective solutions in software development.</li>
+<li><strong>Teamwork:</strong>  The ability to work effectively with others,  give and receive feedback constructively,  and  compromise  are essential in collaborative development environments.</li>
+<li><strong>Adaptability:</strong>  The tech industry is constantly evolving, so being flexible and willing to learn new technologies is vital.</li>
+</ul>
+<p><strong>How to improve your soft skills?</strong></p>
+<p>Many soft skills can be honed through practice and experience. Here are some tips:</p>
+<ul>
+<li><strong>Seek opportunities for collaboration:</strong>  Volunteer for projects that require teamwork.</li>
+<li><strong>Take communication courses:</strong>  These can help you refine your written and verbal communication skills.</li>
+<li><strong>Actively listen &amp; participate in meetings:</strong>  Pay attention to others&rsquo; ideas and contribute your own perspectives respectfully.</li>
+<li><strong>Embrace challenges:</strong>  See problems as opportunities to learn and grow.</li>
+<li><strong>Seek feedback:</strong> Ask colleagues and mentors for constructive feedback on your communication and collaboration skills.</li>
+</ul>
+<p>By actively developing your soft skills, you&rsquo;ll become a more well-rounded and valuable software engineer.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In conclusion, a lot of ground has been covered in this article. Remember, the journey of learning is continuous, and this article is just a stepping stone. Keep exploring, keep questioning, and keep learning. Whether you&rsquo;re a beginner or an experienced programmer, there&rsquo;s always something new to discover in the vast world of programming. 🚀</p>
+<blockquote>
+<p>Portions of the article where generated by Gemini and Copilot, Google (search) was also used to gather information, and last but not least, Wikipedia. A bit of my personal knowledge and experience were used to create this article and fill the gaps. Thanks a lot for reading.</p>
+</blockquote>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/productivity/">Productivity</a>
+  
+  <a class="badge badge-light" href="/tag/programming/">Programming</a>
+  
+  <a class="badge badge-light" href="/tag/learning/">Learning</a>
+  
+  <a class="badge badge-light" href="/tag/software-development/">Software-Development</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fprogramming%2F&amp;text=Programming%3A&#43;The&#43;Basics" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fprogramming%2F&amp;t=Programming%3A&#43;The&#43;Basics" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Programming%3A%20The%20Basics&amp;body=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fprogramming%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fprogramming%2F&amp;title=Programming%3A&#43;The&#43;Basics" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      <a href="https://georgelitos.com/"><img class="avatar mr-3 avatar-circle" src="https://s.gravatar.com/avatar/60eff93d77e6a30241de093a98b0af61?s=200" alt="George Litos"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://georgelitos.com/">George Litos</a></h5>
+      <h6 class="card-subtitle">Senior Software Engineer</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/glls" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.drupal.org/u/georgelitos" target="_blank" rel="noopener">
+        <i class="fab fa-drupal"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/gl_ls" target="_blank" rel="noopener">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="skype:cyberpunk.73?call" >
+        <i class="fab fa-skype"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/george-litos/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2024 by GL - This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.391d344a129df56f7ad674c2c2ed04e8.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <script id="dsq-count-scr" src="https://georgelitos.disqus.com/count.js" async></script>
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.7f5ebaff62ae468cff8bb3dd1337bb9b.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
