@@ -53,14 +53,39 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        --timeout:     record a timeout if a response is not received within
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                       this amount of time.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;benchmarking-tips&#34;&gt;Benchmarking Tips&lt;/h2&gt;
-&lt;p&gt;The machine running wrk must have a sufficient number of ephemeral ports
-available and closed sockets should be recycled quickly. To handle the
-initial connection burst the server&amp;rsquo;s listen(2) backlog should be greater
-than the number of concurrent connections being tested.&lt;/p&gt;
+&lt;p&gt;The machine running wrk must have a sufficient number of ephemeral ports available and closed sockets should be recycled quickly. To handle the initial connection burst the server&amp;rsquo;s listen backlog should be greater than the number of concurrent connections being tested.&lt;/p&gt;
 &lt;p&gt;A user script that only changes the HTTP method, path, adds headers or
 a body, will have no performance impact. Per-request actions, particularly
 building a new HTTP request, and use of response() will necessarily reduce
 the amount of load that can be generated.&lt;/p&gt;
+&lt;h2 id=&#34;showtime-&#34;&gt;Showtime 🚀&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Write a program that can serve a list of 100 albums with a REST like interface (JSON) and measure the performance with wrk&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here&amp;rsquo;s the project in GitHub with full source code and implementations in more than 8 languages: &lt;a href=&#34;https://github.com/glls/web-service-albums-benchmark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;web-service-albums-benchmark&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And the results:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/glls/web-service-albums-benchmark/raw/main/chart.svg&#34; alt=&#34;Chart&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s clear that Rust and Go are the speed demons when it comes to this particular task. However, threading and concurrency can be a game-changer in terms of performance. The key takeaway is that your server&amp;rsquo;s capabilities play a significant role in determining the optimal approach. For instance, if you&amp;rsquo;re running on a 4-core CPU, don&amp;rsquo;t expect more than 4 threads to run simultaneously - it&amp;rsquo;s like trying to fit too many eggs in one basket! So, before making any changes to your tech stack, take some time to consider these factors and plan accordingly.&lt;/p&gt;
 </description>
     </item>
     
