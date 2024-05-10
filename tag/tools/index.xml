@@ -29,8 +29,7 @@
       <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
       <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
-      <description>&lt;p&gt;&lt;em&gt;This page is work in progress, eventually more examples will be added.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The command line might seem intimidating, but it offers hidden gems for everyday tasks. Today, we&amp;rsquo;ll explore its power for image and video conversions, giving you more control over your media files for future reference or projects.&lt;/p&gt;
+      <description>&lt;p&gt;The command line might seem intimidating, but it offers hidden gems for everyday tasks. Today, we&amp;rsquo;ll explore its power for image and video conversions, giving you more control over your media files for future reference or projects.&lt;/p&gt;
 &lt;h2 id=&#34;image-manipulation&#34;&gt;Image Manipulation&lt;/h2&gt;
 &lt;p&gt;Animated GIFs are a fun way to add life to your content. Here&amp;rsquo;s how to manipulate them with ImageMagick&amp;rsquo;s &lt;code&gt;convert&lt;/code&gt; command:&lt;/p&gt;
 &lt;h3 id=&#34;looping-gifs-ever-wanted-a-gif-to-play-endlessly&#34;&gt;Looping GIFs: Ever wanted a GIF to play endlessly?&lt;/h3&gt;
@@ -169,20 +168,189 @@
 &lt;h2 id=&#34;ssh-commands&#34;&gt;SSH Commands&lt;/h2&gt;
 &lt;p&gt;Here are some common SSH commands and their use cases:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ssh-keygen:&lt;/strong&gt; Generates a new SSH key pair.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ssh-copy-id:&lt;/strong&gt; Copies your public key to a remote server&amp;rsquo;s authorized keys file.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ssh-agent:&lt;/strong&gt; Manages your SSH keys and allows you to enter passphrases only once.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ssh-add:&lt;/strong&gt; Adds private keys to the SSH agent.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ssh -o PubkeyAuthentication=no:&lt;/strong&gt; Disables public key authentication for a specific SSH session.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ssh-keygen -f &amp;ldquo;/home/user/.ssh/known_hosts&amp;rdquo; -R &amp;ldquo;192.168.1.1&amp;rdquo; :&lt;/strong&gt; Removes a specific host entry from the known_hosts file.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ssh -J jump_host user@target_host:&lt;/strong&gt; Connects to a target host via a jump host (SSH bastion).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-keygen&lt;/code&gt;: Generates a new SSH key pair.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-copy-id user@host&lt;/code&gt;: Copies your public key to a remote server&amp;rsquo;s authorized keys file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-agent&lt;/code&gt;: Manages your SSH keys and allows you to enter passphrases only once.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-add&lt;/code&gt;: Adds private keys to the SSH agent.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh -o PubkeyAuthentication=no user@host&lt;/code&gt;: Disables public key authentication for a specific SSH session.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-keygen -f &amp;quot;/home/user/.ssh/known_hosts&amp;quot; -R &amp;quot;192.168.1.1&amp;quot;&lt;/code&gt; : Removes a specific host entry from the known_hosts file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh -J jump_host user@target_host&lt;/code&gt;: Connects to a target host via a jump host (SSH bastion).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;tips-and-tricks&#34;&gt;Tips and Tricks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;Use &lt;code&gt;ssh&lt;/code&gt; and then &lt;code&gt;tmux&lt;/code&gt; if you want to persist your session in case of network interruptions. This way, you can reconnect to your session and continue where you left off.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;Use config aliases to simplify your SSH connections. For example, you can define an alias for a server with a long hostname and non-standard port to save time typing the connection command.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;Always use strong, unique passwords or passphrase-protected SSH keys to secure your connections. Avoid using default usernames like &amp;ldquo;root&amp;rdquo; and disable password-based authentication if possible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;Tunneling through SSH can be a powerful tool, espessially for developers, but it should be used responsibly and with caution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;Remember to always keep your SSH keys secure and avoid sharing them with unauthorized users. Regularly update your keys and rotate them if necessary to maintain a high level of security.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Console snippets</title>
+      <link>https://georgelitos.com/post/console-snippets/</link>
+      <pubDate>Mon, 29 Jan 2024 18:30:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/console-snippets/</guid>
+      <description>
+
+&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#basic-commands&#34;&gt;Basic commands&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#navigation&#34;&gt;Navigation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#file-manipulation&#34;&gt;File manipulation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#permissions&#34;&gt;Permissions&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#system-information&#34;&gt;System Information&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#process-management&#34;&gt;Process Management&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#help-and-man-pages&#34;&gt;Help and Man Pages&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#bonus&#34;&gt;Bonus&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#one-liners&#34;&gt;One liners&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#file-and-directory-manipulation&#34;&gt;File and directory manipulation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#system-administration&#34;&gt;System Administration&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#network-tools&#34;&gt;Network Tools&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#specific-snippets&#34;&gt;Specific snippets&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#miscellaneous-tips&#34;&gt;Miscellaneous tips&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;p&gt;The &lt;code&gt;console&lt;/code&gt; offers a powerful way to interact with your system and increase your productivity.&lt;br&gt;
+Most snippets work in both Linux and MacOS terminals.&lt;br&gt;
+Here are some generic snippets to get you started:&lt;/p&gt;
+&lt;h2 id=&#34;basic-commands&#34;&gt;Basic commands&lt;/h2&gt;
+&lt;h3 id=&#34;navigation&#34;&gt;Navigation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cd &amp;lt;directory&amp;gt;&lt;/code&gt;: Change directory. (e.g. &lt;code&gt;cd Documents&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pwd&lt;/code&gt;: Print Working Directory (shows your current location)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls&lt;/code&gt;: List directory contents (-lah &amp;ndash;color for details and color)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir &amp;lt;directory&amp;gt;&lt;/code&gt;: Create a new directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;file-manipulation&#34;&gt;File manipulation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;touch &amp;lt;filename&amp;gt;&lt;/code&gt;: Create an empty file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cat &amp;lt;filename&amp;gt;&lt;/code&gt;: Display file contents&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cp &amp;lt;source&amp;gt; &amp;lt;destination&amp;gt;&lt;/code&gt;: Copy a file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mv &amp;lt;source&amp;gt; &amp;lt;destination&amp;gt;&lt;/code&gt;: Move/Rename a file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rm &amp;lt;filename&amp;gt;&lt;/code&gt;: Delete a file (use with caution!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;permissions&#34;&gt;Permissions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;chmod &amp;lt;permissions&amp;gt; &amp;lt;filename&amp;gt;&lt;/code&gt;: Change file permissions (owner, group, others)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chown &amp;lt;owner&amp;gt;:&amp;lt;group&amp;gt; &amp;lt;filename&amp;gt;&lt;/code&gt;: Change file owner (with optional group)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chgrp &amp;lt;group&amp;gt; &amp;lt;filename&amp;gt;&lt;/code&gt;: Change file group&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo &amp;lt;command&amp;gt;&lt;/code&gt;: Run a command as superuser (root)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;su - &amp;lt;username&amp;gt;&lt;/code&gt;: Switch to another user account&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;system-information&#34;&gt;System Information&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;whoami&lt;/code&gt;: Shows your current username&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;w&lt;/code&gt;: Shows who is logged in and what they are doing&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;df&lt;/code&gt;: Show disk usage (-hT human-readable with filesystem type)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;blkid&lt;/code&gt;: Show block device information&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;free -h&lt;/code&gt;: Show available memory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;uname -a&lt;/code&gt;: Show detailed system information&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lscpu&lt;/code&gt;: Show CPU information&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lsb_release -a&lt;/code&gt;: Show Linux distribution information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;process-management&#34;&gt;Process Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ps aux&lt;/code&gt;: List all running processes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;top&lt;/code&gt;: Monitor system resources and processes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;kill &amp;lt;PID&amp;gt;&lt;/code&gt;: Kill a process by its ID (-9 for force kill)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;help-and-man-pages&#34;&gt;Help and Man Pages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;man &amp;lt;command&amp;gt;&lt;/code&gt;: Get help on a specific command (detailed manual page)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;help&lt;/code&gt;: Get a list of built-in shell commands&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;whatis &amp;lt;command&amp;gt;&lt;/code&gt;: Get a brief description of a command&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;alias&lt;/code&gt; : List all aliases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bonus&#34;&gt;Bonus&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;history&lt;/code&gt;: Show command history (-c to clean)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;!!&lt;/code&gt;: Repeat the last command (sudo !! to repeat last command as sudo)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;exit&lt;/code&gt;: Exit the terminal (or CTRL-D)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are just a few basic snippets. There&amp;rsquo;s a vast amount of functionality available in the Linux console. Explore the &lt;code&gt;man&lt;/code&gt; pages for in-depth information on specific commands.&lt;/p&gt;
+&lt;h2 id=&#34;one-liners&#34;&gt;One liners&lt;/h2&gt;
+&lt;p&gt;Console one-liners are powerful commands that condense complex tasks into a single line&lt;/p&gt;
+&lt;h3 id=&#34;file-and-directory-manipulation&#34;&gt;File and directory manipulation&lt;/h3&gt;
+&lt;p&gt;Search and replace text across all files in a directory:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -type f -exec sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/old_text/new_text/g&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Count lines in all files within a directory:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -type f -exec wc -l &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{sum += $1} END {print sum}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Change permissions of all files in a directory (recursively):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find -type f -exec chmod &lt;span class=&#34;m&#34;&gt;644&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Change permissions of all directories in a directory (recursively):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find -type d -exec chmod &lt;span class=&#34;m&#34;&gt;755&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Convert all JPGs in current directory to PNGs:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; file in *.jpg&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; convert &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$file&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;file&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/.jpg/.png&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Extract all ZIP files in a directory with correct folders&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find -type f -name *.zip -execdir unzip -o &lt;span class=&#34;s1&#34;&gt;&amp;#39;{}&amp;#39;&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;system-administration&#34;&gt;System Administration&lt;/h3&gt;
+&lt;p&gt;List all processes using more than 10% CPU:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ps aux &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{if ($3 &amp;gt; 10) print $2}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Find the largest file in a directory:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -type f -exec du -s &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sort -nr &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; head -n &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;network-tools&#34;&gt;Network Tools&lt;/h3&gt;
+&lt;p&gt;Ping a website and display response time:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ping -c &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt; google.com &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep &lt;span class=&#34;nb&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{print $7}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Download a file from a URL:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://example.com/file.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl -O https://example.com/file.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Scan a network for active hosts:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmap -sn 192.168.0.0/24
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Scan many networks for active hosts and ports:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmap  192.168.33.0/24 192.168.42.0/24
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Remember:&lt;/strong&gt; Be cautious when using one-liners, especially those involving deletion or modification. Test them on a small scale before applying them broadly.&lt;/p&gt;
+&lt;p&gt;These are just a few examples. Explore the web for more advanced one-liners using tools like &lt;code&gt;grep&lt;/code&gt;, &lt;code&gt;awk&lt;/code&gt;, and &lt;code&gt;sed&lt;/code&gt; for powerful text manipulation.&lt;/p&gt;
+&lt;h2 id=&#34;specific-snippets&#34;&gt;Specific snippets&lt;/h2&gt;
+&lt;p&gt;Find and delete &lt;code&gt;.DS_Store&lt;/code&gt; files:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;find -type f -iname  .DS_Store -exec rm  &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Resize &lt;a href=&#34;https://wiki.archlinux.org/title/tmpfs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tmpfs&lt;/a&gt; partition&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mount -o remount,size&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;4G,noatime /tmp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Fix &lt;code&gt;TMPDIR=/tmp cannot hold executables&lt;/code&gt; (partition possibly mounted with noexec)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo mount -o remount,exec /tmp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Update secureboot keys after NVIDIA driver upgrade (for Ubuntu with secureboot enabled / dual boot)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo update-secureboot-policy --enroll-key
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Update outdated pip packages&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip list --outdated --format&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;freeze &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep -v &lt;span class=&#34;s1&#34;&gt;&amp;#39;^\-e&amp;#39;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; cut -d &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; -f &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; xargs -n1 pip install -U
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Change display brightness with xrandr&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xrandr --output eDP --brightness 0.6
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Turn keyboard &lt;code&gt;Scroll Lock&lt;/code&gt; on&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xset led named &lt;span class=&#34;s2&#34;&gt;&amp;#34;Scroll Lock&amp;#34;&lt;/span&gt; on
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Update all git repositories under a folder recursively&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -mindepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -maxdepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -type d -exec git  --git-dir&lt;span class=&#34;o&#34;&gt;={}&lt;/span&gt;/.git --work-tree&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PWD&lt;/span&gt;/&lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; pull &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;miscellaneous-tips&#34;&gt;Miscellaneous tips&lt;/h2&gt;
+&lt;p&gt;For the best terminal filemanager check the post:&lt;br&gt;
+&lt;a href=&#34;https://georgelitos.com/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Use &lt;code&gt;Ctrl + R&lt;/code&gt; to search through your command history&lt;/p&gt;
+&lt;p&gt;Use &lt;code&gt;Ctrl + C&lt;/code&gt; to cancel a running command&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;tmux&lt;/code&gt; and &lt;code&gt;htop&lt;/code&gt; are great tools for managing terminal sessions and monitoring system resources&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ncdu&lt;/code&gt; is a great tool for analyzing disk usage&lt;/p&gt;
 </description>
     </item>
     
@@ -354,7 +522,26 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
       <link>https://georgelitos.com/post/git-cheatsheet/</link>
       <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
       <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
-      <description>&lt;p&gt;In today&amp;rsquo;s collaborative development world, version control is crucial for managing code effectively. Git, a distributed version control system (DVCS), has become the industry standard for developers of all backgrounds.&lt;/p&gt;
+      <description>
+
+&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-configuration&#34;&gt;Git Configuration&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#starting-a-project--init&#34;&gt;Starting a Project / INIT&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#day-to-day-work--stage--snapshot&#34;&gt;Day-to-Day Work / Stage &amp;amp; Snapshot&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-stash-commands&#34;&gt;Git Stash Commands&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-branching-model--branch--merge--rewrite-history&#34;&gt;Git Branching Model / Branch &amp;amp; Merge / Rewrite History&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#inspect-history--inspect--compare&#34;&gt;Inspect History / Inspect &amp;amp; Compare&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#reverting-changes&#34;&gt;Reverting Changes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#tagging-commits&#34;&gt;Tagging Commits&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#synchronizing-repositories--share--update&#34;&gt;Synchronizing Repositories / Share &amp;amp; Update&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;p&gt;In today&amp;rsquo;s collaborative development world (as of 2024), version control is crucial for managing code effectively. Git, a distributed version control system (DVCS), has become the industry standard for developers of all backgrounds.&lt;/p&gt;
 &lt;h2 id=&#34;git-configuration&#34;&gt;Git Configuration&lt;/h2&gt;
 &lt;p&gt;The initial setup of Git involves configuring your user information and some helpful settings.&lt;/p&gt;
 &lt;table&gt;
@@ -712,6 +899,7 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
 &lt;li&gt;Manage remote repositories with aliases for easier handling using &lt;code&gt;git remote add&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Consider using a &lt;a href=&#34;https://git-scm.com/downloads/guis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;visual Git client&lt;/a&gt; to simplify branch management and visualization.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;https://georgelitos.com/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -794,7 +982,7 @@ The features include:&lt;/p&gt;
     </item>
     
     <item>
-      <title>View and control your Android device</title>
+      <title>Scrcpy: Display and control your Android device</title>
       <link>https://georgelitos.com/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
       <guid>https://georgelitos.com/post/scrcpy/</guid>

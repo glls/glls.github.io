@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 9, 2024 --><html lang="en-us" >
+<!-- Last Published: May 10, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -1002,20 +1002,32 @@
 <h2 id="ssh-commands">SSH Commands</h2>
 <p>Here are some common SSH commands and their use cases:</p>
 <ul>
-<li><strong>ssh-keygen:</strong> Generates a new SSH key pair.</li>
-<li><strong>ssh-copy-id:</strong> Copies your public key to a remote server&rsquo;s authorized keys file.</li>
-<li><strong>ssh-agent:</strong> Manages your SSH keys and allows you to enter passphrases only once.</li>
-<li><strong>ssh-add:</strong> Adds private keys to the SSH agent.</li>
-<li><strong>ssh -o PubkeyAuthentication=no:</strong> Disables public key authentication for a specific SSH session.</li>
-<li><strong>ssh-keygen -f &ldquo;/home/user/.ssh/known_hosts&rdquo; -R &ldquo;192.168.1.1&rdquo; :</strong> Removes a specific host entry from the known_hosts file.</li>
-<li><strong>ssh -J jump_host user@target_host:</strong> Connects to a target host via a jump host (SSH bastion).</li>
+<li><code>ssh-keygen</code>: Generates a new SSH key pair.</li>
+<li><code>ssh-copy-id user@host</code>: Copies your public key to a remote server&rsquo;s authorized keys file.</li>
+<li><code>ssh-agent</code>: Manages your SSH keys and allows you to enter passphrases only once.</li>
+<li><code>ssh-add</code>: Adds private keys to the SSH agent.</li>
+<li><code>ssh -o PubkeyAuthentication=no user@host</code>: Disables public key authentication for a specific SSH session.</li>
+<li><code>ssh-keygen -f &quot;/home/user/.ssh/known_hosts&quot; -R &quot;192.168.1.1&quot;</code> : Removes a specific host entry from the known_hosts file.</li>
+<li><code>ssh -J jump_host user@target_host</code>: Connects to a target host via a jump host (SSH bastion).</li>
 </ul>
 <h2 id="tips-and-tricks">Tips and Tricks</h2>
+<ul>
+<li>
 <p>Use <code>ssh</code> and then <code>tmux</code> if you want to persist your session in case of network interruptions. This way, you can reconnect to your session and continue where you left off.</p>
+</li>
+<li>
 <p>Use config aliases to simplify your SSH connections. For example, you can define an alias for a server with a long hostname and non-standard port to save time typing the connection command.</p>
+</li>
+<li>
 <p>Always use strong, unique passwords or passphrase-protected SSH keys to secure your connections. Avoid using default usernames like &ldquo;root&rdquo; and disable password-based authentication if possible.</p>
+</li>
+<li>
 <p>Tunneling through SSH can be a powerful tool, espessially for developers, but it should be used responsibly and with caution.</p>
+</li>
+<li>
 <p>Remember to always keep your SSH keys secure and avoid sharing them with unauthorized users. Regularly update your keys and rotate them if necessary to maintain a high level of security.</p>
+</li>
+</ul>
 
     </div>
 

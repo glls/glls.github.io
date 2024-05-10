@@ -103,20 +103,32 @@
 &lt;h2 id=&#34;ssh-commands&#34;&gt;SSH Commands&lt;/h2&gt;
 &lt;p&gt;Here are some common SSH commands and their use cases:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ssh-keygen:&lt;/strong&gt; Generates a new SSH key pair.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ssh-copy-id:&lt;/strong&gt; Copies your public key to a remote server&amp;rsquo;s authorized keys file.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ssh-agent:&lt;/strong&gt; Manages your SSH keys and allows you to enter passphrases only once.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ssh-add:&lt;/strong&gt; Adds private keys to the SSH agent.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ssh -o PubkeyAuthentication=no:&lt;/strong&gt; Disables public key authentication for a specific SSH session.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ssh-keygen -f &amp;ldquo;/home/user/.ssh/known_hosts&amp;rdquo; -R &amp;ldquo;192.168.1.1&amp;rdquo; :&lt;/strong&gt; Removes a specific host entry from the known_hosts file.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ssh -J jump_host user@target_host:&lt;/strong&gt; Connects to a target host via a jump host (SSH bastion).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-keygen&lt;/code&gt;: Generates a new SSH key pair.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-copy-id user@host&lt;/code&gt;: Copies your public key to a remote server&amp;rsquo;s authorized keys file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-agent&lt;/code&gt;: Manages your SSH keys and allows you to enter passphrases only once.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-add&lt;/code&gt;: Adds private keys to the SSH agent.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh -o PubkeyAuthentication=no user@host&lt;/code&gt;: Disables public key authentication for a specific SSH session.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-keygen -f &amp;quot;/home/user/.ssh/known_hosts&amp;quot; -R &amp;quot;192.168.1.1&amp;quot;&lt;/code&gt; : Removes a specific host entry from the known_hosts file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh -J jump_host user@target_host&lt;/code&gt;: Connects to a target host via a jump host (SSH bastion).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;tips-and-tricks&#34;&gt;Tips and Tricks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
 &lt;p&gt;Use &lt;code&gt;ssh&lt;/code&gt; and then &lt;code&gt;tmux&lt;/code&gt; if you want to persist your session in case of network interruptions. This way, you can reconnect to your session and continue where you left off.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;Use config aliases to simplify your SSH connections. For example, you can define an alias for a server with a long hostname and non-standard port to save time typing the connection command.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;Always use strong, unique passwords or passphrase-protected SSH keys to secure your connections. Avoid using default usernames like &amp;ldquo;root&amp;rdquo; and disable password-based authentication if possible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;Tunneling through SSH can be a powerful tool, espessially for developers, but it should be used responsibly and with caution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;Remember to always keep your SSH keys secure and avoid sharing them with unauthorized users. Regularly update your keys and rotate them if necessary to maintain a high level of security.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

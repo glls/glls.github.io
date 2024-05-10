@@ -22,11 +22,11 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://georgelitos.com/tag/learning/</loc>
-    <lastmod>2024-05-08T18:04:56+03:00</lastmod>
+    <loc>https://georgelitos.com/post/</loc>
+    <lastmod>2024-05-09T10:39:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://georgelitos.com/post/</loc>
+    <loc>https://georgelitos.com/tag/learning/</loc>
     <lastmod>2024-05-08T18:04:56+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -96,6 +96,14 @@
   </url><url>
     <loc>https://georgelitos.com/post/ssh-cheatsheet/</loc>
     <lastmod>2024-02-12T09:03:02+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tag/console/</loc>
+    <lastmod>2024-01-29T18:30:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/post/console-snippets/</loc>
+    <lastmod>2024-01-29T18:30:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tag/sql/</loc>

@@ -17,7 +17,26 @@
       <link>https://georgelitos.com/post/git-cheatsheet/</link>
       <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
       <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
-      <description>&lt;p&gt;In today&amp;rsquo;s collaborative development world, version control is crucial for managing code effectively. Git, a distributed version control system (DVCS), has become the industry standard for developers of all backgrounds.&lt;/p&gt;
+      <description>
+
+&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-configuration&#34;&gt;Git Configuration&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#starting-a-project--init&#34;&gt;Starting a Project / INIT&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#day-to-day-work--stage--snapshot&#34;&gt;Day-to-Day Work / Stage &amp;amp; Snapshot&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-stash-commands&#34;&gt;Git Stash Commands&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-branching-model--branch--merge--rewrite-history&#34;&gt;Git Branching Model / Branch &amp;amp; Merge / Rewrite History&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#inspect-history--inspect--compare&#34;&gt;Inspect History / Inspect &amp;amp; Compare&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#reverting-changes&#34;&gt;Reverting Changes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#tagging-commits&#34;&gt;Tagging Commits&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#synchronizing-repositories--share--update&#34;&gt;Synchronizing Repositories / Share &amp;amp; Update&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;p&gt;In today&amp;rsquo;s collaborative development world (as of 2024), version control is crucial for managing code effectively. Git, a distributed version control system (DVCS), has become the industry standard for developers of all backgrounds.&lt;/p&gt;
 &lt;h2 id=&#34;git-configuration&#34;&gt;Git Configuration&lt;/h2&gt;
 &lt;p&gt;The initial setup of Git involves configuring your user information and some helpful settings.&lt;/p&gt;
 &lt;table&gt;
@@ -375,6 +394,7 @@
 &lt;li&gt;Manage remote repositories with aliases for easier handling using &lt;code&gt;git remote add&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Consider using a &lt;a href=&#34;https://git-scm.com/downloads/guis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;visual Git client&lt;/a&gt; to simplify branch management and visualization.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;https://georgelitos.com/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
