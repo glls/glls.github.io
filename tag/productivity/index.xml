@@ -1010,7 +1010,7 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
 &lt;/nav&gt;
 &lt;/details&gt;
 
-&lt;p&gt;In today&amp;rsquo;s collaborative development world (as of 2024), version control is crucial for managing code effectively. Git, a distributed version control system (DVCS), has become the industry standard for developers of all backgrounds.&lt;/p&gt;
+&lt;p&gt;In today&amp;rsquo;s collaborative development world (as of 2024), version control is crucial for managing code effectively. &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt;, a distributed version control system (&lt;a href=&#34;https://en.wikipedia.org/wiki/Distributed_version_control&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DVCS&lt;/a&gt;), has become the industry standard for developers of all backgrounds.&lt;/p&gt;
 &lt;h2 id=&#34;git-configuration&#34;&gt;Git Configuration&lt;/h2&gt;
 &lt;p&gt;The initial setup of Git involves configuring your user information and some helpful settings.&lt;/p&gt;
 &lt;table&gt;
