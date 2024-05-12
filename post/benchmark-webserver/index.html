@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 10, 2024 --><html lang="en-us" >
+<!-- Last Published: May 12, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -368,7 +368,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2024-05-10T19:00:00&#43;03:00">
+    <meta property="article:modified_time" content="2023-09-10T18:00:00&#43;03:00">
   
 
 
@@ -403,7 +403,7 @@
   ],
   
   "datePublished": "2023-09-10T18:00:00+03:00",
-  "dateModified": "2024-05-10T19:00:00+03:00",
+  "dateModified": "2023-09-10T18:00:00+03:00",
   
   "author": {
     "@type": "Person",
@@ -886,10 +886,8 @@
     
     
       
-          Last updated on
-      
     
-    May 10, 2024
+    Sep 10, 2023
   </span>
   
 
@@ -969,39 +967,14 @@
 </span></span><span class="line"><span class="cl">        --timeout:     record a timeout if a response is not received within
 </span></span><span class="line"><span class="cl">                       this amount of time.
 </span></span></code></pre></div><h2 id="benchmarking-tips">Benchmarking Tips</h2>
-<p>The machine running wrk must have a sufficient number of ephemeral ports available and closed sockets should be recycled quickly. To handle the initial connection burst the server&rsquo;s listen backlog should be greater than the number of concurrent connections being tested.</p>
+<p>The machine running wrk must have a sufficient number of ephemeral ports
+available and closed sockets should be recycled quickly. To handle the
+initial connection burst the server&rsquo;s listen(2) backlog should be greater
+than the number of concurrent connections being tested.</p>
 <p>A user script that only changes the HTTP method, path, adds headers or
 a body, will have no performance impact. Per-request actions, particularly
 building a new HTTP request, and use of response() will necessarily reduce
 the amount of load that can be generated.</p>
-<h2 id="showtime-">Showtime 🚀</h2>
-<blockquote>
-<p>Write a program that can serve a list of 100 albums with a REST like interface (JSON) and measure the performance with wrk</p>
-</blockquote>
-<p>Here&rsquo;s the project in GitHub with full source code and implementations in more than 8 languages: <a href="https://github.com/glls/web-service-albums-benchmark" target="_blank" rel="noopener">web-service-albums-benchmark</a></p>
-<p>And the results:</p>
-<p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://github.com/glls/web-service-albums-benchmark/raw/main/chart.svg" alt="Chart" loading="lazy" data-zoomable /></div>
-  </div></figure>
-</p>
-<p>It&rsquo;s clear that Rust and Go are the speed demons when it comes to this particular task. However, threading and concurrency can be a game-changer in terms of performance. The key takeaway is that your server&rsquo;s capabilities play a significant role in determining the optimal approach. For instance, if you&rsquo;re running on a 4-core CPU, don&rsquo;t expect more than 4 threads to run simultaneously - it&rsquo;s like trying to fit too many eggs in one basket! So, before making any changes to your tech stack, take some time to consider these factors and plan accordingly.</p>
 
     </div>
 
