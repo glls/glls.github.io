@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 10, 2024 --><html lang="en-us" >
+<!-- Last Published: May 15, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -368,7 +368,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2023-10-10T10:00:00&#43;03:00">
+    <meta property="article:modified_time" content="2024-05-12T12:22:00&#43;03:00">
   
 
 
@@ -403,7 +403,7 @@
   ],
   
   "datePublished": "2023-10-10T10:00:00+03:00",
-  "dateModified": "2023-10-10T10:00:00+03:00",
+  "dateModified": "2024-05-12T12:22:00+03:00",
   
   "author": {
     "@type": "Person",
@@ -888,8 +888,10 @@
     
     
       
+          Last updated on
+      
     
-    Oct 10, 2023
+    May 12, 2024
   </span>
   
 
@@ -948,6 +950,7 @@
     <li><a href="#reverting-changes">Reverting Changes</a></li>
     <li><a href="#tagging-commits">Tagging Commits</a></li>
     <li><a href="#synchronizing-repositories--share--update">Synchronizing Repositories / Share &amp; Update</a></li>
+    <li><a href="#git-repository-maintenance">Git Repository Maintenance</a></li>
   </ul>
 </nav>
 </details>
@@ -1310,6 +1313,39 @@
 <li>Manage remote repositories with aliases for easier handling using <code>git remote add</code>.</li>
 <li>Consider using a <a href="https://git-scm.com/downloads/guis" target="_blank" rel="noopener">visual Git client</a> to simplify branch management and visualization.</li>
 </ul>
+<h2 id="git-repository-maintenance">Git Repository Maintenance</h2>
+<p>Regular maintenance of your Git repository is essential for optimal performance and organization.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git gc</code></td>
+<td>Cleans up unnecessary files and optimizes the local repository&rsquo;s database. This command is useful for reducing disk usage and improving Git&rsquo;s performance.</td>
+</tr>
+<tr>
+<td><code>git fsck</code></td>
+<td>Verifies the integrity of your repository&rsquo;s objects and references, checking for any corruption or inconsistencies. This is helpful for ensuring the reliability of your Git data.</td>
+</tr>
+<tr>
+<td><code>git prune</code></td>
+<td>Removes unreachable objects (e.g., commits, blobs) from your repository, freeing up disk space and keeping your repository clean.</td>
+</tr>
+<tr>
+<td><code>git reflog expire --expire=now --all</code></td>
+<td>Expires all reflog entries immediately, removing any outdated or unnecessary references. This helps maintain a clean and efficient repository.</td>
+</tr>
+<tr>
+<td><code>git clean -dnx | sed 's/Would remove //;s/Would skip repository //'</code></td>
+<td>Lists untracked files in your working directory that are not ignored by your <code>.gitignore</code> file. This command is useful for identifying files that may need to be removed or added to the ignore list.  (remove <code>x</code> to hide ignored files)</td>
+</tr>
+</tbody>
+</table>
+<hr>
 <p>Link to my presentation/talk about <a href="/talk/git/">Git &hellip;not just version control </a></p>
 
     </div>
