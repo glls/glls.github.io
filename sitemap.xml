@@ -22,6 +22,30 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://georgelitos.com/tag/benchmark/</loc>
+    <lastmod>2024-05-20T23:34:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/project/benchmark-api/</loc>
+    <lastmod>2024-05-20T23:34:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tag/frameworks/</loc>
+    <lastmod>2024-05-20T23:34:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/project/</loc>
+    <lastmod>2024-05-20T23:34:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tags/</loc>
+    <lastmod>2024-05-20T23:34:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tag/web/</loc>
+    <lastmod>2024-05-20T23:34:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://georgelitos.com/post/</loc>
     <lastmod>2024-05-12T12:22:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -44,10 +68,6 @@
   </url><url>
     <loc>https://georgelitos.com/tag/software-development/</loc>
     <lastmod>2024-05-08T18:04:56+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/tags/</loc>
-    <lastmod>2024-05-12T12:22:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tag/dietpi/</loc>
@@ -120,10 +140,6 @@
   </url><url>
     <loc>https://georgelitos.com/post/git-cheatsheet/</loc>
     <lastmod>2024-05-12T12:22:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/tag/benchmark/</loc>
-    <lastmod>2024-05-10T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tag/howto/</loc>
@@ -258,10 +274,6 @@
     <lastmod>2022-06-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://georgelitos.com/project/</loc>
-    <lastmod>2023-08-31T21:38:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://georgelitos.com/tag/rd/</loc>
     <lastmod>2023-08-31T21:38:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -282,10 +294,6 @@
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://georgelitos.com/publication-type/1/</loc>
-    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://georgelitos.com/tag/cctv/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -295,6 +303,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tag/face-recognition/</loc>
+    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/publication-type/paper-conference/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -334,11 +346,11 @@
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://georgelitos.com/publication-type/2/</loc>
+    <loc>https://georgelitos.com/tag/3d-object-retrieval/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://georgelitos.com/tag/3d-object-retrieval/</loc>
+    <loc>https://georgelitos.com/publication-type/article-journal/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -374,15 +386,15 @@
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://georgelitos.com/publication-type/6/</loc>
-    <lastmod>2011-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://georgelitos.com/publication/semantic-survey/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tag/annotation-tool/</loc>
+    <lastmod>2011-05-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/publication-type/book-chapter/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

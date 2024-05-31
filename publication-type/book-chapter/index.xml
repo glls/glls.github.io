@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>6 | George Litos</title>
-    <link>https://georgelitos.com/publication-type/6/</link>
-      <atom:link href="https://georgelitos.com/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
-    <description>6</description>
+    <title>Book-Chapter | George Litos</title>
+    <link>https://georgelitos.com/publication-type/book-chapter/</link>
+      <atom:link href="https://georgelitos.com/publication-type/book-chapter/index.xml" rel="self" type="application/rss+xml" />
+    <description>Book-Chapter</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2011 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
-      <title>6</title>
-      <link>https://georgelitos.com/publication-type/6/</link>
+      <title>Book-Chapter</title>
+      <link>https://georgelitos.com/publication-type/book-chapter/</link>
     </image>
     
     <item>
