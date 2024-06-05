@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Containers | George Litos</title>
+    <link>http://localhost:1313/tag/containers/</link>
+      <atom:link href="http://localhost:1313/tag/containers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Containers</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 03:33:00 +0300</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <title>Containers</title>
+      <link>http://localhost:1313/tag/containers/</link>
+    </image>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/talk/docker/</link>
+      <pubDate>Fri, 01 Jul 2022 03:33:00 +0300</pubDate>
+      <guid>http://localhost:1313/talk/docker/</guid>
+      <description>&lt;p&gt;Docker is a powerful and popular open-source platform that enables developers to easily deploy and run their applications in a containerized environment. It allows developers to package their applications and dependencies into a single container, which can then be easily deployed and run on any system that supports Docker. Its portability, isolation, scalability, and security features make it an excellent choice for a wide range of use cases, from development and testing to deployment.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

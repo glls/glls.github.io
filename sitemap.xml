@@ -22,6 +22,10 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://georgelitos.com/slides/</loc>
+    <lastmod>2024-05-31T14:23:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://georgelitos.com/tag/benchmark/</loc>
     <lastmod>2024-05-20T23:34:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -266,10 +270,6 @@
     <lastmod>2022-07-01T03:33:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://georgelitos.com/slides/</loc>
-    <lastmod>2022-06-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://georgelitos.com/slides/git/</loc>
     <lastmod>2022-06-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -284,10 +284,6 @@
   </url><url>
     <loc>https://georgelitos.com/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/slides/docker/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/slides/example/</loc>
@@ -538,7 +534,13 @@
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://georgelitos.com/tag/game/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://georgelitos.com/event/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/project/space8/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
