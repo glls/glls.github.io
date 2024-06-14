@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R&amp;D | George Litos</title>
-    <link>https://georgelitos.com/tag/rd/</link>
-      <atom:link href="https://georgelitos.com/tag/rd/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/rd/</link>
+      <atom:link href="http://localhost:1313/tag/rd/index.xml" rel="self" type="application/rss+xml" />
     <description>R&amp;D</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Jun 2019 23:23:00 +0000</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>R&amp;D</title>
-      <link>https://georgelitos.com/tag/rd/</link>
+      <link>http://localhost:1313/tag/rd/</link>
     </image>
     
     <item>
       <title>Research Projects</title>
-      <link>https://georgelitos.com/project/research_projects/</link>
+      <link>http://localhost:1313/project/research_projects/</link>
       <pubDate>Tue, 04 Jun 2019 23:23:00 +0000</pubDate>
-      <guid>https://georgelitos.com/project/research_projects/</guid>
+      <guid>http://localhost:1313/project/research_projects/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;AGRIBIT&lt;/strong&gt; - Artificial intelliGence applied to pRecision farmIng By the use of GNSS and Integrated
 Technologies (&lt;a href=&#34;https://cordis.europa.eu/project/id/101004259&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;H2020:101004259&lt;/a&gt;)&lt;/li&gt;

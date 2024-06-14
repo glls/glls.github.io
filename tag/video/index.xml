@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Video | George Litos</title>
-    <link>https://georgelitos.com/tag/video/</link>
-      <atom:link href="https://georgelitos.com/tag/video/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/video/</link>
+      <atom:link href="http://localhost:1313/tag/video/index.xml" rel="self" type="application/rss+xml" />
     <description>Video</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Mar 2024 02:40:22 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Video</title>
-      <link>https://georgelitos.com/tag/video/</link>
+      <link>http://localhost:1313/tag/video/</link>
     </image>
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
+      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
       <description>&lt;p&gt;The command line might seem intimidating, but it offers hidden gems for everyday tasks. Today, we&amp;rsquo;ll explore its power for image and video conversions, giving you more control over your media files for future reference or projects.&lt;/p&gt;
 &lt;h2 id=&#34;image-manipulation&#34;&gt;Image Manipulation&lt;/h2&gt;
 &lt;p&gt;Animated GIFs are a fun way to add life to your content. Here&amp;rsquo;s how to manipulate them with ImageMagick&amp;rsquo;s &lt;code&gt;convert&lt;/code&gt; command:&lt;/p&gt;
