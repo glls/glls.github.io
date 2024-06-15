@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game | George Litos</title>
-    <link>http://localhost:1313/tag/game/</link>
-      <atom:link href="http://localhost:1313/tag/game/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tag/game/</link>
+      <atom:link href="https://georgelitos.com/tag/game/index.xml" rel="self" type="application/rss+xml" />
     <description>Game</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Game</title>
-      <link>http://localhost:1313/tag/game/</link>
+      <link>https://georgelitos.com/tag/game/</link>
     </image>
     
     <item>
       <title>Space8</title>
-      <link>http://localhost:1313/project/space8/</link>
+      <link>https://georgelitos.com/project/space8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/space8/</guid>
+      <guid>https://georgelitos.com/project/space8/</guid>
       <description>&lt;p&gt;Space8 is a retro style shoot&amp;rsquo;em up game. The player controls a spaceship that can move in all directions and shoot at enemies. The game is set in space and the player must avoid asteroids and enemy ships while shooting them down. The game features multiple levels with increasing difficulty and a boss fight at the end. The player can collect power-ups to upgrade their ship and weapons. The game has a high score system to keep track of the player&amp;rsquo;s progress. Space8 is a fun and challenging game that will keep players entertained for hours.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a name=&#34;privacy&#34;&gt;&lt;/a&gt;&lt;/p&gt;

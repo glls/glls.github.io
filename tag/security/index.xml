@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security | George Litos</title>
-    <link>http://localhost:1313/tag/security/</link>
-      <atom:link href="http://localhost:1313/tag/security/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tag/security/</link>
+      <atom:link href="https://georgelitos.com/tag/security/index.xml" rel="self" type="application/rss+xml" />
     <description>Security</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Apr 2024 18:34:13 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Security</title>
-      <link>http://localhost:1313/tag/security/</link>
+      <link>https://georgelitos.com/tag/security/</link>
     </image>
     
     <item>
       <title>Wireguard: A Better VPN</title>
-      <link>http://localhost:1313/post/wireguard/</link>
+      <link>https://georgelitos.com/post/wireguard/</link>
       <pubDate>Sat, 27 Apr 2024 18:34:13 +0300</pubDate>
-      <guid>http://localhost:1313/post/wireguard/</guid>
+      <guid>https://georgelitos.com/post/wireguard/</guid>
       <description>&lt;p&gt;Virtual Private Networks &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(VPNs)&lt;/a&gt; are essential tools for protecting your online privacy and security. But traditional VPNs can sometimes be slow and bog down your connection. &lt;a href=&#34;https://www.wireguard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WireGuard&lt;/a&gt; is a new, innovative VPN protocol that offers several advantages over traditional options, it has a cool logo too 😎.&lt;/p&gt;
 &lt;p&gt;WireGuard is much simpler and leaner than older VPN protocols. This means it&amp;rsquo;s faster and more efficient, using fewer resources and providing a smoother online experience. On top of that, WireGuard prioritizes strong security. It utilizes modern cryptographic techniques to keep your data safe and encrypted.&lt;/p&gt;
 &lt;p&gt;WireGuard is also easy to set up and use. It&amp;rsquo;s available on a wide range of platforms, including Linux, macOS, Windows, Android, and iOS. You can quickly configure WireGuard to connect to a VPN server and start protecting your online activities.&lt;/p&gt;

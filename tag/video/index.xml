@@ -2,33 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Video | George Litos</title>
-    <link>http://localhost:1313/tag/video/</link>
-      <atom:link href="http://localhost:1313/tag/video/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tag/video/</link>
+      <atom:link href="https://georgelitos.com/tag/video/index.xml" rel="self" type="application/rss+xml" />
     <description>Video</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Mar 2024 02:40:22 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Video</title>
-      <link>http://localhost:1313/tag/video/</link>
+      <link>https://georgelitos.com/tag/video/</link>
     </image>
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
+      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
       <description>&lt;p&gt;The command line might seem intimidating, but it offers hidden gems for everyday tasks. Today, we&amp;rsquo;ll explore its power for image and video conversions, giving you more control over your media files for future reference or projects.&lt;/p&gt;
 &lt;h2 id=&#34;image-manipulation&#34;&gt;Image Manipulation&lt;/h2&gt;
-&lt;p&gt;Animated GIFs are a fun way to add life to your content. Here&amp;rsquo;s how to manipulate them with ImageMagick&amp;rsquo;s &lt;code&gt;convert&lt;/code&gt; command:&lt;/p&gt;
-&lt;h3 id=&#34;looping-gifs-ever-wanted-a-gif-to-play-endlessly&#34;&gt;Looping GIFs: Ever wanted a GIF to play endlessly?&lt;/h3&gt;
-&lt;p&gt;Use this command&lt;/p&gt;
+&lt;p&gt;Here are some examples of how to manipulate images with ImageMagick&amp;rsquo;s tools, as always there are tons of options available, so make sure to check the &lt;a href=&#34;https://imagemagick.org/script/convert.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official documentation&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TIP: parameter order matters a lot in ImageMagick&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;resize-images&#34;&gt;Resize Images&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;magick input.png -resize 100x200 output.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mogrify -resize 50% *.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;remove-background&#34;&gt;Remove background&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://imagemagick.org/Usage/masking/#bg_remove&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ImageMagick Examples&lt;/a&gt;&lt;br&gt;
+To remove the black background from an image, use the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; magick input.png -fuzz 5% -transparent black out.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;extent-canvas-size-with-transparency&#34;&gt;Extent canvas size with transparency&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;convert input.png -background none -gravity center -extent 512x512 output.png
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mogrify -background none -gravity center -extent 512x512 *.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;looping-gifs-ever-wanted-a-gif-to-play-endlessly&#34;&gt;Looping GIFs: Ever wanted a GIF to play endlessly?&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;convert -delay &lt;span class=&#34;m&#34;&gt;20&lt;/span&gt; -loop &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; nonloopingImage.gif loopingImage.gif
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This creates a looping version of &lt;code&gt;nonloopingImage.gif&lt;/code&gt; with a delay of 20 milliseconds between frames. Adjust the delay for faster or slower playback. The &lt;code&gt;-loop 0&lt;/code&gt; sets unlimited loops.&lt;/p&gt;
 &lt;h3 id=&#34;creating-gifs-with-transparency-want-a-gif-with-clear-backgrounds&#34;&gt;Creating GIFs with Transparency: Want a GIF with clear backgrounds?&lt;/h3&gt;
-&lt;p&gt;Here&amp;rsquo;s the command&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;convert -delay &lt;span class=&#34;m&#34;&gt;100&lt;/span&gt; -loop &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; -dispose previous *.png hands.gif
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;magick -delay &lt;span class=&#34;m&#34;&gt;100&lt;/span&gt; -loop &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; -dispose previous *.png hands.gif
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command combines all PNG files in the current directory (replace &lt;code&gt;*.png&lt;/code&gt; with specific filenames if needed) into a GIF named &lt;code&gt;hands.gif&lt;/code&gt;. The &lt;code&gt;-delay 100&lt;/code&gt; sets a delay of 100 milliseconds, &lt;code&gt;-loop 0&lt;/code&gt; enables infinite looping, and &lt;code&gt;-dispose&lt;/code&gt; previous ensures transparency in the final GIF.&lt;/p&gt;
-&lt;h3 id=&#34;svg-to-png-conversion&#34;&gt;SVG to PNG Conversion&lt;/h3&gt;
+&lt;h3 id=&#34;png-optimization&#34;&gt;PNG optimization&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;optipng&lt;/code&gt; is a command-line tool that optimizes PNG images to reduce file size without losing quality. Here&amp;rsquo;s how to use it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;optipng -strip all image.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;svg-to-png-conversion&#34;&gt;SVG to PNG Conversion&lt;/h3&gt;
 &lt;p&gt;Scalable Vector Graphics (SVG) are perfect for logos and icons, but sometimes you need a PNG image. Here&amp;rsquo;s how to convert SVG to PNG using &lt;code&gt;rsvg-convert&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rsvg-convert -h &lt;span class=&#34;m&#34;&gt;32&lt;/span&gt; icon.svg &amp;gt; icon-32.png
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command converts &lt;code&gt;icon.svg&lt;/code&gt; to a PNG named &lt;code&gt;icon-32.png&lt;/code&gt; with a height of 32 pixels. Replace 32 with your desired pixel height or width for a specific aspect ratio.&lt;/p&gt;

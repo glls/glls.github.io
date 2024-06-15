@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Presentations | George Litos</title>
-    <link>http://localhost:1313/talk/</link>
-      <atom:link href="http://localhost:1313/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/talk/</link>
+      <atom:link href="https://georgelitos.com/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Presentations</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Presentations</title>
-      <link>http://localhost:1313/talk/</link>
+      <link>https://georgelitos.com/talk/</link>
     </image>
     
     <item>
       <title>Git ...not just version control</title>
-      <link>http://localhost:1313/talk/git/</link>
+      <link>https://georgelitos.com/talk/git/</link>
       <pubDate>Fri, 01 Jul 2022 03:33:00 +0300</pubDate>
-      <guid>http://localhost:1313/talk/git/</guid>
+      <guid>https://georgelitos.com/talk/git/</guid>
       <description>&lt;p&gt;Git is a powerful version control system that allows developers to track and store changes to their code. It also helps teams collaborate on projects efficiently. With Git, developers can keep track of changes made to their code, revert back to previous versions if needed, and even create branches for different versions of the same project. In this talk, we&amp;rsquo;ll take a look at how Git works and how it can be used to manage and track changes to your code.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;You can also check the &lt;a href=&#34;http://localhost:1313/post/git-cheatsheet/&#34;&gt;Git Cheatsheet&lt;/a&gt; post.&lt;/p&gt;
+&lt;p&gt;You can also check the &lt;a href=&#34;https://georgelitos.com/post/git-cheatsheet/&#34;&gt;Git Cheatsheet&lt;/a&gt; post.&lt;/p&gt;
 </description>
     </item>
     

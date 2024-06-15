@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | George Litos</title>
-    <link>http://localhost:1313/tags/</link>
-      <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/</link>
+      <atom:link href="https://georgelitos.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 May 2024 23:34:00 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Tags</title>
-      <link>http://localhost:1313/tags/</link>
+      <link>https://georgelitos.com/tags/</link>
     </image>
     
   </channel>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sql | George Litos</title>
-    <link>http://localhost:1313/tag/sql/</link>
-      <atom:link href="http://localhost:1313/tag/sql/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tag/sql/</link>
+      <atom:link href="https://georgelitos.com/tag/sql/index.xml" rel="self" type="application/rss+xml" />
     <description>Sql</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Nov 2023 19:23:33 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Sql</title>
-      <link>http://localhost:1313/tag/sql/</link>
+      <link>https://georgelitos.com/tag/sql/</link>
     </image>
     
     <item>
       <title>SQL Cheat Sheet</title>
-      <link>http://localhost:1313/post/sql-cheatsheet/</link>
+      <link>https://georgelitos.com/post/sql-cheatsheet/</link>
       <pubDate>Thu, 16 Nov 2023 19:23:33 +0300</pubDate>
-      <guid>http://localhost:1313/post/sql-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/sql-cheatsheet/</guid>
       <description>&lt;p&gt;SQL stands for Structured Query Language. It&amp;rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.&lt;/p&gt;
 &lt;p&gt;There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM)&lt;/p&gt;
 &lt;h3 id=&#34;performance&#34;&gt;Performance&lt;/h3&gt;
