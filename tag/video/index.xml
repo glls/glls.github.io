@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Video | George Litos</title>
-    <link>https://georgelitos.com/tag/video/</link>
-      <atom:link href="https://georgelitos.com/tag/video/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/video/</link>
+      <atom:link href="http://localhost:1313/tag/video/index.xml" rel="self" type="application/rss+xml" />
     <description>Video</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Mar 2024 02:40:22 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Video</title>
-      <link>https://georgelitos.com/tag/video/</link>
+      <link>http://localhost:1313/tag/video/</link>
     </image>
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
+      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
       <description>
 
 &lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
@@ -39,9 +39,9 @@
         &lt;li&gt;&lt;a href=&#34;#generate-audio-from-console&#34;&gt;Generate audio from console&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#video-manipulation&#34;&gt;Video Manipulation&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#extract-a-video-segment-from-a-larger-video-file-using-ffmpeg&#34;&gt;Extract a video segment from a larger video file using &lt;code&gt;ffmpeg&lt;/code&gt;&lt;/a&gt;
+    &lt;li&gt;&lt;a href=&#34;#video-manipulation&#34;&gt;Video Manipulation&lt;/a&gt;
       &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#extract-a-video-segment-from-a-larger-video-file-using-ffmpeg&#34;&gt;Extract a video segment from a larger video file using &lt;code&gt;ffmpeg&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#downloading-videos&#34;&gt;Downloading Videos&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#playing-a-video-stream-from-the-command-line-with-mpv&#34;&gt;Playing a video stream from the command line with &lt;code&gt;mpv&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
@@ -95,16 +95,13 @@ To remove the black background from an image, use the following command:&lt;/p&g
 &lt;/ul&gt;
 &lt;p&gt;Make sure you have the &lt;code&gt;play&lt;/code&gt; command from &lt;a href=&#34;https://software.umich.edu/titles/sox&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SoX&lt;/a&gt; installed on your system for this to work.&lt;/p&gt;
 &lt;h2 id=&#34;video-manipulation&#34;&gt;Video Manipulation&lt;/h2&gt;
-&lt;h2 id=&#34;extract-a-video-segment-from-a-larger-video-file-using-ffmpeg&#34;&gt;Extract a video segment from a larger video file using &lt;code&gt;ffmpeg&lt;/code&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;extract-a-video-segment-from-a-larger-video-file-using-ffmpeg&#34;&gt;Extract a video segment from a larger video file using &lt;code&gt;ffmpeg&lt;/code&gt;&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fmpeg -i Untitled.mp3 -t 00:00:09 -acodec copy output.mp3
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s break down what the command above does:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;-i&lt;/code&gt;: This option specifies the input file. In your case, it&amp;rsquo;s Untitled.mp3.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-t 00:00:09&lt;/code&gt;: This option sets the output duration to 9 seconds. Here, 00 represents hours and minutes (which are zero in this case).&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-acodec copy&lt;/code&gt;: This option tells ffmpeg to copy the audio stream from the input file without re-encoding it. This is efficient if you don&amp;rsquo;t need to modify the audio quality.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;output.mp3&lt;/code&gt;: This specifies the name of the output file, which will be a 9-second clip of your original MP3.&lt;/li&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-t 00:00:09&lt;/code&gt;: set output duration to 9 seconds. Here, 00 represents hours and minutes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-acodec copy&lt;/code&gt;: copy the audio stream from the input file without re-encoding it. This is efficient if you don&amp;rsquo;t need to modify the audio quality.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Overall, this command extracts a 9-second segment from your Untitled.mp3 file and saves it as output.mp3 while preserving the original audio quality.&lt;/p&gt;
+&lt;p&gt;Overall, this command extracts a 9-second segment from your &lt;code&gt;Untitled.mp3&lt;/code&gt; file and saves it as &lt;code&gt;output.mp3&lt;/code&gt; while preserving the original audio quality.&lt;/p&gt;
 &lt;h3 id=&#34;downloading-videos&#34;&gt;Downloading Videos&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/ytdl-org/youtube-dl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube-dl&lt;/a&gt; works on OS X, Linux and Windows, and can download videos in any format YouTube provides.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Video DownloadHelper&lt;/a&gt; is a Firefox/Chrome extension for downloading videos from many sites with minimum effort.&lt;/p&gt;

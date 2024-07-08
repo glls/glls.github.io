@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productivity | George Litos</title>
-    <link>https://georgelitos.com/tag/productivity/</link>
-      <atom:link href="https://georgelitos.com/tag/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/productivity/</link>
+      <atom:link href="http://localhost:1313/tag/productivity/index.xml" rel="self" type="application/rss+xml" />
     <description>Productivity</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 May 2024 18:04:56 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Productivity</title>
-      <link>https://georgelitos.com/tag/productivity/</link>
+      <link>http://localhost:1313/tag/productivity/</link>
     </image>
     
     <item>
       <title>Programming: The Basics</title>
-      <link>https://georgelitos.com/post/programming/</link>
+      <link>http://localhost:1313/post/programming/</link>
       <pubDate>Wed, 08 May 2024 18:04:56 +0300</pubDate>
-      <guid>https://georgelitos.com/post/programming/</guid>
+      <guid>http://localhost:1313/post/programming/</guid>
       <description>&lt;h2 id=&#34;computers&#34;&gt;Computers&lt;/h2&gt;
 &lt;p&gt;A &lt;a href=&#34;https://en.wikipedia.org/wiki/Computer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;computer&lt;/a&gt; is an electronic device that can be programmed to carry out a wide range of tasks. It operates by performing sequences of arithmetic or logical operations automatically. Modern computers can store, retrieve, and process data, typically in binary form, according to instructions given to it in a variable program.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s a more detailed breakdown:&lt;/p&gt;
@@ -384,7 +384,7 @@ For starters, &lt;strong&gt;Python&lt;/strong&gt; is often recommended due to it
                /post/programming/kris_hu3d03a01dcc18bc5be0e67db3d8d209a6_35585_ecf2b26b73e341a8e83e499117713a71.webp 400w,
                /post/programming/kris_hu3d03a01dcc18bc5be0e67db3d8d209a6_35585_486f9ed9f50253a1a2ba3a3ce2a9d08b.webp 760w,
                /post/programming/kris_hu3d03a01dcc18bc5be0e67db3d8d209a6_35585_1200x1200_fit_q80_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/programming/kris_hu3d03a01dcc18bc5be0e67db3d8d209a6_35585_ecf2b26b73e341a8e83e499117713a71.webp&#34;
+               src=&#34;http://localhost:1313/post/programming/kris_hu3d03a01dcc18bc5be0e67db3d8d209a6_35585_ecf2b26b73e341a8e83e499117713a71.webp&#34;
                width=&#34;640&#34;
                height=&#34;427&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -483,9 +483,9 @@ For starters, &lt;strong&gt;Python&lt;/strong&gt; is often recommended due to it
     
     <item>
       <title>Wireguard: A Better VPN</title>
-      <link>https://georgelitos.com/post/wireguard/</link>
+      <link>http://localhost:1313/post/wireguard/</link>
       <pubDate>Sat, 27 Apr 2024 18:34:13 +0300</pubDate>
-      <guid>https://georgelitos.com/post/wireguard/</guid>
+      <guid>http://localhost:1313/post/wireguard/</guid>
       <description>&lt;p&gt;Virtual Private Networks &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(VPNs)&lt;/a&gt; are essential tools for protecting your online privacy and security. But traditional VPNs can sometimes be slow and bog down your connection. &lt;a href=&#34;https://www.wireguard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WireGuard&lt;/a&gt; is a new, innovative VPN protocol that offers several advantages over traditional options, it has a cool logo too 😎.&lt;/p&gt;
 &lt;p&gt;WireGuard is much simpler and leaner than older VPN protocols. This means it&amp;rsquo;s faster and more efficient, using fewer resources and providing a smoother online experience. On top of that, WireGuard prioritizes strong security. It utilizes modern cryptographic techniques to keep your data safe and encrypted.&lt;/p&gt;
 &lt;p&gt;WireGuard is also easy to set up and use. It&amp;rsquo;s available on a wide range of platforms, including Linux, macOS, Windows, Android, and iOS. You can quickly configure WireGuard to connect to a VPN server and start protecting your online activities.&lt;/p&gt;
@@ -495,9 +495,9 @@ For starters, &lt;strong&gt;Python&lt;/strong&gt; is often recommended due to it
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
+      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
       <description>
 
 &lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
@@ -520,9 +520,9 @@ For starters, &lt;strong&gt;Python&lt;/strong&gt; is often recommended due to it
         &lt;li&gt;&lt;a href=&#34;#generate-audio-from-console&#34;&gt;Generate audio from console&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#video-manipulation&#34;&gt;Video Manipulation&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#extract-a-video-segment-from-a-larger-video-file-using-ffmpeg&#34;&gt;Extract a video segment from a larger video file using &lt;code&gt;ffmpeg&lt;/code&gt;&lt;/a&gt;
+    &lt;li&gt;&lt;a href=&#34;#video-manipulation&#34;&gt;Video Manipulation&lt;/a&gt;
       &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#extract-a-video-segment-from-a-larger-video-file-using-ffmpeg&#34;&gt;Extract a video segment from a larger video file using &lt;code&gt;ffmpeg&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#downloading-videos&#34;&gt;Downloading Videos&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#playing-a-video-stream-from-the-command-line-with-mpv&#34;&gt;Playing a video stream from the command line with &lt;code&gt;mpv&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
@@ -576,16 +576,13 @@ To remove the black background from an image, use the following command:&lt;/p&g
 &lt;/ul&gt;
 &lt;p&gt;Make sure you have the &lt;code&gt;play&lt;/code&gt; command from &lt;a href=&#34;https://software.umich.edu/titles/sox&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SoX&lt;/a&gt; installed on your system for this to work.&lt;/p&gt;
 &lt;h2 id=&#34;video-manipulation&#34;&gt;Video Manipulation&lt;/h2&gt;
-&lt;h2 id=&#34;extract-a-video-segment-from-a-larger-video-file-using-ffmpeg&#34;&gt;Extract a video segment from a larger video file using &lt;code&gt;ffmpeg&lt;/code&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;extract-a-video-segment-from-a-larger-video-file-using-ffmpeg&#34;&gt;Extract a video segment from a larger video file using &lt;code&gt;ffmpeg&lt;/code&gt;&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fmpeg -i Untitled.mp3 -t 00:00:09 -acodec copy output.mp3
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s break down what the command above does:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;-i&lt;/code&gt;: This option specifies the input file. In your case, it&amp;rsquo;s Untitled.mp3.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-t 00:00:09&lt;/code&gt;: This option sets the output duration to 9 seconds. Here, 00 represents hours and minutes (which are zero in this case).&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-acodec copy&lt;/code&gt;: This option tells ffmpeg to copy the audio stream from the input file without re-encoding it. This is efficient if you don&amp;rsquo;t need to modify the audio quality.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;output.mp3&lt;/code&gt;: This specifies the name of the output file, which will be a 9-second clip of your original MP3.&lt;/li&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-t 00:00:09&lt;/code&gt;: set output duration to 9 seconds. Here, 00 represents hours and minutes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-acodec copy&lt;/code&gt;: copy the audio stream from the input file without re-encoding it. This is efficient if you don&amp;rsquo;t need to modify the audio quality.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Overall, this command extracts a 9-second segment from your Untitled.mp3 file and saves it as output.mp3 while preserving the original audio quality.&lt;/p&gt;
+&lt;p&gt;Overall, this command extracts a 9-second segment from your &lt;code&gt;Untitled.mp3&lt;/code&gt; file and saves it as &lt;code&gt;output.mp3&lt;/code&gt; while preserving the original audio quality.&lt;/p&gt;
 &lt;h3 id=&#34;downloading-videos&#34;&gt;Downloading Videos&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/ytdl-org/youtube-dl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube-dl&lt;/a&gt; works on OS X, Linux and Windows, and can download videos in any format YouTube provides.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Video DownloadHelper&lt;/a&gt; is a Firefox/Chrome extension for downloading videos from many sites with minimum effort.&lt;/p&gt;
@@ -597,9 +594,9 @@ To remove the black background from an image, use the following command:&lt;/p&g
     
     <item>
       <title>SSH Cheatsheet</title>
-      <link>https://georgelitos.com/post/ssh-cheatsheet/</link>
+      <link>http://localhost:1313/post/ssh-cheatsheet/</link>
       <pubDate>Mon, 12 Feb 2024 09:03:02 +0300</pubDate>
-      <guid>https://georgelitos.com/post/ssh-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/ssh-cheatsheet/</guid>
       <description>&lt;p&gt;SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&amp;rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations.&lt;/p&gt;
 &lt;h2 id=&#34;connecting-to-a-server&#34;&gt;Connecting to a Server&lt;/h2&gt;
 &lt;p&gt;The basic syntax for connecting to a server with SSH is:&lt;/p&gt;
@@ -717,9 +714,9 @@ To remove the black background from an image, use the following command:&lt;/p&g
     
     <item>
       <title>Console snippets</title>
-      <link>https://georgelitos.com/post/console-snippets/</link>
+      <link>http://localhost:1313/post/console-snippets/</link>
       <pubDate>Mon, 29 Jan 2024 18:30:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/console-snippets/</guid>
+      <guid>http://localhost:1313/post/console-snippets/</guid>
       <description>
 
 &lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
@@ -864,7 +861,7 @@ Here are some generic snippets to get you started:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -mindepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -maxdepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -type d -exec git  --git-dir&lt;span class=&#34;o&#34;&gt;={}&lt;/span&gt;/.git --work-tree&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PWD&lt;/span&gt;/&lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; pull &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;miscellaneous-tips&#34;&gt;Miscellaneous tips&lt;/h2&gt;
 &lt;p&gt;For the best terminal filemanager check the post:&lt;br&gt;
-&lt;a href=&#34;https://georgelitos.com/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://localhost:1313/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Use &lt;code&gt;Ctrl + R&lt;/code&gt; to search through your command history&lt;/p&gt;
 &lt;p&gt;Use &lt;code&gt;Ctrl + C&lt;/code&gt; to cancel a running command&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;tmux&lt;/code&gt; and &lt;code&gt;htop&lt;/code&gt; are great tools for managing terminal sessions and monitoring system resources&lt;/p&gt;
@@ -874,9 +871,9 @@ Here are some generic snippets to get you started:&lt;/p&gt;
     
     <item>
       <title>SQL Cheat Sheet</title>
-      <link>https://georgelitos.com/post/sql-cheatsheet/</link>
+      <link>http://localhost:1313/post/sql-cheatsheet/</link>
       <pubDate>Thu, 16 Nov 2023 19:23:33 +0300</pubDate>
-      <guid>https://georgelitos.com/post/sql-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/sql-cheatsheet/</guid>
       <description>&lt;p&gt;SQL stands for Structured Query Language. It&amp;rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.&lt;/p&gt;
 &lt;p&gt;There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM)&lt;/p&gt;
 &lt;h3 id=&#34;performance&#34;&gt;Performance&lt;/h3&gt;
@@ -1037,9 +1034,9 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
     
     <item>
       <title>Git Cheatsheet</title>
-      <link>https://georgelitos.com/post/git-cheatsheet/</link>
+      <link>http://localhost:1313/post/git-cheatsheet/</link>
       <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/git-cheatsheet/</guid>
       <description>
 
 &lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
@@ -1451,15 +1448,15 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;https://georgelitos.com/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;http://localhost:1313/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>MC: a commander like no other</title>
-      <link>https://georgelitos.com/post/mc/</link>
+      <link>http://localhost:1313/post/mc/</link>
       <pubDate>Mon, 05 Jun 2023 09:18:07 +0300</pubDate>
-      <guid>https://georgelitos.com/post/mc/</guid>
+      <guid>http://localhost:1313/post/mc/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander™. It also takes the best from more recent software with similar interfaces. Many years ago, we used file-managers like these, as &amp;ldquo;Norton Commander&amp;rdquo; in DOS, or the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, which is still alive in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;dual-pane-interface-for-seamless-file-management&#34;&gt;Dual-Pane Interface for Seamless File Management&lt;/h2&gt;
@@ -1535,9 +1532,9 @@ The features include:&lt;/p&gt;
     
     <item>
       <title>Scrcpy: Display and control your Android device</title>
-      <link>https://georgelitos.com/post/scrcpy/</link>
+      <link>http://localhost:1313/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/scrcpy/</guid>
+      <guid>http://localhost:1313/post/scrcpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
 This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
@@ -1586,7 +1583,7 @@ This application mirrors Android devices (video and audio) connected via USB or 
                /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp 400w,
                /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_4a66c7aaf9182f60579c17a75635758d.webp 760w,
                /post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp&#34;
+               src=&#34;http://localhost:1313/post/scrcpy/image1_hu210d91e3f6fb23d4d85f36345d7026fe_40658_73b3d6169a43938f656e699118da5d69.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1598,9 +1595,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Package Managers - not the evil kind of PMs</title>
-      <link>https://georgelitos.com/post/pkgman/</link>
+      <link>http://localhost:1313/post/pkgman/</link>
       <pubDate>Tue, 21 Mar 2023 21:27:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/pkgman/</guid>
+      <guid>http://localhost:1313/post/pkgman/</guid>
       <description>
 
 &lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
@@ -1658,7 +1655,7 @@ And thank you for making our coding lives bright!&lt;/p&gt;
                /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp 400w,
                /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_2866e213bb690c93878dc1361b0effe7.webp 760w,
                /post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp&#34;
+               src=&#34;http://localhost:1313/post/pkgman/scoop_hue9dd2581607dc8b7881fae9b2d0ad3d3_47385_eab2cc6fecafddfcd78a741590a36084.webp&#34;
                width=&#34;760&#34;
                height=&#34;315&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1707,7 +1704,7 @@ Scoop is a command-line installer for Windows that allows users to easily instal
                /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp 400w,
                /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_46672bf2ca664312d496529b452ece6e.webp 760w,
                /post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp&#34;
+               src=&#34;http://localhost:1313/post/pkgman/homebrew_hud40646f9ad150c759436e766aad82c75_331219_09b7cef61ddb75c056894ba069247cbd.webp&#34;
                width=&#34;760&#34;
                height=&#34;611&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1748,7 +1745,7 @@ That the apps are already hand-picked and that they are fully categorized! You c
                /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp 400w,
                /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1caf5b225a17213d1296d902ee427c5c.webp 760w,
                /post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp&#34;
+               src=&#34;http://localhost:1313/post/pkgman/pmpc_hub46d0622a3d9f333acbd88c7e296fc95_113137_f3b0dda2676dbd353b4b12d7db17d55d.webp&#34;
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1776,9 +1773,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Buku: a powerful bookmark manager</title>
-      <link>https://georgelitos.com/post/buku/</link>
+      <link>http://localhost:1313/post/buku/</link>
       <pubDate>Sat, 18 Mar 2023 20:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/buku/</guid>
+      <guid>http://localhost:1313/post/buku/</guid>
       <description>&lt;p&gt;Are you tired of losing track of your bookmarks across multiple browsers? Look no further than Buku, the powerful bookmark manager that imports bookmarks from all your browsers, works on console and has a web-based server.&lt;/p&gt;
 &lt;p&gt;With Buku, you can easily organize your bookmarks into categories and tags, making it easy to find exactly what you need. Plus, Buku&amp;rsquo;s powerful search feature allows you to quickly locate any bookmark in your collection.&lt;/p&gt;
 &lt;p&gt;One of the most unique features of Buku is its powerful console interface:&lt;/p&gt;
@@ -1807,7 +1804,7 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp 400w,
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7ad44fb4193dfa576419908845c3b89b.webp 760w,
                /post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp&#34;
+               src=&#34;http://localhost:1313/post/buku/screenshot-buku_hube1e73a6ceeb6c826f8d84c147e00f1a_217684_7576c0f6e534aca0ff120c26837c7504.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1820,9 +1817,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Breaking the Barrier</title>
-      <link>https://georgelitos.com/post/barrier/</link>
+      <link>http://localhost:1313/post/barrier/</link>
       <pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/barrier/</guid>
+      <guid>http://localhost:1313/post/barrier/</guid>
       <description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;
 &lt;p&gt;
 
@@ -1867,9 +1864,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Free your notes with Joplin</title>
-      <link>https://georgelitos.com/post/joplin/</link>
+      <link>http://localhost:1313/post/joplin/</link>
       <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/joplin/</guid>
+      <guid>http://localhost:1313/post/joplin/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
 &lt;p&gt;
 
@@ -1903,16 +1900,16 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Git ...not just version control</title>
-      <link>https://georgelitos.com/talk/git/</link>
+      <link>http://localhost:1313/talk/git/</link>
       <pubDate>Fri, 01 Jul 2022 03:33:00 +0300</pubDate>
-      <guid>https://georgelitos.com/talk/git/</guid>
+      <guid>http://localhost:1313/talk/git/</guid>
       <description>&lt;p&gt;Git is a powerful version control system that allows developers to track and store changes to their code. It also helps teams collaborate on projects efficiently. With Git, developers can keep track of changes made to their code, revert back to previous versions if needed, and even create branches for different versions of the same project. In this talk, we&amp;rsquo;ll take a look at how Git works and how it can be used to manage and track changes to your code.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;You can also check the &lt;a href=&#34;https://georgelitos.com/post/git-cheatsheet/&#34;&gt;Git Cheatsheet&lt;/a&gt; post.&lt;/p&gt;
+&lt;p&gt;You can also check the &lt;a href=&#34;http://localhost:1313/post/git-cheatsheet/&#34;&gt;Git Cheatsheet&lt;/a&gt; post.&lt;/p&gt;
 </description>
     </item>
     

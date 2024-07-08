@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frameworks | George Litos</title>
-    <link>https://georgelitos.com/tag/frameworks/</link>
-      <atom:link href="https://georgelitos.com/tag/frameworks/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/frameworks/</link>
+      <atom:link href="http://localhost:1313/tag/frameworks/index.xml" rel="self" type="application/rss+xml" />
     <description>Frameworks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 May 2024 23:34:00 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_512x512_fill_lanczos_center_3.png</url>
       <title>Frameworks</title>
-      <link>https://georgelitos.com/tag/frameworks/</link>
+      <link>http://localhost:1313/tag/frameworks/</link>
     </image>
     
     <item>
       <title>Benchmarking API Frameworks</title>
-      <link>https://georgelitos.com/project/benchmark-api/</link>
+      <link>http://localhost:1313/project/benchmark-api/</link>
       <pubDate>Mon, 20 May 2024 23:34:00 +0300</pubDate>
-      <guid>https://georgelitos.com/project/benchmark-api/</guid>
+      <guid>http://localhost:1313/project/benchmark-api/</guid>
       <description></description>
     </item>
     
