@@ -17,7 +17,40 @@
       <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
       <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
-      <description>&lt;p&gt;The command line might seem intimidating, but it offers hidden gems for everyday tasks. Today, we&amp;rsquo;ll explore its power for image and video conversions, giving you more control over your media files for future reference or projects.&lt;/p&gt;
+      <description>
+
+&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#image-manipulation&#34;&gt;Image Manipulation&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#resize-images&#34;&gt;Resize Images&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#remove-background&#34;&gt;Remove background&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#extent-canvas-size-with-transparency&#34;&gt;Extent canvas size with transparency&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#looping-gifs-ever-wanted-a-gif-to-play-endlessly&#34;&gt;Looping GIFs: Ever wanted a GIF to play endlessly?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#creating-gifs-with-transparency-want-a-gif-with-clear-backgrounds&#34;&gt;Creating GIFs with Transparency: Want a GIF with clear backgrounds?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#png-optimization&#34;&gt;PNG optimization&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#svg-to-png-conversion&#34;&gt;SVG to PNG Conversion&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#audio-manipulation&#34;&gt;Audio Manipulation&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#generate-audio-from-console&#34;&gt;Generate audio from console&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#video-manipulation&#34;&gt;Video Manipulation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#extract-a-video-segment-from-a-larger-video-file-using-ffmpeg&#34;&gt;Extract a video segment from a larger video file using &lt;code&gt;ffmpeg&lt;/code&gt;&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#downloading-videos&#34;&gt;Downloading Videos&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#playing-a-video-stream-from-the-command-line-with-mpv&#34;&gt;Playing a video stream from the command line with &lt;code&gt;mpv&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;p&gt;The command line might seem intimidating, but it offers hidden gems for everyday tasks. Today, we&amp;rsquo;ll explore its power for image and video conversions, giving you more control over your media files for future reference or projects.&lt;/p&gt;
 &lt;h2 id=&#34;image-manipulation&#34;&gt;Image Manipulation&lt;/h2&gt;
 &lt;p&gt;Here are some examples of how to manipulate images with ImageMagick&amp;rsquo;s tools, as always there are tons of options available, so make sure to check the &lt;a href=&#34;https://imagemagick.org/script/convert.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official documentation&lt;/a&gt; for more details.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -25,7 +58,7 @@
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;resize-images&#34;&gt;Resize Images&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;magick input.png -resize 100x200 output.jpg
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# or&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mogrify -resize 50% *.png
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;remove-background&#34;&gt;Remove background&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://imagemagick.org/Usage/masking/#bg_remove&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ImageMagick Examples&lt;/a&gt;&lt;br&gt;
@@ -33,7 +66,7 @@ To remove the black background from an image, use the following command:&lt;/p&g
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; magick input.png -fuzz 5% -transparent black out.png
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;extent-canvas-size-with-transparency&#34;&gt;Extent canvas size with transparency&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;convert input.png -background none -gravity center -extent 512x512 output.png
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# or&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mogrify -background none -gravity center -extent 512x512 *.png
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;looping-gifs-ever-wanted-a-gif-to-play-endlessly&#34;&gt;Looping GIFs: Ever wanted a GIF to play endlessly?&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;convert -delay &lt;span class=&#34;m&#34;&gt;20&lt;/span&gt; -loop &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; nonloopingImage.gif loopingImage.gif
