@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssh | George Litos</title>
+    <link>https://georgelitos.com/tags/ssh/</link>
+      <atom:link href="https://georgelitos.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ssh</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 12 Feb 2024 09:03:02 +0300</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hu2521745571622303128.png</url>
+      <title>Ssh</title>
+      <link>https://georgelitos.com/tags/ssh/</link>
+    </image>
+    
+    <item>
+      <title>SSH Cheatsheet</title>
+      <link>https://georgelitos.com/post/ssh-cheatsheet/</link>
+      <pubDate>Mon, 12 Feb 2024 09:03:02 +0300</pubDate>
+      <guid>https://georgelitos.com/post/ssh-cheatsheet/</guid>
+      <description>&lt;p&gt;SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&amp;rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations.&lt;/p&gt;
+&lt;h2 id=&#34;connecting-to-a-server&#34;&gt;Connecting to a Server&lt;/h2&gt;
+&lt;p&gt;The basic syntax for connecting to a server with SSH is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh username@server_address &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;-p port_number&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;:  Your username on the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_address&lt;/code&gt;:  The IP address or hostname of the server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;port_number&lt;/code&gt;:  The port number used by the SSH server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;password-vs-key-based-authentication&#34;&gt;Password vs. Key-Based Authentication&lt;/h2&gt;
+&lt;p&gt;You can connect to a server using a password or a public/private key pair. Key-based authentication is generally considered more secure as it eliminates the need to transmit passwords over the network.&lt;/p&gt;
+&lt;h2 id=&#34;basic-file-transfer&#34;&gt;Basic File Transfer&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;scp (Secure Copy):&lt;/strong&gt;  Used to securely copy files between your local machine and the remote server.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To copy a file from the remote server to your local machine:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scp username@server_address:/path/to/file local_destination
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;To copy a file from your local machine to the remote server:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scp local_file username@server_address:/path/to/destination
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;remote-commands&#34;&gt;Remote Commands&lt;/h2&gt;
+&lt;p&gt;You can execute commands on the remote server directly from your local terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh username@server_address &lt;span class=&#34;s1&#34;&gt;&amp;#39;command_to_execute&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;command_to_execute&lt;/code&gt;:  The command you want to run on the remote server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;understanding-the-ssh-directory&#34;&gt;Understanding the .ssh Directory&lt;/h2&gt;
+&lt;p&gt;The hidden directory  &lt;code&gt;~/.ssh&lt;/code&gt; (on Unix-based systems) stores SSH configuration files specific to your user account. It&amp;rsquo;s typically not created by default, but SSH will create it if it&amp;rsquo;s missing when you first use a key-based authentication or configure the client. Common files you might find in this directory include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;id_rsa (private key):&lt;/strong&gt; This file contains your private SSH key, used for key-based authentication. It should be kept secret and have strict permissions to prevent unauthorized access.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;id_rsa.pub (public key):&lt;/strong&gt; This public key file corresponds to your private key and can be added to authorized keys on servers you want to connect to.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;config (SSH configuration file):&lt;/strong&gt; This file allows you to define connection options for specific servers or set global defaults for SSH.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exploring-the-ssh-config-file&#34;&gt;Exploring the SSH Config File&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;config&lt;/code&gt; file within the &lt;code&gt;.ssh&lt;/code&gt; directory is a powerful tool for customizing SSH connections. It uses a simple format with options and arguments to define settings. Here are some common uses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Host definitions:&lt;/strong&gt; You can create sections for specific servers (identified by hostname or IP address) and define options for those connections, such as port, username, and IdentityFile (path to your private key).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Global options:&lt;/strong&gt; You can set default settings for all SSH connections, like preferred encryption ciphers or preferred authentication methods.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aliases:&lt;/strong&gt; You can define aliases for servers to simplify connection commands. For example, you could create an alias for a server with a long hostname to make connecting easier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ssh-tunneling&#34;&gt;SSH Tunneling&lt;/h2&gt;
+&lt;p&gt;SSH tunneling, also known as SSH port forwarding, is a powerful feature that allows you to create secure connections between your local machine and a remote server. It essentially creates an encrypted tunnel through which you can forward traffic between different ports. This can be useful for various purposes, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Securely accessing remote services:&lt;/strong&gt; If a server offers a service on a non-standard port (for example, a web server on port 8080 instead of the usual port 80), you can use SSH tunneling to securely access it as if it were running on the standard port on your local machine.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tunneling traffic through firewalls:&lt;/strong&gt; Firewalls might restrict access to certain ports. By tunneling traffic through an SSH connection, you can bypass these restrictions and access the desired service. (&lt;strong&gt;Note:&lt;/strong&gt; This should only be done with proper authorization and caution)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creating SOCKS proxies:&lt;/strong&gt; SSH tunnels can be configured to function as SOCKS proxies, allowing you to route all your internet traffic through the secure SSH connection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are two main types of SSH tunneling:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Local Port Forwarding:&lt;/strong&gt; This forwards traffic from a specific port on your local machine to a port on the remote server. Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say you want to securely access a web server running on port 8080 on a remote server. You can use local port forwarding to map port 8080 on the remote server to a different port (e.g., port 8000) on your local machine. By accessing &lt;code&gt;http://localhost:8000&lt;/code&gt; in your web browser, the traffic will be securely tunneled through the SSH connection and reach the web server on the remote machine.&lt;/p&gt;
+&lt;p&gt;The command for this scenario would be:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh -L 8000:localhost:8080 username@server_address
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-L&lt;/code&gt;: Flag for local port forwarding.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;8000&lt;/code&gt;: Local port on your machine where you want to access the service.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;localhost:8080&lt;/code&gt;: The destination on the remote server (localhost refers to the remote server itself in this case).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;: Your username on the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_address&lt;/code&gt;: The IP address or hostname of the remote server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Remote Port Forwarding (Reverse Tunneling):&lt;/strong&gt; This forwards traffic from a port on the remote server to a specific port on another machine on your network. This can be useful for exposing services running on the remote server to other machines on your local network.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;p&gt;Imagine you have a database server running on a remote server behind a firewall, but you need to access it from your local machine. You can set up remote port forwarding to expose the database port (e.g., port 3306) on the remote server to a different port (e.g., port 5432) on your local machine. This allows you to connect to the database server using your local database client as if it were running locally.&lt;/p&gt;
+&lt;p&gt;The command for this scenario would be:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh -R 5432:localhost:3306 username@server_address
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-R&lt;/code&gt;: Flag for remote port forwarding.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;5432&lt;/code&gt;: Port on your local machine that will be forwarded to the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;localhost:3306&lt;/code&gt;: The destination on the remote server (localhost refers to the remote server itself in this case).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;: Your username on the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_address&lt;/code&gt;: The IP address or hostname of the remote server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are just a couple of basic examples of SSH tunneling. With some exploration, you&amp;rsquo;ll find many other use cases for this versatile tool. Remember, it&amp;rsquo;s important to understand the security implications before implementing SSH tunnels, especially when bypassing firewalls.&lt;/p&gt;
+&lt;h2 id=&#34;ssh-commands&#34;&gt;SSH Commands&lt;/h2&gt;
+&lt;p&gt;Here are some common SSH commands and their use cases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ssh-keygen&lt;/code&gt;: Generates a new SSH key pair.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-copy-id user@host&lt;/code&gt;: Copies your public key to a remote server&amp;rsquo;s authorized keys file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-agent&lt;/code&gt;: Manages your SSH keys and allows you to enter passphrases only once.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-add&lt;/code&gt;: Adds private keys to the SSH agent.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh -o PubkeyAuthentication=no user@host&lt;/code&gt;: Disables public key authentication for a specific SSH session.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-keygen -f &amp;quot;/home/user/.ssh/known_hosts&amp;quot; -R &amp;quot;192.168.1.1&amp;quot;&lt;/code&gt; : Removes a specific host entry from the known_hosts file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh -J jump_host user@target_host&lt;/code&gt;: Connects to a target host via a jump host (SSH bastion).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips-and-tricks&#34;&gt;Tips and Tricks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Use &lt;code&gt;ssh&lt;/code&gt; and then &lt;code&gt;tmux&lt;/code&gt; if you want to persist your session in case of network interruptions. This way, you can reconnect to your session and continue where you left off.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use config aliases to simplify your SSH connections. For example, you can define an alias for a server with a long hostname and non-standard port to save time typing the connection command.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Always use strong, unique passwords or passphrase-protected SSH keys to secure your connections. Avoid using default usernames like &amp;ldquo;root&amp;rdquo; and disable password-based authentication if possible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tunneling through SSH can be a powerful tool, espessially for developers, but it should be used responsibly and with caution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Remember to always keep your SSH keys secure and avoid sharing them with unauthorized users. Regularly update your keys and rotate them if necessary to maintain a high level of security.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

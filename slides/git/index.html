@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   
   
@@ -10,21 +10,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Hugo Blox Builder 5.9.7">
+  <meta name="generator" content="Hugo Blox Builder 0.3.1">
 
   
-    <link rel="manifest" href="/manifest.webmanifest">
-  
 
-  <link rel="icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_32x32_fill_lanczos_center_3.png">
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_192x192_fill_lanczos_center_3.png">
+  <link rel="icon" type="image/png" href="/media/icon_hu5672062731482351860.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu7848504564431991926.png">
 
-  <link rel="canonical" href="http://localhost:1313/slides/git/">
+  <link rel="canonical" href="https://georgelitos.com/slides/git/">
 
   <title>Slides | George Litos</title>
 
   
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/league.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/league.min.css">
 
   
   
@@ -81,7 +79,7 @@
 
 
 <figure  >
-  <div class="d-flex justify-content-center">
+  <div class="flex justify-center	">
     <div class="w-100" ><img alt="git"
            src="/slides/git/org.gnome.gitg.svg"
            loading="lazy" data-zoomable /></div>
@@ -99,11 +97,8 @@
     
       
 <h2 id="a-bit-of-history">a bit of history</h2>
-<span class="fragment " >
-  Git was originally authored by <a href="https://en.wikipedia.org/wiki/Linus_Torvalds" title="Linus Torvalds" target="_blank" rel="noopener">Linus Torvalds</a> in 2005 for development of the <a href="https://en.wikipedia.org/wiki/Linux_kernel" title="Linux kernel" target="_blank" rel="noopener">Linux kernel</a>, with other kernel developers contributing to its initial development.
-</span> <span class="fragment " >
-  Since 2005, Junio Hamano has been the core maintainer.
-</span>
+<p>Git was originally authored by <a href="https://en.wikipedia.org/wiki/Linus_Torvalds" title="Linus Torvalds" target="_blank" rel="noopener">Linus Torvalds</a> in 2005 for development of the <a href="https://en.wikipedia.org/wiki/Linux_kernel" title="Linux kernel" target="_blank" rel="noopener">Linux kernel</a>, with other kernel developers contributing to its initial development.
+Since 2005, Junio Hamano has been the core maintainer.</p>
 
     </section>
     
@@ -116,9 +111,7 @@
       
 <p><span class="menu-title" style="display: none">a bit of history cont&rsquo;d</span></p>
 <p>As with most other <a href="https://en.wikipedia.org/wiki/Distributed_version_control" title="Distributed version control" target="_blank" rel="noopener">distributed version control</a> systems, and unlike most client–server systems, every Git <a href="https://en.wikipedia.org/wiki/Directory_%28computing%29" title="Directory (computing)" target="_blank" rel="noopener">directory</a> on every <a href="https://en.wikipedia.org/wiki/Node_%28networking%29" title="Node (networking)" target="_blank" rel="noopener">computer</a> is a full-fledged <a href="https://en.wikipedia.org/wiki/Repository_%28version_control%29" title="Repository (version control)" target="_blank" rel="noopener">repository</a> with complete history and full version-tracking abilities, independent of network access or a central server.</p>
-<span class="fragment " >
-  Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" title="Free and open-source software" target="_blank" rel="noopener">free and open-source software</a> distributed under the <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" title="GNU General Public License" target="_blank" rel="noopener">GPL-2.0-only</a> license.
-</span>
+<p>Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" title="Free and open-source software" target="_blank" rel="noopener">free and open-source software</a> distributed under the <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" title="GNU General Public License" target="_blank" rel="noopener">GPL-2.0-only</a> license.</p>
 </p>
 
     </section>
@@ -132,35 +125,8 @@
       
 <h2 id="tech-talk">Tech Talk</h2>
 <p><a href="https://www.youtube.com/watch?v=4XpnKHJAok8&amp;t=90s" target="_blank" rel="noopener">Linus Torvalds on git</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="" srcset="
-               /slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_c2bba156ad5afb82863a8af5e5caa9e4.webp 400w,
-               /slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_4e05231ba2dd2fadfb7bbd4159827624.webp 760w,
-               /slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_1200x1200_fit_q80_h2_lanczos_3.webp 1200w"
-               src="/slides/git/linus_hu59fe323ac78cc0b54098a97d35150f04_69797_c2bba156ad5afb82863a8af5e5caa9e4.webp"
-               width="320"
-               height="216"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
+<figure><img src="/slides/git/linus.png">
+</figure>
 </p>
 
     </section>
@@ -175,35 +141,8 @@
 <p><span class="menu-title" style="display: none">Git is alive</span></p>
 <h2 id="december-12-2022">December 12, 2022</h2>
 <p><a href="https://github.blog/2022-12-12-highlights-from-git-2-39/" target="_blank" rel="noopener">Git is alive and actively developed</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="" srcset="
-               /slides/git/git239_hu5c8e85710e339ea459e5affd104717cb_12776_95b1397f195907d2cbdbc4844ee28344.webp 400w,
-               /slides/git/git239_hu5c8e85710e339ea459e5affd104717cb_12776_cfe60e752c2b6b99749feb0ae38f41ec.webp 760w,
-               /slides/git/git239_hu5c8e85710e339ea459e5affd104717cb_12776_1200x1200_fit_q80_h2_lanczos_2.webp 1200w"
-               src="/slides/git/git239_hu5c8e85710e339ea459e5affd104717cb_12776_95b1397f195907d2cbdbc4844ee28344.webp"
-               width="50%"
-               height="50%"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
+<figure><img src="/slides/git/git239.webp" width="50%" height="50%">
+</figure>
 </p>
 <p><a href="https://git-scm.com/" target="_blank" rel="noopener">Git Official site</a></p>
 
@@ -213,46 +152,14 @@
     
     
     
+    <section>
+    
       
-
-<section data-noprocess data-shortcode-slide
-  
-      
-      data-background-color="#0d142c"
-  >
-
 <p><span class="menu-title" style="display: none">SO Survey 2021</span></p>
 <h3 id="stack-overflow-developer-survey-2021">Stack Overflow Developer Survey 2021</h3>
 <p><a href="https://insights.stackoverflow.com/survey/2021#most-popular-technologies-tools-tech" target="_blank" rel="noopener">Over 90% of respondents use Git, suggesting that it is a fundamental tool to being a developer.</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="" srcset="
-               /slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_796a5d83ecd6ca27d2710ffa45bd574d.webp 400w,
-               /slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_019cfd3a8409fa3e171773c90050e5b3.webp 760w,
-               /slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_1200x1200_fit_q80_h2_lanczos_3.webp 1200w"
-               src="/slides/git/so2021_hue28af7c1fdaa9ab76ef317e6426f05b4_75761_796a5d83ecd6ca27d2710ffa45bd574d.webp"
-               width="648"
-               height="760"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
+<figure><img src="/slides/git/so2021.png">
+</figure>
 
 
     </section>
@@ -261,46 +168,14 @@
     
     
     
+    <section>
+    
       
-
-<section data-noprocess data-shortcode-slide
-  
-      
-      data-background-color="#232745"
-  >
-
 <p><span class="menu-title" style="display: none">SO Survey 2022</span></p>
 <h3 id="stack-overflow-developer-survey-2022">Stack Overflow Developer Survey 2022</h3>
 <p><a href="https://survey.stackoverflow.co/2022/#section-version-control-version-control-systems" target="_blank" rel="noopener">No other technology is as widely used as Git. Especially among Professional Developers.</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="" srcset="
-               /slides/git/so2022_hu84a21014762d3e2fb603bed89afbb34c_18783_eb80f454c6bc68e0d4b9933431e85bb6.webp 400w,
-               /slides/git/so2022_hu84a21014762d3e2fb603bed89afbb34c_18783_14e75c280ba8dd37fbc8dc4af1f075ce.webp 760w,
-               /slides/git/so2022_hu84a21014762d3e2fb603bed89afbb34c_18783_1200x1200_fit_q80_h2_lanczos_3.webp 1200w"
-               src="/slides/git/so2022_hu84a21014762d3e2fb603bed89afbb34c_18783_eb80f454c6bc68e0d4b9933431e85bb6.webp"
-               width="642"
-               height="189"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
+<figure><img src="/slides/git/so2022.png">
+</figure>
 
 <p>Q: What are the primary version control systems you use?</p>
 </section>
@@ -317,22 +192,22 @@
 <section>
 <h1 id="glossary">Glossary</h1>
 <table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Working directory - repo</strong></td>
-<td>the working directory is the folder on your system that you want to track. Where you develop your project. Everything git related is inside the <code>.git</code> folder. Serverless.</td>
-</tr>
-<tr>
-<td>Remote repository</td>
-<td>Remote repositories are versions of your project that are hosted elsewhere. You can have several of them, each one is either RO or RW for you.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Working directory - repo</strong></td>
+          <td>the working directory is the folder on your system that you want to track. Where you develop your project. Everything git related is inside the <code>.git</code> folder. Serverless.</td>
+      </tr>
+      <tr>
+          <td>Remote repository</td>
+          <td>Remote repositories are versions of your project that are hosted elsewhere. You can have several of them, each one is either RO or RW for you.</td>
+      </tr>
+  </tbody>
 </table>
 
     </section>
@@ -345,30 +220,30 @@
     
       
 <table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Git files</strong></td>
-<td>Inside the working directory and beneath, you might find some git related files</td>
-</tr>
-<tr>
-<td><strong>.gitattributes</strong></td>
-<td>how to handle files</td>
-</tr>
-<tr>
-<td><strong>.gitignore</strong></td>
-<td>what to ignore</td>
-</tr>
-<tr>
-<td><strong>.gitkeep</strong></td>
-<td>keep an empty dir</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Git files</strong></td>
+          <td>Inside the working directory and beneath, you might find some git related files</td>
+      </tr>
+      <tr>
+          <td><strong>.gitattributes</strong></td>
+          <td>how to handle files</td>
+      </tr>
+      <tr>
+          <td><strong>.gitignore</strong></td>
+          <td>what to ignore</td>
+      </tr>
+      <tr>
+          <td><strong>.gitkeep</strong></td>
+          <td>keep an empty dir</td>
+      </tr>
+  </tbody>
 </table>
 
     </section>
@@ -385,12 +260,10 @@
 <dd>Tracked files are the files in the working directory (repository) that Git manages.</dd>
 </dl>
 <p>.</p>
-<span class="fragment " >
-  <dl>
-<dt><strong>The Staging Area</strong></dt>
+<dl>
+<dt><em>The Staging Area</em>*</dt>
 <dd>The intermediary between the working directory and the project history.</dd>
 </dl>
-</span>
 
     </section>
     
@@ -406,12 +279,10 @@
 <dd>Commit is the process of adding any changes in tracked files. Git will keep track of all the changes in the <strong>Committed History</strong>.</dd>
 </dl>
 <p>.</p>
-<span class="fragment " >
-  <dl>
-<dt><strong>Commit message</strong></dt>
+<dl>
+<dt><em>Commit message</em>*</dt>
 <dd>The commit message is a summary and description of a commit action.</dd>
 </dl>
-</span>
 
     </section>
     
@@ -427,12 +298,10 @@
 <dd>A branch is a set of the repo tracked files. Git allows you to compare and merge branches. It can also be used to organize collaboration inside the repo, fix specific bugs, or create new features.</dd>
 </dl>
 <p>.</p>
-<span class="fragment " >
-  <dl>
-<dt><strong>Merge</strong></dt>
+<dl>
+<dt><em>Merge</em>*</dt>
 <dd>Copy code changes from one branch to another.</dd>
 </dl>
-</span>
 
     </section>
     
@@ -449,12 +318,10 @@
 <dd>You clone a public repo, make changes and contribute back with a PR.</dd>
 </dl>
 <p>.</p>
-<span class="fragment " >
-  <dl>
-<dt><strong>Pull/Merge request (PR)</strong></dt>
+<dl>
+<dt><em>Pull/Merge request (PR)</em>*</dt>
 <dd>A PR is a request to the repository owner to merge your changes back into the original code base.</dd>
 </dl>
-</span>
 </section>
 
     </section>
@@ -494,29 +361,16 @@
 </span></span></span><span class="line"><span class="cl"><span class="go"> 1 file changed, 1 insertion(+)
 </span></span></span><span class="line"><span class="cl"><span class="go"> create mode 100644 new-file
 </span></span></span></code></pre></div><p>every commit is unique, it contains:</p>
-<span class="fragment " >
-  a snapshot of the project (a tree with a compressed blob for each file),
-</span>
-<span class="fragment " >
-  user information,
-</span><span class="fragment " >
-  date,
-</span>
-<span class="fragment " >
-  commit message,
-</span><span class="fragment " >
-  SHA-1 checksum.
-</span>
-<span class="fragment " >
-  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git log
+<p>snapshot of the project (a tree with a compressed blob for each file),
+ser information,ate,
+ommit message,HA-1 checksum.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git log
 </span></span><span class="line"><span class="cl"><span class="go">commit 81752cd6a514fd2595c40f27c783d6887f84e6e6
 </span></span></span><span class="line"><span class="cl"><span class="go">Author: John Smith &lt;john@example.com&gt;
 </span></span></span><span class="line"><span class="cl"><span class="go">Date:   Thu Apr 7 15:17:45 2022 +0000
 </span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
 </span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">    Initial commit
-</span></span></span></code></pre></div>
-</span>
-</section>
+</span></span></span></code></pre></div></section>
 
     </section>
     
@@ -591,45 +445,13 @@
     
     
     
+    <section>
+    
       
-
-<section data-noprocess data-shortcode-slide
-  
-      
-      data-background-color="#fff"
-  >
-
 <h2 id="a-successful-git-branching-model">A successful Git branching model</h2>
 <p><a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank" rel="noopener">By Vincent Driessen</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="" srcset="
-               /slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_16cbad046f3a62639864713f143b9e2c.webp 400w,
-               /slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_6ee67de1562f6ead1214f6453fea969a.webp 760w,
-               /slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_1200x1200_fit_q80_h2_lanczos_3.webp 1200w"
-               src="/slides/git/git-model_hu2abe16d33a30cb6e0c9ea98da73c9465_124925_16cbad046f3a62639864713f143b9e2c.webp"
-               width="50%"
-               height="50%"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
+<figure><img src="/slides/git/git-model.png" width="50%" height="50%">
+</figure>
 
 
     </section>
@@ -638,40 +460,13 @@
     
     
     
+    <section>
+    
       
-
-<section data-noprocess data-shortcode-slide
-  
-      
-      data-background-color="#fff"
-  >
-
 <h2 id="gitflow-workflow">Gitflow Workflow</h2>
 <p><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Atlassian Tutorial</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt=""
-           src="/slides/git/branches.svg"
-           loading="lazy" data-zoomable width="50%" height="50%" /></div>
-  </div></figure>
+<figure><img src="/slides/git/branches.svg" width="50%" height="50%">
+</figure>
 
 
     </section>
@@ -756,12 +551,10 @@
 </span></span><span class="line"><span class="cl">git clone repo
 </span></span><span class="line"><span class="cl">cat README.md
 </span></span><span class="line"><span class="cl">  &gt; follow the instructions
-</span></span></code></pre></div><span class="fragment " >
-  <ul>
+</span></span></code></pre></div><ul>
 <li>Use <a href="https://www.docker.com/" target="_blank" rel="noopener">Docker</a> for dev &amp; production</li>
 <li>Use <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" target="_blank" rel="noopener">GitHub Markdown</a> for writing</li>
 </ul>
-</span>
 
     </section>
     
@@ -769,15 +562,10 @@
     
     
     
+    <section>
+    
       
 <p>
-<section data-noprocess data-shortcode-slide
-  
-      
-      data-background-color="#fff"
-  >
-
-
 
 
 
@@ -794,7 +582,7 @@
 
 
 <figure  >
-  <div class="d-flex justify-content-center">
+  <div class="flex justify-center	">
     <div class="w-100" ><img alt="in case of fire"
            src="/slides/git/in_case_of_fire.svg"
            loading="lazy" data-zoomable /></div>
@@ -1064,28 +852,8 @@ to another repository</dd>
 <section>
 <h1 id="books">Books</h1>
 <p><a href="https://git-scm.com/book" target="_blank" rel="noopener">Pro Git</a> by Scott Chacon and Ben Straub
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://git-scm.com/images/progit2.png" alt="" loading="lazy" data-zoomable width="200" /></div>
-  </div></figure>
+<figure><img src="https://git-scm.com/images/progit2.png" width="200">
+</figure>
 </p>
 
     </section>
@@ -1098,28 +866,8 @@ to another repository</dd>
     
       
 <p><a href="https://www.syncfusion.com/succinctly-free-ebooks/git/overview" target="_blank" rel="noopener">Git Succinctly</a> by Ryan Hodson
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="https://cdn.syncfusion.com/content/images/downloads/ebook/ebook-cover/Git-Succinctly.jpg" alt="" loading="lazy" data-zoomable width="200" /></div>
-  </div></figure>
+<figure><img src="https://cdn.syncfusion.com/content/images/downloads/ebook/ebook-cover/Git-Succinctly.jpg" width="200">
+</figure>
 </p>
 
     </section>
@@ -1189,12 +937,12 @@ to another repository</dd>
 
 
   
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/search/search.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/math/math.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
 
   
   

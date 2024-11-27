@@ -1,6 +1,5 @@
 # Netlify redirects
 # Automatically generated
 # Documentation: https://docs.netlify.com/routing/redirects/
-/projects/research /project/research_projects/
-/papers /publication/
 /space8/ /project/space8/
+/projects/research /project/research_projects/

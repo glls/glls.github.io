@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   
   
@@ -10,21 +10,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Hugo Blox Builder 5.9.7">
+  <meta name="generator" content="Hugo Blox Builder 0.3.1">
 
   
-    <link rel="manifest" href="/manifest.webmanifest">
-  
 
-  <link rel="icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_32x32_fill_lanczos_center_3.png">
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hudd78b5bc2e9f708bbbb3651dc62e55b2_16066_192x192_fill_lanczos_center_3.png">
+  <link rel="icon" type="image/png" href="/media/icon_hu5672062731482351860.png">
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu7848504564431991926.png">
 
-  <link rel="canonical" href="http://localhost:1313/slides/example/">
+  <link rel="canonical" href="https://georgelitos.com/slides/example/">
 
   <title>Slides | George Litos</title>
 
   
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/black.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/black.min.css">
 
   
   
@@ -131,74 +129,9 @@
 <h2 id="math">Math</h2>
 <p>In-line math: $x + y = z$</p>
 <p>Block math:</p>
-<p>$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="fragments">Fragments</h2>
-<p>Make content appear incrementally</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{% fragment %}} One {{% /fragment %}}
-</span></span><span class="line"><span class="cl">{{% fragment %}} **Two** {{% /fragment %}}
-</span></span><span class="line"><span class="cl">{{% fragment %}} Three {{% /fragment %}}
-</span></span></code></pre></div><p>Press <code>Space</code> to play!</p>
-<span class="fragment " >
-  One
-</span>
-<span class="fragment " >
-  <strong>Two</strong>
-</span>
-<span class="fragment " >
-  Three
-</span>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<p>A fragment can accept two optional parameters:</p>
-<ul>
-<li><code>class</code>: use a custom style (requires definition in custom CSS)</li>
-<li><code>weight</code>: sets the order in which a fragment appears</li>
-</ul>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="speaker-notes">Speaker Notes</h2>
-<p>Add speaker notes to your presentation</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{% speaker_note %}}
-</span></span><span class="line"><span class="cl"><span class="k">-</span> Only the speaker can read these notes
-</span></span><span class="line"><span class="cl"><span class="k">-</span> Press <span class="sb">`S`</span> key to view
-</span></span><span class="line"><span class="cl">{{% /speaker_note %}}
-</span></span></code></pre></div><p>Press the <code>S</code> key to view the speaker notes!</p>
-<aside class="notes">
-  <ul>
-<li>Only the speaker can read these notes</li>
-<li>Press <code>S</code> key to view</li>
-</ul>
-
-</aside>
-
+$$
+f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$
     </section>
     
 
@@ -233,26 +166,6 @@ $$</p>
 <li>solarized: Cream-colored background, dark green text, blue links</li>
 </ul>
 
-    </section>
-    
-
-    
-    
-    
-      
-
-<section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image="/img/boards.jpg"
-  >
-
-<h2 id="custom-slide">Custom Slide</h2>
-<p>Customize the slide style and background</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">slide</span> <span class="na">background-image</span><span class="o">=</span><span class="s">&#34;/img/boards.jpg&#34;</span> <span class="p">&gt;</span>}}
-</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">slide</span> <span class="na">background-color</span><span class="o">=</span><span class="s">&#34;#0000FF&#34;</span> <span class="p">&gt;</span>}}
-</span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">slide</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;my-style&#34;</span> <span class="p">&gt;</span>}}
-</span></span></code></pre></div>
     </section>
     
 
@@ -295,12 +208,12 @@ $$</p>
 
 
   
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/search/search.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/math/math.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
 
   
   

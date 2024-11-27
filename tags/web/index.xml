@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web | George Litos</title>
+    <link>https://georgelitos.com/tags/web/</link>
+      <atom:link href="https://georgelitos.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <description>Web</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 May 2024 23:34:00 +0300</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hu2521745571622303128.png</url>
+      <title>Web</title>
+      <link>https://georgelitos.com/tags/web/</link>
+    </image>
+    
+    <item>
+      <title>Benchmarking API Frameworks</title>
+      <link>https://georgelitos.com/project/benchmark-api/</link>
+      <pubDate>Mon, 20 May 2024 23:34:00 +0300</pubDate>
+      <guid>https://georgelitos.com/project/benchmark-api/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision | George Litos</title>
+    <link>https://georgelitos.com/categories/computer-vision/</link>
+      <atom:link href="https://georgelitos.com/categories/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Vision</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Apr 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hu2521745571622303128.png</url>
+      <title>Computer Vision</title>
+      <link>https://georgelitos.com/categories/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</title>
+      <link>https://georgelitos.com/publication/3d-object-retrieval/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://georgelitos.com/publication/3d-object-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SHREC’11 Track: Generic Shape Retrieval</title>
+      <link>https://georgelitos.com/publication/shrec/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://georgelitos.com/publication/shrec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</title>
+      <link>https://georgelitos.com/publication/3d-model-retrieval/</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>https://georgelitos.com/publication/3d-model-retrieval/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
