@@ -115,8 +115,8 @@ the amount of load that can be generated.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;code&gt;iperf3&lt;/code&gt; is a powerful tool that can be used to benchmark the performance of local network computers. It allows you to measure the bandwidth and latency of a network connection between two devices. This can be useful for identifying bottlenecks and troubleshooting network issues.&lt;/p&gt;
 &lt;p&gt;To use &lt;code&gt;iperf3&lt;/code&gt;, you will need to have it installed on both the client and server computers. Once installed, you can run the following commands to start the benchmarking process.&lt;/p&gt;
-&lt;p&gt;On the server computer, open a command prompt and type &amp;ldquo;iperf3 -s&amp;rdquo;. This will start the &lt;code&gt;iperf3&lt;/code&gt; server and listen for incoming connections.&lt;/p&gt;
-&lt;p&gt;On the client computer, open a command prompt and type &amp;ldquo;iperf3 -c [server IP]&amp;rdquo;. Replace [server IP] with the IP address of the server computer. This will connect the client to the server and begin the benchmarking process.&lt;/p&gt;
+&lt;p&gt;On the server computer, open a command prompt and type &lt;code&gt;iperf3 -s&lt;/code&gt;. This will start the &lt;code&gt;iperf3&lt;/code&gt; server and listen for incoming connections.&lt;/p&gt;
+&lt;p&gt;On the client computer, open a command prompt and type &lt;code&gt;iperf3 -c [server IP]&lt;/code&gt;. Replace [server IP] with the IP address of the server computer. This will connect the client to the server and begin the benchmarking process.&lt;/p&gt;
 &lt;p&gt;By default, &lt;code&gt;iperf3&lt;/code&gt; will perform a test for 10 seconds and provide the results in a summary. However, you can specify a longer test duration or change other settings using command line options. For example, you can use the -t option to specify the test duration in seconds, and the -w option to specify the TCP window size.&lt;/p&gt;
 &lt;p&gt;Once the test is complete, you will see the results displayed on the client computer. These results will include the bandwidth and latency of the connection, as well as any errors that occurred during the test.&lt;/p&gt;
 &lt;p&gt;In addition to the basic test, &lt;code&gt;iperf3&lt;/code&gt; also supports various advanced options such as parallel streams, bidirectional tests, and more. It is a great tool for network administrators and developers to check the performance of their network.&lt;/p&gt;
@@ -227,7 +227,8 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec   765 MBytes   642 Mbits/sec                  receiver
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Desktop PC (B660 GAMING X, i9-12900K) with Windows 11 Pro, testing the internal Realtek Gaming 2.5GbE LAN&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;desktop-pc&#34;&gt;Desktop PC&lt;/h4&gt;
+&lt;p&gt;B660 GAMING X, i9-12900K with Windows 11 Pro, testing the internal Realtek Gaming 2.5GbE LAN&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4] local 192.168.3.13 port 54137 connected to 192.168.3.2 port 5201
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bandwidth
