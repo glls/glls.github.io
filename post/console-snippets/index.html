@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: December 4, 2024 --><html lang="en-us" dir="ltr"
+<!-- Last Published: December 18, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head>
@@ -1695,7 +1695,7 @@ Here are some generic snippets to get you started:</p>
 <p>These are just a few examples. Explore the web for more advanced one-liners using tools like <code>grep</code>, <code>awk</code>, and <code>sed</code> for powerful text manipulation.</p>
 <h2 id="specific-snippets">Specific snippets</h2>
 <p>Find and delete <code>.DS_Store</code> files:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="sb">`</span>find -type f -iname  .DS_Store -exec rm  <span class="o">{}</span> <span class="se">\;</span> <span class="sb">`</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">find . -type f -iname .DS_Store -exec rm -i <span class="o">{}</span> <span class="se">\;</span>
 </span></span></code></pre></div><p>Resize <a href="https://wiki.archlinux.org/title/tmpfs" target="_blank" rel="noopener">tmpfs</a> partition</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">mount -o remount,size<span class="o">=</span>4G,noatime /tmp
 </span></span></code></pre></div><p>Fix <code>TMPDIR=/tmp cannot hold executables</code> (partition possibly mounted with noexec)</p>
@@ -1708,7 +1708,7 @@ Here are some generic snippets to get you started:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">xrandr --output eDP --brightness 0.6
 </span></span></code></pre></div><p>Turn keyboard <code>Scroll Lock</code> on</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">xset led named <span class="s2">&#34;Scroll Lock&#34;</span> on
-</span></span></code></pre></div><p>Update all git repositories under a folder recursively</p>
+</span></span></code></pre></div><p>Update all git repositories under a folder, recursively</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">find . -mindepth <span class="m">1</span> -maxdepth <span class="m">1</span> -type d -exec git  --git-dir<span class="o">={}</span>/.git --work-tree<span class="o">=</span><span class="nv">$PWD</span>/<span class="o">{}</span> pull <span class="se">\;</span> 
 </span></span></code></pre></div><h2 id="miscellaneous-tips">Miscellaneous tips</h2>
 <p>For the best terminal filemanager check the post:<br>
