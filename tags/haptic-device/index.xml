@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Haptic Device | George Litos</title>
-    <link>https://georgelitos.com/tags/haptic-device/</link>
-      <atom:link href="https://georgelitos.com/tags/haptic-device/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/haptic-device/</link>
+      <atom:link href="http://localhost:1313/tags/haptic-device/index.xml" rel="self" type="application/rss+xml" />
     <description>Haptic Device</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2006 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu2521745571622303128.png</url>
+      <url>http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Haptic Device</title>
-      <link>https://georgelitos.com/tags/haptic-device/</link>
+      <link>http://localhost:1313/tags/haptic-device/</link>
     </image>
     
     <item>
       <title>User Interface Environment and Image Communication in Mobile Tele-Echography</title>
-      <link>https://georgelitos.com/publication/mobile-tele-echography/</link>
+      <link>http://localhost:1313/publication/mobile-tele-echography/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://georgelitos.com/publication/mobile-tele-echography/</guid>
+      <guid>http://localhost:1313/publication/mobile-tele-echography/</guid>
       <description></description>
     </item>
     

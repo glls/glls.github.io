@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network | George Litos</title>
-    <link>https://georgelitos.com/tags/network/</link>
-      <atom:link href="https://georgelitos.com/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/network/</link>
+      <atom:link href="http://localhost:1313/tags/network/index.xml" rel="self" type="application/rss+xml" />
     <description>Network</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Sep 2023 18:00:00 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu2521745571622303128.png</url>
+      <url>http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Network</title>
-      <link>https://georgelitos.com/tags/network/</link>
+      <link>http://localhost:1313/tags/network/</link>
     </image>
     
     <item>
       <title>The correct way to benchmark your web server</title>
-      <link>https://georgelitos.com/post/benchmark-webserver/</link>
+      <link>http://localhost:1313/post/benchmark-webserver/</link>
       <pubDate>Sun, 10 Sep 2023 18:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/benchmark-webserver/</guid>
+      <guid>http://localhost:1313/post/benchmark-webserver/</guid>
       <description>&lt;p&gt;Keeping your web server running smoothly is crucial for a positive user experience. But how do you know it can handle the traffic you expect? Benchmarking is the answer! It allows you to simulate real-world load and measure your server&amp;rsquo;s performance. This post will guide you through using &lt;code&gt;wrk&lt;/code&gt;, a powerful tool for benchmarking your web server.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;wrk&lt;/code&gt; is a fast, user-friendly HTTP benchmarking tool. It&amp;rsquo;s lightweight and easy to install. Once you have wrk set up, you can start crafting your benchmark test. &lt;code&gt;wrk&lt;/code&gt; offers various options to configure your test precisely. You can define the number of threads to simulate concurrent users, the number of connections per thread, and the test duration. &lt;code&gt;wrk&lt;/code&gt; also allows you to specify headers to be sent with each request, mimicking real user behavior.&lt;/p&gt;
 &lt;p&gt;Running a &lt;code&gt;wrk&lt;/code&gt; test is straightforward. You provide the URL you want to benchmark along with the desired configuration options. Wrks then bombards your server with simulated traffic, measuring critical metrics like request latency, throughput, and overall system health. After the test concludes, &lt;code&gt;wrk&lt;/code&gt; presents a detailed report. This report showcases valuable data points like average request time, request rate, and connection errors. Analyzing this data helps you identify bottlenecks and areas for improvement in your web server&amp;rsquo;s performance.&lt;/p&gt;
@@ -60,8 +60,7 @@ building a new HTTP request, and use of response() will necessarily reduce
 the amount of load that can be generated.&lt;/p&gt;
 &lt;h2 id=&#34;showtime-&#34;&gt;Showtime 🚀&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Write a program that can serve a list of 100 albums with a REST like interface (JSON) and measure the performance with wrk&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Write a program that can serve a list of 100 albums with a REST like interface (JSON) and measure the performance with wrk&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Here&amp;rsquo;s the project in GitHub with full source code and implementations in more than 8 languages: &lt;a href=&#34;https://github.com/glls/web-service-albums-benchmark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;web-service-albums-benchmark&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;And the results:&lt;/p&gt;
 &lt;p&gt;
@@ -91,9 +90,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>The correct way to benchmark your network</title>
-      <link>https://georgelitos.com/post/benchmark-network/</link>
+      <link>http://localhost:1313/post/benchmark-network/</link>
       <pubDate>Sun, 14 Aug 2022 18:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/benchmark-network/</guid>
+      <guid>http://localhost:1313/post/benchmark-network/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Ever tried to measure the network speed between two computers?&lt;/li&gt;
 &lt;li&gt;Do you want to know how fast your local network is?&lt;/li&gt;
@@ -103,8 +102,7 @@ the amount of load that can be generated.&lt;/p&gt;
 &lt;p&gt;You can do all of the above, and more, with &lt;a href=&#34;https://software.es.net/iperf/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iperf3&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As the devolpers state at the official website :&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The iperf series of tools perform active measurements to determine the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the measured throughput, loss, and other parameters.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;The iperf series of tools perform active measurements to determine the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the measured throughput, loss, and other parameters.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;code&gt;iperf3&lt;/code&gt; is a powerful tool that can be used to benchmark the performance of local network computers. It allows you to measure the bandwidth and latency of a network connection between two devices. This can be useful for identifying bottlenecks and troubleshooting network issues.&lt;/p&gt;
 &lt;p&gt;To use &lt;code&gt;iperf3&lt;/code&gt;, you will need to have it installed on both the client and server computers. Once installed, you can run the following commands to start the benchmarking process.&lt;/p&gt;
 &lt;p&gt;On the server computer, open a command prompt and type &lt;code&gt;iperf3 -s&lt;/code&gt;. This will start the &lt;code&gt;iperf3&lt;/code&gt; server and listen for incoming connections.&lt;/p&gt;
@@ -242,8 +240,7 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This article is a work in progress. More tests and graphs will follow soon™️ 😊&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;For more info check the host tuning guides at the &lt;a href=&#34;https://fasterdata.es.net/host-tuning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Energy Sciences Network&lt;/a&gt; website.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;For more info check the host tuning guides at the &lt;a href=&#34;https://fasterdata.es.net/host-tuning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Energy Sciences Network&lt;/a&gt; website.&lt;/p&gt;&lt;/blockquote&gt;
 </description>
     </item>
     

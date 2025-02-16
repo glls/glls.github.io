@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source | George Litos</title>
-    <link>https://georgelitos.com/tags/open-source/</link>
-      <atom:link href="https://georgelitos.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/open-source/</link>
+      <atom:link href="http://localhost:1313/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <description>Open Source</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Jun 2023 09:18:07 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu2521745571622303128.png</url>
+      <url>http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Open Source</title>
-      <link>https://georgelitos.com/tags/open-source/</link>
+      <link>http://localhost:1313/tags/open-source/</link>
     </image>
     
     <item>
       <title>MC: a commander like no other</title>
-      <link>https://georgelitos.com/post/mc/</link>
+      <link>http://localhost:1313/post/mc/</link>
       <pubDate>Mon, 05 Jun 2023 09:18:07 +0300</pubDate>
-      <guid>https://georgelitos.com/post/mc/</guid>
+      <guid>http://localhost:1313/post/mc/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander™. It also takes the best from more recent software with similar interfaces. Many years ago, we used file-managers like these, as &amp;ldquo;Norton Commander&amp;rdquo; in DOS, or the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, which is still alive in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;dual-pane-interface-for-seamless-file-management&#34;&gt;Dual-Pane Interface for Seamless File Management&lt;/h2&gt;
@@ -92,9 +92,9 @@ The features include:&lt;/p&gt;
     
     <item>
       <title>Scrcpy: Display and control your Android device</title>
-      <link>https://georgelitos.com/post/scrcpy/</link>
+      <link>http://localhost:1313/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/scrcpy/</guid>
+      <guid>http://localhost:1313/post/scrcpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
 This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
@@ -140,10 +140,10 @@ This application mirrors Android devices (video and audio) connected via USB or 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Running scrcpy&#34; srcset=&#34;
-               /post/scrcpy/image1_hu487150224080691871.webp 400w,
-               /post/scrcpy/image1_hu2878186598995889930.webp 760w,
-               /post/scrcpy/image1_hu15044790351114843352.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu487150224080691871.webp&#34;
+               /post/scrcpy/image1_hu_b95819f2c1ca654f.webp 400w,
+               /post/scrcpy/image1_hu_ef3f3e3e90ad76f2.webp 760w,
+               /post/scrcpy/image1_hu_514e3c92a0522802.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/scrcpy/image1_hu_b95819f2c1ca654f.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -155,9 +155,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Buku: a powerful bookmark manager</title>
-      <link>https://georgelitos.com/post/buku/</link>
+      <link>http://localhost:1313/post/buku/</link>
       <pubDate>Sat, 18 Mar 2023 20:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/buku/</guid>
+      <guid>http://localhost:1313/post/buku/</guid>
       <description>&lt;p&gt;Are you tired of losing track of your bookmarks across multiple browsers? Look no further than Buku, the powerful bookmark manager that imports bookmarks from all your browsers, works on console and has a web-based server.&lt;/p&gt;
 &lt;p&gt;With Buku, you can easily organize your bookmarks into categories and tags, making it easy to find exactly what you need. Plus, Buku&amp;rsquo;s powerful search feature allows you to quickly locate any bookmark in your collection.&lt;/p&gt;
 &lt;p&gt;One of the most unique features of Buku is its powerful console interface:&lt;/p&gt;
@@ -183,10 +183,10 @@ This application mirrors Android devices (video and audio) connected via USB or 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screenshot&#34; srcset=&#34;
-               /post/buku/screenshot-buku_hu2143474213692451129.webp 400w,
-               /post/buku/screenshot-buku_hu1043252270755566349.webp 760w,
-               /post/buku/screenshot-buku_hu11926106998951322846.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hu2143474213692451129.webp&#34;
+               /post/buku/screenshot-buku_hu_b4166048b3ae19d9.webp 400w,
+               /post/buku/screenshot-buku_hu_4d09422de59ae610.webp 760w,
+               /post/buku/screenshot-buku_hu_459c79990b69a219.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/buku/screenshot-buku_hu_b4166048b3ae19d9.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -199,9 +199,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Breaking the Barrier</title>
-      <link>https://georgelitos.com/post/barrier/</link>
+      <link>http://localhost:1313/post/barrier/</link>
       <pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/barrier/</guid>
+      <guid>http://localhost:1313/post/barrier/</guid>
       <description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;
 &lt;p&gt;
 
@@ -227,12 +227,10 @@ This application mirrors Android devices (video and audio) connected via USB or 
 &lt;p&gt;Barrier also supports the use of multiple monitors, allowing users to move their cursor seamlessly between different screens.The software is designed to be simple, easy to use, and highly configurable. Barrier is available for many operating systems and can be downloaded from &lt;a href=&#34;https://github.com/debauchee/barrier&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;A little bit of history:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Barrier was created as a fork of Synergy due to certain limitations and issues that the developer of Barrier, Debauchee, experienced while using Synergy. Due to these limitations and issues, Debauchee decided to create a fork of Synergy, called Barrier, with the goal of addressing these issues and providing a more stable, customizable, and actively developed alternative to Synergy. Some of the features that Barrier added that Synergy didn&amp;rsquo;t have at the time like multi-monitor support, encryption, and improved cursor handling. Since then, Barrier has continued to be developed and maintained, with new features and improvements being added on a regular basis. It is also actively supported by its developer community, which aims to provide a stable, customizable and actively developed KVM solution for those who need it.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Barrier was created as a fork of Synergy due to certain limitations and issues that the developer of Barrier, Debauchee, experienced while using Synergy. Due to these limitations and issues, Debauchee decided to create a fork of Synergy, called Barrier, with the goal of addressing these issues and providing a more stable, customizable, and actively developed alternative to Synergy. Some of the features that Barrier added that Synergy didn&amp;rsquo;t have at the time like multi-monitor support, encryption, and improved cursor handling. Since then, Barrier has continued to be developed and maintained, with new features and improvements being added on a regular basis. It is also actively supported by its developer community, which aims to provide a stable, customizable and actively developed KVM solution for those who need it.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;I was an early user and even an Early Adopter of Synergy but was disappointed by the changes and bugs in version 3, then I switched to Barrier and never looked back.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://www.raspberrypi.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Raspberry Pi&lt;/a&gt; website praised Barrier with &lt;a href=&#34;https://www.raspberrypi.com/news/share-your-keyboard-and-mouse-between-computers-with-barrier/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a nice article and a video guide&lt;/a&gt;.&lt;/p&gt;
-
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/-G9IIauHOhA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -243,9 +241,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Free your notes with Joplin</title>
-      <link>https://georgelitos.com/post/joplin/</link>
+      <link>http://localhost:1313/post/joplin/</link>
       <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/joplin/</guid>
+      <guid>http://localhost:1313/post/joplin/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
 &lt;p&gt;
 

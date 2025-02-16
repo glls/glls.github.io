@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Image | George Litos</title>
-    <link>https://georgelitos.com/tags/image/</link>
-      <atom:link href="https://georgelitos.com/tags/image/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/image/</link>
+      <atom:link href="http://localhost:1313/tags/image/index.xml" rel="self" type="application/rss+xml" />
     <description>Image</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Mar 2024 02:40:22 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu2521745571622303128.png</url>
+      <url>http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Image</title>
-      <link>https://georgelitos.com/tags/image/</link>
+      <link>http://localhost:1313/tags/image/</link>
     </image>
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
+      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
       <description>
 
 
@@ -57,8 +57,7 @@
 &lt;h2 id=&#34;image-manipulation&#34;&gt;Image Manipulation&lt;/h2&gt;
 &lt;p&gt;Here are some examples of how to manipulate images with ImageMagick&amp;rsquo;s tools, as always there are tons of options available, so make sure to check the &lt;a href=&#34;https://imagemagick.org/script/convert.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official documentation&lt;/a&gt; for more details.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;TIP: parameter order matters a lot in ImageMagick&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;TIP: parameter order matters a lot in ImageMagick&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;resize-images&#34;&gt;Resize Images&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;magick input.png -resize 100x200 output.jpg
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# or&lt;/span&gt;

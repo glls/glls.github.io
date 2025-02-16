@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synology | George Litos</title>
+    <link>http://localhost:1313/tags/synology/</link>
+      <atom:link href="http://localhost:1313/tags/synology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Synology</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Dec 2023 12:33:30 +0300</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <title>Synology</title>
+      <link>http://localhost:1313/tags/synology/</link>
+    </image>
+    
+    <item>
+      <title>Time Machine Backup on NAS</title>
+      <link>http://localhost:1313/post/timemachine-backup/</link>
+      <pubDate>Tue, 12 Dec 2023 12:33:30 +0300</pubDate>
+      <guid>http://localhost:1313/post/timemachine-backup/</guid>
+      <description>&lt;p&gt;Why backup?&lt;/p&gt;
+&lt;p&gt;What is timemachine&lt;/p&gt;
+&lt;p&gt;failed attempt with UNRAID&lt;/p&gt;
+&lt;p&gt;successful attempt with Synology&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Running Time Machine&amp;rsquo;s First backup&#34; srcset=&#34;
+               /post/timemachine-backup/tm_hu_7e91ab2a39b4ca49.webp 400w,
+               /post/timemachine-backup/tm_hu_438682bc879226b9.webp 760w,
+               /post/timemachine-backup/tm_hu_839f5f8192e76a52.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/timemachine-backup/tm_hu_7e91ab2a39b4ca49.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;444&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

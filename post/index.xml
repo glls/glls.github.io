@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | George Litos</title>
-    <link>https://georgelitos.com/post/</link>
-      <atom:link href="https://georgelitos.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/post/</link>
+      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 09 May 2024 10:39:22 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu2521745571622303128.png</url>
+      <url>http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Blog</title>
-      <link>https://georgelitos.com/post/</link>
+      <link>http://localhost:1313/post/</link>
     </image>
     
     <item>
       <title>Wireguard: A Better VPN</title>
-      <link>https://georgelitos.com/post/wireguard/</link>
+      <link>http://localhost:1313/post/wireguard/</link>
       <pubDate>Sat, 27 Apr 2024 18:34:13 +0300</pubDate>
-      <guid>https://georgelitos.com/post/wireguard/</guid>
+      <guid>http://localhost:1313/post/wireguard/</guid>
       <description>&lt;p&gt;Virtual Private Networks &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(VPNs)&lt;/a&gt; are essential tools for protecting your online privacy and security. But traditional VPNs can sometimes be slow and bog down your connection. &lt;a href=&#34;https://www.wireguard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WireGuard&lt;/a&gt; is a new, innovative VPN protocol that offers several advantages over traditional options, it has a cool logo too 😎.&lt;/p&gt;
 &lt;p&gt;WireGuard is much simpler and leaner than older VPN protocols. This means it&amp;rsquo;s faster and more efficient, using fewer resources and providing a smoother online experience. On top of that, WireGuard prioritizes strong security. It utilizes modern cryptographic techniques to keep your data safe and encrypted.&lt;/p&gt;
 &lt;p&gt;WireGuard is also easy to set up and use. It&amp;rsquo;s available on a wide range of platforms, including Linux, macOS, Windows, Android, and iOS. You can quickly configure WireGuard to connect to a VPN server and start protecting your online activities.&lt;/p&gt;
@@ -26,9 +26,9 @@
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
+      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
       <description>
 
 
@@ -69,8 +69,7 @@
 &lt;h2 id=&#34;image-manipulation&#34;&gt;Image Manipulation&lt;/h2&gt;
 &lt;p&gt;Here are some examples of how to manipulate images with ImageMagick&amp;rsquo;s tools, as always there are tons of options available, so make sure to check the &lt;a href=&#34;https://imagemagick.org/script/convert.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official documentation&lt;/a&gt; for more details.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;TIP: parameter order matters a lot in ImageMagick&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;TIP: parameter order matters a lot in ImageMagick&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;resize-images&#34;&gt;Resize Images&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;magick input.png -resize 100x200 output.jpg
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# or&lt;/span&gt;
@@ -128,9 +127,9 @@ To remove the black background from an image, use the following command:&lt;/p&g
     
     <item>
       <title>SSH Cheatsheet</title>
-      <link>https://georgelitos.com/post/ssh-cheatsheet/</link>
+      <link>http://localhost:1313/post/ssh-cheatsheet/</link>
       <pubDate>Mon, 12 Feb 2024 09:03:02 +0300</pubDate>
-      <guid>https://georgelitos.com/post/ssh-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/ssh-cheatsheet/</guid>
       <description>&lt;p&gt;SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&amp;rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations.&lt;/p&gt;
 &lt;h2 id=&#34;connecting-to-a-server&#34;&gt;Connecting to a Server&lt;/h2&gt;
 &lt;p&gt;The basic syntax for connecting to a server with SSH is:&lt;/p&gt;
@@ -248,9 +247,9 @@ To remove the black background from an image, use the following command:&lt;/p&g
     
     <item>
       <title>Console snippets</title>
-      <link>https://georgelitos.com/post/console-snippets/</link>
+      <link>http://localhost:1313/post/console-snippets/</link>
       <pubDate>Mon, 29 Jan 2024 18:30:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/console-snippets/</guid>
+      <guid>http://localhost:1313/post/console-snippets/</guid>
       <description>
 
 
@@ -398,7 +397,7 @@ Here are some generic snippets to get you started:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -mindepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -maxdepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -type d -exec git  --git-dir&lt;span class=&#34;o&#34;&gt;={}&lt;/span&gt;/.git --work-tree&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PWD&lt;/span&gt;/&lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; pull &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;miscellaneous-tips&#34;&gt;Miscellaneous tips&lt;/h2&gt;
 &lt;p&gt;For the best terminal filemanager check the post:&lt;br&gt;
-&lt;a href=&#34;https://georgelitos.com/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://localhost:1313/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Use &lt;code&gt;Ctrl + R&lt;/code&gt; to search through your command history&lt;/p&gt;
 &lt;p&gt;Use &lt;code&gt;Ctrl + C&lt;/code&gt; to cancel a running command&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;tmux&lt;/code&gt; and &lt;code&gt;htop&lt;/code&gt; are great tools for managing terminal sessions and monitoring system resources&lt;/p&gt;
@@ -408,9 +407,9 @@ Here are some generic snippets to get you started:&lt;/p&gt;
     
     <item>
       <title>SQL Cheat Sheet</title>
-      <link>https://georgelitos.com/post/sql-cheatsheet/</link>
+      <link>http://localhost:1313/post/sql-cheatsheet/</link>
       <pubDate>Thu, 16 Nov 2023 19:23:33 +0300</pubDate>
-      <guid>https://georgelitos.com/post/sql-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/sql-cheatsheet/</guid>
       <description>&lt;p&gt;SQL stands for Structured Query Language. It&amp;rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.&lt;/p&gt;
 &lt;p&gt;There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM)&lt;/p&gt;
 &lt;h3 id=&#34;performance&#34;&gt;Performance&lt;/h3&gt;
@@ -571,9 +570,9 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
     
     <item>
       <title>Git Cheatsheet</title>
-      <link>https://georgelitos.com/post/git-cheatsheet/</link>
+      <link>http://localhost:1313/post/git-cheatsheet/</link>
       <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/git-cheatsheet/</guid>
       <description>
 
 
@@ -992,15 +991,15 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;https://georgelitos.com/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;http://localhost:1313/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The correct way to benchmark your web server</title>
-      <link>https://georgelitos.com/post/benchmark-webserver/</link>
+      <link>http://localhost:1313/post/benchmark-webserver/</link>
       <pubDate>Sun, 10 Sep 2023 18:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/benchmark-webserver/</guid>
+      <guid>http://localhost:1313/post/benchmark-webserver/</guid>
       <description>&lt;p&gt;Keeping your web server running smoothly is crucial for a positive user experience. But how do you know it can handle the traffic you expect? Benchmarking is the answer! It allows you to simulate real-world load and measure your server&amp;rsquo;s performance. This post will guide you through using &lt;code&gt;wrk&lt;/code&gt;, a powerful tool for benchmarking your web server.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;wrk&lt;/code&gt; is a fast, user-friendly HTTP benchmarking tool. It&amp;rsquo;s lightweight and easy to install. Once you have wrk set up, you can start crafting your benchmark test. &lt;code&gt;wrk&lt;/code&gt; offers various options to configure your test precisely. You can define the number of threads to simulate concurrent users, the number of connections per thread, and the test duration. &lt;code&gt;wrk&lt;/code&gt; also allows you to specify headers to be sent with each request, mimicking real user behavior.&lt;/p&gt;
 &lt;p&gt;Running a &lt;code&gt;wrk&lt;/code&gt; test is straightforward. You provide the URL you want to benchmark along with the desired configuration options. Wrks then bombards your server with simulated traffic, measuring critical metrics like request latency, throughput, and overall system health. After the test concludes, &lt;code&gt;wrk&lt;/code&gt; presents a detailed report. This report showcases valuable data points like average request time, request rate, and connection errors. Analyzing this data helps you identify bottlenecks and areas for improvement in your web server&amp;rsquo;s performance.&lt;/p&gt;
@@ -1044,8 +1043,7 @@ building a new HTTP request, and use of response() will necessarily reduce
 the amount of load that can be generated.&lt;/p&gt;
 &lt;h2 id=&#34;showtime-&#34;&gt;Showtime 🚀&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Write a program that can serve a list of 100 albums with a REST like interface (JSON) and measure the performance with wrk&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Write a program that can serve a list of 100 albums with a REST like interface (JSON) and measure the performance with wrk&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Here&amp;rsquo;s the project in GitHub with full source code and implementations in more than 8 languages: &lt;a href=&#34;https://github.com/glls/web-service-albums-benchmark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;web-service-albums-benchmark&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;And the results:&lt;/p&gt;
 &lt;p&gt;
@@ -1075,9 +1073,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>React &#43; Next.js with Docker</title>
-      <link>https://georgelitos.com/post/reactjsnext/</link>
+      <link>http://localhost:1313/post/reactjsnext/</link>
       <pubDate>Thu, 10 Aug 2023 22:22:22 +0300</pubDate>
-      <guid>https://georgelitos.com/post/reactjsnext/</guid>
+      <guid>http://localhost:1313/post/reactjsnext/</guid>
       <description>&lt;p&gt;Following my previous post on &lt;a href=&#34;https://georgelitos.com/post/vuejsnuxt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vuejs + Nuxt.js with Docker&lt;/a&gt;, I will show you how to dockerize a React + Next.js web application.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://reactjs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;React&lt;/a&gt; is a JavaScript library for building user interfaces. &lt;a href=&#34;https://nextjs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Next.js&lt;/a&gt; is a framework for building React applications.
 &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; is a containerization platform that can be used to package and deploy these applications.&lt;/p&gt;
@@ -1105,9 +1103,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>Vue.js &#43; Nuxt with Docker</title>
-      <link>https://georgelitos.com/post/vuejsnuxt/</link>
+      <link>http://localhost:1313/post/vuejsnuxt/</link>
       <pubDate>Fri, 04 Aug 2023 16:27:10 +0300</pubDate>
-      <guid>https://georgelitos.com/post/vuejsnuxt/</guid>
+      <guid>http://localhost:1313/post/vuejsnuxt/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://vuejs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vue.js&lt;/a&gt; and &lt;a href=&#34;https://nuxt.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nuxt&lt;/a&gt; are powerful frameworks for building web applications. &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; is a containerization platform that can be used to package and deploy these applications.&lt;/p&gt;
 &lt;p&gt;To dockerize a Nuxt application, a Dockerfile is created that specifies the steps required to build the image. This typically includes installing Nuxt and the application&amp;rsquo;s dependencies.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-dockerfile&#34; data-lang=&#34;dockerfile&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;s&#34;&gt; node:20-alpine&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
@@ -1184,9 +1182,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>MC: a commander like no other</title>
-      <link>https://georgelitos.com/post/mc/</link>
+      <link>http://localhost:1313/post/mc/</link>
       <pubDate>Mon, 05 Jun 2023 09:18:07 +0300</pubDate>
-      <guid>https://georgelitos.com/post/mc/</guid>
+      <guid>http://localhost:1313/post/mc/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander™. It also takes the best from more recent software with similar interfaces. Many years ago, we used file-managers like these, as &amp;ldquo;Norton Commander&amp;rdquo; in DOS, or the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, which is still alive in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;dual-pane-interface-for-seamless-file-management&#34;&gt;Dual-Pane Interface for Seamless File Management&lt;/h2&gt;
@@ -1262,9 +1260,9 @@ The features include:&lt;/p&gt;
     
     <item>
       <title>Scrcpy: Display and control your Android device</title>
-      <link>https://georgelitos.com/post/scrcpy/</link>
+      <link>http://localhost:1313/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/scrcpy/</guid>
+      <guid>http://localhost:1313/post/scrcpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
 This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
@@ -1310,10 +1308,10 @@ This application mirrors Android devices (video and audio) connected via USB or 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Running scrcpy&#34; srcset=&#34;
-               /post/scrcpy/image1_hu487150224080691871.webp 400w,
-               /post/scrcpy/image1_hu2878186598995889930.webp 760w,
-               /post/scrcpy/image1_hu15044790351114843352.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu487150224080691871.webp&#34;
+               /post/scrcpy/image1_hu_b95819f2c1ca654f.webp 400w,
+               /post/scrcpy/image1_hu_ef3f3e3e90ad76f2.webp 760w,
+               /post/scrcpy/image1_hu_514e3c92a0522802.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/scrcpy/image1_hu_b95819f2c1ca654f.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1325,9 +1323,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Package Managers - not the evil kind of PMs</title>
-      <link>https://georgelitos.com/post/pkgman/</link>
+      <link>http://localhost:1313/post/pkgman/</link>
       <pubDate>Tue, 21 Mar 2023 21:27:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/pkgman/</guid>
+      <guid>http://localhost:1313/post/pkgman/</guid>
       <description>
 
 
@@ -1360,8 +1358,7 @@ Making life easier for me and for you.&lt;/p&gt;
 &lt;p&gt;So hail to the package managers, we say,&lt;br&gt;
 For keeping our software up-to-date each day,&lt;br&gt;
 We honor your efforts, your skill, your might,&lt;br&gt;
-And thank you for making our coding lives bright!&lt;/p&gt;
-&lt;/blockquote&gt;
+And thank you for making our coding lives bright!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://chat.openai.com/chat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;&amp;hellip;generated by ChatGPT&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Package managers are essential tools that make it easy for developers and users to install, update, and manage software applications on their computers, not only command line tools buthuge apps like browsers and IDEs. Two of the most popular package managers are &lt;a href=&#34;https://scoop.sh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scoop&lt;/a&gt; for Windows and &lt;a href=&#34;https://brew.sh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Homebrew&lt;/a&gt; for macOS.&lt;/p&gt;
 &lt;hr&gt;
@@ -1385,10 +1382,10 @@ And thank you for making our coding lives bright!&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Scoop&#34; srcset=&#34;
-               /post/pkgman/scoop_hu11292560013163392278.webp 400w,
-               /post/pkgman/scoop_hu5489203364093946424.webp 760w,
-               /post/pkgman/scoop_hu1277992605920265396.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/scoop_hu11292560013163392278.webp&#34;
+               /post/pkgman/scoop_hu_cd26db553cdc76d.webp 400w,
+               /post/pkgman/scoop_hu_a797486c950c1f6f.webp 760w,
+               /post/pkgman/scoop_hu_500bed4b9d60b5d0.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/pkgman/scoop_hu_cd26db553cdc76d.webp&#34;
                width=&#34;760&#34;
                height=&#34;315&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1434,10 +1431,10 @@ Scoop is a command-line installer for Windows that allows users to easily instal
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Homebrew&#34; srcset=&#34;
-               /post/pkgman/homebrew_hu12342155234385015497.webp 400w,
-               /post/pkgman/homebrew_hu6499356954952621022.webp 760w,
-               /post/pkgman/homebrew_hu3989437347151392672.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hu12342155234385015497.webp&#34;
+               /post/pkgman/homebrew_hu_f623ad60f4fc7f95.webp 400w,
+               /post/pkgman/homebrew_hu_dfb3fcb5307c2dc8.webp 760w,
+               /post/pkgman/homebrew_hu_a7d1600af8ccf8f2.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/pkgman/homebrew_hu_f623ad60f4fc7f95.webp&#34;
                width=&#34;760&#34;
                height=&#34;611&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1475,10 +1472,10 @@ That the apps are already hand-picked and that they are fully categorized! You c
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Patch My PC&#34; srcset=&#34;
-               /post/pkgman/pmpc_hu781246175988610376.webp 400w,
-               /post/pkgman/pmpc_hu2017336567556260966.webp 760w,
-               /post/pkgman/pmpc_hu13060922300131211155.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hu781246175988610376.webp&#34;
+               /post/pkgman/pmpc_hu_1499906b710a97e6.webp 400w,
+               /post/pkgman/pmpc_hu_5876ad7a329f227f.webp 760w,
+               /post/pkgman/pmpc_hu_2d891c368fdf19e1.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/pkgman/pmpc_hu_1499906b710a97e6.webp&#34;
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1506,9 +1503,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Buku: a powerful bookmark manager</title>
-      <link>https://georgelitos.com/post/buku/</link>
+      <link>http://localhost:1313/post/buku/</link>
       <pubDate>Sat, 18 Mar 2023 20:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/buku/</guid>
+      <guid>http://localhost:1313/post/buku/</guid>
       <description>&lt;p&gt;Are you tired of losing track of your bookmarks across multiple browsers? Look no further than Buku, the powerful bookmark manager that imports bookmarks from all your browsers, works on console and has a web-based server.&lt;/p&gt;
 &lt;p&gt;With Buku, you can easily organize your bookmarks into categories and tags, making it easy to find exactly what you need. Plus, Buku&amp;rsquo;s powerful search feature allows you to quickly locate any bookmark in your collection.&lt;/p&gt;
 &lt;p&gt;One of the most unique features of Buku is its powerful console interface:&lt;/p&gt;
@@ -1534,10 +1531,10 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screenshot&#34; srcset=&#34;
-               /post/buku/screenshot-buku_hu2143474213692451129.webp 400w,
-               /post/buku/screenshot-buku_hu1043252270755566349.webp 760w,
-               /post/buku/screenshot-buku_hu11926106998951322846.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hu2143474213692451129.webp&#34;
+               /post/buku/screenshot-buku_hu_b4166048b3ae19d9.webp 400w,
+               /post/buku/screenshot-buku_hu_4d09422de59ae610.webp 760w,
+               /post/buku/screenshot-buku_hu_459c79990b69a219.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/buku/screenshot-buku_hu_b4166048b3ae19d9.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1550,9 +1547,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>How to bypass Git Hooks</title>
-      <link>https://georgelitos.com/post/git-bypass/</link>
+      <link>http://localhost:1313/post/git-bypass/</link>
       <pubDate>Wed, 08 Mar 2023 12:42:52 +0200</pubDate>
-      <guid>https://georgelitos.com/post/git-bypass/</guid>
+      <guid>http://localhost:1313/post/git-bypass/</guid>
       <description>&lt;p&gt;&lt;code&gt;git push --no-verify&lt;/code&gt; is a command used to push your local changes to a remote repository without running pre-commit hooks or pre-push hooks. Pre-commit hooks and pre-push hooks are scripts that run before a commit or a push, and they are used to perform automated tests, code quality checks, or other actions that help ensure the quality and correctness of your code. You can use &lt;a href=&#34;https://github.com/typicode/husky&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;husky&lt;/a&gt; or &lt;a href=&#34;https://pre-commit.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pre-commit&lt;/a&gt; if you need extra features or just production ready tools.&lt;/p&gt;
 &lt;p&gt;Sometimes, you may need to bypass these hooks and push your changes without running them. For example, if you&amp;rsquo;re in a hurry and you need to push a critical bug fix, or if you&amp;rsquo;re working in a team with strict code review policies and you need to push a work-in-progress commit for collaboration purposes.&lt;/p&gt;
 &lt;p&gt;To use it simply add the &lt;code&gt;--no-verify&lt;/code&gt; flag to your git push command:&lt;/p&gt;
@@ -1560,15 +1557,15 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will push your changes to the remote repository without running the pre-commit or pre-push hooks.&lt;/p&gt;
 &lt;p&gt;However, it&amp;rsquo;s important to note that using &amp;ndash;no-verify should be done with caution, as it can potentially lead to lower code quality and a higher risk of introducing bugs or other issues into your codebase. Therefore, it&amp;rsquo;s recommended to only use &amp;ndash;no-verify when it&amp;rsquo;s absolutely necessary and always double-check your code before pushing it to a remote repository.&lt;/p&gt;
 &lt;p&gt;You can check the &lt;a href=&#34;https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-verify&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Git Documentation.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;https://georgelitos.com/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;http://localhost:1313/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Breaking the Barrier</title>
-      <link>https://georgelitos.com/post/barrier/</link>
+      <link>http://localhost:1313/post/barrier/</link>
       <pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/barrier/</guid>
+      <guid>http://localhost:1313/post/barrier/</guid>
       <description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;
 &lt;p&gt;
 
@@ -1594,12 +1591,10 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;p&gt;Barrier also supports the use of multiple monitors, allowing users to move their cursor seamlessly between different screens.The software is designed to be simple, easy to use, and highly configurable. Barrier is available for many operating systems and can be downloaded from &lt;a href=&#34;https://github.com/debauchee/barrier&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;A little bit of history:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Barrier was created as a fork of Synergy due to certain limitations and issues that the developer of Barrier, Debauchee, experienced while using Synergy. Due to these limitations and issues, Debauchee decided to create a fork of Synergy, called Barrier, with the goal of addressing these issues and providing a more stable, customizable, and actively developed alternative to Synergy. Some of the features that Barrier added that Synergy didn&amp;rsquo;t have at the time like multi-monitor support, encryption, and improved cursor handling. Since then, Barrier has continued to be developed and maintained, with new features and improvements being added on a regular basis. It is also actively supported by its developer community, which aims to provide a stable, customizable and actively developed KVM solution for those who need it.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Barrier was created as a fork of Synergy due to certain limitations and issues that the developer of Barrier, Debauchee, experienced while using Synergy. Due to these limitations and issues, Debauchee decided to create a fork of Synergy, called Barrier, with the goal of addressing these issues and providing a more stable, customizable, and actively developed alternative to Synergy. Some of the features that Barrier added that Synergy didn&amp;rsquo;t have at the time like multi-monitor support, encryption, and improved cursor handling. Since then, Barrier has continued to be developed and maintained, with new features and improvements being added on a regular basis. It is also actively supported by its developer community, which aims to provide a stable, customizable and actively developed KVM solution for those who need it.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;I was an early user and even an Early Adopter of Synergy but was disappointed by the changes and bugs in version 3, then I switched to Barrier and never looked back.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://www.raspberrypi.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Raspberry Pi&lt;/a&gt; website praised Barrier with &lt;a href=&#34;https://www.raspberrypi.com/news/share-your-keyboard-and-mouse-between-computers-with-barrier/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a nice article and a video guide&lt;/a&gt;.&lt;/p&gt;
-
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/-G9IIauHOhA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -1610,9 +1605,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Free your notes with Joplin</title>
-      <link>https://georgelitos.com/post/joplin/</link>
+      <link>http://localhost:1313/post/joplin/</link>
       <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/joplin/</guid>
+      <guid>http://localhost:1313/post/joplin/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
 &lt;p&gt;
 
@@ -1646,9 +1641,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>The correct way to benchmark your network</title>
-      <link>https://georgelitos.com/post/benchmark-network/</link>
+      <link>http://localhost:1313/post/benchmark-network/</link>
       <pubDate>Sun, 14 Aug 2022 18:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/benchmark-network/</guid>
+      <guid>http://localhost:1313/post/benchmark-network/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Ever tried to measure the network speed between two computers?&lt;/li&gt;
 &lt;li&gt;Do you want to know how fast your local network is?&lt;/li&gt;
@@ -1658,8 +1653,7 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;p&gt;You can do all of the above, and more, with &lt;a href=&#34;https://software.es.net/iperf/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iperf3&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As the devolpers state at the official website :&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The iperf series of tools perform active measurements to determine the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the measured throughput, loss, and other parameters.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;The iperf series of tools perform active measurements to determine the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the measured throughput, loss, and other parameters.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;code&gt;iperf3&lt;/code&gt; is a powerful tool that can be used to benchmark the performance of local network computers. It allows you to measure the bandwidth and latency of a network connection between two devices. This can be useful for identifying bottlenecks and troubleshooting network issues.&lt;/p&gt;
 &lt;p&gt;To use &lt;code&gt;iperf3&lt;/code&gt;, you will need to have it installed on both the client and server computers. Once installed, you can run the following commands to start the benchmarking process.&lt;/p&gt;
 &lt;p&gt;On the server computer, open a command prompt and type &lt;code&gt;iperf3 -s&lt;/code&gt;. This will start the &lt;code&gt;iperf3&lt;/code&gt; server and listen for incoming connections.&lt;/p&gt;
@@ -1797,8 +1791,7 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This article is a work in progress. More tests and graphs will follow soon™️ 😊&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;For more info check the host tuning guides at the &lt;a href=&#34;https://fasterdata.es.net/host-tuning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Energy Sciences Network&lt;/a&gt; website.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;For more info check the host tuning guides at the &lt;a href=&#34;https://fasterdata.es.net/host-tuning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Energy Sciences Network&lt;/a&gt; website.&lt;/p&gt;&lt;/blockquote&gt;
 </description>
     </item>
     

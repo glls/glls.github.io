@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: January 13, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: February 16, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -45,7 +45,7 @@
 " />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://georgelitos.com/post/benchmark-network/" />
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/benchmark-network/" />
 
   
   
@@ -134,45 +134,6 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89694050-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-
 
 
 
@@ -201,10 +162,10 @@
   
 
   
-  <link rel="icon" type="image/png" href="/media/icon_hu5672062731482351860.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu18290553107655199142.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu_d2a8e028193088d7.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_f667d3bcf3a03142.png" />
 
-  <link rel="canonical" href="https://georgelitos.com/post/benchmark-network/" />
+  <link rel="canonical" href="http://localhost:1313/post/benchmark-network/" />
 
   
   
@@ -229,7 +190,7 @@
     <meta property="twitter:creator" content="@gl_ls" />
   
   <meta property="og:site_name" content="George Litos" />
-  <meta property="og:url" content="https://georgelitos.com/post/benchmark-network/" />
+  <meta property="og:url" content="http://localhost:1313/post/benchmark-network/" />
   <meta property="og:title" content="The correct way to benchmark your network | George Litos" />
   <meta property="og:description" content="
 Ever tried to measure the network speed between two computers?
@@ -237,8 +198,8 @@ Do you want to know how fast your local network is?
 Would you like to compare your WiFi and ethernet speeds?
 Do you want to check for faulty cables?
 
-You can do all of the above, and more, with iperf3." /><meta property="og:image" content="https://georgelitos.com/post/benchmark-network/featured.jpg" />
-    <meta property="twitter:image" content="https://georgelitos.com/post/benchmark-network/featured.jpg" /><meta property="og:locale" content="en-us" />
+You can do all of the above, and more, with iperf3." /><meta property="og:image" content="http://localhost:1313/post/benchmark-network/featured.jpg" />
+    <meta property="twitter:image" content="http://localhost:1313/post/benchmark-network/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -812,8 +773,8 @@ You can do all of the above, and more, with iperf3." /><meta property="og:image"
   
   <script
     defer
-    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
-    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
   ></script>
 
   
@@ -1499,7 +1460,7 @@ You can do all of the above, and more, with iperf3." /><meta property="og:image"
       
       <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 720px; max-height: 480px;">
         <div style="position: relative">
-          <img src="/post/benchmark-network/featured_hu12101425524069324520.webp" width="720" height="480" alt="" class="featured-image">
+          <img src="/post/benchmark-network/featured_hu_91db201fc0a9ffa7.webp" width="720" height="480" alt="" class="featured-image">
           
         </div>
       </div>
@@ -1518,8 +1479,7 @@ You can do all of the above, and more, with iperf3." /><meta property="og:image"
 <p>You can do all of the above, and more, with <a href="https://software.es.net/iperf/" target="_blank" rel="noopener">iperf3</a>.</p>
 <p>As the devolpers state at the official website :</p>
 <blockquote>
-<p>The iperf series of tools perform active measurements to determine the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the measured throughput, loss, and other parameters.</p>
-</blockquote>
+<p>The iperf series of tools perform active measurements to determine the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the measured throughput, loss, and other parameters.</p></blockquote>
 <p><code>iperf3</code> is a powerful tool that can be used to benchmark the performance of local network computers. It allows you to measure the bandwidth and latency of a network connection between two devices. This can be useful for identifying bottlenecks and troubleshooting network issues.</p>
 <p>To use <code>iperf3</code>, you will need to have it installed on both the client and server computers. Once installed, you can run the following commands to start the benchmarking process.</p>
 <p>On the server computer, open a command prompt and type <code>iperf3 -s</code>. This will start the <code>iperf3</code> server and listen for incoming connections.</p>
@@ -1657,8 +1617,7 @@ Network : 1000 baseT full duplex, 1500 MTU</p>
 </span></span><span class="line"><span class="cl">iperf Done.
 </span></span></code></pre></div><p>This article is a work in progress. More tests and graphs will follow soon™️ 😊</p>
 <blockquote>
-<p>For more info check the host tuning guides at the <a href="https://fasterdata.es.net/host-tuning/" target="_blank" rel="noopener">Energy Sciences Network</a> website.</p>
-</blockquote>
+<p>For more info check the host tuning guides at the <a href="https://fasterdata.es.net/host-tuning/" target="_blank" rel="noopener">Energy Sciences Network</a> website.</p></blockquote>
 
       </div>
 
@@ -1699,7 +1658,7 @@ Network : 1000 baseT full duplex, 1500 MTU</p>
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fbenchmark-network%2F&amp;text=The&#43;correct&#43;way&#43;to&#43;benchmark&#43;your&#43;network"
+    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fbenchmark-network%2F&amp;text=The&#43;correct&#43;way&#43;to&#43;benchmark&#43;your&#43;network"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1717,7 +1676,7 @@ Network : 1000 baseT full duplex, 1500 MTU</p>
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fbenchmark-network%2F&amp;t=The&#43;correct&#43;way&#43;to&#43;benchmark&#43;your&#43;network"
+    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fbenchmark-network%2F&amp;t=The&#43;correct&#43;way&#43;to&#43;benchmark&#43;your&#43;network"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1737,7 +1696,7 @@ Network : 1000 baseT full duplex, 1500 MTU</p>
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=The%20correct%20way%20to%20benchmark%20your%20network&amp;body=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fbenchmark-network%2F"
+    href="mailto:?subject=The%20correct%20way%20to%20benchmark%20your%20network&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fbenchmark-network%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1755,7 +1714,7 @@ Network : 1000 baseT full duplex, 1500 MTU</p>
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fbenchmark-network%2F&amp;title=The&#43;correct&#43;way&#43;to&#43;benchmark&#43;your&#43;network"
+    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fbenchmark-network%2F&amp;title=The&#43;correct&#43;way&#43;to&#43;benchmark&#43;your&#43;network"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1773,7 +1732,7 @@ Network : 1000 baseT full duplex, 1500 MTU</p>
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=The&#43;correct&#43;way&#43;to&#43;benchmark&#43;your&#43;network%20https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fbenchmark-network%2F"
+    href="whatsapp://send?text=The&#43;correct&#43;way&#43;to&#43;benchmark&#43;your&#43;network%20http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fbenchmark-network%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -1814,7 +1773,7 @@ Network : 1000 baseT full duplex, 1500 MTU</p>
     width="96"
     height="96"
     alt="George Litos"
-  src="/author/george-litos/avatar_hu517433497734058685.png"
+  src="/author/george-litos/avatar_hu_1207d121522d092e.png"
   loading="lazy"
   />
   
@@ -1823,7 +1782,7 @@ Network : 1000 baseT full duplex, 1500 MTU</p>
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="https://georgelitos.com/" class="no-underline">
+      <a href="http://localhost:1313/" class="no-underline">
       George Litos
       </a>
     </div>

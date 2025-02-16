@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: January 13, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: February 16, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="The console offers a powerful way to interact with your system and increase your productivity, here are some basic commands and one-liners to get you started." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://georgelitos.com/post/console-snippets/" />
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/console-snippets/" />
 
   
   
@@ -133,45 +133,6 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89694050-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-
 
 
 
@@ -200,10 +161,10 @@
   
 
   
-  <link rel="icon" type="image/png" href="/media/icon_hu5672062731482351860.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu18290553107655199142.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu_d2a8e028193088d7.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_f667d3bcf3a03142.png" />
 
-  <link rel="canonical" href="https://georgelitos.com/post/console-snippets/" />
+  <link rel="canonical" href="http://localhost:1313/post/console-snippets/" />
 
   
   
@@ -228,10 +189,10 @@
     <meta property="twitter:creator" content="@gl_ls" />
   
   <meta property="og:site_name" content="George Litos" />
-  <meta property="og:url" content="https://georgelitos.com/post/console-snippets/" />
+  <meta property="og:url" content="http://localhost:1313/post/console-snippets/" />
   <meta property="og:title" content="Console snippets | George Litos" />
-  <meta property="og:description" content="The console offers a powerful way to interact with your system and increase your productivity, here are some basic commands and one-liners to get you started." /><meta property="og:image" content="https://georgelitos.com/post/console-snippets/featured.jpg" />
-    <meta property="twitter:image" content="https://georgelitos.com/post/console-snippets/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="The console offers a powerful way to interact with your system and increase your productivity, here are some basic commands and one-liners to get you started." /><meta property="og:image" content="http://localhost:1313/post/console-snippets/featured.jpg" />
+    <meta property="twitter:image" content="http://localhost:1313/post/console-snippets/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -805,8 +766,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
-    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
   ></script>
 
   
@@ -1543,7 +1504,7 @@
       
       <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 640px; max-height: 480px;">
         <div style="position: relative">
-          <img src="/post/console-snippets/featured_hu8724390959814683814.webp" width="640" height="480" alt="" class="featured-image">
+          <img src="/post/console-snippets/featured_hu_5300a022d64cd96b.webp" width="640" height="480" alt="" class="featured-image">
           <span class="article-header-caption">Photo by <a href="https://unsplash.com/@6heinz3r?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gabriel Heinzer</a> on <a href="https://unsplash.com/photos/green-and-black-digital-device-xbEVM6oJ1Fs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
         </div>
       </div>
@@ -1747,7 +1708,7 @@ Here are some generic snippets to get you started:</p>
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fconsole-snippets%2F&amp;text=Console&#43;snippets"
+    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fconsole-snippets%2F&amp;text=Console&#43;snippets"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1765,7 +1726,7 @@ Here are some generic snippets to get you started:</p>
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fconsole-snippets%2F&amp;t=Console&#43;snippets"
+    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fconsole-snippets%2F&amp;t=Console&#43;snippets"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1785,7 +1746,7 @@ Here are some generic snippets to get you started:</p>
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=Console%20snippets&amp;body=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fconsole-snippets%2F"
+    href="mailto:?subject=Console%20snippets&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fconsole-snippets%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1803,7 +1764,7 @@ Here are some generic snippets to get you started:</p>
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fconsole-snippets%2F&amp;title=Console&#43;snippets"
+    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fconsole-snippets%2F&amp;title=Console&#43;snippets"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1821,7 +1782,7 @@ Here are some generic snippets to get you started:</p>
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=Console&#43;snippets%20https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fconsole-snippets%2F"
+    href="whatsapp://send?text=Console&#43;snippets%20http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fconsole-snippets%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -1862,7 +1823,7 @@ Here are some generic snippets to get you started:</p>
     width="96"
     height="96"
     alt="George Litos"
-  src="/author/george-litos/avatar_hu517433497734058685.png"
+  src="/author/george-litos/avatar_hu_1207d121522d092e.png"
   loading="lazy"
   />
   
@@ -1871,7 +1832,7 @@ Here are some generic snippets to get you started:</p>
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="https://georgelitos.com/" class="no-underline">
+      <a href="http://localhost:1313/" class="no-underline">
       George Litos
       </a>
     </div>
