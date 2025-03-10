@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Server | George Litos</title>
-    <link>http://localhost:1313/tags/server/</link>
-      <atom:link href="http://localhost:1313/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/server/</link>
+      <atom:link href="https://georgelitos.com/tags/server/index.xml" rel="self" type="application/rss+xml" />
     <description>Server</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Sep 2023 18:00:00 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Server</title>
-      <link>http://localhost:1313/tags/server/</link>
+      <link>https://georgelitos.com/tags/server/</link>
     </image>
     
     <item>
       <title>The correct way to benchmark your web server</title>
-      <link>http://localhost:1313/post/benchmark-webserver/</link>
+      <link>https://georgelitos.com/post/benchmark-webserver/</link>
       <pubDate>Sun, 10 Sep 2023 18:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/benchmark-webserver/</guid>
+      <guid>https://georgelitos.com/post/benchmark-webserver/</guid>
       <description>&lt;p&gt;Keeping your web server running smoothly is crucial for a positive user experience. But how do you know it can handle the traffic you expect? Benchmarking is the answer! It allows you to simulate real-world load and measure your server&amp;rsquo;s performance. This post will guide you through using &lt;code&gt;wrk&lt;/code&gt;, a powerful tool for benchmarking your web server.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;wrk&lt;/code&gt; is a fast, user-friendly HTTP benchmarking tool. It&amp;rsquo;s lightweight and easy to install. Once you have wrk set up, you can start crafting your benchmark test. &lt;code&gt;wrk&lt;/code&gt; offers various options to configure your test precisely. You can define the number of threads to simulate concurrent users, the number of connections per thread, and the test duration. &lt;code&gt;wrk&lt;/code&gt; also allows you to specify headers to be sent with each request, mimicking real user behavior.&lt;/p&gt;
 &lt;p&gt;Running a &lt;code&gt;wrk&lt;/code&gt; test is straightforward. You provide the URL you want to benchmark along with the desired configuration options. Wrks then bombards your server with simulated traffic, measuring critical metrics like request latency, throughput, and overall system health. After the test concludes, &lt;code&gt;wrk&lt;/code&gt; presents a detailed report. This report showcases valuable data points like average request time, request rate, and connection errors. Analyzing this data helps you identify bottlenecks and areas for improvement in your web server&amp;rsquo;s performance.&lt;/p&gt;

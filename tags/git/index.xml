@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git | George Litos</title>
-    <link>http://localhost:1313/tags/git/</link>
-      <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/git/</link>
+      <atom:link href="https://georgelitos.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <description>Git</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Oct 2023 10:00:00 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Git</title>
-      <link>http://localhost:1313/tags/git/</link>
+      <link>https://georgelitos.com/tags/git/</link>
     </image>
     
     <item>
       <title>Git Cheatsheet</title>
-      <link>http://localhost:1313/post/git-cheatsheet/</link>
+      <link>https://georgelitos.com/post/git-cheatsheet/</link>
       <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/git-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
       <description>
 
 
@@ -435,15 +435,15 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;http://localhost:1313/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;https://georgelitos.com/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>How to bypass Git Hooks</title>
-      <link>http://localhost:1313/post/git-bypass/</link>
+      <link>https://georgelitos.com/post/git-bypass/</link>
       <pubDate>Wed, 08 Mar 2023 12:42:52 +0200</pubDate>
-      <guid>http://localhost:1313/post/git-bypass/</guid>
+      <guid>https://georgelitos.com/post/git-bypass/</guid>
       <description>&lt;p&gt;&lt;code&gt;git push --no-verify&lt;/code&gt; is a command used to push your local changes to a remote repository without running pre-commit hooks or pre-push hooks. Pre-commit hooks and pre-push hooks are scripts that run before a commit or a push, and they are used to perform automated tests, code quality checks, or other actions that help ensure the quality and correctness of your code. You can use &lt;a href=&#34;https://github.com/typicode/husky&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;husky&lt;/a&gt; or &lt;a href=&#34;https://pre-commit.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pre-commit&lt;/a&gt; if you need extra features or just production ready tools.&lt;/p&gt;
 &lt;p&gt;Sometimes, you may need to bypass these hooks and push your changes without running them. For example, if you&amp;rsquo;re in a hurry and you need to push a critical bug fix, or if you&amp;rsquo;re working in a team with strict code review policies and you need to push a work-in-progress commit for collaboration purposes.&lt;/p&gt;
 &lt;p&gt;To use it simply add the &lt;code&gt;--no-verify&lt;/code&gt; flag to your git push command:&lt;/p&gt;
@@ -451,15 +451,15 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will push your changes to the remote repository without running the pre-commit or pre-push hooks.&lt;/p&gt;
 &lt;p&gt;However, it&amp;rsquo;s important to note that using &amp;ndash;no-verify should be done with caution, as it can potentially lead to lower code quality and a higher risk of introducing bugs or other issues into your codebase. Therefore, it&amp;rsquo;s recommended to only use &amp;ndash;no-verify when it&amp;rsquo;s absolutely necessary and always double-check your code before pushing it to a remote repository.&lt;/p&gt;
 &lt;p&gt;You can check the &lt;a href=&#34;https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-verify&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Git Documentation.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;http://localhost:1313/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;https://georgelitos.com/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Git ...not just version control</title>
-      <link>http://localhost:1313/talk/git/</link>
+      <link>https://georgelitos.com/talk/git/</link>
       <pubDate>Fri, 01 Jul 2022 03:33:00 +0300</pubDate>
-      <guid>http://localhost:1313/talk/git/</guid>
+      <guid>https://georgelitos.com/talk/git/</guid>
       <description>&lt;p&gt;Git is a powerful version control system that allows developers to track and store changes to their code. It also helps teams collaborate on projects efficiently. With Git, developers can keep track of changes made to their code, revert back to previous versions if needed, and even create branches for different versions of the same project. In this talk, we&amp;rsquo;ll take a look at how Git works and how it can be used to manage and track changes to your code.&lt;/p&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
@@ -467,15 +467,15 @@
 &lt;/span&gt;
   &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation.&lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;You can also check the &lt;a href=&#34;http://localhost:1313/post/git-cheatsheet/&#34;&gt;Git Cheatsheet&lt;/a&gt; post.&lt;/p&gt;
+&lt;p&gt;You can also check the &lt;a href=&#34;https://georgelitos.com/post/git-cheatsheet/&#34;&gt;Git Cheatsheet&lt;/a&gt; post.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/git/</link>
+      <link>https://georgelitos.com/slides/git/</link>
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/git/</guid>
+      <guid>https://georgelitos.com/slides/git/</guid>
       <description>&lt;section&gt;
 &lt;h1 id=&#34;git&#34;&gt;Git&lt;/h1&gt;
 &lt;h2 id=&#34;not-just-version-control&#34;&gt;not just version control&lt;/h2&gt;
@@ -498,7 +498,7 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;git&#34;
-           src=&#34;http://localhost:1313/slides/git/org.gnome.gitg.svg&#34;
+           src=&#34;https://georgelitos.com/slides/git/org.gnome.gitg.svg&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
@@ -515,14 +515,14 @@ Since 2005, Junio Hamano has been the core maintainer.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;tech-talk&#34;&gt;Tech Talk&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4XpnKHJAok8&amp;amp;t=90s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linus Torvalds on git&lt;/a&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/linus.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/linus.png&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;Git is alive&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;december-12-2022&#34;&gt;December 12, 2022&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.blog/2022-12-12-highlights-from-git-2-39/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git is alive and actively developed&lt;/a&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/git239.webp&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/git239.webp&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Official site&lt;/a&gt;&lt;/p&gt;
@@ -530,14 +530,14 @@ Since 2005, Junio Hamano has been the core maintainer.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;SO Survey 2021&lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&#34;stack-overflow-developer-survey-2021&#34;&gt;Stack Overflow Developer Survey 2021&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://insights.stackoverflow.com/survey/2021#most-popular-technologies-tools-tech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Over 90% of respondents use Git, suggesting that it is a fundamental tool to being a developer.&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/so2021.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/so2021.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
 &lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;SO Survey 2022&lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&#34;stack-overflow-developer-survey-2022&#34;&gt;Stack Overflow Developer Survey 2022&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://survey.stackoverflow.co/2022/#section-version-control-version-control-systems&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;No other technology is as widely used as Git. Especially among Professional Developers.&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/so2022.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/so2022.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Q: What are the primary version control systems you use?&lt;/p&gt;
@@ -705,13 +705,13 @@ ommit message,HA-1 checksum.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;a-successful-git-branching-model&#34;&gt;A successful Git branching model&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://nvie.com/posts/a-successful-git-branching-model/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;By Vincent Driessen&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/git-model.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/git-model.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
 &lt;h2 id=&#34;gitflow-workflow&#34;&gt;Gitflow Workflow&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Atlassian Tutorial&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/branches.svg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/branches.svg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
@@ -776,7 +776,7 @@ ommit message,HA-1 checksum.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;in case of fire&#34;
-           src=&#34;http://localhost:1313/slides/git/in_case_of_fire.svg&#34;
+           src=&#34;https://georgelitos.com/slides/git/in_case_of_fire.svg&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;

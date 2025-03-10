@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | George Litos</title>
-    <link>http://localhost:1313/project/</link>
-      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/project/</link>
+      <atom:link href="https://georgelitos.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Jun 2024 12:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Projects</title>
-      <link>http://localhost:1313/project/</link>
+      <link>https://georgelitos.com/project/</link>
     </image>
     
     <item>
       <title>Space8</title>
-      <link>http://localhost:1313/project/space8/</link>
+      <link>https://georgelitos.com/project/space8/</link>
       <pubDate>Wed, 05 Jun 2024 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/space8/</guid>
+      <guid>https://georgelitos.com/project/space8/</guid>
       <description>&lt;p&gt;Space8 is a retro style shoot&amp;rsquo;em up game. The player controls a spaceship that can move in all directions and shoot at enemies. The game is set in space and the player must avoid asteroids and enemy ships while shooting them down. The game features multiple levels with increasing difficulty and a boss fight at the end. The player can collect power-ups to upgrade their ship and weapons. The game has a high score system to keep track of the player&amp;rsquo;s progress. Space8 is a fun and challenging game that will keep players entertained for hours.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a name=&#34;privacy&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -35,17 +35,17 @@
     
     <item>
       <title>Benchmarking API Frameworks</title>
-      <link>http://localhost:1313/project/benchmark-api/</link>
+      <link>https://georgelitos.com/project/benchmark-api/</link>
       <pubDate>Mon, 20 May 2024 23:34:00 +0300</pubDate>
-      <guid>http://localhost:1313/project/benchmark-api/</guid>
+      <guid>https://georgelitos.com/project/benchmark-api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Research Projects</title>
-      <link>http://localhost:1313/project/research_projects/</link>
+      <link>https://georgelitos.com/project/research_projects/</link>
       <pubDate>Tue, 04 Jun 2019 23:23:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/research_projects/</guid>
+      <guid>https://georgelitos.com/project/research_projects/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;AGRIBIT&lt;/strong&gt; - Artificial intelliGence applied to pRecision farmIng By the use of GNSS and Integrated
 Technologies (&lt;a href=&#34;https://cordis.europa.eu/project/id/101004259&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;H2020:101004259&lt;/a&gt;)&lt;/li&gt;
@@ -87,9 +87,9 @@ Project.&lt;/li&gt;
     
     <item>
       <title>Typhon</title>
-      <link>http://localhost:1313/project/typhon/</link>
+      <link>https://georgelitos.com/project/typhon/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/typhon/</guid>
+      <guid>https://georgelitos.com/project/typhon/</guid>
       <description></description>
     </item>
     

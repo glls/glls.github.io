@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: February 16, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: March 10, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="George Litos&#39;s personal website" />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/tags/frameworks/" />
+  <link rel="alternate" hreflang="en-us" href="https://georgelitos.com/tags/frameworks/" />
 
   
   
@@ -133,6 +133,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89694050-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -166,7 +205,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_d2a8e028193088d7.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_f667d3bcf3a03142.png" />
 
-  <link rel="canonical" href="http://localhost:1313/tags/frameworks/" />
+  <link rel="canonical" href="https://georgelitos.com/tags/frameworks/" />
 
   
   
@@ -192,10 +231,10 @@
     <meta property="twitter:creator" content="@gl_ls" />
   
   <meta property="og:site_name" content="George Litos" />
-  <meta property="og:url" content="http://localhost:1313/tags/frameworks/" />
+  <meta property="og:url" content="https://georgelitos.com/tags/frameworks/" />
   <meta property="og:title" content="Frameworks | George Litos" />
-  <meta property="og:description" content="George Litos&#39;s personal website" /><meta property="og:image" content="http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png" />
-    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="George Litos&#39;s personal website" /><meta property="og:image" content="https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png" />
+    <meta property="twitter:image" content="https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta property="og:updated_time" content="2024-05-20T23:34:00&#43;03:00" />
@@ -355,26 +394,27 @@
   
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
   
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
   
   
   
@@ -763,8 +803,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
+    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
   ></script>
 
   

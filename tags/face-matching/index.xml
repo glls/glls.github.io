@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Face Matching | George Litos</title>
-    <link>http://localhost:1313/tags/face-matching/</link>
-      <atom:link href="http://localhost:1313/tags/face-matching/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/face-matching/</link>
+      <atom:link href="https://georgelitos.com/tags/face-matching/index.xml" rel="self" type="application/rss+xml" />
     <description>Face Matching</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Face Matching</title>
-      <link>http://localhost:1313/tags/face-matching/</link>
+      <link>https://georgelitos.com/tags/face-matching/</link>
     </image>
     
     <item>
       <title>TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</title>
-      <link>http://localhost:1313/publication/toomanyeyes/</link>
+      <link>https://georgelitos.com/publication/toomanyeyes/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/toomanyeyes/</guid>
+      <guid>https://georgelitos.com/publication/toomanyeyes/</guid>
       <description>&lt;p&gt;Date of Conference: 13-15 Dec. 2017&lt;/p&gt;
 &lt;p&gt;Conference Location: Madrid, Spain&lt;/p&gt;
 </description>

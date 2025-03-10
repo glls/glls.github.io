@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article-Journal | George Litos</title>
-    <link>http://localhost:1313/publication_types/article-journal/</link>
-      <atom:link href="http://localhost:1313/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/publication_types/article-journal/</link>
+      <atom:link href="https://georgelitos.com/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Apr 2012 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Article-Journal</title>
-      <link>http://localhost:1313/publication_types/article-journal/</link>
+      <link>https://georgelitos.com/publication_types/article-journal/</link>
     </image>
     
     <item>
       <title>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</title>
-      <link>http://localhost:1313/publication/3d-object-retrieval/</link>
+      <link>https://georgelitos.com/publication/3d-object-retrieval/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/3d-object-retrieval/</guid>
+      <guid>https://georgelitos.com/publication/3d-object-retrieval/</guid>
       <description></description>
     </item>
     
