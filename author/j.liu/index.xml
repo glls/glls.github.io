@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J.Liu | George Litos</title>
+    <link>http://localhost:1313/author/j.liu/</link>
+      <atom:link href="http://localhost:1313/author/j.liu/index.xml" rel="self" type="application/rss+xml" />
+    <description>J.Liu</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Apr 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <title>J.Liu</title>
+      <link>http://localhost:1313/author/j.liu/</link>
+    </image>
+    
+    <item>
+      <title>SHREC’11 Track: Generic Shape Retrieval</title>
+      <link>http://localhost:1313/publication/shrec/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/shrec/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

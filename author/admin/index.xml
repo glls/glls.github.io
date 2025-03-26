@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Admin | George Litos</title>
+    <link>http://localhost:1313/author/admin/</link>
+      <atom:link href="http://localhost:1313/author/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Admin</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 03:33:00 +0300</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/author/admin/avatar_hu_615a487009c96066.png</url>
+      <title>Admin</title>
+      <link>http://localhost:1313/author/admin/</link>
+    </image>
+    
+    <item>
+      <title>Git ...not just version control</title>
+      <link>http://localhost:1313/talk/git/</link>
+      <pubDate>Fri, 01 Jul 2022 03:33:00 +0300</pubDate>
+      <guid>http://localhost:1313/talk/git/</guid>
+      <description>&lt;p&gt;Git is a powerful version control system that allows developers to track and store changes to their code. It also helps teams collaborate on projects efficiently. With Git, developers can keep track of changes made to their code, revert back to previous versions if needed, and even create branches for different versions of the same project. In this talk, we&amp;rsquo;ll take a look at how Git works and how it can be used to manage and track changes to your code.&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;You can also check the &lt;a href=&#34;http://localhost:1313/post/git-cheatsheet/&#34;&gt;Git Cheatsheet&lt;/a&gt; post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</title>
+      <link>http://localhost:1313/publication/toomanyeyes/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/toomanyeyes/</guid>
+      <description>&lt;p&gt;Date of Conference: 13-15 Dec. 2017&lt;/p&gt;
+&lt;p&gt;Conference Location: Madrid, Spain&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</title>
+      <link>http://localhost:1313/publication/3d-object-retrieval/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/3d-object-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SHREC’11 Track: Generic Shape Retrieval</title>
+      <link>http://localhost:1313/publication/shrec/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/shrec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Survey of Semantic Image and Video Annotation Tools</title>
+      <link>http://localhost:1313/publication/semantic-survey/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/semantic-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</title>
+      <link>http://localhost:1313/publication/3d-model-retrieval/</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/3d-model-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synchronous Image Acquisition based on Network Synchronization</title>
+      <link>http://localhost:1313/publication/network-synchronization/</link>
+      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/network-synchronization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Interface Environment and Image Communication in Mobile Tele-Echography</title>
+      <link>http://localhost:1313/publication/mobile-tele-echography/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/mobile-tele-echography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile Tele-echography: User Interface Design</title>
+      <link>http://localhost:1313/publication/tele-echography/</link>
+      <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tele-echography/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

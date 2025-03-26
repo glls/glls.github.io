@@ -7,7 +7,7 @@
     <description>Tools</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Apr 2024 18:34:13 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Tools</title>
       <link>https://georgelitos.com/tags/tools/</link>
     </image>
@@ -1124,10 +1124,10 @@ This application mirrors Android devices (video and audio) connected via USB or 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Running scrcpy&#34; srcset=&#34;
-               /post/scrcpy/image1_hu_b95819f2c1ca654f.webp 400w,
-               /post/scrcpy/image1_hu_ef3f3e3e90ad76f2.webp 760w,
-               /post/scrcpy/image1_hu_514e3c92a0522802.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu_b95819f2c1ca654f.webp&#34;
+               /post/scrcpy/image1_hu_d66b0ffd360aba34.webp 400w,
+               /post/scrcpy/image1_hu_76e6ef16731cf17a.webp 760w,
+               /post/scrcpy/image1_hu_84bcb1e9a840e002.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu_d66b0ffd360aba34.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1198,10 +1198,10 @@ And thank you for making our coding lives bright!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Scoop&#34; srcset=&#34;
-               /post/pkgman/scoop_hu_cd26db553cdc76d.webp 400w,
-               /post/pkgman/scoop_hu_a797486c950c1f6f.webp 760w,
-               /post/pkgman/scoop_hu_500bed4b9d60b5d0.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/scoop_hu_cd26db553cdc76d.webp&#34;
+               /post/pkgman/scoop_hu_cb4361b63396390.webp 400w,
+               /post/pkgman/scoop_hu_f12f9cb7fab7e1b7.webp 760w,
+               /post/pkgman/scoop_hu_5b98ad82382843dd.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/scoop_hu_cb4361b63396390.webp&#34;
                width=&#34;760&#34;
                height=&#34;315&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1247,10 +1247,10 @@ Scoop is a command-line installer for Windows that allows users to easily instal
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Homebrew&#34; srcset=&#34;
-               /post/pkgman/homebrew_hu_f623ad60f4fc7f95.webp 400w,
-               /post/pkgman/homebrew_hu_dfb3fcb5307c2dc8.webp 760w,
-               /post/pkgman/homebrew_hu_a7d1600af8ccf8f2.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hu_f623ad60f4fc7f95.webp&#34;
+               /post/pkgman/homebrew_hu_5d74178367052408.webp 400w,
+               /post/pkgman/homebrew_hu_d6b544c03d7e8511.webp 760w,
+               /post/pkgman/homebrew_hu_526f24278b27f896.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hu_5d74178367052408.webp&#34;
                width=&#34;760&#34;
                height=&#34;611&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1288,10 +1288,10 @@ That the apps are already hand-picked and that they are fully categorized! You c
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Patch My PC&#34; srcset=&#34;
-               /post/pkgman/pmpc_hu_1499906b710a97e6.webp 400w,
-               /post/pkgman/pmpc_hu_5876ad7a329f227f.webp 760w,
-               /post/pkgman/pmpc_hu_2d891c368fdf19e1.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hu_1499906b710a97e6.webp&#34;
+               /post/pkgman/pmpc_hu_394a150b25053eda.webp 400w,
+               /post/pkgman/pmpc_hu_595a3e1335288e58.webp 760w,
+               /post/pkgman/pmpc_hu_13d9013f87b9b2dd.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hu_394a150b25053eda.webp&#34;
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1347,10 +1347,10 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screenshot&#34; srcset=&#34;
-               /post/buku/screenshot-buku_hu_b4166048b3ae19d9.webp 400w,
-               /post/buku/screenshot-buku_hu_4d09422de59ae610.webp 760w,
-               /post/buku/screenshot-buku_hu_459c79990b69a219.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hu_b4166048b3ae19d9.webp&#34;
+               /post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp 400w,
+               /post/buku/screenshot-buku_hu_3fe16ee851a5e5d0.webp 760w,
+               /post/buku/screenshot-buku_hu_bef1171e20f4b4ec.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1425,27 +1425,6 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
       <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
       <guid>https://georgelitos.com/post/joplin/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://joplinapp.org/images/home-top-img-2x.webp&#34; alt=&#34;Joplin&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
 &lt;p&gt;One of the main features of Joplin is its ability to synchronize notes across multiple devices. Joplin also supports the use of multiple storage options, including the local file system, Dropbox, OneDrive, and WebDAV and more. In my case I use the local file system and synchronize the notes with my Synology NAS via &amp;ldquo;Cloud Station Drive&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;The notes are in &lt;a href=&#34;https://www.markdownguide.org/tools/joplin/#joplin-markdown-support&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown format&lt;/a&gt;. Joplin is available as a &lt;strong&gt;💻 desktop&lt;/strong&gt;, &lt;strong&gt;📱 mobile&lt;/strong&gt; and &lt;strong&gt;🔡 terminal&lt;/strong&gt; application.&lt;/p&gt;
 &lt;p&gt;Joplin also has a built-in to-do list feature that allows users to easily create and track tasks. This feature is integrated with the note-taking functionality, making it easy to keep track of tasks related to specific notes.&lt;/p&gt;

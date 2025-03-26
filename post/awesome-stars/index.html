@@ -1,13 +1,13 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: March 11, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: March 26, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.2" />
 
   
   
@@ -57,7 +57,7 @@
   
   
     
-    <link href="/dist/wc.min.css" rel="stylesheet" />
+    <link href="/dist/wc.min.44f068fe358024bd10ffffd77ee1f8e710b012913697b1955a8e943945f8cd5d.css" rel="stylesheet" />
   
 
   
@@ -200,8 +200,8 @@
   
 
   
-  <link rel="icon" type="image/png" href="/media/icon_hu_d2a8e028193088d7.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_f667d3bcf3a03142.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu_c27282699091eaa8.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_a2aab2dee7c8a784.png" />
 
   <link rel="canonical" href="https://georgelitos.com/post/awesome-stars/" />
 
@@ -239,7 +239,7 @@
         content="2025-03-10T18:08:16&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2025-03-10T18:29:39&#43;00:00">
+    <meta property="article:modified_time" content="2025-03-26T07:20:31&#43;00:00">
   
 
   
@@ -277,6 +277,24 @@
 
 
   
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
     
       
       
@@ -611,40 +629,67 @@
     --pagefind-ui-border: #152028;
     --pagefind-ui-tag: #152028;
   }
+
+   
+  .search-close > svg {
+    height: calc(64px * var(--pagefind-ui-scale));
+    width: calc(64px * var(--pagefind-ui-scale));
+  }
 </style>
 
 <script>
+  
+  let searchWrapper = null;
+
   window.addEventListener('DOMContentLoaded', (event) => {
+    
     new PagefindUI({
       element: "#search",
       showSubResults: true,
       baseUrl: window.hbb.pagefind.baseUrl,
       bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
     });
+
+    
+    searchWrapper = document.getElementById('search-wrapper');
+
+    
+    let triggers = document.querySelectorAll('[data-search-toggle]');
+    triggers.forEach(trigger =>
+      trigger.addEventListener('click', handleSearchToggle)
+    );
   });
-  document.addEventListener('DOMContentLoaded', () => {
-    let element = document.getElementById('search');
-    let trigger = document.getElementById('search_toggle');
 
-    if (trigger) {
-      trigger.addEventListener('click', () => {
-        element.classList.toggle('hidden');
-        element.querySelector("input").value = ""
-        element.querySelector("input").focus()
+  function handleSearchToggle(event) {
+    if (!searchWrapper) return;
 
-        if (!element.classList.contains('hidden')) {
-          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+    const isHidden = searchWrapper.classList.contains('hidden');
+    searchWrapper.classList.toggle('hidden');
+    document.body.style.overflow = isHidden ? 'hidden' : '';
 
-          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
-            clear_trigger.setAttribute('listenerOnClick', 'true');
+    const searchInput = searchWrapper.querySelector("input");
+    if (searchInput) {
+      searchInput.value = "";
+      searchInput.focus();
+    }
 
-            clear_trigger.addEventListener('click', () => {
-              element.classList.toggle('hidden');
-            });
-          }
-        }
+    if (!searchWrapper.classList.contains('hidden')) {
+      let clearTrigger = document.querySelector('.pagefind-ui__search-clear');
 
-      });
+      if (clearTrigger && !clearTrigger.hasAttribute('listenerOnClick')) {
+        clearTrigger.setAttribute('listenerOnClick', 'true');
+
+        clearTrigger.addEventListener('click', () => {
+          searchInput.focus();
+        });
+      }
+    }
+  }
+
+  
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && searchWrapper && !searchWrapper.classList.contains('hidden')) {
+      searchWrapper.classList.add('hidden');
     }
   });
 </script>
@@ -806,8 +851,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
-    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
+    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
   ></script>
 
   
@@ -956,9 +1001,9 @@
       
       
       <button
-        aria-label="search"
+        aria-label="toggle search"
         class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
-        id="search_toggle">
+        data-search-toggle>
         <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
       </button>
       
@@ -999,8 +1044,26 @@
   </nav>
 </header>
 
+<div
+  id="search-wrapper"
+  class="hidden fixed inset-0 z-50 bg-white dark:bg-gray-900 flex flex-col overflow-hidden"
+>
+  <div class="flex justify-end p-3">
+    <button
+      aria-label="search"
+      class="search-close text-black hover:text-primary dark:text-white"
+      data-search-toggle
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
 
-<div id="search" class="hidden p-3"></div>
+  <div id="search" class="flex-1 overflow-y-auto p-3">
+    
+  </div>
+</div>
 
 
         
@@ -1299,6 +1362,12 @@
                 href="#python"
                 class="hb-docs-link"
               >Python</a>
+            </li>
+          <li>
+              <a
+                href="#qml"
+                class="hb-docs-link"
+              >QML</a>
             </li>
           <li>
               <a
@@ -1829,6 +1898,9 @@
         <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#python">Python</a>
       </li>
       <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#qml">QML</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
         <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#ruby">Ruby</a>
       </li>
       <li class="my-2 scroll-my-6 scroll-py-6">
@@ -1936,7 +2008,7 @@
       
       <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 720px; max-height: 554px;">
         <div style="position: relative">
-          <img src="/post/awesome-stars/featured_hu_de71c9e56232ebc2.webp" width="720" height="554" alt="" class="featured-image">
+          <img src="/post/awesome-stars/featured_hu_b08b36d63786728d.webp" width="720" height="554" alt="" class="featured-image">
           
         </div>
       </div>
@@ -1988,6 +2060,7 @@
 <li><a href="#perl">Perl</a></li>
 <li><a href="#powershell">PowerShell</a></li>
 <li><a href="#python">Python</a></li>
+<li><a href="#qml">QML</a></li>
 <li><a href="#ruby">Ruby</a></li>
 <li><a href="#rust">Rust</a></li>
 <li><a href="#scss">SCSS</a></li>
@@ -2018,6 +2091,8 @@
 </ul>
 <h2 id="c">C</h2>
 <ul>
+<li><a href="https://github.com/Klipper3d/klipper" target="_blank" rel="noopener">Klipper3d/klipper</a> - Klipper is a 3d-printer firmware</li>
+<li><a href="https://github.com/lwfinger/rtw88" target="_blank" rel="noopener">lwfinger/rtw88</a> - A backport of the Realtek Wifi 5 drivers from the wireless-next repo.</li>
 <li><a href="https://github.com/obsproject/obs-studio" target="_blank" rel="noopener">obsproject/obs-studio</a> - OBS Studio - Free and open source software for live streaming and screen recording</li>
 <li><a href="https://github.com/karpathy/llama2.c" target="_blank" rel="noopener">karpathy/llama2.c</a> - Inference Llama 2 in one file of pure C</li>
 <li><a href="https://github.com/nefarius/DsHidMini" target="_blank" rel="noopener">nefarius/DsHidMini</a> - Virtual HID Mini-user-mode-driver for Sony DualShock 3 Controllers</li>
@@ -2088,6 +2163,7 @@
 </ul>
 <h2 id="c-2">C++</h2>
 <ul>
+<li><a href="https://github.com/BlitterStudio/amiberry-lite" target="_blank" rel="noopener">BlitterStudio/amiberry-lite</a> - Optimized Amiga emulator for Linux</li>
 <li><a href="https://github.com/electronicarts/CnC_Red_Alert" target="_blank" rel="noopener">electronicarts/CnC_Red_Alert</a> - Command and Conquer: Red Alert</li>
 <li><a href="https://github.com/opendata-stuttgart/sensors-software" target="_blank" rel="noopener">opendata-stuttgart/sensors-software</a> - sourcecode for reading sensor data</li>
 <li><a href="https://github.com/OpenTTD/OpenTTD" target="_blank" rel="noopener">OpenTTD/OpenTTD</a> - OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe</li>
@@ -2171,6 +2247,7 @@
 </ul>
 <h2 id="dart">Dart</h2>
 <ul>
+<li><a href="https://github.com/SpicyChair/pluvia_weather_flutter" target="_blank" rel="noopener">SpicyChair/pluvia_weather_flutter</a> - Pluvia 🌦️ | A weather app with beautiful animations, built with Flutter.</li>
 <li><a href="https://github.com/felangel/bloc" target="_blank" rel="noopener">felangel/bloc</a> - A predictable state management library that helps implement the BLoC design pattern</li>
 <li><a href="https://github.com/SharezoneApp/sharezone-app" target="_blank" rel="noopener">SharezoneApp/sharezone-app</a> - Sharezone is a collaborative school organization app for iOS, Android, macOS and web with +500,000 downloads. Built with Flutter &amp; Firebase.</li>
 <li><a href="https://github.com/sbis04/flutter_camera_demo" target="_blank" rel="noopener">sbis04/flutter_camera_demo</a> - Flutter camera demo</li>
@@ -2209,8 +2286,9 @@
 </ul>
 <h2 id="go">Go</h2>
 <ul>
+<li><a href="https://github.com/maxence-charriere/go-app" target="_blank" rel="noopener">maxence-charriere/go-app</a> - A package to build progressive web apps with Go programming language and WebAssembly.</li>
 <li><a href="https://github.com/cgzirim/seek-tune" target="_blank" rel="noopener">cgzirim/seek-tune</a> - An implementation of Shazam&rsquo;s song recognition algorithm.</li>
-<li><a href="https://github.com/ollama/ollama" target="_blank" rel="noopener">ollama/ollama</a> - Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.</li>
+<li><a href="https://github.com/ollama/ollama" target="_blank" rel="noopener">ollama/ollama</a> - Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, and other large language models.</li>
 <li><a href="https://github.com/simulot/immich-go" target="_blank" rel="noopener">simulot/immich-go</a> - An alternative to the immich-CLI command that doesn&rsquo;t depend on nodejs installation. It tries its best for importing google photos takeout archives.</li>
 <li><a href="https://github.com/navidrome/navidrome" target="_blank" rel="noopener">navidrome/navidrome</a> - 🎧☁️ Your Personal Streaming Service</li>
 <li><a href="https://github.com/AlexxIT/go2rtc" target="_blank" rel="noopener">AlexxIT/go2rtc</a> - Ultimate camera streaming application with support RTSP, RTMP, HTTP-FLV, WebRTC, MSE, HLS, MP4, MJPEG, HomeKit, FFmpeg, etc.</li>
@@ -2233,11 +2311,12 @@
 <ul>
 <li><a href="https://github.com/FluxionNetwork/fluxion" target="_blank" rel="noopener">FluxionNetwork/fluxion</a> - Fluxion is a remake of linset by vk496 with enhanced functionality.</li>
 <li><a href="https://github.com/publiclab/leaflet-multispectral" target="_blank" rel="noopener">publiclab/leaflet-multispectral</a> - Multispectral color manipulation and processing (NDVI etc) for Leaflet image overlays with pure JavaScript in Image Sequencer</li>
-<li><a href="https://github.com/vnglst/pong-wars" target="_blank" rel="noopener">vnglst/pong-wars</a> -</li>
+<li><a href="https://github.com/vnglst/pong-wars" target="_blank" rel="noopener">vnglst/pong-wars</a> - It&rsquo;s the eternal battle between day and night, good and bad. Written in JavaScript with some HTML &amp; CSS in one index.html.</li>
 <li><a href="https://github.com/sanderfrenken/Universal-LPC-Spritesheet-Character-Generator" target="_blank" rel="noopener">sanderfrenken/Universal-LPC-Spritesheet-Character-Generator</a> - Character Generator based on Universal-LPC-Spritesheet</li>
 <li><a href="https://github.com/ebelinski/apilevels" target="_blank" rel="noopener">ebelinski/apilevels</a> - A microsite overview of all Android 🤖 versions and their corresponding API/SDK levels, version codes, codenames, and market shares.</li>
 <li><a href="https://github.com/hunar4321/particle-life" target="_blank" rel="noopener">hunar4321/particle-life</a> - A simple program to simulate artificial life using attraction/reuplsion forces between many particles</li>
 <li><a href="https://github.com/meichthys/foss_photo_libraries" target="_blank" rel="noopener">meichthys/foss_photo_libraries</a> - Free and Open Source Photo Libraries</li>
+<li><a href="https://github.com/ossu/computer-science" target="_blank" rel="noopener">ossu/computer-science</a> - 🎓 Path to a free self-taught education in Computer Science!</li>
 <li><a href="https://github.com/LukaszPawlowski-MS/Optimize-Publish-To-Web" target="_blank" rel="noopener">LukaszPawlowski-MS/Optimize-Publish-To-Web</a> - Shows how to optimize a Power BI Publish to embed code to fit perfectly in a web page.</li>
 <li><a href="https://github.com/russellsamora/scrollama" target="_blank" rel="noopener">russellsamora/scrollama</a> - Scrollytelling with IntersectionObserver.</li>
 <li><a href="https://github.com/FrontendMasters/learning-roadmap" target="_blank" rel="noopener">FrontendMasters/learning-roadmap</a> - The Front-End Developer Learning Roadmap by Frontend Masters</li>
@@ -2300,8 +2379,9 @@
 </ul>
 <h2 id="javascript">JavaScript</h2>
 <ul>
+<li><a href="https://github.com/ZoeyVid/NPMplus" target="_blank" rel="noopener">ZoeyVid/NPMplus</a> - improved fork of nginx-proxy-manager</li>
 <li><a href="https://github.com/PavelDoGreat/WebGL-Fluid-Simulation" target="_blank" rel="noopener">PavelDoGreat/WebGL-Fluid-Simulation</a> - Play with fluids in your browser (works even on mobile)</li>
-<li><a href="https://github.com/willmiao/ComfyUI-Lora-Manager" target="_blank" rel="noopener">willmiao/ComfyUI-Lora-Manager</a> - LoRA Manager for ComfyUI - An extension for managing LoRA models with previews and metadata integration.</li>
+<li><a href="https://github.com/willmiao/ComfyUI-Lora-Manager" target="_blank" rel="noopener">willmiao/ComfyUI-Lora-Manager</a> - LoRA Manager for ComfyUI - A powerful extension for organizing, previewing, and integrating LoRA models with metadata and workflow support.</li>
 <li><a href="https://github.com/murdos/musicbrainz-userscripts" target="_blank" rel="noopener">murdos/musicbrainz-userscripts</a> - Collection of userscripts for MusicBrainz, by various authors</li>
 <li><a href="https://github.com/ronkok/Hurmet" target="_blank" rel="noopener">ronkok/Hurmet</a> - Rich text editor on the web, featuring live calculations.</li>
 <li><a href="https://github.com/stuartmatthews/leaflet-geotiff" target="_blank" rel="noopener">stuartmatthews/leaflet-geotiff</a> - Leaflet plugin for displaying geoTIFF raster data</li>
@@ -2438,6 +2518,7 @@
 </ul>
 <h2 id="markdown">Markdown</h2>
 <ul>
+<li><a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank" rel="noopener">codecrafters-io/build-your-own-x</a> - Master programming by recreating your favorite technologies from scratch.</li>
 <li><a href="https://github.com/selwynpolit/d9book" target="_blank" rel="noopener">selwynpolit/d9book</a> - Drupal at your Fingertips: A developers quick reference for Drupal 9 and 10</li>
 </ul>
 <h2 id="nsis">NSIS</h2>
@@ -2464,8 +2545,9 @@
 </ul>
 <h2 id="others">Others</h2>
 <ul>
+<li><a href="https://github.com/sindresorhus/awesome-whisper" target="_blank" rel="noopener">sindresorhus/awesome-whisper</a> - 🔊 Awesome list for Whisper — an open-source AI-powered speech recognition system developed by OpenAI</li>
 <li><a href="https://github.com/deepseek-ai/DeepSeek-R1" target="_blank" rel="noopener">deepseek-ai/DeepSeek-R1</a> -</li>
-<li><a href="https://github.com/NVIDIAGameWorks/rtx-remix" target="_blank" rel="noopener">NVIDIAGameWorks/rtx-remix</a> - Combined repo for the RTX-Remix runtime</li>
+<li><a href="https://github.com/NVIDIAGameWorks/rtx-remix" target="_blank" rel="noopener">NVIDIAGameWorks/rtx-remix</a> - Combined repo for the RTX-Remix runtime and toolkit</li>
 <li><a href="https://github.com/mlfoundations/MINT-1T" target="_blank" rel="noopener">mlfoundations/MINT-1T</a> - MINT-1T: A one trillion token multimodal interleaved dataset.</li>
 <li><a href="https://github.com/nicanorflavier/spf-dkim-dmarc-simplified" target="_blank" rel="noopener">nicanorflavier/spf-dkim-dmarc-simplified</a> - Email security is a key part of internet communication. But what are SPF, DKIM, and DMARC, and how do they work? This guide will explain it all in simple terms to make these concepts clearer.</li>
 <li><a href="https://github.com/Kavex/GameDev-Resources" target="_blank" rel="noopener">Kavex/GameDev-Resources</a> - &#x1f3ae; &#x1f3b2; A wonderful list of Game Development resources.</li>
@@ -2473,7 +2555,6 @@
 <li><a href="https://github.com/p0rcupine/Contract-Killer" target="_blank" rel="noopener">p0rcupine/Contract-Killer</a> - The Greek version of Contract Killer</li>
 <li><a href="https://github.com/springload/awesome-wagtail" target="_blank" rel="noopener">springload/awesome-wagtail</a> - A curated list of awesome packages, articles, and other cool resources from the Wagtail community.</li>
 <li><a href="https://github.com/Haxxnet/Compose-Examples" target="_blank" rel="noopener">Haxxnet/Compose-Examples</a> - Various Docker Compose examples of selfhosted FOSS and proprietary projects.</li>
-<li><a href="https://github.com/ossu/computer-science" target="_blank" rel="noopener">ossu/computer-science</a> - 🎓 Path to a free self-taught education in Computer Science!</li>
 <li><a href="https://github.com/michiganrobotics/rob501" target="_blank" rel="noopener">michiganrobotics/rob501</a> - Mathematics for Robotics</li>
 <li><a href="https://github.com/meanands/heroku-free-alternatives" target="_blank" rel="noopener">meanands/heroku-free-alternatives</a> - Free tier of Heroku Dynos, Postgres and Data for Redis will no longer be available after November 28, 2022. Let&rsquo;s find a list of services with a free plan that developers can use as an alternative to</li>
 <li><a href="https://github.com/BlitterStudio/AnimPlayer" target="_blank" rel="noopener">BlitterStudio/AnimPlayer</a> - A simple multi-format, multi-platform Anim player</li>
@@ -2571,7 +2652,7 @@
 </ul>
 <h2 id="python">Python</h2>
 <ul>
-<li><a href="https://github.com/alicevision/Meshroom" target="_blank" rel="noopener">alicevision/Meshroom</a> - 3D Reconstruction Software</li>
+<li><a href="https://github.com/dw-0/kiauh" target="_blank" rel="noopener">dw-0/kiauh</a> - Klipper Installation And Update Helper</li>
 <li><a href="https://github.com/exo-explore/exo" target="_blank" rel="noopener">exo-explore/exo</a> - Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚</li>
 <li><a href="https://github.com/deepseek-ai/DeepSeek-V3" target="_blank" rel="noopener">deepseek-ai/DeepSeek-V3</a> -</li>
 <li><a href="https://github.com/soimort/you-get" target="_blank" rel="noopener">soimort/you-get</a> - &#x23ec; Dumb downloader that scrapes the web</li>
@@ -2624,7 +2705,7 @@
 <li><a href="https://github.com/NVlabs/stylegan2-ada-pytorch" target="_blank" rel="noopener">NVlabs/stylegan2-ada-pytorch</a> - StyleGAN2-ADA - Official PyTorch implementation</li>
 <li><a href="https://github.com/LibrePhotos/librephotos" target="_blank" rel="noopener">LibrePhotos/librephotos</a> - A self-hosted open source photo management service. This is the repository of the backend.</li>
 <li><a href="https://github.com/internetarchive/openlibrary" target="_blank" rel="noopener">internetarchive/openlibrary</a> - One webpage for every book ever published!</li>
-<li><a href="https://github.com/Netflix/metaflow" target="_blank" rel="noopener">Netflix/metaflow</a> - Build, Deploy and Manage AI/ML Systems</li>
+<li><a href="https://github.com/Netflix/metaflow" target="_blank" rel="noopener">Netflix/metaflow</a> - Build, Manage and Deploy AI/ML Systems</li>
 <li><a href="https://github.com/NVIDIAGameWorks/kaolin" target="_blank" rel="noopener">NVIDIAGameWorks/kaolin</a> - A PyTorch Library for Accelerating 3D Deep Learning Research</li>
 <li><a href="https://github.com/localstack/localstack" target="_blank" rel="noopener">localstack/localstack</a> - 💻 A fully functional local AWS cloud stack. Develop and test your cloud &amp; Serverless apps offline</li>
 <li><a href="https://github.com/ytisf/theZoo" target="_blank" rel="noopener">ytisf/theZoo</a> - A repository of LIVE malwares for your own joy and pleasure. theZoo is a project created to make the possibility of malware analysis open and available to the public.</li>
@@ -2657,6 +2738,10 @@
 <li><a href="https://github.com/kevinclement/SimpleArmory" target="_blank" rel="noopener">kevinclement/SimpleArmory</a> - World of Warcraft armory site that presents your armory in a simple manor.</li>
 <li><a href="https://github.com/celery/celery" target="_blank" rel="noopener">celery/celery</a> - Distributed Task Queue (development branch)</li>
 </ul>
+<h2 id="qml">QML</h2>
+<ul>
+<li><a href="https://github.com/alicevision/Meshroom" target="_blank" rel="noopener">alicevision/Meshroom</a> - 3D Reconstruction Software</li>
+</ul>
 <h2 id="ruby">Ruby</h2>
 <ul>
 <li><a href="https://github.com/Homebrew/brew" target="_blank" rel="noopener">Homebrew/brew</a> - 🍺 The missing package manager for macOS (or Linux)</li>
@@ -2684,6 +2769,7 @@
 </ul>
 <h2 id="shell">Shell</h2>
 <ul>
+<li><a href="https://github.com/laurent22/rsync-time-backup" target="_blank" rel="noopener">laurent22/rsync-time-backup</a> - Time Machine style backup with rsync.</li>
 <li><a href="https://github.com/quickemu-project/quickemu" target="_blank" rel="noopener">quickemu-project/quickemu</a> - Quickly create and run optimised Windows, macOS and Linux virtual machines</li>
 <li><a href="https://github.com/Naunter/BT_BlockLists" target="_blank" rel="noopener">Naunter/BT_BlockLists</a> - Transmission block list</li>
 <li><a href="https://github.com/nginx-proxy/acme-companion" target="_blank" rel="noopener">nginx-proxy/acme-companion</a> - Automated ACME SSL certificate generation for nginx-proxy</li>
@@ -2725,6 +2811,9 @@
 </ul>
 <h2 id="typescript">TypeScript</h2>
 <ul>
+<li><a href="https://github.com/phosphor-icons/homepage" target="_blank" rel="noopener">phosphor-icons/homepage</a> - The homepage of Phosphor Icons, a flexible icon family for everyone</li>
+<li><a href="https://github.com/microsoft/playwright" target="_blank" rel="noopener">microsoft/playwright</a> - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.</li>
+<li><a href="https://github.com/browserbase/stagehand" target="_blank" rel="noopener">browserbase/stagehand</a> - An AI web browsing framework focused on simplicity and extensibility.</li>
 <li><a href="https://github.com/dzhng/deep-research" target="_blank" rel="noopener">dzhng/deep-research</a> - An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models.  The goal of this repo is to provide the simp</li>
 <li><a href="https://github.com/niivue/niivue" target="_blank" rel="noopener">niivue/niivue</a> - a WebGL2 based medical image viewer. Supports over 30 formats of volumes and meshes.</li>
 <li><a href="https://github.com/SendWithSES/Drag-and-Drop-Email-Designer" target="_blank" rel="noopener">SendWithSES/Drag-and-Drop-Email-Designer</a> - Free, open source, HTML email template editor and no code designer.</li>
@@ -2800,9 +2889,9 @@
       </div>
 
       
-  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-03-10T18:29:39.000Z">
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-03-26T07:20:31.000Z">
     <span>Last updated on</span>
-    Mar 10, 2025</time>
+    Mar 26, 2025</time>
 
       <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
         
@@ -2941,7 +3030,7 @@
     width="96"
     height="96"
     alt="George Litos"
-  src="/author/george-litos/avatar_hu_1207d121522d092e.png"
+  src="/author/george-litos/avatar_hu_fc3ac49b394dc54d.png"
   loading="lazy"
   />
   
