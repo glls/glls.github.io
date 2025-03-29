@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenCV | George Litos</title>
-    <link>http://localhost:1313/tags/opencv/</link>
-      <atom:link href="http://localhost:1313/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/opencv/</link>
+      <atom:link href="https://georgelitos.com/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
     <description>OpenCV</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>OpenCV</title>
-      <link>http://localhost:1313/tags/opencv/</link>
+      <link>https://georgelitos.com/tags/opencv/</link>
     </image>
     
     <item>
       <title>Typhon</title>
-      <link>http://localhost:1313/project/typhon/</link>
+      <link>https://georgelitos.com/project/typhon/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/typhon/</guid>
+      <guid>https://georgelitos.com/project/typhon/</guid>
       <description></description>
     </item>
     

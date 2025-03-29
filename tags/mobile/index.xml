@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile | George Litos</title>
-    <link>http://localhost:1313/tags/mobile/</link>
-      <atom:link href="http://localhost:1313/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/mobile/</link>
+      <atom:link href="https://georgelitos.com/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Apr 2023 16:10:00 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Mobile</title>
-      <link>http://localhost:1313/tags/mobile/</link>
+      <link>https://georgelitos.com/tags/mobile/</link>
     </image>
     
     <item>
       <title>Scrcpy: Display and control your Android device</title>
-      <link>http://localhost:1313/post/scrcpy/</link>
+      <link>https://georgelitos.com/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/scrcpy/</guid>
+      <guid>https://georgelitos.com/post/scrcpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
 This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
@@ -62,10 +62,10 @@ This application mirrors Android devices (video and audio) connected via USB or 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Running scrcpy&#34; srcset=&#34;
-               /post/scrcpy/image1_hu_d66b0ffd360aba34.webp 400w,
-               /post/scrcpy/image1_hu_76e6ef16731cf17a.webp 760w,
-               /post/scrcpy/image1_hu_84bcb1e9a840e002.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/scrcpy/image1_hu_d66b0ffd360aba34.webp&#34;
+               /post/scrcpy/image1_hu_b95819f2c1ca654f.webp 400w,
+               /post/scrcpy/image1_hu_ef3f3e3e90ad76f2.webp 760w,
+               /post/scrcpy/image1_hu_514e3c92a0522802.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu_b95819f2c1ca654f.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

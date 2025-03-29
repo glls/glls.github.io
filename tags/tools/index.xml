@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools | George Litos</title>
-    <link>http://localhost:1313/tags/tools/</link>
-      <atom:link href="http://localhost:1313/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/tools/</link>
+      <atom:link href="https://georgelitos.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <description>Tools</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Apr 2024 18:34:13 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Tools</title>
-      <link>http://localhost:1313/tags/tools/</link>
+      <link>https://georgelitos.com/tags/tools/</link>
     </image>
     
     <item>
       <title>Wireguard: A Better VPN</title>
-      <link>http://localhost:1313/post/wireguard/</link>
+      <link>https://georgelitos.com/post/wireguard/</link>
       <pubDate>Sat, 27 Apr 2024 18:34:13 +0300</pubDate>
-      <guid>http://localhost:1313/post/wireguard/</guid>
+      <guid>https://georgelitos.com/post/wireguard/</guid>
       <description>&lt;p&gt;Virtual Private Networks &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(VPNs)&lt;/a&gt; are essential tools for protecting your online privacy and security. But traditional VPNs can sometimes be slow and bog down your connection. &lt;a href=&#34;https://www.wireguard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WireGuard&lt;/a&gt; is a new, innovative VPN protocol that offers several advantages over traditional options, it has a cool logo too 😎.&lt;/p&gt;
 &lt;p&gt;WireGuard is much simpler and leaner than older VPN protocols. This means it&amp;rsquo;s faster and more efficient, using fewer resources and providing a smoother online experience. On top of that, WireGuard prioritizes strong security. It utilizes modern cryptographic techniques to keep your data safe and encrypted.&lt;/p&gt;
 &lt;p&gt;WireGuard is also easy to set up and use. It&amp;rsquo;s available on a wide range of platforms, including Linux, macOS, Windows, Android, and iOS. You can quickly configure WireGuard to connect to a VPN server and start protecting your online activities.&lt;/p&gt;
@@ -27,9 +27,9 @@
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
+      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
       <description>
 
 
@@ -128,9 +128,9 @@ To remove the black background from an image, use the following command:&lt;/p&g
     
     <item>
       <title>SSH Cheatsheet</title>
-      <link>http://localhost:1313/post/ssh-cheatsheet/</link>
+      <link>https://georgelitos.com/post/ssh-cheatsheet/</link>
       <pubDate>Mon, 12 Feb 2024 09:03:02 +0300</pubDate>
-      <guid>http://localhost:1313/post/ssh-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/ssh-cheatsheet/</guid>
       <description>&lt;p&gt;SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&amp;rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations.&lt;/p&gt;
 &lt;h2 id=&#34;connecting-to-a-server&#34;&gt;Connecting to a Server&lt;/h2&gt;
 &lt;p&gt;The basic syntax for connecting to a server with SSH is:&lt;/p&gt;
@@ -248,9 +248,9 @@ To remove the black background from an image, use the following command:&lt;/p&g
     
     <item>
       <title>Console snippets</title>
-      <link>http://localhost:1313/post/console-snippets/</link>
+      <link>https://georgelitos.com/post/console-snippets/</link>
       <pubDate>Mon, 29 Jan 2024 18:30:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/console-snippets/</guid>
+      <guid>https://georgelitos.com/post/console-snippets/</guid>
       <description>
 
 
@@ -398,7 +398,7 @@ Here are some generic snippets to get you started:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -mindepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -maxdepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -type d -exec git  --git-dir&lt;span class=&#34;o&#34;&gt;={}&lt;/span&gt;/.git --work-tree&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PWD&lt;/span&gt;/&lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; pull &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;miscellaneous-tips&#34;&gt;Miscellaneous tips&lt;/h2&gt;
 &lt;p&gt;For the best terminal filemanager check the post:&lt;br&gt;
-&lt;a href=&#34;http://localhost:1313/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://georgelitos.com/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Use &lt;code&gt;Ctrl + R&lt;/code&gt; to search through your command history&lt;/p&gt;
 &lt;p&gt;Use &lt;code&gt;Ctrl + C&lt;/code&gt; to cancel a running command&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;tmux&lt;/code&gt; and &lt;code&gt;htop&lt;/code&gt; are great tools for managing terminal sessions and monitoring system resources&lt;/p&gt;
@@ -408,9 +408,9 @@ Here are some generic snippets to get you started:&lt;/p&gt;
     
     <item>
       <title>SQL Cheat Sheet</title>
-      <link>http://localhost:1313/post/sql-cheatsheet/</link>
+      <link>https://georgelitos.com/post/sql-cheatsheet/</link>
       <pubDate>Thu, 16 Nov 2023 19:23:33 +0300</pubDate>
-      <guid>http://localhost:1313/post/sql-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/sql-cheatsheet/</guid>
       <description>&lt;p&gt;SQL stands for Structured Query Language. It&amp;rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.&lt;/p&gt;
 &lt;p&gt;There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM)&lt;/p&gt;
 &lt;h3 id=&#34;performance&#34;&gt;Performance&lt;/h3&gt;
@@ -571,9 +571,9 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
     
     <item>
       <title>Git Cheatsheet</title>
-      <link>http://localhost:1313/post/git-cheatsheet/</link>
+      <link>https://georgelitos.com/post/git-cheatsheet/</link>
       <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/git-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
       <description>
 
 
@@ -992,15 +992,15 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;http://localhost:1313/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;https://georgelitos.com/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>MC: a commander like no other</title>
-      <link>http://localhost:1313/post/mc/</link>
+      <link>https://georgelitos.com/post/mc/</link>
       <pubDate>Mon, 05 Jun 2023 09:18:07 +0300</pubDate>
-      <guid>http://localhost:1313/post/mc/</guid>
+      <guid>https://georgelitos.com/post/mc/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander™. It also takes the best from more recent software with similar interfaces. Many years ago, we used file-managers like these, as &amp;ldquo;Norton Commander&amp;rdquo; in DOS, or the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, which is still alive in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;dual-pane-interface-for-seamless-file-management&#34;&gt;Dual-Pane Interface for Seamless File Management&lt;/h2&gt;
@@ -1076,9 +1076,9 @@ The features include:&lt;/p&gt;
     
     <item>
       <title>Scrcpy: Display and control your Android device</title>
-      <link>http://localhost:1313/post/scrcpy/</link>
+      <link>https://georgelitos.com/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/scrcpy/</guid>
+      <guid>https://georgelitos.com/post/scrcpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
 This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
@@ -1124,10 +1124,10 @@ This application mirrors Android devices (video and audio) connected via USB or 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Running scrcpy&#34; srcset=&#34;
-               /post/scrcpy/image1_hu_d66b0ffd360aba34.webp 400w,
-               /post/scrcpy/image1_hu_76e6ef16731cf17a.webp 760w,
-               /post/scrcpy/image1_hu_84bcb1e9a840e002.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/scrcpy/image1_hu_d66b0ffd360aba34.webp&#34;
+               /post/scrcpy/image1_hu_b95819f2c1ca654f.webp 400w,
+               /post/scrcpy/image1_hu_ef3f3e3e90ad76f2.webp 760w,
+               /post/scrcpy/image1_hu_514e3c92a0522802.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu_b95819f2c1ca654f.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1139,9 +1139,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Package Managers - not the evil kind of PMs</title>
-      <link>http://localhost:1313/post/pkgman/</link>
+      <link>https://georgelitos.com/post/pkgman/</link>
       <pubDate>Tue, 21 Mar 2023 21:27:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/pkgman/</guid>
+      <guid>https://georgelitos.com/post/pkgman/</guid>
       <description>
 
 
@@ -1198,10 +1198,10 @@ And thank you for making our coding lives bright!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Scoop&#34; srcset=&#34;
-               /post/pkgman/scoop_hu_cb4361b63396390.webp 400w,
-               /post/pkgman/scoop_hu_f12f9cb7fab7e1b7.webp 760w,
-               /post/pkgman/scoop_hu_5b98ad82382843dd.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/scoop_hu_cb4361b63396390.webp&#34;
+               /post/pkgman/scoop_hu_cd26db553cdc76d.webp 400w,
+               /post/pkgman/scoop_hu_a797486c950c1f6f.webp 760w,
+               /post/pkgman/scoop_hu_500bed4b9d60b5d0.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/scoop_hu_cd26db553cdc76d.webp&#34;
                width=&#34;760&#34;
                height=&#34;315&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1247,10 +1247,10 @@ Scoop is a command-line installer for Windows that allows users to easily instal
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Homebrew&#34; srcset=&#34;
-               /post/pkgman/homebrew_hu_5d74178367052408.webp 400w,
-               /post/pkgman/homebrew_hu_d6b544c03d7e8511.webp 760w,
-               /post/pkgman/homebrew_hu_526f24278b27f896.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/homebrew_hu_5d74178367052408.webp&#34;
+               /post/pkgman/homebrew_hu_f623ad60f4fc7f95.webp 400w,
+               /post/pkgman/homebrew_hu_dfb3fcb5307c2dc8.webp 760w,
+               /post/pkgman/homebrew_hu_a7d1600af8ccf8f2.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hu_f623ad60f4fc7f95.webp&#34;
                width=&#34;760&#34;
                height=&#34;611&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1288,10 +1288,10 @@ That the apps are already hand-picked and that they are fully categorized! You c
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Patch My PC&#34; srcset=&#34;
-               /post/pkgman/pmpc_hu_394a150b25053eda.webp 400w,
-               /post/pkgman/pmpc_hu_595a3e1335288e58.webp 760w,
-               /post/pkgman/pmpc_hu_13d9013f87b9b2dd.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/pmpc_hu_394a150b25053eda.webp&#34;
+               /post/pkgman/pmpc_hu_1499906b710a97e6.webp 400w,
+               /post/pkgman/pmpc_hu_5876ad7a329f227f.webp 760w,
+               /post/pkgman/pmpc_hu_2d891c368fdf19e1.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hu_1499906b710a97e6.webp&#34;
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1319,9 +1319,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Buku: a powerful bookmark manager</title>
-      <link>http://localhost:1313/post/buku/</link>
+      <link>https://georgelitos.com/post/buku/</link>
       <pubDate>Sat, 18 Mar 2023 20:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/buku/</guid>
+      <guid>https://georgelitos.com/post/buku/</guid>
       <description>&lt;p&gt;Are you tired of losing track of your bookmarks across multiple browsers? Look no further than Buku, the powerful bookmark manager that imports bookmarks from all your browsers, works on console and has a web-based server.&lt;/p&gt;
 &lt;p&gt;With Buku, you can easily organize your bookmarks into categories and tags, making it easy to find exactly what you need. Plus, Buku&amp;rsquo;s powerful search feature allows you to quickly locate any bookmark in your collection.&lt;/p&gt;
 &lt;p&gt;One of the most unique features of Buku is its powerful console interface:&lt;/p&gt;
@@ -1347,10 +1347,10 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screenshot&#34; srcset=&#34;
-               /post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp 400w,
-               /post/buku/screenshot-buku_hu_3fe16ee851a5e5d0.webp 760w,
-               /post/buku/screenshot-buku_hu_bef1171e20f4b4ec.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp&#34;
+               /post/buku/screenshot-buku_hu_b4166048b3ae19d9.webp 400w,
+               /post/buku/screenshot-buku_hu_4d09422de59ae610.webp 760w,
+               /post/buku/screenshot-buku_hu_459c79990b69a219.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hu_b4166048b3ae19d9.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1363,9 +1363,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>How to bypass Git Hooks</title>
-      <link>http://localhost:1313/post/git-bypass/</link>
+      <link>https://georgelitos.com/post/git-bypass/</link>
       <pubDate>Wed, 08 Mar 2023 12:42:52 +0200</pubDate>
-      <guid>http://localhost:1313/post/git-bypass/</guid>
+      <guid>https://georgelitos.com/post/git-bypass/</guid>
       <description>&lt;p&gt;&lt;code&gt;git push --no-verify&lt;/code&gt; is a command used to push your local changes to a remote repository without running pre-commit hooks or pre-push hooks. Pre-commit hooks and pre-push hooks are scripts that run before a commit or a push, and they are used to perform automated tests, code quality checks, or other actions that help ensure the quality and correctness of your code. You can use &lt;a href=&#34;https://github.com/typicode/husky&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;husky&lt;/a&gt; or &lt;a href=&#34;https://pre-commit.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pre-commit&lt;/a&gt; if you need extra features or just production ready tools.&lt;/p&gt;
 &lt;p&gt;Sometimes, you may need to bypass these hooks and push your changes without running them. For example, if you&amp;rsquo;re in a hurry and you need to push a critical bug fix, or if you&amp;rsquo;re working in a team with strict code review policies and you need to push a work-in-progress commit for collaboration purposes.&lt;/p&gt;
 &lt;p&gt;To use it simply add the &lt;code&gt;--no-verify&lt;/code&gt; flag to your git push command:&lt;/p&gt;
@@ -1373,15 +1373,15 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will push your changes to the remote repository without running the pre-commit or pre-push hooks.&lt;/p&gt;
 &lt;p&gt;However, it&amp;rsquo;s important to note that using &amp;ndash;no-verify should be done with caution, as it can potentially lead to lower code quality and a higher risk of introducing bugs or other issues into your codebase. Therefore, it&amp;rsquo;s recommended to only use &amp;ndash;no-verify when it&amp;rsquo;s absolutely necessary and always double-check your code before pushing it to a remote repository.&lt;/p&gt;
 &lt;p&gt;You can check the &lt;a href=&#34;https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-verify&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Git Documentation.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;http://localhost:1313/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;https://georgelitos.com/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Breaking the Barrier</title>
-      <link>http://localhost:1313/post/barrier/</link>
+      <link>https://georgelitos.com/post/barrier/</link>
       <pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/barrier/</guid>
+      <guid>https://georgelitos.com/post/barrier/</guid>
       <description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;
 &lt;p&gt;
 
@@ -1421,9 +1421,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Free your notes with Joplin</title>
-      <link>http://localhost:1313/post/joplin/</link>
+      <link>https://georgelitos.com/post/joplin/</link>
       <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/joplin/</guid>
+      <guid>https://georgelitos.com/post/joplin/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
 &lt;p&gt;One of the main features of Joplin is its ability to synchronize notes across multiple devices. Joplin also supports the use of multiple storage options, including the local file system, Dropbox, OneDrive, and WebDAV and more. In my case I use the local file system and synchronize the notes with my Synology NAS via &amp;ldquo;Cloud Station Drive&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;The notes are in &lt;a href=&#34;https://www.markdownguide.org/tools/joplin/#joplin-markdown-support&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown format&lt;/a&gt;. Joplin is available as a &lt;strong&gt;💻 desktop&lt;/strong&gt;, &lt;strong&gt;📱 mobile&lt;/strong&gt; and &lt;strong&gt;🔡 terminal&lt;/strong&gt; application.&lt;/p&gt;
@@ -1436,9 +1436,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/git/</link>
+      <link>https://georgelitos.com/slides/git/</link>
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/git/</guid>
+      <guid>https://georgelitos.com/slides/git/</guid>
       <description>&lt;section&gt;
 &lt;h1 id=&#34;git&#34;&gt;Git&lt;/h1&gt;
 &lt;h2 id=&#34;not-just-version-control&#34;&gt;not just version control&lt;/h2&gt;
@@ -1461,7 +1461,7 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;git&#34;
-           src=&#34;http://localhost:1313/slides/git/org.gnome.gitg.svg&#34;
+           src=&#34;https://georgelitos.com/slides/git/org.gnome.gitg.svg&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
@@ -1478,14 +1478,14 @@ Since 2005, Junio Hamano has been the core maintainer.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;tech-talk&#34;&gt;Tech Talk&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4XpnKHJAok8&amp;amp;t=90s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linus Torvalds on git&lt;/a&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/linus.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/linus.png&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;Git is alive&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;december-12-2022&#34;&gt;December 12, 2022&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.blog/2022-12-12-highlights-from-git-2-39/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git is alive and actively developed&lt;/a&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/git239.webp&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/git239.webp&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Official site&lt;/a&gt;&lt;/p&gt;
@@ -1493,14 +1493,14 @@ Since 2005, Junio Hamano has been the core maintainer.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;SO Survey 2021&lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&#34;stack-overflow-developer-survey-2021&#34;&gt;Stack Overflow Developer Survey 2021&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://insights.stackoverflow.com/survey/2021#most-popular-technologies-tools-tech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Over 90% of respondents use Git, suggesting that it is a fundamental tool to being a developer.&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/so2021.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/so2021.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
 &lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;SO Survey 2022&lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&#34;stack-overflow-developer-survey-2022&#34;&gt;Stack Overflow Developer Survey 2022&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://survey.stackoverflow.co/2022/#section-version-control-version-control-systems&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;No other technology is as widely used as Git. Especially among Professional Developers.&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/so2022.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/so2022.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Q: What are the primary version control systems you use?&lt;/p&gt;
@@ -1668,13 +1668,13 @@ ommit message,HA-1 checksum.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;a-successful-git-branching-model&#34;&gt;A successful Git branching model&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://nvie.com/posts/a-successful-git-branching-model/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;By Vincent Driessen&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/git-model.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/git-model.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
 &lt;h2 id=&#34;gitflow-workflow&#34;&gt;Gitflow Workflow&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Atlassian Tutorial&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/branches.svg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/branches.svg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
@@ -1739,7 +1739,7 @@ ommit message,HA-1 checksum.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;in case of fire&#34;
-           src=&#34;http://localhost:1313/slides/git/in_case_of_fire.svg&#34;
+           src=&#34;https://georgelitos.com/slides/git/in_case_of_fire.svg&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;

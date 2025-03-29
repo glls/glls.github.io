@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Semantic Annotation | George Litos</title>
-    <link>http://localhost:1313/tags/semantic-annotation/</link>
-      <atom:link href="http://localhost:1313/tags/semantic-annotation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/semantic-annotation/</link>
+      <atom:link href="https://georgelitos.com/tags/semantic-annotation/index.xml" rel="self" type="application/rss+xml" />
     <description>Semantic Annotation</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2011 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
       <title>Semantic Annotation</title>
-      <link>http://localhost:1313/tags/semantic-annotation/</link>
+      <link>https://georgelitos.com/tags/semantic-annotation/</link>
     </image>
     
     <item>
       <title>A Survey of Semantic Image and Video Annotation Tools</title>
-      <link>http://localhost:1313/publication/semantic-survey/</link>
+      <link>https://georgelitos.com/publication/semantic-survey/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/semantic-survey/</guid>
+      <guid>https://georgelitos.com/publication/semantic-survey/</guid>
       <description></description>
     </item>
     
