@@ -2,21 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Video | George Litos</title>
-    <link>https://georgelitos.com/tags/video/</link>
-      <atom:link href="https://georgelitos.com/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/video/</link>
+      <atom:link href="http://localhost:1313/tags/video/index.xml" rel="self" type="application/rss+xml" />
     <description>Video</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Mar 2024 02:40:22 +0300</lastBuildDate>
     <image>
+<<<<<<< HEAD
       <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
+=======
+      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+>>>>>>> 69c22dc5 (Search index rebuilt)
       <title>Video</title>
-      <link>https://georgelitos.com/tags/video/</link>
+      <link>http://localhost:1313/tags/video/</link>
     </image>
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
+      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
       <description>
 
 

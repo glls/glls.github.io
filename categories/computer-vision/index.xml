@@ -2,37 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computer Vision | George Litos</title>
-    <link>https://georgelitos.com/categories/computer-vision/</link>
-      <atom:link href="https://georgelitos.com/categories/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/categories/computer-vision/</link>
+      <atom:link href="http://localhost:1313/categories/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     <description>Computer Vision</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Apr 2012 00:00:00 +0000</lastBuildDate>
     <image>
+<<<<<<< HEAD
       <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
+=======
+      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+>>>>>>> 69c22dc5 (Search index rebuilt)
       <title>Computer Vision</title>
-      <link>https://georgelitos.com/categories/computer-vision/</link>
+      <link>http://localhost:1313/categories/computer-vision/</link>
     </image>
     
     <item>
       <title>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</title>
-      <link>https://georgelitos.com/publication/3d-object-retrieval/</link>
+      <link>http://localhost:1313/publication/3d-object-retrieval/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>https://georgelitos.com/publication/3d-object-retrieval/</guid>
+      <guid>http://localhost:1313/publication/3d-object-retrieval/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SHREC’11 Track: Generic Shape Retrieval</title>
-      <link>https://georgelitos.com/publication/shrec/</link>
+      <link>http://localhost:1313/publication/shrec/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>https://georgelitos.com/publication/shrec/</guid>
+      <guid>http://localhost:1313/publication/shrec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</title>
-      <link>https://georgelitos.com/publication/3d-model-retrieval/</link>
+      <link>http://localhost:1313/publication/3d-model-retrieval/</link>
       <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
-      <guid>https://georgelitos.com/publication/3d-model-retrieval/</guid>
+      <guid>http://localhost:1313/publication/3d-model-retrieval/</guid>
       <description></description>
     </item>
     
