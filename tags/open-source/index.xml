@@ -7,7 +7,7 @@
     <description>Open Source</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Jun 2023 09:18:07 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Open Source</title>
       <link>https://georgelitos.com/tags/open-source/</link>
     </image>
@@ -140,10 +140,10 @@ This application mirrors Android devices (video and audio) connected via USB or 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Running scrcpy&#34; srcset=&#34;
-               /post/scrcpy/image1_hu_b95819f2c1ca654f.webp 400w,
-               /post/scrcpy/image1_hu_ef3f3e3e90ad76f2.webp 760w,
-               /post/scrcpy/image1_hu_514e3c92a0522802.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu_b95819f2c1ca654f.webp&#34;
+               /post/scrcpy/image1_hu_d66b0ffd360aba34.webp 400w,
+               /post/scrcpy/image1_hu_76e6ef16731cf17a.webp 760w,
+               /post/scrcpy/image1_hu_84bcb1e9a840e002.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu_d66b0ffd360aba34.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -183,10 +183,10 @@ This application mirrors Android devices (video and audio) connected via USB or 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screenshot&#34; srcset=&#34;
-               /post/buku/screenshot-buku_hu_b4166048b3ae19d9.webp 400w,
-               /post/buku/screenshot-buku_hu_4d09422de59ae610.webp 760w,
-               /post/buku/screenshot-buku_hu_459c79990b69a219.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hu_b4166048b3ae19d9.webp&#34;
+               /post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp 400w,
+               /post/buku/screenshot-buku_hu_3fe16ee851a5e5d0.webp 760w,
+               /post/buku/screenshot-buku_hu_bef1171e20f4b4ec.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
