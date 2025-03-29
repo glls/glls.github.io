@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cheatsheet | George Litos</title>
+    <link>https://georgelitos.com/tags/cheatsheet/</link>
+      <atom:link href="https://georgelitos.com/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cheatsheet</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Mar 2024 02:40:22 +0300</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <title>Cheatsheet</title>
+      <link>https://georgelitos.com/tags/cheatsheet/</link>
+    </image>
+    
+    <item>
+      <title>Image and Video Cheat Sheet</title>
+      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
+      <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
+      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; &gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#image-manipulation&#34;&gt;Image Manipulation&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#resize-images&#34;&gt;Resize Images&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#remove-background&#34;&gt;Remove background&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#extent-canvas-size-with-transparency&#34;&gt;Extent canvas size with transparency&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#looping-gifs-ever-wanted-a-gif-to-play-endlessly&#34;&gt;Looping GIFs: Ever wanted a GIF to play endlessly?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#creating-gifs-with-transparency-want-a-gif-with-clear-backgrounds&#34;&gt;Creating GIFs with Transparency: Want a GIF with clear backgrounds?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#png-optimization&#34;&gt;PNG optimization&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#svg-to-png-conversion&#34;&gt;SVG to PNG Conversion&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#audio-manipulation&#34;&gt;Audio Manipulation&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#generate-audio-from-console&#34;&gt;Generate audio from console&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#video-manipulation&#34;&gt;Video Manipulation&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#extract-a-video-segment-from-a-larger-video-file-using-ffmpeg&#34;&gt;Extract a video segment from a larger video file using &lt;code&gt;ffmpeg&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#downloading-videos&#34;&gt;Downloading Videos&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#playing-a-video-stream-from-the-command-line-with-mpv&#34;&gt;Playing a video stream from the command line with &lt;code&gt;mpv&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;The command line might seem intimidating, but it offers hidden gems for everyday tasks. Today, we&amp;rsquo;ll explore its power for image and video conversions, giving you more control over your media files for future reference or projects.&lt;/p&gt;
+&lt;h2 id=&#34;image-manipulation&#34;&gt;Image Manipulation&lt;/h2&gt;
+&lt;p&gt;Here are some examples of how to manipulate images with ImageMagick&amp;rsquo;s tools, as always there are tons of options available, so make sure to check the &lt;a href=&#34;https://imagemagick.org/script/convert.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official documentation&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TIP: parameter order matters a lot in ImageMagick&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;resize-images&#34;&gt;Resize Images&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;magick input.png -resize 100x200 output.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mogrify -resize 50% *.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;remove-background&#34;&gt;Remove background&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://imagemagick.org/Usage/masking/#bg_remove&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ImageMagick Examples&lt;/a&gt;&lt;br&gt;
+To remove the black background from an image, use the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; magick input.png -fuzz 5% -transparent black out.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;extent-canvas-size-with-transparency&#34;&gt;Extent canvas size with transparency&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;convert input.png -background none -gravity center -extent 512x512 output.png
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mogrify -background none -gravity center -extent 512x512 *.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;looping-gifs-ever-wanted-a-gif-to-play-endlessly&#34;&gt;Looping GIFs: Ever wanted a GIF to play endlessly?&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;convert -delay &lt;span class=&#34;m&#34;&gt;20&lt;/span&gt; -loop &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; nonloopingImage.gif loopingImage.gif
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This creates a looping version of &lt;code&gt;nonloopingImage.gif&lt;/code&gt; with a delay of 20 milliseconds between frames. Adjust the delay for faster or slower playback. The &lt;code&gt;-loop 0&lt;/code&gt; sets unlimited loops.&lt;/p&gt;
+&lt;h3 id=&#34;creating-gifs-with-transparency-want-a-gif-with-clear-backgrounds&#34;&gt;Creating GIFs with Transparency: Want a GIF with clear backgrounds?&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;magick -delay &lt;span class=&#34;m&#34;&gt;100&lt;/span&gt; -loop &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; -dispose previous *.png hands.gif
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command combines all PNG files in the current directory (replace &lt;code&gt;*.png&lt;/code&gt; with specific filenames if needed) into a GIF named &lt;code&gt;hands.gif&lt;/code&gt;. The &lt;code&gt;-delay 100&lt;/code&gt; sets a delay of 100 milliseconds, &lt;code&gt;-loop 0&lt;/code&gt; enables infinite looping, and &lt;code&gt;-dispose&lt;/code&gt; previous ensures transparency in the final GIF.&lt;/p&gt;
+&lt;h3 id=&#34;png-optimization&#34;&gt;PNG optimization&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;optipng&lt;/code&gt; is a command-line tool that optimizes PNG images to reduce file size without losing quality. Here&amp;rsquo;s how to use it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;optipng -strip all image.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;svg-to-png-conversion&#34;&gt;SVG to PNG Conversion&lt;/h3&gt;
+&lt;p&gt;Scalable Vector Graphics (SVG) are perfect for logos and icons, but sometimes you need a PNG image. Here&amp;rsquo;s how to convert SVG to PNG using &lt;code&gt;rsvg-convert&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rsvg-convert -h &lt;span class=&#34;m&#34;&gt;32&lt;/span&gt; icon.svg &amp;gt; icon-32.png
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command converts &lt;code&gt;icon.svg&lt;/code&gt; to a PNG named &lt;code&gt;icon-32.png&lt;/code&gt; with a height of 32 pixels. Replace 32 with your desired pixel height or width for a specific aspect ratio.&lt;/p&gt;
+&lt;h2 id=&#34;audio-manipulation&#34;&gt;Audio Manipulation&lt;/h2&gt;
+&lt;h3 id=&#34;generate-audio-from-console&#34;&gt;Generate audio from console&lt;/h3&gt;
+&lt;p&gt;Play a sine wave at 234Hz for 5 seconds using the play command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;play -n synth &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt; sin &lt;span class=&#34;m&#34;&gt;234&lt;/span&gt; hz
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here&amp;rsquo;s a breakdown of the options used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-n&lt;/code&gt; This option tells play to play the sound only once (for 5 seconds in this case).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;synth&lt;/code&gt; This specifies that we want to generate a synthesized sound.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;5&lt;/code&gt; This is the duration in seconds for which the sound will be played.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sin&lt;/code&gt; This keyword tells play to generate a sine wave.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;234 hz&lt;/code&gt; This defines the frequency of the sine wave as 234 Hertz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Make sure you have the &lt;code&gt;play&lt;/code&gt; command from &lt;a href=&#34;https://software.umich.edu/titles/sox&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SoX&lt;/a&gt; installed on your system for this to work.&lt;/p&gt;
+&lt;h2 id=&#34;video-manipulation&#34;&gt;Video Manipulation&lt;/h2&gt;
+&lt;h3 id=&#34;extract-a-video-segment-from-a-larger-video-file-using-ffmpeg&#34;&gt;Extract a video segment from a larger video file using &lt;code&gt;ffmpeg&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fmpeg -i Untitled.mp3 -t 00:00:09 -acodec copy output.mp3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-t 00:00:09&lt;/code&gt;: set output duration to 9 seconds. Here, 00 represents hours and minutes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-acodec copy&lt;/code&gt;: copy the audio stream from the input file without re-encoding it. This is efficient if you don&amp;rsquo;t need to modify the audio quality.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall, this command extracts a 9-second segment from your &lt;code&gt;Untitled.mp3&lt;/code&gt; file and saves it as &lt;code&gt;output.mp3&lt;/code&gt; while preserving the original audio quality.&lt;/p&gt;
+&lt;h3 id=&#34;downloading-videos&#34;&gt;Downloading Videos&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ytdl-org/youtube-dl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;youtube-dl&lt;/a&gt; works on OS X, Linux and Windows, and can download videos in any format YouTube provides.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Video DownloadHelper&lt;/a&gt; is a Firefox/Chrome extension for downloading videos from many sites with minimum effort.&lt;/p&gt;
+&lt;h3 id=&#34;playing-a-video-stream-from-the-command-line-with-mpv&#34;&gt;Playing a video stream from the command line with &lt;code&gt;mpv&lt;/code&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mpv --cache-on-disk stream_93b9d36741fe2f46.m3u
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Check the official page for more info &lt;a href=&#34;https://mpv.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mpv.io/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SSH Cheatsheet</title>
+      <link>https://georgelitos.com/post/ssh-cheatsheet/</link>
+      <pubDate>Mon, 12 Feb 2024 09:03:02 +0300</pubDate>
+      <guid>https://georgelitos.com/post/ssh-cheatsheet/</guid>
+      <description>&lt;p&gt;SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&amp;rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations.&lt;/p&gt;
+&lt;h2 id=&#34;connecting-to-a-server&#34;&gt;Connecting to a Server&lt;/h2&gt;
+&lt;p&gt;The basic syntax for connecting to a server with SSH is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh username@server_address &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;-p port_number&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;:  Your username on the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_address&lt;/code&gt;:  The IP address or hostname of the server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;port_number&lt;/code&gt;:  The port number used by the SSH server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;password-vs-key-based-authentication&#34;&gt;Password vs. Key-Based Authentication&lt;/h2&gt;
+&lt;p&gt;You can connect to a server using a password or a public/private key pair. Key-based authentication is generally considered more secure as it eliminates the need to transmit passwords over the network.&lt;/p&gt;
+&lt;h2 id=&#34;basic-file-transfer&#34;&gt;Basic File Transfer&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;scp (Secure Copy):&lt;/strong&gt;  Used to securely copy files between your local machine and the remote server.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To copy a file from the remote server to your local machine:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scp username@server_address:/path/to/file local_destination
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;To copy a file from your local machine to the remote server:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scp local_file username@server_address:/path/to/destination
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;remote-commands&#34;&gt;Remote Commands&lt;/h2&gt;
+&lt;p&gt;You can execute commands on the remote server directly from your local terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh username@server_address &lt;span class=&#34;s1&#34;&gt;&amp;#39;command_to_execute&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;command_to_execute&lt;/code&gt;:  The command you want to run on the remote server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;understanding-the-ssh-directory&#34;&gt;Understanding the .ssh Directory&lt;/h2&gt;
+&lt;p&gt;The hidden directory  &lt;code&gt;~/.ssh&lt;/code&gt; (on Unix-based systems) stores SSH configuration files specific to your user account. It&amp;rsquo;s typically not created by default, but SSH will create it if it&amp;rsquo;s missing when you first use a key-based authentication or configure the client. Common files you might find in this directory include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;id_rsa (private key):&lt;/strong&gt; This file contains your private SSH key, used for key-based authentication. It should be kept secret and have strict permissions to prevent unauthorized access.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;id_rsa.pub (public key):&lt;/strong&gt; This public key file corresponds to your private key and can be added to authorized keys on servers you want to connect to.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;config (SSH configuration file):&lt;/strong&gt; This file allows you to define connection options for specific servers or set global defaults for SSH.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;exploring-the-ssh-config-file&#34;&gt;Exploring the SSH Config File&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;config&lt;/code&gt; file within the &lt;code&gt;.ssh&lt;/code&gt; directory is a powerful tool for customizing SSH connections. It uses a simple format with options and arguments to define settings. Here are some common uses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Host definitions:&lt;/strong&gt; You can create sections for specific servers (identified by hostname or IP address) and define options for those connections, such as port, username, and IdentityFile (path to your private key).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Global options:&lt;/strong&gt; You can set default settings for all SSH connections, like preferred encryption ciphers or preferred authentication methods.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aliases:&lt;/strong&gt; You can define aliases for servers to simplify connection commands. For example, you could create an alias for a server with a long hostname to make connecting easier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ssh-tunneling&#34;&gt;SSH Tunneling&lt;/h2&gt;
+&lt;p&gt;SSH tunneling, also known as SSH port forwarding, is a powerful feature that allows you to create secure connections between your local machine and a remote server. It essentially creates an encrypted tunnel through which you can forward traffic between different ports. This can be useful for various purposes, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Securely accessing remote services:&lt;/strong&gt; If a server offers a service on a non-standard port (for example, a web server on port 8080 instead of the usual port 80), you can use SSH tunneling to securely access it as if it were running on the standard port on your local machine.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tunneling traffic through firewalls:&lt;/strong&gt; Firewalls might restrict access to certain ports. By tunneling traffic through an SSH connection, you can bypass these restrictions and access the desired service. (&lt;strong&gt;Note:&lt;/strong&gt; This should only be done with proper authorization and caution)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creating SOCKS proxies:&lt;/strong&gt; SSH tunnels can be configured to function as SOCKS proxies, allowing you to route all your internet traffic through the secure SSH connection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are two main types of SSH tunneling:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Local Port Forwarding:&lt;/strong&gt; This forwards traffic from a specific port on your local machine to a port on the remote server. Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say you want to securely access a web server running on port 8080 on a remote server. You can use local port forwarding to map port 8080 on the remote server to a different port (e.g., port 8000) on your local machine. By accessing &lt;code&gt;http://localhost:8000&lt;/code&gt; in your web browser, the traffic will be securely tunneled through the SSH connection and reach the web server on the remote machine.&lt;/p&gt;
+&lt;p&gt;The command for this scenario would be:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh -L 8000:localhost:8080 username@server_address
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-L&lt;/code&gt;: Flag for local port forwarding.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;8000&lt;/code&gt;: Local port on your machine where you want to access the service.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;localhost:8080&lt;/code&gt;: The destination on the remote server (localhost refers to the remote server itself in this case).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;: Your username on the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_address&lt;/code&gt;: The IP address or hostname of the remote server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Remote Port Forwarding (Reverse Tunneling):&lt;/strong&gt; This forwards traffic from a port on the remote server to a specific port on another machine on your network. This can be useful for exposing services running on the remote server to other machines on your local network.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;p&gt;Imagine you have a database server running on a remote server behind a firewall, but you need to access it from your local machine. You can set up remote port forwarding to expose the database port (e.g., port 3306) on the remote server to a different port (e.g., port 5432) on your local machine. This allows you to connect to the database server using your local database client as if it were running locally.&lt;/p&gt;
+&lt;p&gt;The command for this scenario would be:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh -R 5432:localhost:3306 username@server_address
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-R&lt;/code&gt;: Flag for remote port forwarding.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;5432&lt;/code&gt;: Port on your local machine that will be forwarded to the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;localhost:3306&lt;/code&gt;: The destination on the remote server (localhost refers to the remote server itself in this case).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;username&lt;/code&gt;: Your username on the remote server.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;server_address&lt;/code&gt;: The IP address or hostname of the remote server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are just a couple of basic examples of SSH tunneling. With some exploration, you&amp;rsquo;ll find many other use cases for this versatile tool. Remember, it&amp;rsquo;s important to understand the security implications before implementing SSH tunnels, especially when bypassing firewalls.&lt;/p&gt;
+&lt;h2 id=&#34;ssh-commands&#34;&gt;SSH Commands&lt;/h2&gt;
+&lt;p&gt;Here are some common SSH commands and their use cases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ssh-keygen&lt;/code&gt;: Generates a new SSH key pair.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-copy-id user@host&lt;/code&gt;: Copies your public key to a remote server&amp;rsquo;s authorized keys file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-agent&lt;/code&gt;: Manages your SSH keys and allows you to enter passphrases only once.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-add&lt;/code&gt;: Adds private keys to the SSH agent.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh -o PubkeyAuthentication=no user@host&lt;/code&gt;: Disables public key authentication for a specific SSH session.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-keygen -f &amp;quot;/home/user/.ssh/known_hosts&amp;quot; -R &amp;quot;192.168.1.1&amp;quot;&lt;/code&gt; : Removes a specific host entry from the known_hosts file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh -J jump_host user@target_host&lt;/code&gt;: Connects to a target host via a jump host (SSH bastion).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips-and-tricks&#34;&gt;Tips and Tricks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Use &lt;code&gt;ssh&lt;/code&gt; and then &lt;code&gt;tmux&lt;/code&gt; if you want to persist your session in case of network interruptions. This way, you can reconnect to your session and continue where you left off.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use config aliases to simplify your SSH connections. For example, you can define an alias for a server with a long hostname and non-standard port to save time typing the connection command.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Always use strong, unique passwords or passphrase-protected SSH keys to secure your connections. Avoid using default usernames like &amp;ldquo;root&amp;rdquo; and disable password-based authentication if possible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tunneling through SSH can be a powerful tool, espessially for developers, but it should be used responsibly and with caution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Remember to always keep your SSH keys secure and avoid sharing them with unauthorized users. Regularly update your keys and rotate them if necessary to maintain a high level of security.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Console snippets</title>
+      <link>https://georgelitos.com/post/console-snippets/</link>
+      <pubDate>Mon, 29 Jan 2024 18:30:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/console-snippets/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; &gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#basic-commands&#34;&gt;Basic commands&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#navigation&#34;&gt;Navigation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#file-manipulation&#34;&gt;File manipulation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#permissions&#34;&gt;Permissions&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#system-information&#34;&gt;System Information&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#process-management&#34;&gt;Process Management&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#help-and-man-pages&#34;&gt;Help and Man Pages&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#bonus&#34;&gt;Bonus&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#one-liners&#34;&gt;One liners&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#file-and-directory-manipulation&#34;&gt;File and directory manipulation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#system-administration&#34;&gt;System Administration&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#network-tools&#34;&gt;Network Tools&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#specific-snippets&#34;&gt;Specific snippets&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#miscellaneous-tips&#34;&gt;Miscellaneous tips&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;The &lt;code&gt;console&lt;/code&gt; offers a powerful way to interact with your system and increase your productivity.&lt;br&gt;
+Most snippets work in both Linux and MacOS terminals.&lt;br&gt;
+Here are some generic snippets to get you started:&lt;/p&gt;
+&lt;h2 id=&#34;basic-commands&#34;&gt;Basic commands&lt;/h2&gt;
+&lt;h3 id=&#34;navigation&#34;&gt;Navigation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cd &amp;lt;directory&amp;gt;&lt;/code&gt;: Change directory. (e.g. &lt;code&gt;cd Documents&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pwd&lt;/code&gt;: Print Working Directory (shows your current location)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls&lt;/code&gt;: List directory contents (-lah &amp;ndash;color for details and color)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir &amp;lt;directory&amp;gt;&lt;/code&gt;: Create a new directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;file-manipulation&#34;&gt;File manipulation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;touch &amp;lt;filename&amp;gt;&lt;/code&gt;: Create an empty file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cat &amp;lt;filename&amp;gt;&lt;/code&gt;: Display file contents&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cp &amp;lt;source&amp;gt; &amp;lt;destination&amp;gt;&lt;/code&gt;: Copy a file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mv &amp;lt;source&amp;gt; &amp;lt;destination&amp;gt;&lt;/code&gt;: Move/Rename a file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rm &amp;lt;filename&amp;gt;&lt;/code&gt;: Delete a file (use with caution!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;permissions&#34;&gt;Permissions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;chmod &amp;lt;permissions&amp;gt; &amp;lt;filename&amp;gt;&lt;/code&gt;: Change file permissions (owner, group, others)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chown &amp;lt;owner&amp;gt;:&amp;lt;group&amp;gt; &amp;lt;filename&amp;gt;&lt;/code&gt;: Change file owner (with optional group)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chgrp &amp;lt;group&amp;gt; &amp;lt;filename&amp;gt;&lt;/code&gt;: Change file group&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo &amp;lt;command&amp;gt;&lt;/code&gt;: Run a command as superuser (root)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;su - &amp;lt;username&amp;gt;&lt;/code&gt;: Switch to another user account&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;system-information&#34;&gt;System Information&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;whoami&lt;/code&gt;: Shows your current username&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;w&lt;/code&gt;: Shows who is logged in and what they are doing&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;df&lt;/code&gt;: Show disk usage (-hT human-readable with filesystem type)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;blkid&lt;/code&gt;: Show block device information&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;free -h&lt;/code&gt;: Show available memory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;uname -a&lt;/code&gt;: Show detailed system information&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lscpu&lt;/code&gt;: Show CPU information&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lsb_release -a&lt;/code&gt;: Show Linux distribution information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;process-management&#34;&gt;Process Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ps aux&lt;/code&gt;: List all running processes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;top&lt;/code&gt;: Monitor system resources and processes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;kill &amp;lt;PID&amp;gt;&lt;/code&gt;: Kill a process by its ID (-9 for force kill)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;help-and-man-pages&#34;&gt;Help and Man Pages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;man &amp;lt;command&amp;gt;&lt;/code&gt;: Get help on a specific command (detailed manual page)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;help&lt;/code&gt;: Get a list of built-in shell commands&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;whatis &amp;lt;command&amp;gt;&lt;/code&gt;: Get a brief description of a command&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;alias&lt;/code&gt; : List all aliases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bonus&#34;&gt;Bonus&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;history&lt;/code&gt;: Show command history (-c to clean)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;!!&lt;/code&gt;: Repeat the last command (sudo !! to repeat last command as sudo)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;exit&lt;/code&gt;: Exit the terminal (or CTRL-D)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are just a few basic snippets. There&amp;rsquo;s a vast amount of functionality available in the Linux console. Explore the &lt;code&gt;man&lt;/code&gt; pages for in-depth information on specific commands.&lt;/p&gt;
+&lt;h2 id=&#34;one-liners&#34;&gt;One liners&lt;/h2&gt;
+&lt;p&gt;Console one-liners are powerful commands that condense complex tasks into a single line&lt;/p&gt;
+&lt;h3 id=&#34;file-and-directory-manipulation&#34;&gt;File and directory manipulation&lt;/h3&gt;
+&lt;p&gt;Search and replace text across all files in a directory:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -type f -exec sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/old_text/new_text/g&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Count lines in all files within a directory:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -type f -exec wc -l &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{sum += $1} END {print sum}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Change permissions of all files in a directory (recursively):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find -type f -exec chmod &lt;span class=&#34;m&#34;&gt;644&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Change permissions of all directories in a directory (recursively):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find -type d -exec chmod &lt;span class=&#34;m&#34;&gt;755&lt;/span&gt;  &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Convert all JPGs in current directory to PNGs:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; file in *.jpg&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; convert &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$file&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;file&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;/.jpg/.png&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Extract all ZIP files in a directory with correct folders&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find -type f -name *.zip -execdir unzip -o &lt;span class=&#34;s1&#34;&gt;&amp;#39;{}&amp;#39;&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;system-administration&#34;&gt;System Administration&lt;/h3&gt;
+&lt;p&gt;List all processes using more than 10% CPU:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ps aux &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{if ($3 &amp;gt; 10) print $2}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Find the largest file in a directory:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -type f -exec du -s &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sort -nr &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; head -n &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;network-tools&#34;&gt;Network Tools&lt;/h3&gt;
+&lt;p&gt;Ping a website and display response time:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ping -c &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt; google.com &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep &lt;span class=&#34;nb&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{print $7}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Download a file from a URL:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://example.com/file.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#or&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl -O https://example.com/file.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Scan a network for active hosts:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmap -sn 192.168.0.0/24
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Scan many networks for active hosts and ports:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmap  192.168.33.0/24 192.168.42.0/24
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Remember:&lt;/strong&gt; Be cautious when using one-liners, especially those involving deletion or modification. Test them on a small scale before applying them broadly.&lt;/p&gt;
+&lt;p&gt;These are just a few examples. Explore the web for more advanced one-liners using tools like &lt;code&gt;grep&lt;/code&gt;, &lt;code&gt;awk&lt;/code&gt;, and &lt;code&gt;sed&lt;/code&gt; for powerful text manipulation.&lt;/p&gt;
+&lt;h2 id=&#34;specific-snippets&#34;&gt;Specific snippets&lt;/h2&gt;
+&lt;p&gt;Find and delete &lt;code&gt;.DS_Store&lt;/code&gt; files:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -type f -iname .DS_Store -exec rm -i &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Resize &lt;a href=&#34;https://wiki.archlinux.org/title/tmpfs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tmpfs&lt;/a&gt; partition&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mount -o remount,size&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;4G,noatime /tmp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Fix &lt;code&gt;TMPDIR=/tmp cannot hold executables&lt;/code&gt; (partition possibly mounted with noexec)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo mount -o remount,exec /tmp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Update secureboot keys after NVIDIA driver upgrade (for Ubuntu with secureboot enabled / dual boot)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo update-secureboot-policy --enroll-key
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Update outdated pip packages&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip list --outdated --format&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;freeze &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep -v &lt;span class=&#34;s1&#34;&gt;&amp;#39;^\-e&amp;#39;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; cut -d &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; -f &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; xargs -n1 pip install -U
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Change display brightness with xrandr&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xrandr --output eDP --brightness 0.6
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Turn keyboard &lt;code&gt;Scroll Lock&lt;/code&gt; on&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xset led named &lt;span class=&#34;s2&#34;&gt;&amp;#34;Scroll Lock&amp;#34;&lt;/span&gt; on
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Update all git repositories under a folder, recursively&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -mindepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -maxdepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -type d -exec git  --git-dir&lt;span class=&#34;o&#34;&gt;={}&lt;/span&gt;/.git --work-tree&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PWD&lt;/span&gt;/&lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; pull &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;miscellaneous-tips&#34;&gt;Miscellaneous tips&lt;/h2&gt;
+&lt;p&gt;For the best terminal filemanager check the post:&lt;br&gt;
+&lt;a href=&#34;https://georgelitos.com/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Use &lt;code&gt;Ctrl + R&lt;/code&gt; to search through your command history&lt;/p&gt;
+&lt;p&gt;Use &lt;code&gt;Ctrl + C&lt;/code&gt; to cancel a running command&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;tmux&lt;/code&gt; and &lt;code&gt;htop&lt;/code&gt; are great tools for managing terminal sessions and monitoring system resources&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ncdu&lt;/code&gt; is a great tool for analyzing disk usage&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SQL Cheat Sheet</title>
+      <link>https://georgelitos.com/post/sql-cheatsheet/</link>
+      <pubDate>Thu, 16 Nov 2023 19:23:33 +0300</pubDate>
+      <guid>https://georgelitos.com/post/sql-cheatsheet/</guid>
+      <description>&lt;p&gt;SQL stands for Structured Query Language. It&amp;rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.&lt;/p&gt;
+&lt;p&gt;There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM)&lt;/p&gt;
+&lt;h3 id=&#34;performance&#34;&gt;Performance&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Complex Queries: While ORMs simplify complex queries, they often translate them into multiple underlying SQL statements. For very intricate queries, writing raw SQL can give you more control and potentially improve performance.&lt;/li&gt;
+&lt;li&gt;Database-Specific Features: ORMs sometimes have limitations when dealing with functionalities specific to a particular database engine. If you need to leverage advanced features offered by your database (like stored procedures or custom functions), using raw SQL allows you to interact with them directly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;customization-and-control&#34;&gt;Customization and Control&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fine-Tuning Queries: SQL grants you complete control over the query structure. You can optimize queries for specific use cases and databases, something that might be limited with an ORM&amp;rsquo;s abstraction layer.&lt;/li&gt;
+&lt;li&gt;Database Schema Changes: If your database schema undergoes frequent modifications, relying solely on an ORM might require frequent updates to your object mappings. With SQL, you can directly adapt your queries to the evolving schema.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Error Diagnostics: When errors occur with ORM-generated queries, it can be challenging to pinpoint the exact cause. With raw SQL, you can directly see the query being executed, making it easier to diagnose and fix issues.&lt;/li&gt;
+&lt;li&gt;Understanding Database Behavior: For developers who want a deeper understanding of how the database interprets and executes queries, using SQL provides greater transparency into the underlying processes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;basics&#34;&gt;Basics&lt;/h2&gt;
+&lt;p&gt;Here are the basic SQL commands that form the foundation for interacting with relational databases:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;SELECT:&lt;/strong&gt; This is the most fundamental command used to retrieve data from a database table. You can specify the columns (fields) you want to retrieve and optionally use a WHERE clause to filter the results based on certain conditions.
+Here&amp;rsquo;s an example:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;email&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;users&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;WHERE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;country&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;GR&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This query selects the &lt;code&gt;name&lt;/code&gt; and &lt;code&gt;email&lt;/code&gt; columns from the &lt;code&gt;users&lt;/code&gt; table, but only for users where the &lt;code&gt;country&lt;/code&gt; is &amp;lsquo;GR&amp;rsquo;.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;INSERT:&lt;/strong&gt; This command allows you to insert new data into a table. You specify the table name and the values you want to insert for each column.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;INSERT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;INTO&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;products&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;price&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;category&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;VALUES&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;shirt&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;99&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;clothing&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This query inserts a new row into the &lt;code&gt;products&lt;/code&gt; table with the following details:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;name&lt;/code&gt;: shirt&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;price&lt;/code&gt;: 9.99&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;category&lt;/code&gt;: clothing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; This command is used to modify existing data in a table. You specify the table name, the changes you want to make, and a WHERE clause to target specific rows for the update.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;UPDATE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;customers&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;SET&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;email&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;new_email@example.com&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;WHERE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This query updates the &lt;code&gt;email&lt;/code&gt; address for the customer with &lt;code&gt;id&lt;/code&gt; equal to 10 in the &lt;code&gt;customers&lt;/code&gt; table.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;strong&gt;DELETE:&lt;/strong&gt; This command allows you to remove rows from a table. Similar to UPDATE, you can use a WHERE clause to filter the rows you want to delete.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;DELETE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;orders&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;WHERE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;status&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;completed&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;AND&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;order_date&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;2024-01-01&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This query deletes all orders from the &lt;code&gt;orders&lt;/code&gt; table that are marked as &amp;ldquo;completed&amp;rdquo; and have an order date before January 1st, 2024.&lt;/p&gt;
+&lt;p&gt;These are just a few basic SQL commands to get you started. As you learn more, you&amp;rsquo;ll discover commands for more complex tasks like joining data from multiple tables, grouping results, and using aggregate functions.&lt;/p&gt;
+&lt;p&gt;Check these official documentation resources for more in-depth information on SQL:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.postgresql.org/docs/current/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PostgreSQL Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MySQL 8.0 Reference Manual&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sqlite.org/docs.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SQLite Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;joins&#34;&gt;JOINs&lt;/h2&gt;
+&lt;p&gt;JOINs are a fundamental concept in relational databases that allow you to combine data from multiple tables based on a shared field. They are essential for retrieving related information across different tables.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Here&amp;rsquo;s a breakdown of the basics about JOINs:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; JOINs enable you to retrieve data from multiple tables in a single query, establishing relationships between them. This eliminates the need to write separate queries and then manually combine the results.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Types of JOINs:&lt;/strong&gt; There are several types of JOINs, each serving a specific purpose:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Inner JOIN:&lt;/strong&gt; This retrieves records that exist in both tables based on the matching criteria. It&amp;rsquo;s the most common type of JOIN.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Left JOIN:&lt;/strong&gt; This includes all records from the left table (the table mentioned first in the JOIN clause) and matching records from the right table. Records from the right table with no match will have NULL values in the corresponding columns.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Right JOIN:&lt;/strong&gt; Similar to Left JOIN, but includes all records from the right table and matching records from the left table.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Full JOIN:&lt;/strong&gt; This combines all records from both tables, including those with no match in the other table (represented by NULL values).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Imagine you have two tables:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Customers:&lt;/strong&gt; Contains customer information like ID, name, and email.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Orders:&lt;/strong&gt; Stores order details like order ID, customer ID (foreign key referencing Customers.ID), and order amount.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To retrieve a list of customer names along with their total order amount, you can use an Inner JOIN:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;SUM&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;order_amount&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;AS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;total_order_amount&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Customers&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;INNER&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;JOIN&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Orders&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ON&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;customer_id&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;GROUP&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;BY&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SELECT&lt;/code&gt;: This specifies the columns you want to retrieve.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;c.name&lt;/code&gt;: Selects the customer name from the Customers table (aliased as &lt;code&gt;c&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SUM(o.order_amount) AS total_order_amount&lt;/code&gt;: Calculates the total order amount for each customer by summing the &lt;code&gt;order_amount&lt;/code&gt; from the Orders table (aliased as &lt;code&gt;o&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;FROM Customers c&lt;/code&gt;: Specifies the Customers table as the source for customer data.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;INNER JOIN Orders o ON c.id = o.customer_id&lt;/code&gt;: Defines the JOIN operation.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;INNER JOIN&lt;/code&gt;: This indicates an Inner JOIN.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Orders o&lt;/code&gt;: The Orders table is joined.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ON c.id = o.customer_id&lt;/code&gt;: This is the JOIN condition. It matches rows where the customer ID (&lt;code&gt;c.id&lt;/code&gt;) in the Customers table is equal to the customer ID (&lt;code&gt;o.customer_id&lt;/code&gt;) in the Orders table.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GROUP BY c.name&lt;/code&gt;: Groups the results by customer name for accurate total order amount calculation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This query will return a list of customer names and their corresponding total order amounts, effectively combining data from both tables using the JOIN.&lt;/p&gt;
+&lt;h2 id=&#34;tips&#34;&gt;TIPS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Use Comments:&lt;/strong&gt; SQL supports comments to document your queries. Use &lt;code&gt;--&lt;/code&gt; for single-line comments and &lt;code&gt;/* */&lt;/code&gt; for multi-line comments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Avoid SELECT * :&lt;/strong&gt; When writing queries, avoid using &lt;code&gt;SELECT *&lt;/code&gt; to retrieve all columns from a table. Instead, explicitly list the columns you need. This practice improves query performance and makes your code more maintainable.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Use Transactions:&lt;/strong&gt; When performing multiple operations that need to be executed together (like inserting data into multiple tables), wrap them in a transaction. This ensures that either all operations succeed or none of them are applied.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Backup Your Data:&lt;/strong&gt; Regularly back up your database to prevent data loss. Most database management systems provide tools or utilities to create backups.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Optimize Queries:&lt;/strong&gt; Use database tools to analyze query performance and optimize slow queries. Techniques like indexing, query caching, and query tuning can significantly improve database performance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Practice Safe SQL:&lt;/strong&gt; Protect your database from SQL injection attacks by using parameterized queries or prepared statements. These techniques help prevent malicious code injection through user input.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;snippets&#34;&gt;Snippets&lt;/h2&gt;
+&lt;p&gt;Check this SQL query that generates statements to convert tables in a database schema to the character set &lt;code&gt;utf8mb4&lt;/code&gt; with the collation &lt;code&gt;utf8mb4_unicode_ci&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;CONCAT&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ALTER TABLE &amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;table_name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39; CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;AS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;alter_statement&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;information_schema&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tables&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;WHERE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;table_schema&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;SCHEMA&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here&amp;rsquo;s a SQL query that retrieves information about tables in your database and displays their estimated sizes using informational tables:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;TABLE_SCHEMA&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;AS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;Database&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;TABLE_NAME&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;AS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;Table&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;       &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ROUND&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DATA_LENGTH&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;INDEX_LENGTH&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1024&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1024&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;AS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;Size&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;MB&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;information_schema&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;TABLES&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;backing-up-and-restoring-databases&#34;&gt;Backing Up and Restoring Databases&lt;/h2&gt;
+&lt;p&gt;Backing up your database is crucial to prevent data loss in case of hardware failures, accidental deletions, or other disasters. Here&amp;rsquo;s how you can back up and restore databases using SQL commands:&lt;/p&gt;
+&lt;h3 id=&#34;backing-up-a-database&#34;&gt;Backing Up a Database&lt;/h3&gt;
+&lt;p&gt;To back up a database, you can use the &lt;code&gt;mysqldump&lt;/code&gt; utility. Here&amp;rsquo;s an example command to back up a MySQL database:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mysqldump -u username -p database_name &amp;gt; backup.sql
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command exports the database &lt;code&gt;database_name&lt;/code&gt; to a file named &lt;code&gt;backup.sql&lt;/code&gt;. You&amp;rsquo;ll be prompted to enter the password for the specified user (&lt;code&gt;username&lt;/code&gt;).&lt;/p&gt;
+&lt;h3 id=&#34;restoring-a-database&#34;&gt;Restoring a Database&lt;/h3&gt;
+&lt;p&gt;To restore a database from a backup file, you can use the &lt;code&gt;mysql&lt;/code&gt; command. Here&amp;rsquo;s an example command to restore a MySQL database:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mysql -u username -p database_name &amp;lt; backup.sql
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or you can source the backup file directly in the MySQL shell:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; backup.sql
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;PostgreSQL Backup and Restore Options:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;PostgreSQL offers several methods for backing up and restoring databases. Here&amp;rsquo;s an overview of the key tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;pg_dump&lt;/code&gt; and &lt;code&gt;pg_restore&lt;/code&gt;:&lt;/strong&gt; These are the primary command-line utilities for managing backups.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pg_dump&lt;/code&gt; creates consistent backups of your database, including the schema and data. It&amp;rsquo;s suitable for both full and partial backups.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pg_restore&lt;/code&gt; is used to restore databases from backups created with &lt;code&gt;pg_dump&lt;/code&gt;. It allows for restoring entire databases or specific objects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;psql&lt;/code&gt;:&lt;/strong&gt; While not the primary tool for full database restores, &lt;code&gt;psql&lt;/code&gt; can be used to execute individual SQL statements from a backup script containing CREATE TABLE and INSERT statements, offering some restore flexibility.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;pg_basebackup&lt;/code&gt;:&lt;/strong&gt; This is a powerful utility specifically designed for creating online backups of PostgreSQL databases. It creates a consistent physical copy of the database cluster&amp;rsquo;s data files while the server remains operational. This allows for minimal downtime during backup processes and is often used for replication setups.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Choosing the Right Tool:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The best backup approach depends on your specific needs. Here&amp;rsquo;s a general guideline:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Full Backups:&lt;/strong&gt; Use &lt;code&gt;pg_dump&lt;/code&gt; for scheduled full backups or &lt;code&gt;pg_basebackup&lt;/code&gt; for online backups with minimal downtime.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Partial Backups:&lt;/strong&gt; Use &lt;code&gt;pg_dump&lt;/code&gt; to target specific schemas or tables.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Restores:&lt;/strong&gt; Use &lt;code&gt;pg_restore&lt;/code&gt; for full database restores or &lt;code&gt;psql&lt;/code&gt; for limited restores involving specific SQL statements.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Git Cheatsheet</title>
+      <link>https://georgelitos.com/post/git-cheatsheet/</link>
+      <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; &gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-configuration&#34;&gt;Git Configuration&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#starting-a-project--init&#34;&gt;Starting a Project / INIT&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#day-to-day-work--stage--snapshot&#34;&gt;Day-to-Day Work / Stage &amp;amp; Snapshot&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-stash-commands&#34;&gt;Git Stash Commands&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-branching-model--branch--merge--rewrite-history&#34;&gt;Git Branching Model / Branch &amp;amp; Merge / Rewrite History&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#inspect-history--inspect--compare&#34;&gt;Inspect History / Inspect &amp;amp; Compare&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#reverting-changes&#34;&gt;Reverting Changes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#tagging-commits&#34;&gt;Tagging Commits&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#synchronizing-repositories--share--update&#34;&gt;Synchronizing Repositories / Share &amp;amp; Update&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-repository-maintenance&#34;&gt;Git Repository Maintenance&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;In today&amp;rsquo;s collaborative development world (as of 2024), version control is crucial for managing code effectively. &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt;, a distributed version control system (&lt;a href=&#34;https://en.wikipedia.org/wiki/Distributed_version_control&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DVCS&lt;/a&gt;), has become the industry standard for developers of all backgrounds.&lt;/p&gt;
+&lt;h2 id=&#34;git-configuration&#34;&gt;Git Configuration&lt;/h2&gt;
+&lt;p&gt;The initial setup of Git involves configuring your user information and some helpful settings.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git config --global user.name &amp;quot;[Your Name]&amp;quot;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Sets the name associated with your commits and tags. Replace &lt;code&gt;[Your Name]&lt;/code&gt; with your actual first and last name.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git config --global user.email &amp;quot;[your-valid-email@example.com]&amp;quot;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Sets the email address associated with your commits and tags. Replace &lt;code&gt;[your-valid-email@example.com]&lt;/code&gt; with your actual email address.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git config --global color.ui auto&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Enables automatic colorization of Git&amp;rsquo;s command-line output for better readability.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;starting-a-project--init&#34;&gt;Starting a Project / INIT&lt;/h2&gt;
+&lt;p&gt;Git provides two primary ways to begin working with a project: creating a new local repository or cloning an existing one.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git init [project name]&lt;/code&gt; (optional)&lt;/td&gt;
+          &lt;td&gt;Initializes a new Git repository in the current directory. If you provide a &lt;code&gt;[project name]&lt;/code&gt;, Git will create a new directory with that name and initialize a repository inside it.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git clone &amp;lt;project URL&amp;gt;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Downloads a complete project, including its entire history, from a remote repository specified by the &lt;code&gt;&amp;lt;project URL&amp;gt;&lt;/code&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;day-to-day-work--stage--snapshot&#34;&gt;Day-to-Day Work / Stage &amp;amp; Snapshot&lt;/h2&gt;
+&lt;p&gt;Essential Git commands for your daily workflow:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git status&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Displays the current state of your working directory, including new, modified, and staged files. It also shows the current branch name, commit identifier, and any changes awaiting commit.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git add [file]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Adds a specific file to the staging area, which prepares it for the next commit. Use &lt;code&gt;.&lt;/code&gt; (dot) to add all changed files from the current directory and its subdirectories.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git diff [file]&lt;/code&gt; (optional)&lt;/td&gt;
+          &lt;td&gt;Shows the differences between the working directory (your uncommitted changes) and the staging area, allowing you to review modifications before committing.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git diff --staged [file]&lt;/code&gt; (optional)&lt;/td&gt;
+          &lt;td&gt;Reveals changes between the staging area (files prepared for commit) and the last committed snapshot, helping you verify staged modifications.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git checkout -- [file]&lt;/code&gt; (&lt;strong&gt;Use with caution!&lt;/strong&gt; )&lt;/td&gt;
+          &lt;td&gt;Discards all changes made to a specific file in the working directory. This action cannot be undone!&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git reset [&amp;lt;path&amp;gt;]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Reverts changes in the working directory or staging area to match the specified path or the latest commit (HEAD). Use cautiously, as it can lose unsaved work.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git commit -m &amp;quot;[descriptive message]&amp;quot;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Creates a new commit snapshot, capturing the current state of the staged files. Include a clear and concise message describing the changes made.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git rm [file]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Removes a file from both the working directory and the staging area, effectively deleting it from your project.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;git-stash-commands&#34;&gt;Git Stash Commands&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git stash&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Temporarily saves the current state of your working directory (uncommitted changes and staged files) for later use. This creates a &amp;ldquo;stash&amp;rdquo; entry, essentially a snapshot of your current work.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git stash list&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists all your stashed changes in reverse chronological order (most recent stash at the top). This helps you identify and manage specific stashed modifications.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git stash pop&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Applies the changes from the most recent stash (top of the stash list) to your working directory. This effectively &amp;ldquo;un-stashes&amp;rdquo; your work, incorporating the previously saved changes. The stash itself is removed after a successful pop.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git stash drop&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Permanently removes a specific stash entry from the stash list. Use the output from &lt;code&gt;git stash list&lt;/code&gt; to identify the stash you want to delete (e.g., &lt;code&gt;git stash drop stash@{0}&lt;/code&gt; to delete the most recent stash). &lt;strong&gt;Use with caution!&lt;/strong&gt; Once dropped, a stash cannot be recovered.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;git-branching-model--branch--merge--rewrite-history&#34;&gt;Git Branching Model / Branch &amp;amp; Merge / Rewrite History&lt;/h2&gt;
+&lt;p&gt;Effective branching strategies are essential for managing code development in Git. Here&amp;rsquo;s a breakdown of key Git commands for branching, merging, and history manipulation:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git branch [-a]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists all local branches in your repository. Use the &lt;code&gt;-a&lt;/code&gt; flag to see both local and remote branches.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git branch [branch_name]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Creates a new branch named &lt;code&gt;[branch_name]&lt;/code&gt; that starts from the current HEAD commit.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git rebase [branch]&lt;/code&gt; (&lt;strong&gt;Use with caution!&lt;/strong&gt; )&lt;/td&gt;
+          &lt;td&gt;Rebases the current branch on top of the specified &lt;code&gt;[branch]&lt;/code&gt;. This replays your commits on top of the &lt;code&gt;[branch]&lt;/code&gt; history, potentially rewriting history and making it difficult for collaboration. &lt;strong&gt;Consider using &lt;code&gt;git merge&lt;/code&gt; for collaborative workflows.&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git checkout [-b] [branch_name]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Switches your working directory to the specified &lt;code&gt;[branch_name]&lt;/code&gt;. Use the &lt;code&gt;-b&lt;/code&gt; flag to create a new branch named &lt;code&gt;[branch_name]&lt;/code&gt; if it doesn&amp;rsquo;t exist yet.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git merge [branch_name]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Merges the changes from the specified &lt;code&gt;[branch_name]&lt;/code&gt; into the current branch, combining their histories. This is generally preferred over &lt;code&gt;git rebase&lt;/code&gt; for collaborative development.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git branch -d [branch_name]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Deletes the specified &lt;code&gt;[branch_name]&lt;/code&gt;, but only if it has already been merged into another branch. Use the &lt;code&gt;-D&lt;/code&gt; flag (&lt;strong&gt;use with caution!&lt;/strong&gt;) to force deletion even if unmerged, but be aware this can cause issues in collaborative workflows.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Additional Commands:&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git branch&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists all local branches, indicating the currently active branch with an asterisk (&lt;code&gt;*&lt;/code&gt;).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git checkout [branch]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Switches to the specified &lt;code&gt;[branch]&lt;/code&gt; and checks it out into your working directory.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git reset --hard [commit]&lt;/code&gt; (&lt;strong&gt;Use with extreme caution!&lt;/strong&gt; )&lt;/td&gt;
+          &lt;td&gt;Discards all uncommitted changes in your working directory and resets it to the state of the specified commit. This action cannot be undone!&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;git branch&lt;/code&gt; regularly to keep track of your branches.&lt;/li&gt;
+&lt;li&gt;Favor &lt;code&gt;git merge&lt;/code&gt; over &lt;code&gt;git rebase&lt;/code&gt; in collaborative development to avoid rewriting history and potential conflicts.&lt;/li&gt;
+&lt;li&gt;Be cautious with &lt;code&gt;git reset --hard&lt;/code&gt; and &lt;code&gt;git branch -D&lt;/code&gt; as they can lead to data loss.&lt;/li&gt;
+&lt;li&gt;Consider using a visual Git client to get a better understanding of branch relationships.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspect-history--inspect--compare&#34;&gt;Inspect History / Inspect &amp;amp; Compare&lt;/h2&gt;
+&lt;p&gt;Understanding your project&amp;rsquo;s history is crucial in Git. Here&amp;rsquo;s a table outlining essential commands for inspecting commits, comparing branches, and viewing Git objects:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists the commit history of your current branch, starting from the most recent commit and working backwards.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log [-n count]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Shows a limited view of the commit history, displaying only the most recent &lt;code&gt;n&lt;/code&gt; commits.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log --oneline --graph --decorate&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Provides a concise overview of the commit history with a visual graph, reference labels, and decorations (e.g., author names, commit messages). Each commit is displayed on a single line.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log ref^..&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists commits that exist on your current branch (ref) but haven&amp;rsquo;t been merged into the specified reference (&lt;code&gt;ref&lt;/code&gt;). This reference can be a branch name or a tag name.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log --first-parent origin/master..HEAD&lt;/code&gt; (&lt;strong&gt;Advanced:&lt;/strong&gt; Use with caution!)&lt;/td&gt;
+          &lt;td&gt;Shows commits specific to your current branch (HEAD) that are not present in the &lt;code&gt;origin/master&lt;/code&gt; branch&amp;rsquo;s linear history (excluding merges). This is useful for identifying your local changes on top of the remote &lt;code&gt;master&lt;/code&gt; branch.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git reflog&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Displays a history of operations (like checkouts and commits) performed on your local repository.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log branchB..branchA&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Reveals the commits that are present on branch &lt;code&gt;branchA&lt;/code&gt; but not on branch &lt;code&gt;branchB&lt;/code&gt;. This helps you understand what changes exist in &lt;code&gt;branchA&lt;/code&gt; that are not yet included in &lt;code&gt;branchB&lt;/code&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log --follow [file]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Tracks the history of a specific file named &lt;code&gt;[file]&lt;/code&gt;, even if it has been renamed during development. This allows you to see all commits that modified the file throughout its lifetime.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git diff branchB...branchA&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Shows the difference between branches &lt;code&gt;branchB&lt;/code&gt; and &lt;code&gt;branchA&lt;/code&gt;. This essentially reveals what changes are present in &lt;code&gt;branchA&lt;/code&gt; compared to &lt;code&gt;branchB&lt;/code&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git show [SHA]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Displays any Git object (e.g., a commit, a blob, or a tree) in a human-readable format, given its SHA-1 hash (&lt;code&gt;[SHA]&lt;/code&gt;).&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;git log&lt;/code&gt; variations to explore your commit history at different levels of detail.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git reflog&lt;/code&gt; can be helpful for tracking your actions in the repository.&lt;/li&gt;
+&lt;li&gt;Commands like &lt;code&gt;git log branchB..branchA&lt;/code&gt; and &lt;code&gt;git diff branchB...branchA&lt;/code&gt; are valuable for comparing branches.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git show&lt;/code&gt; allows you to examine specific Git objects by their unique identifier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reverting-changes&#34;&gt;Reverting Changes&lt;/h2&gt;
+&lt;p&gt;Git provides two primary ways to undo changes in your project: &lt;code&gt;git reset&lt;/code&gt; and &lt;code&gt;git revert&lt;/code&gt;. Here&amp;rsquo;s a table explaining these commands:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git reset [--hard] [target reference]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Moves the current branch pointer (HEAD) to the specified &lt;code&gt;target reference&lt;/code&gt; (e.g., a commit SHA or branch name). This essentially undoes changes by rewinding your working directory and staging area to match the target state.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;* &lt;strong&gt;Without &lt;code&gt;--hard&lt;/code&gt;&lt;/strong&gt; (default): Changes made since the target reference become uncommitted changes in your working directory. However, be cautious as these changes can be easily lost.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;* &lt;strong&gt;With &lt;code&gt;--hard&lt;/code&gt; (&lt;strong&gt;Use with extreme caution!&lt;/strong&gt;)&lt;/strong&gt;: Discards all uncommitted changes in your working directory and staging area, completely resetting them to the state of the target reference. &lt;strong&gt;This action cannot be undone!&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git revert [commit SHA]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Creates a new commit that effectively reverses the changes introduced in the specified commit identified by its SHA. This is generally a safer option than &lt;code&gt;git reset&lt;/code&gt; as it creates a new commit to track the reversal, allowing you to revert the revert if needed.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;git reset&lt;/code&gt; cautiously, especially with the &lt;code&gt;--hard&lt;/code&gt; flag, as it can lead to permanent data loss.&lt;/li&gt;
+&lt;li&gt;Consider &lt;code&gt;git revert&lt;/code&gt; as a safer alternative for undoing changes as it creates a new commit for tracking.&lt;/li&gt;
+&lt;li&gt;Before using either command, it&amp;rsquo;s highly recommended to back up your work or use a stash (covered in a previous section) to preserve uncommitted changes if needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tagging-commits&#34;&gt;Tagging Commits&lt;/h2&gt;
+&lt;p&gt;Tags are a powerful way to mark specific points in your Git history for easy reference.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git tag&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists all existing tags associated with your Git repository.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git tag [name] [commit SHA]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Creates a new tag named &lt;code&gt;[name]&lt;/code&gt; that points to the current HEAD commit (the latest commit in your current branch). You can optionally specify a specific commit SHA to tag instead of the current one.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git tag -a [name] [commit SHA]&lt;/code&gt; (&lt;strong&gt;Advanced:&lt;/strong&gt; Use with caution!)&lt;/td&gt;
+          &lt;td&gt;Creates an annotated tag named &lt;code&gt;[name]&lt;/code&gt; for the specified commit (either the current HEAD or a specific SHA). Annotated tags store additional information like a tag message, which can be helpful for documentation purposes. However, annotated tags can be larger than lightweight tags (created by &lt;code&gt;git tag&lt;/code&gt; without &lt;code&gt;-a&lt;/code&gt;). Consider using lightweight tags for simplicity in most cases.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git tag -d [name]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Removes the specified tag named &lt;code&gt;[name]&lt;/code&gt; from your local repository.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use clear and descriptive names for your tags to enhance readability.&lt;/li&gt;
+&lt;li&gt;Lightweight tags (created with &lt;code&gt;git tag&lt;/code&gt;) are generally preferred due to their smaller size.&lt;/li&gt;
+&lt;li&gt;Annotated tags (created with &lt;code&gt;git tag -a&lt;/code&gt;) can be useful for storing additional information, but use them judiciously when size is a concern.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;synchronizing-repositories--share--update&#34;&gt;Synchronizing Repositories / Share &amp;amp; Update&lt;/h2&gt;
+&lt;p&gt;Collaboration and keeping your project code in sync are essential aspects of Git.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git fetch [remote]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Retrieves changes from the remote repository specified by &lt;code&gt;[remote]&lt;/code&gt; (e.g., &lt;code&gt;origin&lt;/code&gt;) but doesn&amp;rsquo;t automatically integrate them into your local branch. This is useful when you want to see what changes exist on the remote without merging them yet.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git fetch --prune [remote]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Fetches changes from the remote repository and additionally removes any local references (refs) to branches that have been deleted on the remote. This helps keep your local repository clean.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git pull [remote]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Combines &lt;code&gt;git fetch&lt;/code&gt; and &lt;code&gt;git merge&lt;/code&gt; in one step. It downloads changes from the remote repository and attempts to merge them into your current branch. This is a convenient way to stay up-to-date with the remote&amp;rsquo;s latest changes.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git push [--tags] [remote]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Pushes your local commits to the remote repository specified by &lt;code&gt;[remote]&lt;/code&gt;. Use the &lt;code&gt;--tags&lt;/code&gt; flag to include tags along with your commits.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git push -u [remote] [branch]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Pushes your local branch named &lt;code&gt;[branch]&lt;/code&gt; to the remote repository and sets the corresponding remote branch as an &amp;ldquo;upstream&amp;rdquo; branch. This simplifies future pushes as you won&amp;rsquo;t need to specify the remote branch name explicitly.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git remote add [alias] [url]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Adds a new remote repository identified by its URL &lt;code&gt;[url]&lt;/code&gt; and assigns a short alias name &lt;code&gt;[alias]&lt;/code&gt; for easier reference.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git remote update origin --prune&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Update the local list of remote branches.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git fetch [alias]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Fetches changes from the remote repository associated with the specified alias &lt;code&gt;[alias]&lt;/code&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git merge [alias]/[branch]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Merges the remote branch named &lt;code&gt;[branch]&lt;/code&gt; from the remote repository identified by &lt;code&gt;[alias]&lt;/code&gt; into your current local branch. This allows you to incorporate changes from a specific remote branch.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git push [alias] [branch]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Pushes your local branch named &lt;code&gt;[branch]&lt;/code&gt; to the remote branch named &lt;code&gt;[branch]&lt;/code&gt; on the remote repository identified by &lt;code&gt;[alias]&lt;/code&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;git fetch&lt;/code&gt; when you want to be aware of remote changes without merging them immediately.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git pull&lt;/code&gt; is a convenient way to fetch and merge in one step, but be prepared to handle potential merge conflicts.&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;git push&lt;/code&gt; to share your local commits with the remote repository.&lt;/li&gt;
+&lt;li&gt;Manage remote repositories with aliases for easier handling using &lt;code&gt;git remote add&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Consider using a &lt;a href=&#34;https://git-scm.com/downloads/guis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;visual Git client&lt;/a&gt; to simplify branch management and visualization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;git-repository-maintenance&#34;&gt;Git Repository Maintenance&lt;/h2&gt;
+&lt;p&gt;Regular maintenance of your Git repository is essential for optimal performance and organization.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git gc&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Cleans up unnecessary files and optimizes the local repository&amp;rsquo;s database. This command is useful for reducing disk usage and improving Git&amp;rsquo;s performance.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git fsck&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Verifies the integrity of your repository&amp;rsquo;s objects and references, checking for any corruption or inconsistencies. This is helpful for ensuring the reliability of your Git data.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git prune&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Removes unreachable objects (e.g., commits, blobs) from your repository, freeing up disk space and keeping your repository clean.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git reflog expire --expire=now --all&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Expires all reflog entries immediately, removing any outdated or unnecessary references. This helps maintain a clean and efficient repository.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git clean -dnx | sed &#39;s/Would remove //;s/Would skip repository //&#39;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists untracked files in your working directory that are not ignored by your &lt;code&gt;.gitignore&lt;/code&gt; file. This command is useful for identifying files that may need to be removed or added to the ignore list.  (remove &lt;code&gt;x&lt;/code&gt; to hide ignored files)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;https://georgelitos.com/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

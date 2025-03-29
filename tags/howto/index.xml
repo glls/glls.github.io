@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Howto | George Litos</title>
+    <link>https://georgelitos.com/tags/howto/</link>
+      <atom:link href="https://georgelitos.com/tags/howto/index.xml" rel="self" type="application/rss+xml" />
+    <description>Howto</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Sep 2023 18:00:00 +0300</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <title>Howto</title>
+      <link>https://georgelitos.com/tags/howto/</link>
+    </image>
+    
+    <item>
+      <title>The correct way to benchmark your web server</title>
+      <link>https://georgelitos.com/post/benchmark-webserver/</link>
+      <pubDate>Sun, 10 Sep 2023 18:00:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/benchmark-webserver/</guid>
+      <description>&lt;p&gt;Keeping your web server running smoothly is crucial for a positive user experience. But how do you know it can handle the traffic you expect? Benchmarking is the answer! It allows you to simulate real-world load and measure your server&amp;rsquo;s performance. This post will guide you through using &lt;code&gt;wrk&lt;/code&gt;, a powerful tool for benchmarking your web server.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wrk&lt;/code&gt; is a fast, user-friendly HTTP benchmarking tool. It&amp;rsquo;s lightweight and easy to install. Once you have wrk set up, you can start crafting your benchmark test. &lt;code&gt;wrk&lt;/code&gt; offers various options to configure your test precisely. You can define the number of threads to simulate concurrent users, the number of connections per thread, and the test duration. &lt;code&gt;wrk&lt;/code&gt; also allows you to specify headers to be sent with each request, mimicking real user behavior.&lt;/p&gt;
+&lt;p&gt;Running a &lt;code&gt;wrk&lt;/code&gt; test is straightforward. You provide the URL you want to benchmark along with the desired configuration options. Wrks then bombards your server with simulated traffic, measuring critical metrics like request latency, throughput, and overall system health. After the test concludes, &lt;code&gt;wrk&lt;/code&gt; presents a detailed report. This report showcases valuable data points like average request time, request rate, and connection errors. Analyzing this data helps you identify bottlenecks and areas for improvement in your web server&amp;rsquo;s performance.&lt;/p&gt;
+&lt;p&gt;By incorporating &lt;code&gt;wrk&lt;/code&gt; into your routine, you gain valuable insights into your web server&amp;rsquo;s capabilities. This allows you to optimize your server&amp;rsquo;s configuration, ensuring it can handle peak traffic and deliver a seamless user experience.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an excerpt from the &lt;code&gt;wrk&lt;/code&gt; project&amp;rsquo;s &lt;a href=&#34;https://github.com/wg/wrk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;README on GitHub&lt;/a&gt; for quick reference:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;basic-usage&#34;&gt;Basic Usage&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wrk -t12 -c400 -d30s http://127.0.0.1:8080/index.html
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This runs a benchmark for 30 seconds, using 12 threads, and keeping
+400 HTTP connections open.&lt;/p&gt;
+&lt;p&gt;Output:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Running 30s test @ http://127.0.0.1:8080/index.html
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  12 threads and 400 connections
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  Thread Stats   Avg      Stdev     Max   +/- Stdev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Latency   635.91us    0.89ms  12.92ms   93.69%
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Req/Sec    56.20k     8.07k   62.00k    86.54%
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  22464657 requests in 30.00s, 17.76GB read
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Requests/sec: 748868.53
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Transfer/sec:    606.33MB
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;command-line-options&#34;&gt;Command Line Options&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    -c, --connections: total number of HTTP connections to keep open with
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                       each thread handling N = connections/threads
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    -d, --duration:    duration of the test, e.g. 2s, 2m, 2h
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    -t, --threads:     total number of threads to use
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    -s, --script:      LuaJIT script, see SCRIPTING
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    -H, --header:      HTTP header to add to request, e.g. &amp;#34;User-Agent: wrk&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        --latency:     print detailed latency statistics
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        --timeout:     record a timeout if a response is not received within
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                       this amount of time.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;benchmarking-tips&#34;&gt;Benchmarking Tips&lt;/h2&gt;
+&lt;p&gt;The machine running wrk must have a sufficient number of ephemeral ports available and closed sockets should be recycled quickly. To handle the initial connection burst the server&amp;rsquo;s listen backlog should be greater than the number of concurrent connections being tested.&lt;/p&gt;
+&lt;p&gt;A user script that only changes the HTTP method, path, adds headers or
+a body, will have no performance impact. Per-request actions, particularly
+building a new HTTP request, and use of response() will necessarily reduce
+the amount of load that can be generated.&lt;/p&gt;
+&lt;h2 id=&#34;showtime-&#34;&gt;Showtime 🚀&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Write a program that can serve a list of 100 albums with a REST like interface (JSON) and measure the performance with wrk&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Here&amp;rsquo;s the project in GitHub with full source code and implementations in more than 8 languages: &lt;a href=&#34;https://github.com/glls/web-service-albums-benchmark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;web-service-albums-benchmark&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And the results:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/glls/web-service-albums-benchmark/raw/main/chart.svg&#34; alt=&#34;Chart&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s clear that Rust and Go are the speed demons when it comes to this particular task. However, threading and concurrency can be a game-changer in terms of performance. The key takeaway is that your server&amp;rsquo;s capabilities play a significant role in determining the optimal approach. For instance, if you&amp;rsquo;re running on a 4-core CPU, don&amp;rsquo;t expect more than 4 threads to run simultaneously - it&amp;rsquo;s like trying to fit too many eggs in one basket! So, before making any changes to your tech stack, take some time to consider these factors and plan accordingly.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The correct way to benchmark your network</title>
+      <link>https://georgelitos.com/post/benchmark-network/</link>
+      <pubDate>Sun, 14 Aug 2022 18:00:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/benchmark-network/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Ever tried to measure the network speed between two computers?&lt;/li&gt;
+&lt;li&gt;Do you want to know how fast your local network is?&lt;/li&gt;
+&lt;li&gt;Would you like to compare your WiFi and ethernet speeds?&lt;/li&gt;
+&lt;li&gt;Do you want to check for faulty cables?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can do all of the above, and more, with &lt;a href=&#34;https://software.es.net/iperf/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iperf3&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As the devolpers state at the official website :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The iperf series of tools perform active measurements to determine the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the measured throughput, loss, and other parameters.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;iperf3&lt;/code&gt; is a powerful tool that can be used to benchmark the performance of local network computers. It allows you to measure the bandwidth and latency of a network connection between two devices. This can be useful for identifying bottlenecks and troubleshooting network issues.&lt;/p&gt;
+&lt;p&gt;To use &lt;code&gt;iperf3&lt;/code&gt;, you will need to have it installed on both the client and server computers. Once installed, you can run the following commands to start the benchmarking process.&lt;/p&gt;
+&lt;p&gt;On the server computer, open a command prompt and type &lt;code&gt;iperf3 -s&lt;/code&gt;. This will start the &lt;code&gt;iperf3&lt;/code&gt; server and listen for incoming connections.&lt;/p&gt;
+&lt;p&gt;On the client computer, open a command prompt and type &lt;code&gt;iperf3 -c [server IP]&lt;/code&gt;. Replace [server IP] with the IP address of the server computer. This will connect the client to the server and begin the benchmarking process.&lt;/p&gt;
+&lt;p&gt;By default, &lt;code&gt;iperf3&lt;/code&gt; will perform a test for 10 seconds and provide the results in a summary. However, you can specify a longer test duration or change other settings using command line options. For example, you can use the -t option to specify the test duration in seconds, and the -w option to specify the TCP window size.&lt;/p&gt;
+&lt;p&gt;Once the test is complete, you will see the results displayed on the client computer. These results will include the bandwidth and latency of the connection, as well as any errors that occurred during the test.&lt;/p&gt;
+&lt;p&gt;In addition to the basic test, &lt;code&gt;iperf3&lt;/code&gt; also supports various advanced options such as parallel streams, bidirectional tests, and more. It is a great tool for network administrators and developers to check the performance of their network.&lt;/p&gt;
+&lt;p&gt;In conclusion, &lt;code&gt;iperf3&lt;/code&gt; is a powerful and easy-to-use tool for benchmarking the performance of local network computers. It allows you to measure the bandwidth and latency of a network connection, and provides detailed results that can be used to identify and troubleshoot network issues.&lt;/p&gt;
+&lt;p&gt;First, install &lt;code&gt;iperf3&lt;/code&gt; for your operating system, do that in every computer you want to benchmark.&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary class=&#34;cursor-pointer&#34;&gt;Archlinux &lt;/summary&gt;
+  &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S iperf3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary class=&#34;cursor-pointer&#34;&gt;macOS&lt;/summary&gt;
+  &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install iperf3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary class=&#34;cursor-pointer&#34;&gt;Ubuntu/Debian&lt;/summary&gt;
+  &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;apt get install iperf3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary class=&#34;cursor-pointer&#34;&gt;Windows&lt;/summary&gt;
+  &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
+    &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop install iperf3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary class=&#34;cursor-pointer&#34;&gt;Synology NAS&lt;/summary&gt;
+  &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
+    Install &lt;code&gt;SynoCli Monitor Tools&lt;/code&gt; from the &lt;a href=&#34;https://synocommunity.com/packages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SynoCommunity&lt;/a&gt; website
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;h3 id=&#34;real-life-tests&#34;&gt;Real-life tests&lt;/h3&gt;
+&lt;p&gt;We will use the Synology NAS as the server and run tests across some local machines acting as clients.
+Synology NAS has two network interfaces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LAN Gigabit Ethernet (builtin, attached to gigabit switch)&lt;/li&gt;
+&lt;li&gt;Wi-fi with a &lt;code&gt;TP-LINK TL-WN722N&lt;/code&gt; dongle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;macbookair-m2&#34;&gt;MacbookAir M2&lt;/h4&gt;
+&lt;p&gt;OS : macOS Sonoma 14.2.1&lt;br&gt;
+Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
+&lt;p&gt;Testing the WiFi connection with the MacbookAir M2 (Wi-Fi 6 - 802.11ax)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6] local 192.168.3.6 port 61884 connected to 192.168.3.2 port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-1.01   sec  1.00 MBytes  8.35 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   1.01-2.00   sec   768 KBytes  6.31 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   2.00-3.00   sec  1.25 MBytes  10.5 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   3.00-4.00   sec  1.12 MBytes  9.43 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   4.00-5.01   sec  1.25 MBytes  10.5 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   5.01-6.00   sec  1.00 MBytes  8.41 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   6.00-7.00   sec  1.25 MBytes  10.5 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   7.00-8.01   sec  1.12 MBytes  9.42 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   8.01-9.00   sec  1.00 MBytes  8.43 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   9.00-10.00  sec   896 KBytes  7.33 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- - - - - - - - - - - - - - - - - - - - - - - - -
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec  10.6 MBytes  8.91 Mbits/sec                  sender
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.29  sec  10.7 MBytes  8.69 Mbits/sec                  receiver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Testing the ethernet connection with a &lt;code&gt;TP-LINK UE300&lt;/code&gt; USB3.0 to Gigabit Ethernet adapter&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6] local 192.168.3.8 port 61992 connected to 192.168.3.2 port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-1.00   sec  37.0 MBytes   310 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   1.00-2.00   sec  36.9 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   2.00-3.00   sec  36.5 MBytes   307 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   3.00-4.01   sec  36.8 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   4.01-5.00   sec  36.8 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   5.00-6.00   sec  36.6 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   6.00-7.00   sec  36.8 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   7.00-8.00   sec  36.8 MBytes   309 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   8.00-9.00   sec  36.9 MBytes   308 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   9.00-10.00  sec  36.6 MBytes   309 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- - - - - - - - - - - - - - - - - - - - - - - - -
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec   368 MBytes   308 Mbits/sec                  sender
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.01  sec   367 MBytes   308 Mbits/sec                  receiver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Testing the ethernet connection with UGREEN USB-C 9-in-1 Multifunctional Adapter&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6] local 192.168.3.12 port 64525 connected to 192.168.3.2 port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-1.00   sec  68.5 MBytes   572 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   1.00-2.01   sec  77.0 MBytes   646 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   2.01-3.00   sec  77.4 MBytes   650 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   3.00-4.01   sec  77.6 MBytes   651 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   4.01-5.01   sec  77.6 MBytes   651 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   5.01-6.00   sec  77.6 MBytes   651 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   6.00-7.01   sec  79.8 MBytes   669 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   7.01-8.01   sec  77.8 MBytes   652 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   8.01-9.00   sec  75.1 MBytes   631 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   9.00-10.00  sec  77.1 MBytes   649 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- - - - - - - - - - - - - - - - - - - - - - - - -
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bitrate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec   766 MBytes   642 Mbits/sec                  sender
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  6]   0.00-10.00  sec   765 MBytes   642 Mbits/sec                  receiver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;desktop-pc&#34;&gt;Desktop PC&lt;/h4&gt;
+&lt;p&gt;B660 GAMING X, i9-12900K with Windows 11 Pro, testing the internal Realtek Gaming 2.5GbE LAN&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Connecting to host 192.168.3.2, port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4] local 192.168.3.13 port 54137 connected to 192.168.3.2 port 5201
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bandwidth
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   0.00-1.00   sec   113 MBytes   945 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   1.00-2.00   sec   111 MBytes   933 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   2.00-3.00   sec   111 MBytes   928 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   3.00-4.00   sec   110 MBytes   924 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   4.00-5.00   sec   111 MBytes   929 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   5.00-6.00   sec   112 MBytes   936 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   6.00-7.00   sec   112 MBytes   944 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   7.00-8.00   sec   112 MBytes   941 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   8.00-9.00   sec   112 MBytes   937 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   9.00-10.00  sec   110 MBytes   928 Mbits/sec
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- - - - - - - - - - - - - - - - - - - - - - - - -
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ ID] Interval           Transfer     Bandwidth
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   0.00-10.00  sec  1.09 GBytes   934 Mbits/sec                  sender
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[  4]   0.00-10.00  sec  1.09 GBytes   934 Mbits/sec                  receiver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iperf Done.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This article is a work in progress. More tests and graphs will follow soon™️ 😊&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For more info check the host tuning guides at the &lt;a href=&#34;https://fasterdata.es.net/host-tuning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Energy Sciences Network&lt;/a&gt; website.&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

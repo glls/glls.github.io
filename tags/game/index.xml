@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game | George Litos</title>
+    <link>https://georgelitos.com/tags/game/</link>
+      <atom:link href="https://georgelitos.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <description>Game</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Jun 2024 12:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <title>Game</title>
+      <link>https://georgelitos.com/tags/game/</link>
+    </image>
+    
+    <item>
+      <title>Space8</title>
+      <link>https://georgelitos.com/project/space8/</link>
+      <pubDate>Wed, 05 Jun 2024 12:00:00 +0000</pubDate>
+      <guid>https://georgelitos.com/project/space8/</guid>
+      <description>&lt;p&gt;Space8 is a retro style shoot&amp;rsquo;em up game. The player controls a spaceship that can move in all directions and shoot at enemies. The game is set in space and the player must avoid asteroids and enemy ships while shooting them down. The game features multiple levels with increasing difficulty and a boss fight at the end. The player can collect power-ups to upgrade their ship and weapons. The game has a high score system to keep track of the player&amp;rsquo;s progress. Space8 is a fun and challenging game that will keep players entertained for hours.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a name=&#34;privacy&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;privacy-policy-for-space8&#34;&gt;Privacy Policy for Space8&lt;/h2&gt;
+&lt;p&gt;This Privacy Policy describes the data practices of Cyberpunk Games (&amp;ldquo;we,&amp;rdquo; &amp;ldquo;us,&amp;rdquo; or &amp;ldquo;our&amp;rdquo;) for our free game, Space8 (&amp;ldquo;Game&amp;rdquo;).&lt;/p&gt;
+&lt;p&gt;Our Commitment to Your Privacy:&lt;/p&gt;
+&lt;p&gt;We respect your privacy and are committed to protecting any information you provide while using our Game. Since it is a completely offline game, we do not collect any personal information from you. This includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Device information (device type, operating system, etc.)&lt;/li&gt;
+&lt;li&gt;Gameplay data (game progress, time spent playing, achievements)&lt;/li&gt;
+&lt;li&gt;Account information (username, email address)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The game does not require an internet connection to play and does not have any in-app purchases. The game does not display any ads or share any data with third parties. The game is designed to be a safe and enjoyable experience for players of all ages.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

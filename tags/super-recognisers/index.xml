@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Super-Recognisers | George Litos</title>
+    <link>https://georgelitos.com/tags/super-recognisers/</link>
+      <atom:link href="https://georgelitos.com/tags/super-recognisers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Super-Recognisers</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <title>Super-Recognisers</title>
+      <link>https://georgelitos.com/tags/super-recognisers/</link>
+    </image>
+    
+    <item>
+      <title>TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</title>
+      <link>https://georgelitos.com/publication/toomanyeyes/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://georgelitos.com/publication/toomanyeyes/</guid>
+      <description>&lt;p&gt;Date of Conference: 13-15 Dec. 2017&lt;/p&gt;
+&lt;p&gt;Conference Location: Madrid, Spain&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

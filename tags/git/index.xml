@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git | George Litos</title>
+    <link>https://georgelitos.com/tags/git/</link>
+      <atom:link href="https://georgelitos.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <description>Git</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Oct 2023 10:00:00 +0300</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <title>Git</title>
+      <link>https://georgelitos.com/tags/git/</link>
+    </image>
+    
+    <item>
+      <title>Git Cheatsheet</title>
+      <link>https://georgelitos.com/post/git-cheatsheet/</link>
+      <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; &gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-configuration&#34;&gt;Git Configuration&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#starting-a-project--init&#34;&gt;Starting a Project / INIT&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#day-to-day-work--stage--snapshot&#34;&gt;Day-to-Day Work / Stage &amp;amp; Snapshot&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-stash-commands&#34;&gt;Git Stash Commands&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-branching-model--branch--merge--rewrite-history&#34;&gt;Git Branching Model / Branch &amp;amp; Merge / Rewrite History&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#inspect-history--inspect--compare&#34;&gt;Inspect History / Inspect &amp;amp; Compare&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#reverting-changes&#34;&gt;Reverting Changes&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#tagging-commits&#34;&gt;Tagging Commits&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#synchronizing-repositories--share--update&#34;&gt;Synchronizing Repositories / Share &amp;amp; Update&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#git-repository-maintenance&#34;&gt;Git Repository Maintenance&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;In today&amp;rsquo;s collaborative development world (as of 2024), version control is crucial for managing code effectively. &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt;, a distributed version control system (&lt;a href=&#34;https://en.wikipedia.org/wiki/Distributed_version_control&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DVCS&lt;/a&gt;), has become the industry standard for developers of all backgrounds.&lt;/p&gt;
+&lt;h2 id=&#34;git-configuration&#34;&gt;Git Configuration&lt;/h2&gt;
+&lt;p&gt;The initial setup of Git involves configuring your user information and some helpful settings.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git config --global user.name &amp;quot;[Your Name]&amp;quot;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Sets the name associated with your commits and tags. Replace &lt;code&gt;[Your Name]&lt;/code&gt; with your actual first and last name.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git config --global user.email &amp;quot;[your-valid-email@example.com]&amp;quot;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Sets the email address associated with your commits and tags. Replace &lt;code&gt;[your-valid-email@example.com]&lt;/code&gt; with your actual email address.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git config --global color.ui auto&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Enables automatic colorization of Git&amp;rsquo;s command-line output for better readability.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;starting-a-project--init&#34;&gt;Starting a Project / INIT&lt;/h2&gt;
+&lt;p&gt;Git provides two primary ways to begin working with a project: creating a new local repository or cloning an existing one.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git init [project name]&lt;/code&gt; (optional)&lt;/td&gt;
+          &lt;td&gt;Initializes a new Git repository in the current directory. If you provide a &lt;code&gt;[project name]&lt;/code&gt;, Git will create a new directory with that name and initialize a repository inside it.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git clone &amp;lt;project URL&amp;gt;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Downloads a complete project, including its entire history, from a remote repository specified by the &lt;code&gt;&amp;lt;project URL&amp;gt;&lt;/code&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;day-to-day-work--stage--snapshot&#34;&gt;Day-to-Day Work / Stage &amp;amp; Snapshot&lt;/h2&gt;
+&lt;p&gt;Essential Git commands for your daily workflow:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git status&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Displays the current state of your working directory, including new, modified, and staged files. It also shows the current branch name, commit identifier, and any changes awaiting commit.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git add [file]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Adds a specific file to the staging area, which prepares it for the next commit. Use &lt;code&gt;.&lt;/code&gt; (dot) to add all changed files from the current directory and its subdirectories.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git diff [file]&lt;/code&gt; (optional)&lt;/td&gt;
+          &lt;td&gt;Shows the differences between the working directory (your uncommitted changes) and the staging area, allowing you to review modifications before committing.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git diff --staged [file]&lt;/code&gt; (optional)&lt;/td&gt;
+          &lt;td&gt;Reveals changes between the staging area (files prepared for commit) and the last committed snapshot, helping you verify staged modifications.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git checkout -- [file]&lt;/code&gt; (&lt;strong&gt;Use with caution!&lt;/strong&gt; )&lt;/td&gt;
+          &lt;td&gt;Discards all changes made to a specific file in the working directory. This action cannot be undone!&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git reset [&amp;lt;path&amp;gt;]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Reverts changes in the working directory or staging area to match the specified path or the latest commit (HEAD). Use cautiously, as it can lose unsaved work.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git commit -m &amp;quot;[descriptive message]&amp;quot;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Creates a new commit snapshot, capturing the current state of the staged files. Include a clear and concise message describing the changes made.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git rm [file]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Removes a file from both the working directory and the staging area, effectively deleting it from your project.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;git-stash-commands&#34;&gt;Git Stash Commands&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git stash&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Temporarily saves the current state of your working directory (uncommitted changes and staged files) for later use. This creates a &amp;ldquo;stash&amp;rdquo; entry, essentially a snapshot of your current work.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git stash list&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists all your stashed changes in reverse chronological order (most recent stash at the top). This helps you identify and manage specific stashed modifications.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git stash pop&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Applies the changes from the most recent stash (top of the stash list) to your working directory. This effectively &amp;ldquo;un-stashes&amp;rdquo; your work, incorporating the previously saved changes. The stash itself is removed after a successful pop.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git stash drop&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Permanently removes a specific stash entry from the stash list. Use the output from &lt;code&gt;git stash list&lt;/code&gt; to identify the stash you want to delete (e.g., &lt;code&gt;git stash drop stash@{0}&lt;/code&gt; to delete the most recent stash). &lt;strong&gt;Use with caution!&lt;/strong&gt; Once dropped, a stash cannot be recovered.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;git-branching-model--branch--merge--rewrite-history&#34;&gt;Git Branching Model / Branch &amp;amp; Merge / Rewrite History&lt;/h2&gt;
+&lt;p&gt;Effective branching strategies are essential for managing code development in Git. Here&amp;rsquo;s a breakdown of key Git commands for branching, merging, and history manipulation:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git branch [-a]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists all local branches in your repository. Use the &lt;code&gt;-a&lt;/code&gt; flag to see both local and remote branches.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git branch [branch_name]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Creates a new branch named &lt;code&gt;[branch_name]&lt;/code&gt; that starts from the current HEAD commit.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git rebase [branch]&lt;/code&gt; (&lt;strong&gt;Use with caution!&lt;/strong&gt; )&lt;/td&gt;
+          &lt;td&gt;Rebases the current branch on top of the specified &lt;code&gt;[branch]&lt;/code&gt;. This replays your commits on top of the &lt;code&gt;[branch]&lt;/code&gt; history, potentially rewriting history and making it difficult for collaboration. &lt;strong&gt;Consider using &lt;code&gt;git merge&lt;/code&gt; for collaborative workflows.&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git checkout [-b] [branch_name]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Switches your working directory to the specified &lt;code&gt;[branch_name]&lt;/code&gt;. Use the &lt;code&gt;-b&lt;/code&gt; flag to create a new branch named &lt;code&gt;[branch_name]&lt;/code&gt; if it doesn&amp;rsquo;t exist yet.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git merge [branch_name]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Merges the changes from the specified &lt;code&gt;[branch_name]&lt;/code&gt; into the current branch, combining their histories. This is generally preferred over &lt;code&gt;git rebase&lt;/code&gt; for collaborative development.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git branch -d [branch_name]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Deletes the specified &lt;code&gt;[branch_name]&lt;/code&gt;, but only if it has already been merged into another branch. Use the &lt;code&gt;-D&lt;/code&gt; flag (&lt;strong&gt;use with caution!&lt;/strong&gt;) to force deletion even if unmerged, but be aware this can cause issues in collaborative workflows.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Additional Commands:&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git branch&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists all local branches, indicating the currently active branch with an asterisk (&lt;code&gt;*&lt;/code&gt;).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git checkout [branch]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Switches to the specified &lt;code&gt;[branch]&lt;/code&gt; and checks it out into your working directory.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git reset --hard [commit]&lt;/code&gt; (&lt;strong&gt;Use with extreme caution!&lt;/strong&gt; )&lt;/td&gt;
+          &lt;td&gt;Discards all uncommitted changes in your working directory and resets it to the state of the specified commit. This action cannot be undone!&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;git branch&lt;/code&gt; regularly to keep track of your branches.&lt;/li&gt;
+&lt;li&gt;Favor &lt;code&gt;git merge&lt;/code&gt; over &lt;code&gt;git rebase&lt;/code&gt; in collaborative development to avoid rewriting history and potential conflicts.&lt;/li&gt;
+&lt;li&gt;Be cautious with &lt;code&gt;git reset --hard&lt;/code&gt; and &lt;code&gt;git branch -D&lt;/code&gt; as they can lead to data loss.&lt;/li&gt;
+&lt;li&gt;Consider using a visual Git client to get a better understanding of branch relationships.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspect-history--inspect--compare&#34;&gt;Inspect History / Inspect &amp;amp; Compare&lt;/h2&gt;
+&lt;p&gt;Understanding your project&amp;rsquo;s history is crucial in Git. Here&amp;rsquo;s a table outlining essential commands for inspecting commits, comparing branches, and viewing Git objects:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists the commit history of your current branch, starting from the most recent commit and working backwards.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log [-n count]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Shows a limited view of the commit history, displaying only the most recent &lt;code&gt;n&lt;/code&gt; commits.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log --oneline --graph --decorate&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Provides a concise overview of the commit history with a visual graph, reference labels, and decorations (e.g., author names, commit messages). Each commit is displayed on a single line.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log ref^..&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists commits that exist on your current branch (ref) but haven&amp;rsquo;t been merged into the specified reference (&lt;code&gt;ref&lt;/code&gt;). This reference can be a branch name or a tag name.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log --first-parent origin/master..HEAD&lt;/code&gt; (&lt;strong&gt;Advanced:&lt;/strong&gt; Use with caution!)&lt;/td&gt;
+          &lt;td&gt;Shows commits specific to your current branch (HEAD) that are not present in the &lt;code&gt;origin/master&lt;/code&gt; branch&amp;rsquo;s linear history (excluding merges). This is useful for identifying your local changes on top of the remote &lt;code&gt;master&lt;/code&gt; branch.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git reflog&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Displays a history of operations (like checkouts and commits) performed on your local repository.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log branchB..branchA&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Reveals the commits that are present on branch &lt;code&gt;branchA&lt;/code&gt; but not on branch &lt;code&gt;branchB&lt;/code&gt;. This helps you understand what changes exist in &lt;code&gt;branchA&lt;/code&gt; that are not yet included in &lt;code&gt;branchB&lt;/code&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git log --follow [file]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Tracks the history of a specific file named &lt;code&gt;[file]&lt;/code&gt;, even if it has been renamed during development. This allows you to see all commits that modified the file throughout its lifetime.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git diff branchB...branchA&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Shows the difference between branches &lt;code&gt;branchB&lt;/code&gt; and &lt;code&gt;branchA&lt;/code&gt;. This essentially reveals what changes are present in &lt;code&gt;branchA&lt;/code&gt; compared to &lt;code&gt;branchB&lt;/code&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git show [SHA]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Displays any Git object (e.g., a commit, a blob, or a tree) in a human-readable format, given its SHA-1 hash (&lt;code&gt;[SHA]&lt;/code&gt;).&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;git log&lt;/code&gt; variations to explore your commit history at different levels of detail.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git reflog&lt;/code&gt; can be helpful for tracking your actions in the repository.&lt;/li&gt;
+&lt;li&gt;Commands like &lt;code&gt;git log branchB..branchA&lt;/code&gt; and &lt;code&gt;git diff branchB...branchA&lt;/code&gt; are valuable for comparing branches.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git show&lt;/code&gt; allows you to examine specific Git objects by their unique identifier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reverting-changes&#34;&gt;Reverting Changes&lt;/h2&gt;
+&lt;p&gt;Git provides two primary ways to undo changes in your project: &lt;code&gt;git reset&lt;/code&gt; and &lt;code&gt;git revert&lt;/code&gt;. Here&amp;rsquo;s a table explaining these commands:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git reset [--hard] [target reference]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Moves the current branch pointer (HEAD) to the specified &lt;code&gt;target reference&lt;/code&gt; (e.g., a commit SHA or branch name). This essentially undoes changes by rewinding your working directory and staging area to match the target state.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;* &lt;strong&gt;Without &lt;code&gt;--hard&lt;/code&gt;&lt;/strong&gt; (default): Changes made since the target reference become uncommitted changes in your working directory. However, be cautious as these changes can be easily lost.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;* &lt;strong&gt;With &lt;code&gt;--hard&lt;/code&gt; (&lt;strong&gt;Use with extreme caution!&lt;/strong&gt;)&lt;/strong&gt;: Discards all uncommitted changes in your working directory and staging area, completely resetting them to the state of the target reference. &lt;strong&gt;This action cannot be undone!&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git revert [commit SHA]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Creates a new commit that effectively reverses the changes introduced in the specified commit identified by its SHA. This is generally a safer option than &lt;code&gt;git reset&lt;/code&gt; as it creates a new commit to track the reversal, allowing you to revert the revert if needed.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;git reset&lt;/code&gt; cautiously, especially with the &lt;code&gt;--hard&lt;/code&gt; flag, as it can lead to permanent data loss.&lt;/li&gt;
+&lt;li&gt;Consider &lt;code&gt;git revert&lt;/code&gt; as a safer alternative for undoing changes as it creates a new commit for tracking.&lt;/li&gt;
+&lt;li&gt;Before using either command, it&amp;rsquo;s highly recommended to back up your work or use a stash (covered in a previous section) to preserve uncommitted changes if needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tagging-commits&#34;&gt;Tagging Commits&lt;/h2&gt;
+&lt;p&gt;Tags are a powerful way to mark specific points in your Git history for easy reference.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git tag&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists all existing tags associated with your Git repository.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git tag [name] [commit SHA]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Creates a new tag named &lt;code&gt;[name]&lt;/code&gt; that points to the current HEAD commit (the latest commit in your current branch). You can optionally specify a specific commit SHA to tag instead of the current one.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git tag -a [name] [commit SHA]&lt;/code&gt; (&lt;strong&gt;Advanced:&lt;/strong&gt; Use with caution!)&lt;/td&gt;
+          &lt;td&gt;Creates an annotated tag named &lt;code&gt;[name]&lt;/code&gt; for the specified commit (either the current HEAD or a specific SHA). Annotated tags store additional information like a tag message, which can be helpful for documentation purposes. However, annotated tags can be larger than lightweight tags (created by &lt;code&gt;git tag&lt;/code&gt; without &lt;code&gt;-a&lt;/code&gt;). Consider using lightweight tags for simplicity in most cases.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git tag -d [name]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Removes the specified tag named &lt;code&gt;[name]&lt;/code&gt; from your local repository.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use clear and descriptive names for your tags to enhance readability.&lt;/li&gt;
+&lt;li&gt;Lightweight tags (created with &lt;code&gt;git tag&lt;/code&gt;) are generally preferred due to their smaller size.&lt;/li&gt;
+&lt;li&gt;Annotated tags (created with &lt;code&gt;git tag -a&lt;/code&gt;) can be useful for storing additional information, but use them judiciously when size is a concern.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;synchronizing-repositories--share--update&#34;&gt;Synchronizing Repositories / Share &amp;amp; Update&lt;/h2&gt;
+&lt;p&gt;Collaboration and keeping your project code in sync are essential aspects of Git.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git fetch [remote]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Retrieves changes from the remote repository specified by &lt;code&gt;[remote]&lt;/code&gt; (e.g., &lt;code&gt;origin&lt;/code&gt;) but doesn&amp;rsquo;t automatically integrate them into your local branch. This is useful when you want to see what changes exist on the remote without merging them yet.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git fetch --prune [remote]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Fetches changes from the remote repository and additionally removes any local references (refs) to branches that have been deleted on the remote. This helps keep your local repository clean.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git pull [remote]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Combines &lt;code&gt;git fetch&lt;/code&gt; and &lt;code&gt;git merge&lt;/code&gt; in one step. It downloads changes from the remote repository and attempts to merge them into your current branch. This is a convenient way to stay up-to-date with the remote&amp;rsquo;s latest changes.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git push [--tags] [remote]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Pushes your local commits to the remote repository specified by &lt;code&gt;[remote]&lt;/code&gt;. Use the &lt;code&gt;--tags&lt;/code&gt; flag to include tags along with your commits.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git push -u [remote] [branch]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Pushes your local branch named &lt;code&gt;[branch]&lt;/code&gt; to the remote repository and sets the corresponding remote branch as an &amp;ldquo;upstream&amp;rdquo; branch. This simplifies future pushes as you won&amp;rsquo;t need to specify the remote branch name explicitly.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git remote add [alias] [url]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Adds a new remote repository identified by its URL &lt;code&gt;[url]&lt;/code&gt; and assigns a short alias name &lt;code&gt;[alias]&lt;/code&gt; for easier reference.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git remote update origin --prune&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Update the local list of remote branches.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git fetch [alias]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Fetches changes from the remote repository associated with the specified alias &lt;code&gt;[alias]&lt;/code&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git merge [alias]/[branch]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Merges the remote branch named &lt;code&gt;[branch]&lt;/code&gt; from the remote repository identified by &lt;code&gt;[alias]&lt;/code&gt; into your current local branch. This allows you to incorporate changes from a specific remote branch.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git push [alias] [branch]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Pushes your local branch named &lt;code&gt;[branch]&lt;/code&gt; to the remote branch named &lt;code&gt;[branch]&lt;/code&gt; on the remote repository identified by &lt;code&gt;[alias]&lt;/code&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;git fetch&lt;/code&gt; when you want to be aware of remote changes without merging them immediately.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git pull&lt;/code&gt; is a convenient way to fetch and merge in one step, but be prepared to handle potential merge conflicts.&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;git push&lt;/code&gt; to share your local commits with the remote repository.&lt;/li&gt;
+&lt;li&gt;Manage remote repositories with aliases for easier handling using &lt;code&gt;git remote add&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Consider using a &lt;a href=&#34;https://git-scm.com/downloads/guis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;visual Git client&lt;/a&gt; to simplify branch management and visualization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;git-repository-maintenance&#34;&gt;Git Repository Maintenance&lt;/h2&gt;
+&lt;p&gt;Regular maintenance of your Git repository is essential for optimal performance and organization.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git gc&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Cleans up unnecessary files and optimizes the local repository&amp;rsquo;s database. This command is useful for reducing disk usage and improving Git&amp;rsquo;s performance.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git fsck&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Verifies the integrity of your repository&amp;rsquo;s objects and references, checking for any corruption or inconsistencies. This is helpful for ensuring the reliability of your Git data.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git prune&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Removes unreachable objects (e.g., commits, blobs) from your repository, freeing up disk space and keeping your repository clean.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git reflog expire --expire=now --all&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Expires all reflog entries immediately, removing any outdated or unnecessary references. This helps maintain a clean and efficient repository.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;git clean -dnx | sed &#39;s/Would remove //;s/Would skip repository //&#39;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;Lists untracked files in your working directory that are not ignored by your &lt;code&gt;.gitignore&lt;/code&gt; file. This command is useful for identifying files that may need to be removed or added to the ignore list.  (remove &lt;code&gt;x&lt;/code&gt; to hide ignored files)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;https://georgelitos.com/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to bypass Git Hooks</title>
+      <link>https://georgelitos.com/post/git-bypass/</link>
+      <pubDate>Wed, 08 Mar 2023 12:42:52 +0200</pubDate>
+      <guid>https://georgelitos.com/post/git-bypass/</guid>
+      <description>&lt;p&gt;&lt;code&gt;git push --no-verify&lt;/code&gt; is a command used to push your local changes to a remote repository without running pre-commit hooks or pre-push hooks. Pre-commit hooks and pre-push hooks are scripts that run before a commit or a push, and they are used to perform automated tests, code quality checks, or other actions that help ensure the quality and correctness of your code. You can use &lt;a href=&#34;https://github.com/typicode/husky&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;husky&lt;/a&gt; or &lt;a href=&#34;https://pre-commit.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pre-commit&lt;/a&gt; if you need extra features or just production ready tools.&lt;/p&gt;
+&lt;p&gt;Sometimes, you may need to bypass these hooks and push your changes without running them. For example, if you&amp;rsquo;re in a hurry and you need to push a critical bug fix, or if you&amp;rsquo;re working in a team with strict code review policies and you need to push a work-in-progress commit for collaboration purposes.&lt;/p&gt;
+&lt;p&gt;To use it simply add the &lt;code&gt;--no-verify&lt;/code&gt; flag to your git push command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push --no-verify
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will push your changes to the remote repository without running the pre-commit or pre-push hooks.&lt;/p&gt;
+&lt;p&gt;However, it&amp;rsquo;s important to note that using &amp;ndash;no-verify should be done with caution, as it can potentially lead to lower code quality and a higher risk of introducing bugs or other issues into your codebase. Therefore, it&amp;rsquo;s recommended to only use &amp;ndash;no-verify when it&amp;rsquo;s absolutely necessary and always double-check your code before pushing it to a remote repository.&lt;/p&gt;
+&lt;p&gt;You can check the &lt;a href=&#34;https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-verify&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Git Documentation.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;https://georgelitos.com/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Git ...not just version control</title>
+      <link>https://georgelitos.com/talk/git/</link>
+      <pubDate>Fri, 01 Jul 2022 03:33:00 +0300</pubDate>
+      <guid>https://georgelitos.com/talk/git/</guid>
+      <description>&lt;p&gt;Git is a powerful version control system that allows developers to track and store changes to their code. It also helps teams collaborate on projects efficiently. With Git, developers can keep track of changes made to their code, revert back to previous versions if needed, and even create branches for different versions of the same project. In this talk, we&amp;rsquo;ll take a look at how Git works and how it can be used to manage and track changes to your code.&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;You can also check the &lt;a href=&#34;https://georgelitos.com/post/git-cheatsheet/&#34;&gt;Git Cheatsheet&lt;/a&gt; post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://georgelitos.com/slides/git/</link>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://georgelitos.com/slides/git/</guid>
+      <description>&lt;section&gt;
+&lt;h1 id=&#34;git&#34;&gt;Git&lt;/h1&gt;
+&lt;h2 id=&#34;not-just-version-control&#34;&gt;not just version control&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;git&#34;
+           src=&#34;https://georgelitos.com/slides/git/org.gnome.gitg.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;v2.1 by &lt;a href=&#34;https://georgelitos.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Litos&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;a-bit-of-history&#34;&gt;a bit of history&lt;/h2&gt;
+&lt;p&gt;Git was originally authored by &lt;a href=&#34;https://en.wikipedia.org/wiki/Linus_Torvalds&#34; title=&#34;Linus Torvalds&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linus Torvalds&lt;/a&gt; in 2005 for development of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux_kernel&#34; title=&#34;Linux kernel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux kernel&lt;/a&gt;, with other kernel developers contributing to its initial development.
+Since 2005, Junio Hamano has been the core maintainer.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;a bit of history cont&amp;rsquo;d&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As with most other &lt;a href=&#34;https://en.wikipedia.org/wiki/Distributed_version_control&#34; title=&#34;Distributed version control&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;distributed version control&lt;/a&gt; systems, and unlike most client–server systems, every Git &lt;a href=&#34;https://en.wikipedia.org/wiki/Directory_%28computing%29&#34; title=&#34;Directory (computing)&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;directory&lt;/a&gt; on every &lt;a href=&#34;https://en.wikipedia.org/wiki/Node_%28networking%29&#34; title=&#34;Node (networking)&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;computer&lt;/a&gt; is a full-fledged &lt;a href=&#34;https://en.wikipedia.org/wiki/Repository_%28version_control%29&#34; title=&#34;Repository (version control)&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository&lt;/a&gt; with complete history and full version-tracking abilities, independent of network access or a central server.&lt;/p&gt;
+&lt;p&gt;Git is &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_software&#34; title=&#34;Free and open-source software&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;free and open-source software&lt;/a&gt; distributed under the &lt;a href=&#34;https://en.wikipedia.org/wiki/GNU_General_Public_License&#34; title=&#34;GNU General Public License&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPL-2.0-only&lt;/a&gt; license.&lt;/p&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tech-talk&#34;&gt;Tech Talk&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4XpnKHJAok8&amp;amp;t=90s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linus Torvalds on git&lt;/a&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/linus.png&#34;&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;Git is alive&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;december-12-2022&#34;&gt;December 12, 2022&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.blog/2022-12-12-highlights-from-git-2-39/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git is alive and actively developed&lt;/a&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/git239.webp&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Official site&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;SO Survey 2021&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;stack-overflow-developer-survey-2021&#34;&gt;Stack Overflow Developer Survey 2021&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://insights.stackoverflow.com/survey/2021#most-popular-technologies-tools-tech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Over 90% of respondents use Git, suggesting that it is a fundamental tool to being a developer.&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/so2021.png&#34;&gt;
+&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;SO Survey 2022&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;stack-overflow-developer-survey-2022&#34;&gt;Stack Overflow Developer Survey 2022&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://survey.stackoverflow.co/2022/#section-version-control-version-control-systems&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;No other technology is as widely used as Git. Especially among Professional Developers.&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/so2022.png&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Q: What are the primary version control systems you use?&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;glossary&#34;&gt;Glossary&lt;/h1&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Working directory - repo&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;the working directory is the folder on your system that you want to track. Where you develop your project. Everything git related is inside the &lt;code&gt;.git&lt;/code&gt; folder. Serverless.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Remote repository&lt;/td&gt;
+          &lt;td&gt;Remote repositories are versions of your project that are hosted elsewhere. You can have several of them, each one is either RO or RW for you.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Git files&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Inside the working directory and beneath, you might find some git related files&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;.gitattributes&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;how to handle files&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;.gitignore&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;what to ignore&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;.gitkeep&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;keep an empty dir&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;strong&gt;Tracked files&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;Tracked files are the files in the working directory (repository) that Git manages.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;em&gt;The Staging Area&lt;/em&gt;*&lt;/dt&gt;
+&lt;dd&gt;The intermediary between the working directory and the project history.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;hr&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;strong&gt;Commit&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;Commit is the process of adding any changes in tracked files. Git will keep track of all the changes in the &lt;strong&gt;Committed History&lt;/strong&gt;.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;em&gt;Commit message&lt;/em&gt;*&lt;/dt&gt;
+&lt;dd&gt;The commit message is a summary and description of a commit action.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;hr&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;strong&gt;Branches&lt;/strong&gt; (develop, feature, master)&lt;/dt&gt;
+&lt;dd&gt;A branch is a set of the repo tracked files. Git allows you to compare and merge branches. It can also be used to organize collaboration inside the repo, fix specific bugs, or create new features.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;em&gt;Merge&lt;/em&gt;*&lt;/dt&gt;
+&lt;dd&gt;Copy code changes from one branch to another.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;(not really git)&lt;/em&gt;&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;strong&gt;Fork&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;You clone a public repo, make changes and contribute back with a PR.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;em&gt;Pull/Merge request (PR)&lt;/em&gt;*&lt;/dt&gt;
+&lt;dd&gt;A PR is a request to the repository owner to merge your changes back into the original code base.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;git-init&#34;&gt;git init&lt;/h1&gt;
+&lt;p&gt;Install &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git&lt;/a&gt;, then&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;John Smith&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email john@example.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global init.defaultBranch main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Create a new folder for your project and add a file under version control&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir -p ~/projects/git-test
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~/projects/git-test
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nano new_file
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;Commit the changes&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gp&#34;&gt;$&lt;/span&gt; git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Initial commit&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;[master (root-commit) 19632d1] Add new file
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt; 1 file changed, 1 insertion(+)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt; create mode 100644 new-file
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;every commit is unique, it contains:&lt;/p&gt;
+&lt;p&gt;snapshot of the project (a tree with a compressed blob for each file),
+ser information,ate,
+ommit message,HA-1 checksum.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gp&#34;&gt;$&lt;/span&gt; git log
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;commit 81752cd6a514fd2595c40f27c783d6887f84e6e6
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;Author: John Smith &amp;lt;john@example.com&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;Date:   Thu Apr 7 15:17:45 2022 +0000
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;go&#34;&gt;    Initial commit
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/section&gt;
+&lt;hr&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;dont-fear-the-git&#34;&gt;don&amp;rsquo;t fear the git!&lt;/h1&gt;
+&lt;h2 id=&#34;git-will-help-&#34;&gt;Git will help 🥷&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cleanup your code base&lt;/li&gt;
+&lt;li&gt;Backup your code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Merge Requests&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Code Review&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CI/CD 🤖 (coming soon&amp;hellip;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code linting / beautify&lt;/li&gt;
+&lt;li&gt;Automated Testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Contribute to open source&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Be famous 💰&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;workflow&#34;&gt;workflow&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gitflow Workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://numpy.org/doc/stable/dev/development_workflow.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NumPy Development workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to JIRA issue&lt;/li&gt;
+&lt;li&gt;Merge requests to the main branch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;a-successful-git-branching-model&#34;&gt;A successful Git branching model&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://nvie.com/posts/a-successful-git-branching-model/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;By Vincent Driessen&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/git-model.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;gitflow-workflow&#34;&gt;Gitflow Workflow&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Atlassian Tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/branches.svg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;1-start-a-project&#34;&gt;1. Start a project&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Divide work in repositories&lt;/li&gt;
+&lt;li&gt;Choose workflow (advanced git flow)&lt;/li&gt;
+&lt;li&gt;Select which files to keep under version control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-work-on-a-project&#34;&gt;2. Work on a project&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Working on a topic/feature/bugfix branch&lt;/li&gt;
+&lt;li&gt;Splitting changes into logically separate steps&lt;/li&gt;
+&lt;li&gt;Write a good commit message (e.g. present tense, short and meaningfull)&lt;/li&gt;
+&lt;li&gt;Preparing changes for submission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-integrate&#34;&gt;3. Integrate&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Submitting and describing changes&lt;/li&gt;
+&lt;li&gt;Merge request to the main branch&lt;/li&gt;
+&lt;li&gt;Delete working branch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;team-goal-&#34;&gt;TEAM GOAL 🥅&lt;/h1&gt;
+&lt;h2 id=&#34;pull-the-servers-plug&#34;&gt;pull the servers&amp;rsquo; plug&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Rebuild and restart services anytime&lt;/li&gt;
+&lt;li&gt;Do a server &lt;code&gt;reboot&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;🔥 Change servers and redeploy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;rebuild-&#34;&gt;Rebuild 🏠&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;install docker
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone repo
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat README.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;gt; follow the instructions
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Use &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; for dev &amp;amp; production&lt;/li&gt;
+&lt;li&gt;Use &lt;a href=&#34;https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Markdown&lt;/a&gt; for writing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;in case of fire&#34;
+           src=&#34;https://georgelitos.com/slides/git/in_case_of_fire.svg&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;practice-and-use-everywhere&#34;&gt;practice and use everywhere&lt;/h1&gt;
+&lt;p&gt;&amp;hellip;.you don&amp;rsquo;t need a server&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -a -m &lt;span class=&#34;s1&#34;&gt;&amp;#39;Commit message&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b new_branch
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git status
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;When you don&amp;rsquo;t know what to do type:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gp&#34;&gt;$&lt;/span&gt; git status
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;On branch main
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;Your branch is up to date with &amp;#39;origin/main&amp;#39;.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;go&#34;&gt;Changes not staged for commit:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;  (use &amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34; to update what will be committed)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;  (use &amp;#34;git restore &amp;lt;file&amp;gt;...&amp;#34; to discard changes in working directory)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;	modified:   docker-compose.yml
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;go&#34;&gt;Untracked files:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;  (use &amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34; to include in what will be committed)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;	.idea/
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;	db_sink/
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;	file_records/
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;	record_transformer/
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;go&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;go&#34;&gt;no changes added to commit (use &amp;#34;git add&amp;#34; and/or &amp;#34;git commit -a&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;git-tips&#34;&gt;Git tips&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn the command line basics&lt;/li&gt;
+&lt;li&gt;&amp;hellip;and then use a GUI&lt;/li&gt;
+&lt;li&gt;you don&amp;rsquo;t have to use only 1 (git) client&lt;/li&gt;
+&lt;li&gt;git reset &amp;ndash;hard&lt;/li&gt;
+&lt;li&gt;Use aliases (cmdline)&lt;/li&gt;
+&lt;li&gt;Use the log/graph 😛&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t panic, recovery is (almost) always possible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;resolve-merge-conflicts-with-gui&#34;&gt;Resolve merge conflicts with GUI&lt;/h2&gt;
+&lt;p&gt;(e.g. Jetbrains PhpStorm)&lt;/p&gt;
+&lt;img src=&#34;resolveConflict.png&#34; /&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;om-my-zsh-aliases&#34;&gt;om-my-zsh aliases&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;g=git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ga=&amp;#39;git add&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gl=&amp;#39;git pull&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gp=&amp;#39;git push&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gcam=&amp;#39;git commit -a -m&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gcd=&amp;#39;git checkout $(git_develop_branch)&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gdcw=&amp;#39;git diff --cached --word-diff&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gfa=&amp;#39;git fetch --all --prune --jobs=10&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggpush=&amp;#39;git push origin &amp;#34;$(git_current_branch)&amp;#34;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gloga=&amp;#39;git log --oneline --decorate --graph --all&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;grup=&amp;#39;git remote update&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gsps=&amp;#39;git show --pretty=short --show-signature&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gst=&amp;#39;git status&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gstl=&amp;#39;git stash list&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gswd=&amp;#39;git switch $(git_develop_branch)&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;github-tips&#34;&gt;Github tips&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Check GitHub tools (desktop and cmdline clients)&lt;/li&gt;
+&lt;li&gt;Search GitHub with powerfull filters (stars/topic/users/language)&lt;/li&gt;
+&lt;li&gt;Check &lt;a href=&#34;https://github.com/explore&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Explore&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Check project Issues&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;advanced-git&#34;&gt;Advanced git&lt;/h1&gt;
+&lt;dl&gt;
+&lt;dt&gt;Cherry-pick&lt;/dt&gt;
+&lt;dd&gt;&lt;code&gt;git cherry-pick&lt;/code&gt; lets you select a commit from a branch to apply it to another branch.&lt;/dd&gt;
+&lt;dt&gt;Using tags&lt;/dt&gt;
+&lt;dd&gt;Git has the option to tag a commit in the repository so that you find it easier or mark an app version on a commit.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git tag 1.0.0 -m &amp;#39;Release 1.0.0&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;dl&gt;
+&lt;dt&gt;Stashing your changes&lt;/dt&gt;
+&lt;dd&gt;&lt;code&gt;git stash&lt;/code&gt; allows you to save the current state of the local repository and restore it later.&lt;/dd&gt;
+&lt;dt&gt;Creating a patch&lt;/dt&gt;
+&lt;dd&gt;&lt;code&gt;git format-patch&lt;/code&gt; command is useful to transfer a commit
+to another repository&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;best-practices&#34;&gt;Best practices&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Commit (local) often&lt;/li&gt;
+&lt;li&gt;Push daily (at least EOD) 🕠&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Write better commit messages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;and-worst&#34;&gt;&amp;hellip;and worst&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Don&amp;rsquo;t commit half-done work&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t change the published history&lt;/li&gt;
+&lt;li&gt;Never rebase a branch that has been pushed to a public repository&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;semantic-commit-messages&#34;&gt;Semantic Commit Messages&lt;/h2&gt;
+&lt;p&gt;See how a minor change to your commit message style can make you a better programmer.&lt;/p&gt;
+&lt;p&gt;Format: &lt;code&gt;&amp;lt;type&amp;gt;(&amp;lt;scope&amp;gt;): &amp;lt;subject&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;scope&amp;gt;&lt;/code&gt; is optional&lt;/p&gt;
+&lt;h3 id=&#34;example&#34;&gt;Example&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;feat: add hat wobble
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;^--^  ^------------^
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|     |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|     +-&amp;gt; Summary in present tense.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;+-------&amp;gt; Type: chore, docs, feat, fix, refactor, style, or test.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;more-examples&#34;&gt;More Examples&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;feat&lt;/code&gt;: (new feature for the user, not a new feature for build script)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fix&lt;/code&gt;: (bug fix for the user, not a fix to a build script)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docs&lt;/code&gt;: (changes to the documentation)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;style&lt;/code&gt;: (formatting, missing semi colons, etc; no production code change)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;refactor&lt;/code&gt;: (refactoring production code, eg. renaming a variable)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;test&lt;/code&gt;: (adding missing tests, refactoring tests; no production code change)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chore&lt;/code&gt;: (updating grunt tasks etc; no production code change)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;References:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.conventionalcommits.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.conventionalcommits.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://seesparkbox.com/foundry/semantic_commit_messages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://seesparkbox.com/foundry/semantic_commit_messages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://karma-runner.github.io/1.0/dev/git-commit-msg.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://karma-runner.github.io/1.0/dev/git-commit-msg.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;section&gt;
+&lt;h1 id=&#34;books&#34;&gt;Books&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pro Git&lt;/a&gt; by Scott Chacon and Ben Straub
+&lt;figure&gt;&lt;img src=&#34;https://git-scm.com/images/progit2.png&#34; width=&#34;200&#34;&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.syncfusion.com/succinctly-free-ebooks/git/overview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Succinctly&lt;/a&gt; by Ryan Hodson
+&lt;figure&gt;&lt;img src=&#34;https://cdn.syncfusion.com/content/images/downloads/ebook/ebook-cover/Git-Succinctly.jpg&#34; width=&#34;200&#34;&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;cheat-sheets&#34;&gt;Cheat Sheets&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://education.github.com/git-cheat-sheet-education.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Education&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.git-tower.com/blog/git-cheat-sheet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Tower Git cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cheat.sh/git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cheat.sh/git&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rogerdudler.github.io/git-guide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git - the simple guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/en/get-started/quickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Quickstart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marklodato.github.io/visual-git-guide/index-en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Visual Git Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;man git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git &lt;span class=&#34;nb&#34;&gt;help&lt;/span&gt; &amp;lt;command&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/section&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;advanced-topics&#34;&gt;Advanced topics&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Resolving a merge conflict using the command line&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cbea.ms/git-commit/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to Write a Git Commit Message&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/merging-vs-rebasing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Merging vs. Rebasing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Distributed-Git-Maintaining-a-Project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Distributed Git - Maintaining a Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://coderwall.com/p/0c-ayq/howto-split-a-git-repository-into-two&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Howto split a git repository into two&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://matthew-brett.github.io/curious-git/curious_git.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Curious git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/git-hooks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Hooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-lfs.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Large File Storage (LFS)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

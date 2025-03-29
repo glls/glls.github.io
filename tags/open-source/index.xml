@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source | George Litos</title>
+    <link>https://georgelitos.com/tags/open-source/</link>
+      <atom:link href="https://georgelitos.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <description>Open Source</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Jun 2023 09:18:07 +0300</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hu_2ac5e903bb1b058e.png</url>
+      <title>Open Source</title>
+      <link>https://georgelitos.com/tags/open-source/</link>
+    </image>
+    
+    <item>
+      <title>MC: a commander like no other</title>
+      <link>https://georgelitos.com/post/mc/</link>
+      <pubDate>Mon, 05 Jun 2023 09:18:07 +0300</pubDate>
+      <guid>https://georgelitos.com/post/mc/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander™. It also takes the best from more recent software with similar interfaces. Many years ago, we used file-managers like these, as &amp;ldquo;Norton Commander&amp;rdquo; in DOS, or the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, which is still alive in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
+&lt;h2 id=&#34;dual-pane-interface-for-seamless-file-management&#34;&gt;Dual-Pane Interface for Seamless File Management&lt;/h2&gt;
+&lt;p&gt;One of the key strengths of Midnight Commander is its intuitive dual-pane layout. The two panes allow users to navigate through directories and manipulate files seamlessly. Whether you&amp;rsquo;re copying, moving, or deleting files, the dual-pane view enables quick and effortless operations. Moreover, MC provides a command-line prompt at the bottom, allowing users to execute commands directly without switching to a separate terminal window. This combination of a visual interface and command-line capabilities enhances productivity and workflow efficiency.&lt;/p&gt;
+&lt;h2 id=&#34;feature-rich-functionality&#34;&gt;Feature-Rich Functionality&lt;/h2&gt;
+&lt;p&gt;In addition to its exceptional file management capabilities, MC offers a wide range of features that further enhance its usefulness. It includes a built-in file viewer, which allows users to examine the contents of various file types without the need for external applications. Additionally, MC features a powerful text editor, enabling users to make quick modifications to files without leaving the application. The integrated FTP client functionality allows seamless transfers of files between local and remote systems, adding another layer of convenience for users who need to work with remote servers.&lt;/p&gt;
+&lt;p&gt;You can install MC in different systems or you can compile it from source (it&amp;rsquo;s written in C).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MacOS &lt;code&gt;brew install mc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ubuntu/Debian &lt;code&gt;sudo apt install mc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Archlinux &lt;code&gt;sudo pacman -S mc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here&amp;rsquo;s a list of feature copied directly from GitHub:&lt;/p&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+&lt;p&gt;Some features are specific to the POSIX environment MC runs on, some are
+familiar to the users of similar software for other operating systems.
+The features include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Built in Virtual File System: manipulate remote file systems through the FTP and SFTP protocols or over secure shell, browse contents of tar, ar, rpm, zip, cpio, lha and rar archives just like local files.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Almost all operations work with the virtual file system, enabling you to do complex tasks, like viewing files in archives on an FTP server.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mouse support on most terminal emulators for X Window System as well as on the Linux console.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Learn Keys: GNU Midnight Commander may be configured at run time to support any kind of input keys for a given terminal, making its operation possible even on most weird terminals.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Text and hex editors are available for you to use (hex editor is a part of the viewer).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hotlist allows you to keep a list of common visited locations, including remote sites and directories inside archives.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Command completion: By pressing Alt-Tab in any place where a filename or an executable are expected, GNU Midnight Commander will complete the name for you.  If you press Alt-Tab for the second time, you get a list box with all possible completions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Subshell support: Run your commands by a real shell interpreter.  GNU Midnight Commander interacts with bash, tcsh and zsh to provide you with all of the facilities available in your preferred shell.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Find file command can search for the file contents.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Background operations allow you to copy or move files from any virtual file system while you do other tasks (i.e., you can do background FTP copies).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;FTP proxy is supported.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Linux file recovery: If you are using Linux, you can recover deleted files from an ext2 or ext3 partition with the undelete file system.  This is a low level file recovery function that can recover files deleted by any program on Linux.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;External panelization: You can run any arbitrary external command and GNU Midnight Commander will display the output generated as a file listing that can be manipulated as a regular directory.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Emacs-like key bindings are used in all widgets.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Context dependent actions (open, view, edit) are available.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The built-in file viewer, together with the context dependent actions is used to format man pages on the fly, coloring mail messages and more.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The built-in editor supports syntax highlighting and external actions, such as spell checking and formatting.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scrcpy: Display and control your Android device</title>
+      <link>https://georgelitos.com/post/scrcpy/</link>
+      <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/scrcpy/</guid>
+      <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
+This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
+&lt;p&gt;It focuses on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;lightness&lt;/strong&gt;: native, displays only the device screen&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;performance&lt;/strong&gt;: 30~120fps, depending on the device&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;quality&lt;/strong&gt;: 1920×1080 or above&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;low latency&lt;/strong&gt;: &lt;a href=&#34;https://github.com/Genymobile/scrcpy/pull/646&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;35~70ms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;low startup time&lt;/strong&gt;: ~1 second to display the first image&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;non-intrusiveness&lt;/strong&gt;: nothing is left installed on the Android device&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;user benefits&lt;/strong&gt;: no account, no ads, no internet required&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;freedom&lt;/strong&gt;: free and open source software&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Its features include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Genymobile/scrcpy/blob/master/doc/audio.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;audio forwarding&lt;/a&gt; (Android &amp;gt;= 11)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Genymobile/scrcpy/blob/master/doc/recording.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recording&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;mirroring with &lt;a href=&#34;https://github.com/Genymobile/scrcpy/blob/master/doc/device.md#turn-screen-off&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Android device screen off&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Genymobile/scrcpy/blob/master/doc/control.md#copy-paste&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;copy-paste&lt;/a&gt; in both directions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Genymobile/scrcpy/blob/master/doc/video.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;configurable quality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Android device screen &lt;a href=&#34;https://github.com/Genymobile/scrcpy/blob/master/doc/v4l2.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;as a webcam (V4L2)&lt;/a&gt; (Linux-only)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Genymobile/scrcpy/blob/master/doc/hid-otg.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;physical keyboard/mouse simulation (HID)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Genymobile/scrcpy/blob/master/doc/hid-otg.md#otg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OTG mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;and more…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Running scrcpy&#34; srcset=&#34;
+               /post/scrcpy/image1_hu_b95819f2c1ca654f.webp 400w,
+               /post/scrcpy/image1_hu_ef3f3e3e90ad76f2.webp 760w,
+               /post/scrcpy/image1_hu_514e3c92a0522802.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu_b95819f2c1ca654f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;205&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This tool gets better as it ages, like good &lt;code&gt;wine&lt;/code&gt;, please &lt;a href=&#34;https://github.com/Genymobile/scrcpy/graphs/contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;keep up the good work guys&lt;/a&gt; 💯&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Buku: a powerful bookmark manager</title>
+      <link>https://georgelitos.com/post/buku/</link>
+      <pubDate>Sat, 18 Mar 2023 20:00:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/buku/</guid>
+      <description>&lt;p&gt;Are you tired of losing track of your bookmarks across multiple browsers? Look no further than Buku, the powerful bookmark manager that imports bookmarks from all your browsers, works on console and has a web-based server.&lt;/p&gt;
+&lt;p&gt;With Buku, you can easily organize your bookmarks into categories and tags, making it easy to find exactly what you need. Plus, Buku&amp;rsquo;s powerful search feature allows you to quickly locate any bookmark in your collection.&lt;/p&gt;
+&lt;p&gt;One of the most unique features of Buku is its powerful console interface:&lt;/p&gt;
+&lt;script async id=&#34;asciicast-137065&#34; src=&#34;https://asciinema.org/a/137065.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;This allows power users to manage their bookmarks from the command line, making it incredibly fast and efficient to use. But don&amp;rsquo;t worry if you&amp;rsquo;re not a command line aficionado, Buku also has a user-friendly web-based interface that&amp;rsquo;s perfect for beginners and not only has beautiful stats page but a powerful API that you can use to make your own applications!&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;bukuserver run&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screenshot&#34; srcset=&#34;
+               /post/buku/screenshot-buku_hu_b4166048b3ae19d9.webp 400w,
+               /post/buku/screenshot-buku_hu_4d09422de59ae610.webp 760w,
+               /post/buku/screenshot-buku_hu_459c79990b69a219.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hu_b4166048b3ae19d9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;515&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Another great aspect of Buku is its cross-platform support. Whether you&amp;rsquo;re using Windows, Mac, or Linux, Buku will work seamlessly with your favorite browser.&lt;/p&gt;
+&lt;p&gt;Buku is open source, written in Python and available from &lt;a href=&#34;https://github.com/jarun/buku&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Breaking the Barrier</title>
+      <link>https://georgelitos.com/post/barrier/</link>
+      <pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/barrier/</guid>
+      <description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/debauchee/barrier/master/res/barrier.png&#34; alt=&#34;logo&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Barrier also supports the use of multiple monitors, allowing users to move their cursor seamlessly between different screens.The software is designed to be simple, easy to use, and highly configurable. Barrier is available for many operating systems and can be downloaded from &lt;a href=&#34;https://github.com/debauchee/barrier&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A little bit of history:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Barrier was created as a fork of Synergy due to certain limitations and issues that the developer of Barrier, Debauchee, experienced while using Synergy. Due to these limitations and issues, Debauchee decided to create a fork of Synergy, called Barrier, with the goal of addressing these issues and providing a more stable, customizable, and actively developed alternative to Synergy. Some of the features that Barrier added that Synergy didn&amp;rsquo;t have at the time like multi-monitor support, encryption, and improved cursor handling. Since then, Barrier has continued to be developed and maintained, with new features and improvements being added on a regular basis. It is also actively supported by its developer community, which aims to provide a stable, customizable and actively developed KVM solution for those who need it.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;I was an early user and even an Early Adopter of Synergy but was disappointed by the changes and bugs in version 3, then I switched to Barrier and never looked back.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.raspberrypi.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Raspberry Pi&lt;/a&gt; website praised Barrier with &lt;a href=&#34;https://www.raspberrypi.com/news/share-your-keyboard-and-mouse-between-computers-with-barrier/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a nice article and a video guide&lt;/a&gt;.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/-G9IIauHOhA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;The configuration is easy and straightforward. You can find the instructions on how to install and configure Barrier on the &lt;a href=&#34;https://github.com/debauchee/barrier#readme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt; or watch the video.&lt;/p&gt;
+&lt;p&gt;Tip: You can use &lt;code&gt;Scroll Lock&lt;/code&gt; to lock on a computer and don&amp;rsquo;t switch by accident to another, e.g. when playing a game.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Free your notes with Joplin</title>
+      <link>https://georgelitos.com/post/joplin/</link>
+      <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/joplin/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
+&lt;p&gt;One of the main features of Joplin is its ability to synchronize notes across multiple devices. Joplin also supports the use of multiple storage options, including the local file system, Dropbox, OneDrive, and WebDAV and more. In my case I use the local file system and synchronize the notes with my Synology NAS via &amp;ldquo;Cloud Station Drive&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;The notes are in &lt;a href=&#34;https://www.markdownguide.org/tools/joplin/#joplin-markdown-support&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown format&lt;/a&gt;. Joplin is available as a &lt;strong&gt;💻 desktop&lt;/strong&gt;, &lt;strong&gt;📱 mobile&lt;/strong&gt; and &lt;strong&gt;🔡 terminal&lt;/strong&gt; application.&lt;/p&gt;
+&lt;p&gt;Joplin also has a built-in to-do list feature that allows users to easily create and track tasks. This feature is integrated with the note-taking functionality, making it easy to keep track of tasks related to specific notes.&lt;/p&gt;
+&lt;p&gt;Another great feature of Joplin is its support for encryption, which allows users to secure their notes and keep them private.&lt;/p&gt;
+&lt;p&gt;Full text search is available on all platforms to quickly find the information you need.&lt;/p&gt;
+&lt;p&gt;Check the big list of features &lt;a href=&#34;https://joplinapp.org/#features&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
