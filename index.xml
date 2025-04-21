@@ -13,6 +13,120 @@
     </image>
     
     <item>
+      <title>Amiberry-Lite on Raspberry Pi</title>
+      <link>https://georgelitos.com/post/amiberry/</link>
+      <pubDate>Mon, 21 Apr 2025 19:00:00 +0300</pubDate>
+      <guid>https://georgelitos.com/post/amiberry/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://amiberry.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amiberry&lt;/a&gt; by Dimitris Panokostas is the best open-source emulator for the Amiga computer system. It is designed to run on various platforms, including Raspberry Pi, Linux, and Windows. It provides a user-friendly interface and supports a wide range of Amiga games and applications. Amiberry aims to deliver an authentic Amiga experience by accurately emulating the hardware and software of the original system. It includes features such as support for WHDLoad games, customizable controls, and various display options.&lt;/p&gt;
+&lt;p&gt;Homepage: &lt;a href=&#34;https://amiberry.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://amiberry.com&lt;/a&gt; &lt;br&gt;
+GitHub: &lt;a href=&#34;https://github.com/BlitterStudio/amiberry&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/BlitterStudio/amiberry&lt;/a&gt; &lt;br&gt;
+Wiki: &lt;a href=&#34;https://github.com/BlitterStudio/amiberry/wiki&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/BlitterStudio/amiberry/wiki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m going to show you how to install Amiberry-Lite on a Raspberry Pi 400 running the official Raspberry Pi OS. This guide assumes you have a basic understanding of using the command line and have a Raspberry Pi set up with an internet connection. If you don&amp;rsquo;t have the official Raspberry Pi OS installed, you can download it from the &lt;a href=&#34;https://www.raspberrypi.com/software/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspberry Pi website&lt;/a&gt;. Most of the times I use an old external SSD drive for better performance and durability. I&amp;rsquo;m using the lite version of Amiberry because it is better for emulating Amiga games on Pi 4 (you can find the details on the &lt;a href=&#34;https://github.com/BlitterStudio/amiberry/wiki/First-Installation#which-version-should-i-pick&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official wiki page&lt;/a&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;installation-&#34;&gt;Installation 💾&lt;/h2&gt;
+&lt;p&gt;Download the latest release of Amiberry-Lite from the &lt;a href=&#34;https://github.com/BlitterStudio/amiberry-lite/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub releases page&lt;/a&gt;. Look for the file named &lt;code&gt;amiberry-lite-&amp;lt;version&amp;gt;-debian-&amp;lt;distro&amp;gt;-&amp;lt;arch&amp;gt;.zip&lt;/code&gt;. If you don&amp;rsquo;t know which version to download, you can check which distro you are using by running the following command in the terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;lsb_release -a
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will display information about your Linux distribution, including the version and codename. Make sure to download the correct version of Amiberry-Lite for your system architecture (e.g., armhf for Raspberry Pi 2/3, arm64 for Pi 4/400).&lt;/p&gt;
+&lt;p&gt;To check the architecture of your Raspberry Pi, you can run the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;arch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In my case the result is aarch64, which means I need to download the arm64 version of Amiberry-Lite.&lt;/p&gt;
+&lt;p&gt;Unzip the downloaded file to a directory of your choice. You can use the following commands in the terminal to unzip and install :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~/Downloads 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;unzip amiberry-lite-v5.8.8-debian-bookworm-arm64.zip
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install ./amiberry-lite_5.8.8_arm64.deb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will install Amiberry-Lite and its dependencies on your Raspberry. You can now run it by typing &lt;code&gt;amiberry-lite&lt;/code&gt; in the terminal.&lt;/p&gt;
+&lt;h2 id=&#34;running-&#34;&gt;Running 👾&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Amiberry GUI&#34; srcset=&#34;
+               /post/amiberry/scr_title_hu_5533267ce001e0b0.webp 400w,
+               /post/amiberry/scr_title_hu_c340b0156feb1026.webp 760w,
+               /post/amiberry/scr_title_hu_49c6e9169e6e7ac9.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/amiberry/scr_title_hu_5533267ce001e0b0.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;497&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Get your Amiga Floppy Disk (ADF) images ready and prepare to enter nostalgia mode. I&amp;rsquo;m going to run &lt;a href=&#34;https://cope-com.com/battlesquadron/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Battle Squadron&lt;/a&gt;, which is one of my favorites Amiga classics, you can download it at the &lt;a href=&#34;https://cope-com.com/play-battle-squadron/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official game site&lt;/a&gt;.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Amiberry GUI&#34; srcset=&#34;
+               /post/amiberry/scr_gui_hu_d4eaaa6f6658f014.webp 400w,
+               /post/amiberry/scr_gui_hu_d0ec491f1a9a328a.webp 760w,
+               /post/amiberry/scr_gui_hu_9b6b038719927593.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/amiberry/scr_gui_hu_d4eaaa6f6658f014.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;627&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in DF0:, you can adjust the Floppy Drive Emulation Speed slider to 800% for faster loading times. While running the emulator press &lt;code&gt;F12&lt;/code&gt; (&lt;code&gt;Fn-F2&lt;/code&gt; on Pi 400) to open the Amiberry GUI. Standard Joysticks worked out of the box.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Amiberry GUI&#34; srcset=&#34;
+               /post/amiberry/scr_game_hu_5e62d461e26f5379.webp 400w,
+               /post/amiberry/scr_game_hu_fac4d28b755b8a90.webp 760w,
+               /post/amiberry/scr_game_hu_6d7291e532dd20cd.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/amiberry/scr_game_hu_5e62d461e26f5379.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;548&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Have fun remembering the good old days of Amiga gaming!&lt;/p&gt;
+&lt;p&gt;/thanks MiDWan! 👍&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Awesome Stars</title>
       <link>https://georgelitos.com/post/awesome-stars/</link>
       <pubDate>Mon, 10 Mar 2025 18:08:16 +0000</pubDate>
