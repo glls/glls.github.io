@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: April 21, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: April 23, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="A guide to installing Amiberry-Lite, the best Amiga emulator, on Raspberry Pi" />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://georgelitos.com/post/amiberry/" />
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/amiberry/" />
 
   
   
@@ -133,45 +133,6 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89694050-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-
 
 
 
@@ -203,7 +164,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_c27282699091eaa8.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_a2aab2dee7c8a784.png" />
 
-  <link rel="canonical" href="https://georgelitos.com/post/amiberry/" />
+  <link rel="canonical" href="http://localhost:1313/post/amiberry/" />
 
   
   
@@ -228,10 +189,10 @@
     <meta property="twitter:creator" content="@gl_ls" />
   
   <meta property="og:site_name" content="George Litos" />
-  <meta property="og:url" content="https://georgelitos.com/post/amiberry/" />
+  <meta property="og:url" content="http://localhost:1313/post/amiberry/" />
   <meta property="og:title" content="Amiberry-Lite on Raspberry Pi | George Litos" />
-  <meta property="og:description" content="A guide to installing Amiberry-Lite, the best Amiga emulator, on Raspberry Pi" /><meta property="og:image" content="https://georgelitos.com/post/amiberry/featured.webp" />
-    <meta property="twitter:image" content="https://georgelitos.com/post/amiberry/featured.webp" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="A guide to installing Amiberry-Lite, the best Amiga emulator, on Raspberry Pi" /><meta property="og:image" content="http://localhost:1313/post/amiberry/featured.webp" />
+    <meta property="twitter:image" content="http://localhost:1313/post/amiberry/featured.webp" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -239,7 +200,7 @@
         content="2025-04-21T19:00:00&#43;03:00"
       />
     
-    <meta property="article:modified_time" content="2025-04-21T19:00:00&#43;03:00">
+    <meta property="article:modified_time" content="2025-04-23T09:00:00&#43;03:00">
   
 
   
@@ -420,8 +381,6 @@
   
   
   
-  
-  
     
       
       
@@ -481,6 +440,8 @@
         
       
     
+  
+  
   
   
   
@@ -855,8 +816,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
-    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
   ></script>
 
   
@@ -1095,26 +1056,6 @@
     <ul class="flex flex-col gap-1 lg:hidden">
       
       
-        <li class=""><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/talk/"
-    
-  >Presentations
-        <span data-hb-sidebar-toggle>
-            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
-        </span>
-    </a><div class="ltr:pr-0 overflow-hidden">
-        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/talk/git/"
-    
-  >Git ...not just version control
-    </a>
-              
-            </li></ul>
-      </div></li>
         <li class="open"><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
@@ -1341,34 +1282,6 @@
         <li class=""><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/slides/"
-    
-  >Slides
-        <span data-hb-sidebar-toggle>
-            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
-        </span>
-    </a><div class="ltr:pr-0 overflow-hidden">
-        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/slides/git/"
-    
-  >Slides
-    </a>
-              
-            </li><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/slides/example/"
-    
-  >Slides
-    </a>
-              
-            </li></ul>
-      </div></li>
-        <li class=""><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/projects/"
     
   >Projects
@@ -1397,6 +1310,54 @@
     href="/teaching/python/"
     
   >Learn Python
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/talk/"
+    
+  >Presentations
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/talk/git/"
+    
+  >Git ...not just version control
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/slides/"
+    
+  >Slides
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/slides/git/"
+    
+  >Slides
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/slides/example/"
+    
+  >Slides
     </a>
               
             </li></ul>
@@ -1589,18 +1550,20 @@
       
 
       <div class="prose prose-slate lg:prose-xl dark:prose-invert">
-        <p><a href="https://amiberry.com" target="_blank" rel="noopener">Amiberry</a> by Dimitris Panokostas is the best open-source emulator for the Amiga computer system. It is designed to run on various platforms, including Raspberry Pi, Linux, and Windows. It provides a user-friendly interface and supports a wide range of Amiga games and applications. Amiberry aims to deliver an authentic Amiga experience by accurately emulating the hardware and software of the original system. It includes features such as support for WHDLoad games, customizable controls, and various display options.</p>
+        <p><a href="https://amiberry.com" target="_blank" rel="noopener">Amiberry</a> by Dimitris Panokostas is the best emulator for the <a href="https://en.wikipedia.org/wiki/Amiga" target="_blank" rel="noopener">Amiga</a> home computer. It is designed to run on Raspberry Pi, Linux and MacOS. If you are using Windows, try <a href="https://www.winuae.net/" target="_blank" rel="noopener">WinUAE</a> which is the original emulator that Amiberry is forked from, with Amiberry being optimized for Raspberry Pi.</p>
+<p>It provides a user-friendly interface and supports a wide range of Amiga games and applications. Amiberry like WinUAE, aims to deliver an authentic Amiga experience by accurately emulating the hardware and software of the original system. It includes features such as support for WHDLoad games, customizable controls, and various display options.</p>
 <p>Homepage: <a href="https://amiberry.com" target="_blank" rel="noopener">https://amiberry.com</a> <br>
 GitHub: <a href="https://github.com/BlitterStudio/amiberry" target="_blank" rel="noopener">https://github.com/BlitterStudio/amiberry</a> <br>
 Wiki: <a href="https://github.com/BlitterStudio/amiberry/wiki" target="_blank" rel="noopener">https://github.com/BlitterStudio/amiberry/wiki</a></p>
-<p>I&rsquo;m going to show you how to install Amiberry-Lite on a Raspberry Pi 400 running the official Raspberry Pi OS. This guide assumes you have a basic understanding of using the command line and have a Raspberry Pi set up with an internet connection. If you don&rsquo;t have the official Raspberry Pi OS installed, you can download it from the <a href="https://www.raspberrypi.com/software/" target="_blank" rel="noopener">Raspberry Pi website</a>. Most of the times I use an old external SSD drive for better performance and durability. I&rsquo;m using the lite version of Amiberry because it is better for emulating Amiga games on Pi 4 (you can find the details on the <a href="https://github.com/BlitterStudio/amiberry/wiki/First-Installation#which-version-should-i-pick" target="_blank" rel="noopener">official wiki page</a>).</p>
+<p>In this intro article we are going to install Amiberry-Lite on a <a href="https://www.raspberrypi.com/products/raspberry-pi-400/" target="_blank" rel="noopener">Raspberry Pi 400</a> running the official Raspberry Pi OS. We will be using the lite version of Amiberry because it is better for emulating Amiga games on Pi 4/400 (you can find the details on the <a href="https://github.com/BlitterStudio/amiberry/wiki/First-Installation#which-version-should-i-pick" target="_blank" rel="noopener">official wiki page</a>).</p>
+<p>This guide assumes you have a basic understanding of using the command line and have a Raspberry Pi set up with an internet connection. If you don&rsquo;t have the official Raspberry Pi OS installed, you can download it from the <a href="https://www.raspberrypi.com/software/" target="_blank" rel="noopener">Raspberry Pi website</a>. Most of the times I use an old external SSD drive for better performance and durability.</p>
 <h2 id="installation-">Installation 💾</h2>
 <p>Download the latest release of Amiberry-Lite from the <a href="https://github.com/BlitterStudio/amiberry-lite/releases" target="_blank" rel="noopener">GitHub releases page</a>. Look for the file named <code>amiberry-lite-&lt;version&gt;-debian-&lt;distro&gt;-&lt;arch&gt;.zip</code>. If you don&rsquo;t know which version to download, you can check which distro you are using by running the following command in the terminal:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">lsb_release -a
-</span></span></code></pre></div><p>This will display information about your Linux distribution, including the version and codename. Make sure to download the correct version of Amiberry-Lite for your system architecture (e.g., armhf for Raspberry Pi 2/3, arm64 for Pi 4/400).</p>
+</span></span></code></pre></div><p>This will display information about your Linux distribution, including the version and codename. Make sure to download the correct version of Amiberry-Lite for your system architecture (e.g., <code>armhf</code> for Raspberry Pi 2/3, <code>arm64</code> for Pi 4/400).</p>
 <p>To check the architecture of your Raspberry Pi, you can run the following command:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">arch
-</span></span></code></pre></div><p>In my case the result is aarch64, which means I need to download the arm64 version of Amiberry-Lite.</p>
+</span></span></code></pre></div><p>In my case the result is <code>aarch64</code>, which means I need to download the arm64 version of Amiberry-Lite.</p>
 <p>Unzip the downloaded file to a directory of your choice. You can use the following commands in the terminal to unzip and install :</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> ~/Downloads 
 </span></span><span class="line"><span class="cl">unzip amiberry-lite-v5.8.8-debian-bookworm-arm64.zip
@@ -1625,7 +1588,7 @@ Wiki: <a href="https://github.com/BlitterStudio/amiberry/wiki" target="_blank" r
 
 <figure  >
   <div class="flex justify-center	">
-    <div class="w-100" ><img alt="Battle Squadron title screen" srcset="
+    <div class="w-100" ><img alt="Amiberry GUI" srcset="
                /post/amiberry/scr_title_hu_5533267ce001e0b0.webp 400w,
                /post/amiberry/scr_title_hu_c340b0156feb1026.webp 760w,
                /post/amiberry/scr_title_hu_49c6e9169e6e7ac9.webp 1200w"
@@ -1635,7 +1598,7 @@ Wiki: <a href="https://github.com/BlitterStudio/amiberry/wiki" target="_blank" r
                loading="lazy" data-zoomable /></div>
   </div></figure>
 
-Get your Amiga Floppy Disk (ADF) images ready and prepare to enter nostalgia mode. I&rsquo;m going to run <a href="https://cope-com.com/battlesquadron/" target="_blank" rel="noopener">Battle Squadron</a>, which is one of my favorites Amiga classics, you can download it at the <a href="https://cope-com.com/play-battle-squadron/" target="_blank" rel="noopener">official game site</a>.
+Get your <a href="https://en.wikipedia.org/wiki/Amiga_Disk_File" target="_blank" rel="noopener">Amiga Floppy Disk images</a> ready and prepare to enter nostalgia mode. I&rsquo;m going to run <a href="https://cope-com.com/battlesquadron/" target="_blank" rel="noopener">Battle Squadron</a>, which is one of my favorites Amiga classics, you can download it at the <a href="https://cope-com.com/play-battle-squadron/" target="_blank" rel="noopener">official game site</a>.
 
 
 
@@ -1664,8 +1627,8 @@ Get your Amiga Floppy Disk (ADF) images ready and prepare to enter nostalgia mod
                loading="lazy" data-zoomable /></div>
   </div></figure>
 
-Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you can adjust the Floppy Drive Emulation Speed slider to 800% for faster loading times. While running the emulator press <code>F12</code> (<code>Fn-F2</code> on Pi 400) to open the Amiberry GUI. Standard Joysticks worked out of the box.
-
+Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you can adjust the Floppy Drive Emulation Speed slider to 800% for faster loading times. While running the emulator press <code>F12</code> (<code>Fn-F2</code> on Pi 400) to open the Amiberry GUI. Check th &ldquo;Input&rdquo; tab for keyboard layout options, and have in mind that standard game controllers work out of the box.</p>
+<p>
 
 
 
@@ -1683,7 +1646,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
 
 <figure  >
   <div class="flex justify-center	">
-    <div class="w-100" ><img alt="Battle Squadron game" srcset="
+    <div class="w-100" ><img alt="Amiberry GUI" srcset="
                /post/amiberry/scr_game_hu_5e62d461e26f5379.webp 400w,
                /post/amiberry/scr_game_hu_fac4d28b755b8a90.webp 760w,
                /post/amiberry/scr_game_hu_6d7291e532dd20cd.webp 1200w"
@@ -1693,16 +1656,16 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<p>There are myriad of options and variations you can set in the Amiberry GUI, including the ability to use WHDLoad games, which are pre-installed versions of Amiga games that run directly from the hard drive. You can also emulate various Amiga models (A1200/A4000 with RTG!) or run Workbench for &ldquo;serious&rdquo; stuff. For more information check the official website.</p>
+<p>This article only scratches the surface of Amiberry-Lite. There are many more features and options to explore depending on which Amiga game you are playing and the Amiga model you are going to emulate. Hopefully there will be more articles in the future about Amiberry and retro computing in general.</p>
 <p>Have fun remembering the good old days of Amiga gaming!</p>
-<p>/thanks MiDWaN! 👍</p>
+<p>/thanks MiDWan! 👍</p>
 
       </div>
 
       
-  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-04-21T19:00:00.000Z">
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-04-23T09:00:00.000Z">
     <span>Last updated on</span>
-    Apr 21, 2025</time>
+    Apr 23, 2025</time>
 
       <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
         
@@ -1738,7 +1701,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Famiberry%2F&amp;text=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi"
+    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Famiberry%2F&amp;text=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1756,7 +1719,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Famiberry%2F&amp;t=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi"
+    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Famiberry%2F&amp;t=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1776,7 +1739,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=Amiberry-Lite%20on%20Raspberry%20Pi&amp;body=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Famiberry%2F"
+    href="mailto:?subject=Amiberry-Lite%20on%20Raspberry%20Pi&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Famiberry%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1794,7 +1757,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Famiberry%2F&amp;title=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi"
+    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Famiberry%2F&amp;title=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1812,7 +1775,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi%20https%3A%2F%2Fgeorgelitos.com%2Fpost%2Famiberry%2F"
+    href="whatsapp://send?text=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi%20http%3A%2F%2Flocalhost%3A1313%2Fpost%2Famiberry%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -1862,7 +1825,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="https://georgelitos.com/" class="no-underline">
+      <a href="http://localhost:1313/" class="no-underline">
       George Litos
       </a>
     </div>
