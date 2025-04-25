@@ -1879,6 +1879,139 @@
 
   
 
+<section class="prose max-w-full flex-row dark:prose-invert">
+<div class="min-h-0 min-w-0 max-w-prose grow max-w-full">
+  <h2>Comments</h2>
+  <p>
+      You can use your Bluesky account to
+      <a href="http://bsky.app/profile/gl-ls.bsky.social/post/3lnnp77np3s2a" target="_blank">reply</a>
+      to this post.
+  </p>
+  <div id="bluesky-comments-list"></div>
+  <noscript>You need JavaScript to view the comments.</noscript>
+  <script type="text/javascript">
+
+  
+
+  document.addEventListener("DOMContentLoaded", function () {
+      const commentList = document.getElementById('bluesky-comments-list');
+      commentList.innerHTML = "Loading comments...";
+
+      fetch(`https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at://gl-ls.bsky.social/app.bsky.feed.post/3lnnp77np3s2a&depth=10`)
+          .then(response => response.json())
+          .then(data => {
+              const replies = data.thread.replies || [];
+              replies.sort((a, b) => new Date(a.post.record.createdAt) - new Date(b.post.record.createdAt)); 
+
+              commentList.innerHTML = ""; 
+
+              const renderComments = (comments, parentElement) => {
+                  comments.forEach(reply => {
+                      const author = reply.post.author;
+                      const content = reply.post.record.text;
+                      const createdAt = new Date(reply.post.record.createdAt).toLocaleString(window.navigator.language);
+                      const replyCount = reply.post.replyCount;
+                      const repostCount = reply.post.repostCount;
+                      const likeCount = reply.post.likeCount;
+                      const quoteCount = reply.post.quoteCount;
+
+                      
+                      const makeLinksClickable = (text) => {
+                          const urlRegex = /(https?:\/\/[^\s]+)/g;
+                          return text.replace(urlRegex, (url) => {
+                              return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+                          });
+                      };
+
+                      
+                      const generatePostURL = (obj) => {
+                          const author = obj.post.author.did;
+                          const post = obj.post.uri.split("/").slice(-1)[0];
+                          return `http://bsky.app/profile/${author}/post/${post}`;
+                      };
+
+                      const generateAvatarImage = (author) => {
+                          if (author.avatar != undefined) {
+                              return `<img src="${author.avatar}" alt="${author.displayName}'s avatar" class="comment-avatar">`;
+                          } else {
+                              return `<svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="none" class="comment-avatar" style="margin-top:2em; margin-bottom:2em">
+                                       <circle cx="12" cy="12" r="12" fill="#0070ff"></circle>
+                                       <circle cx="12" cy="9.5" r="3.5" fill="#fff"></circle>
+                                       <path stroke-linecap="round" stroke-linejoin="round" fill="#fff" d="M 12.058 22.784 C 9.422 22.784 7.007 21.836 5.137 20.262 C 5.667 17.988 8.534 16.25 11.99 16.25 C 15.494 16.25 18.391 18.036 18.864 20.357 C 17.01 21.874 14.64 22.784 12.058 22.784 Z"></path>
+                                      </svg>`;
+                          }
+                      };
+
+                      const safeContent = makeLinksClickable(content);
+                      const postLink = generatePostURL(reply);
+                      const avatarImage = generateAvatarImage(author);
+
+                      
+                      const commentHtml = `
+                      <div class="comment-container">
+                          ${avatarImage}
+                          <div class="comment-details">
+                              <div class="comment-header">
+                                  ${author.displayName} <span><a href="http://bsky.app/profile/${author.handle}" target="_blank" class="not-prose">@${author.handle}</a></span>
+                              </div>
+                              <div class="comment-text">${safeContent}</div>
+                              <div class="comment-interactions">
+                                  <span class="comment-interactions-icon" title="${replyCount} replies">
+                                  <svg xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M11 16.517c4.418 0 8-3.284 8-7.017S15.418 3 11 3S3 6.026 3 9.759c0 1.457.546 2.807 1.475 3.91L3.5 18.25l3.916-2.447a9.2 9.2 0 0 0 3.584.714" />
+                                  </svg> ${replyCount}
+                                  </span>
+
+                                  <span class="comment-interactions-icon" title="${repostCount} reposts">
+                                  <svg xmlns="http://www.w3.org/2000/svg">
+                                      <g fill-rule="evenodd">
+                                          <path d="m13.5 13.5l3 3l3-3" />
+                                          <path d="M9.5 4.5h3a4 4 0 0 1 4 4v8m-9-9l-3-3l-3 3" />
+                                          <path d="M11.5 16.5h-3a4 4 0 0 1-4-4v-8" />
+                                      </g>
+                                  </svg> ${repostCount}
+                                  </span>
+
+                                  <span class="comment-interactions-icon" title="${likeCount} likes">
+                                  <svg xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M10.5 6.5c.5-2.5 4.343-2.657 6-1c1.603 1.603 1.5 4.334 0 6l-6 6l-6-6a4.243 4.243 0 0 1 0-6c1.55-1.55 5.5-1.5 6 1" />
+                                  </svg> ${likeCount}
+                                  </span>
+
+                              </div>
+
+                              <div class="comment-timestamp"><a href="${postLink}" target="_blank" class="not-prose">${createdAt}</a></div>
+                          </div>
+                      </div>
+                  `;
+
+                      const commentElement = document.createElement("div");
+                      commentElement.classList.add("comment");
+                      commentElement.innerHTML = commentHtml; 
+                      parentElement.appendChild(commentElement);
+
+                      
+                      if (reply.replies && reply.replies.length > 0) {
+                          const childContainer = document.createElement("div");
+                          childContainer.classList.add("child-comments");
+                          commentElement.appendChild(childContainer);
+                          renderComments(reply.replies, childContainer);
+                      }
+                  });
+              };
+
+              renderComments(replies, commentList);
+          })
+          .catch(error => {
+              console.error('Error fetching comments:', error);
+              commentList.innerHTML = "<p>Error loading comments.</p>";
+          });
+  });
+</script>
+</div>
+</section>
+
+
 </div>
 
       </div>
