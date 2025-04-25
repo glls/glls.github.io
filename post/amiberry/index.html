@@ -1999,7 +1999,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
       const commentList = document.getElementById('bluesky-comments-list');
       commentList.innerHTML = "Loading comments...";
 
-      fetch(`https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at://mattdyson.org/app.bsky.feed.post/3lnnnxoxbf224&depth=10`)
+      fetch(`https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at://gl-ls.bsky.social/app.bsky.feed.post/3lnnnxoxbf224&depth=10`)
           .then(response => response.json())
           .then(data => {
               const replies = data.thread.replies || [];
@@ -2105,6 +2105,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
               renderComments(replies, commentList);
           })
           .catch(error => {
+              console.error(data);
               console.error('Error fetching comments:', error);
               commentList.innerHTML = "<p>Error loading comments.</p>";
           });
