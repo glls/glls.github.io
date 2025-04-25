@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: April 23, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: April 25, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -45,7 +45,7 @@
 " />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/ssh-cheatsheet/" />
+  <link rel="alternate" hreflang="en-us" href="https://georgelitos.com/post/ssh-cheatsheet/" />
 
   
   
@@ -58,7 +58,7 @@
   
   
     
-    <link href="/dist/wc.min.094a0c3c61302e42c8d1d66b5da7da37f347edd46fbae395f46c1559e3103449.css" rel="stylesheet" />
+    <link href="/dist/wc.min.44f068fe358024bd10ffffd77ee1f8e710b012913697b1955a8e943945f8cd5d.css" rel="stylesheet" />
   
 
   
@@ -67,7 +67,7 @@
 
   
     
-    <link href="/css/custom.min.88a538bb63158813d0c7c4d1a01ecc8670b5c80f226dbcd4c363838b68352419.css" rel="stylesheet" />
+    <link href="/css/custom.min.ec83c7ae56893bed1d47e45655f9a63ab790a112f5d748fb28cd57782b26a45e.css" rel="stylesheet" />
   
 
   <script>
@@ -134,6 +134,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89694050-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -165,7 +204,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_c27282699091eaa8.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_a2aab2dee7c8a784.png" />
 
-  <link rel="canonical" href="http://localhost:1313/post/ssh-cheatsheet/" />
+  <link rel="canonical" href="https://georgelitos.com/post/ssh-cheatsheet/" />
 
   
   
@@ -190,10 +229,10 @@
     <meta property="twitter:creator" content="@gl_ls" />
   
   <meta property="og:site_name" content="George Litos" />
-  <meta property="og:url" content="http://localhost:1313/post/ssh-cheatsheet/" />
+  <meta property="og:url" content="https://georgelitos.com/post/ssh-cheatsheet/" />
   <meta property="og:title" content="SSH Cheatsheet | George Litos" />
-  <meta property="og:description" content="SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations." /><meta property="og:image" content="http://localhost:1313/post/ssh-cheatsheet/featured.jpg" />
-    <meta property="twitter:image" content="http://localhost:1313/post/ssh-cheatsheet/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations." /><meta property="og:image" content="https://georgelitos.com/post/ssh-cheatsheet/featured.jpg" />
+    <meta property="twitter:image" content="https://georgelitos.com/post/ssh-cheatsheet/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -817,8 +856,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
+    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
   ></script>
 
   
@@ -1748,7 +1787,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fssh-cheatsheet%2F&amp;text=SSH&#43;Cheatsheet"
+    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fssh-cheatsheet%2F&amp;text=SSH&#43;Cheatsheet"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1766,7 +1805,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fssh-cheatsheet%2F&amp;t=SSH&#43;Cheatsheet"
+    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fssh-cheatsheet%2F&amp;t=SSH&#43;Cheatsheet"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1786,7 +1825,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=SSH%20Cheatsheet&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fssh-cheatsheet%2F"
+    href="mailto:?subject=SSH%20Cheatsheet&amp;body=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fssh-cheatsheet%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1804,7 +1843,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fssh-cheatsheet%2F&amp;title=SSH&#43;Cheatsheet"
+    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fssh-cheatsheet%2F&amp;title=SSH&#43;Cheatsheet"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1822,7 +1861,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=SSH&#43;Cheatsheet%20http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fssh-cheatsheet%2F"
+    href="whatsapp://send?text=SSH&#43;Cheatsheet%20https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fssh-cheatsheet%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -1872,7 +1911,7 @@
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="http://localhost:1313/" class="no-underline">
+      <a href="https://georgelitos.com/" class="no-underline">
       George Litos
       </a>
     </div>
@@ -2004,8 +2043,6 @@
 
 
   
-
-
 
 </div>
 

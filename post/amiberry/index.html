@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: April 23, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: April 25, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="A guide to installing Amiberry-Lite, the best Amiga emulator, on Raspberry Pi" />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/amiberry/" />
+  <link rel="alternate" hreflang="en-us" href="https://georgelitos.com/post/amiberry/" />
 
   
   
@@ -57,7 +57,7 @@
   
   
     
-    <link href="/dist/wc.min.094a0c3c61302e42c8d1d66b5da7da37f347edd46fbae395f46c1559e3103449.css" rel="stylesheet" />
+    <link href="/dist/wc.min.44f068fe358024bd10ffffd77ee1f8e710b012913697b1955a8e943945f8cd5d.css" rel="stylesheet" />
   
 
   
@@ -66,7 +66,7 @@
 
   
     
-    <link href="/css/custom.min.88a538bb63158813d0c7c4d1a01ecc8670b5c80f226dbcd4c363838b68352419.css" rel="stylesheet" />
+    <link href="/css/custom.min.ec83c7ae56893bed1d47e45655f9a63ab790a112f5d748fb28cd57782b26a45e.css" rel="stylesheet" />
   
 
   <script>
@@ -133,6 +133,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89694050-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -164,7 +203,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_c27282699091eaa8.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_a2aab2dee7c8a784.png" />
 
-  <link rel="canonical" href="http://localhost:1313/post/amiberry/" />
+  <link rel="canonical" href="https://georgelitos.com/post/amiberry/" />
 
   
   
@@ -189,10 +228,10 @@
     <meta property="twitter:creator" content="@gl_ls" />
   
   <meta property="og:site_name" content="George Litos" />
-  <meta property="og:url" content="http://localhost:1313/post/amiberry/" />
+  <meta property="og:url" content="https://georgelitos.com/post/amiberry/" />
   <meta property="og:title" content="Amiberry-Lite on Raspberry Pi | George Litos" />
-  <meta property="og:description" content="A guide to installing Amiberry-Lite, the best Amiga emulator, on Raspberry Pi" /><meta property="og:image" content="http://localhost:1313/post/amiberry/featured.webp" />
-    <meta property="twitter:image" content="http://localhost:1313/post/amiberry/featured.webp" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="A guide to installing Amiberry-Lite, the best Amiga emulator, on Raspberry Pi" /><meta property="og:image" content="https://georgelitos.com/post/amiberry/featured.webp" />
+    <meta property="twitter:image" content="https://georgelitos.com/post/amiberry/featured.webp" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -816,8 +855,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
+    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
   ></script>
 
   
@@ -1701,7 +1740,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Famiberry%2F&amp;text=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi"
+    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Famiberry%2F&amp;text=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1719,7 +1758,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Famiberry%2F&amp;t=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi"
+    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Famiberry%2F&amp;t=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1739,7 +1778,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=Amiberry-Lite%20on%20Raspberry%20Pi&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Famiberry%2F"
+    href="mailto:?subject=Amiberry-Lite%20on%20Raspberry%20Pi&amp;body=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Famiberry%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1757,7 +1796,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Famiberry%2F&amp;title=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi"
+    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Famiberry%2F&amp;title=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1775,7 +1814,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi%20http%3A%2F%2Flocalhost%3A1313%2Fpost%2Famiberry%2F"
+    href="whatsapp://send?text=Amiberry-Lite&#43;on&#43;Raspberry&#43;Pi%20https%3A%2F%2Fgeorgelitos.com%2Fpost%2Famiberry%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -1825,7 +1864,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="http://localhost:1313/" class="no-underline">
+      <a href="https://georgelitos.com/" class="no-underline">
       George Litos
       </a>
     </div>
@@ -1942,6 +1981,137 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
 
   
 
+<section class="prose max-w-full flex-row dark:prose-invert">
+<div class="min-h-0 min-w-0 max-w-prose grow max-w-full">
+  <h2>Comments</h2>
+  <p>
+      You can use your Bluesky account to
+      <a href="http://bsky.app/profile/gl-ls.bsky.social/post/3lnnnxoxbf224" target="_blank">reply</a>
+      to this post.
+  </p>
+  <div id="bluesky-comments-list"></div>
+  <noscript>You need JavaScript to view the comments.</noscript>
+  <script type="text/javascript">
+
+  
+
+  document.addEventListener("DOMContentLoaded", function () {
+      const commentList = document.getElementById('bluesky-comments-list');
+      commentList.innerHTML = "Loading comments...";
+
+      fetch(`https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at://mattdyson.org/app.bsky.feed.post/3lnnnxoxbf224&depth=10`)
+          .then(response => response.json())
+          .then(data => {
+              const replies = data.thread.replies || [];
+              replies.sort((a, b) => new Date(a.post.record.createdAt) - new Date(b.post.record.createdAt)); 
+
+              commentList.innerHTML = ""; 
+
+              const renderComments = (comments, parentElement) => {
+                  comments.forEach(reply => {
+                      const author = reply.post.author;
+                      const content = reply.post.record.text;
+                      const createdAt = new Date(reply.post.record.createdAt).toLocaleString(window.navigator.language);
+                      const replyCount = reply.post.replyCount;
+                      const repostCount = reply.post.repostCount;
+                      const likeCount = reply.post.likeCount;
+                      const quoteCount = reply.post.quoteCount;
+
+                      
+                      const makeLinksClickable = (text) => {
+                          const urlRegex = /(https?:\/\/[^\s]+)/g;
+                          return text.replace(urlRegex, (url) => {
+                              return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+                          });
+                      };
+
+                      
+                      const generatePostURL = (obj) => {
+                          const author = obj.post.author.did;
+                          const post = obj.post.uri.split("/").slice(-1)[0];
+                          return `http://bsky.app/profile/${author}/post/${post}`;
+                      };
+
+                      const generateAvatarImage = (author) => {
+                          if (author.avatar != undefined) {
+                              return `<img src="${author.avatar}" alt="${author.displayName}'s avatar" class="comment-avatar">`;
+                          } else {
+                              return `<svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="none" class="comment-avatar" style="margin-top:2em; margin-bottom:2em">
+                                       <circle cx="12" cy="12" r="12" fill="#0070ff"></circle>
+                                       <circle cx="12" cy="9.5" r="3.5" fill="#fff"></circle>
+                                       <path stroke-linecap="round" stroke-linejoin="round" fill="#fff" d="M 12.058 22.784 C 9.422 22.784 7.007 21.836 5.137 20.262 C 5.667 17.988 8.534 16.25 11.99 16.25 C 15.494 16.25 18.391 18.036 18.864 20.357 C 17.01 21.874 14.64 22.784 12.058 22.784 Z"></path>
+                                      </svg>`;
+                          }
+                      };
+
+                      const safeContent = makeLinksClickable(content);
+                      const postLink = generatePostURL(reply);
+                      const avatarImage = generateAvatarImage(author);
+
+                      
+                      const commentHtml = `
+                      <div class="comment-container">
+                          ${avatarImage}
+                          <div class="comment-details">
+                              <div class="comment-header">
+                                  ${author.displayName} <span><a href="http://bsky.app/profile/${author.handle}" target="_blank" class="not-prose">@${author.handle}</a></span>
+                              </div>
+                              <div class="comment-text">${safeContent}</div>
+                              <div class="comment-interactions">
+                                  <span class="comment-interactions-icon" title="${replyCount} replies">
+                                  <svg xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M11 16.517c4.418 0 8-3.284 8-7.017S15.418 3 11 3S3 6.026 3 9.759c0 1.457.546 2.807 1.475 3.91L3.5 18.25l3.916-2.447a9.2 9.2 0 0 0 3.584.714" />
+                                  </svg> ${replyCount}
+                                  </span>
+
+                                  <span class="comment-interactions-icon" title="${repostCount} reposts">
+                                  <svg xmlns="http://www.w3.org/2000/svg">
+                                      <g fill-rule="evenodd">
+                                          <path d="m13.5 13.5l3 3l3-3" />
+                                          <path d="M9.5 4.5h3a4 4 0 0 1 4 4v8m-9-9l-3-3l-3 3" />
+                                          <path d="M11.5 16.5h-3a4 4 0 0 1-4-4v-8" />
+                                      </g>
+                                  </svg> ${repostCount}
+                                  </span>
+
+                                  <span class="comment-interactions-icon" title="${likeCount} likes">
+                                  <svg xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M10.5 6.5c.5-2.5 4.343-2.657 6-1c1.603 1.603 1.5 4.334 0 6l-6 6l-6-6a4.243 4.243 0 0 1 0-6c1.55-1.55 5.5-1.5 6 1" />
+                                  </svg> ${likeCount}
+                                  </span>
+
+                              </div>
+
+                              <div class="comment-timestamp"><a href="${postLink}" target="_blank" class="not-prose">${createdAt}</a></div>
+                          </div>
+                      </div>
+                  `;
+
+                      const commentElement = document.createElement("div");
+                      commentElement.classList.add("comment");
+                      commentElement.innerHTML = commentHtml; 
+                      parentElement.appendChild(commentElement);
+
+                      
+                      if (reply.replies && reply.replies.length > 0) {
+                          const childContainer = document.createElement("div");
+                          childContainer.classList.add("child-comments");
+                          commentElement.appendChild(childContainer);
+                          renderComments(reply.replies, childContainer);
+                      }
+                  });
+              };
+
+              renderComments(replies, commentList);
+          })
+          .catch(error => {
+              console.error('Error fetching comments:', error);
+              commentList.innerHTML = "<p>Error loading comments.</p>";
+          });
+  });
+</script>
+</div>
+</section>
 
 
 </div>

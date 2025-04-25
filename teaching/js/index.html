@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: April 23, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: April 25, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="Easily learn JavaScript in 10 minutes!" />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/teaching/js/" />
+  <link rel="alternate" hreflang="en-us" href="https://georgelitos.com/teaching/js/" />
 
   
   
@@ -57,7 +57,7 @@
   
   
     
-    <link href="/dist/wc.min.094a0c3c61302e42c8d1d66b5da7da37f347edd46fbae395f46c1559e3103449.css" rel="stylesheet" />
+    <link href="/dist/wc.min.44f068fe358024bd10ffffd77ee1f8e710b012913697b1955a8e943945f8cd5d.css" rel="stylesheet" />
   
 
   
@@ -66,7 +66,7 @@
 
   
     
-    <link href="/css/custom.min.88a538bb63158813d0c7c4d1a01ecc8670b5c80f226dbcd4c363838b68352419.css" rel="stylesheet" />
+    <link href="/css/custom.min.ec83c7ae56893bed1d47e45655f9a63ab790a112f5d748fb28cd57782b26a45e.css" rel="stylesheet" />
   
 
   <script>
@@ -133,6 +133,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89694050-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -164,7 +203,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_c27282699091eaa8.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_a2aab2dee7c8a784.png" />
 
-  <link rel="canonical" href="http://localhost:1313/teaching/js/" />
+  <link rel="canonical" href="https://georgelitos.com/teaching/js/" />
 
   
   
@@ -189,10 +228,10 @@
     <meta property="twitter:creator" content="@gl_ls" />
   
   <meta property="og:site_name" content="George Litos" />
-  <meta property="og:url" content="http://localhost:1313/teaching/js/" />
+  <meta property="og:url" content="https://georgelitos.com/teaching/js/" />
   <meta property="og:title" content="Learn JavaScript | George Litos" />
-  <meta property="og:description" content="Easily learn JavaScript in 10 minutes!" /><meta property="og:image" content="http://localhost:1313/teaching/js/featured.jpg" />
-    <meta property="twitter:image" content="http://localhost:1313/teaching/js/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Easily learn JavaScript in 10 minutes!" /><meta property="og:image" content="https://georgelitos.com/teaching/js/featured.jpg" />
+    <meta property="twitter:image" content="https://georgelitos.com/teaching/js/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -816,8 +855,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
+    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
   ></script>
 
   
@@ -1557,7 +1596,7 @@
       <div class="mb-1">
         <div class="mt-1.5 flex items-center gap-1 overflow-hidden text-sm text-gray-500 dark:text-gray-400">
       <div class="whitespace-nowrap transition-colors min-w-[24px] overflow-hidden text-ellipsis hover:text-gray-900 dark:hover:text-gray-100">
-        <a href="http://localhost:1313/teaching/">Teaching</a>
+        <a href="https://georgelitos.com/teaching/">Teaching</a>
       </div><svg class="w-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.25 4.5l7.5 7.5l-7.5 7.5"/></svg><div class="whitespace-nowrap font-medium text-gray-700 dark:text-gray-100">Learn JavaScript</div>
 </div>
 
@@ -1728,8 +1767,6 @@ data.head()
 
 
       
-
-
 
     </main>
   </article>
