@@ -2002,6 +2002,7 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
       fetch(`https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?uri=at://gl-ls.bsky.social/app.bsky.feed.post/3lnnnxoxbf224&depth=10`)
           .then(response => response.json())
           .then(data => {
+              console.error(data);
               const replies = data.thread.replies || [];
               replies.sort((a, b) => new Date(a.post.record.createdAt) - new Date(b.post.record.createdAt)); 
 
@@ -2105,7 +2106,6 @@ Select the &ldquo;Floppy Drives&rdquo; screen and load the ADF file in DF0:, you
               renderComments(replies, commentList);
           })
           .catch(error => {
-              console.error(data);
               console.error('Error fetching comments:', error);
               commentList.innerHTML = "<p>Error loading comments.</p>";
           });
