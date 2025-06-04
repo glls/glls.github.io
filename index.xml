@@ -5,7 +5,7 @@
     <link>http://localhost:1313/</link>
       <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>George Litos</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Apr 2025 19:00:00 +0300</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>George Litos</title>
@@ -3102,7 +3102,7 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;v2.1 by &lt;a href=&#34;https://georgelitos.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Litos&lt;/a&gt; 2023&lt;/p&gt;
+&lt;p&gt;v2.1 by &lt;a href=&#34;https://georgelitos.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Litos&lt;/a&gt; 12/2022&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;a-bit-of-history&#34;&gt;a bit of history&lt;/h2&gt;
 &lt;p&gt;Git was originally authored by &lt;a href=&#34;https://en.wikipedia.org/wiki/Linus_Torvalds&#34; title=&#34;Linus Torvalds&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linus Torvalds&lt;/a&gt; in 2005 for development of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux_kernel&#34; title=&#34;Linux kernel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux kernel&lt;/a&gt;, with other kernel developers contributing to its initial development.
