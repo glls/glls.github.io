@@ -2,551 +2,563 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://georgelitos.com/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/</loc>
+    <loc>https://georgelitos.com/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/amiberry/</loc>
+    <loc>https://georgelitos.com/project/</loc>
+    <lastmod>2025-07-06T12:30:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tags/python/</loc>
+    <lastmod>2025-07-06T12:30:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/project/sensors-framework/</loc>
+    <lastmod>2025-07-06T12:30:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tags/sensors/</loc>
+    <lastmod>2025-07-06T12:30:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tags/</loc>
+    <lastmod>2025-07-06T12:30:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tags/time-series/</loc>
+    <lastmod>2025-07-06T12:30:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/post/amiberry/</loc>
     <lastmod>2025-04-23T09:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/amiga/</loc>
+    <loc>https://georgelitos.com/tags/amiga/</loc>
     <lastmod>2025-04-23T09:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-05-06T07:50:01+00:00</lastmod>
+    <loc>https://georgelitos.com/post/</loc>
+    <lastmod>2025-07-06T09:19:49+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/emulation/</loc>
+    <loc>https://georgelitos.com/tags/emulation/</loc>
     <lastmod>2025-04-23T09:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/raspberry-pi/</loc>
+    <loc>https://georgelitos.com/tags/raspberry-pi/</loc>
     <lastmod>2025-04-23T09:45:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/retro-gaming/</loc>
+    <loc>https://georgelitos.com/tags/retro-gaming/</loc>
     <lastmod>2025-04-23T09:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-04-23T09:45:00+00:00</lastmod>
+    <loc>https://georgelitos.com/post/awesome-stars/</loc>
+    <lastmod>2025-07-06T09:19:49+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/awesome-stars/</loc>
-    <lastmod>2025-05-06T07:50:01+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/game/</loc>
+    <loc>https://georgelitos.com/tags/game/</loc>
     <lastmod>2024-06-05T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/</loc>
+    <loc>https://georgelitos.com/project/space8/</loc>
     <lastmod>2024-06-05T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/space8/</loc>
-    <lastmod>2024-06-05T12:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/slides/</loc>
+    <loc>https://georgelitos.com/slides/</loc>
     <lastmod>2024-05-31T14:23:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/benchmark/</loc>
+    <loc>https://georgelitos.com/tags/benchmark/</loc>
     <lastmod>2024-11-30T15:50:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/benchmark-api/</loc>
+    <loc>https://georgelitos.com/project/benchmark-api/</loc>
     <lastmod>2024-05-20T23:34:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/frameworks/</loc>
+    <loc>https://georgelitos.com/tags/frameworks/</loc>
     <lastmod>2024-05-20T23:34:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/web/</loc>
+    <loc>https://georgelitos.com/tags/web/</loc>
     <lastmod>2024-05-20T23:34:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://georgelitos.com/projects/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/dietpi/</loc>
+    <loc>https://georgelitos.com/tags/dietpi/</loc>
     <lastmod>2025-04-23T09:45:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/privacy/</loc>
+    <loc>https://georgelitos.com/tags/privacy/</loc>
     <lastmod>2025-04-23T09:45:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/productivity/</loc>
+    <loc>https://georgelitos.com/tags/productivity/</loc>
     <lastmod>2025-04-23T09:45:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/security/</loc>
+    <loc>https://georgelitos.com/tags/security/</loc>
     <lastmod>2025-04-23T09:45:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/tools/</loc>
+    <loc>https://georgelitos.com/tags/tools/</loc>
     <lastmod>2025-04-23T09:45:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/wireguard/</loc>
+    <loc>https://georgelitos.com/post/wireguard/</loc>
     <lastmod>2025-04-23T09:45:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/cheatsheet/</loc>
+    <loc>https://georgelitos.com/tags/cheatsheet/</loc>
     <lastmod>2024-06-13T09:40:23+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/image/</loc>
+    <loc>https://georgelitos.com/tags/image/</loc>
     <lastmod>2024-06-13T09:40:23+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/image-video-cheatsheet/</loc>
+    <loc>https://georgelitos.com/post/image-video-cheatsheet/</loc>
     <lastmod>2024-06-13T09:40:23+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/video/</loc>
+    <loc>https://georgelitos.com/tags/video/</loc>
     <lastmod>2024-06-13T09:40:23+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/ssh/</loc>
+    <loc>https://georgelitos.com/tags/ssh/</loc>
     <lastmod>2024-02-12T09:03:02+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/ssh-cheatsheet/</loc>
+    <loc>https://georgelitos.com/post/ssh-cheatsheet/</loc>
     <lastmod>2024-02-12T09:03:02+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/console/</loc>
+    <loc>https://georgelitos.com/tags/console/</loc>
     <lastmod>2024-01-29T18:30:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/console-snippets/</loc>
+    <loc>https://georgelitos.com/post/console-snippets/</loc>
     <lastmod>2024-01-29T18:30:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/sql/</loc>
+    <loc>https://georgelitos.com/tags/sql/</loc>
     <lastmod>2023-11-16T19:23:33+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/sql-cheatsheet/</loc>
+    <loc>https://georgelitos.com/post/sql-cheatsheet/</loc>
     <lastmod>2023-11-16T19:23:33+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/javascript/</loc>
+    <loc>https://georgelitos.com/tags/javascript/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/teaching/js/</loc>
+    <loc>https://georgelitos.com/teaching/js/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/teaching/python/</loc>
+    <loc>https://georgelitos.com/teaching/python/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>https://georgelitos.com/teaching/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/teaching/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/git/</loc>
+    <loc>https://georgelitos.com/tags/git/</loc>
     <lastmod>2024-05-12T12:22:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/git-cheatsheet/</loc>
+    <loc>https://georgelitos.com/post/git-cheatsheet/</loc>
     <lastmod>2024-05-12T12:22:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/howto/</loc>
+    <loc>https://georgelitos.com/tags/howto/</loc>
     <lastmod>2024-11-30T15:50:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/network/</loc>
+    <loc>https://georgelitos.com/tags/network/</loc>
     <lastmod>2024-11-30T15:50:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/server/</loc>
+    <loc>https://georgelitos.com/tags/server/</loc>
     <lastmod>2024-05-10T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/benchmark-webserver/</loc>
+    <loc>https://georgelitos.com/post/benchmark-webserver/</loc>
     <lastmod>2024-05-10T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/devops/</loc>
+    <loc>https://georgelitos.com/tags/devops/</loc>
     <lastmod>2023-08-10T22:22:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>https://georgelitos.com/tags/docker/</loc>
     <lastmod>2023-08-10T22:22:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/nextjs/</loc>
+    <loc>https://georgelitos.com/tags/nextjs/</loc>
     <lastmod>2023-08-10T22:22:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/react/</loc>
+    <loc>https://georgelitos.com/tags/react/</loc>
     <lastmod>2023-08-10T22:22:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/reactjsnext/</loc>
+    <loc>https://georgelitos.com/post/reactjsnext/</loc>
     <lastmod>2023-08-10T22:22:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/webdev/</loc>
+    <loc>https://georgelitos.com/tags/webdev/</loc>
     <lastmod>2023-08-10T22:22:22+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/nuxt/</loc>
+    <loc>https://georgelitos.com/tags/nuxt/</loc>
     <lastmod>2023-08-04T16:27:10+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/vuejsnuxt/</loc>
+    <loc>https://georgelitos.com/post/vuejsnuxt/</loc>
     <lastmod>2023-08-04T16:27:10+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/vuejs/</loc>
+    <loc>https://georgelitos.com/tags/vuejs/</loc>
     <lastmod>2023-08-04T16:27:10+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/file-manager/</loc>
+    <loc>https://georgelitos.com/tags/file-manager/</loc>
     <lastmod>2023-06-05T09:18:07+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/mc/</loc>
+    <loc>https://georgelitos.com/post/mc/</loc>
     <lastmod>2023-06-05T09:18:07+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/open-source/</loc>
+    <loc>https://georgelitos.com/tags/open-source/</loc>
     <lastmod>2023-06-05T09:18:07+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/mobile/</loc>
+    <loc>https://georgelitos.com/tags/mobile/</loc>
     <lastmod>2023-04-18T11:19:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/scrcpy/</loc>
+    <loc>https://georgelitos.com/post/scrcpy/</loc>
     <lastmod>2023-04-18T11:19:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/pkgman/</loc>
+    <loc>https://georgelitos.com/post/pkgman/</loc>
     <lastmod>2023-08-10T20:13:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/bookmarks/</loc>
+    <loc>https://georgelitos.com/tags/bookmarks/</loc>
     <lastmod>2023-03-18T20:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/buku/</loc>
+    <loc>https://georgelitos.com/post/buku/</loc>
     <lastmod>2023-03-18T20:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/git-bypass/</loc>
+    <loc>https://georgelitos.com/post/git-bypass/</loc>
     <lastmod>2023-03-08T12:42:52+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/barrier/</loc>
+    <loc>https://georgelitos.com/post/barrier/</loc>
     <lastmod>2023-01-20T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/kvm/</loc>
+    <loc>https://georgelitos.com/tags/kvm/</loc>
     <lastmod>2023-01-20T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/joplin/</loc>
+    <loc>https://georgelitos.com/post/joplin/</loc>
     <lastmod>2022-12-20T20:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>https://georgelitos.com/tags/markdown/</loc>
     <lastmod>2022-12-20T20:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/notes/</loc>
+    <loc>https://georgelitos.com/tags/notes/</loc>
     <lastmod>2022-12-20T20:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/todo/</loc>
+    <loc>https://georgelitos.com/tags/todo/</loc>
     <lastmod>2022-12-20T20:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/post/benchmark-network/</loc>
+    <loc>https://georgelitos.com/post/benchmark-network/</loc>
     <lastmod>2024-11-30T15:50:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/talk/git/</loc>
+    <loc>https://georgelitos.com/talk/git/</loc>
     <lastmod>2022-07-01T03:33:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/version-control/</loc>
+    <loc>https://georgelitos.com/tags/version-control/</loc>
     <lastmod>2022-07-01T03:33:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/slides/git/</loc>
+    <loc>https://georgelitos.com/slides/git/</loc>
     <lastmod>2022-06-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/rd/</loc>
+    <loc>https://georgelitos.com/tags/rd/</loc>
     <lastmod>2023-08-31T21:38:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/research_projects/</loc>
+    <loc>https://georgelitos.com/project/research_projects/</loc>
     <lastmod>2023-08-31T21:38:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/</loc>
+    <loc>https://georgelitos.com/publication/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/slides/example/</loc>
+    <loc>https://georgelitos.com/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/cctv/</loc>
+    <loc>https://georgelitos.com/tags/cctv/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/face-matching/</loc>
+    <loc>https://georgelitos.com/tags/face-matching/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/face-recognition/</loc>
+    <loc>https://georgelitos.com/tags/face-recognition/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication_types/paper-conference/</loc>
+    <loc>https://georgelitos.com/publication_types/paper-conference/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication_types/</loc>
+    <loc>https://georgelitos.com/publication_types/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/super-recognisers/</loc>
+    <loc>https://georgelitos.com/tags/super-recognisers/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/toomanyeyes/</loc>
+    <loc>https://georgelitos.com/publication/toomanyeyes/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/ocr/</loc>
+    <loc>https://georgelitos.com/tags/ocr/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/opencv/</loc>
+    <loc>https://georgelitos.com/tags/opencv/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/tool/</loc>
+    <loc>https://georgelitos.com/tags/tool/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/typhon/</loc>
+    <loc>https://georgelitos.com/project/typhon/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/3d-object-retrieval/</loc>
+    <loc>https://georgelitos.com/tags/3d-object-retrieval/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication_types/article-journal/</loc>
+    <loc>https://georgelitos.com/publication_types/article-journal/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://georgelitos.com/categories/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/categories/computer-vision/</loc>
+    <loc>https://georgelitos.com/categories/computer-vision/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/descriptor-extraction/</loc>
+    <loc>https://georgelitos.com/tags/descriptor-extraction/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/feature-selection/</loc>
+    <loc>https://georgelitos.com/tags/feature-selection/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/3d-object-retrieval/</loc>
+    <loc>https://georgelitos.com/publication/3d-object-retrieval/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/manifold-learning/</loc>
+    <loc>https://georgelitos.com/tags/manifold-learning/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/rotation-estimation/</loc>
+    <loc>https://georgelitos.com/tags/rotation-estimation/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/shrec/</loc>
+    <loc>https://georgelitos.com/publication/shrec/</loc>
     <lastmod>2012-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/semantic-survey/</loc>
+    <loc>https://georgelitos.com/publication/semantic-survey/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/annotation-tool/</loc>
+    <loc>https://georgelitos.com/tags/annotation-tool/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication_types/book-chapter/</loc>
+    <loc>https://georgelitos.com/publication_types/book-chapter/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/descriptive-metadata/</loc>
+    <loc>https://georgelitos.com/tags/descriptive-metadata/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/image-annotation/</loc>
+    <loc>https://georgelitos.com/tags/image-annotation/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/semantic-annotation/</loc>
+    <loc>https://georgelitos.com/tags/semantic-annotation/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/video-annotation/</loc>
+    <loc>https://georgelitos.com/tags/video-annotation/</loc>
     <lastmod>2011-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/3d-model-retrieval/</loc>
+    <loc>https://georgelitos.com/publication/3d-model-retrieval/</loc>
     <lastmod>2011-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/categories/3d-stereo-scene-analysis/</loc>
+    <loc>https://georgelitos.com/categories/3d-stereo-scene-analysis/</loc>
     <lastmod>2011-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/alignment/</loc>
+    <loc>https://georgelitos.com/tags/alignment/</loc>
     <lastmod>2011-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/pose-estimation/</loc>
+    <loc>https://georgelitos.com/tags/pose-estimation/</loc>
     <lastmod>2011-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/application-software/</loc>
+    <loc>https://georgelitos.com/tags/application-software/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/cameras/</loc>
+    <loc>https://georgelitos.com/tags/cameras/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/computer-aided-manufacturing/</loc>
+    <loc>https://georgelitos.com/tags/computer-aided-manufacturing/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/computer-errors/</loc>
+    <loc>https://georgelitos.com/tags/computer-errors/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/computer-vision/</loc>
+    <loc>https://georgelitos.com/tags/computer-vision/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/hardware/</loc>
+    <loc>https://georgelitos.com/tags/hardware/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/light-emitting-diodes/</loc>
+    <loc>https://georgelitos.com/tags/light-emitting-diodes/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/production/</loc>
+    <loc>https://georgelitos.com/tags/production/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/real-time-systems/</loc>
+    <loc>https://georgelitos.com/tags/real-time-systems/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/synchronization/</loc>
+    <loc>https://georgelitos.com/tags/synchronization/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/network-synchronization/</loc>
+    <loc>https://georgelitos.com/publication/network-synchronization/</loc>
     <lastmod>2006-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/enhancement-layer/</loc>
+    <loc>https://georgelitos.com/tags/enhancement-layer/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/force-feedback/</loc>
+    <loc>https://georgelitos.com/tags/force-feedback/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/haptic-device/</loc>
+    <loc>https://georgelitos.com/tags/haptic-device/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/motion-vector/</loc>
+    <loc>https://georgelitos.com/tags/motion-vector/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/mobile-tele-echography/</loc>
+    <loc>https://georgelitos.com/publication/mobile-tele-echography/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/virtual-reality-environment/</loc>
+    <loc>https://georgelitos.com/tags/virtual-reality-environment/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/biomedical-imaging/</loc>
+    <loc>https://georgelitos.com/tags/biomedical-imaging/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/feedback/</loc>
+    <loc>https://georgelitos.com/tags/feedback/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/haptic-interfaces/</loc>
+    <loc>https://georgelitos.com/tags/haptic-interfaces/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/medical-robotics/</loc>
+    <loc>https://georgelitos.com/tags/medical-robotics/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/mobile-robots/</loc>
+    <loc>https://georgelitos.com/tags/mobile-robots/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/tele-echography/</loc>
+    <loc>https://georgelitos.com/publication/tele-echography/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/probes/</loc>
+    <loc>https://georgelitos.com/tags/probes/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/ultrasonic-imaging/</loc>
+    <loc>https://georgelitos.com/tags/ultrasonic-imaging/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/user-interfaces/</loc>
+    <loc>https://georgelitos.com/tags/user-interfaces/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/videoconference/</loc>
+    <loc>https://georgelitos.com/tags/videoconference/</loc>
     <lastmod>2005-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>

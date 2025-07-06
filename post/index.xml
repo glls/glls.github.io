@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | George Litos</title>
-    <link>http://localhost:1313/post/</link>
-      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/post/</link>
+      <atom:link href="https://georgelitos.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Apr 2025 19:00:00 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Blog</title>
-      <link>http://localhost:1313/post/</link>
+      <link>https://georgelitos.com/post/</link>
     </image>
     
     <item>
       <title>Amiberry-Lite on Raspberry Pi</title>
-      <link>http://localhost:1313/post/amiberry/</link>
+      <link>https://georgelitos.com/post/amiberry/</link>
       <pubDate>Mon, 21 Apr 2025 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/amiberry/</guid>
+      <guid>https://georgelitos.com/post/amiberry/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://amiberry.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amiberry&lt;/a&gt; by Dimitris Panokostas is the best emulator for the &lt;a href=&#34;https://en.wikipedia.org/wiki/Amiga&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amiga&lt;/a&gt; home computer. It is designed to run on Raspberry Pi, Linux and MacOS. If you are using Windows, try &lt;a href=&#34;https://www.winuae.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WinUAE&lt;/a&gt; which is the original emulator that Amiberry is forked from, with Amiberry being optimized for Raspberry Pi.&lt;/p&gt;
 &lt;p&gt;It provides a user-friendly interface and supports a wide range of Amiga games and applications. Amiberry like WinUAE, aims to deliver an authentic Amiga experience by accurately emulating the hardware and software of the original system. It includes features such as support for WHDLoad games, customizable controls, and various display options.&lt;/p&gt;
 &lt;p&gt;Homepage: &lt;a href=&#34;https://amiberry.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://amiberry.com&lt;/a&gt; &lt;br&gt;
@@ -59,7 +59,7 @@ Wiki: &lt;a href=&#34;https://github.com/BlitterStudio/amiberry/wiki&#34; target
                /post/amiberry/scr_title_hu_5533267ce001e0b0.webp 400w,
                /post/amiberry/scr_title_hu_c340b0156feb1026.webp 760w,
                /post/amiberry/scr_title_hu_49c6e9169e6e7ac9.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/amiberry/scr_title_hu_5533267ce001e0b0.webp&#34;
+               src=&#34;https://georgelitos.com/post/amiberry/scr_title_hu_5533267ce001e0b0.webp&#34;
                width=&#34;760&#34;
                height=&#34;497&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -88,7 +88,7 @@ Get your &lt;a href=&#34;https://en.wikipedia.org/wiki/Amiga_Disk_File&#34; targ
                /post/amiberry/scr_gui_hu_d4eaaa6f6658f014.webp 400w,
                /post/amiberry/scr_gui_hu_d0ec491f1a9a328a.webp 760w,
                /post/amiberry/scr_gui_hu_9b6b038719927593.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/amiberry/scr_gui_hu_d4eaaa6f6658f014.webp&#34;
+               src=&#34;https://georgelitos.com/post/amiberry/scr_gui_hu_d4eaaa6f6658f014.webp&#34;
                width=&#34;760&#34;
                height=&#34;627&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -117,7 +117,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
                /post/amiberry/scr_game_hu_5e62d461e26f5379.webp 400w,
                /post/amiberry/scr_game_hu_fac4d28b755b8a90.webp 760w,
                /post/amiberry/scr_game_hu_6d7291e532dd20cd.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/amiberry/scr_game_hu_5e62d461e26f5379.webp&#34;
+               src=&#34;https://georgelitos.com/post/amiberry/scr_game_hu_5e62d461e26f5379.webp&#34;
                width=&#34;760&#34;
                height=&#34;548&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -131,16 +131,15 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
     
     <item>
       <title>Awesome Stars</title>
-      <link>http://localhost:1313/post/awesome-stars/</link>
+      <link>https://georgelitos.com/post/awesome-stars/</link>
       <pubDate>Mon, 10 Mar 2025 18:08:16 +0000</pubDate>
-      <guid>http://localhost:1313/post/awesome-stars/</guid>
+      <guid>https://georgelitos.com/post/awesome-stars/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;A curated list of my GitHub stars! Generated by &lt;a href=&#34;https://github.com/maguowei/starred&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;starred&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#asp&#34;&gt;ASP&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#actionscript&#34;&gt;ActionScript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#astro&#34;&gt;Astro&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#batchfile&#34;&gt;Batchfile&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#c&#34;&gt;C&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#c#&#34;&gt;C#&lt;/a&gt;&lt;/li&gt;
@@ -185,7 +184,6 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;#swift&#34;&gt;Swift&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#tex&#34;&gt;TeX&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#typescript&#34;&gt;TypeScript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#vue&#34;&gt;Vue&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;asp&#34;&gt;ASP&lt;/h2&gt;
 &lt;ul&gt;
@@ -193,12 +191,9 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;actionscript&#34;&gt;ActionScript&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/TerryCavanagh/VVVVVV&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TerryCavanagh/VVVVVV&lt;/a&gt; - The source code to VVVVVV! &lt;a href=&#34;http://thelettervsixtim.es/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://thelettervsixtim.es/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/increpare/bfxr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;increpare/bfxr&lt;/a&gt; - Flash + AIR sound effects generator.   Based on Sfxr.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/spyros-papadimitriou/yperatou&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;spyros-papadimitriou/yperatou&lt;/a&gt; -&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;astro&#34;&gt;Astro&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ColorlibHQ/AdminLTE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ColorlibHQ/AdminLTE&lt;/a&gt; - AdminLTE - Free admin dashboard template based on Bootstrap 5&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;batchfile&#34;&gt;Batchfile&lt;/h2&gt;
 &lt;ul&gt;
@@ -229,7 +224,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/tvheadend/tvheadend&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tvheadend/tvheadend&lt;/a&gt; - Tvheadend is the leading TV streaming server for Linux with ATSC, DVB-C/C2, DVB-S/S2, DVB-T/T2, IPTV, SAT&amp;gt;IP and unix pipe input sources&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/pjreddie/NeHe-Tutorials-Using-GLFW&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pjreddie/NeHe-Tutorials-Using-GLFW&lt;/a&gt; - NeHe Tutorials using GLFW for windowing.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/AlexeyAB/darknet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AlexeyAB/darknet&lt;/a&gt; - YOLOv4 / Scaled-YOLOv4 / YOLO - Neural Networks for Object Detection (Windows and Linux version of Darknet )&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/netdata/netdata&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;netdata/netdata&lt;/a&gt; - X-Ray Vision for your infrastructure!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/netdata/netdata&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;netdata/netdata&lt;/a&gt; - The fastest path to AI-powered full stack observability, even for lean teams.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/apache/guacamole-server&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;apache/guacamole-server&lt;/a&gt; - Mirror of Apache Guacamole Server&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/HandBrake/HandBrake&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HandBrake/HandBrake&lt;/a&gt; - HandBrake&amp;rsquo;s main development repository&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/endlessm/cnijfilter2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;endlessm/cnijfilter2&lt;/a&gt; - Canon printer drivers&lt;/li&gt;
@@ -251,6 +246,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;c-1&#34;&gt;C#&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/OpenTabletDriver/OpenTabletDriver&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenTabletDriver/OpenTabletDriver&lt;/a&gt; - Open source, cross-platform, user-mode tablet driver&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/space-wizards/space-station-14&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;space-wizards/space-station-14&lt;/a&gt; - A multiplayer game about paranoia and chaos on a space station. Remake of the cult-classic Space Station 13.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/scrtwpns/mixbox&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scrtwpns/mixbox&lt;/a&gt; - Mixbox is a library for natural color mixing based on real pigments.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Kareadita/Kavita&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kareadita/Kavita&lt;/a&gt; - Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with you&lt;/li&gt;
@@ -271,7 +267,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/chocolatey/choco&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;chocolatey/choco&lt;/a&gt; - Chocolatey - the package manager for Windows&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/nefarius/ScpToolkit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nefarius/ScpToolkit&lt;/a&gt; - Windows Driver and XInput Wrapper for Sony DualShock 3/4 Controllers&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/rallion/depressurizer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rallion/depressurizer&lt;/a&gt; -&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/PintaProject/Pinta&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PintaProject/Pinta&lt;/a&gt; - Simple GTK# Paint Program&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/PintaProject/Pinta&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PintaProject/Pinta&lt;/a&gt; - Simple GTK Paint Program&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/SonyWWS/ATF&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SonyWWS/ATF&lt;/a&gt; - Authoring Tools Framework (ATF) is a set of C#/.NET components for making tools on Windows. ATF has been in continuous development in Sony Computer Entertainment&amp;rsquo;s (SCE) Worldwide Studios central tool&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/AdamsLair/duality&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AdamsLair/duality&lt;/a&gt; - a 2D Game Development Framework&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/BlitterStudio/amigula&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BlitterStudio/amigula&lt;/a&gt; - Amiga Games UAE Launcher&lt;/li&gt;
@@ -279,6 +275,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;c-2&#34;&gt;C++&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/taglib/taglib&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;taglib/taglib&lt;/a&gt; - TagLib Audio Meta-Data Library&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/pauldreik/rdfind&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pauldreik/rdfind&lt;/a&gt; - find duplicate files utility&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/BlitterStudio/amiberry-lite&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BlitterStudio/amiberry-lite&lt;/a&gt; - Optimized Amiga emulator for Linux&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/electronicarts/CnC_Red_Alert&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;electronicarts/CnC_Red_Alert&lt;/a&gt; - Command and Conquer: Red Alert&lt;/li&gt;
@@ -294,7 +291,6 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/grannypron/uaf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;grannypron/uaf&lt;/a&gt; -&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/haiku/haiku&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;haiku/haiku&lt;/a&gt; - The Haiku operating system. (Pull requests will be ignored; patches may be sent to &lt;a href=&#34;https://review.haiku-os.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://review.haiku-os.org&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/acoustid/chromaprint&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;acoustid/chromaprint&lt;/a&gt; - C library for generating audio fingerprints used by AcoustID&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/topjohnwu/Magisk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;topjohnwu/Magisk&lt;/a&gt; - The Magic Mask for Android&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/cnr-isti-vclab/meshlab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cnr-isti-vclab/meshlab&lt;/a&gt; - The open source mesh processing system&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ashaduri/gsmartcontrol&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ashaduri/gsmartcontrol&lt;/a&gt; - GSmartControl - Hard disk drive and SSD health inspection tool&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/fritzing/fritzing-app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fritzing/fritzing-app&lt;/a&gt; - Fritzing desktop application&lt;/li&gt;
@@ -352,6 +348,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/SixArm/ui-ux-design-guide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SixArm/ui-ux-design-guide&lt;/a&gt; - UI/UX Design Guide: this book explains one topic per page, like a big glossary, easy wiki, quick encyclopedia, or summary notes. Edited by Joel Parker Henderson (@joelparkerhenderson).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jamiewilson/predawn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;jamiewilson/predawn&lt;/a&gt; - Predawn is a dark interface and syntax theme for Sublime Text and Atom.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/aleksip/shila-drupal-theme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aleksip/shila-drupal-theme&lt;/a&gt; - Atomic design and Pattern Lab friendly, component-based, fairly unopinionated starting point for new Drupal themes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ColorlibHQ/AdminLTE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ColorlibHQ/AdminLTE&lt;/a&gt; - AdminLTE - Free admin dashboard template based on Bootstrap 5&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/SU-SWS/open_framework&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SU-SWS/open_framework&lt;/a&gt; - Open Framework Drupal Theme&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;clojure&#34;&gt;Clojure&lt;/h2&gt;
@@ -364,6 +361,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;dart&#34;&gt;Dart&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ubuntu/app-center&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ubuntu/app-center&lt;/a&gt; - App Store for Ubuntu made with Flutter 🧡 💙&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/SpicyChair/pluvia_weather_flutter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SpicyChair/pluvia_weather_flutter&lt;/a&gt; - Pluvia 🌦️ | A weather app with beautiful animations, built with Flutter.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/felangel/bloc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;felangel/bloc&lt;/a&gt; - A predictable state management library that helps implement the BLoC design pattern&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/SharezoneApp/sharezone-app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SharezoneApp/sharezone-app&lt;/a&gt; - Sharezone is a collaborative school organization app for iOS, Android, macOS and web with +500,000 downloads. Built with Flutter &amp;amp; Firebase.&lt;/li&gt;
@@ -449,7 +447,6 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/danmunn/redmine_dmsf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;danmunn/redmine_dmsf&lt;/a&gt; - Fork of svn repository for redmine_dmsf&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/LiberatedPixelCup/Universal-LPC-Spritesheet-Character-Generator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LiberatedPixelCup/Universal-LPC-Spritesheet-Character-Generator&lt;/a&gt; - Character Generator based on Universal-LPC-Spritesheet&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/google/styleguide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;google/styleguide&lt;/a&gt; - Style guides for Google-originated open-source projects&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/EbookFoundation/free-programming-books&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EbookFoundation/free-programming-books&lt;/a&gt; - &amp;#x1f4da; Freely available programming books&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;java&#34;&gt;Java&lt;/h2&gt;
 &lt;ul&gt;
@@ -493,12 +490,14 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;javascript&#34;&gt;JavaScript&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Mintplex-Labs/anything-llm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mintplex-Labs/anything-llm&lt;/a&gt; - The all-in-one Desktop &amp;amp; Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Mathics3/mathics-django&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mathics3/mathics-django&lt;/a&gt; - Django front-end to Mathics3&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ZoeyVid/NPMplus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZoeyVid/NPMplus&lt;/a&gt; - improved fork of nginx-proxy-manager&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/PavelDoGreat/WebGL-Fluid-Simulation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PavelDoGreat/WebGL-Fluid-Simulation&lt;/a&gt; - Play with fluids in your browser (works even on mobile)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/willmiao/ComfyUI-Lora-Manager&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;willmiao/ComfyUI-Lora-Manager&lt;/a&gt; - LoRA Manager for ComfyUI - A powerful extension for organizing, previewing, and integrating LoRA models with metadata and workflow support.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/murdos/musicbrainz-userscripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;murdos/musicbrainz-userscripts&lt;/a&gt; - Collection of userscripts for MusicBrainz, by various authors&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ronkok/Hurmet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ronkok/Hurmet&lt;/a&gt; - Rich text editor on the web, featuring live calculations.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/anvaka/map-of-github&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;anvaka/map-of-github&lt;/a&gt; - Inspirational Mapping&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/stuartmatthews/leaflet-geotiff&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;stuartmatthews/leaflet-geotiff&lt;/a&gt; - Leaflet plugin for displaying geoTIFF raster data&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/trekhleb/javascript-algorithms&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;trekhleb/javascript-algorithms&lt;/a&gt; - 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/mapbox/pixelmatch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mapbox/pixelmatch&lt;/a&gt; - The smallest, simplest and fastest JavaScript pixel-level image comparison library&lt;/li&gt;
@@ -617,6 +616,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/scubajeff/lespas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scubajeff/lespas&lt;/a&gt; - Les Pas, photo album app for Nextcloud user&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/breezy-weather/breezy-weather&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;breezy-weather/breezy-weather&lt;/a&gt; - A Material Design Weather Application&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/topjohnwu/Magisk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;topjohnwu/Magisk&lt;/a&gt; - The Magic Mask for Android&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/feelfreelinux/octo4a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;feelfreelinux/octo4a&lt;/a&gt; - Use your old Android device as an OctoPrint server.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/JetBrains/kotlin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JetBrains/kotlin&lt;/a&gt; - The Kotlin Programming Language.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/kickstarter/android-oss&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kickstarter/android-oss&lt;/a&gt; - Kickstarter for Android. Bring new ideas to life, anywhere.&lt;/li&gt;
@@ -662,6 +662,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/junfanz1/Software-Engineer-Coding-Interviews&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;junfanz1/Software-Engineer-Coding-Interviews&lt;/a&gt; - Data Structure Algorithms, (GenAI/ML) System Design, Machine Learning, DevOps coding interview practices&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/sindresorhus/awesome-whisper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sindresorhus/awesome-whisper&lt;/a&gt; - 🔊 Awesome list for Whisper — an open-source AI-powered speech recognition system developed by OpenAI&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/deepseek-ai/DeepSeek-R1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;deepseek-ai/DeepSeek-R1&lt;/a&gt; -&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/NVIDIAGameWorks/rtx-remix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIAGameWorks/rtx-remix&lt;/a&gt; - Combined repo for the RTX-Remix runtime and toolkit&lt;/li&gt;
@@ -713,6 +714,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;php&#34;&gt;PHP&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/unraid/webgui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;unraid/webgui&lt;/a&gt; - Unraid Web UI&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/phoronix-test-suite/phoronix-test-suite&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;phoronix-test-suite/phoronix-test-suite&lt;/a&gt; - The Phoronix Test Suite open-source, cross-platform automated testing/benchmarking software.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Part-DB/Part-DB-server&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Part-DB/Part-DB-server&lt;/a&gt; - Part-DB is an Open source inventory management system for your electronic components&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/librespeed/speedtest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;librespeed/speedtest&lt;/a&gt; - Self-hosted Speed Test for HTML5 and more. Easy setup, examples, configurable, mobile friendly. Supports PHP, Node, Multiple servers, and more&lt;/li&gt;
@@ -749,6 +751,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;pascal&#34;&gt;Pascal&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tomboy-notes/tomboy-ng&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tomboy-notes/tomboy-ng&lt;/a&gt; - Next generation of Tomboy&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/damieng/DiskImageManager&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;damieng/DiskImageManager&lt;/a&gt; - Visual inspection tool for .dsk Spectrum/Amstrad disk images&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Fr0sT-Brutal/awesome-pascal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fr0sT-Brutal/awesome-pascal&lt;/a&gt; - A curated list of awesome Delphi/FreePascal/(any)Pascal frameworks, libraries, resources, and shiny things. Inspired by awesome-&amp;hellip; stuff. Open source and freeware only!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/doublecmd/doublecmd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doublecmd/doublecmd&lt;/a&gt; - Double Commander is a free cross platform open source file manager with two panels side by side.&lt;/li&gt;
@@ -769,6 +772,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/amigavision/AmigaVision&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;amigavision/AmigaVision&lt;/a&gt; - The ultimate Amiga games &amp;amp; demo scene setup for MiSTer &amp;amp; Pocket FPGAs, emulators, and real hardware. Open source, community driven. This is an Amiga HDF image builder that uses WHDLoad and custom inst&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/nginx-proxy/nginx-proxy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nginx-proxy/nginx-proxy&lt;/a&gt; - Automated nginx proxy for Docker containers using docker-gen&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jamessewell/django-timescaledb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;jamessewell/django-timescaledb&lt;/a&gt; - A Django database backend and tooling for Timescaledb.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/DFRobot/DFRobot_ENS160&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DFRobot/DFRobot_ENS160&lt;/a&gt; -&lt;/li&gt;
@@ -857,11 +861,12 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/Scifabric/pybossa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scifabric/pybossa&lt;/a&gt; - PYBOSSA is the ultimate crowdsourcing framework (aka microtasking) to analyze or enrich data that can&amp;rsquo;t be processed by machines alone.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/metabrainz/picard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;metabrainz/picard&lt;/a&gt; - Picard is a cross-platform music tagger powered by the MusicBrainz database&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/kevinclement/SimpleArmory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kevinclement/SimpleArmory&lt;/a&gt; - World of Warcraft armory site that presents your armory in a simple manor.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/EbookFoundation/free-programming-books&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EbookFoundation/free-programming-books&lt;/a&gt; - &amp;#x1f4da; Freely available programming books&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/celery/celery&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;celery/celery&lt;/a&gt; - Distributed Task Queue (development branch)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;qml&#34;&gt;QML&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/alicevision/Meshroom&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;alicevision/Meshroom&lt;/a&gt; - 3D Reconstruction Software&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alicevision/Meshroom&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;alicevision/Meshroom&lt;/a&gt; - Node-based Visual Programming Toolbox&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ruby&#34;&gt;Ruby&lt;/h2&gt;
 &lt;ul&gt;
@@ -935,7 +940,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/phosphor-icons/homepage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;phosphor-icons/homepage&lt;/a&gt; - The homepage of Phosphor Icons, a flexible icon family for everyone&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/playwright&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;microsoft/playwright&lt;/a&gt; - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/browserbase/stagehand&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;browserbase/stagehand&lt;/a&gt; - An AI web browsing framework focused on simplicity and extensibility.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/browserbase/stagehand&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;browserbase/stagehand&lt;/a&gt; - The AI Browser Automation Framework&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/dzhng/deep-research&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dzhng/deep-research&lt;/a&gt; - An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models.  The goal of this repo is to provide the simp&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/niivue/niivue&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;niivue/niivue&lt;/a&gt; - a WebGL2 based medical image viewer. Supports over 30 formats of volumes and meshes.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/SendWithSES/Drag-and-Drop-Email-Designer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SendWithSES/Drag-and-Drop-Email-Designer&lt;/a&gt; - Free, open source, HTML email template editor and no code designer.&lt;/li&gt;
@@ -958,7 +963,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/chapter-three/next-drupal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;chapter-three/next-drupal&lt;/a&gt; - Next.js for Drupal has everything you need to build a next-generation front-end for your Drupal site: SSG, SSR, and ISR, Multi-site, Authentication, Webforms, Search API, I18n and Preview mode (works&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/pavkout/react-mailkit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pavkout/react-mailkit&lt;/a&gt; - Create awesome and fully responsive emails without stress.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/niconiahi/chakra-paginator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;niconiahi/chakra-paginator&lt;/a&gt; - An aria compliant and completely typed pagination library built upon Chakra UI with styling flexibility kept in mind&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;chakra-ui/chakra-ui&lt;/a&gt; - Chakra UI is a component system for building products with speed ⚡️&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;chakra-ui/chakra-ui&lt;/a&gt; - Chakra UI is a component system for building SaaS products with speed ⚡️&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/katspaugh/wavesurfer.js&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;katspaugh/wavesurfer.js&lt;/a&gt; - Audio waveform player&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/onehungrymind/fem-enterprise-patterns&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;onehungrymind/fem-enterprise-patterns&lt;/a&gt; -&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/dendronhq/dendron&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dendronhq/dendron&lt;/a&gt; - The personal knowledge management (PKM) tool that grows as you do!&lt;/li&gt;
@@ -966,7 +971,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/WowUp/WowUp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WowUp/WowUp&lt;/a&gt; - WowUp the World of Warcraft addon updater&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Sidoine/Ovale&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sidoine/Ovale&lt;/a&gt; - An add-on for World of Warcraft that displays icons based on scripts&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/eclipse-che/che&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eclipse-che/che&lt;/a&gt; - Kubernetes based Cloud Development Environments for Enterprise Teams&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/freeCodeCamp/freeCodeCamp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;freeCodeCamp/freeCodeCamp&lt;/a&gt; - freeCodeCamp.org&amp;rsquo;s open-source codebase and curriculum. Learn to code for free.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/freeCodeCamp/freeCodeCamp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;freeCodeCamp/freeCodeCamp&lt;/a&gt; - freeCodeCamp.org&amp;rsquo;s open-source codebase and curriculum. Learn math, programming, and computer science for free.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/api-platform/api-platform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;api-platform/api-platform&lt;/a&gt; - 🕸️ Create REST and GraphQL APIs, scaffold Jamstack webapps, stream changes in real-time.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Flaque/quirk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flaque/quirk&lt;/a&gt; - ✨🐙 A GPL Licensed Cognitive Behavioral Therapy app for iOS and Android. Currently a teaching tool&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/captbaritone/webamp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;captbaritone/webamp&lt;/a&gt; - Winamp 2 reimplemented for the browser&lt;/li&gt;
@@ -979,10 +984,6 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/BabylonJS/Babylon.js&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BabylonJS/Babylon.js&lt;/a&gt; - Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/sahat/satellizer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sahat/satellizer&lt;/a&gt; - Token-based AngularJS Authentication&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/turbulenz/turbulenz_engine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;turbulenz/turbulenz_engine&lt;/a&gt; - Turbulenz is a modular 3D and 2D game framework for making HTML5 powered games for browsers, desktops and mobile devices.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;vue&#34;&gt;Vue&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/anvaka/map-of-github&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;anvaka/map-of-github&lt;/a&gt; - Inspirational Mapping&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://creativecommons.org/publicdomain/zero/1.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
@@ -1012,9 +1013,9 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
     
     <item>
       <title>Wireguard: A Better VPN</title>
-      <link>http://localhost:1313/post/wireguard/</link>
+      <link>https://georgelitos.com/post/wireguard/</link>
       <pubDate>Sat, 27 Apr 2024 18:34:13 +0300</pubDate>
-      <guid>http://localhost:1313/post/wireguard/</guid>
+      <guid>https://georgelitos.com/post/wireguard/</guid>
       <description>&lt;p&gt;Virtual Private Networks &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(VPNs)&lt;/a&gt; are essential tools for protecting your online privacy and security. But traditional VPNs can sometimes be slow and bog down your connection. &lt;a href=&#34;https://www.wireguard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WireGuard&lt;/a&gt; is a new, innovative VPN protocol that offers several advantages over traditional options, it has a cool logo too 😎.&lt;/p&gt;
 &lt;p&gt;WireGuard is much simpler and leaner than older VPN protocols. This means it&amp;rsquo;s faster and more efficient, using fewer resources and providing a smoother online experience. On top of that, WireGuard prioritizes strong security. It utilizes modern cryptographic techniques to keep your data safe and encrypted.&lt;/p&gt;
 &lt;p&gt;WireGuard is also easy to set up and use. It&amp;rsquo;s available on a wide range of platforms, including Linux, macOS, Windows, Android, and iOS. You can quickly configure WireGuard to connect to a VPN server and start protecting your online activities.&lt;/p&gt;
@@ -1026,9 +1027,9 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
+      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
       <description>
 
 
@@ -1127,9 +1128,9 @@ To remove the black background from an image, use the following command:&lt;/p&g
     
     <item>
       <title>SSH Cheatsheet</title>
-      <link>http://localhost:1313/post/ssh-cheatsheet/</link>
+      <link>https://georgelitos.com/post/ssh-cheatsheet/</link>
       <pubDate>Mon, 12 Feb 2024 09:03:02 +0300</pubDate>
-      <guid>http://localhost:1313/post/ssh-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/ssh-cheatsheet/</guid>
       <description>&lt;p&gt;SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&amp;rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations.&lt;/p&gt;
 &lt;h2 id=&#34;connecting-to-a-server&#34;&gt;Connecting to a Server&lt;/h2&gt;
 &lt;p&gt;The basic syntax for connecting to a server with SSH is:&lt;/p&gt;
@@ -1247,9 +1248,9 @@ To remove the black background from an image, use the following command:&lt;/p&g
     
     <item>
       <title>Console snippets</title>
-      <link>http://localhost:1313/post/console-snippets/</link>
+      <link>https://georgelitos.com/post/console-snippets/</link>
       <pubDate>Mon, 29 Jan 2024 18:30:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/console-snippets/</guid>
+      <guid>https://georgelitos.com/post/console-snippets/</guid>
       <description>
 
 
@@ -1397,7 +1398,7 @@ Here are some generic snippets to get you started:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -mindepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -maxdepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -type d -exec git  --git-dir&lt;span class=&#34;o&#34;&gt;={}&lt;/span&gt;/.git --work-tree&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PWD&lt;/span&gt;/&lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; pull &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;miscellaneous-tips&#34;&gt;Miscellaneous tips&lt;/h2&gt;
 &lt;p&gt;For the best terminal filemanager check the post:&lt;br&gt;
-&lt;a href=&#34;http://localhost:1313/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://georgelitos.com/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Use &lt;code&gt;Ctrl + R&lt;/code&gt; to search through your command history&lt;/p&gt;
 &lt;p&gt;Use &lt;code&gt;Ctrl + C&lt;/code&gt; to cancel a running command&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;tmux&lt;/code&gt; and &lt;code&gt;htop&lt;/code&gt; are great tools for managing terminal sessions and monitoring system resources&lt;/p&gt;
@@ -1407,9 +1408,9 @@ Here are some generic snippets to get you started:&lt;/p&gt;
     
     <item>
       <title>SQL Cheat Sheet</title>
-      <link>http://localhost:1313/post/sql-cheatsheet/</link>
+      <link>https://georgelitos.com/post/sql-cheatsheet/</link>
       <pubDate>Thu, 16 Nov 2023 19:23:33 +0300</pubDate>
-      <guid>http://localhost:1313/post/sql-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/sql-cheatsheet/</guid>
       <description>&lt;p&gt;SQL stands for Structured Query Language. It&amp;rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.&lt;/p&gt;
 &lt;p&gt;There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM)&lt;/p&gt;
 &lt;h3 id=&#34;performance&#34;&gt;Performance&lt;/h3&gt;
@@ -1570,9 +1571,9 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
     
     <item>
       <title>Git Cheatsheet</title>
-      <link>http://localhost:1313/post/git-cheatsheet/</link>
+      <link>https://georgelitos.com/post/git-cheatsheet/</link>
       <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/git-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
       <description>
 
 
@@ -1991,15 +1992,15 @@ Here&amp;rsquo;s an example:&lt;/li&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;http://localhost:1313/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;https://georgelitos.com/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The correct way to benchmark your web server</title>
-      <link>http://localhost:1313/post/benchmark-webserver/</link>
+      <link>https://georgelitos.com/post/benchmark-webserver/</link>
       <pubDate>Sun, 10 Sep 2023 18:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/benchmark-webserver/</guid>
+      <guid>https://georgelitos.com/post/benchmark-webserver/</guid>
       <description>&lt;p&gt;Keeping your web server running smoothly is crucial for a positive user experience. But how do you know it can handle the traffic you expect? Benchmarking is the answer! It allows you to simulate real-world load and measure your server&amp;rsquo;s performance. This post will guide you through using &lt;code&gt;wrk&lt;/code&gt;, a powerful tool for benchmarking your web server.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;wrk&lt;/code&gt; is a fast, user-friendly HTTP benchmarking tool. It&amp;rsquo;s lightweight and easy to install. Once you have wrk set up, you can start crafting your benchmark test. &lt;code&gt;wrk&lt;/code&gt; offers various options to configure your test precisely. You can define the number of threads to simulate concurrent users, the number of connections per thread, and the test duration. &lt;code&gt;wrk&lt;/code&gt; also allows you to specify headers to be sent with each request, mimicking real user behavior.&lt;/p&gt;
 &lt;p&gt;Running a &lt;code&gt;wrk&lt;/code&gt; test is straightforward. You provide the URL you want to benchmark along with the desired configuration options. Wrks then bombards your server with simulated traffic, measuring critical metrics like request latency, throughput, and overall system health. After the test concludes, &lt;code&gt;wrk&lt;/code&gt; presents a detailed report. This report showcases valuable data points like average request time, request rate, and connection errors. Analyzing this data helps you identify bottlenecks and areas for improvement in your web server&amp;rsquo;s performance.&lt;/p&gt;
@@ -2073,9 +2074,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>React &#43; Next.js with Docker</title>
-      <link>http://localhost:1313/post/reactjsnext/</link>
+      <link>https://georgelitos.com/post/reactjsnext/</link>
       <pubDate>Thu, 10 Aug 2023 22:22:22 +0300</pubDate>
-      <guid>http://localhost:1313/post/reactjsnext/</guid>
+      <guid>https://georgelitos.com/post/reactjsnext/</guid>
       <description>&lt;p&gt;Following my previous post on &lt;a href=&#34;https://georgelitos.com/post/vuejsnuxt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vuejs + Nuxt.js with Docker&lt;/a&gt;, I will show you how to dockerize a React + Next.js web application.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://reactjs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;React&lt;/a&gt; is a JavaScript library for building user interfaces. &lt;a href=&#34;https://nextjs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Next.js&lt;/a&gt; is a framework for building React applications.
 &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; is a containerization platform that can be used to package and deploy these applications.&lt;/p&gt;
@@ -2103,9 +2104,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>Vue.js &#43; Nuxt with Docker</title>
-      <link>http://localhost:1313/post/vuejsnuxt/</link>
+      <link>https://georgelitos.com/post/vuejsnuxt/</link>
       <pubDate>Fri, 04 Aug 2023 16:27:10 +0300</pubDate>
-      <guid>http://localhost:1313/post/vuejsnuxt/</guid>
+      <guid>https://georgelitos.com/post/vuejsnuxt/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://vuejs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vue.js&lt;/a&gt; and &lt;a href=&#34;https://nuxt.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nuxt&lt;/a&gt; are powerful frameworks for building web applications. &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; is a containerization platform that can be used to package and deploy these applications.&lt;/p&gt;
 &lt;p&gt;To dockerize a Nuxt application, a Dockerfile is created that specifies the steps required to build the image. This typically includes installing Nuxt and the application&amp;rsquo;s dependencies.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-dockerfile&#34; data-lang=&#34;dockerfile&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;s&#34;&gt; node:20-alpine&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
@@ -2182,9 +2183,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>MC: a commander like no other</title>
-      <link>http://localhost:1313/post/mc/</link>
+      <link>https://georgelitos.com/post/mc/</link>
       <pubDate>Mon, 05 Jun 2023 09:18:07 +0300</pubDate>
-      <guid>http://localhost:1313/post/mc/</guid>
+      <guid>https://georgelitos.com/post/mc/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander™. It also takes the best from more recent software with similar interfaces. Many years ago, we used file-managers like these, as &amp;ldquo;Norton Commander&amp;rdquo; in DOS, or the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, which is still alive in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;dual-pane-interface-for-seamless-file-management&#34;&gt;Dual-Pane Interface for Seamless File Management&lt;/h2&gt;
@@ -2260,9 +2261,9 @@ The features include:&lt;/p&gt;
     
     <item>
       <title>Scrcpy: Display and control your Android device</title>
-      <link>http://localhost:1313/post/scrcpy/</link>
+      <link>https://georgelitos.com/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/scrcpy/</guid>
+      <guid>https://georgelitos.com/post/scrcpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
 This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
@@ -2311,7 +2312,7 @@ This application mirrors Android devices (video and audio) connected via USB or 
                /post/scrcpy/image1_hu_d66b0ffd360aba34.webp 400w,
                /post/scrcpy/image1_hu_76e6ef16731cf17a.webp 760w,
                /post/scrcpy/image1_hu_84bcb1e9a840e002.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/scrcpy/image1_hu_d66b0ffd360aba34.webp&#34;
+               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu_d66b0ffd360aba34.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2323,9 +2324,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Package Managers - not the evil kind of PMs</title>
-      <link>http://localhost:1313/post/pkgman/</link>
+      <link>https://georgelitos.com/post/pkgman/</link>
       <pubDate>Tue, 21 Mar 2023 21:27:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/pkgman/</guid>
+      <guid>https://georgelitos.com/post/pkgman/</guid>
       <description>
 
 
@@ -2385,7 +2386,7 @@ And thank you for making our coding lives bright!&lt;/p&gt;&lt;/blockquote&gt;
                /post/pkgman/scoop_hu_cb4361b63396390.webp 400w,
                /post/pkgman/scoop_hu_f12f9cb7fab7e1b7.webp 760w,
                /post/pkgman/scoop_hu_5b98ad82382843dd.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/scoop_hu_cb4361b63396390.webp&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/scoop_hu_cb4361b63396390.webp&#34;
                width=&#34;760&#34;
                height=&#34;315&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2434,7 +2435,7 @@ Scoop is a command-line installer for Windows that allows users to easily instal
                /post/pkgman/homebrew_hu_5d74178367052408.webp 400w,
                /post/pkgman/homebrew_hu_d6b544c03d7e8511.webp 760w,
                /post/pkgman/homebrew_hu_526f24278b27f896.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/homebrew_hu_5d74178367052408.webp&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hu_5d74178367052408.webp&#34;
                width=&#34;760&#34;
                height=&#34;611&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2475,7 +2476,7 @@ That the apps are already hand-picked and that they are fully categorized! You c
                /post/pkgman/pmpc_hu_394a150b25053eda.webp 400w,
                /post/pkgman/pmpc_hu_595a3e1335288e58.webp 760w,
                /post/pkgman/pmpc_hu_13d9013f87b9b2dd.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/pmpc_hu_394a150b25053eda.webp&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hu_394a150b25053eda.webp&#34;
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2503,9 +2504,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Buku: a powerful bookmark manager</title>
-      <link>http://localhost:1313/post/buku/</link>
+      <link>https://georgelitos.com/post/buku/</link>
       <pubDate>Sat, 18 Mar 2023 20:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/buku/</guid>
+      <guid>https://georgelitos.com/post/buku/</guid>
       <description>&lt;p&gt;Are you tired of losing track of your bookmarks across multiple browsers? Look no further than Buku, the powerful bookmark manager that imports bookmarks from all your browsers, works on console and has a web-based server.&lt;/p&gt;
 &lt;p&gt;With Buku, you can easily organize your bookmarks into categories and tags, making it easy to find exactly what you need. Plus, Buku&amp;rsquo;s powerful search feature allows you to quickly locate any bookmark in your collection.&lt;/p&gt;
 &lt;p&gt;One of the most unique features of Buku is its powerful console interface:&lt;/p&gt;
@@ -2534,7 +2535,7 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
                /post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp 400w,
                /post/buku/screenshot-buku_hu_3fe16ee851a5e5d0.webp 760w,
                /post/buku/screenshot-buku_hu_bef1171e20f4b4ec.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp&#34;
+               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -2547,9 +2548,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>How to bypass Git Hooks</title>
-      <link>http://localhost:1313/post/git-bypass/</link>
+      <link>https://georgelitos.com/post/git-bypass/</link>
       <pubDate>Wed, 08 Mar 2023 12:42:52 +0200</pubDate>
-      <guid>http://localhost:1313/post/git-bypass/</guid>
+      <guid>https://georgelitos.com/post/git-bypass/</guid>
       <description>&lt;p&gt;&lt;code&gt;git push --no-verify&lt;/code&gt; is a command used to push your local changes to a remote repository without running pre-commit hooks or pre-push hooks. Pre-commit hooks and pre-push hooks are scripts that run before a commit or a push, and they are used to perform automated tests, code quality checks, or other actions that help ensure the quality and correctness of your code. You can use &lt;a href=&#34;https://github.com/typicode/husky&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;husky&lt;/a&gt; or &lt;a href=&#34;https://pre-commit.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pre-commit&lt;/a&gt; if you need extra features or just production ready tools.&lt;/p&gt;
 &lt;p&gt;Sometimes, you may need to bypass these hooks and push your changes without running them. For example, if you&amp;rsquo;re in a hurry and you need to push a critical bug fix, or if you&amp;rsquo;re working in a team with strict code review policies and you need to push a work-in-progress commit for collaboration purposes.&lt;/p&gt;
 &lt;p&gt;To use it simply add the &lt;code&gt;--no-verify&lt;/code&gt; flag to your git push command:&lt;/p&gt;
@@ -2557,15 +2558,15 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will push your changes to the remote repository without running the pre-commit or pre-push hooks.&lt;/p&gt;
 &lt;p&gt;However, it&amp;rsquo;s important to note that using &amp;ndash;no-verify should be done with caution, as it can potentially lead to lower code quality and a higher risk of introducing bugs or other issues into your codebase. Therefore, it&amp;rsquo;s recommended to only use &amp;ndash;no-verify when it&amp;rsquo;s absolutely necessary and always double-check your code before pushing it to a remote repository.&lt;/p&gt;
 &lt;p&gt;You can check the &lt;a href=&#34;https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-verify&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Git Documentation.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;http://localhost:1313/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;https://georgelitos.com/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Breaking the Barrier</title>
-      <link>http://localhost:1313/post/barrier/</link>
+      <link>https://georgelitos.com/post/barrier/</link>
       <pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/barrier/</guid>
+      <guid>https://georgelitos.com/post/barrier/</guid>
       <description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;
 &lt;p&gt;
 
@@ -2605,9 +2606,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Free your notes with Joplin</title>
-      <link>http://localhost:1313/post/joplin/</link>
+      <link>https://georgelitos.com/post/joplin/</link>
       <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/joplin/</guid>
+      <guid>https://georgelitos.com/post/joplin/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
 &lt;p&gt;One of the main features of Joplin is its ability to synchronize notes across multiple devices. Joplin also supports the use of multiple storage options, including the local file system, Dropbox, OneDrive, and WebDAV and more. In my case I use the local file system and synchronize the notes with my Synology NAS via &amp;ldquo;Cloud Station Drive&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;The notes are in &lt;a href=&#34;https://www.markdownguide.org/tools/joplin/#joplin-markdown-support&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown format&lt;/a&gt;. Joplin is available as a &lt;strong&gt;💻 desktop&lt;/strong&gt;, &lt;strong&gt;📱 mobile&lt;/strong&gt; and &lt;strong&gt;🔡 terminal&lt;/strong&gt; application.&lt;/p&gt;
@@ -2620,9 +2621,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>The correct way to benchmark your network</title>
-      <link>http://localhost:1313/post/benchmark-network/</link>
+      <link>https://georgelitos.com/post/benchmark-network/</link>
       <pubDate>Sun, 14 Aug 2022 18:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/benchmark-network/</guid>
+      <guid>https://georgelitos.com/post/benchmark-network/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Ever tried to measure the network speed between two computers?&lt;/li&gt;
 &lt;li&gt;Do you want to know how fast your local network is?&lt;/li&gt;

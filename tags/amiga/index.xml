@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amiga | George Litos</title>
-    <link>http://localhost:1313/tags/amiga/</link>
-      <atom:link href="http://localhost:1313/tags/amiga/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/amiga/</link>
+      <atom:link href="https://georgelitos.com/tags/amiga/index.xml" rel="self" type="application/rss+xml" />
     <description>Amiga</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Apr 2025 19:00:00 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Amiga</title>
-      <link>http://localhost:1313/tags/amiga/</link>
+      <link>https://georgelitos.com/tags/amiga/</link>
     </image>
     
     <item>
       <title>Amiberry-Lite on Raspberry Pi</title>
-      <link>http://localhost:1313/post/amiberry/</link>
+      <link>https://georgelitos.com/post/amiberry/</link>
       <pubDate>Mon, 21 Apr 2025 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/amiberry/</guid>
+      <guid>https://georgelitos.com/post/amiberry/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://amiberry.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amiberry&lt;/a&gt; by Dimitris Panokostas is the best emulator for the &lt;a href=&#34;https://en.wikipedia.org/wiki/Amiga&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amiga&lt;/a&gt; home computer. It is designed to run on Raspberry Pi, Linux and MacOS. If you are using Windows, try &lt;a href=&#34;https://www.winuae.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WinUAE&lt;/a&gt; which is the original emulator that Amiberry is forked from, with Amiberry being optimized for Raspberry Pi.&lt;/p&gt;
 &lt;p&gt;It provides a user-friendly interface and supports a wide range of Amiga games and applications. Amiberry like WinUAE, aims to deliver an authentic Amiga experience by accurately emulating the hardware and software of the original system. It includes features such as support for WHDLoad games, customizable controls, and various display options.&lt;/p&gt;
 &lt;p&gt;Homepage: &lt;a href=&#34;https://amiberry.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://amiberry.com&lt;/a&gt; &lt;br&gt;
@@ -59,7 +59,7 @@ Wiki: &lt;a href=&#34;https://github.com/BlitterStudio/amiberry/wiki&#34; target
                /post/amiberry/scr_title_hu_5533267ce001e0b0.webp 400w,
                /post/amiberry/scr_title_hu_c340b0156feb1026.webp 760w,
                /post/amiberry/scr_title_hu_49c6e9169e6e7ac9.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/amiberry/scr_title_hu_5533267ce001e0b0.webp&#34;
+               src=&#34;https://georgelitos.com/post/amiberry/scr_title_hu_5533267ce001e0b0.webp&#34;
                width=&#34;760&#34;
                height=&#34;497&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -88,7 +88,7 @@ Get your &lt;a href=&#34;https://en.wikipedia.org/wiki/Amiga_Disk_File&#34; targ
                /post/amiberry/scr_gui_hu_d4eaaa6f6658f014.webp 400w,
                /post/amiberry/scr_gui_hu_d0ec491f1a9a328a.webp 760w,
                /post/amiberry/scr_gui_hu_9b6b038719927593.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/amiberry/scr_gui_hu_d4eaaa6f6658f014.webp&#34;
+               src=&#34;https://georgelitos.com/post/amiberry/scr_gui_hu_d4eaaa6f6658f014.webp&#34;
                width=&#34;760&#34;
                height=&#34;627&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -117,7 +117,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
                /post/amiberry/scr_game_hu_5e62d461e26f5379.webp 400w,
                /post/amiberry/scr_game_hu_fac4d28b755b8a90.webp 760w,
                /post/amiberry/scr_game_hu_6d7291e532dd20cd.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/amiberry/scr_game_hu_5e62d461e26f5379.webp&#34;
+               src=&#34;https://georgelitos.com/post/amiberry/scr_game_hu_5e62d461e26f5379.webp&#34;
                width=&#34;760&#34;
                height=&#34;548&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
