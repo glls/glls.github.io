@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Self-Hosting | George Litos</title>
+    <link>https://georgelitos.com/tags/self-hosting/</link>
+      <atom:link href="https://georgelitos.com/tags/self-hosting/index.xml" rel="self" type="application/rss+xml" />
+    <description>Self-Hosting</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 17 Aug 2025 14:49:36 +0300</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
+      <title>Self-Hosting</title>
+      <link>https://georgelitos.com/tags/self-hosting/</link>
+    </image>
+    
+    <item>
+      <title>A Developer&#39;s Introduction to Unraid</title>
+      <link>https://georgelitos.com/post/unraid/</link>
+      <pubDate>Sun, 17 Aug 2025 14:49:36 +0300</pubDate>
+      <guid>https://georgelitos.com/post/unraid/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://unraid.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unraid&lt;/a&gt; is a proprietary Linux-based operating system designed for &lt;strong&gt;home servers and small businesses&lt;/strong&gt;. It&amp;rsquo;s known for its unique storage management system, which provides flexibility and data protection. Developers often use Unraid to run a variety of services, including web servers, databases, and CI/CD tools, all on a single machine.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;key-features-for-developers&#34;&gt;Key Features for Developers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Docker and Virtualization:&lt;/strong&gt; Unraid has built-in support for running Docker containers and virtual machines. This is a major plus for developers, as it allows them to easily deploy and manage isolated application environments. You can run multiple services (e.g., a web server, a database, and a caching layer) in separate containers without them interfering with each other. This is especially useful for testing and production environments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Flexible Storage:&lt;/strong&gt; Unraid&amp;rsquo;s most distinctive feature is its storage array. It combines drives of different sizes into a single, logical pool. This is unlike traditional RAID, which typically requires drives of the same size. Unraid uses a &lt;strong&gt;parity drive&lt;/strong&gt; (or two for more protection) to protect against a single (or two) drive failure. Data is written directly to individual drives, which makes it easy to add or remove drives without rebuilding the entire array. For developers, this means they can start with a small setup and expand storage as needed without downtime or complex migrations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Plugin System and Community Apps:&lt;/strong&gt; Unraid has a robust plugin system and a &amp;ldquo;Community Apps&amp;rdquo; store. This allows developers to easily install and manage a wide range of applications, including many useful for development, like Gitlab, Plex, and various reverse proxies. This makes it easy to set up a comprehensive development and media server environment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How it Works&lt;/h2&gt;
+&lt;p&gt;Unraid separates its storage into a few key areas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Array:&lt;/strong&gt; The main storage pool for your data. Drives can be of different sizes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parity Drive(s):&lt;/strong&gt; These drives don&amp;rsquo;t store data directly but contain parity information that can be used to &lt;strong&gt;reconstruct a failed drive&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cache Pool:&lt;/strong&gt; An optional, high-speed SSD-based cache. It&amp;rsquo;s often used to temporarily store data before it&amp;rsquo;s moved to the slower hard drives in the array. This significantly improves performance for applications that have frequent read/write operations. Developers can use this for their databases or other I/O-intensive services to speed things up.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;use-cases-for-developers&#34;&gt;Use Cases for Developers&lt;/h2&gt;
+&lt;p&gt;Developers can use Unraid for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Local Development Environment:&lt;/strong&gt; Host your code repositories, databases, and application servers in a single, controlled environment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD Pipeline:&lt;/strong&gt; Run self-hosted runners for Gitlab CI, Jenkins, or other CI/CD platforms.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media and Data Hoarding:&lt;/strong&gt; Use it as a personal media server with Plex or as a centralized backup destination for your projects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker:&lt;/strong&gt; Leverage Docker containers for microservices, development environments, or isolated applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Virtual Machines:&lt;/strong&gt; Run various operating systems, like Windows or different Linux distributions, for testing or specialized development tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Remember that you can even develop your own &lt;strong&gt;Community Applications&lt;/strong&gt; and share them with others, like I did, with the templates found at &lt;a href=&#34;https://github.com/glls/Docker-Templates-Unraid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/glls/Docker-Templates-Unraid&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

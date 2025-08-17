@@ -5,12 +5,288 @@
     <link>https://georgelitos.com/post/</link>
       <atom:link href="https://georgelitos.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Apr 2025 19:00:00 +0300</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 17 Aug 2025 15:42:11 +0300</lastBuildDate>
     <image>
       <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Blog</title>
       <link>https://georgelitos.com/post/</link>
     </image>
+    
+    <item>
+      <title>From Floppy Swaps to Cross-Platform Power: My Journey to Lazarus FPC 🚀</title>
+      <link>https://georgelitos.com/post/lazarus/</link>
+      <pubDate>Sun, 17 Aug 2025 15:42:11 +0300</pubDate>
+      <guid>https://georgelitos.com/post/lazarus/</guid>
+      <description>&lt;p&gt;Hey everyone! Today, I want to share a bit about my programming journey and introduce you to a fantastic, often overlooked tool that&amp;rsquo;s been a consistent companion through the years: &lt;a href=&#34;https://www.lazarus-ide.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lazarus Free Pascal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My story in coding began, like many in the late 80s and early 90s, with the legendary &lt;strong&gt;Turbo C&lt;/strong&gt;.  I remember the thrill of typing out code in that stark blue text-mode editor, and the satisfaction of seeing my C programs compile. But there was a challenge, especially with my trusty one-floppy 8088 PC, an &lt;strong&gt;Olivetti Prodest PC 1&lt;/strong&gt;. Compiling anything beyond the simplest applications meant a constant dance of swapping floppy disks – one for the compiler, another for the libraries, then back again. It was a tedious, but character-building, experience!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Olivetti Prodest PC 1&#34; srcset=&#34;
+               /post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp 400w,
+               /post/lazarus/pc1_hu_580e1c8485abe4e7.webp 760w,
+               /post/lazarus/pc1_hu_5feaa3ebb2305ae1.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp&#34;
+               width=&#34;591&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s when I discovered &lt;strong&gt;Turbo Pascal&lt;/strong&gt;.  Its integrated development environment (IDE) was the same with Turbo C without the disk swapping! Everything I needed was right there. The speed and simplicity of Pascal, coupled with the seamless workflow, made it my go-to language. It felt like magic after the floppy shuffle of C.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Turbo C 2.01&#34; srcset=&#34;
+               /post/lazarus/tc2_hu_fd89aab6ce8b4268.webp 400w,
+               /post/lazarus/tc2_hu_79084dfa30ead128.webp 760w,
+               /post/lazarus/tc2_hu_51cc566bee39d2d6.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/tc2_hu_fd89aab6ce8b4268.webp&#34;
+               width=&#34;648&#34;
+               height=&#34;408&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Turbo Pascal 5.5&#34; srcset=&#34;
+               /post/lazarus/tp55_hu_fdae864f924b992d.webp 400w,
+               /post/lazarus/tp55_hu_7314a757ba8dc1c3.webp 760w,
+               /post/lazarus/tp55_hu_70d844661605fc49.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/tp55_hu_fdae864f924b992d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;470&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Fast forward to the 2000s, and the Windows era. Borland continued to be a major player with &lt;strong&gt;Borland Delphi&lt;/strong&gt; and &lt;strong&gt;C++Builder&lt;/strong&gt;.   Delphi, with its visual component library (VCL) and rapid application development (RAD) capabilities, was a game-changer for Windows GUI programming. Building sophisticated applications with drag-and-drop ease was incredibly empowering. C++Builder offered a similar RAD experience for C++ developers, leveraging the same powerful VCL framework. These tools were at the forefront of Windows development for a long time.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Borland Delphi 7.0&#34; srcset=&#34;
+               /post/lazarus/delphi7_hu_d9a1f8397a3a105.webp 400w,
+               /post/lazarus/delphi7_hu_2267375b731544ec.webp 760w,
+               /post/lazarus/delphi7_hu_c10732caa21425e0.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/delphi7_hu_d9a1f8397a3a105.webp&#34;
+               width=&#34;640&#34;
+               height=&#34;480&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-resurgence-lazarus-fpc---a-modern-open-source-powerhouse&#34;&gt;The Resurgence: Lazarus FPC - A Modern Open-Source Powerhouse&lt;/h2&gt;
+&lt;p&gt;Years passed, and while the Borland tools evolved under different ownership, I was thrilled to discover that the spirit of Turbo Pascal and Delphi lives on, stronger than ever, in &lt;strong&gt;Lazarus FPC&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Lazarus is an open-source, cross-platform IDE that uses the &lt;strong&gt;Free Pascal Compiler (FPC)&lt;/strong&gt;. It&amp;rsquo;s a testament to the enduring power and flexibility of the Pascal language and the RAD paradigm. What makes Lazarus truly remarkable is its commitment to being &lt;strong&gt;Free and Open-Source Software (FOSS)&lt;/strong&gt;, supported by a vibrant and dedicated community.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Lazarus IDE&#34; srcset=&#34;
+               /post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp 400w,
+               /post/lazarus/lazarus_hu_5d46c97a4c994a61.webp 760w,
+               /post/lazarus/lazarus_hu_68167d342356072a.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;527&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;why-lazarus-fpc-is-a-big-deal&#34;&gt;Why Lazarus FPC is a Big Deal&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Delphi Compatibility:&lt;/strong&gt; If you&amp;rsquo;re coming from a Delphi background, Lazarus will feel incredibly familiar. It aims for high compatibility with Delphi&amp;rsquo;s Object Pascal dialect and its Visual Component Library (VCL), offering a similar component-based, drag-and-drop development experience.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Truly Cross-Platform:&lt;/strong&gt; This is where Lazarus shines! You can develop applications on one operating system and compile them for others with little to no code changes. This means you can create native applications for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows (32-bit and 64-bit)&lt;/li&gt;
+&lt;li&gt;Linux (GTK, Qt)&lt;/li&gt;
+&lt;li&gt;macOS&lt;/li&gt;
+&lt;li&gt;And even some embedded systems like Raspberry Pi!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This &amp;ldquo;write once, compile anywhere&amp;rdquo; philosophy saves an immense amount of time and effort.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Native Binaries:&lt;/strong&gt; Unlike some other cross-platform solutions that rely on virtual machines or runtimes, Lazarus compiles your code into native executables. This results in highly performant applications with a small footprint and no external dependencies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Rich Component Library (LCL):&lt;/strong&gt; The Lazarus Component Library (LCL) is extensive, providing a wide array of visual and non-visual components for building all sorts of applications, from simple utilities to complex database systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Active Community and FOSS:&lt;/strong&gt; Being open-source means Lazarus is constantly evolving, with bug fixes, new features, and a supportive community ready to help. It&amp;rsquo;s a refreshing contrast to proprietary tools where you might be at the mercy of a single vendor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;real-world-applications-built-with-lazarus-fpc&#34;&gt;Real-World Applications Built with Lazarus FPC&lt;/h3&gt;
+&lt;p&gt;You might be surprised by some of the well-known applications that are built with Lazarus and Free Pascal. Here are just a few examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Double Commander:&lt;/strong&gt; A popular, open-source, cross-platform file manager with a dual-pane interface, similar to Total Commander. It&amp;rsquo;s a fantastic example of a robust application built entirely with Lazarus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beyond Compare (macOS and Linux versions):&lt;/strong&gt; This widely used data comparison utility leverages Lazarus for its macOS and Linux editions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And many more! The list is constantly growing, check the wiki &lt;a href=&#34;https://wiki.freepascal.org/Projects_using_Free_Pascal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, showcasing the power and versatility of Lazarus FPC for various types of software.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;my-ongoing-journey&#34;&gt;My Ongoing Journey&lt;/h2&gt;
+&lt;p&gt;From the floppy-swapping days of Turbo C and Turbo Pascal to the visual magic of Delphi and C++Builder, and now to the open-source, cross-platform power of Lazarus FPC, my journey in programming has been a continuous evolution.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re looking for a powerful, flexible, and free alternative for building native applications across different operating systems, I highly recommend giving Lazarus FPC a try. You might just find your new favorite development environment!&lt;/p&gt;
+&lt;p&gt;Happy coding! ✨&lt;/p&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cc.embarcadero.com/Item/25636&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Turbo C 2.01&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cc.embarcadero.com/Item/26015&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Turbo Pascal 5.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.computinghistory.org.uk/det/15452/Olivetti-PC1-Prodest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Olivetti Prodest PC 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://winworldpc.com/product/ms-dos/622&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MS-DOS 6.22&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Borland&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia: Borland&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://winworldpc.com/product/delphi/70&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Borland Delphi 7.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Free_Pascal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia: Free Pascal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Lazarus_%28IDE%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia: Lazarus (IDE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Visual_Component_Library&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia: Visual Component Library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Developer&#39;s Introduction to Unraid</title>
+      <link>https://georgelitos.com/post/unraid/</link>
+      <pubDate>Sun, 17 Aug 2025 14:49:36 +0300</pubDate>
+      <guid>https://georgelitos.com/post/unraid/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://unraid.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unraid&lt;/a&gt; is a proprietary Linux-based operating system designed for &lt;strong&gt;home servers and small businesses&lt;/strong&gt;. It&amp;rsquo;s known for its unique storage management system, which provides flexibility and data protection. Developers often use Unraid to run a variety of services, including web servers, databases, and CI/CD tools, all on a single machine.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;key-features-for-developers&#34;&gt;Key Features for Developers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Docker and Virtualization:&lt;/strong&gt; Unraid has built-in support for running Docker containers and virtual machines. This is a major plus for developers, as it allows them to easily deploy and manage isolated application environments. You can run multiple services (e.g., a web server, a database, and a caching layer) in separate containers without them interfering with each other. This is especially useful for testing and production environments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Flexible Storage:&lt;/strong&gt; Unraid&amp;rsquo;s most distinctive feature is its storage array. It combines drives of different sizes into a single, logical pool. This is unlike traditional RAID, which typically requires drives of the same size. Unraid uses a &lt;strong&gt;parity drive&lt;/strong&gt; (or two for more protection) to protect against a single (or two) drive failure. Data is written directly to individual drives, which makes it easy to add or remove drives without rebuilding the entire array. For developers, this means they can start with a small setup and expand storage as needed without downtime or complex migrations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Plugin System and Community Apps:&lt;/strong&gt; Unraid has a robust plugin system and a &amp;ldquo;Community Apps&amp;rdquo; store. This allows developers to easily install and manage a wide range of applications, including many useful for development, like Gitlab, Plex, and various reverse proxies. This makes it easy to set up a comprehensive development and media server environment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How it Works&lt;/h2&gt;
+&lt;p&gt;Unraid separates its storage into a few key areas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Array:&lt;/strong&gt; The main storage pool for your data. Drives can be of different sizes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parity Drive(s):&lt;/strong&gt; These drives don&amp;rsquo;t store data directly but contain parity information that can be used to &lt;strong&gt;reconstruct a failed drive&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cache Pool:&lt;/strong&gt; An optional, high-speed SSD-based cache. It&amp;rsquo;s often used to temporarily store data before it&amp;rsquo;s moved to the slower hard drives in the array. This significantly improves performance for applications that have frequent read/write operations. Developers can use this for their databases or other I/O-intensive services to speed things up.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;use-cases-for-developers&#34;&gt;Use Cases for Developers&lt;/h2&gt;
+&lt;p&gt;Developers can use Unraid for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Local Development Environment:&lt;/strong&gt; Host your code repositories, databases, and application servers in a single, controlled environment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD Pipeline:&lt;/strong&gt; Run self-hosted runners for Gitlab CI, Jenkins, or other CI/CD platforms.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media and Data Hoarding:&lt;/strong&gt; Use it as a personal media server with Plex or as a centralized backup destination for your projects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker:&lt;/strong&gt; Leverage Docker containers for microservices, development environments, or isolated applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Virtual Machines:&lt;/strong&gt; Run various operating systems, like Windows or different Linux distributions, for testing or specialized development tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Remember that you can even develop your own &lt;strong&gt;Community Applications&lt;/strong&gt; and share them with others, like I did, with the templates found at &lt;a href=&#34;https://github.com/glls/Docker-Templates-Unraid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/glls/Docker-Templates-Unraid&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Digital Archivist&#39;s Toolkit: Navidrome, Picard, and Supersonic for the Modern Music Collection</title>
+      <link>https://georgelitos.com/post/music/</link>
+      <pubDate>Sun, 17 Aug 2025 14:17:57 +0300</pubDate>
+      <guid>https://georgelitos.com/post/music/</guid>
+      <description>&lt;p&gt;In an age dominated by music streaming, a dedicated community of audiophiles and music lovers is preserving the art of the personal music collection. They are digital archivists, meticulously curating libraries of high-fidelity audio files, from rare vinyl rips to lossless studio masters. This pursuit, however, requires more than just a hard drive full of music; it demands a robust set of tools for organization, management, and playback. This is where the triumvirate of &lt;strong&gt;Navidrome&lt;/strong&gt;, &lt;strong&gt;Picard&lt;/strong&gt;, and &lt;strong&gt;Supersonic&lt;/strong&gt; comes into play, offering a powerful, open-source ecosystem for the serious collector.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;navidrome-your-personal-streaming-service&#34;&gt;Navidrome: Your Personal Streaming Service&lt;/h3&gt;
+&lt;p&gt;At the heart of the modern self-hosted music setup lies a server (&lt;a href=&#34;https://georgelitos.com/post/unraid/&#34;&gt;UNRAID&lt;/a&gt; in my case), and &lt;a href=&#34;https://www.navidrome.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Navidrome&lt;/a&gt; has emerged as a favorite in this space. Imagine having your very own Spotify, but with your meticulously curated library instead of a corporate-controlled catalog. That&amp;rsquo;s the essence of Navidrome. It is a lightweight, open-source music server that allows you to stream your personal music collection from any web browser or mobile device.&lt;/p&gt;
+&lt;p&gt;Unlike commercial streaming services that can abruptly alter their catalogs or downgrade audio quality, Navidrome gives you complete control. It&amp;rsquo;s designed to handle very large music collections, with developers testing it on libraries of up to 900,000 songs. Its resource-efficient nature means it can run smoothly on low-powered devices like a Raspberry Pi, making it accessible to a wide range of users.&lt;/p&gt;
+&lt;p&gt;Navidrome&amp;rsquo;s web interface is modern, responsive, and easy to navigate. It automatically scans your library for new files and changes, ensuring your collection is always up-to-date. But its true power lies in its compatibility. Navidrome supports the Subsonic API, a de facto standard for music server clients. This means you can use a variety of third-party mobile apps for iOS and Android, such as DSub, Substreamer, or Ultrasonic, to access your music on the go. This flexibility, combined with features like on-the-fly transcoding to save mobile data and a multi-user system for family and friends, makes Navidrome the cornerstone of a personal music cloud.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;musicbrainz-picard-the-meticulous-librarian&#34;&gt;MusicBrainz Picard: The Meticulous Librarian&lt;/h3&gt;
+&lt;p&gt;Before you can stream your music with Navidrome, it needs to be properly organized and tagged. This is where &lt;a href=&#34;https://picard.musicbrainz.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MusicBrainz Picard&lt;/a&gt; steps in as an indispensable tool. A common problem with digital music is inconsistent or missing metadata—the information embedded in audio files like song title, artist, album, and year. A music collection without good metadata is a chaotic mess, a digital junkyard of &amp;ldquo;Track 01&amp;rdquo; files.&lt;/p&gt;
+&lt;p&gt;Picard is a cross-platform music tagger that uses the massive, community-maintained MusicBrainz database to identify and tag your audio files with unparalleled accuracy. Its most impressive feature is its use of &lt;strong&gt;AcoustID audio fingerprints&lt;/strong&gt;. This technology allows Picard to &amp;ldquo;listen&amp;rdquo; to a song and identify it based on its unique sonic signature, even if the file has no existing metadata. This is a game-changer for cleaning up poorly organized libraries.&lt;/p&gt;
+&lt;p&gt;Beyond identification, Picard offers powerful tools for organization. It can automatically rename your files and sort them into a logical folder structure based on your preferences. For example, you can script it to create folders structured like &amp;ldquo;Artist/Album/Track Number - Title.&amp;rdquo; Picard also finds and downloads the correct cover art, ensuring your music library is not only organized but also visually appealing. By using Picard, you transform a disorganized jumble of files into a clean, searchable, and aesthetically pleasing collection.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;supersonic-the-sleek-desktop-client&#34;&gt;Supersonic: The Sleek Desktop Client&lt;/h3&gt;
+&lt;p&gt;While Navidrome&amp;rsquo;s web interface is excellent, many users prefer a dedicated desktop application for their music playback. This is where &lt;a href=&#34;https://github.com/dweymouth/supersonic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Supersonic&lt;/a&gt; shines. Supersonic is a lightweight, full-featured desktop client designed specifically for self-hosted music servers that support the Subsonic API, including Navidrome.&lt;/p&gt;
+&lt;p&gt;Supersonic provides a native desktop experience that is often faster and more responsive than a web browser. It&amp;rsquo;s built with modern technologies and offers a clean, intuitive user interface that makes browsing your music library a pleasure. It includes a built-in 15-band graphic equalizer, allowing you to fine-tune your audio playback. You can also scrobble plays to your server, download songs, albums, or playlists for offline listening, and even access synced lyrics.&lt;/p&gt;
+&lt;p&gt;Supersonic addresses a key pain point for self-hosted music enthusiasts: the lack of a high-quality, cross-platform desktop client. While many web interfaces are functional, a native application can provide a more polished and integrated experience. Supersonic fills this gap perfectly, acting as a bridge between your local computer and your personal music server. It allows you to enjoy the best of both worlds: the centralized control and accessibility of a server with the performance and features of a dedicated desktop player.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;the-synergy-of-the-trio&#34;&gt;The Synergy of the Trio&lt;/h3&gt;
+&lt;p&gt;The true power of Navidrome, Picard, and Supersonic is not in their individual capabilities but in their synergy. They form a complete workflow for the digital music archivist. First, you use &lt;strong&gt;MusicBrainz Picard&lt;/strong&gt; to clean and tag your music files, ensuring they are perfectly organized and contain rich metadata. Next, you point your &lt;strong&gt;Navidrome&lt;/strong&gt; server to this beautifully curated library. Navidrome then indexes the files and makes them available for streaming anywhere in the world. Finally, you can use &lt;strong&gt;Supersonic&lt;/strong&gt; on your desktop to seamlessly connect to your Navidrome server, giving you a powerful and feature-rich way to listen to your music collection.&lt;/p&gt;
+&lt;p&gt;This trio of tools represents a significant shift from the corporate-driven streaming paradigm back to a model of personal ownership and control. By leveraging these open-source projects, music lovers can build a system that is tailored to their needs, respects their privacy, and ensures their music collection remains a vibrant, well-organized part of their digital life.&lt;/p&gt;
+&lt;p&gt;As a bonus for Android users, the mobile player &lt;a href=&#34;https://github.com/CappielloAntonio/tempo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tempo&lt;/a&gt; is a highly-regarded and robust alternative, offering a seamless and beautiful interface for accessing your Navidrome library on the go.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Amiberry-Lite on Raspberry Pi</title>
@@ -181,6 +457,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;#svg&#34;&gt;SVG&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#scala&#34;&gt;Scala&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#shell&#34;&gt;Shell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#svelte&#34;&gt;Svelte&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#swift&#34;&gt;Swift&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#tex&#34;&gt;TeX&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#typescript&#34;&gt;TypeScript&lt;/a&gt;&lt;/li&gt;
@@ -201,6 +478,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;c&#34;&gt;C&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/haiwen/seafile&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;haiwen/seafile&lt;/a&gt; - Beyong file syncing and sharing, a new way to organize your files with extensible file properties and flexible views&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/o-gs/dji-firmware-tools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;o-gs/dji-firmware-tools&lt;/a&gt; - Tools for handling firmwares of DJI products, with focus on quadcopters.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Klipper3d/klipper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Klipper3d/klipper&lt;/a&gt; - Klipper is a 3d-printer firmware&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/lwfinger/rtw88&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lwfinger/rtw88&lt;/a&gt; - A backport of the Realtek Wifi 5 drivers from the wireless-next repo.&lt;/li&gt;
@@ -275,6 +553,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;c-2&#34;&gt;C++&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nomic-ai/gpt4all&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nomic-ai/gpt4all&lt;/a&gt; - GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/taglib/taglib&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;taglib/taglib&lt;/a&gt; - TagLib Audio Meta-Data Library&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/pauldreik/rdfind&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pauldreik/rdfind&lt;/a&gt; - find duplicate files utility&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/BlitterStudio/amiberry-lite&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BlitterStudio/amiberry-lite&lt;/a&gt; - Optimized Amiga emulator for Linux&lt;/li&gt;
@@ -401,11 +680,12 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;go&#34;&gt;Go&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/photoprism/photoprism&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;photoprism/photoprism&lt;/a&gt; - AI-Powered Photos App for the Decentralized Web 🌈💎✨&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/dweymouth/supersonic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dweymouth/supersonic&lt;/a&gt; - A lightweight and full-featured cross-platform desktop client for self-hosted music servers&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/hybridgroup/gobot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hybridgroup/gobot&lt;/a&gt; - Golang framework for robotics, drones, and the Internet of Things (IoT)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/maxence-charriere/go-app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;maxence-charriere/go-app&lt;/a&gt; - A package to build progressive web apps with Go programming language and WebAssembly.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/cgzirim/seek-tune&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cgzirim/seek-tune&lt;/a&gt; - An implementation of Shazam&amp;rsquo;s song recognition algorithm.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ollama/ollama&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ollama/ollama&lt;/a&gt; - Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 and other large language models.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ollama/ollama&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ollama/ollama&lt;/a&gt; - Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/simulot/immich-go&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;simulot/immich-go&lt;/a&gt; - An alternative to the immich-CLI command that doesn&amp;rsquo;t depend on nodejs installation. It tries its best for importing google photos takeout archives.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/navidrome/navidrome&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;navidrome/navidrome&lt;/a&gt; - 🎧☁️ Your Personal Streaming Service&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/AlexxIT/go2rtc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AlexxIT/go2rtc&lt;/a&gt; - Ultimate camera streaming application with support RTSP, RTMP, HTTP-FLV, WebRTC, MSE, HLS, MP4, MJPEG, HomeKit, FFmpeg, etc.&lt;/li&gt;
@@ -450,6 +730,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;java&#34;&gt;Java&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/thingsboard/thingsboard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;thingsboard/thingsboard&lt;/a&gt; - Open-source IoT Platform - Device management, data collection, processing and visualization.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/CappielloAntonio/tempo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CappielloAntonio/tempo&lt;/a&gt; - An open source and lightweight music client for Subsonic, designed and built natively for Android.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Vagelis-Prokopiou/yt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vagelis-Prokopiou/yt&lt;/a&gt; - YouTube code&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/geopaparazzi/geopaparazzi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;geopaparazzi/geopaparazzi&lt;/a&gt; - Because not all paparazzis are evil!&lt;/li&gt;
@@ -490,6 +771,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;javascript&#34;&gt;JavaScript&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/d-demirci/django-adminlte3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;d-demirci/django-adminlte3&lt;/a&gt; - AdminLTE Templates, Template Tags, and Admin Theme for Django&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Mintplex-Labs/anything-llm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mintplex-Labs/anything-llm&lt;/a&gt; - The all-in-one Desktop &amp;amp; Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Mathics3/mathics-django&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mathics3/mathics-django&lt;/a&gt; - Django front-end to Mathics3&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ZoeyVid/NPMplus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZoeyVid/NPMplus&lt;/a&gt; - improved fork of nginx-proxy-manager&lt;/li&gt;
@@ -505,7 +787,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/drawdb-io/drawdb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;drawdb-io/drawdb&lt;/a&gt; - Free, simple, and intuitive online database diagram editor and SQL generator.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/NginxProxyManager/nginx-proxy-manager&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NginxProxyManager/nginx-proxy-manager&lt;/a&gt; - Docker container for managing Nginx proxy hosts with a simple, powerful interface&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/floccusaddon/floccus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;floccusaddon/floccus&lt;/a&gt; - &amp;#x2601;&amp;#xfe0f; Sync your bookmarks privately across browsers and devices&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Kruithne/wow.export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kruithne/wow.export&lt;/a&gt; - 📦 Export Toolkit for World of Warcraft&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Kruithne/wow.export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kruithne/wow.export&lt;/a&gt; - 📦 wow.export is the number one export toolkit for World of Warcraft.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/gethomepage/homepage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gethomepage/homepage&lt;/a&gt; - A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/sparkbox/bouncy-ball&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sparkbox/bouncy-ball&lt;/a&gt; - &amp;#x1f534;  Compare web animation techniques by bouncing a ball with each one.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/looeee/discoverthreejs-site&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;looeee/discoverthreejs-site&lt;/a&gt; - Repo for the book Discover three.js!&lt;/li&gt;
@@ -702,7 +984,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/sindresorhus/quick-look-plugins&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sindresorhus/quick-look-plugins&lt;/a&gt; - List of useful Quick Look plugins for developers&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Eun/DisableMonitor&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eun/DisableMonitor&lt;/a&gt; - Easily disable or enable a monitor on your Mac.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/awesomedata/awesome-public-datasets&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;awesomedata/awesome-public-datasets&lt;/a&gt; - A topic-centric list of HQ open datasets.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/michaelworm/SoDaReloaded-Theme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;michaelworm/SoDaReloaded-Theme&lt;/a&gt; - Dark and light custom UI themes for Sublime Text 3 optimized for better readability.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/michael-jahn-dev/SoDaReloaded-Theme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;michael-jahn-dev/SoDaReloaded-Theme&lt;/a&gt; - Dark and light custom UI themes for Sublime Text 3 optimized for better readability.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jlevy/the-art-of-command-line&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;jlevy/the-art-of-command-line&lt;/a&gt; - Master the command line, in one page&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Homebrew/legacy-homebrew&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Homebrew/legacy-homebrew&lt;/a&gt; - 💀 The former home of Homebrew/homebrew (deprecated)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/codepath/android_guides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;codepath/android_guides&lt;/a&gt; - Extensive Open-Source Guides for Android Developers&lt;/li&gt;
@@ -860,7 +1142,6 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/SublimeCodeIntel/SublimeCodeIntel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SublimeCodeIntel/SublimeCodeIntel&lt;/a&gt; - 💡 Full-featured code intelligence and smart autocomplete for Sublime Text&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Scifabric/pybossa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scifabric/pybossa&lt;/a&gt; - PYBOSSA is the ultimate crowdsourcing framework (aka microtasking) to analyze or enrich data that can&amp;rsquo;t be processed by machines alone.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/metabrainz/picard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;metabrainz/picard&lt;/a&gt; - Picard is a cross-platform music tagger powered by the MusicBrainz database&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kevinclement/SimpleArmory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kevinclement/SimpleArmory&lt;/a&gt; - World of Warcraft armory site that presents your armory in a simple manor.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/EbookFoundation/free-programming-books&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EbookFoundation/free-programming-books&lt;/a&gt; - &amp;#x1f4da; Freely available programming books&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/celery/celery&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;celery/celery&lt;/a&gt; - Distributed Task Queue (development branch)&lt;/li&gt;
 &lt;/ul&gt;
@@ -921,6 +1202,10 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/margaritis/dotfiles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;margaritis/dotfiles&lt;/a&gt; - Time for burning dotfiles, Heisenberg approves!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/BlackArch/blackarch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BlackArch/blackarch&lt;/a&gt; - An ArchLinux based distribution for penetration testers and security researchers.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;svelte&#34;&gt;Svelte&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kevinclement/SimpleArmory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kevinclement/SimpleArmory&lt;/a&gt; - World of Warcraft armory site that presents your armory in a simple manor.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;swift&#34;&gt;Swift&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/thealpa/SaneSideButtons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;thealpa/SaneSideButtons&lt;/a&gt; - A macOS menu bar app that enables system-wide navigation functionality for side buttons on third-party mice.&lt;/li&gt;
@@ -938,6 +1223,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;typescript&#34;&gt;TypeScript&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/menloresearch/jan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;menloresearch/jan&lt;/a&gt; - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/phosphor-icons/homepage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;phosphor-icons/homepage&lt;/a&gt; - The homepage of Phosphor Icons, a flexible icon family for everyone&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/playwright&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;microsoft/playwright&lt;/a&gt; - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/browserbase/stagehand&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;browserbase/stagehand&lt;/a&gt; - The AI Browser Automation Framework&lt;/li&gt;
@@ -948,13 +1234,13 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/placemark/placemark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;placemark/placemark&lt;/a&gt; - A flexible web-based editor, converter, visualization tool, for geospatial data&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/civitai/civitai&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;civitai/civitai&lt;/a&gt; - A repository of models, textual inversions, and more&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/rvion/CushyStudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rvion/CushyStudio&lt;/a&gt; - 🛋 The AI and Generative Art platform for everyone&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/shoelace-style/shoelace&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shoelace-style/shoelace&lt;/a&gt; - A collection of professionally designed, every day UI components built on Web standards. SHOELACE IS BECOMING WEB AWESOME 👇👇👇&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shoelace-style/shoelace&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shoelace-style/shoelace&lt;/a&gt; - Web Awesome (&amp;ldquo;Shoelace 3&amp;rdquo;) has been released! Get it here 👇👇👇&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/caprover/caprover&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;caprover/caprover&lt;/a&gt; - Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/getumbrel/umbrel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;getumbrel/umbrel&lt;/a&gt; - A beautiful home server OS for self-hosting with an app store. Buy a pre-built Umbrel Home with umbrelOS, or install on a Raspberry Pi or any x86 system.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/marmelab/react-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;marmelab/react-admin&lt;/a&gt; - A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/immich-app/immich&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;immich-app/immich&lt;/a&gt; - High performance self-hosted photo and video management solution.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/makeplane/plane&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;makeplane/plane&lt;/a&gt; - 🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and cycles the easiest way on the planet.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/darkroomengineering/lenis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;darkroomengineering/lenis&lt;/a&gt; - How smooth scroll should be&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/darkroomengineering/lenis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;darkroomengineering/lenis&lt;/a&gt; - Smooth scroll at it should be&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/voidcosmos/npkill&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;voidcosmos/npkill&lt;/a&gt; - List any node_modules 📦 dir in your system and how heavy they are. You can then select which ones you want to erase to free up space 🧹&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/appsmithorg/appsmith&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;appsmithorg/appsmith&lt;/a&gt; - Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/cosmosgl/graph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cosmosgl/graph&lt;/a&gt; - GPU-accelerated force graph layout and rendering&lt;/li&gt;
