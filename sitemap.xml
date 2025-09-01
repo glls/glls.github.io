@@ -11,7 +11,31 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-09-01T20:32:00+03:00</lastmod>
+    <lastmod>2025-09-01T20:32:30+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/browser/</loc>
+    <lastmod>2025-09-01T23:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/post/browser_ext/</loc>
+    <lastmod>2025-09-01T23:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/extensions/</loc>
+    <lastmod>2025-09-01T23:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/productivity/</loc>
+    <lastmod>2025-09-01T23:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-01T23:00:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/tools/</loc>
+    <lastmod>2025-09-01T23:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/tags/development/</loc>
@@ -22,20 +46,8 @@
     <lastmod>2025-08-17T15:42:11+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/productivity/</loc>
-    <lastmod>2025-09-01T20:32:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:1313/tags/retro/</loc>
     <lastmod>2025-08-17T15:42:11+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-09-01T20:32:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/tools/</loc>
-    <lastmod>2025-09-01T20:32:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/post/unraid/</loc>
@@ -103,7 +115,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/post/awesome-stars/</loc>
-    <lastmod>2025-08-17T11:03:28+00:00</lastmod>
+    <lastmod>2025-09-01T20:32:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/tags/game/</loc>

@@ -5,12 +5,57 @@
     <link>http://localhost:1313/tags/tools/</link>
       <atom:link href="http://localhost:1313/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <description>Tools</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 17 Aug 2025 15:42:11 +0300</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 22:40:00 +0300</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Tools</title>
       <link>http://localhost:1313/tags/tools/</link>
     </image>
+    
+    <item>
+      <title>Essential Browser Extensions for Security, Productivity, and Media</title>
+      <link>http://localhost:1313/post/browser_ext/</link>
+      <pubDate>Mon, 01 Sep 2025 22:40:00 +0300</pubDate>
+      <guid>http://localhost:1313/post/browser_ext/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a list of my favorite browser extensions (each author&amp;rsquo;s own words in quotes, original images included):&lt;/p&gt;
+&lt;img src=&#34;https://addons.mozilla.org/user-media/addon_icons/607/607454-64.png?modified=mcrushed&#34; align=&#34;middle&#34; width=&#34;64&#34;/&gt;
+&lt;p&gt;&lt;strong&gt;uBlock Origin&lt;/strong&gt; - Finally, an efficient blocker. Easy on CPU and memory&lt;br&gt;
+by &lt;a href=&#34;https://github.com/gorhill/uBlock&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raymond Hill&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;uBlock Origin is not an &amp;ldquo;ad blocker&amp;rdquo;, it&amp;rsquo;s a wide-spectrum content blocker with CPU and memory efficiency as a primary feature.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Instead of just blocking ads, uBlock Origin is a comprehensive content blocker designed with efficiency at its core. It&amp;rsquo;s built to be exceptionally light on your computer&amp;rsquo;s CPU and memory, ensuring a smooth browsing experience without the typical performance hit of many other blockers. It gives you control over what content loads on a page, making your browsing faster and more secure by preventing unwanted scripts and trackers from running.&lt;/p&gt;
+&lt;img src=&#34;https://addons.mozilla.org/user-media/addon_icons/2785/2785662-64.png?modified=d3ccdd4c&#34; align=&#34;middle&#34; width=&#34;64&#34;/&gt;
+&lt;p&gt;&lt;strong&gt;Proton Pass&lt;/strong&gt; - Free Password Manager&lt;br&gt;
+by &lt;a href=&#34;https://proton.me/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Proton&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Free and fully encrypted password manager to keep your logins and passwords safe.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Keep your online life secure and organized with Proton Pass, a free and fully encrypted password manager. Developed by the same company known for its secure email service, Proton Pass stores all of your logins and passwords safely, making it easy to access them on any device. It helps you create strong, unique passwords for every site you use, so you never have to remember them all and your accounts are protected from breaches.&lt;/p&gt;
+&lt;img src=&#34;https://addons.mozilla.org/user-media/addon_icons/2756/2756539-64.png?modified=eeea864f&#34; align=&#34;middle&#34; width=&#34;64&#34;/&gt;
+&lt;p&gt;&lt;strong&gt;2FAS Auth&lt;/strong&gt; - Two Factor Authentication&lt;br&gt;
+by &lt;a href=&#34;https://2fas.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2FAS&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2FAS Browser Extension is simple, private, and secure: 1 click, 1 tap, and your token is automatically entered!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Simplify your online security with the 2FAS Auth browser extension. This extension makes two-factor authentication (2FA) quick, private, and secure. With just one click or tap, your authentication token is automatically entered, saving you from having to manually type in a code every time you log in. It&amp;rsquo;s a seamless way to add an extra layer of protection to your most important accounts without adding any hassle to your routine.&lt;/p&gt;
+&lt;img src=&#34;https://addons.mozilla.org/user-media/addon_icons/525/525044-64.png?modified=mcrushed&#34; align=&#34;middle&#34; width=&#34;64&#34;/&gt;
+&lt;p&gt;&lt;strong&gt;OneTab&lt;/strong&gt; - Save up to 95% memory and reduce tab clutter&lt;br&gt;
+by &lt;a href=&#34;https://www.one-tab.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OneTab&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Whenever you find yourself with too many tabs, click the OneTab icon to convert all of your tabs into a list. When you need to access the tabs again, you can either restore them individually or all at once.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;If you&amp;rsquo;re a heavy multitasker with dozens of open tabs, OneTab is a game changer for keeping your browser running smoothly. By clicking the OneTab icon, you can instantly convert all of your open tabs into a single, organized list. This simple action can save up to 95% of your browser&amp;rsquo;s memory, significantly reducing clutter and speeding up your computer. When you need a tab back, you can restore them individually or all at once, making it a flexible and efficient way to manage your workflow.&lt;/p&gt;
+&lt;img src=&#34;https://addons.mozilla.org/user-media/addon_icons/985/985621-64.png?modified=76aa1d23&#34; align=&#34;middle&#34; width=&#34;64&#34;/&gt;
+&lt;p&gt;&lt;strong&gt;SingleFile&lt;/strong&gt; - Save a complete page into a single HTML file&lt;br&gt;
+by &lt;a href=&#34;https://www.getsinglefile.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gildas&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;SingleFile is an extension that helps you to save a complete page (with CSS, images, fonts, frames, etc.) as a single HTML file.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Ever need to save a complete webpage for offline access? SingleFile is the perfect tool for the job. This extension allows you to save an entire webpage—including all of its CSS, images, fonts, and frames—as a single, self-contained HTML file. It&amp;rsquo;s an easy and reliable way to archive articles, receipts, or any other web content you want to keep without worrying about missing images or broken links.&lt;/p&gt;
+&lt;img src=&#34;https://addons.mozilla.org/user-media/addon_icons/3/3006-64.png?modified=101feb6e&#34; align=&#34;middle&#34; width=&#34;64&#34;/&gt; 
+&lt;p&gt;&lt;strong&gt;Video DownloadHelper&lt;/strong&gt; - Download Videos from the Web &lt;br&gt;
+by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Video DownloadHelper&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Download videos from the web. Easy, smart, no tracking.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Download your favorite videos from the web with Video DownloadHelper. This smart and easy-to-use extension detects videos on a webpage and gives you options to download them directly. It&amp;rsquo;s designed to be simple and efficient, with no tracking, so you can save videos from a wide variety of sites privately and securely.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>From Floppy Swaps to Cross-Platform Power: My Journey to Lazarus FPC 🚀</title>
