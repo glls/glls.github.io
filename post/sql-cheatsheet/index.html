@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: August 17, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: September 1, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head>
@@ -41,8 +41,8 @@
   
     
   
-  <meta name="description" content="SQL stands for Structured Query Language. It&rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.
-There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM)
+  <meta name="description" content="Preface SQL stands for Structured Query Language. It&rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.
+There are several situations where using SQL directly might be preferable to using an Object-Relational Mapping tool (ORM)
 " />
 
   
@@ -232,8 +232,9 @@ There are several situations where using SQL directly might be preferable to usi
   <meta property="og:site_name" content="George Litos" />
   <meta property="og:url" content="https://georgelitos.com/post/sql-cheatsheet/" />
   <meta property="og:title" content="SQL Cheat Sheet | George Litos" />
-  <meta property="og:description" content="SQL stands for Structured Query Language. It&rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.
-There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM)" /><meta property="og:image" content="https://georgelitos.com/post/sql-cheatsheet/featured.jpg" />
+  <meta property="og:description" content="Preface
+SQL stands for Structured Query Language. It&rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.
+There are several situations where using SQL directly might be preferable to using an Object-Relational Mapping tool (ORM)" /><meta property="og:image" content="https://georgelitos.com/post/sql-cheatsheet/featured.jpg" />
     <meta property="twitter:image" content="https://georgelitos.com/post/sql-cheatsheet/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
@@ -242,7 +243,7 @@ There are several situations where using SQL directly might be preferable to usi
         content="2023-11-16T19:23:33&#43;03:00"
       />
     
-    <meta property="article:modified_time" content="2023-11-16T19:23:33&#43;03:00">
+    <meta property="article:modified_time" content="2025-09-01T20:32:00&#43;03:00">
   
 
   
@@ -1220,9 +1221,9 @@ There are several situations where using SQL directly might be preferable to usi
   
     <ul class="hb-sidebar-mobile-toc"><li>
               <a
-                href="#"
+                href="#preface"
                 class="hb-docs-link"
-              ></a>
+              >Preface</a>
             </li>
           <li>
               <a
@@ -1568,6 +1569,9 @@ There are several situations where using SQL directly might be preferable to usi
 
   <div class="hb-scrollbar text-sm [hyphens:auto] sticky top-16 overflow-y-auto pr-4 pt-6 max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] -mr-4 rtl:-ml-4"><p class="mb-4 font-semibold tracking-tight">On this page</p><ul>
       <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#preface">Preface</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
         <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#performance">Performance</a>
       </li>
       <li class="my-2 scroll-my-6 scroll-py-6">
@@ -1637,7 +1641,7 @@ There are several situations where using SQL directly might be preferable to usi
         
         <span class="mx-1">·</span>
         <span class="mx-1">
-          8 min read
+          9 min read
         </span>
         
         </div>
@@ -1682,35 +1686,34 @@ There are several situations where using SQL directly might be preferable to usi
       
 
       <div class="prose prose-slate lg:prose-xl dark:prose-invert">
-        <p>SQL stands for Structured Query Language. It&rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.</p>
-<p>There are several situations where using SQL directly might be preferable to using an Object-Relational Mapper (ORM)</p>
+        <h2 id="preface">Preface</h2>
+<p><a href="https://en.wikipedia.org/wiki/SQL" target="_blank" rel="noopener">SQL</a> stands for Structured Query Language. It&rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.</p>
+<p>There are several situations where using SQL directly might be preferable to using an Object-Relational Mapping tool <a href="https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping" target="_blank" rel="noopener">(ORM)</a></p>
 <h3 id="performance">Performance</h3>
 <ul>
-<li>Complex Queries: While ORMs simplify complex queries, they often translate them into multiple underlying SQL statements. For very intricate queries, writing raw SQL can give you more control and potentially improve performance.</li>
-<li>Database-Specific Features: ORMs sometimes have limitations when dealing with functionalities specific to a particular database engine. If you need to leverage advanced features offered by your database (like stored procedures or custom functions), using raw SQL allows you to interact with them directly.</li>
+<li><strong>Complex Queries</strong>: While ORMs simplify complex queries, they often translate them into multiple underlying SQL statements. For very intricate queries, writing raw SQL can give you more control and potentially improve performance.</li>
+<li><strong>Database-Specific Features</strong>: ORMs sometimes have limitations when dealing with functionalities specific to a particular database engine. If you need to leverage advanced features offered by your database (like stored procedures or custom functions), using raw SQL allows you to interact with them directly.</li>
 </ul>
 <h3 id="customization-and-control">Customization and Control</h3>
 <ul>
-<li>Fine-Tuning Queries: SQL grants you complete control over the query structure. You can optimize queries for specific use cases and databases, something that might be limited with an ORM&rsquo;s abstraction layer.</li>
-<li>Database Schema Changes: If your database schema undergoes frequent modifications, relying solely on an ORM might require frequent updates to your object mappings. With SQL, you can directly adapt your queries to the evolving schema.</li>
+<li><strong>Fine-Tuning Queries</strong>: SQL grants you complete control over the query structure. You can optimize queries for specific use cases and databases, something that might be limited with an ORM&rsquo;s abstraction layer.</li>
+<li><strong>Database Schema Changes</strong>: If your database schema undergoes frequent modifications, relying solely on an ORM might require frequent updates to your object mappings. With SQL, you can directly adapt your queries to the evolving schema.</li>
 </ul>
 <h3 id="troubleshooting">Troubleshooting</h3>
 <ul>
-<li>Error Diagnostics: When errors occur with ORM-generated queries, it can be challenging to pinpoint the exact cause. With raw SQL, you can directly see the query being executed, making it easier to diagnose and fix issues.</li>
-<li>Understanding Database Behavior: For developers who want a deeper understanding of how the database interprets and executes queries, using SQL provides greater transparency into the underlying processes.</li>
+<li><strong>Error Diagnostics</strong>: When errors occur with ORM-generated queries, it can be challenging to pinpoint the exact cause. With raw SQL, you can directly see the query being executed, making it easier to diagnose and fix issues.</li>
+<li><strong>Understanding Database Behavior</strong>: For developers who want a deeper understanding of how the database interprets and executes queries, using SQL provides greater transparency into the underlying processes.</li>
 </ul>
 <h2 id="basics">Basics</h2>
 <p>Here are the basic SQL commands that form the foundation for interacting with relational databases:</p>
 <ol>
-<li><strong>SELECT:</strong> This is the most fundamental command used to retrieve data from a database table. You can specify the columns (fields) you want to retrieve and optionally use a WHERE clause to filter the results based on certain conditions.
-Here&rsquo;s an example:</li>
+<li><strong>SELECT:</strong> This is the most fundamental command used to retrieve data from a database table. You can specify the columns (fields) you want to retrieve and optionally use a WHERE clause to filter the results based on certain conditions.</li>
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">email</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">users</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">country</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;GR&#39;</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></div><p>This query selects the <code>name</code> and <code>email</code> columns from the <code>users</code> table, but only for users where the <code>country</code> is &lsquo;GR&rsquo;.</p>
 <ol start="2">
 <li><strong>INSERT:</strong> This command allows you to insert new data into a table. You specify the table name and the values you want to insert for each column.</li>
 </ol>
-<p>Here&rsquo;s an example:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">INSERT</span><span class="w"> </span><span class="k">INTO</span><span class="w"> </span><span class="n">products</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">price</span><span class="p">,</span><span class="w"> </span><span class="n">category</span><span class="p">)</span><span class="w"> </span><span class="k">VALUES</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;shirt&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">.</span><span class="mi">99</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;clothing&#39;</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></div><p>This query inserts a new row into the <code>products</code> table with the following details:</p>
 <ul>
@@ -1721,20 +1724,18 @@ Here&rsquo;s an example:</li>
 <ol start="3">
 <li><strong>UPDATE:</strong> This command is used to modify existing data in a table. You specify the table name, the changes you want to make, and a WHERE clause to target specific rows for the update.</li>
 </ol>
-<p>Here&rsquo;s an example:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">UPDATE</span><span class="w"> </span><span class="n">customers</span><span class="w"> </span><span class="k">SET</span><span class="w"> </span><span class="n">email</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;new_email@example.com&#39;</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></div><p>This query updates the <code>email</code> address for the customer with <code>id</code> equal to 10 in the <code>customers</code> table.</p>
 <ol start="4">
 <li><strong>DELETE:</strong> This command allows you to remove rows from a table. Similar to UPDATE, you can use a WHERE clause to filter the rows you want to delete.</li>
 </ol>
-<p>Here&rsquo;s an example:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">DELETE</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">orders</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">status</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;completed&#39;</span><span class="w"> </span><span class="k">AND</span><span class="w"> </span><span class="n">order_date</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="s1">&#39;2024-01-01&#39;</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></div><p>This query deletes all orders from the <code>orders</code> table that are marked as &ldquo;completed&rdquo; and have an order date before January 1st, 2024.</p>
 <p>These are just a few basic SQL commands to get you started. As you learn more, you&rsquo;ll discover commands for more complex tasks like joining data from multiple tables, grouping results, and using aggregate functions.</p>
 <p>Check these official documentation resources for more in-depth information on SQL:</p>
-<p><a href="https://www.postgresql.org/docs/current/index.html" target="_blank" rel="noopener">PostgreSQL Documentation</a></p>
-<p><a href="https://dev.mysql.com/doc/refman/8.0/en/" target="_blank" rel="noopener">MySQL 8.0 Reference Manual</a></p>
-<p><a href="https://www.sqlite.org/docs.html" target="_blank" rel="noopener">SQLite Documentation</a></p>
+<p><a href="https://www.postgresql.org/docs/current/index.html" target="_blank" rel="noopener">PostgreSQL Documentation</a><br>
+<a href="https://dev.mysql.com/doc/refman/en/" target="_blank" rel="noopener">MySQL Reference Manual</a><br>
+<a href="https://www.sqlite.org/docs.html" target="_blank" rel="noopener">SQLite Documentation</a></p>
 <h2 id="joins">JOINs</h2>
 <p>JOINs are a fundamental concept in relational databases that allow you to combine data from multiple tables based on a shared field. They are essential for retrieving related information across different tables.</p>
 <p><strong>Here&rsquo;s a breakdown of the basics about JOINs:</strong></p>
@@ -1748,8 +1749,8 @@ Here&rsquo;s an example:</li>
 <li><strong>Full JOIN:</strong> This combines all records from both tables, including those with no match in the other table (represented by NULL values).</li>
 </ul>
 </li>
-<li><strong>Example:</strong></li>
 </ul>
+<p><strong>Example:</strong></p>
 <p>Imagine you have two tables:</p>
 <ul>
 <li><strong>Customers:</strong> Contains customer information like ID, name, and email.</li>
@@ -1798,26 +1799,40 @@ Here&rsquo;s an example:</li>
 </li>
 </ul>
 <h2 id="snippets">Snippets</h2>
-<p>Check this SQL query that generates statements to convert tables in a database schema to the character set <code>utf8mb4</code> with the collation <code>utf8mb4_unicode_ci</code>.</p>
+<blockquote>
+<p><strong>Note:</strong> The following queries use <code>information_schema</code>, which is specific to MySQL and MariaDB. Other databases like PostgreSQL and SQLite use different system tables and commands for similar tasks.</p></blockquote>
+<p><strong>MySQL/MariaDB:</strong>
+To generate statements to convert tables in a database schema to the character set <code>utf8mb4</code> with the collation <code>utf8mb4_unicode_ci</code>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="n">CONCAT</span><span class="p">(</span><span class="s1">&#39;ALTER TABLE &#39;</span><span class="p">,</span><span class="w"> </span><span class="k">table_name</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39; CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;&#39;</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">alter_statement</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">information_schema</span><span class="p">.</span><span class="n">tables</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">WHERE</span><span class="w"> </span><span class="n">table_schema</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;SCHEMA&#39;</span><span class="p">;</span><span class="w">
-</span></span></span></code></pre></div><p>Here&rsquo;s a SQL query that retrieves information about tables in your database and displays their estimated sizes using informational tables:</p>
+</span></span></span></code></pre></div><p>To retrieve information about tables and their estimated sizes:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="n">TABLE_SCHEMA</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="o">`</span><span class="k">Database</span><span class="o">`</span><span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="k">TABLE_NAME</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="o">`</span><span class="k">Table</span><span class="o">`</span><span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="n">ROUND</span><span class="p">((</span><span class="n">DATA_LENGTH</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">INDEX_LENGTH</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">1024</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">1024</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="o">`</span><span class="k">Size</span><span class="w"> </span><span class="p">(</span><span class="n">MB</span><span class="p">)</span><span class="o">`</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">information_schema</span><span class="p">.</span><span class="n">TABLES</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p><strong>PostgreSQL:</strong>
+To get table sizes, use the <code>pg_catalog</code> schema and built-in functions:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="n">schemaname</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="k">schema</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="n">relname</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="k">table</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">       </span><span class="n">pg_size_pretty</span><span class="p">(</span><span class="n">pg_total_relation_size</span><span class="p">(</span><span class="n">relid</span><span class="p">))</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="k">size</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">pg_catalog</span><span class="p">.</span><span class="n">pg_statio_user_tables</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p><strong>SQLite:</strong>
+SQLite does not store table size information in system tables, but you can estimate the database file size using:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="n">PRAGMA</span><span class="w"> </span><span class="n">page_count</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">PRAGMA</span><span class="w"> </span><span class="n">page_size</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">-- Multiply page_count by page_size for total size in bytes
 </span></span></span></code></pre></div><h2 id="backing-up-and-restoring-databases">Backing Up and Restoring Databases</h2>
-<p>Backing up your database is crucial to prevent data loss in case of hardware failures, accidental deletions, or other disasters. Here&rsquo;s how you can back up and restore databases using SQL commands:</p>
+<p>Backing up your database is crucial to prevent data loss in case of hardware failures, accidental deletions, or other disasters.</p>
 <h3 id="backing-up-a-database">Backing Up a Database</h3>
-<p>To back up a database, you can use the <code>mysqldump</code> utility. Here&rsquo;s an example command to back up a MySQL database:</p>
+<p>To back up a MySQL database, you can use the <code>mysqldump</code> utility. Here&rsquo;s an example command to back up a MySQL database:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mysqldump -u username -p database_name &gt; backup.sql
 </span></span></code></pre></div><p>This command exports the database <code>database_name</code> to a file named <code>backup.sql</code>. You&rsquo;ll be prompted to enter the password for the specified user (<code>username</code>).</p>
 <h3 id="restoring-a-database">Restoring a Database</h3>
 <p>To restore a database from a backup file, you can use the <code>mysql</code> command. Here&rsquo;s an example command to restore a MySQL database:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mysql -u username -p database_name &lt; backup.sql
 </span></span></code></pre></div><p>or you can source the backup file directly in the MySQL shell:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">source</span> backup.sql
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">source</span> backup.sql
 </span></span></code></pre></div><p><strong>PostgreSQL Backup and Restore Options:</strong></p>
 <p>PostgreSQL offers several methods for backing up and restoring databases. Here&rsquo;s an overview of the key tools:</p>
 <ul>
@@ -1837,13 +1852,19 @@ Here&rsquo;s an example:</li>
 <li><strong>Partial Backups:</strong> Use <code>pg_dump</code> to target specific schemas or tables.</li>
 <li><strong>Restores:</strong> Use <code>pg_restore</code> for full database restores or <code>psql</code> for limited restores involving specific SQL statements.</li>
 </ul>
+<p><strong>Converting from MariaDB to PostgreSQL:</strong></p>
+<p>Forget everything and use <a href="https://pgloader.readthedocs.io/en/latest/" target="_blank" rel="noopener">pgloader</a> to automate the migration process. It handles schema conversion, data type mapping, and data loading, making it a powerful tool for this task.</p>
+<p><strong>Example:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">apt install pgloader
+</span></span><span class="line"><span class="cl">pgloader --verbose mysql://user:password@host/database postgresql://user:password@host/database
+</span></span></code></pre></div><p>p.s. you can also use pgloader to load data from CSV files, SQLite or MS-SQL Server.</p>
 
       </div>
 
       
-  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2023-11-16T19:23:33.000Z">
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-09-01T20:32:00.000Z">
     <span>Last updated on</span>
-    Nov 16, 2023</time>
+    Sep 1, 2025</time>
 
       <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
         
