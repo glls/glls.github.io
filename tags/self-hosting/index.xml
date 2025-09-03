@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Self-Hosting | George Litos</title>
-    <link>http://localhost:1313/tags/self-hosting/</link>
-      <atom:link href="http://localhost:1313/tags/self-hosting/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/self-hosting/</link>
+      <atom:link href="https://georgelitos.com/tags/self-hosting/index.xml" rel="self" type="application/rss+xml" />
     <description>Self-Hosting</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 17 Aug 2025 14:49:36 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Self-Hosting</title>
-      <link>http://localhost:1313/tags/self-hosting/</link>
+      <link>https://georgelitos.com/tags/self-hosting/</link>
     </image>
     
     <item>
       <title>A Developer&#39;s Introduction to Unraid</title>
-      <link>http://localhost:1313/post/unraid/</link>
+      <link>https://georgelitos.com/post/unraid/</link>
       <pubDate>Sun, 17 Aug 2025 14:49:36 +0300</pubDate>
-      <guid>http://localhost:1313/post/unraid/</guid>
+      <guid>https://georgelitos.com/post/unraid/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://unraid.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unraid&lt;/a&gt; is a proprietary Linux-based operating system designed for &lt;strong&gt;home servers and small businesses&lt;/strong&gt;. It&amp;rsquo;s known for its unique storage management system, which provides flexibility and data protection. Developers often use Unraid to run a variety of services, including web servers, databases, and CI/CD tools, all on a single machine.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;key-features-for-developers&#34;&gt;Key Features for Developers&lt;/h2&gt;

@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: September 1, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: September 3, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -45,7 +45,7 @@
 " />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/lazarus/" />
+  <link rel="alternate" hreflang="en-us" href="https://georgelitos.com/post/lazarus/" />
 
   
   
@@ -134,6 +134,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89694050-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -165,7 +204,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_c27282699091eaa8.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_a2aab2dee7c8a784.png" />
 
-  <link rel="canonical" href="http://localhost:1313/post/lazarus/" />
+  <link rel="canonical" href="https://georgelitos.com/post/lazarus/" />
 
   
   
@@ -190,10 +229,10 @@
     <meta property="twitter:creator" content="@gl_ls" />
   
   <meta property="og:site_name" content="George Litos" />
-  <meta property="og:url" content="http://localhost:1313/post/lazarus/" />
+  <meta property="og:url" content="https://georgelitos.com/post/lazarus/" />
   <meta property="og:title" content="From Floppy Swaps to Cross-Platform Power: My Journey to Lazarus FPC 🚀 | George Litos" />
-  <meta property="og:description" content="Hey everyone! Today, I want to share a bit about my programming journey and introduce you to a fantastic, often overlooked tool that&rsquo;s been a consistent companion through the years: Lazarus Free Pascal." /><meta property="og:image" content="http://localhost:1313/post/lazarus/featured.png" />
-    <meta property="twitter:image" content="http://localhost:1313/post/lazarus/featured.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Hey everyone! Today, I want to share a bit about my programming journey and introduce you to a fantastic, often overlooked tool that&rsquo;s been a consistent companion through the years: Lazarus Free Pascal." /><meta property="og:image" content="https://georgelitos.com/post/lazarus/featured.png" />
+    <meta property="twitter:image" content="https://georgelitos.com/post/lazarus/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -830,8 +869,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
+    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
   ></script>
 
   
@@ -1855,7 +1894,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=From%20Floppy%20Swaps%20to%20Cross-Platform%20Power%3A%20My%20Journey%20to%20Lazarus%20FPC%20%F0%9F%9A%80&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Flazarus%2F"
+    href="mailto:?subject=From%20Floppy%20Swaps%20to%20Cross-Platform%20Power%3A%20My%20Journey%20to%20Lazarus%20FPC%20%F0%9F%9A%80&amp;body=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Flazarus%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1873,7 +1912,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://bsky.app/intent/compose?text=From&#43;Floppy&#43;Swaps&#43;to&#43;Cross-Platform&#43;Power%3A&#43;My&#43;Journey&#43;to&#43;Lazarus&#43;FPC&#43;%F0%9F%9A%80%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Flazarus%2F"
+    href="https://bsky.app/intent/compose?text=From&#43;Floppy&#43;Swaps&#43;to&#43;Cross-Platform&#43;Power%3A&#43;My&#43;Journey&#43;to&#43;Lazarus&#43;FPC&#43;%F0%9F%9A%80%0Ahttps%3A%2F%2Fgeorgelitos.com%2Fpost%2Flazarus%2F"
     title="bluesky"
     aria-label="bluesky"
     id="share-link-bsky"
@@ -1891,7 +1930,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://x.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Flazarus%2F&amp;text=From&#43;Floppy&#43;Swaps&#43;to&#43;Cross-Platform&#43;Power%3A&#43;My&#43;Journey&#43;to&#43;Lazarus&#43;FPC&#43;%F0%9F%9A%80"
+    href="https://x.com/intent/tweet?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Flazarus%2F&amp;text=From&#43;Floppy&#43;Swaps&#43;to&#43;Cross-Platform&#43;Power%3A&#43;My&#43;Journey&#43;to&#43;Lazarus&#43;FPC&#43;%F0%9F%9A%80"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1909,7 +1948,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Flazarus%2F&amp;t=From&#43;Floppy&#43;Swaps&#43;to&#43;Cross-Platform&#43;Power%3A&#43;My&#43;Journey&#43;to&#43;Lazarus&#43;FPC&#43;%F0%9F%9A%80"
+    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Flazarus%2F&amp;t=From&#43;Floppy&#43;Swaps&#43;to&#43;Cross-Platform&#43;Power%3A&#43;My&#43;Journey&#43;to&#43;Lazarus&#43;FPC&#43;%F0%9F%9A%80"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1927,7 +1966,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Flazarus%2F&amp;title=From&#43;Floppy&#43;Swaps&#43;to&#43;Cross-Platform&#43;Power%3A&#43;My&#43;Journey&#43;to&#43;Lazarus&#43;FPC&#43;%F0%9F%9A%80"
+    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Flazarus%2F&amp;title=From&#43;Floppy&#43;Swaps&#43;to&#43;Cross-Platform&#43;Power%3A&#43;My&#43;Journey&#43;to&#43;Lazarus&#43;FPC&#43;%F0%9F%9A%80"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1977,7 +2016,7 @@
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="http://localhost:1313/" class="no-underline">
+      <a href="https://georgelitos.com/" class="no-underline">
       George Litos
       </a>
     </div>
