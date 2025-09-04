@@ -11,7 +11,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/post/</loc>
-    <lastmod>2025-09-01T20:32:30+00:00</lastmod>
+    <lastmod>2025-09-04T19:45:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tags/browser/</loc>
@@ -74,6 +74,10 @@
     <lastmod>2025-08-17T14:17:57+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://georgelitos.com/project/littleollama/</loc>
+    <lastmod>2025-07-06T12:30:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://georgelitos.com/project/</loc>
     <lastmod>2025-07-06T12:30:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -91,6 +95,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tags/time-series/</loc>
+    <lastmod>2025-07-06T12:30:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tags/tool/</loc>
     <lastmod>2025-07-06T12:30:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -115,7 +123,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/post/awesome-stars/</loc>
-    <lastmod>2025-09-01T20:32:30+00:00</lastmod>
+    <lastmod>2025-09-04T19:45:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tags/game/</loc>
@@ -399,10 +407,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tags/opencv/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/tags/tool/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
