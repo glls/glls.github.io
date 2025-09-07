@@ -10,6 +10,26 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://georgelitos.com/slides/docker/</loc>
+    <lastmod>2025-09-05T17:23:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tags/docker/</loc>
+    <lastmod>2025-09-05T17:23:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/slides/</loc>
+    <lastmod>2025-09-05T17:23:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tags/</loc>
+    <lastmod>2025-09-05T17:23:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tags/tools/</loc>
+    <lastmod>2025-09-05T17:23:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://georgelitos.com/tags/flutter/</loc>
     <lastmod>2025-09-03T20:30:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -22,16 +42,28 @@
     <lastmod>2025-09-03T20:30:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://georgelitos.com/tags/</loc>
-    <lastmod>2025-09-03T20:30:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://georgelitos.com/tags/tool/</loc>
     <lastmod>2025-09-03T20:30:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://georgelitos.com/tags/containers/</loc>
+    <lastmod>2025-09-01T23:33:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/talk/docker/</loc>
+    <lastmod>2025-09-01T23:33:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tags/productivity/</loc>
+    <lastmod>2025-09-01T23:33:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://georgelitos.com/tags/virtualization/</loc>
+    <lastmod>2025-09-01T23:33:00+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://georgelitos.com/post/</loc>
-    <lastmod>2025-09-04T19:45:02+00:00</lastmod>
+    <lastmod>2025-09-07T14:25:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tags/browser/</loc>
@@ -43,14 +75,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tags/extensions/</loc>
-    <lastmod>2025-09-01T23:00:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/tags/productivity/</loc>
-    <lastmod>2025-09-01T23:00:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/tags/tools/</loc>
     <lastmod>2025-09-01T23:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -67,10 +91,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/post/unraid/</loc>
-    <lastmod>2025-08-17T14:49:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/tags/docker/</loc>
     <lastmod>2025-08-17T14:49:36+03:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -127,7 +147,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/post/awesome-stars/</loc>
-    <lastmod>2025-09-04T19:45:02+00:00</lastmod>
+    <lastmod>2025-09-07T14:25:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tags/game/</loc>
@@ -136,10 +156,6 @@
   </url><url>
     <loc>https://georgelitos.com/project/space8/</loc>
     <lastmod>2024-06-05T12:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://georgelitos.com/slides/</loc>
-    <lastmod>2024-05-31T14:23:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://georgelitos.com/tags/benchmark/</loc>

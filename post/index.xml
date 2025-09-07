@@ -524,6 +524,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;c&#34;&gt;C&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/libvips/libvips&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;libvips/libvips&lt;/a&gt; - A fast image processing library with low memory needs.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/haiwen/seafile&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;haiwen/seafile&lt;/a&gt; - Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/o-gs/dji-firmware-tools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;o-gs/dji-firmware-tools&lt;/a&gt; - Tools for handling firmwares of DJI products, with focus on quadcopters.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Klipper3d/klipper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Klipper3d/klipper&lt;/a&gt; - Klipper is a 3d-printer firmware&lt;/li&gt;
@@ -935,6 +936,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langchain&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;langchain-ai/langchain&lt;/a&gt; - 🦜🔗 Build context-aware reasoning applications 🦜🔗&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/facebookresearch/sam2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;facebookresearch/sam2&lt;/a&gt; - The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the m&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/udlbook/udlbook&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;udlbook/udlbook&lt;/a&gt; - Understanding Deep Learning - Simon J.D. Prince&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/tloen/alpaca-lora&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tloen/alpaca-lora&lt;/a&gt; - Instruct-tune LLaMA on consumer hardware&lt;/li&gt;
@@ -945,7 +947,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;h2 id=&#34;kotlin&#34;&gt;Kotlin&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/scubajeff/lespas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scubajeff/lespas&lt;/a&gt; - Les Pas, photo album app for Nextcloud user&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/breezy-weather/breezy-weather&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;breezy-weather/breezy-weather&lt;/a&gt; - A Material Design Weather Application&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/breezy-weather/breezy-weather&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;breezy-weather/breezy-weather&lt;/a&gt; - A feature-rich weather app with good visualizations and more than 50 sources.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/topjohnwu/Magisk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;topjohnwu/Magisk&lt;/a&gt; - The Magic Mask for Android&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/feelfreelinux/octo4a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;feelfreelinux/octo4a&lt;/a&gt; - Use your old Android device as an OctoPrint server.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/JetBrains/kotlin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JetBrains/kotlin&lt;/a&gt; - The Kotlin Programming Language.&lt;/li&gt;
@@ -1106,6 +1108,8 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langgraph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;langchain-ai/langgraph&lt;/a&gt; - Build resilient language agents as graphs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pydantic/pydantic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pydantic/pydantic&lt;/a&gt; - Data validation using Python type hints&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/run-llama/llama_index&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;run-llama/llama_index&lt;/a&gt; - LlamaIndex is the leading framework for building LLM-powered agents over your data.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/KoljaB/RealtimeVoiceChat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KoljaB/RealtimeVoiceChat&lt;/a&gt; - Have a natural, spoken conversation with AI!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/amigavision/AmigaVision&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;amigavision/AmigaVision&lt;/a&gt; - The ultimate Amiga games &amp;amp; demo scene setup for MiSTer &amp;amp; Pocket FPGAs, emulators, and real hardware. Open source, community driven. This is an Amiga HDF image builder that uses WHDLoad and custom inst&lt;/li&gt;
@@ -1211,6 +1215,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;rust&#34;&gt;Rust&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/astral-sh/uv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;astral-sh/uv&lt;/a&gt; - An extremely fast Python package and project manager, written in Rust.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/zed-industries/zed&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zed-industries/zed&lt;/a&gt; - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/obi1kenobi/trustfall&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;obi1kenobi/trustfall&lt;/a&gt; - A query engine for any combination of data sources. Query your files and APIs as if they were databases!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ajour/ajour&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ajour/ajour&lt;/a&gt; - A World of Warcraft addon manager written in Rust.&lt;/li&gt;
@@ -1277,6 +1282,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;typescript&#34;&gt;TypeScript&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BlueprintLabIO/markdown-ui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BlueprintLabIO/markdown-ui&lt;/a&gt; - An open standard for rendering interactive widgets in plain Markdown.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/apache/echarts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;apache/echarts&lt;/a&gt; - Apache ECharts is a powerful, interactive charting and data visualization library for browser&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/linkwarden/linkwarden&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;linkwarden/linkwarden&lt;/a&gt; - ⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/menloresearch/jan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;menloresearch/jan&lt;/a&gt; - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer&lt;/li&gt;

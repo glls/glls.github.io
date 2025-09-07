@@ -5,7 +5,25 @@
     <link>https://georgelitos.com/slides/</link>
       <atom:link href="https://georgelitos.com/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 31 May 2024 14:23:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Sep 2025 17:23:00 +0000</lastBuildDate>
+    <item>
+      <title>Docker</title>
+      <link>https://georgelitos.com/slides/docker/</link>
+      <pubDate>Fri, 05 Sep 2025 17:23:00 +0000</pubDate>
+      <guid>https://georgelitos.com/slides/docker/</guid>
+      <description>&lt;section&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/docker/logo.png&#34;&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;docker-a-deep-dive&#34;&gt;&amp;ldquo;Docker: A Deep Dive&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;Building, Shipping, and Running Applications&lt;/p&gt;
+&lt;p&gt;George Litos @5/9/2025 v1.0.0&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;An introduction to Docker&lt;/p&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
     <item>
       <title>Slides</title>
       <link>https://georgelitos.com/slides/git/</link>
