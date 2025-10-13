@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Server | George Litos</title>
-    <link>https://georgelitos.com/tags/server/</link>
-      <atom:link href="https://georgelitos.com/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/server/</link>
+      <atom:link href="http://localhost:1313/tags/server/index.xml" rel="self" type="application/rss+xml" />
     <description>Server</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 17 Aug 2025 14:49:36 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Server</title>
-      <link>https://georgelitos.com/tags/server/</link>
+      <link>http://localhost:1313/tags/server/</link>
     </image>
     
     <item>
       <title>A Developer&#39;s Introduction to Unraid</title>
-      <link>https://georgelitos.com/post/unraid/</link>
+      <link>http://localhost:1313/post/unraid/</link>
       <pubDate>Sun, 17 Aug 2025 14:49:36 +0300</pubDate>
-      <guid>https://georgelitos.com/post/unraid/</guid>
+      <guid>http://localhost:1313/post/unraid/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://unraid.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unraid&lt;/a&gt; is a proprietary Linux-based operating system designed for &lt;strong&gt;home servers and small businesses&lt;/strong&gt;. It&amp;rsquo;s known for its unique storage management system, which provides flexibility and data protection. Developers often use Unraid to run a variety of services, including web servers, databases, and CI/CD tools, all on a single machine.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;key-features-for-developers&#34;&gt;Key Features for Developers&lt;/h2&gt;
@@ -55,13 +55,13 @@
     
     <item>
       <title>The Digital Archivist&#39;s Toolkit: Navidrome, Picard, and Supersonic for the Modern Music Collection</title>
-      <link>https://georgelitos.com/post/music/</link>
+      <link>http://localhost:1313/post/music/</link>
       <pubDate>Sun, 17 Aug 2025 14:17:57 +0300</pubDate>
-      <guid>https://georgelitos.com/post/music/</guid>
+      <guid>http://localhost:1313/post/music/</guid>
       <description>&lt;p&gt;In an age dominated by music streaming, a dedicated community of audiophiles and music lovers is preserving the art of the personal music collection. They are digital archivists, meticulously curating libraries of high-fidelity audio files, from rare vinyl rips to lossless studio masters. This pursuit, however, requires more than just a hard drive full of music; it demands a robust set of tools for organization, management, and playback. This is where the triumvirate of &lt;strong&gt;Navidrome&lt;/strong&gt;, &lt;strong&gt;Picard&lt;/strong&gt;, and &lt;strong&gt;Supersonic&lt;/strong&gt; comes into play, offering a powerful, open-source ecosystem for the serious collector.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;navidrome-your-personal-streaming-service&#34;&gt;Navidrome: Your Personal Streaming Service&lt;/h3&gt;
-&lt;p&gt;At the heart of the modern self-hosted music setup lies a server (&lt;a href=&#34;https://georgelitos.com/post/unraid/&#34;&gt;UNRAID&lt;/a&gt; in my case), and &lt;a href=&#34;https://www.navidrome.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Navidrome&lt;/a&gt; has emerged as a favorite in this space. Imagine having your very own Spotify, but with your meticulously curated library instead of a corporate-controlled catalog. That&amp;rsquo;s the essence of Navidrome. It is a lightweight, open-source music server that allows you to stream your personal music collection from any web browser or mobile device.&lt;/p&gt;
+&lt;p&gt;At the heart of the modern self-hosted music setup lies a server (&lt;a href=&#34;http://localhost:1313/post/unraid/&#34;&gt;UNRAID&lt;/a&gt; in my case), and &lt;a href=&#34;https://www.navidrome.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Navidrome&lt;/a&gt; has emerged as a favorite in this space. Imagine having your very own Spotify, but with your meticulously curated library instead of a corporate-controlled catalog. That&amp;rsquo;s the essence of Navidrome. It is a lightweight, open-source music server that allows you to stream your personal music collection from any web browser or mobile device.&lt;/p&gt;
 &lt;p&gt;Unlike commercial streaming services that can abruptly alter their catalogs or downgrade audio quality, Navidrome gives you complete control. It&amp;rsquo;s designed to handle very large music collections, with developers testing it on libraries of up to 900,000 songs. Its resource-efficient nature means it can run smoothly on low-powered devices like a Raspberry Pi, making it accessible to a wide range of users.&lt;/p&gt;
 &lt;p&gt;Navidrome&amp;rsquo;s web interface is modern, responsive, and easy to navigate. It automatically scans your library for new files and changes, ensuring your collection is always up-to-date. But its true power lies in its compatibility. Navidrome supports the Subsonic API, a de facto standard for music server clients. This means you can use a variety of third-party mobile apps for iOS and Android, such as DSub, Substreamer, or Ultrasonic, to access your music on the go. This flexibility, combined with features like on-the-fly transcoding to save mobile data and a multi-user system for family and friends, makes Navidrome the cornerstone of a personal music cloud.&lt;/p&gt;
 &lt;hr&gt;
@@ -84,9 +84,9 @@
     
     <item>
       <title>The correct way to benchmark your web server</title>
-      <link>https://georgelitos.com/post/benchmark-webserver/</link>
+      <link>http://localhost:1313/post/benchmark-webserver/</link>
       <pubDate>Sun, 10 Sep 2023 18:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/benchmark-webserver/</guid>
+      <guid>http://localhost:1313/post/benchmark-webserver/</guid>
       <description>&lt;p&gt;Keeping your web server running smoothly is crucial for a positive user experience. But how do you know it can handle the traffic you expect? Benchmarking is the answer! It allows you to simulate real-world load and measure your server&amp;rsquo;s performance. This post will guide you through using &lt;code&gt;wrk&lt;/code&gt;, a powerful tool for benchmarking your web server.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;wrk&lt;/code&gt; is a fast, user-friendly HTTP benchmarking tool. It&amp;rsquo;s lightweight and easy to install. Once you have wrk set up, you can start crafting your benchmark test. &lt;code&gt;wrk&lt;/code&gt; offers various options to configure your test precisely. You can define the number of threads to simulate concurrent users, the number of connections per thread, and the test duration. &lt;code&gt;wrk&lt;/code&gt; also allows you to specify headers to be sent with each request, mimicking real user behavior.&lt;/p&gt;
 &lt;p&gt;Running a &lt;code&gt;wrk&lt;/code&gt; test is straightforward. You provide the URL you want to benchmark along with the desired configuration options. Wrks then bombards your server with simulated traffic, measuring critical metrics like request latency, throughput, and overall system health. After the test concludes, &lt;code&gt;wrk&lt;/code&gt; presents a detailed report. This report showcases valuable data points like average request time, request rate, and connection errors. Analyzing this data helps you identify bottlenecks and areas for improvement in your web server&amp;rsquo;s performance.&lt;/p&gt;

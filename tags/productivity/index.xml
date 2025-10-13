@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productivity | George Litos</title>
-    <link>https://georgelitos.com/tags/productivity/</link>
-      <atom:link href="https://georgelitos.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/productivity/</link>
+      <atom:link href="http://localhost:1313/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <description>Productivity</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 23:33:00 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Productivity</title>
-      <link>https://georgelitos.com/tags/productivity/</link>
+      <link>http://localhost:1313/tags/productivity/</link>
     </image>
     
     <item>
       <title>Docker</title>
-      <link>https://georgelitos.com/talk/docker/</link>
+      <link>http://localhost:1313/talk/docker/</link>
       <pubDate>Mon, 01 Sep 2025 23:33:00 +0300</pubDate>
-      <guid>https://georgelitos.com/talk/docker/</guid>
+      <guid>http://localhost:1313/talk/docker/</guid>
       <description>&lt;h2 id=&#34;what-is-docker&#34;&gt;What is Docker?&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; is a containerization platform that packages applications and their dependencies into lightweight, portable containers. Think of a container as a standardized shipping box for software - it includes everything needed to run an application: code, runtime, system tools, libraries, and settings.&lt;/p&gt;
 &lt;h2 id=&#34;how-docker-works&#34;&gt;How Docker Works&lt;/h2&gt;
@@ -35,15 +35,15 @@
 &lt;/span&gt;
   &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation.&lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;You can also check more &lt;a href=&#34;https://georgelitos.com/tags/docker/&#34;&gt;Docker related posts&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can also check more &lt;a href=&#34;http://localhost:1313/tags/docker/&#34;&gt;Docker related posts&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Essential Browser Extensions for Security, Productivity, and Media</title>
-      <link>https://georgelitos.com/post/browser_ext/</link>
+      <link>http://localhost:1313/post/browser_ext/</link>
       <pubDate>Mon, 01 Sep 2025 22:40:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/browser_ext/</guid>
+      <guid>http://localhost:1313/post/browser_ext/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s a list of my favorite browser extensions (each author&amp;rsquo;s own words in quotes, original images included):&lt;/p&gt;
 &lt;img src=&#34;https://addons.mozilla.org/user-media/addon_icons/607/607454-64.png?modified=mcrushed&#34; align=&#34;middle&#34; width=&#34;64&#34;/&gt;
 &lt;p&gt;&lt;strong&gt;uBlock Origin&lt;/strong&gt; - Finally, an efficient blocker. Easy on CPU and memory&lt;br&gt;
@@ -86,9 +86,9 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
     
     <item>
       <title>From Floppy Swaps to Cross-Platform Power: My Journey to Lazarus FPC 🚀</title>
-      <link>https://georgelitos.com/post/lazarus/</link>
+      <link>http://localhost:1313/post/lazarus/</link>
       <pubDate>Sun, 17 Aug 2025 15:42:11 +0300</pubDate>
-      <guid>https://georgelitos.com/post/lazarus/</guid>
+      <guid>http://localhost:1313/post/lazarus/</guid>
       <description>&lt;p&gt;Hey everyone! Today, I want to share a bit about my programming journey and introduce you to a fantastic, often overlooked tool that&amp;rsquo;s been a consistent companion through the years: &lt;a href=&#34;https://www.lazarus-ide.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lazarus Free Pascal&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My story in coding began, like many in the late 80s and early 90s, with the legendary &lt;strong&gt;Turbo C&lt;/strong&gt;.  I remember the thrill of typing out code in that stark blue text-mode editor, and the satisfaction of seeing my C programs compile. But there was a challenge, especially with my trusty one-floppy 8088 PC, an &lt;strong&gt;Olivetti Prodest PC 1&lt;/strong&gt;. Compiling anything beyond the simplest applications meant a constant dance of swapping floppy disks – one for the compiler, another for the libraries, then back again. It was a tedious, but character-building, experience!
 
@@ -113,7 +113,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
                /post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp 400w,
                /post/lazarus/pc1_hu_580e1c8485abe4e7.webp 760w,
                /post/lazarus/pc1_hu_5feaa3ebb2305ae1.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp&#34;
+               src=&#34;http://localhost:1313/post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp&#34;
                width=&#34;591&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -142,7 +142,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
                /post/lazarus/tc2_hu_fd89aab6ce8b4268.webp 400w,
                /post/lazarus/tc2_hu_79084dfa30ead128.webp 760w,
                /post/lazarus/tc2_hu_51cc566bee39d2d6.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/lazarus/tc2_hu_fd89aab6ce8b4268.webp&#34;
+               src=&#34;http://localhost:1313/post/lazarus/tc2_hu_fd89aab6ce8b4268.webp&#34;
                width=&#34;648&#34;
                height=&#34;408&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -170,7 +170,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
                /post/lazarus/tp55_hu_fdae864f924b992d.webp 400w,
                /post/lazarus/tp55_hu_7314a757ba8dc1c3.webp 760w,
                /post/lazarus/tp55_hu_70d844661605fc49.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/lazarus/tp55_hu_fdae864f924b992d.webp&#34;
+               src=&#34;http://localhost:1313/post/lazarus/tp55_hu_fdae864f924b992d.webp&#34;
                width=&#34;760&#34;
                height=&#34;470&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -199,7 +199,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
                /post/lazarus/delphi7_hu_d9a1f8397a3a105.webp 400w,
                /post/lazarus/delphi7_hu_2267375b731544ec.webp 760w,
                /post/lazarus/delphi7_hu_c10732caa21425e0.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/lazarus/delphi7_hu_d9a1f8397a3a105.webp&#34;
+               src=&#34;http://localhost:1313/post/lazarus/delphi7_hu_d9a1f8397a3a105.webp&#34;
                width=&#34;640&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -231,7 +231,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
                /post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp 400w,
                /post/lazarus/lazarus_hu_5d46c97a4c994a61.webp 760w,
                /post/lazarus/lazarus_hu_68167d342356072a.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp&#34;
+               src=&#34;http://localhost:1313/post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp&#34;
                width=&#34;760&#34;
                height=&#34;527&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -292,9 +292,9 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
     
     <item>
       <title>A Developer&#39;s Introduction to Unraid</title>
-      <link>https://georgelitos.com/post/unraid/</link>
+      <link>http://localhost:1313/post/unraid/</link>
       <pubDate>Sun, 17 Aug 2025 14:49:36 +0300</pubDate>
-      <guid>https://georgelitos.com/post/unraid/</guid>
+      <guid>http://localhost:1313/post/unraid/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://unraid.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unraid&lt;/a&gt; is a proprietary Linux-based operating system designed for &lt;strong&gt;home servers and small businesses&lt;/strong&gt;. It&amp;rsquo;s known for its unique storage management system, which provides flexibility and data protection. Developers often use Unraid to run a variety of services, including web servers, databases, and CI/CD tools, all on a single machine.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;key-features-for-developers&#34;&gt;Key Features for Developers&lt;/h2&gt;
@@ -333,13 +333,13 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
     
     <item>
       <title>The Digital Archivist&#39;s Toolkit: Navidrome, Picard, and Supersonic for the Modern Music Collection</title>
-      <link>https://georgelitos.com/post/music/</link>
+      <link>http://localhost:1313/post/music/</link>
       <pubDate>Sun, 17 Aug 2025 14:17:57 +0300</pubDate>
-      <guid>https://georgelitos.com/post/music/</guid>
+      <guid>http://localhost:1313/post/music/</guid>
       <description>&lt;p&gt;In an age dominated by music streaming, a dedicated community of audiophiles and music lovers is preserving the art of the personal music collection. They are digital archivists, meticulously curating libraries of high-fidelity audio files, from rare vinyl rips to lossless studio masters. This pursuit, however, requires more than just a hard drive full of music; it demands a robust set of tools for organization, management, and playback. This is where the triumvirate of &lt;strong&gt;Navidrome&lt;/strong&gt;, &lt;strong&gt;Picard&lt;/strong&gt;, and &lt;strong&gt;Supersonic&lt;/strong&gt; comes into play, offering a powerful, open-source ecosystem for the serious collector.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;navidrome-your-personal-streaming-service&#34;&gt;Navidrome: Your Personal Streaming Service&lt;/h3&gt;
-&lt;p&gt;At the heart of the modern self-hosted music setup lies a server (&lt;a href=&#34;https://georgelitos.com/post/unraid/&#34;&gt;UNRAID&lt;/a&gt; in my case), and &lt;a href=&#34;https://www.navidrome.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Navidrome&lt;/a&gt; has emerged as a favorite in this space. Imagine having your very own Spotify, but with your meticulously curated library instead of a corporate-controlled catalog. That&amp;rsquo;s the essence of Navidrome. It is a lightweight, open-source music server that allows you to stream your personal music collection from any web browser or mobile device.&lt;/p&gt;
+&lt;p&gt;At the heart of the modern self-hosted music setup lies a server (&lt;a href=&#34;http://localhost:1313/post/unraid/&#34;&gt;UNRAID&lt;/a&gt; in my case), and &lt;a href=&#34;https://www.navidrome.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Navidrome&lt;/a&gt; has emerged as a favorite in this space. Imagine having your very own Spotify, but with your meticulously curated library instead of a corporate-controlled catalog. That&amp;rsquo;s the essence of Navidrome. It is a lightweight, open-source music server that allows you to stream your personal music collection from any web browser or mobile device.&lt;/p&gt;
 &lt;p&gt;Unlike commercial streaming services that can abruptly alter their catalogs or downgrade audio quality, Navidrome gives you complete control. It&amp;rsquo;s designed to handle very large music collections, with developers testing it on libraries of up to 900,000 songs. Its resource-efficient nature means it can run smoothly on low-powered devices like a Raspberry Pi, making it accessible to a wide range of users.&lt;/p&gt;
 &lt;p&gt;Navidrome&amp;rsquo;s web interface is modern, responsive, and easy to navigate. It automatically scans your library for new files and changes, ensuring your collection is always up-to-date. But its true power lies in its compatibility. Navidrome supports the Subsonic API, a de facto standard for music server clients. This means you can use a variety of third-party mobile apps for iOS and Android, such as DSub, Substreamer, or Ultrasonic, to access your music on the go. This flexibility, combined with features like on-the-fly transcoding to save mobile data and a multi-user system for family and friends, makes Navidrome the cornerstone of a personal music cloud.&lt;/p&gt;
 &lt;hr&gt;
@@ -362,9 +362,9 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
     
     <item>
       <title>Wireguard: A Better VPN</title>
-      <link>https://georgelitos.com/post/wireguard/</link>
+      <link>http://localhost:1313/post/wireguard/</link>
       <pubDate>Sat, 27 Apr 2024 18:34:13 +0300</pubDate>
-      <guid>https://georgelitos.com/post/wireguard/</guid>
+      <guid>http://localhost:1313/post/wireguard/</guid>
       <description>&lt;p&gt;Virtual Private Networks &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(VPNs)&lt;/a&gt; are essential tools for protecting your online privacy and security. But traditional VPNs can sometimes be slow and bog down your connection. &lt;a href=&#34;https://www.wireguard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WireGuard&lt;/a&gt; is a new, innovative VPN protocol that offers several advantages over traditional options, it has a cool logo too 😎.&lt;/p&gt;
 &lt;p&gt;WireGuard is much simpler and leaner than older VPN protocols. This means it&amp;rsquo;s faster and more efficient, using fewer resources and providing a smoother online experience. On top of that, WireGuard prioritizes strong security. It utilizes modern cryptographic techniques to keep your data safe and encrypted.&lt;/p&gt;
 &lt;p&gt;WireGuard is also easy to set up and use. It&amp;rsquo;s available on a wide range of platforms, including Linux, macOS, Windows, Android, and iOS. You can quickly configure WireGuard to connect to a VPN server and start protecting your online activities.&lt;/p&gt;
@@ -376,9 +376,9 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
+      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
       <description>
 
 
@@ -477,9 +477,9 @@ To remove the black background from an image, use the following command:&lt;/p&g
     
     <item>
       <title>SSH Cheatsheet</title>
-      <link>https://georgelitos.com/post/ssh-cheatsheet/</link>
+      <link>http://localhost:1313/post/ssh-cheatsheet/</link>
       <pubDate>Mon, 12 Feb 2024 09:03:02 +0300</pubDate>
-      <guid>https://georgelitos.com/post/ssh-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/ssh-cheatsheet/</guid>
       <description>&lt;p&gt;SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&amp;rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations.&lt;/p&gt;
 &lt;h2 id=&#34;connecting-to-a-server&#34;&gt;Connecting to a Server&lt;/h2&gt;
 &lt;p&gt;The basic syntax for connecting to a server with SSH is:&lt;/p&gt;
@@ -597,9 +597,9 @@ To remove the black background from an image, use the following command:&lt;/p&g
     
     <item>
       <title>Console snippets</title>
-      <link>https://georgelitos.com/post/console-snippets/</link>
+      <link>http://localhost:1313/post/console-snippets/</link>
       <pubDate>Mon, 29 Jan 2024 18:30:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/console-snippets/</guid>
+      <guid>http://localhost:1313/post/console-snippets/</guid>
       <description>
 
 
@@ -747,7 +747,7 @@ Here are some generic snippets to get you started:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -mindepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -maxdepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -type d -exec git  --git-dir&lt;span class=&#34;o&#34;&gt;={}&lt;/span&gt;/.git --work-tree&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PWD&lt;/span&gt;/&lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; pull &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;miscellaneous-tips&#34;&gt;Miscellaneous tips&lt;/h2&gt;
 &lt;p&gt;For the best terminal filemanager check the post:&lt;br&gt;
-&lt;a href=&#34;https://georgelitos.com/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://localhost:1313/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Use &lt;code&gt;Ctrl + R&lt;/code&gt; to search through your command history&lt;/p&gt;
 &lt;p&gt;Use &lt;code&gt;Ctrl + C&lt;/code&gt; to cancel a running command&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;tmux&lt;/code&gt; and &lt;code&gt;htop&lt;/code&gt; are great tools for managing terminal sessions and monitoring system resources&lt;/p&gt;
@@ -757,9 +757,9 @@ Here are some generic snippets to get you started:&lt;/p&gt;
     
     <item>
       <title>SQL Cheat Sheet</title>
-      <link>https://georgelitos.com/post/sql-cheatsheet/</link>
+      <link>http://localhost:1313/post/sql-cheatsheet/</link>
       <pubDate>Thu, 16 Nov 2023 19:23:33 +0300</pubDate>
-      <guid>https://georgelitos.com/post/sql-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/sql-cheatsheet/</guid>
       <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/SQL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SQL&lt;/a&gt; stands for Structured Query Language. It&amp;rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.&lt;/p&gt;
 &lt;p&gt;There are several situations where using SQL directly might be preferable to using an Object-Relational Mapping tool &lt;a href=&#34;https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(ORM)&lt;/a&gt;&lt;/p&gt;
@@ -937,9 +937,9 @@ SQLite does not store table size information in system tables, but you can estim
     
     <item>
       <title>Git Cheatsheet</title>
-      <link>https://georgelitos.com/post/git-cheatsheet/</link>
+      <link>http://localhost:1313/post/git-cheatsheet/</link>
       <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
+      <guid>http://localhost:1313/post/git-cheatsheet/</guid>
       <description>
 
 
@@ -1358,15 +1358,15 @@ SQLite does not store table size information in system tables, but you can estim
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;https://georgelitos.com/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;http://localhost:1313/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>MC: a commander like no other</title>
-      <link>https://georgelitos.com/post/mc/</link>
+      <link>http://localhost:1313/post/mc/</link>
       <pubDate>Mon, 05 Jun 2023 09:18:07 +0300</pubDate>
-      <guid>https://georgelitos.com/post/mc/</guid>
+      <guid>http://localhost:1313/post/mc/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander™. It also takes the best from more recent software with similar interfaces. Many years ago, we used file-managers like these, as &amp;ldquo;Norton Commander&amp;rdquo; in DOS, or the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, which is still alive in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;dual-pane-interface-for-seamless-file-management&#34;&gt;Dual-Pane Interface for Seamless File Management&lt;/h2&gt;
@@ -1442,9 +1442,9 @@ The features include:&lt;/p&gt;
     
     <item>
       <title>Scrcpy: Display and control your Android device</title>
-      <link>https://georgelitos.com/post/scrcpy/</link>
+      <link>http://localhost:1313/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/scrcpy/</guid>
+      <guid>http://localhost:1313/post/scrcpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
 This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
@@ -1493,7 +1493,7 @@ This application mirrors Android devices (video and audio) connected via USB or 
                /post/scrcpy/image1_hu_d66b0ffd360aba34.webp 400w,
                /post/scrcpy/image1_hu_76e6ef16731cf17a.webp 760w,
                /post/scrcpy/image1_hu_84bcb1e9a840e002.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu_d66b0ffd360aba34.webp&#34;
+               src=&#34;http://localhost:1313/post/scrcpy/image1_hu_d66b0ffd360aba34.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1505,9 +1505,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Package Managers - not the evil kind of PMs</title>
-      <link>https://georgelitos.com/post/pkgman/</link>
+      <link>http://localhost:1313/post/pkgman/</link>
       <pubDate>Tue, 21 Mar 2023 21:27:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/pkgman/</guid>
+      <guid>http://localhost:1313/post/pkgman/</guid>
       <description>
 
 
@@ -1567,7 +1567,7 @@ And thank you for making our coding lives bright!&lt;/p&gt;&lt;/blockquote&gt;
                /post/pkgman/scoop_hu_cb4361b63396390.webp 400w,
                /post/pkgman/scoop_hu_f12f9cb7fab7e1b7.webp 760w,
                /post/pkgman/scoop_hu_5b98ad82382843dd.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/scoop_hu_cb4361b63396390.webp&#34;
+               src=&#34;http://localhost:1313/post/pkgman/scoop_hu_cb4361b63396390.webp&#34;
                width=&#34;760&#34;
                height=&#34;315&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1616,7 +1616,7 @@ Scoop is a command-line installer for Windows that allows users to easily instal
                /post/pkgman/homebrew_hu_5d74178367052408.webp 400w,
                /post/pkgman/homebrew_hu_d6b544c03d7e8511.webp 760w,
                /post/pkgman/homebrew_hu_526f24278b27f896.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hu_5d74178367052408.webp&#34;
+               src=&#34;http://localhost:1313/post/pkgman/homebrew_hu_5d74178367052408.webp&#34;
                width=&#34;760&#34;
                height=&#34;611&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1657,7 +1657,7 @@ That the apps are already hand-picked and that they are fully categorized! You c
                /post/pkgman/pmpc_hu_394a150b25053eda.webp 400w,
                /post/pkgman/pmpc_hu_595a3e1335288e58.webp 760w,
                /post/pkgman/pmpc_hu_13d9013f87b9b2dd.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hu_394a150b25053eda.webp&#34;
+               src=&#34;http://localhost:1313/post/pkgman/pmpc_hu_394a150b25053eda.webp&#34;
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1685,9 +1685,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Buku: a powerful bookmark manager</title>
-      <link>https://georgelitos.com/post/buku/</link>
+      <link>http://localhost:1313/post/buku/</link>
       <pubDate>Sat, 18 Mar 2023 20:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/buku/</guid>
+      <guid>http://localhost:1313/post/buku/</guid>
       <description>&lt;p&gt;Are you tired of losing track of your bookmarks across multiple browsers? Look no further than Buku, the powerful bookmark manager that imports bookmarks from all your browsers, works on console and has a web-based server.&lt;/p&gt;
 &lt;p&gt;With Buku, you can easily organize your bookmarks into categories and tags, making it easy to find exactly what you need. Plus, Buku&amp;rsquo;s powerful search feature allows you to quickly locate any bookmark in your collection.&lt;/p&gt;
 &lt;p&gt;One of the most unique features of Buku is its powerful console interface:&lt;/p&gt;
@@ -1716,7 +1716,7 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
                /post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp 400w,
                /post/buku/screenshot-buku_hu_3fe16ee851a5e5d0.webp 760w,
                /post/buku/screenshot-buku_hu_bef1171e20f4b4ec.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp&#34;
+               src=&#34;http://localhost:1313/post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1729,9 +1729,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Breaking the Barrier</title>
-      <link>https://georgelitos.com/post/barrier/</link>
+      <link>http://localhost:1313/post/barrier/</link>
       <pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/barrier/</guid>
+      <guid>http://localhost:1313/post/barrier/</guid>
       <description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;
 &lt;p&gt;
 
@@ -1771,9 +1771,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Free your notes with Joplin</title>
-      <link>https://georgelitos.com/post/joplin/</link>
+      <link>http://localhost:1313/post/joplin/</link>
       <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
-      <guid>https://georgelitos.com/post/joplin/</guid>
+      <guid>http://localhost:1313/post/joplin/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
 &lt;p&gt;One of the main features of Joplin is its ability to synchronize notes across multiple devices. Joplin also supports the use of multiple storage options, including the local file system, Dropbox, OneDrive, and WebDAV and more. In my case I use the local file system and synchronize the notes with my Synology NAS via &amp;ldquo;Cloud Station Drive&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;The notes are in &lt;a href=&#34;https://www.markdownguide.org/tools/joplin/#joplin-markdown-support&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown format&lt;/a&gt;. Joplin is available as a &lt;strong&gt;💻 desktop&lt;/strong&gt;, &lt;strong&gt;📱 mobile&lt;/strong&gt; and &lt;strong&gt;🔡 terminal&lt;/strong&gt; application.&lt;/p&gt;
@@ -1786,9 +1786,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Git ...not just version control</title>
-      <link>https://georgelitos.com/talk/git/</link>
+      <link>http://localhost:1313/talk/git/</link>
       <pubDate>Fri, 01 Jul 2022 03:33:00 +0300</pubDate>
-      <guid>https://georgelitos.com/talk/git/</guid>
+      <guid>http://localhost:1313/talk/git/</guid>
       <description>&lt;p&gt;Git is a powerful version control system that allows developers to track and store changes to their code. It also helps teams collaborate on projects efficiently. With Git, developers can keep track of changes made to their code, revert back to previous versions if needed, and even create branches for different versions of the same project. In this talk, we&amp;rsquo;ll take a look at how Git works and how it can be used to manage and track changes to your code.&lt;/p&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
@@ -1796,7 +1796,7 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;/span&gt;
   &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation.&lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;You can also check the &lt;a href=&#34;https://georgelitos.com/post/git-cheatsheet/&#34;&gt;Git Cheatsheet&lt;/a&gt; post.&lt;/p&gt;
+&lt;p&gt;You can also check the &lt;a href=&#34;http://localhost:1313/post/git-cheatsheet/&#34;&gt;Git Cheatsheet&lt;/a&gt; post.&lt;/p&gt;
 </description>
     </item>
     

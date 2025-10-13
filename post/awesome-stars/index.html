@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: September 7, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: October 13, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="A curated list of my GitHub stars!" />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://georgelitos.com/post/awesome-stars/" />
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/awesome-stars/" />
 
   
   
@@ -133,45 +133,6 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89694050-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-89694050-1', { 'anonymize_ip': true });
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-
 
 
 
@@ -203,7 +164,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_c27282699091eaa8.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_a2aab2dee7c8a784.png" />
 
-  <link rel="canonical" href="https://georgelitos.com/post/awesome-stars/" />
+  <link rel="canonical" href="http://localhost:1313/post/awesome-stars/" />
 
   
   
@@ -228,10 +189,10 @@
     <meta property="twitter:creator" content="@gl_ls" />
   
   <meta property="og:site_name" content="George Litos" />
-  <meta property="og:url" content="https://georgelitos.com/post/awesome-stars/" />
+  <meta property="og:url" content="http://localhost:1313/post/awesome-stars/" />
   <meta property="og:title" content="Awesome Stars | George Litos" />
-  <meta property="og:description" content="A curated list of my GitHub stars!" /><meta property="og:image" content="https://georgelitos.com/post/awesome-stars/featured.jpg" />
-    <meta property="twitter:image" content="https://georgelitos.com/post/awesome-stars/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="A curated list of my GitHub stars!" /><meta property="og:image" content="http://localhost:1313/post/awesome-stars/featured.jpg" />
+    <meta property="twitter:image" content="http://localhost:1313/post/awesome-stars/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -239,7 +200,7 @@
         content="2025-03-10T18:08:16&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2025-09-07T14:25:21&#43;00:00">
+    <meta property="article:modified_time" content="2025-10-13T10:31:31&#43;00:00">
   
 
   
@@ -874,8 +835,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
-    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
   ></script>
 
   
@@ -1454,6 +1415,12 @@
             </li>
           <li>
               <a
+                href="#mdx"
+                class="hb-docs-link"
+              >MDX</a>
+            </li>
+          <li>
+              <a
                 href="#makefile"
                 class="hb-docs-link"
               >Makefile</a>
@@ -1589,6 +1556,12 @@
                 href="#typescript"
                 class="hb-docs-link"
               >TypeScript</a>
+            </li>
+          <li>
+              <a
+                href="#zig"
+                class="hb-docs-link"
+              >Zig</a>
             </li>
           <li>
               <a
@@ -1948,6 +1921,9 @@
         <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#lua">Lua</a>
       </li>
       <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#mdx">MDX</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
         <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#makefile">Makefile</a>
       </li>
       <li class="my-2 scroll-my-6 scroll-py-6">
@@ -2015,6 +1991,9 @@
       </li>
       <li class="my-2 scroll-my-6 scroll-py-6">
         <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#typescript">TypeScript</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#zig">Zig</a>
       </li>
       <li class="my-2 scroll-my-6 scroll-py-6">
         <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#license">License</a>
@@ -2133,6 +2112,7 @@
 <li><a href="#jupyter-notebook">Jupyter Notebook</a></li>
 <li><a href="#kotlin">Kotlin</a></li>
 <li><a href="#lua">Lua</a></li>
+<li><a href="#mdx">MDX</a></li>
 <li><a href="#makefile">Makefile</a></li>
 <li><a href="#markdown">Markdown</a></li>
 <li><a href="#nsis">NSIS</a></li>
@@ -2156,6 +2136,7 @@
 <li><a href="#swift">Swift</a></li>
 <li><a href="#tex">TeX</a></li>
 <li><a href="#typescript">TypeScript</a></li>
+<li><a href="#zig">Zig</a></li>
 </ul>
 <h2 id="asp">ASP</h2>
 <ul>
@@ -2229,7 +2210,7 @@
 <li><a href="https://github.com/hellzerg/optimizer" target="_blank" rel="noopener">hellzerg/optimizer</a> - The finest Windows Optimizer</li>
 <li><a href="https://github.com/bytefeld/epc.net" target="_blank" rel="noopener">bytefeld/epc.net</a> - A .NET library to work with Electronic Product Codes (EPC, SSCC, SGTIN)</li>
 <li><a href="https://github.com/OpenRA/OpenRA" target="_blank" rel="noopener">OpenRA/OpenRA</a> - Open Source real-time strategy game engine for early Westwood games such as Command &amp; Conquer: Red Alert written in C# using SDL and OpenGL. Runs on Windows, Linux, *BSD and Mac OS X.</li>
-<li><a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener">microsoft/PowerToys</a> - Windows system utilities to maximize productivity</li>
+<li><a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener">microsoft/PowerToys</a> - Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline everyday tasks</li>
 <li><a href="https://github.com/UltimateFishbot/UltimateFishbot" target="_blank" rel="noopener">UltimateFishbot/UltimateFishbot</a> - A simple World of Warcraft fishbot written in VB.net</li>
 <li><a href="https://github.com/danhermes/xamarin-xaml-book-examples" target="_blank" rel="noopener">danhermes/xamarin-xaml-book-examples</a> - Building Xamarin.Forms Mobile Apps Using XAML - examples from the book by Dan Hermes</li>
 <li><a href="https://github.com/JonasNilson/idle_master_extended" target="_blank" rel="noopener">JonasNilson/idle_master_extended</a> - 🃏 Get your Steam Trading Cards the Fast Way (Fast Mode Extension 🚀)</li>
@@ -2250,6 +2231,9 @@
 </ul>
 <h2 id="c-2">C++</h2>
 <ul>
+<li><a href="https://github.com/aristocratos/btop" target="_blank" rel="noopener">aristocratos/btop</a> - A monitor of resources</li>
+<li><a href="https://github.com/alicevision/AliceVision" target="_blank" rel="noopener">alicevision/AliceVision</a> - 3D Computer Vision Framework</li>
+<li><a href="https://github.com/zen-browser/desktop" target="_blank" rel="noopener">zen-browser/desktop</a> - Welcome to a calmer internet</li>
 <li><a href="https://github.com/nomic-ai/gpt4all" target="_blank" rel="noopener">nomic-ai/gpt4all</a> - GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.</li>
 <li><a href="https://github.com/taglib/taglib" target="_blank" rel="noopener">taglib/taglib</a> - TagLib Audio Meta-Data Library</li>
 <li><a href="https://github.com/pauldreik/rdfind" target="_blank" rel="noopener">pauldreik/rdfind</a> - find duplicate files utility</li>
@@ -2337,12 +2321,13 @@
 </ul>
 <h2 id="dart">Dart</h2>
 <ul>
+<li><a href="https://github.com/s3ppo/unraid_mobile_ui" target="_blank" rel="noopener">s3ppo/unraid_mobile_ui</a> -</li>
 <li><a href="https://github.com/ubuntu/app-center" target="_blank" rel="noopener">ubuntu/app-center</a> - App Store for Ubuntu made with Flutter 🧡 💙</li>
 <li><a href="https://github.com/SpicyChair/pluvia_weather_flutter" target="_blank" rel="noopener">SpicyChair/pluvia_weather_flutter</a> - Pluvia 🌦️ | A weather app with beautiful animations, built with Flutter.</li>
 <li><a href="https://github.com/felangel/bloc" target="_blank" rel="noopener">felangel/bloc</a> - A predictable state management library that helps implement the BLoC design pattern</li>
 <li><a href="https://github.com/SharezoneApp/sharezone-app" target="_blank" rel="noopener">SharezoneApp/sharezone-app</a> - Sharezone is a collaborative school organization app for iOS, Android, macOS and web with +500,000 downloads. Built with Flutter &amp; Firebase.</li>
 <li><a href="https://github.com/sbis04/flutter_camera_demo" target="_blank" rel="noopener">sbis04/flutter_camera_demo</a> - Flutter camera demo</li>
-<li><a href="https://github.com/authpass/authpass" target="_blank" rel="noopener">authpass/authpass</a> - AuthPass - Password Manager based on Flutter for all platforms. Keepass 2.x (kdbx 3.x) compatible.</li>
+<li><a href="https://github.com/authpass/authpass" target="_blank" rel="noopener">authpass/authpass</a> - AuthPass - Password Manager based on Flutter for all platforms. Keepass 2.x (KDBX 3 and KDBX 4) compatible.</li>
 <li><a href="https://github.com/flutter/flutter" target="_blank" rel="noopener">flutter/flutter</a> - Flutter makes it easy and fast to build beautiful apps for mobile and beyond</li>
 </ul>
 <h2 id="dockerfile">Dockerfile</h2>
@@ -2377,6 +2362,7 @@
 </ul>
 <h2 id="go">Go</h2>
 <ul>
+<li><a href="https://github.com/jurkovic-nikola/OpenLinkHub" target="_blank" rel="noopener">jurkovic-nikola/OpenLinkHub</a> - Open source interface for iCUE LINK Hub and other Corsair AIOs, Hubs for Linux. Manage RGB lighting, fan speeds, system metrics, as well as keyboards, mice, headsets via a web dashboard.</li>
 <li><a href="https://github.com/photoprism/photoprism" target="_blank" rel="noopener">photoprism/photoprism</a> - AI-Powered Photos App for the Decentralized Web 🌈💎✨</li>
 <li><a href="https://github.com/dweymouth/supersonic" target="_blank" rel="noopener">dweymouth/supersonic</a> - A lightweight and full-featured cross-platform desktop client for self-hosted music servers</li>
 <li><a href="https://github.com/hybridgroup/gobot" target="_blank" rel="noopener">hybridgroup/gobot</a> - Golang framework for robotics, drones, and the Internet of Things (IoT)</li>
@@ -2433,7 +2419,7 @@
 <li><a href="https://github.com/geopaparazzi/geopaparazzi" target="_blank" rel="noopener">geopaparazzi/geopaparazzi</a> - Because not all paparazzis are evil!</li>
 <li><a href="https://github.com/hwding/pdf-unstamper" target="_blank" rel="noopener">hwding/pdf-unstamper</a> - Remove textual watermark of any font, any encoding and any language with pdf-unstamper now!</li>
 <li><a href="https://github.com/billthefarmer/sig-gen" target="_blank" rel="noopener">billthefarmer/sig-gen</a> - Android Signal Generator</li>
-<li><a href="https://github.com/oracle/graal" target="_blank" rel="noopener">oracle/graal</a> - GraalVM compiles Java applications into native executables that start instantly, scale fast, and use fewer compute resources 🚀</li>
+<li><a href="https://github.com/oracle/graal" target="_blank" rel="noopener">oracle/graal</a> - GraalVM compiles applications into native executables that start instantly, scale fast, and use fewer compute resources 🚀</li>
 <li><a href="https://github.com/googlearchive/science-journal" target="_blank" rel="noopener">googlearchive/science-journal</a> - Use the sensors in your mobile devices to perform science experiments. Science doesn’t just happen in the classroom or lab—tools like Science Journal let you see how the world works with just your pho</li>
 <li><a href="https://github.com/Haehnchen/idea-php-annotation-plugin" target="_blank" rel="noopener">Haehnchen/idea-php-annotation-plugin</a> - Add PHP annotation support for PhpStorm and IntelliJ</li>
 <li><a href="https://github.com/amitshekhariitbhu/awesome-android-things" target="_blank" rel="noopener">amitshekhariitbhu/awesome-android-things</a> - A curated list of awesome android things tutorials, libraries and much more at one place</li>
@@ -2468,13 +2454,13 @@
 </ul>
 <h2 id="javascript">JavaScript</h2>
 <ul>
+<li><a href="https://github.com/openseadragon/openseadragon" target="_blank" rel="noopener">openseadragon/openseadragon</a> - An open-source, web-based viewer for zoomable images, implemented in pure JavaScript.</li>
 <li><a href="https://github.com/mozilla-firefox/firefox" target="_blank" rel="noopener">mozilla-firefox/firefox</a> - The official repository of Mozilla&rsquo;s Firefox web browser.</li>
 <li><a href="https://github.com/d-demirci/django-adminlte3" target="_blank" rel="noopener">d-demirci/django-adminlte3</a> - AdminLTE Templates, Template Tags, and Admin Theme for Django</li>
 <li><a href="https://github.com/Mintplex-Labs/anything-llm" target="_blank" rel="noopener">Mintplex-Labs/anything-llm</a> - The all-in-one Desktop &amp; Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.</li>
 <li><a href="https://github.com/Mathics3/mathics-django" target="_blank" rel="noopener">Mathics3/mathics-django</a> - Django front-end to Mathics3</li>
 <li><a href="https://github.com/ZoeyVid/NPMplus" target="_blank" rel="noopener">ZoeyVid/NPMplus</a> - improved fork of nginx-proxy-manager</li>
 <li><a href="https://github.com/PavelDoGreat/WebGL-Fluid-Simulation" target="_blank" rel="noopener">PavelDoGreat/WebGL-Fluid-Simulation</a> - Play with fluids in your browser (works even on mobile)</li>
-<li><a href="https://github.com/willmiao/ComfyUI-Lora-Manager" target="_blank" rel="noopener">willmiao/ComfyUI-Lora-Manager</a> - LoRA Manager for ComfyUI - A powerful extension for organizing, previewing, and integrating LoRA models with metadata and workflow support.</li>
 <li><a href="https://github.com/murdos/musicbrainz-userscripts" target="_blank" rel="noopener">murdos/musicbrainz-userscripts</a> - Collection of userscripts for MusicBrainz, by various authors</li>
 <li><a href="https://github.com/ronkok/Hurmet" target="_blank" rel="noopener">ronkok/Hurmet</a> - Rich text editor on the web, featuring live calculations.</li>
 <li><a href="https://github.com/anvaka/map-of-github" target="_blank" rel="noopener">anvaka/map-of-github</a> - Inspirational Mapping</li>
@@ -2532,7 +2518,6 @@
 <li><a href="https://github.com/winstonjs/winston" target="_blank" rel="noopener">winstonjs/winston</a> - A logger for just about everything.</li>
 <li><a href="https://github.com/verekia/js-stack-from-scratch" target="_blank" rel="noopener">verekia/js-stack-from-scratch</a> - 🛠️⚡ Step-by-step tutorial to build a modern JavaScript stack.</li>
 <li><a href="https://github.com/summernote/summernote" target="_blank" rel="noopener">summernote/summernote</a> - Super simple WYSIWYG editor</li>
-<li><a href="https://github.com/wenzhixin/bootstrap-table" target="_blank" rel="noopener">wenzhixin/bootstrap-table</a> - An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)</li>
 <li><a href="https://github.com/karpathy/convnetjs" target="_blank" rel="noopener">karpathy/convnetjs</a> - Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser.</li>
 <li><a href="https://github.com/dli/paint" target="_blank" rel="noopener">dli/paint</a> - Fluid Paint - <a href="http://david.li/paint" target="_blank" rel="noopener">http://david.li/paint</a></li>
 <li><a href="https://github.com/keplr-io/quiver" target="_blank" rel="noopener">keplr-io/quiver</a> - Interactive convnet features visualization for Keras</li>
@@ -2585,7 +2570,6 @@
 </ul>
 <h2 id="jupyter-notebook">Jupyter Notebook</h2>
 <ul>
-<li><a href="https://github.com/langchain-ai/langchain" target="_blank" rel="noopener">langchain-ai/langchain</a> - 🦜🔗 Build context-aware reasoning applications 🦜🔗</li>
 <li><a href="https://github.com/facebookresearch/sam2" target="_blank" rel="noopener">facebookresearch/sam2</a> - The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the m</li>
 <li><a href="https://github.com/udlbook/udlbook" target="_blank" rel="noopener">udlbook/udlbook</a> - Understanding Deep Learning - Simon J.D. Prince</li>
 <li><a href="https://github.com/tloen/alpaca-lora" target="_blank" rel="noopener">tloen/alpaca-lora</a> - Instruct-tune LLaMA on consumer hardware</li>
@@ -2597,7 +2581,6 @@
 <ul>
 <li><a href="https://github.com/scubajeff/lespas" target="_blank" rel="noopener">scubajeff/lespas</a> - Les Pas, photo album app for Nextcloud user</li>
 <li><a href="https://github.com/breezy-weather/breezy-weather" target="_blank" rel="noopener">breezy-weather/breezy-weather</a> - A feature-rich weather app with good visualizations and more than 50 sources.</li>
-<li><a href="https://github.com/topjohnwu/Magisk" target="_blank" rel="noopener">topjohnwu/Magisk</a> - The Magic Mask for Android</li>
 <li><a href="https://github.com/feelfreelinux/octo4a" target="_blank" rel="noopener">feelfreelinux/octo4a</a> - Use your old Android device as an OctoPrint server.</li>
 <li><a href="https://github.com/JetBrains/kotlin" target="_blank" rel="noopener">JetBrains/kotlin</a> - The Kotlin Programming Language.</li>
 <li><a href="https://github.com/kickstarter/android-oss" target="_blank" rel="noopener">kickstarter/android-oss</a> - Kickstarter for Android. Bring new ideas to life, anywhere.</li>
@@ -2609,6 +2592,10 @@
 <li><a href="https://github.com/WeakAuras/WeakAuras2" target="_blank" rel="noopener">WeakAuras/WeakAuras2</a> - World of Warcraft addon that provides a powerful framework to display customizable graphics on your screen.</li>
 <li><a href="https://github.com/Ludovicus-Maior/WoW-Pro-Guides" target="_blank" rel="noopener">Ludovicus-Maior/WoW-Pro-Guides</a> - A World of Warcraft addon bringing guides into the game.</li>
 </ul>
+<h2 id="mdx">MDX</h2>
+<ul>
+<li><a href="https://github.com/wenzhixin/bootstrap-table" target="_blank" rel="noopener">wenzhixin/bootstrap-table</a> - An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)</li>
+</ul>
 <h2 id="makefile">Makefile</h2>
 <ul>
 <li><a href="https://github.com/13rac1/twemoji-color-font" target="_blank" rel="noopener">13rac1/twemoji-color-font</a> - Twitter Unicode emoji color OpenType-SVG font for Linux/MacOS/Windows</li>
@@ -2617,7 +2604,7 @@
 <h2 id="markdown">Markdown</h2>
 <ul>
 <li><a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank" rel="noopener">codecrafters-io/build-your-own-x</a> - Master programming by recreating your favorite technologies from scratch.</li>
-<li><a href="https://github.com/selwynpolit/d9book" target="_blank" rel="noopener">selwynpolit/d9book</a> - Drupal at your Fingertips: A developers quick reference for Drupal 9 and 10</li>
+<li><a href="https://github.com/selwynpolit/d9book" target="_blank" rel="noopener">selwynpolit/d9book</a> - Drupal at your Fingertips: A modern Drupal quick reference for developers</li>
 </ul>
 <h2 id="nsis">NSIS</h2>
 <ul>
@@ -2643,6 +2630,7 @@
 </ul>
 <h2 id="others">Others</h2>
 <ul>
+<li><a href="https://github.com/spthermo/mechkeyboards" target="_blank" rel="noopener">spthermo/mechkeyboards</a> - DIY 60% mechanical keyboard experience sharing.</li>
 <li><a href="https://github.com/junfanz1/Software-Engineer-Coding-Interviews" target="_blank" rel="noopener">junfanz1/Software-Engineer-Coding-Interviews</a> - Data Structure Algorithms, (GenAI/ML) System Design, Machine Learning, DevOps coding interview practices</li>
 <li><a href="https://github.com/sindresorhus/awesome-whisper" target="_blank" rel="noopener">sindresorhus/awesome-whisper</a> - 🔊 Awesome list for Whisper — an open-source AI-powered speech recognition system developed by OpenAI</li>
 <li><a href="https://github.com/deepseek-ai/DeepSeek-R1" target="_blank" rel="noopener">deepseek-ai/DeepSeek-R1</a> -</li>
@@ -2689,7 +2677,7 @@
 <li><a href="https://github.com/codepath/android_guides" target="_blank" rel="noopener">codepath/android_guides</a> - Extensive Open-Source Guides for Android Developers</li>
 <li><a href="https://github.com/kahun/awesome-sysadmin" target="_blank" rel="noopener">kahun/awesome-sysadmin</a> - A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.</li>
 <li><a href="https://github.com/eellak/transmem" target="_blank" rel="noopener">eellak/transmem</a> - Translation Memory of Greek-English terms</li>
-<li><a href="https://github.com/leereilly/games" target="_blank" rel="noopener">leereilly/games</a> - &#x1f3ae; A list of popular/awesome video games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.</li>
+<li><a href="https://github.com/leereilly/games" target="_blank" rel="noopener">leereilly/games</a> - Archived — A list of games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.</li>
 <li><a href="https://github.com/macfuse/macfuse" target="_blank" rel="noopener">macfuse/macfuse</a> - macFUSE umbrella repository</li>
 <li><a href="https://github.com/crawshaw/sqlitejdbc" target="_blank" rel="noopener">crawshaw/sqlitejdbc</a> - SQLite JDBC Driver</li>
 </ul>
@@ -2758,6 +2746,7 @@
 <h2 id="python">Python</h2>
 <ul>
 <li><a href="https://github.com/langchain-ai/langgraph" target="_blank" rel="noopener">langchain-ai/langgraph</a> - Build resilient language agents as graphs.</li>
+<li><a href="https://github.com/langchain-ai/langchain" target="_blank" rel="noopener">langchain-ai/langchain</a> - 🦜🔗 Build context-aware reasoning applications</li>
 <li><a href="https://github.com/pydantic/pydantic" target="_blank" rel="noopener">pydantic/pydantic</a> - Data validation using Python type hints</li>
 <li><a href="https://github.com/run-llama/llama_index" target="_blank" rel="noopener">run-llama/llama_index</a> - LlamaIndex is the leading framework for building LLM-powered agents over your data.</li>
 <li><a href="https://github.com/KoljaB/RealtimeVoiceChat" target="_blank" rel="noopener">KoljaB/RealtimeVoiceChat</a> - Have a natural, spoken conversation with AI!</li>
@@ -2767,6 +2756,7 @@
 <li><a href="https://github.com/DFRobot/DFRobot_ENS160" target="_blank" rel="noopener">DFRobot/DFRobot_ENS160</a> -</li>
 <li><a href="https://github.com/zauberzeug/nicegui" target="_blank" rel="noopener">zauberzeug/nicegui</a> - Create web-based user interfaces with Python. The nice way.</li>
 <li><a href="https://github.com/dw-0/kiauh" target="_blank" rel="noopener">dw-0/kiauh</a> - Klipper Installation And Update Helper</li>
+<li><a href="https://github.com/willmiao/ComfyUI-Lora-Manager" target="_blank" rel="noopener">willmiao/ComfyUI-Lora-Manager</a> - LoRA Manager for ComfyUI - A powerful extension for organizing, previewing, and integrating LoRA models with metadata and workflow support.</li>
 <li><a href="https://github.com/exo-explore/exo" target="_blank" rel="noopener">exo-explore/exo</a> - Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚</li>
 <li><a href="https://github.com/deepseek-ai/DeepSeek-V3" target="_blank" rel="noopener">deepseek-ai/DeepSeek-V3</a> -</li>
 <li><a href="https://github.com/soimort/you-get" target="_blank" rel="noopener">soimort/you-get</a> - &#x23ec; Dumb downloader that scrapes the web</li>
@@ -2864,8 +2854,12 @@
 </ul>
 <h2 id="rust">Rust</h2>
 <ul>
+<li><a href="https://github.com/Inlyne-Project/inlyne" target="_blank" rel="noopener">Inlyne-Project/inlyne</a> - Introducing Inlyne, a GPU powered yet browserless tool to help you quickly view markdown files in the blink of an eye.</li>
+<li><a href="https://github.com/lovasoa/dezoomify-rs" target="_blank" rel="noopener">lovasoa/dezoomify-rs</a> - Zoomable image downloader for Google Arts &amp; Culture, Zoomify, IIIF, and others</li>
+<li><a href="https://github.com/rustdesk/rustdesk" target="_blank" rel="noopener">rustdesk/rustdesk</a> - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.</li>
 <li><a href="https://github.com/astral-sh/uv" target="_blank" rel="noopener">astral-sh/uv</a> - An extremely fast Python package and project manager, written in Rust.</li>
 <li><a href="https://github.com/zed-industries/zed" target="_blank" rel="noopener">zed-industries/zed</a> - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.</li>
+<li><a href="https://github.com/topjohnwu/Magisk" target="_blank" rel="noopener">topjohnwu/Magisk</a> - The Magic Mask for Android</li>
 <li><a href="https://github.com/obi1kenobi/trustfall" target="_blank" rel="noopener">obi1kenobi/trustfall</a> - A query engine for any combination of data sources. Query your files and APIs as if they were databases!</li>
 <li><a href="https://github.com/ajour/ajour" target="_blank" rel="noopener">ajour/ajour</a> - A World of Warcraft addon manager written in Rust.</li>
 <li><a href="https://github.com/sharkdp/bat" target="_blank" rel="noopener">sharkdp/bat</a> - A cat(1) clone with wings.</li>
@@ -2885,6 +2879,7 @@
 </ul>
 <h2 id="shell">Shell</h2>
 <ul>
+<li><a href="https://github.com/mkasberg/ghostty-ubuntu" target="_blank" rel="noopener">mkasberg/ghostty-ubuntu</a> - Ubuntu/Debian (.deb) packages for Ghostty</li>
 <li><a href="https://github.com/laurent22/rsync-time-backup" target="_blank" rel="noopener">laurent22/rsync-time-backup</a> - Time Machine style backup with rsync.</li>
 <li><a href="https://github.com/quickemu-project/quickemu" target="_blank" rel="noopener">quickemu-project/quickemu</a> - Quickly create and run optimised Windows, macOS and Linux virtual machines</li>
 <li><a href="https://github.com/Naunter/BT_BlockLists" target="_blank" rel="noopener">Naunter/BT_BlockLists</a> - Transmission block list</li>
@@ -2931,10 +2926,12 @@
 </ul>
 <h2 id="typescript">TypeScript</h2>
 <ul>
+<li><a href="https://github.com/unraid/api" target="_blank" rel="noopener">unraid/api</a> - Unraid API / Connect / UI Monorepo</li>
+<li><a href="https://github.com/laurent22/joplin" target="_blank" rel="noopener">laurent22/joplin</a> - Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.</li>
 <li><a href="https://github.com/BlueprintLabIO/markdown-ui" target="_blank" rel="noopener">BlueprintLabIO/markdown-ui</a> - An open standard for rendering interactive widgets in plain Markdown.</li>
 <li><a href="https://github.com/apache/echarts" target="_blank" rel="noopener">apache/echarts</a> - Apache ECharts is a powerful, interactive charting and data visualization library for browser</li>
 <li><a href="https://github.com/linkwarden/linkwarden" target="_blank" rel="noopener">linkwarden/linkwarden</a> - ⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.</li>
-<li><a href="https://github.com/menloresearch/jan" target="_blank" rel="noopener">menloresearch/jan</a> - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer</li>
+<li><a href="https://github.com/menloresearch/jan" target="_blank" rel="noopener">menloresearch/jan</a> - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.</li>
 <li><a href="https://github.com/phosphor-icons/homepage" target="_blank" rel="noopener">phosphor-icons/homepage</a> - The homepage of Phosphor Icons, a flexible icon family for everyone</li>
 <li><a href="https://github.com/microsoft/playwright" target="_blank" rel="noopener">microsoft/playwright</a> - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.</li>
 <li><a href="https://github.com/browserbase/stagehand" target="_blank" rel="noopener">browserbase/stagehand</a> - The AI Browser Automation Framework</li>
@@ -2982,6 +2979,10 @@
 <li><a href="https://github.com/sahat/satellizer" target="_blank" rel="noopener">sahat/satellizer</a> - Token-based AngularJS Authentication</li>
 <li><a href="https://github.com/turbulenz/turbulenz_engine" target="_blank" rel="noopener">turbulenz/turbulenz_engine</a> - Turbulenz is a modular 3D and 2D game framework for making HTML5 powered games for browsers, desktops and mobile devices.</li>
 </ul>
+<h2 id="zig">Zig</h2>
+<ul>
+<li><a href="https://github.com/ghostty-org/ghostty" target="_blank" rel="noopener">ghostty-org/ghostty</a> - 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.</li>
+</ul>
 <h2 id="license">License</h2>
 <p><a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">
 
@@ -3009,9 +3010,9 @@
       </div>
 
       
-  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-09-07T14:25:21.000Z">
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-10-13T10:31:31.000Z">
     <span>Last updated on</span>
-    Sep 7, 2025</time>
+    Oct 13, 2025</time>
 
       <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
         
@@ -3037,7 +3038,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=Awesome%20Stars&amp;body=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fawesome-stars%2F"
+    href="mailto:?subject=Awesome%20Stars&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fawesome-stars%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -3055,7 +3056,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://bsky.app/intent/compose?text=Awesome&#43;Stars%0Ahttps%3A%2F%2Fgeorgelitos.com%2Fpost%2Fawesome-stars%2F"
+    href="https://bsky.app/intent/compose?text=Awesome&#43;Stars%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fawesome-stars%2F"
     title="bluesky"
     aria-label="bluesky"
     id="share-link-bsky"
@@ -3073,7 +3074,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://x.com/intent/tweet?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fawesome-stars%2F&amp;text=Awesome&#43;Stars"
+    href="https://x.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fawesome-stars%2F&amp;text=Awesome&#43;Stars"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -3091,7 +3092,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fawesome-stars%2F&amp;t=Awesome&#43;Stars"
+    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fawesome-stars%2F&amp;t=Awesome&#43;Stars"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -3109,7 +3110,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fawesome-stars%2F&amp;title=Awesome&#43;Stars"
+    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fawesome-stars%2F&amp;title=Awesome&#43;Stars"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -3159,7 +3160,7 @@
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="https://georgelitos.com/" class="no-underline">
+      <a href="http://localhost:1313/" class="no-underline">
       George Litos
       </a>
     </div>
