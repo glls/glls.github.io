@@ -81,7 +81,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
       <pubDate>Sun, 17 Aug 2025 15:42:11 +0300</pubDate>
       <guid>http://localhost:1313/post/lazarus/</guid>
       <description>&lt;p&gt;Hey everyone! Today, I want to share a bit about my programming journey and introduce you to a fantastic, often overlooked tool that&amp;rsquo;s been a consistent companion through the years: &lt;a href=&#34;https://www.lazarus-ide.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lazarus Free Pascal&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;My story in coding began, like many in the late 80s and early 90s, with the legendary &lt;strong&gt;Turbo C&lt;/strong&gt;.  I remember the thrill of typing out code in that stark blue text-mode editor, and the satisfaction of seeing my C programs compile. But there was a challenge, especially with my trusty one-floppy 8088 PC, an &lt;strong&gt;Olivetti Prodest PC 1&lt;/strong&gt;. Compiling anything beyond the simplest applications meant a constant dance of swapping floppy disks – one for the compiler, another for the libraries, then back again. It was a tedious, but character-building, experience!
+&lt;p&gt;My story in (real) coding began, like many in the late 80s and early 90s, with the legendary &lt;strong&gt;Turbo C&lt;/strong&gt;.  I remember the thrill of typing out code in that stark blue text-mode editor, and the satisfaction of seeing my C programs compile. But there was a challenge, especially with my trusty one-floppy 8088 PC, an &lt;strong&gt;Olivetti Prodest PC 1&lt;/strong&gt;. Compiling anything beyond the simplest applications meant a constant dance of swapping floppy disks – one for the compiler, another for the libraries, then back again. It was a tedious, but character-building, experience!
 
 
 
@@ -167,6 +167,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
+&lt;p&gt;Several years were spent gaming and programming on an Amiga 500 with Lattice C and Kick Pascal, battling tight memory limits, quirky toolchains, and constant floppy swaps to learn the ins and outs of building small projects for AmigaDOS.&lt;/p&gt;
 &lt;p&gt;Fast forward to the 2000s, and the Windows era. Borland continued to be a major player with &lt;strong&gt;Borland Delphi&lt;/strong&gt; and &lt;strong&gt;C++Builder&lt;/strong&gt;.   Delphi, with its visual component library (VCL) and rapid application development (RAD) capabilities, was a game-changer for Windows GUI programming. Building sophisticated applications with drag-and-drop ease was incredibly empowering. C++Builder offered a similar RAD experience for C++ developers, leveraging the same powerful VCL framework. These tools were at the forefront of Windows development for a long time.&lt;/p&gt;
 &lt;p&gt;
 
@@ -263,7 +264,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
 &lt;p&gt;And many more! The list is constantly growing, check the wiki &lt;a href=&#34;https://wiki.freepascal.org/Projects_using_Free_Pascal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, showcasing the power and versatility of Lazarus FPC for various types of software.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;my-ongoing-journey&#34;&gt;My Ongoing Journey&lt;/h2&gt;
-&lt;p&gt;From the floppy-swapping days of Turbo C and Turbo Pascal to the visual magic of Delphi and C++Builder, and now to the open-source, cross-platform power of Lazarus FPC, my journey in programming has been a continuous evolution.&lt;/p&gt;
+&lt;p&gt;My Pascal/C/C++ programming journey has steadily evolved — from the floppy-swapping days of Turbo C and Turbo Pascal, through the visual RAD era of Delphi and C++Builder, to the open-source, cross-platform power of Lazarus FPC.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re looking for a powerful, flexible, and free alternative for building native applications across different operating systems, I highly recommend giving Lazarus FPC a try. You might just find your new favorite development environment!&lt;/p&gt;
 &lt;p&gt;Happy coding! ✨&lt;/p&gt;
 &lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
