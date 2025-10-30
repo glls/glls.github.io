@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: October 26, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: October 30, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="A curated list of my GitHub stars!" />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/awesome-stars/" />
+  <link rel="alternate" hreflang="en-us" href="https://georgelitos.com/post/awesome-stars/" />
 
   
   
@@ -133,6 +133,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F7MV8FM7F9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-F7MV8FM7F9', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -164,7 +203,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_c27282699091eaa8.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_a2aab2dee7c8a784.png" />
 
-  <link rel="canonical" href="http://localhost:1313/post/awesome-stars/" />
+  <link rel="canonical" href="https://georgelitos.com/post/awesome-stars/" />
 
   
   
@@ -189,10 +228,10 @@
     <meta property="twitter:creator" content="@gl_ls" />
   
   <meta property="og:site_name" content="George Litos" />
-  <meta property="og:url" content="http://localhost:1313/post/awesome-stars/" />
+  <meta property="og:url" content="https://georgelitos.com/post/awesome-stars/" />
   <meta property="og:title" content="Awesome Stars | George Litos" />
-  <meta property="og:description" content="A curated list of my GitHub stars!" /><meta property="og:image" content="http://localhost:1313/post/awesome-stars/featured.jpg" />
-    <meta property="twitter:image" content="http://localhost:1313/post/awesome-stars/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="A curated list of my GitHub stars!" /><meta property="og:image" content="https://georgelitos.com/post/awesome-stars/featured.jpg" />
+    <meta property="twitter:image" content="https://georgelitos.com/post/awesome-stars/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -200,7 +239,7 @@
         content="2025-03-10T18:08:16&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2025-10-26T07:50:40&#43;00:00">
+    <meta property="article:modified_time" content="2025-10-30T08:59:49&#43;00:00">
   
 
   
@@ -835,8 +874,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
+    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
   ></script>
 
   
@@ -2020,7 +2059,7 @@
         
         <span class="mx-1">·</span>
         <span class="mx-1">
-          41 min read
+          42 min read
         </span>
         
         </div>
@@ -2207,6 +2246,7 @@
 </ul>
 <h2 id="c-2">C++</h2>
 <ul>
+<li><a href="https://github.com/Cirrus-Minor/witchblast" target="_blank" rel="noopener">Cirrus-Minor/witchblast</a> - Roguelite dungeon crawler game</li>
 <li><a href="https://github.com/aristocratos/btop" target="_blank" rel="noopener">aristocratos/btop</a> - A monitor of resources</li>
 <li><a href="https://github.com/alicevision/AliceVision" target="_blank" rel="noopener">alicevision/AliceVision</a> - 3D Computer Vision Framework</li>
 <li><a href="https://github.com/zen-browser/desktop" target="_blank" rel="noopener">zen-browser/desktop</a> - Welcome to a calmer internet</li>
@@ -2570,7 +2610,7 @@
 </ul>
 <h2 id="mdx">MDX</h2>
 <ul>
-<li><a href="https://github.com/wenzhixin/bootstrap-table" target="_blank" rel="noopener">wenzhixin/bootstrap-table</a> - An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)</li>
+<li><a href="https://github.com/wenzhixin/bootstrap-table" target="_blank" rel="noopener">wenzhixin/bootstrap-table</a> - An extended table for integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)</li>
 </ul>
 <h2 id="makefile">Makefile</h2>
 <ul>
@@ -2611,7 +2651,7 @@
 <li><a href="https://github.com/sindresorhus/awesome-whisper" target="_blank" rel="noopener">sindresorhus/awesome-whisper</a> - 🔊 Awesome list for Whisper — an open-source AI-powered speech recognition system developed by OpenAI</li>
 <li><a href="https://github.com/deepseek-ai/DeepSeek-R1" target="_blank" rel="noopener">deepseek-ai/DeepSeek-R1</a> -</li>
 <li><a href="https://github.com/NVIDIAGameWorks/rtx-remix" target="_blank" rel="noopener">NVIDIAGameWorks/rtx-remix</a> - Combined repo for the RTX-Remix runtime and toolkit</li>
-<li><a href="https://github.com/mlfoundations/MINT-1T" target="_blank" rel="noopener">mlfoundations/MINT-1T</a> - MINT-1T: A one trillion token multimodal interleaved dataset.</li>
+<li><a href="https://github.com/mlfoundations/MINT-1T" target="_blank" rel="noopener">mlfoundations/MINT-1T</a> - 🍃 MINT-1T: A one trillion token multimodal interleaved dataset.</li>
 <li><a href="https://github.com/nicanorflavier/spf-dkim-dmarc-simplified" target="_blank" rel="noopener">nicanorflavier/spf-dkim-dmarc-simplified</a> - Email security is a key part of internet communication. But what are SPF, DKIM, and DMARC, and how do they work? This guide will explain it all in simple terms to make these concepts clearer.</li>
 <li><a href="https://github.com/Kavex/GameDev-Resources" target="_blank" rel="noopener">Kavex/GameDev-Resources</a> - &#x1f3ae; &#x1f3b2; A wonderful list of Game Development resources.</li>
 <li><a href="https://github.com/arcataroger/awesome-engineering-games" target="_blank" rel="noopener">arcataroger/awesome-engineering-games</a> - A curated list of engineering-related video games rated Very Positive or higher on Steam</li>
@@ -2721,6 +2761,7 @@
 </ul>
 <h2 id="python">Python</h2>
 <ul>
+<li><a href="https://github.com/google-research/tnco" target="_blank" rel="noopener">google-research/tnco</a> - TNCO is a heuristic tool that optimizes tensor network contraction paths.</li>
 <li><a href="https://github.com/langchain-ai/langgraph" target="_blank" rel="noopener">langchain-ai/langgraph</a> - Build resilient language agents as graphs.</li>
 <li><a href="https://github.com/langchain-ai/langchain" target="_blank" rel="noopener">langchain-ai/langchain</a> - 🦜🔗 Build context-aware reasoning applications</li>
 <li><a href="https://github.com/pydantic/pydantic" target="_blank" rel="noopener">pydantic/pydantic</a> - Data validation using Python type hints</li>
@@ -2831,6 +2872,7 @@
 </ul>
 <h2 id="rust">Rust</h2>
 <ul>
+<li><a href="https://github.com/ruffle-rs/ruffle" target="_blank" rel="noopener">ruffle-rs/ruffle</a> - A Flash Player emulator written in Rust</li>
 <li><a href="https://github.com/Inlyne-Project/inlyne" target="_blank" rel="noopener">Inlyne-Project/inlyne</a> - Introducing Inlyne, a GPU powered yet browserless tool to help you quickly view markdown files in the blink of an eye.</li>
 <li><a href="https://github.com/lovasoa/dezoomify-rs" target="_blank" rel="noopener">lovasoa/dezoomify-rs</a> - Zoomable image downloader for Google Arts &amp; Culture, Zoomify, IIIF, and others</li>
 <li><a href="https://github.com/rustdesk/rustdesk" target="_blank" rel="noopener">rustdesk/rustdesk</a> - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.</li>
@@ -2899,12 +2941,13 @@
 </ul>
 <h2 id="typescript">TypeScript</h2>
 <ul>
+<li><a href="https://github.com/shadcn-ui/ui" target="_blank" rel="noopener">shadcn-ui/ui</a> - A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.</li>
 <li><a href="https://github.com/unraid/api" target="_blank" rel="noopener">unraid/api</a> - Unraid API / Connect / UI Monorepo</li>
 <li><a href="https://github.com/laurent22/joplin" target="_blank" rel="noopener">laurent22/joplin</a> - Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.</li>
 <li><a href="https://github.com/BlueprintLabIO/markdown-ui" target="_blank" rel="noopener">BlueprintLabIO/markdown-ui</a> - An open standard for rendering interactive widgets in plain Markdown.</li>
 <li><a href="https://github.com/apache/echarts" target="_blank" rel="noopener">apache/echarts</a> - Apache ECharts is a powerful, interactive charting and data visualization library for browser</li>
 <li><a href="https://github.com/linkwarden/linkwarden" target="_blank" rel="noopener">linkwarden/linkwarden</a> - ⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.</li>
-<li><a href="https://github.com/menloresearch/jan" target="_blank" rel="noopener">menloresearch/jan</a> - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.</li>
+<li><a href="https://github.com/janhq/jan" target="_blank" rel="noopener">janhq/jan</a> - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.</li>
 <li><a href="https://github.com/phosphor-icons/homepage" target="_blank" rel="noopener">phosphor-icons/homepage</a> - The homepage of Phosphor Icons, a flexible icon family for everyone</li>
 <li><a href="https://github.com/microsoft/playwright" target="_blank" rel="noopener">microsoft/playwright</a> - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.</li>
 <li><a href="https://github.com/browserbase/stagehand" target="_blank" rel="noopener">browserbase/stagehand</a> - The AI Browser Automation Framework</li>
@@ -2983,9 +3026,9 @@
       </div>
 
       
-  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-10-26T07:50:40.000Z">
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-10-30T08:59:49.000Z">
     <span>Last updated on</span>
-    Oct 26, 2025</time>
+    Oct 30, 2025</time>
 
       <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
         
@@ -3011,7 +3054,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=Awesome%20Stars&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fawesome-stars%2F"
+    href="mailto:?subject=Awesome%20Stars&amp;body=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fawesome-stars%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -3029,7 +3072,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://bsky.app/intent/compose?text=Awesome&#43;Stars%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fawesome-stars%2F"
+    href="https://bsky.app/intent/compose?text=Awesome&#43;Stars%0Ahttps%3A%2F%2Fgeorgelitos.com%2Fpost%2Fawesome-stars%2F"
     title="bluesky"
     aria-label="bluesky"
     id="share-link-bsky"
@@ -3047,7 +3090,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://x.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fawesome-stars%2F&amp;text=Awesome&#43;Stars"
+    href="https://x.com/intent/tweet?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fawesome-stars%2F&amp;text=Awesome&#43;Stars"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -3065,7 +3108,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fawesome-stars%2F&amp;t=Awesome&#43;Stars"
+    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fawesome-stars%2F&amp;t=Awesome&#43;Stars"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -3083,7 +3126,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fawesome-stars%2F&amp;title=Awesome&#43;Stars"
+    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fgeorgelitos.com%2Fpost%2Fawesome-stars%2F&amp;title=Awesome&#43;Stars"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -3133,7 +3176,7 @@
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="http://localhost:1313/" class="no-underline">
+      <a href="https://georgelitos.com/" class="no-underline">
       George Litos
       </a>
     </div>

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>George Litos</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/</link>
+      <atom:link href="https://georgelitos.com/index.xml" rel="self" type="application/rss+xml" />
     <description>George Litos</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>George Litos</title>
-      <link>http://localhost:1313/</link>
+      <link>https://georgelitos.com/</link>
     </image>
     
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/slides/docker/</link>
+      <link>https://georgelitos.com/slides/docker/</link>
       <pubDate>Fri, 05 Sep 2025 17:23:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/docker/</guid>
+      <guid>https://georgelitos.com/slides/docker/</guid>
       <description>&lt;section&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/docker/logo.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/docker/logo.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;docker-a-deep-dive&#34;&gt;&amp;ldquo;Docker: A Deep Dive&amp;rdquo;&lt;/h2&gt;
@@ -32,17 +32,17 @@
     
     <item>
       <title>LittleOllama</title>
-      <link>http://localhost:1313/project/littleollama/</link>
+      <link>https://georgelitos.com/project/littleollama/</link>
       <pubDate>Wed, 03 Sep 2025 20:30:00 +0300</pubDate>
-      <guid>http://localhost:1313/project/littleollama/</guid>
+      <guid>https://georgelitos.com/project/littleollama/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/talk/docker/</link>
+      <link>https://georgelitos.com/talk/docker/</link>
       <pubDate>Mon, 01 Sep 2025 23:33:00 +0300</pubDate>
-      <guid>http://localhost:1313/talk/docker/</guid>
+      <guid>https://georgelitos.com/talk/docker/</guid>
       <description>&lt;h2 id=&#34;what-is-docker&#34;&gt;What is Docker?&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; is a containerization platform that packages applications and their dependencies into lightweight, portable containers. Think of a container as a standardized shipping box for software - it includes everything needed to run an application: code, runtime, system tools, libraries, and settings.&lt;/p&gt;
 &lt;h2 id=&#34;how-docker-works&#34;&gt;How Docker Works&lt;/h2&gt;
@@ -61,15 +61,15 @@
 &lt;/span&gt;
   &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation.&lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;You can also check more &lt;a href=&#34;http://localhost:1313/tags/docker/&#34;&gt;Docker related posts&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can also check more &lt;a href=&#34;https://georgelitos.com/tags/docker/&#34;&gt;Docker related posts&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Essential Browser Extensions for Security, Productivity, and Media</title>
-      <link>http://localhost:1313/post/browser_ext/</link>
+      <link>https://georgelitos.com/post/browser_ext/</link>
       <pubDate>Mon, 01 Sep 2025 22:40:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/browser_ext/</guid>
+      <guid>https://georgelitos.com/post/browser_ext/</guid>
       <description>&lt;p&gt;Here&amp;rsquo;s a list of my favorite browser extensions (each author&amp;rsquo;s own words in quotes, original images included):&lt;/p&gt;
 &lt;img src=&#34;https://addons.mozilla.org/user-media/addon_icons/607/607454-64.png?modified=mcrushed&#34; align=&#34;middle&#34; width=&#34;64&#34;/&gt;
 &lt;p&gt;&lt;strong&gt;uBlock Origin&lt;/strong&gt; - Finally, an efficient blocker. Easy on CPU and memory&lt;br&gt;
@@ -112,9 +112,9 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
     
     <item>
       <title>From Floppy Swaps to Cross-Platform Power: My Journey to Lazarus FPC 🚀</title>
-      <link>http://localhost:1313/post/lazarus/</link>
+      <link>https://georgelitos.com/post/lazarus/</link>
       <pubDate>Sun, 17 Aug 2025 15:42:11 +0300</pubDate>
-      <guid>http://localhost:1313/post/lazarus/</guid>
+      <guid>https://georgelitos.com/post/lazarus/</guid>
       <description>&lt;p&gt;Hey everyone! Today, I want to share a bit about my programming journey and introduce you to a fantastic, often overlooked tool that&amp;rsquo;s been a consistent companion through the years: &lt;a href=&#34;https://www.lazarus-ide.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lazarus Free Pascal&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My story in (real) coding began, like many in the late 80s and early 90s, with the legendary &lt;strong&gt;Turbo C&lt;/strong&gt;.  I remember the thrill of typing out code in that stark blue text-mode editor, and the satisfaction of seeing my C programs compile. But there was a challenge, especially with my trusty one-floppy 8088 PC, an &lt;strong&gt;Olivetti Prodest PC 1&lt;/strong&gt;. Compiling anything beyond the simplest applications meant a constant dance of swapping floppy disks – one for the compiler, another for the libraries, then back again. It was a tedious, but character-building, experience!
 
@@ -139,7 +139,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
                /post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp 400w,
                /post/lazarus/pc1_hu_580e1c8485abe4e7.webp 760w,
                /post/lazarus/pc1_hu_5feaa3ebb2305ae1.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp&#34;
                width=&#34;591&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -168,7 +168,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
                /post/lazarus/tc2_hu_fd89aab6ce8b4268.webp 400w,
                /post/lazarus/tc2_hu_79084dfa30ead128.webp 760w,
                /post/lazarus/tc2_hu_51cc566bee39d2d6.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/lazarus/tc2_hu_fd89aab6ce8b4268.webp&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/tc2_hu_fd89aab6ce8b4268.webp&#34;
                width=&#34;648&#34;
                height=&#34;408&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -196,7 +196,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
                /post/lazarus/tp55_hu_fdae864f924b992d.webp 400w,
                /post/lazarus/tp55_hu_7314a757ba8dc1c3.webp 760w,
                /post/lazarus/tp55_hu_70d844661605fc49.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/lazarus/tp55_hu_fdae864f924b992d.webp&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/tp55_hu_fdae864f924b992d.webp&#34;
                width=&#34;760&#34;
                height=&#34;470&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -226,7 +226,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
                /post/lazarus/delphi7_hu_d9a1f8397a3a105.webp 400w,
                /post/lazarus/delphi7_hu_2267375b731544ec.webp 760w,
                /post/lazarus/delphi7_hu_c10732caa21425e0.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/lazarus/delphi7_hu_d9a1f8397a3a105.webp&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/delphi7_hu_d9a1f8397a3a105.webp&#34;
                width=&#34;640&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -258,7 +258,7 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
                /post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp 400w,
                /post/lazarus/lazarus_hu_5d46c97a4c994a61.webp 760w,
                /post/lazarus/lazarus_hu_68167d342356072a.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp&#34;
                width=&#34;760&#34;
                height=&#34;527&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -319,9 +319,9 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
     
     <item>
       <title>A Developer&#39;s Introduction to Unraid</title>
-      <link>http://localhost:1313/post/unraid/</link>
+      <link>https://georgelitos.com/post/unraid/</link>
       <pubDate>Sun, 17 Aug 2025 14:49:36 +0300</pubDate>
-      <guid>http://localhost:1313/post/unraid/</guid>
+      <guid>https://georgelitos.com/post/unraid/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://unraid.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unraid&lt;/a&gt; is a proprietary Linux-based operating system designed for &lt;strong&gt;home servers and small businesses&lt;/strong&gt;. It&amp;rsquo;s known for its unique storage management system, which provides flexibility and data protection. Developers often use Unraid to run a variety of services, including web servers, databases, and CI/CD tools, all on a single machine.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;key-features-for-developers&#34;&gt;Key Features for Developers&lt;/h2&gt;
@@ -360,13 +360,13 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
     
     <item>
       <title>The Digital Archivist&#39;s Toolkit: Navidrome, Picard, and Supersonic for the Modern Music Collection</title>
-      <link>http://localhost:1313/post/music/</link>
+      <link>https://georgelitos.com/post/music/</link>
       <pubDate>Sun, 17 Aug 2025 14:17:57 +0300</pubDate>
-      <guid>http://localhost:1313/post/music/</guid>
+      <guid>https://georgelitos.com/post/music/</guid>
       <description>&lt;p&gt;In an age dominated by music streaming, a dedicated community of audiophiles and music lovers is preserving the art of the personal music collection. They are digital archivists, meticulously curating libraries of high-fidelity audio files, from rare vinyl rips to lossless studio masters. This pursuit, however, requires more than just a hard drive full of music; it demands a robust set of tools for organization, management, and playback. This is where the triumvirate of &lt;strong&gt;Navidrome&lt;/strong&gt;, &lt;strong&gt;Picard&lt;/strong&gt;, and &lt;strong&gt;Supersonic&lt;/strong&gt; comes into play, offering a powerful, open-source ecosystem for the serious collector.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;navidrome-your-personal-streaming-service&#34;&gt;Navidrome: Your Personal Streaming Service&lt;/h3&gt;
-&lt;p&gt;At the heart of the modern self-hosted music setup lies a server (&lt;a href=&#34;http://localhost:1313/post/unraid/&#34;&gt;UNRAID&lt;/a&gt; in my case), and &lt;a href=&#34;https://www.navidrome.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Navidrome&lt;/a&gt; has emerged as a favorite in this space. Imagine having your very own Spotify, but with your meticulously curated library instead of a corporate-controlled catalog. That&amp;rsquo;s the essence of Navidrome. It is a lightweight, open-source music server that allows you to stream your personal music collection from any web browser or mobile device.&lt;/p&gt;
+&lt;p&gt;At the heart of the modern self-hosted music setup lies a server (&lt;a href=&#34;https://georgelitos.com/post/unraid/&#34;&gt;UNRAID&lt;/a&gt; in my case), and &lt;a href=&#34;https://www.navidrome.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Navidrome&lt;/a&gt; has emerged as a favorite in this space. Imagine having your very own Spotify, but with your meticulously curated library instead of a corporate-controlled catalog. That&amp;rsquo;s the essence of Navidrome. It is a lightweight, open-source music server that allows you to stream your personal music collection from any web browser or mobile device.&lt;/p&gt;
 &lt;p&gt;Unlike commercial streaming services that can abruptly alter their catalogs or downgrade audio quality, Navidrome gives you complete control. It&amp;rsquo;s designed to handle very large music collections, with developers testing it on libraries of up to 900,000 songs. Its resource-efficient nature means it can run smoothly on low-powered devices like a Raspberry Pi, making it accessible to a wide range of users.&lt;/p&gt;
 &lt;p&gt;Navidrome&amp;rsquo;s web interface is modern, responsive, and easy to navigate. It automatically scans your library for new files and changes, ensuring your collection is always up-to-date. But its true power lies in its compatibility. Navidrome supports the Subsonic API, a de facto standard for music server clients. This means you can use a variety of third-party mobile apps for iOS and Android, such as DSub, Substreamer, or Ultrasonic, to access your music on the go. This flexibility, combined with features like on-the-fly transcoding to save mobile data and a multi-user system for family and friends, makes Navidrome the cornerstone of a personal music cloud.&lt;/p&gt;
 &lt;hr&gt;
@@ -389,17 +389,17 @@ by &lt;a href=&#34;https://www.downloadhelper.net/&#34; target=&#34;_blank&#34; 
     
     <item>
       <title>Sensors</title>
-      <link>http://localhost:1313/project/sensors-framework/</link>
+      <link>https://georgelitos.com/project/sensors-framework/</link>
       <pubDate>Sun, 06 Jul 2025 12:30:00 +0300</pubDate>
-      <guid>http://localhost:1313/project/sensors-framework/</guid>
+      <guid>https://georgelitos.com/project/sensors-framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Amiberry-Lite on Raspberry Pi</title>
-      <link>http://localhost:1313/post/amiberry/</link>
+      <link>https://georgelitos.com/post/amiberry/</link>
       <pubDate>Mon, 21 Apr 2025 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/amiberry/</guid>
+      <guid>https://georgelitos.com/post/amiberry/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://amiberry.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amiberry&lt;/a&gt; by Dimitris Panokostas is the best emulator for the &lt;a href=&#34;https://en.wikipedia.org/wiki/Amiga&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amiga&lt;/a&gt; home computer. It is designed to run on Raspberry Pi, Linux and MacOS. If you are using Windows, try &lt;a href=&#34;https://www.winuae.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WinUAE&lt;/a&gt; which is the original emulator that Amiberry is forked from, with Amiberry being optimized for Raspberry Pi.&lt;/p&gt;
 &lt;p&gt;It provides a user-friendly interface and supports a wide range of Amiga games and applications. Amiberry like WinUAE, aims to deliver an authentic Amiga experience by accurately emulating the hardware and software of the original system. It includes features such as support for WHDLoad games, customizable controls, and various display options.&lt;/p&gt;
 &lt;p&gt;Homepage: &lt;a href=&#34;https://amiberry.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://amiberry.com&lt;/a&gt; &lt;br&gt;
@@ -442,7 +442,7 @@ Wiki: &lt;a href=&#34;https://github.com/BlitterStudio/amiberry/wiki&#34; target
                /post/amiberry/scr_title_hu_5533267ce001e0b0.webp 400w,
                /post/amiberry/scr_title_hu_c340b0156feb1026.webp 760w,
                /post/amiberry/scr_title_hu_49c6e9169e6e7ac9.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/amiberry/scr_title_hu_5533267ce001e0b0.webp&#34;
+               src=&#34;https://georgelitos.com/post/amiberry/scr_title_hu_5533267ce001e0b0.webp&#34;
                width=&#34;760&#34;
                height=&#34;497&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -471,7 +471,7 @@ Get your &lt;a href=&#34;https://en.wikipedia.org/wiki/Amiga_Disk_File&#34; targ
                /post/amiberry/scr_gui_hu_d4eaaa6f6658f014.webp 400w,
                /post/amiberry/scr_gui_hu_d0ec491f1a9a328a.webp 760w,
                /post/amiberry/scr_gui_hu_9b6b038719927593.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/amiberry/scr_gui_hu_d4eaaa6f6658f014.webp&#34;
+               src=&#34;https://georgelitos.com/post/amiberry/scr_gui_hu_d4eaaa6f6658f014.webp&#34;
                width=&#34;760&#34;
                height=&#34;627&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -500,7 +500,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
                /post/amiberry/scr_game_hu_5e62d461e26f5379.webp 400w,
                /post/amiberry/scr_game_hu_fac4d28b755b8a90.webp 760w,
                /post/amiberry/scr_game_hu_6d7291e532dd20cd.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/amiberry/scr_game_hu_5e62d461e26f5379.webp&#34;
+               src=&#34;https://georgelitos.com/post/amiberry/scr_game_hu_5e62d461e26f5379.webp&#34;
                width=&#34;760&#34;
                height=&#34;548&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -514,9 +514,9 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
     
     <item>
       <title>Awesome Stars</title>
-      <link>http://localhost:1313/post/awesome-stars/</link>
+      <link>https://georgelitos.com/post/awesome-stars/</link>
       <pubDate>Mon, 10 Mar 2025 18:08:16 +0000</pubDate>
-      <guid>http://localhost:1313/post/awesome-stars/</guid>
+      <guid>https://georgelitos.com/post/awesome-stars/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;A curated list of my GitHub stars! Generated by &lt;a href=&#34;https://github.com/maguowei/starred&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;starred&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
@@ -659,6 +659,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;c-2&#34;&gt;C++&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Cirrus-Minor/witchblast&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cirrus-Minor/witchblast&lt;/a&gt; - Roguelite dungeon crawler game&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/aristocratos/btop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aristocratos/btop&lt;/a&gt; - A monitor of resources&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/alicevision/AliceVision&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;alicevision/AliceVision&lt;/a&gt; - 3D Computer Vision Framework&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/zen-browser/desktop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zen-browser/desktop&lt;/a&gt; - Welcome to a calmer internet&lt;/li&gt;
@@ -1022,7 +1023,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;mdx&#34;&gt;MDX&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/wenzhixin/bootstrap-table&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wenzhixin/bootstrap-table&lt;/a&gt; - An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wenzhixin/bootstrap-table&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wenzhixin/bootstrap-table&lt;/a&gt; - An extended table for integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;makefile&#34;&gt;Makefile&lt;/h2&gt;
 &lt;ul&gt;
@@ -1063,7 +1064,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;li&gt;&lt;a href=&#34;https://github.com/sindresorhus/awesome-whisper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sindresorhus/awesome-whisper&lt;/a&gt; - 🔊 Awesome list for Whisper — an open-source AI-powered speech recognition system developed by OpenAI&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/deepseek-ai/DeepSeek-R1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;deepseek-ai/DeepSeek-R1&lt;/a&gt; -&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/NVIDIAGameWorks/rtx-remix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIAGameWorks/rtx-remix&lt;/a&gt; - Combined repo for the RTX-Remix runtime and toolkit&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mlfoundations/MINT-1T&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mlfoundations/MINT-1T&lt;/a&gt; - MINT-1T: A one trillion token multimodal interleaved dataset.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mlfoundations/MINT-1T&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mlfoundations/MINT-1T&lt;/a&gt; - 🍃 MINT-1T: A one trillion token multimodal interleaved dataset.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/nicanorflavier/spf-dkim-dmarc-simplified&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nicanorflavier/spf-dkim-dmarc-simplified&lt;/a&gt; - Email security is a key part of internet communication. But what are SPF, DKIM, and DMARC, and how do they work? This guide will explain it all in simple terms to make these concepts clearer.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Kavex/GameDev-Resources&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kavex/GameDev-Resources&lt;/a&gt; - &amp;#x1f3ae; &amp;#x1f3b2; A wonderful list of Game Development resources.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/arcataroger/awesome-engineering-games&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arcataroger/awesome-engineering-games&lt;/a&gt; - A curated list of engineering-related video games rated Very Positive or higher on Steam&lt;/li&gt;
@@ -1173,6 +1174,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google-research/tnco&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;google-research/tnco&lt;/a&gt; - TNCO is a heuristic tool that optimizes tensor network contraction paths.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langgraph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;langchain-ai/langgraph&lt;/a&gt; - Build resilient language agents as graphs.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langchain&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;langchain-ai/langchain&lt;/a&gt; - 🦜🔗 Build context-aware reasoning applications&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/pydantic/pydantic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pydantic/pydantic&lt;/a&gt; - Data validation using Python type hints&lt;/li&gt;
@@ -1283,6 +1285,7 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;rust&#34;&gt;Rust&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ruffle-rs/ruffle&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ruffle-rs/ruffle&lt;/a&gt; - A Flash Player emulator written in Rust&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Inlyne-Project/inlyne&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Inlyne-Project/inlyne&lt;/a&gt; - Introducing Inlyne, a GPU powered yet browserless tool to help you quickly view markdown files in the blink of an eye.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/lovasoa/dezoomify-rs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lovasoa/dezoomify-rs&lt;/a&gt; - Zoomable image downloader for Google Arts &amp;amp; Culture, Zoomify, IIIF, and others&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/rustdesk/rustdesk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rustdesk/rustdesk&lt;/a&gt; - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.&lt;/li&gt;
@@ -1351,12 +1354,13 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
 &lt;/ul&gt;
 &lt;h2 id=&#34;typescript&#34;&gt;TypeScript&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shadcn-ui/ui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shadcn-ui/ui&lt;/a&gt; - A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/unraid/api&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;unraid/api&lt;/a&gt; - Unraid API / Connect / UI Monorepo&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/laurent22/joplin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;laurent22/joplin&lt;/a&gt; - Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/BlueprintLabIO/markdown-ui&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BlueprintLabIO/markdown-ui&lt;/a&gt; - An open standard for rendering interactive widgets in plain Markdown.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/apache/echarts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;apache/echarts&lt;/a&gt; - Apache ECharts is a powerful, interactive charting and data visualization library for browser&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/linkwarden/linkwarden&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;linkwarden/linkwarden&lt;/a&gt; - ⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/menloresearch/jan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;menloresearch/jan&lt;/a&gt; - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/janhq/jan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;janhq/jan&lt;/a&gt; - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/phosphor-icons/homepage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;phosphor-icons/homepage&lt;/a&gt; - The homepage of Phosphor Icons, a flexible icon family for everyone&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/playwright&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;microsoft/playwright&lt;/a&gt; - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/browserbase/stagehand&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;browserbase/stagehand&lt;/a&gt; - The AI Browser Automation Framework&lt;/li&gt;
@@ -1436,9 +1440,9 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
     
     <item>
       <title>Space8</title>
-      <link>http://localhost:1313/project/space8/</link>
+      <link>https://georgelitos.com/project/space8/</link>
       <pubDate>Wed, 05 Jun 2024 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/space8/</guid>
+      <guid>https://georgelitos.com/project/space8/</guid>
       <description>&lt;p&gt;Space8 is a retro style shoot&amp;rsquo;em up game. The player controls a spaceship that can move in all directions and shoot at enemies. The game is set in space and the player must avoid asteroids and enemy ships while shooting them down. The game features multiple levels with increasing difficulty and a boss fight at the end. The player can collect power-ups to upgrade their ship and weapons. The game has a high score system to keep track of the player&amp;rsquo;s progress. Space8 is a fun and challenging game that will keep players entertained for hours.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a name=&#34;privacy&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1457,25 +1461,25 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
     
     <item>
       <title>Benchmarking API Frameworks</title>
-      <link>http://localhost:1313/project/benchmark-api/</link>
+      <link>https://georgelitos.com/project/benchmark-api/</link>
       <pubDate>Mon, 20 May 2024 23:34:00 +0300</pubDate>
-      <guid>http://localhost:1313/project/benchmark-api/</guid>
+      <guid>https://georgelitos.com/project/benchmark-api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://georgelitos.com/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://georgelitos.com/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wireguard: A Better VPN</title>
-      <link>http://localhost:1313/post/wireguard/</link>
+      <link>https://georgelitos.com/post/wireguard/</link>
       <pubDate>Sat, 27 Apr 2024 18:34:13 +0300</pubDate>
-      <guid>http://localhost:1313/post/wireguard/</guid>
+      <guid>https://georgelitos.com/post/wireguard/</guid>
       <description>&lt;p&gt;Virtual Private Networks &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(VPNs)&lt;/a&gt; are essential tools for protecting your online privacy and security. But traditional VPNs can sometimes be slow and bog down your connection. &lt;a href=&#34;https://www.wireguard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WireGuard&lt;/a&gt; is a new, innovative VPN protocol that offers several advantages over traditional options, it has a cool logo too 😎.&lt;/p&gt;
 &lt;p&gt;WireGuard is much simpler and leaner than older VPN protocols. This means it&amp;rsquo;s faster and more efficient, using fewer resources and providing a smoother online experience. On top of that, WireGuard prioritizes strong security. It utilizes modern cryptographic techniques to keep your data safe and encrypted.&lt;/p&gt;
 &lt;p&gt;WireGuard is also easy to set up and use. It&amp;rsquo;s available on a wide range of platforms, including Linux, macOS, Windows, Android, and iOS. You can quickly configure WireGuard to connect to a VPN server and start protecting your online activities.&lt;/p&gt;
@@ -1487,9 +1491,9 @@ Select the &amp;ldquo;Floppy Drives&amp;rdquo; screen and load the ADF file in D
     
     <item>
       <title>Image and Video Cheat Sheet</title>
-      <link>http://localhost:1313/post/image-video-cheatsheet/</link>
+      <link>https://georgelitos.com/post/image-video-cheatsheet/</link>
       <pubDate>Tue, 12 Mar 2024 02:40:22 +0300</pubDate>
-      <guid>http://localhost:1313/post/image-video-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/image-video-cheatsheet/</guid>
       <description>
 
 
@@ -1588,9 +1592,9 @@ To remove the black background from an image, use the following command:&lt;/p&g
     
     <item>
       <title>SSH Cheatsheet</title>
-      <link>http://localhost:1313/post/ssh-cheatsheet/</link>
+      <link>https://georgelitos.com/post/ssh-cheatsheet/</link>
       <pubDate>Mon, 12 Feb 2024 09:03:02 +0300</pubDate>
-      <guid>http://localhost:1313/post/ssh-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/ssh-cheatsheet/</guid>
       <description>&lt;p&gt;SSH, or Secure Shell, is a fundamental tool for securely connecting to and managing remote servers. Whether you&amp;rsquo;re a seasoned system administrator or just starting to explore the command line, having a solid grasp of SSH commands is essential. This cheatsheet provides a quick reference for the most commonly used SSH operations.&lt;/p&gt;
 &lt;h2 id=&#34;connecting-to-a-server&#34;&gt;Connecting to a Server&lt;/h2&gt;
 &lt;p&gt;The basic syntax for connecting to a server with SSH is:&lt;/p&gt;
@@ -1708,9 +1712,9 @@ To remove the black background from an image, use the following command:&lt;/p&g
     
     <item>
       <title>Console snippets</title>
-      <link>http://localhost:1313/post/console-snippets/</link>
+      <link>https://georgelitos.com/post/console-snippets/</link>
       <pubDate>Mon, 29 Jan 2024 18:30:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/console-snippets/</guid>
+      <guid>https://georgelitos.com/post/console-snippets/</guid>
       <description>
 
 
@@ -1858,7 +1862,7 @@ Here are some generic snippets to get you started:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find . -mindepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -maxdepth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -type d -exec git  --git-dir&lt;span class=&#34;o&#34;&gt;={}&lt;/span&gt;/.git --work-tree&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$PWD&lt;/span&gt;/&lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; pull &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;miscellaneous-tips&#34;&gt;Miscellaneous tips&lt;/h2&gt;
 &lt;p&gt;For the best terminal filemanager check the post:&lt;br&gt;
-&lt;a href=&#34;http://localhost:1313/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://georgelitos.com/post/mc/&#34;&gt;MC: a commander like no other&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Use &lt;code&gt;Ctrl + R&lt;/code&gt; to search through your command history&lt;/p&gt;
 &lt;p&gt;Use &lt;code&gt;Ctrl + C&lt;/code&gt; to cancel a running command&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;tmux&lt;/code&gt; and &lt;code&gt;htop&lt;/code&gt; are great tools for managing terminal sessions and monitoring system resources&lt;/p&gt;
@@ -1868,9 +1872,9 @@ Here are some generic snippets to get you started:&lt;/p&gt;
     
     <item>
       <title>SQL Cheat Sheet</title>
-      <link>http://localhost:1313/post/sql-cheatsheet/</link>
+      <link>https://georgelitos.com/post/sql-cheatsheet/</link>
       <pubDate>Thu, 16 Nov 2023 19:23:33 +0300</pubDate>
-      <guid>http://localhost:1313/post/sql-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/sql-cheatsheet/</guid>
       <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/SQL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SQL&lt;/a&gt; stands for Structured Query Language. It&amp;rsquo;s a powerful and widely-used language specifically designed for managing data stored in relational databases.&lt;/p&gt;
 &lt;p&gt;There are several situations where using SQL directly might be preferable to using an Object-Relational Mapping tool &lt;a href=&#34;https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(ORM)&lt;/a&gt;&lt;/p&gt;
@@ -2048,9 +2052,9 @@ SQLite does not store table size information in system tables, but you can estim
     
     <item>
       <title>Learn JavaScript</title>
-      <link>http://localhost:1313/teaching/js/</link>
+      <link>https://georgelitos.com/teaching/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/js/</guid>
+      <guid>https://georgelitos.com/teaching/js/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -2093,7 +2097,7 @@ SQLite does not store table size information in system tables, but you can estim
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;https://georgelitos.com/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -2170,9 +2174,9 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>http://localhost:1313/teaching/python/</link>
+      <link>https://georgelitos.com/teaching/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/python/</guid>
+      <guid>https://georgelitos.com/teaching/python/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -2215,7 +2219,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;https://georgelitos.com/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -2292,9 +2296,9 @@ data.head()
     
     <item>
       <title>Git Cheatsheet</title>
-      <link>http://localhost:1313/post/git-cheatsheet/</link>
+      <link>https://georgelitos.com/post/git-cheatsheet/</link>
       <pubDate>Tue, 10 Oct 2023 10:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/git-cheatsheet/</guid>
+      <guid>https://georgelitos.com/post/git-cheatsheet/</guid>
       <description>
 
 
@@ -2713,15 +2717,15 @@ data.head()
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;http://localhost:1313/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link to my presentation/talk about &lt;a href=&#34;https://georgelitos.com/talk/git/&#34;&gt;Git &amp;hellip;not just version control &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The correct way to benchmark your web server</title>
-      <link>http://localhost:1313/post/benchmark-webserver/</link>
+      <link>https://georgelitos.com/post/benchmark-webserver/</link>
       <pubDate>Sun, 10 Sep 2023 18:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/benchmark-webserver/</guid>
+      <guid>https://georgelitos.com/post/benchmark-webserver/</guid>
       <description>&lt;p&gt;Keeping your web server running smoothly is crucial for a positive user experience. But how do you know it can handle the traffic you expect? Benchmarking is the answer! It allows you to simulate real-world load and measure your server&amp;rsquo;s performance. This post will guide you through using &lt;code&gt;wrk&lt;/code&gt;, a powerful tool for benchmarking your web server.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;wrk&lt;/code&gt; is a fast, user-friendly HTTP benchmarking tool. It&amp;rsquo;s lightweight and easy to install. Once you have wrk set up, you can start crafting your benchmark test. &lt;code&gt;wrk&lt;/code&gt; offers various options to configure your test precisely. You can define the number of threads to simulate concurrent users, the number of connections per thread, and the test duration. &lt;code&gt;wrk&lt;/code&gt; also allows you to specify headers to be sent with each request, mimicking real user behavior.&lt;/p&gt;
 &lt;p&gt;Running a &lt;code&gt;wrk&lt;/code&gt; test is straightforward. You provide the URL you want to benchmark along with the desired configuration options. Wrks then bombards your server with simulated traffic, measuring critical metrics like request latency, throughput, and overall system health. After the test concludes, &lt;code&gt;wrk&lt;/code&gt; presents a detailed report. This report showcases valuable data points like average request time, request rate, and connection errors. Analyzing this data helps you identify bottlenecks and areas for improvement in your web server&amp;rsquo;s performance.&lt;/p&gt;
@@ -2795,9 +2799,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>React &#43; Next.js with Docker</title>
-      <link>http://localhost:1313/post/reactjsnext/</link>
+      <link>https://georgelitos.com/post/reactjsnext/</link>
       <pubDate>Thu, 10 Aug 2023 22:22:22 +0300</pubDate>
-      <guid>http://localhost:1313/post/reactjsnext/</guid>
+      <guid>https://georgelitos.com/post/reactjsnext/</guid>
       <description>&lt;p&gt;Following my previous post on &lt;a href=&#34;https://georgelitos.com/post/vuejsnuxt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vuejs + Nuxt.js with Docker&lt;/a&gt;, I will show you how to dockerize a React + Next.js web application.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://reactjs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;React&lt;/a&gt; is a JavaScript library for building user interfaces. &lt;a href=&#34;https://nextjs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Next.js&lt;/a&gt; is a framework for building React applications.
 &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; is a containerization platform that can be used to package and deploy these applications.&lt;/p&gt;
@@ -2825,9 +2829,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>Vue.js &#43; Nuxt with Docker</title>
-      <link>http://localhost:1313/post/vuejsnuxt/</link>
+      <link>https://georgelitos.com/post/vuejsnuxt/</link>
       <pubDate>Fri, 04 Aug 2023 16:27:10 +0300</pubDate>
-      <guid>http://localhost:1313/post/vuejsnuxt/</guid>
+      <guid>https://georgelitos.com/post/vuejsnuxt/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://vuejs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vue.js&lt;/a&gt; and &lt;a href=&#34;https://nuxt.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nuxt&lt;/a&gt; are powerful frameworks for building web applications. &lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; is a containerization platform that can be used to package and deploy these applications.&lt;/p&gt;
 &lt;p&gt;To dockerize a Nuxt application, a Dockerfile is created that specifies the steps required to build the image. This typically includes installing Nuxt and the application&amp;rsquo;s dependencies.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-dockerfile&#34; data-lang=&#34;dockerfile&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;s&#34;&gt; node:20-alpine&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
@@ -2904,9 +2908,9 @@ the amount of load that can be generated.&lt;/p&gt;
     
     <item>
       <title>MC: a commander like no other</title>
-      <link>http://localhost:1313/post/mc/</link>
+      <link>https://georgelitos.com/post/mc/</link>
       <pubDate>Mon, 05 Jun 2023 09:18:07 +0300</pubDate>
-      <guid>http://localhost:1313/post/mc/</guid>
+      <guid>https://georgelitos.com/post/mc/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;In the world of command-line interfaces, &lt;a href=&#34;https://www.midnight-commander.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GNU Midnight Commander (MC)&lt;/a&gt; stands out as a powerful and versatile file manager that brings efficiency and convenience to text-based terminal emulators (console, xterm etc.). With its dual-pane interface and a range of features, MC simplifies file and directory operations, making it a beloved tool for both beginners and experienced users. As stated on it&amp;rsquo;s &lt;a href=&#34;https://github.com/MidnightCommander/mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub page&lt;/a&gt;, GNU Midnight Commander was conceived as a free clone of John Socha&amp;rsquo;s Norton Commander™. It also takes the best from more recent software with similar interfaces. Many years ago, we used file-managers like these, as &amp;ldquo;Norton Commander&amp;rdquo; in DOS, or the legendary &lt;a href=&#34;https://web.archive.org/web/20120327225906/http://kazong.privat.t-online.de/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DiskMaster2 in AmigaDOS&lt;/a&gt;, which is still alive in &lt;a href=&#34;https://aminet.net/package/util/dir/DiskMaster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aminet&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;dual-pane-interface-for-seamless-file-management&#34;&gt;Dual-Pane Interface for Seamless File Management&lt;/h2&gt;
@@ -2982,9 +2986,9 @@ The features include:&lt;/p&gt;
     
     <item>
       <title>Scrcpy: Display and control your Android device</title>
-      <link>http://localhost:1313/post/scrcpy/</link>
+      <link>https://georgelitos.com/post/scrcpy/</link>
       <pubDate>Fri, 14 Apr 2023 16:10:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/scrcpy/</guid>
+      <guid>https://georgelitos.com/post/scrcpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;scrcpy&lt;/code&gt; is an open-source tool developed by Genymobile, you can visit the &lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official GitHub&lt;/a&gt; and learn more.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Word from the author:&lt;/strong&gt;
 This application mirrors Android devices (video and audio) connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer. It does not require any root access. It works on Linux, Windows and macOS.&lt;/p&gt;
@@ -3033,7 +3037,7 @@ This application mirrors Android devices (video and audio) connected via USB or 
                /post/scrcpy/image1_hu_d66b0ffd360aba34.webp 400w,
                /post/scrcpy/image1_hu_76e6ef16731cf17a.webp 760w,
                /post/scrcpy/image1_hu_84bcb1e9a840e002.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/scrcpy/image1_hu_d66b0ffd360aba34.webp&#34;
+               src=&#34;https://georgelitos.com/post/scrcpy/image1_hu_d66b0ffd360aba34.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3045,9 +3049,9 @@ This application mirrors Android devices (video and audio) connected via USB or 
     
     <item>
       <title>Package Managers - not the evil kind of PMs</title>
-      <link>http://localhost:1313/post/pkgman/</link>
+      <link>https://georgelitos.com/post/pkgman/</link>
       <pubDate>Tue, 21 Mar 2023 21:27:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/pkgman/</guid>
+      <guid>https://georgelitos.com/post/pkgman/</guid>
       <description>
 
 
@@ -3107,7 +3111,7 @@ And thank you for making our coding lives bright!&lt;/p&gt;&lt;/blockquote&gt;
                /post/pkgman/scoop_hu_cb4361b63396390.webp 400w,
                /post/pkgman/scoop_hu_f12f9cb7fab7e1b7.webp 760w,
                /post/pkgman/scoop_hu_5b98ad82382843dd.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/scoop_hu_cb4361b63396390.webp&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/scoop_hu_cb4361b63396390.webp&#34;
                width=&#34;760&#34;
                height=&#34;315&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3156,7 +3160,7 @@ Scoop is a command-line installer for Windows that allows users to easily instal
                /post/pkgman/homebrew_hu_5d74178367052408.webp 400w,
                /post/pkgman/homebrew_hu_d6b544c03d7e8511.webp 760w,
                /post/pkgman/homebrew_hu_526f24278b27f896.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/homebrew_hu_5d74178367052408.webp&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/homebrew_hu_5d74178367052408.webp&#34;
                width=&#34;760&#34;
                height=&#34;611&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3197,7 +3201,7 @@ That the apps are already hand-picked and that they are fully categorized! You c
                /post/pkgman/pmpc_hu_394a150b25053eda.webp 400w,
                /post/pkgman/pmpc_hu_595a3e1335288e58.webp 760w,
                /post/pkgman/pmpc_hu_13d9013f87b9b2dd.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/pkgman/pmpc_hu_394a150b25053eda.webp&#34;
+               src=&#34;https://georgelitos.com/post/pkgman/pmpc_hu_394a150b25053eda.webp&#34;
                width=&#34;760&#34;
                height=&#34;446&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3225,9 +3229,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Buku: a powerful bookmark manager</title>
-      <link>http://localhost:1313/post/buku/</link>
+      <link>https://georgelitos.com/post/buku/</link>
       <pubDate>Sat, 18 Mar 2023 20:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/buku/</guid>
+      <guid>https://georgelitos.com/post/buku/</guid>
       <description>&lt;p&gt;Are you tired of losing track of your bookmarks across multiple browsers? Look no further than Buku, the powerful bookmark manager that imports bookmarks from all your browsers, works on console and has a web-based server.&lt;/p&gt;
 &lt;p&gt;With Buku, you can easily organize your bookmarks into categories and tags, making it easy to find exactly what you need. Plus, Buku&amp;rsquo;s powerful search feature allows you to quickly locate any bookmark in your collection.&lt;/p&gt;
 &lt;p&gt;One of the most unique features of Buku is its powerful console interface:&lt;/p&gt;
@@ -3256,7 +3260,7 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
                /post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp 400w,
                /post/buku/screenshot-buku_hu_3fe16ee851a5e5d0.webp 760w,
                /post/buku/screenshot-buku_hu_bef1171e20f4b4ec.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp&#34;
+               src=&#34;https://georgelitos.com/post/buku/screenshot-buku_hu_b8a88486f79ca78d.webp&#34;
                width=&#34;760&#34;
                height=&#34;515&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -3269,9 +3273,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>How to bypass Git Hooks</title>
-      <link>http://localhost:1313/post/git-bypass/</link>
+      <link>https://georgelitos.com/post/git-bypass/</link>
       <pubDate>Wed, 08 Mar 2023 12:42:52 +0200</pubDate>
-      <guid>http://localhost:1313/post/git-bypass/</guid>
+      <guid>https://georgelitos.com/post/git-bypass/</guid>
       <description>&lt;p&gt;&lt;code&gt;git push --no-verify&lt;/code&gt; is a command used to push your local changes to a remote repository without running pre-commit hooks or pre-push hooks. Pre-commit hooks and pre-push hooks are scripts that run before a commit or a push, and they are used to perform automated tests, code quality checks, or other actions that help ensure the quality and correctness of your code. You can use &lt;a href=&#34;https://github.com/typicode/husky&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;husky&lt;/a&gt; or &lt;a href=&#34;https://pre-commit.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pre-commit&lt;/a&gt; if you need extra features or just production ready tools.&lt;/p&gt;
 &lt;p&gt;Sometimes, you may need to bypass these hooks and push your changes without running them. For example, if you&amp;rsquo;re in a hurry and you need to push a critical bug fix, or if you&amp;rsquo;re working in a team with strict code review policies and you need to push a work-in-progress commit for collaboration purposes.&lt;/p&gt;
 &lt;p&gt;To use it simply add the &lt;code&gt;--no-verify&lt;/code&gt; flag to your git push command:&lt;/p&gt;
@@ -3279,15 +3283,15 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will push your changes to the remote repository without running the pre-commit or pre-push hooks.&lt;/p&gt;
 &lt;p&gt;However, it&amp;rsquo;s important to note that using &amp;ndash;no-verify should be done with caution, as it can potentially lead to lower code quality and a higher risk of introducing bugs or other issues into your codebase. Therefore, it&amp;rsquo;s recommended to only use &amp;ndash;no-verify when it&amp;rsquo;s absolutely necessary and always double-check your code before pushing it to a remote repository.&lt;/p&gt;
 &lt;p&gt;You can check the &lt;a href=&#34;https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-verify&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official Git Documentation.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;http://localhost:1313/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you want a refresher on general Git practices you can check &lt;a href=&#34;https://georgelitos.com/slides/git/&#34;&gt;my presentation.&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Breaking the Barrier</title>
-      <link>http://localhost:1313/post/barrier/</link>
+      <link>https://georgelitos.com/post/barrier/</link>
       <pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/barrier/</guid>
+      <guid>https://georgelitos.com/post/barrier/</guid>
       <description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;
 &lt;p&gt;
 
@@ -3327,9 +3331,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>Free your notes with Joplin</title>
-      <link>http://localhost:1313/post/joplin/</link>
+      <link>https://georgelitos.com/post/joplin/</link>
       <pubDate>Tue, 20 Dec 2022 20:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/joplin/</guid>
+      <guid>https://georgelitos.com/post/joplin/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://joplinapp.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joplin&lt;/a&gt; is an open-source note taking app that allows users to easily organize and store notes, to-do lists, and other information. It can be used on a variety of devices, including desktops, laptops, and mobile devices.&lt;/p&gt;
 &lt;p&gt;One of the main features of Joplin is its ability to synchronize notes across multiple devices. Joplin also supports the use of multiple storage options, including the local file system, Dropbox, OneDrive, and WebDAV and more. In my case I use the local file system and synchronize the notes with my Synology NAS via &amp;ldquo;Cloud Station Drive&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;The notes are in &lt;a href=&#34;https://www.markdownguide.org/tools/joplin/#joplin-markdown-support&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown format&lt;/a&gt;. Joplin is available as a &lt;strong&gt;💻 desktop&lt;/strong&gt;, &lt;strong&gt;📱 mobile&lt;/strong&gt; and &lt;strong&gt;🔡 terminal&lt;/strong&gt; application.&lt;/p&gt;
@@ -3342,9 +3346,9 @@ Very convenient since it scans all your (already) installed apps !&lt;/p&gt;
     
     <item>
       <title>The correct way to benchmark your network</title>
-      <link>http://localhost:1313/post/benchmark-network/</link>
+      <link>https://georgelitos.com/post/benchmark-network/</link>
       <pubDate>Sun, 14 Aug 2022 18:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/post/benchmark-network/</guid>
+      <guid>https://georgelitos.com/post/benchmark-network/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Ever tried to measure the network speed between two computers?&lt;/li&gt;
 &lt;li&gt;Do you want to know how fast your local network is?&lt;/li&gt;
@@ -3498,9 +3502,9 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
     
     <item>
       <title>Git ...not just version control</title>
-      <link>http://localhost:1313/talk/git/</link>
+      <link>https://georgelitos.com/talk/git/</link>
       <pubDate>Fri, 01 Jul 2022 03:33:00 +0300</pubDate>
-      <guid>http://localhost:1313/talk/git/</guid>
+      <guid>https://georgelitos.com/talk/git/</guid>
       <description>&lt;p&gt;Git is a powerful version control system that allows developers to track and store changes to their code. It also helps teams collaborate on projects efficiently. With Git, developers can keep track of changes made to their code, revert back to previous versions if needed, and even create branches for different versions of the same project. In this talk, we&amp;rsquo;ll take a look at how Git works and how it can be used to manage and track changes to your code.&lt;/p&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
@@ -3508,15 +3512,15 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
 &lt;/span&gt;
   &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation.&lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;You can also check the &lt;a href=&#34;http://localhost:1313/post/git-cheatsheet/&#34;&gt;Git Cheatsheet&lt;/a&gt; post.&lt;/p&gt;
+&lt;p&gt;You can also check the &lt;a href=&#34;https://georgelitos.com/post/git-cheatsheet/&#34;&gt;Git Cheatsheet&lt;/a&gt; post.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/git/</link>
+      <link>https://georgelitos.com/slides/git/</link>
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/git/</guid>
+      <guid>https://georgelitos.com/slides/git/</guid>
       <description>&lt;section&gt;
 &lt;h1 id=&#34;git&#34;&gt;Git&lt;/h1&gt;
 &lt;h2 id=&#34;not-just-version-control&#34;&gt;not just version control&lt;/h2&gt;
@@ -3539,7 +3543,7 @@ Network : 1000 baseT full duplex, 1500 MTU&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;git&#34;
-           src=&#34;http://localhost:1313/slides/git/org.gnome.gitg.svg&#34;
+           src=&#34;https://georgelitos.com/slides/git/org.gnome.gitg.svg&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
@@ -3556,14 +3560,14 @@ Since 2005, Junio Hamano has been the core maintainer.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;tech-talk&#34;&gt;Tech Talk&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4XpnKHJAok8&amp;amp;t=90s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linus Torvalds on git&lt;/a&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/linus.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/linus.png&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;Git is alive&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;december-12-2022&#34;&gt;December 12, 2022&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.blog/2022-12-12-highlights-from-git-2-39/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git is alive and actively developed&lt;/a&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/git239.webp&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/git239.webp&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Official site&lt;/a&gt;&lt;/p&gt;
@@ -3571,14 +3575,14 @@ Since 2005, Junio Hamano has been the core maintainer.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;SO Survey 2021&lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&#34;stack-overflow-developer-survey-2021&#34;&gt;Stack Overflow Developer Survey 2021&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://insights.stackoverflow.com/survey/2021#most-popular-technologies-tools-tech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Over 90% of respondents use Git, suggesting that it is a fundamental tool to being a developer.&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/so2021.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/so2021.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
 &lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;SO Survey 2022&lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&#34;stack-overflow-developer-survey-2022&#34;&gt;Stack Overflow Developer Survey 2022&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://survey.stackoverflow.co/2022/#section-version-control-version-control-systems&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;No other technology is as widely used as Git. Especially among Professional Developers.&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/so2022.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/so2022.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Q: What are the primary version control systems you use?&lt;/p&gt;
@@ -3746,13 +3750,13 @@ ommit message,HA-1 checksum.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;a-successful-git-branching-model&#34;&gt;A successful Git branching model&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://nvie.com/posts/a-successful-git-branching-model/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;By Vincent Driessen&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/git-model.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/git-model.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
 &lt;h2 id=&#34;gitflow-workflow&#34;&gt;Gitflow Workflow&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Atlassian Tutorial&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/branches.svg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/branches.svg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
@@ -3817,7 +3821,7 @@ ommit message,HA-1 checksum.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;in case of fire&#34;
-           src=&#34;http://localhost:1313/slides/git/in_case_of_fire.svg&#34;
+           src=&#34;https://georgelitos.com/slides/git/in_case_of_fire.svg&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
@@ -4001,9 +4005,9 @@ to another repository&lt;/dd&gt;
     
     <item>
       <title>Research Projects</title>
-      <link>http://localhost:1313/project/research_projects/</link>
+      <link>https://georgelitos.com/project/research_projects/</link>
       <pubDate>Tue, 04 Jun 2019 23:23:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/research_projects/</guid>
+      <guid>https://georgelitos.com/project/research_projects/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;AGRIBIT&lt;/strong&gt; - Artificial intelliGence applied to pRecision farmIng By the use of GNSS and Integrated
 Technologies (&lt;a href=&#34;https://cordis.europa.eu/project/id/101004259&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;H2020:101004259&lt;/a&gt;)&lt;/li&gt;
@@ -4044,9 +4048,9 @@ Project.&lt;/li&gt;
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/example/</link>
+      <link>https://georgelitos.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/example/</guid>
+      <guid>https://georgelitos.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -4117,9 +4121,9 @@ $$&lt;hr&gt;
     
     <item>
       <title>TooManyEyes: Super-recogniser directed identification of target individuals on CCTV</title>
-      <link>http://localhost:1313/publication/toomanyeyes/</link>
+      <link>https://georgelitos.com/publication/toomanyeyes/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/toomanyeyes/</guid>
+      <guid>https://georgelitos.com/publication/toomanyeyes/</guid>
       <description>&lt;p&gt;Date of Conference: 13-15 Dec. 2017&lt;/p&gt;
 &lt;p&gt;Conference Location: Madrid, Spain&lt;/p&gt;
 </description>
@@ -4127,65 +4131,65 @@ $$&lt;hr&gt;
     
     <item>
       <title>Typhon</title>
-      <link>http://localhost:1313/project/typhon/</link>
+      <link>https://georgelitos.com/project/typhon/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/typhon/</guid>
+      <guid>https://georgelitos.com/project/typhon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Investigating the Effects of Multiple Factors towards more Accurate 3D Object Retrieval</title>
-      <link>http://localhost:1313/publication/3d-object-retrieval/</link>
+      <link>https://georgelitos.com/publication/3d-object-retrieval/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/3d-object-retrieval/</guid>
+      <guid>https://georgelitos.com/publication/3d-object-retrieval/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SHREC’11 Track: Generic Shape Retrieval</title>
-      <link>http://localhost:1313/publication/shrec/</link>
+      <link>https://georgelitos.com/publication/shrec/</link>
       <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/shrec/</guid>
+      <guid>https://georgelitos.com/publication/shrec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Survey of Semantic Image and Video Annotation Tools</title>
-      <link>http://localhost:1313/publication/semantic-survey/</link>
+      <link>https://georgelitos.com/publication/semantic-survey/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/semantic-survey/</guid>
+      <guid>https://georgelitos.com/publication/semantic-survey/</guid>
       <description></description>
     </item>
     
     <item>
       <title>3D Model Retrieval using Accurate Pose Estimation and View-based Similarity</title>
-      <link>http://localhost:1313/publication/3d-model-retrieval/</link>
+      <link>https://georgelitos.com/publication/3d-model-retrieval/</link>
       <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/3d-model-retrieval/</guid>
+      <guid>https://georgelitos.com/publication/3d-model-retrieval/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Synchronous Image Acquisition based on Network Synchronization</title>
-      <link>http://localhost:1313/publication/network-synchronization/</link>
+      <link>https://georgelitos.com/publication/network-synchronization/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/network-synchronization/</guid>
+      <guid>https://georgelitos.com/publication/network-synchronization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>User Interface Environment and Image Communication in Mobile Tele-Echography</title>
-      <link>http://localhost:1313/publication/mobile-tele-echography/</link>
+      <link>https://georgelitos.com/publication/mobile-tele-echography/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/mobile-tele-echography/</guid>
+      <guid>https://georgelitos.com/publication/mobile-tele-echography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile Tele-echography: User Interface Design</title>
-      <link>http://localhost:1313/publication/tele-echography/</link>
+      <link>https://georgelitos.com/publication/tele-echography/</link>
       <pubDate>Mon, 07 Mar 2005 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/tele-echography/</guid>
+      <guid>https://georgelitos.com/publication/tele-echography/</guid>
       <description></description>
     </item>
     

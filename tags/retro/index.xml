@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Retro | George Litos</title>
-    <link>http://localhost:1313/tags/retro/</link>
-      <atom:link href="http://localhost:1313/tags/retro/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/retro/</link>
+      <atom:link href="https://georgelitos.com/tags/retro/index.xml" rel="self" type="application/rss+xml" />
     <description>Retro</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 17 Aug 2025 15:42:11 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Retro</title>
-      <link>http://localhost:1313/tags/retro/</link>
+      <link>https://georgelitos.com/tags/retro/</link>
     </image>
     
     <item>
       <title>From Floppy Swaps to Cross-Platform Power: My Journey to Lazarus FPC 🚀</title>
-      <link>http://localhost:1313/post/lazarus/</link>
+      <link>https://georgelitos.com/post/lazarus/</link>
       <pubDate>Sun, 17 Aug 2025 15:42:11 +0300</pubDate>
-      <guid>http://localhost:1313/post/lazarus/</guid>
+      <guid>https://georgelitos.com/post/lazarus/</guid>
       <description>&lt;p&gt;Hey everyone! Today, I want to share a bit about my programming journey and introduce you to a fantastic, often overlooked tool that&amp;rsquo;s been a consistent companion through the years: &lt;a href=&#34;https://www.lazarus-ide.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lazarus Free Pascal&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My story in (real) coding began, like many in the late 80s and early 90s, with the legendary &lt;strong&gt;Turbo C&lt;/strong&gt;.  I remember the thrill of typing out code in that stark blue text-mode editor, and the satisfaction of seeing my C programs compile. But there was a challenge, especially with my trusty one-floppy 8088 PC, an &lt;strong&gt;Olivetti Prodest PC 1&lt;/strong&gt;. Compiling anything beyond the simplest applications meant a constant dance of swapping floppy disks – one for the compiler, another for the libraries, then back again. It was a tedious, but character-building, experience!
 
@@ -41,7 +41,7 @@
                /post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp 400w,
                /post/lazarus/pc1_hu_580e1c8485abe4e7.webp 760w,
                /post/lazarus/pc1_hu_5feaa3ebb2305ae1.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp&#34;
                width=&#34;591&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -70,7 +70,7 @@
                /post/lazarus/tc2_hu_fd89aab6ce8b4268.webp 400w,
                /post/lazarus/tc2_hu_79084dfa30ead128.webp 760w,
                /post/lazarus/tc2_hu_51cc566bee39d2d6.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/lazarus/tc2_hu_fd89aab6ce8b4268.webp&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/tc2_hu_fd89aab6ce8b4268.webp&#34;
                width=&#34;648&#34;
                height=&#34;408&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -98,7 +98,7 @@
                /post/lazarus/tp55_hu_fdae864f924b992d.webp 400w,
                /post/lazarus/tp55_hu_7314a757ba8dc1c3.webp 760w,
                /post/lazarus/tp55_hu_70d844661605fc49.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/lazarus/tp55_hu_fdae864f924b992d.webp&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/tp55_hu_fdae864f924b992d.webp&#34;
                width=&#34;760&#34;
                height=&#34;470&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -128,7 +128,7 @@
                /post/lazarus/delphi7_hu_d9a1f8397a3a105.webp 400w,
                /post/lazarus/delphi7_hu_2267375b731544ec.webp 760w,
                /post/lazarus/delphi7_hu_c10732caa21425e0.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/lazarus/delphi7_hu_d9a1f8397a3a105.webp&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/delphi7_hu_d9a1f8397a3a105.webp&#34;
                width=&#34;640&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -160,7 +160,7 @@
                /post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp 400w,
                /post/lazarus/lazarus_hu_5d46c97a4c994a61.webp 760w,
                /post/lazarus/lazarus_hu_68167d342356072a.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp&#34;
                width=&#34;760&#34;
                height=&#34;527&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

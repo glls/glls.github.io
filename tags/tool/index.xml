@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tool | George Litos</title>
-    <link>http://localhost:1313/tags/tool/</link>
-      <atom:link href="http://localhost:1313/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/tool/</link>
+      <atom:link href="https://georgelitos.com/tags/tool/index.xml" rel="self" type="application/rss+xml" />
     <description>Tool</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Sep 2025 20:30:00 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Tool</title>
-      <link>http://localhost:1313/tags/tool/</link>
+      <link>https://georgelitos.com/tags/tool/</link>
     </image>
     
     <item>
       <title>LittleOllama</title>
-      <link>http://localhost:1313/project/littleollama/</link>
+      <link>https://georgelitos.com/project/littleollama/</link>
       <pubDate>Wed, 03 Sep 2025 20:30:00 +0300</pubDate>
-      <guid>http://localhost:1313/project/littleollama/</guid>
+      <guid>https://georgelitos.com/project/littleollama/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Typhon</title>
-      <link>http://localhost:1313/project/typhon/</link>
+      <link>https://georgelitos.com/project/typhon/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/typhon/</guid>
+      <guid>https://georgelitos.com/project/typhon/</guid>
       <description></description>
     </item>
     

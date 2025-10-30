@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides | George Litos</title>
-    <link>http://localhost:1313/slides/</link>
-      <atom:link href="http://localhost:1313/slides/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/slides/</link>
+      <atom:link href="https://georgelitos.com/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Sep 2025 17:23:00 +0000</lastBuildDate>
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/slides/docker/</link>
+      <link>https://georgelitos.com/slides/docker/</link>
       <pubDate>Fri, 05 Sep 2025 17:23:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/docker/</guid>
+      <guid>https://georgelitos.com/slides/docker/</guid>
       <description>&lt;section&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/docker/logo.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/docker/logo.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;docker-a-deep-dive&#34;&gt;&amp;ldquo;Docker: A Deep Dive&amp;rdquo;&lt;/h2&gt;
@@ -26,9 +26,9 @@
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/git/</link>
+      <link>https://georgelitos.com/slides/git/</link>
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/git/</guid>
+      <guid>https://georgelitos.com/slides/git/</guid>
       <description>&lt;section&gt;
 &lt;h1 id=&#34;git&#34;&gt;Git&lt;/h1&gt;
 &lt;h2 id=&#34;not-just-version-control&#34;&gt;not just version control&lt;/h2&gt;
@@ -51,7 +51,7 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;git&#34;
-           src=&#34;http://localhost:1313/slides/git/org.gnome.gitg.svg&#34;
+           src=&#34;https://georgelitos.com/slides/git/org.gnome.gitg.svg&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
@@ -68,14 +68,14 @@ Since 2005, Junio Hamano has been the core maintainer.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;tech-talk&#34;&gt;Tech Talk&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4XpnKHJAok8&amp;amp;t=90s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linus Torvalds on git&lt;/a&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/linus.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/linus.png&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;Git is alive&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;december-12-2022&#34;&gt;December 12, 2022&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.blog/2022-12-12-highlights-from-git-2-39/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git is alive and actively developed&lt;/a&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/git239.webp&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/git239.webp&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git Official site&lt;/a&gt;&lt;/p&gt;
@@ -83,14 +83,14 @@ Since 2005, Junio Hamano has been the core maintainer.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;SO Survey 2021&lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&#34;stack-overflow-developer-survey-2021&#34;&gt;Stack Overflow Developer Survey 2021&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://insights.stackoverflow.com/survey/2021#most-popular-technologies-tools-tech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Over 90% of respondents use Git, suggesting that it is a fundamental tool to being a developer.&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/so2021.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/so2021.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
 &lt;p&gt;&lt;span class=&#34;menu-title&#34; style=&#34;display: none&#34;&gt;SO Survey 2022&lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&#34;stack-overflow-developer-survey-2022&#34;&gt;Stack Overflow Developer Survey 2022&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://survey.stackoverflow.co/2022/#section-version-control-version-control-systems&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;No other technology is as widely used as Git. Especially among Professional Developers.&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/so2022.png&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/so2022.png&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Q: What are the primary version control systems you use?&lt;/p&gt;
@@ -258,13 +258,13 @@ ommit message,HA-1 checksum.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;a-successful-git-branching-model&#34;&gt;A successful Git branching model&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://nvie.com/posts/a-successful-git-branching-model/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;By Vincent Driessen&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/git-model.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/git-model.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
 &lt;h2 id=&#34;gitflow-workflow&#34;&gt;Gitflow Workflow&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Atlassian Tutorial&lt;/a&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/slides/git/branches.svg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://georgelitos.com/slides/git/branches.svg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
@@ -329,7 +329,7 @@ ommit message,HA-1 checksum.&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;in case of fire&#34;
-           src=&#34;http://localhost:1313/slides/git/in_case_of_fire.svg&#34;
+           src=&#34;https://georgelitos.com/slides/git/in_case_of_fire.svg&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
@@ -513,9 +513,9 @@ to another repository&lt;/dd&gt;
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/example/</link>
+      <link>https://georgelitos.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/example/</guid>
+      <guid>https://georgelitos.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Containers | George Litos</title>
-    <link>http://localhost:1313/tags/containers/</link>
-      <atom:link href="http://localhost:1313/tags/containers/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/containers/</link>
+      <atom:link href="https://georgelitos.com/tags/containers/index.xml" rel="self" type="application/rss+xml" />
     <description>Containers</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 23:33:00 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Containers</title>
-      <link>http://localhost:1313/tags/containers/</link>
+      <link>https://georgelitos.com/tags/containers/</link>
     </image>
     
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/talk/docker/</link>
+      <link>https://georgelitos.com/talk/docker/</link>
       <pubDate>Mon, 01 Sep 2025 23:33:00 +0300</pubDate>
-      <guid>http://localhost:1313/talk/docker/</guid>
+      <guid>https://georgelitos.com/talk/docker/</guid>
       <description>&lt;h2 id=&#34;what-is-docker&#34;&gt;What is Docker?&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; is a containerization platform that packages applications and their dependencies into lightweight, portable containers. Think of a container as a standardized shipping box for software - it includes everything needed to run an application: code, runtime, system tools, libraries, and settings.&lt;/p&gt;
 &lt;h2 id=&#34;how-docker-works&#34;&gt;How Docker Works&lt;/h2&gt;
@@ -35,7 +35,7 @@
 &lt;/span&gt;
   &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation.&lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;You can also check more &lt;a href=&#34;http://localhost:1313/tags/docker/&#34;&gt;Docker related posts&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can also check more &lt;a href=&#34;https://georgelitos.com/tags/docker/&#34;&gt;Docker related posts&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

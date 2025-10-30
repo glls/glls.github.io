@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flutter | George Litos</title>
-    <link>http://localhost:1313/tags/flutter/</link>
-      <atom:link href="http://localhost:1313/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://georgelitos.com/tags/flutter/</link>
+      <atom:link href="https://georgelitos.com/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     <description>Flutter</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Sep 2025 20:30:00 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Flutter</title>
-      <link>http://localhost:1313/tags/flutter/</link>
+      <link>https://georgelitos.com/tags/flutter/</link>
     </image>
     
     <item>
       <title>LittleOllama</title>
-      <link>http://localhost:1313/project/littleollama/</link>
+      <link>https://georgelitos.com/project/littleollama/</link>
       <pubDate>Wed, 03 Sep 2025 20:30:00 +0300</pubDate>
-      <guid>http://localhost:1313/project/littleollama/</guid>
+      <guid>https://georgelitos.com/project/littleollama/</guid>
       <description></description>
     </item>
     
