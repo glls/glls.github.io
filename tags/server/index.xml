@@ -7,7 +7,7 @@
     <description>Server</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 17 Aug 2025 14:49:36 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu2521745571622303128.png</url>
       <title>Server</title>
       <link>https://georgelitos.com/tags/server/</link>
     </image>
@@ -130,7 +130,8 @@ building a new HTTP request, and use of response() will necessarily reduce
 the amount of load that can be generated.&lt;/p&gt;
 &lt;h2 id=&#34;showtime-&#34;&gt;Showtime 🚀&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Write a program that can serve a list of 100 albums with a REST like interface (JSON) and measure the performance with wrk&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Write a program that can serve a list of 100 albums with a REST like interface (JSON) and measure the performance with wrk&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Here&amp;rsquo;s the project in GitHub with full source code and implementations in more than 8 languages: &lt;a href=&#34;https://github.com/glls/web-service-albums-benchmark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;web-service-albums-benchmark&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;And the results:&lt;/p&gt;
 &lt;p&gt;

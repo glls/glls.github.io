@@ -7,7 +7,7 @@
     <description>Sql</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Nov 2023 19:23:33 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu2521745571622303128.png</url>
       <title>Sql</title>
       <link>https://georgelitos.com/tags/sql/</link>
     </image>
@@ -131,7 +131,8 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;snippets&#34;&gt;Snippets&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The following queries use &lt;code&gt;information_schema&lt;/code&gt;, which is specific to MySQL and MariaDB. Other databases like PostgreSQL and SQLite use different system tables and commands for similar tasks.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The following queries use &lt;code&gt;information_schema&lt;/code&gt;, which is specific to MySQL and MariaDB. Other databases like PostgreSQL and SQLite use different system tables and commands for similar tasks.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;MySQL/MariaDB:&lt;/strong&gt;
 To generate statements to convert tables in a database schema to the character set &lt;code&gt;utf8mb4&lt;/code&gt; with the collation &lt;code&gt;utf8mb4_unicode_ci&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;CONCAT&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ALTER TABLE &amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;table_name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39; CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;AS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;alter_statement&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;

@@ -7,7 +7,7 @@
     <description>Development</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 17 Aug 2025 15:42:11 +0300</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>https://georgelitos.com/media/icon_hu2521745571622303128.png</url>
       <title>Development</title>
       <link>https://georgelitos.com/tags/development/</link>
     </image>
@@ -38,10 +38,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Olivetti Prodest PC 1&#34; srcset=&#34;
-               /post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp 400w,
-               /post/lazarus/pc1_hu_580e1c8485abe4e7.webp 760w,
-               /post/lazarus/pc1_hu_5feaa3ebb2305ae1.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/lazarus/pc1_hu_4c1efd8cc3fa6443.webp&#34;
+               /post/lazarus/pc1_hu11764090802448049405.webp 400w,
+               /post/lazarus/pc1_hu3696262505001932248.webp 760w,
+               /post/lazarus/pc1_hu1403859980325740637.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/pc1_hu11764090802448049405.webp&#34;
                width=&#34;591&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -67,10 +67,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Turbo C 2.01&#34; srcset=&#34;
-               /post/lazarus/tc2_hu_fd89aab6ce8b4268.webp 400w,
-               /post/lazarus/tc2_hu_79084dfa30ead128.webp 760w,
-               /post/lazarus/tc2_hu_51cc566bee39d2d6.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/lazarus/tc2_hu_fd89aab6ce8b4268.webp&#34;
+               /post/lazarus/tc2_hu14622920009598660965.webp 400w,
+               /post/lazarus/tc2_hu351423963817122609.webp 760w,
+               /post/lazarus/tc2_hu2410905822901628451.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/tc2_hu14622920009598660965.webp&#34;
                width=&#34;648&#34;
                height=&#34;408&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -95,10 +95,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Turbo Pascal 5.5&#34; srcset=&#34;
-               /post/lazarus/tp55_hu_fdae864f924b992d.webp 400w,
-               /post/lazarus/tp55_hu_7314a757ba8dc1c3.webp 760w,
-               /post/lazarus/tp55_hu_70d844661605fc49.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/lazarus/tp55_hu_fdae864f924b992d.webp&#34;
+               /post/lazarus/tp55_hu13898005153346465075.webp 400w,
+               /post/lazarus/tp55_hu17906235747772557713.webp 760w,
+               /post/lazarus/tp55_hu11350982287511050751.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/tp55_hu13898005153346465075.webp&#34;
                width=&#34;760&#34;
                height=&#34;470&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -125,10 +125,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Borland Delphi 7.0&#34; srcset=&#34;
-               /post/lazarus/delphi7_hu_d9a1f8397a3a105.webp 400w,
-               /post/lazarus/delphi7_hu_2267375b731544ec.webp 760w,
-               /post/lazarus/delphi7_hu_c10732caa21425e0.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/lazarus/delphi7_hu_d9a1f8397a3a105.webp&#34;
+               /post/lazarus/delphi7_hu2529085486285400586.webp 400w,
+               /post/lazarus/delphi7_hu742431603603460023.webp 760w,
+               /post/lazarus/delphi7_hu1071158276878895360.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/delphi7_hu2529085486285400586.webp&#34;
                width=&#34;640&#34;
                height=&#34;480&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -157,10 +157,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Lazarus IDE&#34; srcset=&#34;
-               /post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp 400w,
-               /post/lazarus/lazarus_hu_5d46c97a4c994a61.webp 760w,
-               /post/lazarus/lazarus_hu_68167d342356072a.webp 1200w&#34;
-               src=&#34;https://georgelitos.com/post/lazarus/lazarus_hu_1713c2f796d7ecbc.webp&#34;
+               /post/lazarus/lazarus_hu10501048989018066619.webp 400w,
+               /post/lazarus/lazarus_hu2401313964074519953.webp 760w,
+               /post/lazarus/lazarus_hu8691031007896754319.webp 1200w&#34;
+               src=&#34;https://georgelitos.com/post/lazarus/lazarus_hu10501048989018066619.webp&#34;
                width=&#34;760&#34;
                height=&#34;527&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
