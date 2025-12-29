@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Containers | George Litos</title>
+    <link>https://georgelitos.com/tags/containers/</link>
+      <atom:link href="https://georgelitos.com/tags/containers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Containers</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 23:33:00 +0300</lastBuildDate>
+    <image>
+      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
+      <title>Containers</title>
+      <link>https://georgelitos.com/tags/containers/</link>
+    </image>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://georgelitos.com/talk/docker/</link>
+      <pubDate>Mon, 01 Sep 2025 23:33:00 +0300</pubDate>
+      <guid>https://georgelitos.com/talk/docker/</guid>
+      <description>&lt;h2 id=&#34;what-is-docker&#34;&gt;What is Docker?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.docker.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker&lt;/a&gt; is a containerization platform that packages applications and their dependencies into lightweight, portable containers. Think of a container as a standardized shipping box for software - it includes everything needed to run an application: code, runtime, system tools, libraries, and settings.&lt;/p&gt;
+&lt;h2 id=&#34;how-docker-works&#34;&gt;How Docker Works&lt;/h2&gt;
+&lt;p&gt;Docker uses OS-level virtualization to create isolated environments that share the host operating system&amp;rsquo;s kernel. Unlike traditional virtual machines that require a full guest OS, containers are much more efficient because they only include the application layer. &lt;em&gt;Do yourself a favor and run docker on Linux.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;key-benefits-for-developers&#34;&gt;Key Benefits for Developers&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Environment Consistency&lt;/strong&gt;: &amp;ldquo;It works on my machine&amp;rdquo; becomes a thing of the past. Docker ensures your application runs identically across development, testing, and production environments. If it works in a Docker container locally, it will work the same way everywhere.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Simplified Setup&lt;/strong&gt;: New team members can get a complex application running with just a few Docker commands instead of spending hours installing dependencies and configuring environments. This dramatically reduces onboarding time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Isolation&lt;/strong&gt;: Applications run in separate containers, preventing conflicts between different projects that might require different versions of the same dependency. You can run multiple versions of Node.js, Python, or databases simultaneously without interference.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scalability&lt;/strong&gt;: Containers can be easily replicated and distributed across multiple servers. Container orchestration platforms like Kubernetes make it simple to scale applications up or down based on demand.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resource Efficiency&lt;/strong&gt;: Containers use fewer resources than virtual machines since they share the host OS kernel. You can run more applications on the same hardware.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Version Control for Infrastructure&lt;/strong&gt;: Dockerfiles serve as code that describes your application&amp;rsquo;s environment, making infrastructure reproducible and version-controllable alongside your application code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Microservices Architecture&lt;/strong&gt;: Docker makes it practical to break applications into smaller, independent services that can be developed, deployed, and scaled separately.&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the presentation.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;You can also check more &lt;a href=&#34;https://georgelitos.com/tags/docker/&#34;&gt;Docker related posts&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
