@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Application Software | George Litos</title>
-    <link>https://georgelitos.com/tags/application-software/</link>
-      <atom:link href="https://georgelitos.com/tags/application-software/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/application-software/</link>
+      <atom:link href="http://localhost:1313/tags/application-software/index.xml" rel="self" type="application/rss+xml" />
     <description>Application Software</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2006 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://georgelitos.com/media/icon_hu_fb37dc6c584384a9.png</url>
+      <url>http://localhost:1313/media/icon_hu_fb37dc6c584384a9.png</url>
       <title>Application Software</title>
-      <link>https://georgelitos.com/tags/application-software/</link>
+      <link>http://localhost:1313/tags/application-software/</link>
     </image>
     
     <item>
       <title>Synchronous Image Acquisition based on Network Synchronization</title>
-      <link>https://georgelitos.com/publication/network-synchronization/</link>
+      <link>http://localhost:1313/publication/network-synchronization/</link>
       <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
-      <guid>https://georgelitos.com/publication/network-synchronization/</guid>
+      <guid>http://localhost:1313/publication/network-synchronization/</guid>
       <description></description>
     </item>
     
