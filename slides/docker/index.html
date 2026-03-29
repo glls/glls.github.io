@@ -1,115 +1,20 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Docker | George Litos</title><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/league.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/dracula.min.css><style>.reveal{font-size:32px}.reveal .slides img{max-width:100%;max-height:60vh}.reveal .slides figure{display:inline-block}.reveal .slides pre{background:#282a36;border-radius:.3em;font-size:.5em}.reveal .slides pre code{background:#282a36;padding:1em}.reveal .slides table{font-size:.7em}</style></head><body><div class=reveal><div class=slides id=slides-container></div></div><script src=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.min.js></script><script src=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.min.js></script><script src=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.min.js></script><script src=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/math/math.min.js></script><script>const rawHTML=`<section>
 
-  
-  
-  
-  
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Hugo Blox Builder 0.3.2">
 
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu_c27282699091eaa8.png">
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_45cf1c34ec98d0c0.png">
-
-  <link rel="canonical" href="https://georgelitos.com/slides/docker/">
-
-  <title>Docker | George Litos</title>
-
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/league.min.css">
-
-  
-  
-  
-  
-    
-    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css">
-  
-
-  
-  
-  
-</head>
-<body>
-
-  
-<div class="reveal">
-  <div class="slides">
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-
-    
-    
-    
-    <section>
-    
-      <section>
 <figure><img src="/slides/docker/logo.png">
 </figure>
 
-<h2 id="docker-a-deep-dive">&ldquo;Docker: A Deep Dive&rdquo;</h2>
+
+
+<h2 class="relative group">&ldquo;Docker: A Deep Dive&rdquo;
+    <div id="docker-a-deep-dive" class="anchor"></div>
+    
+</h2>
 <p>Building, Shipping, and Running Applications</p>
 <p>George Litos @5/9/2025 v1.0.0</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <p>An introduction to Docker</p>
 </section>
-
-    </section>
-    
-
-    
-    
-  </div>
-</div>
-
-
-
-  
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
-
-  
-  
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
-  
-
-  
-  
-
-  
-  
-  <script src="/js/wowchemy-slides.js"></script>
-
-</body>
-</html>
+`,parser=new DOMParser,doc=parser.parseFromString(rawHTML,"text/html"),container=document.getElementById("slides-container"),body=doc.body;body.querySelectorAll(".highlight").forEach(e=>{const t=e.querySelector("code");if(t){const i=t.textContent,s=Array.from(t.classList).find(e=>e.startsWith("language-"))||(t.getAttribute("data-lang")?"language-"+t.getAttribute("data-lang"):""),o=document.createElement("pre"),n=document.createElement("code");s&&(n.className=s),n.textContent=i,o.appendChild(n),e.replaceWith(o)}});const topLevelNodes=Array.from(body.childNodes);let currentSlide=[];function flushSlide(){if(currentSlide.length===0)return;const s=currentSlide.map(e=>e.nodeType===Node.ELEMENT_NODE?e.outerHTML:e.nodeType===Node.TEXT_NODE?e.textContent:"").join(""),t=s.trim();if(!t)return;const e=document.createElement("div");if(e.innerHTML=t,e.children.length===1&&e.children[0].tagName==="SECTION"){const o=e.children[0],s=document.createElement("section");let t=[];function n(){if(t.length===0)return;const e=t.join("").trim();if(!e)return;const n=document.createElement("section");n.innerHTML=e,s.appendChild(n),t=[]}Array.from(o.childNodes).forEach(e=>{e.nodeType===Node.ELEMENT_NODE&&e.tagName==="HR"?n():e.nodeType===Node.ELEMENT_NODE?t.push(e.outerHTML):e.nodeType===Node.TEXT_NODE&&e.textContent.trim()&&t.push(e.textContent)}),n(),container.appendChild(s)}else{const e=document.createElement("section");e.innerHTML=t,container.appendChild(e)}currentSlide=[]}topLevelNodes.forEach(e=>{e.nodeType===Node.ELEMENT_NODE&&e.tagName==="HR"?flushSlide():currentSlide.push(e)}),flushSlide(),Reveal.initialize({hash:!0,controls:!0,slideNumber:!0,plugins:[RevealHighlight,RevealNotes,RevealMath.KaTeX]})</script></body></html>

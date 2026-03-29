@@ -1,196 +1,105 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Slides | George Litos</title><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/league.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/dracula.min.css><style>.reveal{font-size:32px}.reveal .slides img{max-width:100%;max-height:60vh}.reveal .slides figure{display:inline-block}.reveal .slides pre{background:#282a36;border-radius:.3em;font-size:.5em}.reveal .slides pre code{background:#282a36;padding:1em}.reveal .slides table{font-size:.7em}</style></head><body><div class=reveal><div class=slides id=slides-container></div></div><script src=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.min.js></script><script src=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.min.js></script><script src=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.min.js></script><script src=https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/math/math.min.js></script><script>const rawHTML=`<section>
 
-  
-  
-  
-  
+<h2 class="relative group">Git &hellip;not just version control.
+    <div id="git-not-just-version-control" class="anchor"></div>
+    
+</h2>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Hugo Blox Builder 0.3.2">
 
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu_c27282699091eaa8.png">
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_45cf1c34ec98d0c0.png">
+<figure><img src="/slides/git/org.gnome.gitg.svg"
+    alt="git">
+</figure>
 
-  <link rel="canonical" href="https://georgelitos.com/slides/git/">
 
-  <title>Slides | George Litos</title>
+<p>v2.1 by <a href="https://georgelitos.com"  target="_blank" rel="noreferrer">George Litos</a> 12/2022</p>
+<hr>
 
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/league.min.css">
-
-  
-  
-  
-  
+<h2 class="relative group">a bit of history
+    <div id="a-bit-of-history" class="anchor"></div>
     
-    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css">
-  
-
-  
-  
-  
-</head>
-<body>
-
-  
-<div class="reveal">
-  <div class="slides">
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-
-    
-    
-    
-    <section>
-    
-      <section>
-<h1 id="git">Git</h1>
-<h2 id="not-just-version-control">not just version control</h2>
-<p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="flex justify-center	">
-    <div class="w-100" ><img alt="git"
-           src="/slides/git/org.gnome.gitg.svg"
-           loading="lazy" data-zoomable /></div>
-  </div></figure>
-</p>
-<p>v2.1 by <a href="https://georgelitos.com" target="_blank" rel="noopener">George Litos</a> 12/2022</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="a-bit-of-history">a bit of history</h2>
-<p>Git was originally authored by <a href="https://en.wikipedia.org/wiki/Linus_Torvalds" title="Linus Torvalds" target="_blank" rel="noopener">Linus Torvalds</a> in 2005 for development of the <a href="https://en.wikipedia.org/wiki/Linux_kernel" title="Linux kernel" target="_blank" rel="noopener">Linux kernel</a>, with other kernel developers contributing to its initial development.
+</h2>
+<p>Git was originally authored by <a href="https://en.wikipedia.org/wiki/Linus_Torvalds" title="Linus Torvalds" target="_blank" rel="noreferrer">Linus Torvalds</a> in 2005 for development of the <a href="https://en.wikipedia.org/wiki/Linux_kernel" title="Linux kernel" target="_blank" rel="noreferrer">Linux kernel</a>, with other kernel developers contributing to its initial development.
 Since 2005, Junio Hamano has been the core maintainer.</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <p><span class="menu-title" style="display: none">a bit of history cont&rsquo;d</span></p>
-<p>As with most other <a href="https://en.wikipedia.org/wiki/Distributed_version_control" title="Distributed version control" target="_blank" rel="noopener">distributed version control</a> systems, and unlike most client–server systems, every Git <a href="https://en.wikipedia.org/wiki/Directory_%28computing%29" title="Directory (computing)" target="_blank" rel="noopener">directory</a> on every <a href="https://en.wikipedia.org/wiki/Node_%28networking%29" title="Node (networking)" target="_blank" rel="noopener">computer</a> is a full-fledged <a href="https://en.wikipedia.org/wiki/Repository_%28version_control%29" title="Repository (version control)" target="_blank" rel="noopener">repository</a> with complete history and full version-tracking abilities, independent of network access or a central server.</p>
-<p>Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" title="Free and open-source software" target="_blank" rel="noopener">free and open-source software</a> distributed under the <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" title="GNU General Public License" target="_blank" rel="noopener">GPL-2.0-only</a> license.</p>
+<p>As with most other <a href="https://en.wikipedia.org/wiki/Distributed_version_control" title="Distributed version control" target="_blank" rel="noreferrer">distributed version control</a> systems, and unlike most client–server systems, every Git <a href="https://en.wikipedia.org/wiki/Directory_%28computing%29" title="Directory (computing)" target="_blank" rel="noreferrer">directory</a> on every <a href="https://en.wikipedia.org/wiki/Node_%28networking%29" title="Node (networking)" target="_blank" rel="noreferrer">computer</a> is a full-fledged <a href="https://en.wikipedia.org/wiki/Repository_%28version_control%29" title="Repository (version control)" target="_blank" rel="noreferrer">repository</a> with complete history and full version-tracking abilities, independent of network access or a central server.</p>
+<p>Git is <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" title="Free and open-source software" target="_blank" rel="noreferrer">free and open-source software</a> distributed under the <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" title="GNU General Public License" target="_blank" rel="noreferrer">GPL-2.0-only</a> license.</p>
 </p>
+<hr>
 
-    </section>
+<h2 class="relative group">Tech Talk
+    <div id="tech-talk" class="anchor"></div>
     
+</h2>
+<p><a href="https://www.youtube.com/watch?v=4XpnKHJAok8&amp;t=90s"  target="_blank" rel="noreferrer">Linus Torvalds on git</a>
 
-    
-    
-    
-    <section>
-    
-      
-<h2 id="tech-talk">Tech Talk</h2>
-<p><a href="https://www.youtube.com/watch?v=4XpnKHJAok8&amp;t=90s" target="_blank" rel="noopener">Linus Torvalds on git</a>
+
+  
+
 <figure><img src="/slides/git/linus.png">
 </figure>
+
 </p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <p><span class="menu-title" style="display: none">Git is alive</span></p>
-<h2 id="december-12-2022">December 12, 2022</h2>
-<p><a href="https://github.blog/2022-12-12-highlights-from-git-2-39/" target="_blank" rel="noopener">Git is alive and actively developed</a>
+
+<h2 class="relative group">December 12, 2022
+    <div id="december-12-2022" class="anchor"></div>
+    
+</h2>
+<p><a href="https://github.blog/2022-12-12-highlights-from-git-2-39/"  target="_blank" rel="noreferrer">Git is alive and actively developed</a>
+
+
+  
+
 <figure><img src="/slides/git/git239.webp" width="50%" height="50%">
 </figure>
+
 </p>
-<p><a href="https://git-scm.com/" target="_blank" rel="noopener">Git Official site</a></p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<p><a href="https://git-scm.com/"  target="_blank" rel="noreferrer">Git Official site</a></p>
+<hr>
 <p><span class="menu-title" style="display: none">SO Survey 2021</span></p>
-<h3 id="stack-overflow-developer-survey-2021">Stack Overflow Developer Survey 2021</h3>
-<p><a href="https://insights.stackoverflow.com/survey/2021#most-popular-technologies-tools-tech" target="_blank" rel="noopener">Over 90% of respondents use Git, suggesting that it is a fundamental tool to being a developer.</a></p>
+
+<h3 class="relative group">Stack Overflow Developer Survey 2021
+    <div id="stack-overflow-developer-survey-2021" class="anchor"></div>
+    
+</h3>
+<p><a href="https://insights.stackoverflow.com/survey/2021#most-popular-technologies-tools-tech"  target="_blank" rel="noreferrer">Over 90% of respondents use Git, suggesting that it is a fundamental tool to being a developer.</a></p>
+
+
+  
+
 <figure><img src="/slides/git/so2021.png">
 </figure>
 
 
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <p><span class="menu-title" style="display: none">SO Survey 2022</span></p>
-<h3 id="stack-overflow-developer-survey-2022">Stack Overflow Developer Survey 2022</h3>
-<p><a href="https://survey.stackoverflow.co/2022/#section-version-control-version-control-systems" target="_blank" rel="noopener">No other technology is as widely used as Git. Especially among Professional Developers.</a></p>
+
+<h3 class="relative group">Stack Overflow Developer Survey 2022
+    <div id="stack-overflow-developer-survey-2022" class="anchor"></div>
+    
+</h3>
+<p><a href="https://survey.stackoverflow.co/2022/#section-version-control-version-control-systems"  target="_blank" rel="noreferrer">No other technology is as widely used as Git. Especially among Professional Developers.</a></p>
+
+
+  
+
 <figure><img src="/slides/git/so2022.png">
 </figure>
 
+
 <p>Q: What are the primary version control systems you use?</p>
 </section>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <section>
-<h1 id="glossary">Glossary</h1>
+
+<h1 class="relative group">Glossary
+    <div id="glossary" class="anchor"></div>
+    
+</h1>
 <table>
   <thead>
       <tr>
@@ -209,16 +118,7 @@ Since 2005, Junio Hamano has been the core maintainer.</p>
       </tr>
   </tbody>
 </table>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <table>
   <thead>
       <tr>
@@ -245,16 +145,7 @@ Since 2005, Junio Hamano has been the core maintainer.</p>
       </tr>
   </tbody>
 </table>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <dl>
 <dt><strong>Tracked files</strong></dt>
 <dd>Tracked files are the files in the working directory (repository) that Git manages.</dd>
@@ -264,16 +155,7 @@ Since 2005, Junio Hamano has been the core maintainer.</p>
 <dt><em>The Staging Area</em>*</dt>
 <dd>The intermediary between the working directory and the project history.</dd>
 </dl>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <dl>
 <dt><strong>Commit</strong></dt>
 <dd>Commit is the process of adding any changes in tracked files. Git will keep track of all the changes in the <strong>Committed History</strong>.</dd>
@@ -283,16 +165,7 @@ Since 2005, Junio Hamano has been the core maintainer.</p>
 <dt><em>Commit message</em>*</dt>
 <dd>The commit message is a summary and description of a commit action.</dd>
 </dl>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <dl>
 <dt><strong>Branches</strong> (develop, feature, master)</dt>
 <dd>A branch is a set of the repo tracked files. Git allows you to compare and merge branches. It can also be used to organize collaboration inside the repo, fix specific bugs, or create new features.</dd>
@@ -302,16 +175,7 @@ Since 2005, Junio Hamano has been the core maintainer.</p>
 <dt><em>Merge</em>*</dt>
 <dd>Copy code changes from one branch to another.</dd>
 </dl>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <p><em>(not really git)</em></p>
 <dl>
 <dt><strong>Fork</strong></dt>
@@ -323,81 +187,59 @@ Since 2005, Junio Hamano has been the core maintainer.</p>
 <dd>A PR is a request to the repository owner to merge your changes back into the original code base.</dd>
 </dl>
 </section>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <section>
-<h1 id="git-init">git init</h1>
-<p>Install <a href="https://git-scm.com/" target="_blank" rel="noopener">git</a>, then</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;John Smith&#34;</span>
+
+<h1 class="relative group">git init
+    <div id="git-init" class="anchor"></div>
+    
+</h1>
+<p>Install <a href="https://git-scm.com/"  target="_blank" rel="noreferrer">git</a>, then</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;John Smith&#34;</span>
 </span></span><span class="line"><span class="cl">git config --global user.email john@example.com
-</span></span><span class="line"><span class="cl">git config --global init.defaultBranch main
-</span></span></code></pre></div><p>Create a new folder for your project and add a file under version control</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">mkdir -p ~/projects/git-test
+</span></span><span class="line"><span class="cl">git config --global init.defaultBranch main</span></span></code></pre></div></div>
+<p>Create a new folder for your project and add a file under version control</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">mkdir -p ~/projects/git-test
 </span></span><span class="line"><span class="cl"><span class="nb">cd</span> ~/projects/git-test
 </span></span><span class="line"><span class="cl">git init
 </span></span><span class="line"><span class="cl">nano new_file
-</span></span><span class="line"><span class="cl">git add .
-</span></span></code></pre></div>
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+</span></span><span class="line"><span class="cl">git add .</span></span></code></pre></div></div>
+<hr>
 <p>Commit the changes</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git commit -m <span class="s2">&#34;Initial commit&#34;</span>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git commit -m <span class="s2">&#34;Initial commit&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="go">[master (root-commit) 19632d1] Add new file
 </span></span></span><span class="line"><span class="cl"><span class="go"> 1 file changed, 1 insertion(+)
 </span></span></span><span class="line"><span class="cl"><span class="go"> create mode 100644 new-file
-</span></span></span></code></pre></div><p>every commit is unique, it contains:</p>
+</span></span></span></code></pre></div></div>
+<p>every commit is unique, it contains:</p>
 <p>snapshot of the project (a tree with a compressed blob for each file),
 ser information,ate,
 ommit message,HA-1 checksum.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git log
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git log
 </span></span><span class="line"><span class="cl"><span class="go">commit 81752cd6a514fd2595c40f27c783d6887f84e6e6
 </span></span></span><span class="line"><span class="cl"><span class="go">Author: John Smith &lt;john@example.com&gt;
 </span></span></span><span class="line"><span class="cl"><span class="go">Date:   Thu Apr 7 15:17:45 2022 +0000
-</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">    Initial commit
-</span></span></span></code></pre></div></section>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="go">    Initial commit
+</span></span></span></code></pre></div></div>
+</section>
+<hr>
 <section>
-<h1 id="dont-fear-the-git">don&rsquo;t fear the git!</h1>
-<h2 id="git-will-help-">Git will help 🥷</h2>
+
+<h1 class="relative group">don&rsquo;t fear the git!
+    <div id="dont-fear-the-git" class="anchor"></div>
+    
+</h1>
+
+<h2 class="relative group">Git will help 🥷
+    <div id="git-will-help-" class="anchor"></div>
+    
+</h2>
 <ul>
 <li>Cleanup your code base</li>
 <li>Backup your code</li>
 </ul>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <ul>
 <li>
 <p>Merge Requests</p>
@@ -420,231 +262,164 @@ ommit message,HA-1 checksum.</p>
 </li>
 </ul>
 </section>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <section>
-<h1 id="workflow">workflow</h1>
+
+<h1 class="relative group">workflow
+    <div id="workflow" class="anchor"></div>
+    
+</h1>
 <ul>
-<li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Gitflow Workflow</a></li>
-<li><a href="https://numpy.org/doc/stable/dev/development_workflow.html" target="_blank" rel="noopener">NumPy Development workflow</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow"  target="_blank" rel="noreferrer">Gitflow Workflow</a></li>
+<li><a href="https://numpy.org/doc/stable/dev/development_workflow.html"  target="_blank" rel="noreferrer">NumPy Development workflow</a></li>
 <li>Link to JIRA issue</li>
 <li>Merge requests to the main branch</li>
 </ul>
+<hr>
 
-    </section>
+<h2 class="relative group">A successful Git branching model
+    <div id="a-successful-git-branching-model" class="anchor"></div>
     
+</h2>
+<p><a href="https://nvie.com/posts/a-successful-git-branching-model/"  target="_blank" rel="noreferrer">By Vincent Driessen</a></p>
 
-    
-    
-    
-    <section>
-    
-      
-<h2 id="a-successful-git-branching-model">A successful Git branching model</h2>
-<p><a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank" rel="noopener">By Vincent Driessen</a></p>
-<figure><img src="/slides/git/git-model.png" width="50%" height="50%">
+
+  
+
+<figure><img src="/slides/git/git-model.png" width="66%">
 </figure>
 
 
-    </section>
-    
+<hr>
 
+<h2 class="relative group">Gitflow Workflow
+    <div id="gitflow-workflow" class="anchor"></div>
     
-    
-    
-    <section>
-    
-      
-<h2 id="gitflow-workflow">Gitflow Workflow</h2>
-<p><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Atlassian Tutorial</a></p>
-<figure><img src="/slides/git/branches.svg" width="50%" height="50%">
+</h2>
+<p><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow"  target="_blank" rel="noreferrer">Atlassian Tutorial</a></p>
+
+
+  
+
+<figure><img src="/slides/git/branches.svg" width="80%">
 </figure>
 
 
-    </section>
-    
+<hr>
 
+<h2 class="relative group">1. Start a project
+    <div id="1-start-a-project" class="anchor"></div>
     
-    
-    
-    <section>
-    
-      
-<h2 id="1-start-a-project">1. Start a project</h2>
+</h2>
 <ul>
 <li>Divide work in repositories</li>
 <li>Choose workflow (advanced git flow)</li>
 <li>Select which files to keep under version control</li>
 </ul>
+<hr>
 
-    </section>
+<h2 class="relative group">2. Work on a project
+    <div id="2-work-on-a-project" class="anchor"></div>
     
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="2-work-on-a-project">2. Work on a project</h2>
+</h2>
 <ul>
 <li>Working on a topic/feature/bugfix branch</li>
 <li>Splitting changes into logically separate steps</li>
 <li>Write a good commit message (e.g. present tense, short and meaningfull)</li>
 <li>Preparing changes for submission</li>
 </ul>
+<hr>
 
-    </section>
+<h2 class="relative group">3. Integrate
+    <div id="3-integrate" class="anchor"></div>
     
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="3-integrate">3. Integrate</h2>
+</h2>
 <ul>
 <li>Submitting and describing changes</li>
 <li>Merge request to the main branch</li>
 <li>Delete working branch</li>
 </ul>
 </section>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <section>
-<h1 id="team-goal-">TEAM GOAL 🥅</h1>
-<h2 id="pull-the-servers-plug">pull the servers&rsquo; plug</h2>
+
+<h1 class="relative group">TEAM GOAL 🥅
+    <div id="team-goal-" class="anchor"></div>
+    
+</h1>
+
+<h2 class="relative group">pull the servers&rsquo; plug
+    <div id="pull-the-servers-plug" class="anchor"></div>
+    
+</h2>
 <ul>
 <li>Rebuild and restart services anytime</li>
 <li>Do a server <code>reboot</code></li>
 <li>🔥 Change servers and redeploy</li>
 </ul>
+<hr>
 
-    </section>
+<h2 class="relative group">Rebuild 🏠
+    <div id="rebuild-" class="anchor"></div>
     
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="rebuild-">Rebuild 🏠</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">install docker
+</h2>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">install docker
 </span></span><span class="line"><span class="cl">git clone repo
 </span></span><span class="line"><span class="cl">cat README.md
-</span></span><span class="line"><span class="cl">  &gt; follow the instructions
-</span></span></code></pre></div><ul>
-<li>Use <a href="https://www.docker.com/" target="_blank" rel="noopener">Docker</a> for dev &amp; production</li>
-<li>Use <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" target="_blank" rel="noopener">GitHub Markdown</a> for writing</li>
+</span></span><span class="line"><span class="cl">  &gt;&gt; follow the instructions</span></span></code></pre></div></div>
+<ul>
+<li>Use <a href="https://www.docker.com/"  target="_blank" rel="noreferrer">Docker</a> for dev &amp; production</li>
+<li>Use <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax"  target="_blank" rel="noreferrer">GitHub Markdown</a> for writing</li>
 </ul>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<p>
+<hr>
 
 
+  
+
+<figure><img src="/slides/git/in_case_of_fire.svg"
+    alt="in case of fire" width="80%">
+</figure>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="flex justify-center	">
-    <div class="w-100" ><img alt="in case of fire"
-           src="/slides/git/in_case_of_fire.svg"
-           loading="lazy" data-zoomable /></div>
-  </div></figure>
-</p>
 </section>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <section>
-<h1 id="practice-and-use-everywhere">practice and use everywhere</h1>
+
+<h1 class="relative group">practice and use everywhere
+    <div id="practice-and-use-everywhere" class="anchor"></div>
+    
+</h1>
 <p>&hellip;.you don&rsquo;t need a server</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git init
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git init
 </span></span><span class="line"><span class="cl">git commit -a -m <span class="s1">&#39;Commit message&#39;</span>
 </span></span><span class="line"><span class="cl">git checkout -b new_branch
-</span></span><span class="line"><span class="cl">git status
-</span></span></code></pre></div>
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<p>When you don&rsquo;t know what to do type:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git status
+</span></span><span class="line"><span class="cl">git status</span></span></code></pre></div></div>
+<hr>
+<p>When you don&rsquo;t know what to do, type:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git status
 </span></span><span class="line"><span class="cl"><span class="go">On branch main
 </span></span></span><span class="line"><span class="cl"><span class="go">Your branch is up to date with &#39;origin/main&#39;.
-</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">Changes not staged for commit:
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="go">Changes not staged for commit:
 </span></span></span><span class="line"><span class="cl"><span class="go">  (use &#34;git add &lt;file&gt;...&#34; to update what will be committed)
 </span></span></span><span class="line"><span class="cl"><span class="go">  (use &#34;git restore &lt;file&gt;...&#34; to discard changes in working directory)
 </span></span></span><span class="line"><span class="cl"><span class="go">	modified:   docker-compose.yml
-</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">Untracked files:
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="go">Untracked files:
 </span></span></span><span class="line"><span class="cl"><span class="go">  (use &#34;git add &lt;file&gt;...&#34; to include in what will be committed)
 </span></span></span><span class="line"><span class="cl"><span class="go">	.idea/
 </span></span></span><span class="line"><span class="cl"><span class="go">	db_sink/
 </span></span></span><span class="line"><span class="cl"><span class="go">	file_records/
 </span></span></span><span class="line"><span class="cl"><span class="go">	record_transformer/
-</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
-</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">no changes added to commit (use &#34;git add&#34; and/or &#34;git commit -a&#34;)
-</span></span></span></code></pre></div>
-    </section>
-    
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="go">no changes added to commit (use &#34;git add&#34; and/or &#34;git commit -a&#34;)
+</span></span></span></code></pre></div></div>
+<hr>
 
+<h2 class="relative group">Git tips
+    <div id="git-tips" class="anchor"></div>
     
-    
-    
-    <section>
-    
-      
-<h2 id="git-tips">Git tips</h2>
+</h2>
 <ul>
 <li>Learn the command line basics</li>
 <li>&hellip;and then use a GUI</li>
@@ -654,31 +429,21 @@ ommit message,HA-1 checksum.</p>
 <li>Use the log/graph 😛</li>
 <li>Don&rsquo;t panic, recovery is (almost) always possible</li>
 </ul>
+<hr>
 
-    </section>
+<h2 class="relative group">Resolve merge conflicts with GUI
+    <div id="resolve-merge-conflicts-with-gui" class="anchor"></div>
     
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="resolve-merge-conflicts-with-gui">Resolve merge conflicts with GUI</h2>
+</h2>
 <p>(e.g. Jetbrains PhpStorm)</p>
 <img src="resolveConflict.png" />
+<hr>
 
-    </section>
+<h2 class="relative group">om-my-zsh aliases
+    <div id="om-my-zsh-aliases" class="anchor"></div>
     
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="om-my-zsh-aliases">om-my-zsh aliases</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">g=git
+</h2>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">g=git
 </span></span><span class="line"><span class="cl">ga=&#39;git add&#39;
 </span></span><span class="line"><span class="cl">gl=&#39;git pull&#39;
 </span></span><span class="line"><span class="cl">gp=&#39;git push&#39;
@@ -692,54 +457,35 @@ ommit message,HA-1 checksum.</p>
 </span></span><span class="line"><span class="cl">gsps=&#39;git show --pretty=short --show-signature&#39;
 </span></span><span class="line"><span class="cl">gst=&#39;git status&#39;
 </span></span><span class="line"><span class="cl">gstl=&#39;git stash list&#39;
-</span></span><span class="line"><span class="cl">gswd=&#39;git switch $(git_develop_branch)&#39;
-</span></span></code></pre></div>
-    </section>
-    
+</span></span><span class="line"><span class="cl">gswd=&#39;git switch $(git_develop_branch)&#39;</span></span></code></pre></div></div>
+<hr>
 
+<h2 class="relative group">Github tips
+    <div id="github-tips" class="anchor"></div>
     
-    
-    
-    <section>
-    
-      
-<h2 id="github-tips">Github tips</h2>
+</h2>
 <ul>
 <li>Check GitHub tools (desktop and cmdline clients)</li>
 <li>Search GitHub with powerfull filters (stars/topic/users/language)</li>
-<li>Check <a href="https://github.com/explore" target="_blank" rel="noopener">Github Explore</a></li>
+<li>Check <a href="https://github.com/explore"  target="_blank" rel="noreferrer">Github Explore</a></li>
 <li>Check project Issues</li>
 </ul>
 </section>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <section>
-<h1 id="advanced-git">Advanced git</h1>
+
+<h1 class="relative group">Advanced git
+    <div id="advanced-git" class="anchor"></div>
+    
+</h1>
 <dl>
 <dt>Cherry-pick</dt>
 <dd><code>git cherry-pick</code> lets you select a commit from a branch to apply it to another branch.</dd>
 <dt>Using tags</dt>
 <dd>Git has the option to tag a commit in the repository so that you find it easier or mark an app version on a commit.</dd>
 </dl>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git tag 1.0.0 -m &#39;Release 1.0.0&#39;
-</span></span></code></pre></div>
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">git tag 1.0.0 -m &#39;Release 1.0.0&#39;</span></span></code></pre></div></div>
+<hr>
 <dl>
 <dt>Stashing your changes</dt>
 <dd><code>git stash</code> allows you to save the current state of the local repository and restore it later.</dd>
@@ -748,71 +494,55 @@ ommit message,HA-1 checksum.</p>
 to another repository</dd>
 </dl>
 </section>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <section>
-<h1 id="best-practices">Best practices</h1>
+
+<h1 class="relative group">Best practices
+    <div id="best-practices" class="anchor"></div>
+    
+</h1>
 <ul>
 <li>Commit (local) often</li>
 <li>Push daily (at least EOD) 🕠</li>
-<li><a href="https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/" target="_blank" rel="noopener">Write better commit messages</a></li>
+<li><a href="https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/"  target="_blank" rel="noreferrer">Write better commit messages</a></li>
 </ul>
+<hr>
 
-    </section>
+<h1 class="relative group">&hellip;and worst
+    <div id="and-worst" class="anchor"></div>
     
-
-    
-    
-    
-    <section>
-    
-      
-<h1 id="and-worst">&hellip;and worst</h1>
+</h1>
 <ul>
 <li>Don&rsquo;t commit half-done work</li>
 <li>Don&rsquo;t change the published history</li>
 <li>Never rebase a branch that has been pushed to a public repository</li>
 </ul>
+<hr>
 
-    </section>
+<h2 class="relative group">Semantic Commit Messages
+    <div id="semantic-commit-messages" class="anchor"></div>
     
-
-    
-    
-    
-    <section>
-    
-      
-<h2 id="semantic-commit-messages">Semantic Commit Messages</h2>
+</h2>
 <p>See how a minor change to your commit message style can make you a better programmer.</p>
 <p>Format: <code>&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;</code></p>
 <p><code>&lt;scope&gt;</code> is optional</p>
-<h3 id="example">Example</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">feat: add hat wobble
+
+<h3 class="relative group">Example
+    <div id="example" class="anchor"></div>
+    
+</h3>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">feat: add hat wobble
 </span></span><span class="line"><span class="cl">^--^  ^------------^
 </span></span><span class="line"><span class="cl">|     |
 </span></span><span class="line"><span class="cl">|     +-&gt; Summary in present tense.
 </span></span><span class="line"><span class="cl">|
-</span></span><span class="line"><span class="cl">+-------&gt; Type: chore, docs, feat, fix, refactor, style, or test.
-</span></span></code></pre></div>
-    </section>
-    
+</span></span><span class="line"><span class="cl">+-------&gt; Type: chore, docs, feat, fix, refactor, style, or test.</span></span></code></pre></div></div>
+<hr>
 
+<h3 class="relative group">More Examples
+    <div id="more-examples" class="anchor"></div>
     
-    
-    
-    <section>
-    
-      
-<h3 id="more-examples">More Examples</h3>
+</h3>
 <ul>
 <li><code>feat</code>: (new feature for the user, not a new feature for build script)</li>
 <li><code>fix</code>: (bug fix for the user, not a fix to a build script)</li>
@@ -822,141 +552,77 @@ to another repository</dd>
 <li><code>test</code>: (adding missing tests, refactoring tests; no production code change)</li>
 <li><code>chore</code>: (updating grunt tasks etc; no production code change)</li>
 </ul>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <p>References:</p>
 <ul>
-<li><a href="https://www.conventionalcommits.org/" target="_blank" rel="noopener">https://www.conventionalcommits.org/</a></li>
-<li><a href="https://seesparkbox.com/foundry/semantic_commit_messages" target="_blank" rel="noopener">https://seesparkbox.com/foundry/semantic_commit_messages</a></li>
-<li><a href="http://karma-runner.github.io/1.0/dev/git-commit-msg.html" target="_blank" rel="noopener">http://karma-runner.github.io/1.0/dev/git-commit-msg.html</a></li>
+<li><a href="https://www.conventionalcommits.org/"  target="_blank" rel="noreferrer">https://www.conventionalcommits.org/</a></li>
+<li><a href="https://seesparkbox.com/foundry/semantic_commit_messages"  target="_blank" rel="noreferrer">https://seesparkbox.com/foundry/semantic_commit_messages</a></li>
+<li><a href="http://karma-runner.github.io/1.0/dev/git-commit-msg.html"  target="_blank" rel="noreferrer">http://karma-runner.github.io/1.0/dev/git-commit-msg.html</a></li>
 </ul>
 </section>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
+<hr>
 <section>
-<h1 id="books">Books</h1>
-<p><a href="https://git-scm.com/book" target="_blank" rel="noopener">Pro Git</a> by Scott Chacon and Ben Straub
+
+<h1 class="relative group">Books
+    <div id="books" class="anchor"></div>
+    
+</h1>
+<p><a href="https://git-scm.com/book"  target="_blank" rel="noreferrer">Pro Git</a> by Scott Chacon and Ben Straub
+
+
+  
+
 <figure><img src="https://git-scm.com/images/progit2.png" width="200">
 </figure>
+
 </p>
+<hr>
+<p><a href="https://www.syncfusion.com/succinctly-free-ebooks/git/overview"  target="_blank" rel="noreferrer">Git Succinctly</a> by Ryan Hodson
 
-    </section>
-    
+<figure>
+      <img class="my-0 rounded-md" src="https://cdn.syncfusion.com/content/images/downloads/ebook/ebook-cover/Git-Succinctly.jpg" alt="" />
+  
+  
+  </figure></p>
+<hr>
 
+<h1 class="relative group">Cheat Sheets
+    <div id="cheat-sheets" class="anchor"></div>
     
-    
-    
-    <section>
-    
-      
-<p><a href="https://www.syncfusion.com/succinctly-free-ebooks/git/overview" target="_blank" rel="noopener">Git Succinctly</a> by Ryan Hodson
-<figure><img src="https://cdn.syncfusion.com/content/images/downloads/ebook/ebook-cover/Git-Succinctly.jpg" width="200">
-</figure>
-</p>
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-<h1 id="cheat-sheets">Cheat Sheets</h1>
+</h1>
 <ul>
-<li><a href="https://education.github.com/git-cheat-sheet-education.pdf" target="_blank" rel="noopener">GitHub Education</a></li>
-<li><a href="https://www.git-tower.com/blog/git-cheat-sheet/" target="_blank" rel="noopener">Git Tower Git cheat sheet</a></li>
-<li><a href="https://cheat.sh/git" target="_blank" rel="noopener">cheat.sh/git</a></li>
+<li><a href="https://education.github.com/git-cheat-sheet-education.pdf"  target="_blank" rel="noreferrer">GitHub Education</a></li>
+<li><a href="https://www.git-tower.com/blog/git-cheat-sheet/"  target="_blank" rel="noreferrer">Git Tower Git cheat sheet</a></li>
+<li><a href="https://cheat.sh/git"  target="_blank" rel="noreferrer">cheat.sh/git</a></li>
 </ul>
+<hr>
 
-    </section>
+<h1 class="relative group">Tutorials
+    <div id="tutorials" class="anchor"></div>
     
-
-    
-    
-    
-    <section>
-    
-      
-<h1 id="tutorials">Tutorials</h1>
+</h1>
 <ul>
-<li><a href="https://rogerdudler.github.io/git-guide/" target="_blank" rel="noopener">git - the simple guide</a></li>
-<li><a href="https://docs.github.com/en/get-started/quickstart" target="_blank" rel="noopener">GitHub Quickstart</a></li>
-<li><a href="https://marklodato.github.io/visual-git-guide/index-en.html" target="_blank" rel="noopener">A Visual Git Reference</a></li>
+<li><a href="https://rogerdudler.github.io/git-guide/"  target="_blank" rel="noreferrer">git - the simple guide</a></li>
+<li><a href="https://docs.github.com/en/get-started/quickstart"  target="_blank" rel="noreferrer">GitHub Quickstart</a></li>
+<li><a href="https://marklodato.github.io/visual-git-guide/index-en.html"  target="_blank" rel="noreferrer">A Visual Git Reference</a></li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">man git
-</span></span><span class="line"><span class="cl">git <span class="nb">help</span> &lt;command&gt;
-</span></span></code></pre></div></section>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">man git
+</span></span><span class="line"><span class="cl">git <span class="nb">help</span> &lt;command&gt;</span></span></code></pre></div></div>
+</section>
+<hr>
 
-    </section>
+<h1 class="relative group">Advanced topics
+    <div id="advanced-topics" class="anchor"></div>
     
-
-    
-    
-    
-    <section>
-    
-      
-<h1 id="advanced-topics">Advanced topics</h1>
+</h1>
 <ul>
-<li><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line" target="_blank" rel="noopener">Resolving a merge conflict using the command line</a></li>
-<li><a href="https://cbea.ms/git-commit/" target="_blank" rel="noopener">How to Write a Git Commit Message</a></li>
-<li><a href="https://www.atlassian.com/git/tutorials/merging-vs-rebasing" target="_blank" rel="noopener">Merging vs. Rebasing</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Distributed-Git-Maintaining-a-Project" target="_blank" rel="noopener">Distributed Git - Maintaining a Project</a></li>
-<li><a href="https://coderwall.com/p/0c-ayq/howto-split-a-git-repository-into-two" target="_blank" rel="noopener">Howto split a git repository into two</a></li>
-<li><a href="https://matthew-brett.github.io/curious-git/curious_git.html" target="_blank" rel="noopener">Curious git</a></li>
-<li><a href="https://www.atlassian.com/git/tutorials/git-hooks" target="_blank" rel="noopener">Git Hooks</a></li>
-<li><a href="https://git-lfs.github.com/" target="_blank" rel="noopener">Git Large File Storage (LFS)</a></li>
+<li><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line"  target="_blank" rel="noreferrer">Resolving a merge conflict using the command line</a></li>
+<li><a href="https://cbea.ms/git-commit/"  target="_blank" rel="noreferrer">How to Write a Git Commit Message</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials/merging-vs-rebasing"  target="_blank" rel="noreferrer">Merging vs. Rebasing</a></li>
+<li><a href="https://git-scm.com/book/en/v2/Distributed-Git-Maintaining-a-Project"  target="_blank" rel="noreferrer">Distributed Git - Maintaining a Project</a></li>
+<li><a href="https://coderwall.com/p/0c-ayq/howto-split-a-git-repository-into-two"  target="_blank" rel="noreferrer">Howto split a git repository into two</a></li>
+<li><a href="https://matthew-brett.github.io/curious-git/curious_git.html"  target="_blank" rel="noreferrer">Curious git</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials/git-hooks"  target="_blank" rel="noreferrer">Git Hooks</a></li>
+<li><a href="https://git-lfs.github.com/"  target="_blank" rel="noreferrer">Git Large File Storage (LFS)</a></li>
 </ul>
-
-    </section>
-    
-
-    
-    
-  </div>
-</div>
-
-
-
-  
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/notes/notes.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/search/search.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/math/math.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/zoom/zoom.min.js" crossorigin="anonymous"></script>
-
-  
-  
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js" integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js" integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css" integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin="anonymous">
-  
-
-  
-  
-
-  
-  
-  <script src="/js/wowchemy-slides.js"></script>
-
-</body>
-</html>
+`,parser=new DOMParser,doc=parser.parseFromString(rawHTML,"text/html"),container=document.getElementById("slides-container"),body=doc.body;body.querySelectorAll(".highlight").forEach(e=>{const t=e.querySelector("code");if(t){const i=t.textContent,s=Array.from(t.classList).find(e=>e.startsWith("language-"))||(t.getAttribute("data-lang")?"language-"+t.getAttribute("data-lang"):""),o=document.createElement("pre"),n=document.createElement("code");s&&(n.className=s),n.textContent=i,o.appendChild(n),e.replaceWith(o)}});const topLevelNodes=Array.from(body.childNodes);let currentSlide=[];function flushSlide(){if(currentSlide.length===0)return;const s=currentSlide.map(e=>e.nodeType===Node.ELEMENT_NODE?e.outerHTML:e.nodeType===Node.TEXT_NODE?e.textContent:"").join(""),t=s.trim();if(!t)return;const e=document.createElement("div");if(e.innerHTML=t,e.children.length===1&&e.children[0].tagName==="SECTION"){const o=e.children[0],s=document.createElement("section");let t=[];function n(){if(t.length===0)return;const e=t.join("").trim();if(!e)return;const n=document.createElement("section");n.innerHTML=e,s.appendChild(n),t=[]}Array.from(o.childNodes).forEach(e=>{e.nodeType===Node.ELEMENT_NODE&&e.tagName==="HR"?n():e.nodeType===Node.ELEMENT_NODE?t.push(e.outerHTML):e.nodeType===Node.TEXT_NODE&&e.textContent.trim()&&t.push(e.textContent)}),n(),container.appendChild(s)}else{const e=document.createElement("section");e.innerHTML=t,container.appendChild(e)}currentSlide=[]}topLevelNodes.forEach(e=>{e.nodeType===Node.ELEMENT_NODE&&e.tagName==="HR"?flushSlide():currentSlide.push(e)}),flushSlide(),Reveal.initialize({hash:!0,controls:!0,slideNumber:!0,plugins:[RevealHighlight,RevealNotes,RevealMath.KaTeX]})</script></body></html>
