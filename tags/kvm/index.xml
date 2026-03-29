@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KVM on George Litos</title><link>https://georgelitos.com/tags/kvm/</link><description>Recent content in KVM on George Litos</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&amp;copy; 2026 George Litos - Opinions are my own - [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright><lastBuildDate>Fri, 20 Jan 2023 19:00:00 +0300</lastBuildDate><atom:link href="https://georgelitos.com/tags/kvm/index.xml" rel="self" type="application/rss+xml"/><item><title>Breaking the Barrier</title><link>https://georgelitos.com/posts/barrier/</link><pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate><guid>https://georgelitos.com/posts/barrier/</guid><description>&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://georgelitos.com/posts/barrier/feature.png"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KVM on George Litos</title><link>https://georgelitos.com/tags/kvm/</link><description>Recent content in KVM on George Litos</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&amp;copy; 2026 George Litos - Opinions are my own - [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright><lastBuildDate>Fri, 20 Jan 2023 19:00:00 +0300</lastBuildDate><atom:link href="https://georgelitos.com/tags/kvm/index.xml" rel="self" type="application/rss+xml"/><item><title>Breaking the Barrier</title><link>https://georgelitos.com/posts/barrier/</link><pubDate>Fri, 20 Jan 2023 19:00:00 +0300</pubDate><guid>https://georgelitos.com/posts/barrier/</guid><description>&lt;div
+ 
+ class="flex px-4 py-3 rounded-md shadow bg-primary-100 dark:bg-primary-900"
+ 
+ &gt;
+ &lt;span
+ 
+ class="text-primary-400 pe-3 flex items-center"
+ 
+ &gt;
+ &lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+ &lt;/span&gt;
+
+ &lt;span
+ 
+ class="dark:text-neutral-300"
+ 
+ &gt;&lt;strong&gt;Breaking news!&lt;/strong&gt; Barrier is abondoned and no longer maintained. The last release was in 2022. I&amp;rsquo;m back to &lt;a href="https://symless.com/synergy" target="_blank" rel="noreferrer"&gt;Synergy 3&lt;/a&gt;, which works as expected now, tested on a multiarch configuration with macos/windows/RPi.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Barrier is an open-source KVM (Keyboard, Video, Mouse) software that allows users to share their keyboard and mouse across multiple computers. This allows users to move their cursor and type on one computer while the keyboard and mouse inputs are sent to another computer.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://georgelitos.com/posts/barrier/feature.png"/></item></channel></rss>
